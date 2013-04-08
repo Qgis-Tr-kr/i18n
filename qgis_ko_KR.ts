@@ -20902,7 +20902,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="215"/>
         <source>Show all labels and features for all layers</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 레이어의 모든 라벨과 피처를 보여줌</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="235"/>
