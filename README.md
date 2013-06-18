@@ -8,3 +8,4 @@ https://docs.google.com/spreadsheet/ccc?key=0AlqbDNTel8EcdFVUUjZ0eVphdzBxakR0bmZ
 https://docs.google.com/a/gaia3d.com/spreadsheet/ccc?key=0AqTwec6320vHdDM1WHltMnA1Mm5PaVpmU1owNUU0OVE#gid=0
 
 *작업방법 문서
+https://docs.google.com/file/d/0B6Twec6320vHUXMwT3l0WEtHOWc/edit?usp=sharing
