@@ -67592,11 +67592,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="19"/>
         <source>Assign new value to column as result of operation on columns only if the result of query is TRUE</source>
-<<<<<<< HEAD
         <translation>쿼리 결과가 참인 경우에만 연산 결과를 속성 테이블의 컬럼의 새 값으로 할당합니다</translation>
-=======
-        <translation>질의 결과가 참인 경우에만 인산 결과를 속성 테이블의 컬럼의 새 값으로 할당합니다.</translation>
->>>>>>> b553306c8faefaed7929244817dd9867f161b67f
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="20"/>
@@ -67796,11 +67792,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="59"/>
         <source>Change the type of bridges connecting area and island or 2 islands from boundary to line</source>
-<<<<<<< HEAD
-        <translation>영역과 하나 이상의 아일랜드 사이의 브리지 유형을 바운더리에서 라인으로 변경합니다</translation>
-=======
         <translation>영역과 하나 이상의 아이슬랜드 사이의 브리지 유형을 바운더리에서 선으로 변경합니다.</translation>
->>>>>>> b553306c8faefaed7929244817dd9867f161b67f
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="60"/>
