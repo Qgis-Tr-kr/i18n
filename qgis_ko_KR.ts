@@ -6,7 +6,7 @@
     <message>
         <location filename="../python/console/console_compile_apis.ui" line="32"/>
         <source>Generating prepared API file (please wait)...</source>
-        <translation type="unfinished"></translation>
+        <translation>준비된 API 파일 받기(시간 걸림)...</translation>
     </message>
 </context>
 <context>
@@ -18,30 +18,31 @@
     <message>
         <location filename="../src/gui/symbology-ng/characterwidget.cpp" line="124"/>
         <source>&lt;p&gt;Character: &lt;span style=&quot;font-size: 24pt; font-family: %1&quot;&gt;%2&lt;/span&gt;&lt;p&gt;Value: 0x%3</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;문자: &lt;span style=&quot;font-size: 24pt; font-family: %1&quot;&gt;%2&lt;/span&gt;&lt;p&gt;값: 0x%3</translation>
     </message>
 </context>
 <context>
     <name>ConfigDialog</name>
     <message>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>검색...</translation>
     </message>
     <message>
         <source>Wrong value</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 값</translation>
     </message>
     <message>
         <source>Wrong parameter value:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 인자 값:
+%1</translation>
     </message>
 </context>
 <context>
     <name>ConnectionItem</name>
     <message>
         <source>Unable to connect</source>
-        <translation type="unfinished"></translation>
+        <translation>연결 불가</translation>
     </message>
 </context>
 <context>
@@ -66,7 +67,7 @@
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="116"/>
         <source>Click to select the CRS to use for coordinate display</source>
-        <translation>클릭하여 좌표 표시 위한 CRS를 선택</translation>
+        <translation>클릭하여 좌표 표시 위한 좌표계를 선택</translation>
     </message>
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="124"/>
@@ -80,7 +81,7 @@
     </message>
     <message>
         <source>Coordinate in your selected CRS</source>
-        <translation type="obsolete">선택한 CRS상의 좌표</translation>
+        <translation type="obsolete">선택한 좌표계상의 좌표</translation>
     </message>
     <message>
         <source>Coordinate in map canvas coordinate reference system</source>
@@ -2096,11 +2097,11 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Output layer will be projected from it&apos;s current CRS to the output CRS.</source>
-        <translation type="obsolete">출력 레이어는 현재 CRS에서 출력 CRS로 투영 됩니다.</translation>
+        <translation type="obsolete">출력 레이어는 현재 좌표계에서 출력 좌표계로 투영 됩니다.</translation>
     </message>
     <message>
         <source>No Valid CRS selected</source>
-        <translation>유효한 CRS가 선택되지 않았음</translation>
+        <translation>유효한 좌표계가 선택되지 않았음</translation>
     </message>
     <message>
         <source>Output spatial reference system is not valid</source>
@@ -2216,12 +2217,12 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>CRS warning!</source>
-        <translation>CRS 경고!</translation>
+        <translation>좌표계 경고!</translation>
     </message>
     <message>
         <source>Warning: Input layers have non-matching CRS.
 This may cause unexpected results.</source>
-        <translation>경고: 입력 레이어에 해당하는 좌표계이 없습니다.
+        <translation>경고: 입력 레이어에 해당하는 좌표계가 없습니다.
 이것은 예상치 않은 결과를 발생시킬수 있습니다.</translation>
     </message>
     <message>
@@ -2303,7 +2304,7 @@ Following field names are longer than 10 characters:
     </message>
     <message>
         <source>Layer CRS information will be updated to the selected CRS.</source>
-        <translation>레이어 CRS 정보가 선택된 CRS로 업데이트됩니다.</translation>
+        <translation>레이어 좌표계 정보가 선택된 좌표계로 업데이트됩니다.</translation>
     </message>
     <message>
         <source>Created output shapefiles in folder:
@@ -2474,7 +2475,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Missing or invalid CRS</source>
-        <translation>없거나 잘못된 CRS 임</translation>
+        <translation>없거나 잘못된 좌표계 임</translation>
     </message>
     <message>
         <source>Count Points In Polygon</source>
@@ -4377,7 +4378,7 @@ Disable the &quot;Use intersected extent&quot; option to have a nonempty output.
     </message>
     <message>
         <source>Warning: CRS information for all raster in subfolders will be rewritten. Are you sure?</source>
-        <translation>경고: 하위 폴더에 있는 모든 래스터의 CRS 정보를 덮어 씁니다. 정말 하시겠습니까?</translation>
+        <translation>경고: 하위 폴더에 있는 모든 래스터의 좌표계 정보를 덮어 씁니다. 정말 하시겠습니까?</translation>
     </message>
     <message>
         <source>Select the input directory with files to Assign projection</source>
@@ -5950,11 +5951,11 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     </message>
     <message>
         <source>Layer CRS</source>
-        <translation>레이어 CRS</translation>
+        <translation>레이어 좌표계</translation>
     </message>
     <message>
         <source>Project CRS</source>
-        <translation>프로젝트 CRS</translation>
+        <translation>프로젝트 좌표계</translation>
     </message>
     <message>
         <source>Ellipsoid</source>
@@ -6245,13 +6246,13 @@ Would you like to add the new layer to the TOC?</source>
         <source>
 Input CRS error: Different input coordinate reference systems detected, results may not be as expected.</source>
         <translation>
-입력 CRS 오류: 다른 좌표계가 감지되었기에 결과를 예측할 수 없습니다.</translation>
+입력 좌표계 오류: 다른 좌표계가 감지되었기에 결과를 예측할 수 없습니다.</translation>
     </message>
     <message>
         <source>
 Input CRS error: One or more input layers missing coordinate reference information, results may not be as expected.</source>
         <translation>
-입력 CRS 오류: 하나 이상의 입력 레이어에 좌표계가 없습니다. 결과를 예측할 수 없습니다.</translation>
+입력 좌표계 오류: 하나 이상의 입력 레이어에 좌표계가 없습니다. 결과를 예측할 수 없습니다.</translation>
     </message>
     <message>
         <source>
@@ -7608,7 +7609,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1311"/>
         <source>Set Project CRS from Layer</source>
-        <translation>레이어에서 프로젝트 CRS 설정</translation>
+        <translation>레이어에서 프로젝트 좌표계 설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1351"/>
@@ -7807,7 +7808,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1303"/>
         <source>Set CRS of Layer(s)</source>
-        <translation>레이어 CRS 설정</translation>
+        <translation>레이어 좌표계 설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1306"/>
@@ -7816,7 +7817,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Set project CRS from layer</source>
-        <translation type="obsolete">레이어 CRS를 프로젝트에 설정</translation>
+        <translation type="obsolete">레이어 좌표계를 프로젝트에 설정</translation>
     </message>
     <message>
         <source>Tile scale slider</source>
@@ -7928,7 +7929,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1425"/>
         <source>Custom CRS...</source>
-        <translation>사용자 정의 CRS...</translation>
+        <translation>사용자 정의 좌표계...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1434"/>
@@ -10349,7 +10350,7 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="52"/>
         <source>Capture mouse coordinates in different CRS</source>
-        <translation>다른 CRS의 좌표를 마우스로 선택합니다.</translation>
+        <translation>다른 좌표계의 좌표를 마우스로 선택합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="53"/>
@@ -10691,19 +10692,19 @@ It will be disabled.</source>
     </message>
     <message>
         <source>Could not open CRS database %1&lt;br&gt;Error(%2): %3</source>
-        <translation type="obsolete">CRS 데이터베이스 %1을 열 수 없음&lt;br&gt;오류(%2): %3</translation>
+        <translation type="obsolete">좌표계 데이터베이스 %1을 열 수 없음&lt;br&gt;오류(%2): %3</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatereferencesystem.cpp" line="1372"/>
         <source>Could not open CRS database %1
 Error(%2): %3</source>
-        <translation>CRS 데이터베이스 %1 열지 못함. 오류(%2): %3</translation>
+        <translation>좌표계 데이터베이스 %1 열지 못함. 오류(%2): %3</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatereferencesystem.cpp" line="1375"/>
         <location filename="../src/core/qgscoordinatereferencesystem.cpp" line="1475"/>
         <source>CRS</source>
-        <translation type="unfinished">CRS</translation>
+        <translation type="unfinished">좌표계</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatereferencesystem.cpp" line="145"/>
@@ -11196,11 +11197,11 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>CRS undefined - defaulting to project CRS</source>
-        <translation type="obsolete">CRS가 정의되어 있지 않음 - 프로젝트 CRS로 초기값 설정됨</translation>
+        <translation type="obsolete">좌표계가 정의되어 있지 않음 - 프로젝트 좌표계로 초기값 설정됨</translation>
     </message>
     <message>
         <source>CRS undefined - defaulting to default CRS: %1</source>
-        <translation type="obsolete">CRS가 정의되어 있지 않음 - 기본 CRS로 초기값 설정됨: %1</translation>
+        <translation type="obsolete">좌표계가 정의되어 있지 않음 - 기본 좌표계로 초기값 설정됨: %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolselectutils.cpp" line="42"/>
@@ -11209,7 +11210,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>CRS undefined - defaulting to default CRS</source>
-        <translation type="obsolete">CRS가 정의되어 있지 않음 - 기본 CRS로 초기값 설정됨</translation>
+        <translation type="obsolete">좌표계가 정의되어 있지 않음 - 기본 좌표계로 초기값 설정됨</translation>
     </message>
     <message>
         <location filename="../src/gui/qgstextannotationitem.cpp" line="22"/>
@@ -11400,7 +11401,7 @@ You are seeing this message most likely because you have no DISPLAY environment 
         <location filename="../src/app/qgsmaptoolselectutils.cpp" line="121"/>
         <location filename="../src/app/qgsmaptoolshowhidelabels.cpp" line="213"/>
         <source>CRS Exception</source>
-        <translation>CRS 익셉션</translation>
+        <translation>좌표계 예외상황</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolselectutils.cpp" line="122"/>
@@ -13149,12 +13150,12 @@ Errors: %3
     <message>
         <location filename="../src/app/qgisapp.cpp" line="410"/>
         <source>CRS undefined - defaulting to project CRS</source>
-        <translation type="unfinished">CRS가 정의되어 있지 않음 - 프로젝트 CRS로 초기값 설정됨</translation>
+        <translation type="unfinished">좌표계가 정의되어 있지 않음 - 프로젝트 좌표계로 초기값 설정됨</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="417"/>
         <source>CRS undefined - defaulting to default CRS: %1</source>
-        <translation type="unfinished">CRS가 정의되어 있지 않음 - 기본 CRS로 초기값 설정됨: %1</translation>
+        <translation type="unfinished">좌표계가 정의되어 있지 않음 - 기본 좌표계로 초기값 설정됨: %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="445"/>
@@ -13892,7 +13893,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Allow hiding of deprecated CRSes</source>
-        <translation type="obsolete">비추천의 CRS를 표시하지 않음</translation>
+        <translation type="obsolete">비추천 좌표계를 표시하지 않음</translation>
     </message>
     <message>
         <source>Add point displacement renderer plugin - allows points to be shifted to avoid colliding with other points</source>
@@ -14153,11 +14154,11 @@ Please contact the developers.
     </message>
     <message>
         <source>Current CRS: %1</source>
-        <translation type="obsolete">현재 CRS: %1</translation>
+        <translation type="obsolete">현재 좌표계: %1</translation>
     </message>
     <message>
         <source>Inactive project CRS: %1</source>
-        <translation type="obsolete">잘못된 투영 CRS: %1</translation>
+        <translation type="obsolete">잘못된 투영 좌표계: %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="8596"/>
@@ -14435,7 +14436,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Set CRS of Layer(s)</source>
-        <translation type="obsolete">레이어의 CRS 설정</translation>
+        <translation type="obsolete">레이어의 좌표계 설정</translation>
     </message>
     <message>
         <source>Ctrl+Shift+C</source>
@@ -14509,7 +14510,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Custom CRS...</source>
-        <translation type="obsolete">사용자 정의 CRS...</translation>
+        <translation type="obsolete">사용자 정의 좌표계...</translation>
     </message>
     <message>
         <source>Manage custom coordinate reference systems</source>
@@ -14696,7 +14697,7 @@ Always ignore these errors?</source>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="1607"/>
         <source>CRS status - Click to open coordinate reference system dialog</source>
-        <translation>CRS 상태 - 클릭하면 좌표계 대화상자가 열립니다.</translation>
+        <translation>좌표계 상태 - 클릭하면 좌표계 대화상자가 열립니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="2082"/>
@@ -15099,27 +15100,27 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>CRS Handling</source>
-        <translation type="obsolete">CRS 다루기</translation>
+        <translation type="obsolete">좌표계 다루기</translation>
     </message>
     <message>
         <source>Show active crs in status bar.</source>
-        <translation type="obsolete">활성 CRS가 상태 표시줄에 표시됩니다.</translation>
+        <translation type="obsolete">활성 좌표계가 상태 표시줄에 표시됩니다.</translation>
     </message>
     <message>
         <source>Assign layer CRS to project (in the legend context menu).</source>
-        <translation type="obsolete">레이어 CRS를 프로젝트에 적용(범례 컨텍스트 메뉴에서).</translation>
+        <translation type="obsolete">레이어 좌표계를 프로젝트에 적용(범례 컨텍스트 메뉴에서).</translation>
     </message>
     <message>
         <source>Select default CRS for new projects.</source>
-        <translation type="obsolete">새로운 프로젝트를 위한 기본 CRS를 선택.</translation>
+        <translation type="obsolete">새로운 프로젝트를 위한 기본 좌표계를 선택.</translation>
     </message>
     <message>
         <source>Allow setting CRS for multiple layers at once.</source>
-        <translation type="obsolete">여러 레이어에 한번에 CRS를 할당.</translation>
+        <translation type="obsolete">여러 레이어에 한번에 좌표계를 할당.</translation>
     </message>
     <message>
         <source>Default to last selection when prompting for CRS.</source>
-        <translation type="obsolete">CRS 선택시 마지막으로 선택했던 것을 기본으로 설정됨</translation>
+        <translation type="obsolete">좌표계 선택시 마지막으로 선택했던 것을 기본으로 설정됨</translation>
     </message>
     <message>
         <source>Rasters</source>
@@ -15728,12 +15729,12 @@ Error: %1</source>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="7636"/>
         <source>Current CRS: %1 (OTFR enabled)</source>
-        <translation>현재 CRS: %1 (OTFR 활성화)</translation>
+        <translation>현재 좌표계: %1 (OTFR 활성화)</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="7643"/>
         <source>Current CRS: %1 (OTFR disabled)</source>
-        <translation>현재 CRS: %1 (OTFR 비활성화)</translation>
+        <translation>현재 좌표계: %1 (OTFR 비활성화)</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="7696"/>
@@ -18251,12 +18252,12 @@ Database:%2</source>
     <message>
         <location filename="../src/browser/qgsbrowser.cpp" line="321"/>
         <source>CRS</source>
-        <translation>CRS</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/browser/qgsbrowser.cpp" line="321"/>
         <source>Cannot set layer CRS</source>
-        <translation>CRS 레이어 설정 실패</translation>
+        <translation>레이어 좌표계 설정 실패</translation>
     </message>
 </context>
 <context>
@@ -18320,7 +18321,7 @@ Database:%2</source>
         <location filename="../src/browser/qgsbrowserbase.ui" line="220"/>
         <location filename="../src/browser/qgsbrowserbase.ui" line="223"/>
         <source>Set layer CRS</source>
-        <translation>레이어 CRS 설정</translation>
+        <translation>레이어 좌표계 설정</translation>
     </message>
     <message>
         <location filename="../src/browser/qgsbrowserbase.ui" line="232"/>
@@ -23149,27 +23150,27 @@ Should the existing classes be deleted before classification?</source>
     <name>QgsCoordinateTransform</name>
     <message>
         <source>The source spatial reference system (CRS) is not valid. </source>
-        <translation type="obsolete">원본 좌표계(CRS)가 잘못되었습니다.</translation>
+        <translation type="obsolete">원본 좌표계가 잘못되었습니다.</translation>
     </message>
     <message>
         <source>The destination spatial reference system (CRS) is not valid. </source>
-        <translation type="obsolete">대상 좌표계(CRS)가 잘못되었습니다.</translation>
+        <translation type="obsolete">대상 좌표계가 잘못되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatetransform.cpp" line="559"/>
         <location filename="../src/core/qgscoordinatetransform.cpp" line="565"/>
         <source>CRS</source>
-        <translation>CRS</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatetransform.cpp" line="557"/>
         <source>The source spatial reference system (CRS) is not valid. The coordinates can not be reprojected. The CRS is: %1</source>
-        <translation>원본 좌표계 (CRS)가 잘못됨. 좌표를 재투영 할 수 없음. CRS: %1</translation>
+        <translation>원본 좌표계가 잘못됨. 좌표를 재투영 할 수 없음. 좌표계: %1</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatetransform.cpp" line="564"/>
         <source>The destination spatial reference system (CRS) is not valid. The coordinates can not be reprojected. The CRS is: %1</source>
-        <translation>대상 좌표계 (CRS)가 잘못됨. 좌표를 재투영 할 수 없음. CRS: %1</translation>
+        <translation>대상 좌표계가 잘못됨. 좌표를 재투영 할 수 없음. 좌표계: %1</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatetransform.cpp" line="594"/>
@@ -23202,7 +23203,7 @@ failed with error: %3
     </message>
     <message>
         <source>The coordinates can not be reprojected. The CRS is: %1</source>
-        <translation type="obsolete">지정 좌표는 재투영 할 수 없습니다. CRS는 %1임</translation>
+        <translation type="obsolete">지정 좌표는 재투영 할 수 없습니다. 좌표계는 %1임</translation>
     </message>
 </context>
 <context>
@@ -23647,7 +23648,7 @@ and current file is [%3]</source>
     <message>
         <location filename="../src/ui/qgscustomprojectiondialogbase.ui" line="65"/>
         <source>You can define your own custom Coordinate Reference System (CRS) here. The definition must conform to the proj4 format for specifying a CRS.</source>
-        <translation>여기에 사용자 정의 좌표계(CRS)를 정의하십시오. CRS의 정의는 proj4 형식 이어야합니다.</translation>
+        <translation>여기에 사용자 정의 좌표계를 정의하십시오. 좌표계의 정의는 proj4 형식 이어야합니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscustomprojectiondialogbase.ui" line="94"/>
@@ -23678,12 +23679,12 @@ and current file is [%3]</source>
     <message>
         <location filename="../src/ui/qgscustomprojectiondialogbase.ui" line="183"/>
         <source>Use the text boxes below to test the CRS definition you are creating. Enter a coordinate where both the lat/long and the transformed result are known (for example by reading off a map). Then press the calculate button to see if the CRS definition you are creating is accurate.</source>
-        <translation>아래의 텍스트 상자에서 작성중인 CRS 정의를 테스트할 수 있습니다. 결과를 알고 있는 지점의 경위도와 투영좌표를 입력(예를 들어 지도에서 읽어서)합니다. 그리고 계산 버튼을 누르면 CRS 정의가 올바른지 확인할 수 있습니다.</translation>
+        <translation>아래의 텍스트 상자에서 작성중인 좌표계 정의를 테스트할 수 있습니다. 결과를 알고 있는 지점의 경위도와 투영좌표를 입력(예를 들어 지도에서 읽어서)합니다. 그리고 계산 버튼을 누르면 좌표계 정의가 올바른지 확인할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscustomprojectiondialogbase.ui" line="200"/>
         <source>Destination CRS        </source>
-        <translation>대상 CRS        </translation>
+        <translation>대상 좌표계        </translation>
     </message>
 </context>
 <context>
@@ -35686,7 +35687,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="848"/>
         <source>&amp;Set Group CRS</source>
-        <translation>그룹 CRS 설정(&amp;S)</translation>
+        <translation>그룹 좌표계 설정(&amp;S)</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="861"/>
@@ -35748,7 +35749,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>&amp;Set group CRS</source>
-        <translation type="obsolete">그룹 CRS 설정(&amp;S)</translation>
+        <translation type="obsolete">그룹 좌표계 설정(&amp;S)</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="853"/>
@@ -35793,11 +35794,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>&amp;Set layer CRS</source>
-        <translation type="obsolete">레이어 CRS 설정(&amp;S)</translation>
+        <translation type="obsolete">레이어 좌표계 설정(&amp;S)</translation>
     </message>
     <message>
         <source>Set &amp;project CRS from layer</source>
-        <translation type="obsolete">레이어 CRS로 프로젝트 CRS 설정(&amp;p)</translation>
+        <translation type="obsolete">레이어 좌표계로 프로젝트 좌표계 설정(&amp;p)</translation>
     </message>
     <message>
         <source>&amp;Open attribute table</source>
@@ -35853,12 +35854,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="368"/>
         <source>&amp;Set Layer CRS</source>
-        <translation>레이어 CRS 설정(&amp;S)</translation>
+        <translation>레이어 좌표계 설정(&amp;S)</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="371"/>
         <source>Set &amp;Project CRS from Layer</source>
-        <translation>레이어에서 프로젝트 CRS 설정(&amp;P)</translation>
+        <translation>레이어에서 프로젝트 좌표계 설정(&amp;P)</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="380"/>
@@ -36325,7 +36326,7 @@ not displayed</source>
         <location filename="../src/core/qgsmaplayer.cpp" line="299"/>
         <location filename="../src/core/qgsmaplayer.cpp" line="688"/>
         <source>Specify CRS for layer %1</source>
-        <translation>레이어 %1의 CRS를 지정</translation>
+        <translation>레이어 %1의 좌표계를 지정</translation>
     </message>
     <message>
         <location filename="../src/core/qgsmaplayer.cpp" line="922"/>
@@ -36373,7 +36374,7 @@ not displayed</source>
         <location filename="../src/core/qgsmaprenderer.cpp" line="873"/>
         <location filename="../src/core/qgsmaprenderer.cpp" line="895"/>
         <source>CRS</source>
-        <translation>CRS</translation>
+        <translation>좌표계</translation>
     </message>
 </context>
 <context>
@@ -37112,7 +37113,7 @@ not displayed</source>
     </message>
     <message>
         <source>CRS Exception</source>
-        <translation type="obsolete">CRS 오류</translation>
+        <translation type="obsolete">좌표계 오류</translation>
     </message>
     <message>
         <source>Selection extends beyond layer&apos;s coordinate system.</source>
@@ -38917,7 +38918,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="234"/>
         <source>Specify CRS</source>
-        <translation>CRS 지정</translation>
+        <translation>좌표계 지정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="400"/>
@@ -39100,7 +39101,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>CRS ID</source>
-        <translation type="obsolete">CRS ID</translation>
+        <translation type="obsolete">좌표계 ID</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewvectorlayerdialogbase.ui" line="254"/>
@@ -39111,7 +39112,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsnewvectorlayerdialogbase.ui" line="260"/>
         <source>Specify CRS</source>
-        <translation>CRS 지정</translation>
+        <translation>좌표계 지정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewvectorlayerdialogbase.ui" line="160"/>
@@ -39871,7 +39872,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="481"/>
         <source>CRS</source>
-        <translation type="unfinished">CRS</translation>
+        <translation type="unfinished">좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="490"/>
@@ -40977,7 +40978,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>When this option is enabled, any new project you create will have &apos;on the fly&apos; projection enabled by default and the CRS below will be used for the project.</source>
-        <translation type="obsolete">이 옵션을 사용하면 새로 만드는 모든 새 프로젝트에서 &apos;즉시&apos; 투영이 기본값입니다. 다음 CRS가 프로젝트를 위해 사용됩니다.</translation>
+        <translation type="obsolete">이 옵션을 사용하면 새로 만드는 모든 새 프로젝트에서 &apos;즉시&apos; 투영이 기본값입니다. 다음 좌표계가 프로젝트를 위해 사용됩니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="193"/>
@@ -41004,7 +41005,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3461"/>
         <source>Coordinate Reference System (CRS)</source>
-        <translation type="unfinished">좌표계(CRS)</translation>
+        <translation type="unfinished">좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3486"/>
@@ -41440,7 +41441,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3601"/>
         <source>Always start new projects with this CRS</source>
-        <translation>항상 이 CRS로 새 프로젝트 시작</translation>
+        <translation>항상 이 좌표계로 새 프로젝트 시작</translation>
     </message>
     <message>
         <source>Coordinate Reference System for new layers</source>
@@ -41448,7 +41449,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>When a new layer is created, or when a layer is loaded that has no Coordinate Reference System (CRS)</source>
-        <translation type="obsolete">새 레이어를 만들 때 또는 레이어가 로드되었을 때 좌표계(CRS)가 없는 경우 사용</translation>
+        <translation type="obsolete">새 레이어를 만들 때 또는 레이어가 로드되었을 때 좌표계가 없는 경우 사용</translation>
     </message>
     <message>
         <source>Enable &apos;on the fly&apos; reprojection by defaul</source>
@@ -42015,7 +42016,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>When a new layer is created, or when a layer is loaded that has no coordinate reference system (CRS)</source>
-        <translation type="obsolete">새 레이어가 만들어진 경우 또는 레이어가 로드되었을 때 좌표계(CRS)가 없는 경우</translation>
+        <translation type="obsolete">새 레이어가 만들어진 경우 또는 레이어가 로드되었을 때 좌표계가 없는 경우</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3667"/>
@@ -42070,19 +42071,19 @@ Always network: always load from network and do not check if the cache has a val
         <location filename="../src/ui/qgsoptionsbase.ui" line="181"/>
         <location filename="../src/ui/qgsoptionsbase.ui" line="184"/>
         <source>CRS</source>
-        <translation>CRS</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <source>Prompt for CRS</source>
-        <translation type="obsolete">CRS를 확인합니다.</translation>
+        <translation type="obsolete">좌표계를 확인합니다.</translation>
     </message>
     <message>
         <source>Project wide default CRS will be used</source>
-        <translation type="obsolete">프로젝트의 기본 CRS를 사용</translation>
+        <translation type="obsolete">프로젝트의 기본 좌표계를 사용</translation>
     </message>
     <message>
         <source>Global default CRS displa&amp;yed below will be used</source>
-        <translation type="obsolete">아래의 글로벌 기본 CRS를 사용(&amp;y)</translation>
+        <translation type="obsolete">아래의 글로벌 기본 좌표계를 사용(&amp;y)</translation>
     </message>
     <message>
         <source>Enter attribute values</source>
@@ -42106,17 +42107,17 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3513"/>
         <source>Prompt for &amp;CRS</source>
-        <translation>CRS 확인(&amp;C)</translation>
+        <translation>좌표계 확인(&amp;C)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3506"/>
         <source>Use &amp;project CRS</source>
-        <translation>프로젝트의 CRS를 사용(&amp;p)</translation>
+        <translation>프로젝트의 좌표계를 사용(&amp;p)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3520"/>
         <source>Use default CRS displa&amp;yed below</source>
-        <translation>아래의 기본 CRS를 사용(&amp;y)</translation>
+        <translation>아래의 기본 좌표계를 사용(&amp;y)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3938"/>
@@ -46732,7 +46733,7 @@ Try to find missing layers?</source>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="953"/>
         <source>CRS %1 was already selected</source>
-        <translation>CRS %1은 이미 선택되어 있습니다.</translation>
+        <translation>좌표계 %1은 이미 선택되어 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="973"/>
@@ -46868,7 +46869,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Layer units (only used when CRS transformation is disabled)</source>
-        <translation type="obsolete">레이어 단위 (CRS 변환이 불가능한 경우에만 사용 가능)</translation>
+        <translation type="obsolete">레이어 단위 (좌표계 변환이 불가능한 경우에만 사용 가능)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="544"/>
@@ -47227,7 +47228,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="97"/>
         <source>CRS</source>
-        <translation type="unfinished">CRS</translation>
+        <translation type="unfinished">좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="100"/>
@@ -47365,12 +47366,12 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="762"/>
         <source>Coordinate Reference System (CRS)</source>
-        <translation>좌표계(CRS)</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="793"/>
         <source>Enable &apos;on the fly&apos; CRS transformation</source>
-        <translation>&apos;즉시&apos; CRS 변환 활성화</translation>
+        <translation>&apos;즉시&apos; 좌표계 변환 활성화</translation>
     </message>
 </context>
 <context>
@@ -48705,7 +48706,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Specify CRS for layer %1</source>
-        <translation type="obsolete">레이어 %1의 CRS 지정</translation>
+        <translation type="obsolete">레이어 %1의 좌표계 지정</translation>
     </message>
     <message>
         <source>Average Magphase</source>
@@ -50231,7 +50232,7 @@ datasets with maximum width and height specified below.</source>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="153"/>
         <source>CRS</source>
-        <translation type="unfinished">CRS</translation>
+        <translation type="unfinished">좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="182"/>
@@ -53390,8 +53391,8 @@ but implies better performance thereafter.</source>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="694"/>
         <source>Coordinate reference system(CRS) of
 &quot;%1&quot; is invalid(see CRS of provider).</source>
-        <translation>&quot;%1&quot;의 좌표계(CRS) 잘못됨
-(프로바이더의 CRS를 참조하십시오).</translation>
+        <translation>&quot;%1&quot;의 좌표계 잘못됨
+(프로바이더의 좌표계를 참조하십시오).</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="695"/>
@@ -53401,7 +53402,7 @@ CRS of map is %1.
 %2.</source>
         <translation>
 	  
-지도의 CRS는 %1입니다. 
+지도의 좌표계는 %1입니다. 
 %2.</translation>
     </message>
     <message>
@@ -56617,7 +56618,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Specify CRS for layer %1</source>
-        <translation type="obsolete">레이어 %1의 CRS 지정</translation>
+        <translation type="obsolete">레이어 %1의 좌표계 지정</translation>
     </message>
     <message>
         <source>Unknown renderer</source>
@@ -57324,7 +57325,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>CRS</source>
-        <translation type="obsolete">CRS</translation>
+        <translation type="obsolete">좌표계</translation>
     </message>
     <message>
         <source>Subset</source>
@@ -57567,7 +57568,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Specify CRS</source>
-        <translation type="obsolete">CRS 지정</translation>
+        <translation type="obsolete">좌표계 지정</translation>
     </message>
     <message>
         <source>Legend type</source>
@@ -57798,22 +57799,22 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Original CRS</source>
-        <translation type="obsolete">기존 CRS</translation>
+        <translation type="obsolete">기존 좌표계</translation>
     </message>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="58"/>
         <source>Layer CRS</source>
-        <translation>레이어 CRS</translation>
+        <translation>레이어 좌표계</translation>
     </message>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="58"/>
         <source>Project CRS</source>
-        <translation>프로젝트 CRS</translation>
+        <translation>프로젝트 좌표계</translation>
     </message>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="58"/>
         <source>Selected CRS</source>
-        <translation>선택된 CRS</translation>
+        <translation>선택된 좌표계</translation>
     </message>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="67"/>
@@ -57857,7 +57858,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorlayersaveasdialogbase.ui" line="44"/>
         <source>CRS</source>
-        <translation>CRS</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayersaveasdialogbase.ui" line="64"/>
@@ -57999,7 +58000,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/providers/wcs/qgswcssourceselect.cpp" line="188"/>
         <source>No CRS selected</source>
-        <translation type="unfinished">CRS가 선택되어 있지 않습니다.</translation>
+        <translation type="unfinished">좌표계가 선택되어 있지 않습니다.</translation>
     </message>
 </context>
 <context>
@@ -58396,7 +58397,7 @@ Features</source>
     </message>
     <message>
         <source>CRS %1 not supported.</source>
-        <translation type="obsolete">CRS %1은 지원하지 않습니다.</translation>
+        <translation type="obsolete">좌표계 %1은 지원되지 않습니다.</translation>
     </message>
     <message>
         <source>WMS Password for %1</source>
@@ -58495,12 +58496,12 @@ This might be an server configuration error. Should the URL be used?</source>
     <message>
         <location filename="../src/providers/wms/qgswmssourceselect.cpp" line="923"/>
         <source>No common CRS for selected layers.</source>
-        <translation>선택된 레이어를 위한 일반 CRS가 없습니다.</translation>
+        <translation>선택된 레이어를 위한 일반 좌표계가 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmssourceselect.cpp" line="928"/>
         <source>No CRS selected</source>
-        <translation>CRS가 선택되어 있지 않습니다.</translation>
+        <translation>좌표계가 선택되어 있지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmssourceselect.cpp" line="933"/>
@@ -58739,7 +58740,7 @@ This might be an server configuration error. Should the URL be used?</source>
     <message>
         <location filename="../src/ui/qgswmssourceselectbase.ui" line="387"/>
         <source>CRS</source>
-        <translation>CRS</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgswmssourceselectbase.ui" line="396"/>
@@ -59169,7 +59170,7 @@ Response was:
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1482"/>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1487"/>
         <source>Available in CRS</source>
-        <translation type="unfinished">사용 가능한 CRS</translation>
+        <translation type="unfinished">사용 가능한 좌표계</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1487"/>
@@ -59523,7 +59524,7 @@ Response was:
     </message>
     <message>
         <source>mismatch layers=%1, styles=%2 and crs=%3.</source>
-        <translation type="obsolete">불일치 레이어=%1, 스타일=%2, crs=%3.</translation>
+        <translation type="obsolete">불일치 레이어=%1, 스타일=%2, 좌표계=%3.</translation>
     </message>
     <message>
         <source>no extent for layer</source>
@@ -59848,7 +59849,7 @@ Response was:
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3483"/>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3493"/>
         <source>Available in CRS</source>
-        <translation>사용 가능한 CRS</translation>
+        <translation>사용 가능한 좌표계</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3504"/>
