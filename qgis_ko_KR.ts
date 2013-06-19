@@ -1347,7 +1347,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="28"/>
         <source>Input line or polygon vector layer</source>
-        <translation>입력 라인 또는 폴리곤 벡터 레이어</translation>
+        <translation>입력 선 또는 폴리곤 벡터 레이어</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="68"/>
@@ -1437,12 +1437,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmIntersectLines.ui" line="16"/>
         <source>Locate Line Intersections</source>
-        <translation>라인 교차점에 위치</translation>
+        <translation>선 교차점에 위치</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmIntersectLines.ui" line="27"/>
         <source>Input line layer</source>
-        <translation>입력 라인 레이어</translation>
+        <translation>입력 선 레이어</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmIntersectLines.ui" line="41"/>
@@ -1453,7 +1453,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmIntersectLines.ui" line="55"/>
         <source>Intersect line layer</source>
-        <translation>라인 레이어 교차분석</translation>
+        <translation>선 레이어 교차분석</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmIntersectLines.ui" line="69"/>
@@ -1921,7 +1921,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Line intersections</source>
-        <translation>라인 교차</translation>
+        <translation>선 교차</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmSubsetSelect.ui" line="14"/>
@@ -1951,7 +1951,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmSumLines.ui" line="127"/>
         <source>Input line vector layer</source>
-        <translation>입력 라인 벡터 레이어</translation>
+        <translation>입력 선 벡터 레이어</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmVectorGrid.ui" line="26"/>
@@ -2001,7 +2001,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmVectorGrid.ui" line="296"/>
         <source>Output grid as lines</source>
-        <translation>라인으로 그리드 출력</translation>
+        <translation>선으로 그리드 출력</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmVectorSplit.ui" line="17"/>
@@ -2044,7 +2044,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Please specify input line layer</source>
-        <translation>입력 라인 레이어를 지정 하십시오</translation>
+        <translation>입력 선 레이어를 지정 하십시오</translation>
     </message>
     <message>
         <source>Please specify line intersect layer</source>
@@ -2365,7 +2365,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Sum Line Lengths In Polyons</source>
-        <translation>폴리곤내 라인 길이 합계</translation>
+        <translation>폴리곤내 선 길이 합계</translation>
     </message>
     <message>
         <source>Please specify input polygon vector layer</source>
@@ -2373,7 +2373,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please specify input line vector layer</source>
-        <translation>입력 라인 벡터 레이어를 지정하십시오.</translation>
+        <translation>입력 선 벡터 레이어를 지정하십시오.</translation>
     </message>
     <message>
         <source>Please specify output length field</source>
@@ -2648,7 +2648,7 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="42"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="47"/>
@@ -2751,7 +2751,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/fTools/tools/frmSimplify.ui" line="20"/>
         <source>Input line or polygon layer</source>
-        <translation>라인이나 폴리곤 레이어 입력</translation>
+        <translation>선이나 폴리곤 레이어 입력</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmSimplify.ui" line="46"/>
@@ -2831,7 +2831,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>LINESTRING</source>
-        <translation type="obsolete">라인스트링</translation>
+        <translation type="obsolete">선</translation>
     </message>
     <message>
         <source>POLYGON</source>
@@ -2843,11 +2843,11 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>MULTILINESTRING</source>
-        <translation type="obsolete">멀티라인스트링</translation>
+        <translation type="obsolete">다중 선</translation>
     </message>
     <message>
         <source>MULTIPOLYGON</source>
-        <translation type="obsolete">멀티폴리곤</translation>
+        <translation type="obsolete">다중 폴리곤</translation>
     </message>
     <message>
         <source>GEOMETRYCOLLECTION</source>
@@ -2983,7 +2983,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>LINESTRING</source>
-        <translation type="obsolete">라인스트링</translation>
+        <translation type="obsolete">선</translation>
     </message>
     <message>
         <source>POLYGON</source>
@@ -2995,7 +2995,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>MULTILINESTRING</source>
-        <translation type="obsolete">멀티라인스트링</translation>
+        <translation type="obsolete">다중 선</translation>
     </message>
     <message>
         <source>MULTIPOLYGON</source>
@@ -4257,7 +4257,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>Select the cutline file</source>
-        <translation type="obsolete">컷라인 파일 선택</translation>
+        <translation type="obsolete">분할선 파일 선택</translation>
     </message>
     <message>
         <source>Select the input file for Grid</source>
@@ -4811,7 +4811,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetContour.ui" line="38"/>
         <source>&amp;Output file for contour lines (vector)</source>
-        <translation>등고선 라인 (벡터) 출력 파일(&amp;O)</translation>
+        <translation>등고선 (벡터) 출력 파일(&amp;O)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetContour.ui" line="48"/>
@@ -5934,7 +5934,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     </message>
     <message>
         <source>Polygons to lines</source>
-        <translation>폴리곤을 라인으로</translation>
+        <translation>폴리곤을 선으로</translation>
     </message>
     <message>
         <source>Input polygon vector layer</source>
@@ -6007,11 +6007,11 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Lines to polygons</source>
-        <translation>라인을 폴리곤으로</translation>
+        <translation>선을 폴리곤으로</translation>
     </message>
     <message>
         <source>Input line vector layer</source>
-        <translation>입력 라인 벡터 레이어</translation>
+        <translation>입력 선 벡터 레이어</translation>
     </message>
     <message>
         <source>Polygon from layer extent</source>
@@ -7272,7 +7272,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Capture Point</source>
-        <translation type="obsolete">점 캡춰</translation>
+        <translation type="obsolete">점 입력</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="641"/>
@@ -7281,7 +7281,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Capture Line</source>
-        <translation type="obsolete">라인 캡춰</translation>
+        <translation type="obsolete">선 입력</translation>
     </message>
     <message>
         <source>Ctrl+/</source>
@@ -7289,7 +7289,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Capture Polygon</source>
-        <translation type="obsolete">폴리곤 캡춰</translation>
+        <translation type="obsolete">폴리곤 입력</translation>
     </message>
     <message>
         <source>Ctrl+?</source>
@@ -8485,7 +8485,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Create line</source>
-        <translation type="obsolete">라인 만들기</translation>
+        <translation type="obsolete">선 만들기</translation>
     </message>
     <message>
         <source>Create polygon</source>
@@ -8707,7 +8707,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Failed to load line layer.</source>
-        <translation type="obsolete">라인 레이어 로드 실패.</translation>
+        <translation type="obsolete">선 레이어 로드 실패.</translation>
     </message>
     <message>
         <source>Failed to load point layer.</source>
@@ -8839,7 +8839,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Lines</source>
-        <translation type="obsolete">라인</translation>
+        <translation type="obsolete">선</translation>
     </message>
     <message>
         <source>Polygons</source>
@@ -8879,7 +8879,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Saving lines...</source>
-        <translation type="obsolete">라인 저장 중...</translation>
+        <translation type="obsolete">선 저장 중...</translation>
     </message>
     <message>
         <source>Saving polygons...</source>
@@ -9687,7 +9687,7 @@ qgis.utils.iface 객체(QgisInterface 클래스의 인스턴스)를 이용하십
         <location filename="../src/core/qgsdistancearea.cpp" line="442"/>
         <location filename="../src/core/qgsdistancearea.cpp" line="476"/>
         <source>Caught a coordinate system exception while trying to transform a point. Unable to calculate line length.</source>
-        <translation>점을 변환하는 동안 좌표계 오류가 발생했습니다. 라인의 길이를 계산할 수 없습니다.</translation>
+        <translation>점을 변환하는 동안 좌표계 오류가 발생했습니다. 선의 길이를 계산할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgsdistancearea.cpp" line="594"/>
@@ -10046,7 +10046,7 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodel.cpp" line="258"/>
         <source>Lines</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodel.cpp" line="259"/>
@@ -10826,7 +10826,7 @@ Error(%2): %3</source>
     <message>
         <location filename="../src/core/qgsgeometryvalidator.cpp" line="355"/>
         <source>invalid line</source>
-        <translation>잘못된 라인</translation>
+        <translation>잘못된 선</translation>
     </message>
     <message>
         <location filename="../src/core/qgsgeometryvalidator.cpp" line="67"/>
@@ -10854,20 +10854,20 @@ Error(%2): %3</source>
     <message>
         <location filename="../src/core/qgsgeometryvalidator.cpp" line="105"/>
         <source>line %1 with less than two points</source>
-        <translation>라인 %1이 2 점 미만으로 구성되어 있습니다.</translation>
+        <translation>선 %1이 2 점 미만으로 구성되어 있습니다.</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/core/qgsgeometryvalidator.cpp" line="124"/>
         <source>line %1 contains %n duplicate node(s) at %2</source>
         <comment>number of duplicate nodes</comment>
         <translation>
-            <numerusform>라인 %1은 %2에 %n개의 중복 노드를 가지고 있습니다.</numerusform>
+            <numerusform>선 %1은 %2에 %n개의 중복 노드를 가지고 있습니다.</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../src/core/qgsgeometryvalidator.cpp" line="156"/>
         <source>segments %1 and %2 of line %3 intersect at %4</source>
-        <translation>라인 %3의 세그먼트 %1과 %2이 %4 곳에서 교차합니다.</translation>
+        <translation>선 %3의 세그먼트 %1과 %2이 %4 곳에서 교차합니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgsgeometryvalidator.cpp" line="171"/>
@@ -11325,17 +11325,17 @@ You are seeing this message most likely because you have no DISPLAY environment 
     <message>
         <location filename="../src/core/symbology-ng/qgssymbollayerv2registry.cpp" line="29"/>
         <source>Simple line</source>
-        <translation>심플 라인</translation>
+        <translation>단순 선</translation>
     </message>
     <message>
         <location filename="../src/core/symbology-ng/qgssymbollayerv2registry.cpp" line="31"/>
         <source>Marker line</source>
-        <translation>마커 라인</translation>
+        <translation>마커 선</translation>
     </message>
     <message>
         <location filename="../src/core/symbology-ng/qgssymbollayerv2registry.cpp" line="33"/>
         <source>Line decoration</source>
-        <translation>라인 장식</translation>
+        <translation>선 장식</translation>
     </message>
     <message>
         <location filename="../src/core/symbology-ng/qgssymbollayerv2registry.cpp" line="36"/>
@@ -14883,7 +14883,7 @@ This copy of QGIS writes debugging output.</source>
     </message>
     <message>
         <source>Line wrapping, data defined font and buffer settings.</source>
-        <translation type="obsolete">라인의 피복 글꼴 및 테두리 설정을 데이터로 정의할 수 있습니다.</translation>
+        <translation type="obsolete">서울 둘러싼, 글꼴 및 테두리 설정을 데이터로 정의할 수 있습니다.</translation>
     </message>
     <message>
         <source>Layer properties and symbology</source>
@@ -14903,7 +14903,7 @@ This copy of QGIS writes debugging output.</source>
     </message>
     <message>
         <source>Use size scale also for line symbols to modify line width.</source>
-        <translation type="obsolete">라인 심볼의 라인 너비를 위해 크기 스케일을 사용할 수 있게 되었습니다.</translation>
+        <translation type="obsolete">선 심볼의 선 너비를 위해 크기 스케일을 사용할 수 있게 되었습니다.</translation>
     </message>
     <message>
         <source>Replaced raster histogram implementation with one based on Qwt. Added option to save histogram as image file. Show actual pixel values on x axis of raster histogram.</source>
@@ -15027,15 +15027,15 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Allow the line symbol layers to be used for outline of polygon (fill) symbols.</source>
-        <translation type="obsolete">라인 심볼 레이어를 다각형(채우기) 기호의 외곽선으로 사용할 수 있습니다.</translation>
+        <translation type="obsolete">선 심볼 레이어를 다각형(채우기) 기호의 외곽선으로 사용할 수 있습니다.</translation>
     </message>
     <message>
         <source>Option to put marker on the central point of a line.</source>
-        <translation type="obsolete">라인의 중심점에 마커를 두는 옵션이 추가되었습니다.</translation>
+        <translation type="obsolete">선의 중심점에 마커를 두는 옵션이 추가되었습니다.</translation>
     </message>
     <message>
         <source>Option to put marker only on first/last vertex of a line.</source>
-        <translation type="obsolete">라인의 처음 혹은 마지막 지점에 마커를 두는 옵션이 추가되었습니다.</translation>
+        <translation type="obsolete">선의 처음 혹은 마지막 지점에 마커를 두는 옵션이 추가되었습니다.</translation>
     </message>
     <message>
         <source>Added &quot;centroid fill&quot; symbol layer which draws a marker on polygon&apos;s centroid.</source>
@@ -15043,7 +15043,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Allow the marker line symbol layer to draw markers on each vertex.</source>
-        <translation type="obsolete">각 버텍스에 마커를 그릴 때 마커 라인 심볼 레이어를 쓸 수있게 되었습니다.</translation>
+        <translation type="obsolete">각 버텍스에 마커를 그릴 때 마커 선 심볼 레이어를 쓸 수있게 되었습니다.</translation>
     </message>
     <message>
         <source>Move/rotate/change label edit tools to interactively change data defined label properties.</source>
@@ -15059,7 +15059,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Added &apos;Lines to polygons&apos; tool to vector menu.</source>
-        <translation type="obsolete">벡터 메뉴에 &apos;라인을 폴리곤으로&apos;가 추가되었습니다.</translation>
+        <translation type="obsolete">벡터 메뉴에 &apos;선을 폴리곤으로&apos;가 추가되었습니다.</translation>
     </message>
     <message>
         <source>Added field calculator with functions like $x, $y and $perimeter.</source>
@@ -21701,13 +21701,13 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="41"/>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="430"/>
         <source>Line Ticks Down</source>
-        <translation>라인 틱 아래로</translation>
+        <translation>선 틱 아래로</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="42"/>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="434"/>
         <source>Line Ticks Up</source>
-        <translation>라인 틱 위로</translation>
+        <translation>선 틱 위로</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="43"/>
@@ -21760,7 +21760,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="207"/>
         <source>Scalebar line width</source>
-        <translation>스케일바 라인 폭</translation>
+        <translation>스케일바 선 폭</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="224"/>
@@ -24444,7 +24444,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/app/qgsdecorationgriddialog.cpp" line="45"/>
         <location filename="../src/app/qgsdecorationgriddialog.cpp" line="122"/>
         <source>Line</source>
-        <translation type="unfinished">라인</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdecorationgriddialog.cpp" line="47"/>
@@ -25381,7 +25381,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="367"/>
         <source>Line</source>
-        <translation type="unfinished">라인</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="372"/>
@@ -25845,7 +25845,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="82"/>
         <source>Line</source>
-        <translation type="unfinished">라인</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="83"/>
@@ -25865,12 +25865,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="94"/>
         <source>Above line</source>
-        <translation type="unfinished">라인 위</translation>
+        <translation type="unfinished">선 위</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="95"/>
         <source>Below Line</source>
-        <translation type="unfinished">라인 아래</translation>
+        <translation type="unfinished">선 아래</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="96"/>
@@ -26158,7 +26158,7 @@ Leave empty to automatically apply the maximum value.</source>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="531"/>
         <source>Line Options</source>
-        <translation type="unfinished">라인 옵션</translation>
+        <translation type="unfinished">선 옵션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="541"/>
@@ -26601,7 +26601,7 @@ Parser error:
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="143"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="172"/>
@@ -27885,7 +27885,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="787"/>
         <source>Cannot close a line feature until it has at least two vertices.</source>
-        <translation>라인은 적어도 2 개의 버텍스가 없으면 만들 수 없습니다.</translation>
+        <translation>선은 적어도 2 개의 버텍스가 없으면 만들 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="795"/>
@@ -30412,7 +30412,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="262"/>
         <source>New line</source>
-        <translation>새 라인</translation>
+        <translation>새 선</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="268"/>
@@ -30437,7 +30437,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="304"/>
         <source>Split line</source>
-        <translation>라인 분할</translation>
+        <translation>선 분할</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="310"/>
@@ -30527,7 +30527,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="408"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="409"/>
@@ -30630,7 +30630,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="462"/>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="473"/>
         <source>Select line segment</source>
-        <translation>라인 세그먼트 선택</translation>
+        <translation>선 세그먼트 선택</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="458"/>
@@ -30852,7 +30852,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="239"/>
         <source>Close line</source>
-        <translation>라인 닫기</translation>
+        <translation>선 닫기</translation>
     </message>
 </context>
 <context>
@@ -30874,23 +30874,23 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="777"/>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="819"/>
         <source>Select position on line</source>
-        <translation>라인 위의 위치를 선택</translation>
+        <translation>선 위의 위치를 선택</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="840"/>
         <source>Split the line</source>
-        <translation>라인 분할</translation>
+        <translation>선 분할</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="840"/>
         <source>Release the line</source>
-        <translation>라인 선택 해제</translation>
+        <translation>선 선택 해제</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="844"/>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="856"/>
         <source>Select point on line</source>
-        <translation>라인 위의 점 선택</translation>
+        <translation>선 위의 점 선택</translation>
     </message>
 </context>
 <context>
@@ -33590,13 +33590,13 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="171"/>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="284"/>
         <source>Break lines</source>
-        <translation>브레이크 라인</translation>
+        <translation>분할 선</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="175"/>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="283"/>
         <source>Structure lines</source>
-        <translation>스트럭처 라인</translation>
+        <translation>구조 선</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="282"/>
@@ -34473,7 +34473,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5442"/>
         <source>Merge connected lines to avoid duplicate labels</source>
-        <translation>라벨 중복을 제거하기 위해 연결된 라인을 결합</translation>
+        <translation>라벨 중복을 제거하기 위해 연결된 선을 결합</translation>
     </message>
     <message>
         <source>Multiline labels</source>
@@ -34574,15 +34574,15 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>above line</source>
-        <translation type="obsolete">라인 상단</translation>
+        <translation type="obsolete">선 상단</translation>
     </message>
     <message>
         <source>on line</source>
-        <translation type="obsolete">라인 위</translation>
+        <translation type="obsolete">선 상</translation>
     </message>
     <message>
         <source>below line</source>
-        <translation type="obsolete">라인 하단</translation>
+        <translation type="obsolete">선 하단</translation>
     </message>
     <message>
         <source>Orientation</source>
@@ -34594,7 +34594,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>line</source>
-        <translation type="obsolete">라인</translation>
+        <translation type="obsolete">선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="493"/>
@@ -34869,7 +34869,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>merge connected lines to avoid duplicate labels</source>
-        <translation type="obsolete">중복 라벨을 제거하기위해 연결되어 있는 라인 병합</translation>
+        <translation type="obsolete">중복 라벨을 제거하기위해 연결되어 있는 선 병합</translation>
     </message>
     <message>
         <source>multiline labels</source>
@@ -35329,7 +35329,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3900"/>
         <source>Above line</source>
-        <translation type="unfinished">라인 위</translation>
+        <translation type="unfinished">선 위</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3916"/>
@@ -37187,7 +37187,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="79"/>
         <source>If there are selected features, the split tool only applies to the selected ones. If you like to split all features under the split line, clear the selection</source>
-        <translation>선택되어 있는 피처가 있는 경우, 분할 도구는 선택된 객체에만 적용됩니다. 분할 라인과 교차하는 모든 요소에 대해 분할을 실시하고 싶은 경우는 선택을 해제하십시오.</translation>
+        <translation>선택되어 있는 피처가 있는 경우, 분할 도구는 선택된 객체에만 적용됩니다. 분할 선과 교차하는 모든 요소에 대해 분할을 실시하고 싶은 경우는 선택을 해제하십시오.</translation>
     </message>
     <message>
         <source>Not a vector layer</source>
@@ -37214,7 +37214,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="83"/>
         <source>Cut edges detected. Make sure the line splits features into multiple parts.</source>
-        <translation>컷 에지가 발견되었습니다. 라인이 피처를 절단하여 여러 부분으로 되는지 확인하십시오.</translation>
+        <translation>컷 에지가 발견되었습니다. 선이 피처를 절단하여 여러 부분으로 되는지 확인하십시오.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="87"/>
@@ -37489,7 +37489,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="707"/>
         <source>Line offset</source>
-        <translation type="unfinished">라인 오프셋</translation>
+        <translation type="unfinished">선 오프셋</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="709"/>
@@ -38293,12 +38293,12 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="472"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="476"/>
         <source>Multiline</source>
-        <translation>멀티 라인</translation>
+        <translation>다중 선</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="480"/>
@@ -38892,7 +38892,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="172"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="179"/>
@@ -38907,12 +38907,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="193"/>
         <source>Multiline</source>
-        <translation>멀티라인</translation>
+        <translation>다중 선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="200"/>
         <source>Multipolygon</source>
-        <translation>멀티폴리곤</translation>
+        <translation>다중 폴리곤</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="234"/>
@@ -39049,7 +39049,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsnewvectorlayerdialogbase.ui" line="56"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewvectorlayerdialogbase.ui" line="63"/>
@@ -42272,7 +42272,7 @@ error:%2
     <message>
         <location filename="../src/providers/oracle/qgsoracleconn.cpp" line="516"/>
         <source>Line</source>
-        <translation type="unfinished">라인</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracleconn.cpp" line="520"/>
@@ -46018,7 +46018,7 @@ SQL: %2
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1332"/>
         <source>Line</source>
-        <translation type="unfinished">라인</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1340"/>
@@ -47036,7 +47036,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="958"/>
         <source>Line</source>
-        <translation type="unfinished">라인</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1100"/>
@@ -52790,7 +52790,7 @@ enhancement</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="327"/>
         <source>LINESTRING</source>
-        <translation type="unfinished">라인스트링</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="330"/>
@@ -52805,17 +52805,17 @@ enhancement</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="336"/>
         <source>MULTILINESTRING</source>
-        <translation type="unfinished">멀티라인스트링</translation>
+        <translation type="unfinished">다중 선</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="339"/>
         <source>MULTIPOLYGON</source>
-        <translation type="unfinished">멀티폴리곤</translation>
+        <translation type="unfinished">다중 폴리곤</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="342"/>
         <source>GEOMETRYCOLLECTION</source>
-        <translation type="unfinished">지오메트리컬렉션</translation>
+        <translation type="unfinished">지오메트리 집합</translation>
     </message>
 </context>
 <context>
@@ -53205,12 +53205,12 @@ but implies better performance thereafter.</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="201"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="205"/>
         <source>Multiline</source>
-        <translation>멀티라인</translation>
+        <translation>다중 선</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="209"/>
@@ -53220,7 +53220,7 @@ but implies better performance thereafter.</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="213"/>
         <source>Multipolygon</source>
-        <translation>멀티폴리곤</translation>
+        <translation>다중 폴리곤</translation>
     </message>
 </context>
 <context>
@@ -54690,7 +54690,7 @@ Overwrite?</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="178"/>
         <source>Line symbol (%1)</source>
-        <translation>라인 심볼 (%1)</translation>
+        <translation>선 심볼 (%1)</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="179"/>
@@ -54955,7 +54955,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/ui/qgsstylev2managerdialogbase.ui" line="201"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsstylev2managerdialogbase.ui" line="216"/>
@@ -55697,7 +55697,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="160"/>
         <source>When applying layered styles to a polyline layer, you can join intersecting lines together simply by enabling symbol levels. The image below shows a before (left) and after (right) view of an intersection when symbol levels are enabled.</source>
-        <translation>폴리라인 레이어에 스타일을 적용할 때, 교차하는 라인을 심플하게 심볼 수준에서 결합할 수 있습니다. 다음 이미지로 전(왼쪽)과 후(오른쪽)의 심볼 수준의 결합 상태를 알 수 있습니다.</translation>
+        <translation>폴리라인 레이어에 스타일을 적용할 때, 교차하는 선을 심플하게 심볼 수준에서 결합할 수 있습니다. 다음 이미지로 전(왼쪽)과 후(오른쪽)의 심볼 수준의 결합 상태를 알 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="168"/>
@@ -57147,7 +57147,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Line</source>
-        <translation type="obsolete">라인</translation>
+        <translation type="obsolete">선</translation>
     </message>
     <message>
         <source>Horizontal</source>
@@ -57163,11 +57163,11 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Above line</source>
-        <translation type="obsolete">라인 위</translation>
+        <translation type="obsolete">선 위</translation>
     </message>
     <message>
         <source>Below Line</source>
-        <translation type="obsolete">라인 아래</translation>
+        <translation type="obsolete">선 아래</translation>
     </message>
     <message>
         <source>Map orientation</source>
@@ -57718,7 +57718,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Line Options</source>
-        <translation type="obsolete">라인 옵션</translation>
+        <translation type="obsolete">선 옵션</translation>
     </message>
     <message>
         <source>Distance</source>
@@ -60289,7 +60289,7 @@ Tried URL: %1</source>
     <message>
         <location filename="../src/plugins/roadgraph/linevectorlayerwidget.cpp" line="112"/>
         <source>Line lengths</source>
-        <translation>라인 길이</translation>
+        <translation>선 길이</translation>
     </message>
     <message>
         <location filename="../src/plugins/roadgraph/linevectorlayerwidget.cpp" line="117"/>
@@ -60590,7 +60590,7 @@ Tried URL: %1</source>
     <message>
         <location filename="../src/plugins/sqlanywhere/sadbtablemodel.cpp" line="41"/>
         <source>Line Interpretation</source>
-        <translation>라인 판독</translation>
+        <translation>선 판독</translation>
     </message>
     <message>
         <location filename="../src/plugins/sqlanywhere/sadbtablemodel.cpp" line="42"/>
@@ -60907,7 +60907,7 @@ SQL Anywhere 오류 코드: %1
         <location filename="../src/plugins/sqlanywhere/sasourceselect.cpp" line="80"/>
         <location filename="../src/plugins/sqlanywhere/sasourceselect.cpp" line="223"/>
         <source>Line Interpretation</source>
-        <translation>라인 판독</translation>
+        <translation>선 판독</translation>
     </message>
     <message>
         <location filename="../src/plugins/sqlanywhere/sasourceselect.cpp" line="81"/>
@@ -61309,7 +61309,7 @@ about SEXTANTE</source>
     <message>
         <location filename="../src/ui/qgssimplifytolerancedialog.ui" line="14"/>
         <source>Simplify line tolerance</source>
-        <translation>라인 간략화 허용치</translation>
+        <translation>선 간략화 허용치</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssimplifytolerancedialog.ui" line="20"/>
@@ -61895,7 +61895,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_markerline.ui" line="126"/>
         <source>Line offset</source>
-        <translation>라인 오프셋</translation>
+        <translation>선 오프셋</translation>
     </message>
     <message>
         <source>Change</source>
@@ -62531,7 +62531,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>LineStyle</source>
-        <translation type="obsolete">라인 스타일</translation>
+        <translation type="obsolete">선 스타일</translation>
     </message>
     <message>
         <source>change</source>
@@ -65316,7 +65316,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Line intersections</source>
-        <translation>라인 교차</translation>
+        <translation>선 교차</translation>
     </message>
     <message>
         <source>&amp;Research Tools</source>
@@ -65436,11 +65436,11 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Polygons to lines</source>
-        <translation>폴리곤을 라인으로</translation>
+        <translation>폴리곤을 선으로</translation>
     </message>
     <message>
         <source>Lines to polygons</source>
-        <translation>라인을 폴리곤으로</translation>
+        <translation>선을 폴리곤으로</translation>
     </message>
     <message>
         <source>&amp;Data Management Tools</source>
@@ -67456,7 +67456,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Line length</source>
-        <translation>라인 길이</translation>
+        <translation>선 길이</translation>
     </message>
     <message>
         <source>Point x ordinate</source>
@@ -67603,7 +67603,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="30"/>
         <source>Break lines at each intersection of vector</source>
-        <translation>라인을 벡터의 교차점에서 분리</translation>
+        <translation>선을 벡터의 교차점에서 분리</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="31"/>
@@ -67618,7 +67618,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="33"/>
         <source>Build polylines from lines</source>
-        <translation>라인에서 폴리라인 만들기</translation>
+        <translation>선에서 폴리라인 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="34"/>
@@ -67743,12 +67743,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="58"/>
         <source>Change the type of boundary dangle to line</source>
-        <translation>라인에 걸리는 경계의 타입 바꾸기</translation>
+        <translation>선에 걸리는 경계의 타입 바꾸기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="59"/>
         <source>Change the type of bridges connecting area and island or 2 islands from boundary to line</source>
-        <translation>영역과 하나 이상의 아이슬랜드 사이의 브리지 유형을 바운더리에서 라인으로 변경합니다.</translation>
+        <translation>영역과 하나 이상의 아이슬랜드 사이의 브리지 유형을 바운더리에서 선으로 변경합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="60"/>
@@ -67850,7 +67850,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="77"/>
         <source>Convert boundaries to lines</source>
-        <translation>바운더리를 라인으로 변환</translation>
+        <translation>바운더리를 선으로 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="78"/>
@@ -67870,7 +67870,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="81"/>
         <source>Convert lines to boundaries</source>
-        <translation>라인을 바운더리로 변환</translation>
+        <translation>선을 바운더리로 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="82"/>
@@ -67885,7 +67885,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="84"/>
         <source>Convert raster to vector lines</source>
-        <translation>래스터를 벡터 라인으로 변환</translation>
+        <translation>래스터를 벡터 선으로 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="85"/>
@@ -68025,7 +68025,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="112"/>
         <source>Create parallel line to input lines</source>
-        <translation>입력 라인의 평행선 만들기</translation>
+        <translation>입력 선의 평행선 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="113"/>
@@ -68035,12 +68035,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="114"/>
         <source>Create points along input lines</source>
-        <translation>입력 라인에 따라 점 만들기</translation>
+        <translation>입력 선에 따라 점 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="115"/>
         <source>Create points/segments from input vector lines and positions</source>
-        <translation>입력 벡터 라인과 위치에서 점군/세그먼트 만들기</translation>
+        <translation>입력 벡터 선과 위치에서 점군/세그먼트 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="116"/>
@@ -68833,7 +68833,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="260"/>
         <source>Import raster from ASCII polygon/line</source>
-        <translation>ASCII 폴리곤/라인에서 래스터 가져오기</translation>
+        <translation>ASCII 폴리곤/선에서 래스터 가져오기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="261"/>
@@ -69099,7 +69099,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="310"/>
         <source>Output raster values along user-defined transect line(s)</source>
-        <translation>사용자 정의 횡단 라인에 따라 래스터 값 출력</translation>
+        <translation>사용자 정의 횡단 선에 따라 래스터 값 출력</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="311"/>
@@ -69303,7 +69303,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="350"/>
         <source>Remove all lines or boundaries of zero length</source>
-        <translation>둘레가 0 인 모든 라인을 삭제합니다.</translation>
+        <translation>둘레가 0 인 모든 선을 삭제합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="351"/>
@@ -69323,7 +69323,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="354"/>
         <source>Remove duplicate lines (pay attention to categories!)</source>
-        <translation>중복 라인 제거 (카테고리에 주의!)</translation>
+        <translation>중복 선 제거 (카테고리에 주의!)</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="355"/>
@@ -69338,7 +69338,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="357"/>
         <source>Remove small angles between lines at nodes</source>
-        <translation>라인과 노드 사이의 미세한 각도 삭제</translation>
+        <translation>선과 노드 사이의 미세한 틈 삭제</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="358"/>
@@ -69348,7 +69348,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="359"/>
         <source>Remove vertices in threshold from lines and boundaries, boundary is pruned only if topology is not damaged (new intersection, changed attachement of centroid), first and last segment of the boundary is never changed</source>
-        <translation>라인과 외곽선에서 임계값 내의 버텍스를 삭제합니다. 외곽선은 토폴로지가 손상(새로은 교차, 센트로이드 부착 변경)되지 않는 경우에만 잘라낼 수 있습니다. 외곽선의 처음과 마지막 세그먼트는 변경되지 않습니다.</translation>
+        <translation>선과 외곽선에서 임계값 내의 버텍스를 삭제합니다. 외곽선은 토폴로지가 손상(새로은 교차, 센트로이드 부착 변경)되지 않는 경우에만 잘라낼 수 있습니다. 외곽선의 처음과 마지막 세그먼트는 변경되지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="360"/>
@@ -69542,7 +69542,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="396"/>
         <source>Snap lines to vertex in threshold</source>
-        <translation>라인을 임계값 내 점에 스냅</translation>
+        <translation>선을 임계값 내 점에 스냅</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="397"/>
@@ -69562,7 +69562,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="400"/>
         <source>Split lines to shorter segments</source>
-        <translation>라인을 짧은 세그먼트로 분할</translation>
+        <translation>선을 짧은 세그먼트로 분할</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="401"/>
@@ -69632,7 +69632,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="414"/>
         <source>Thin no-zero cells that denote line features</source>
-        <translation>라인 피처를 나타내는 0이 아닌 셀을 솎아내기</translation>
+        <translation>선 피처를 나타내는 0이 아닌 셀을 솎아내기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="415"/>
