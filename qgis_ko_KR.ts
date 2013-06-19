@@ -67548,7 +67548,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="19"/>
         <source>Assign new value to column as result of operation on columns only if the result of query is TRUE</source>
-        <translation>쿼리 결과가 참인 경우에만 인산 결과를 속성 테이블의 컬럼의 새 값으로 할당합니다.</translation>
+        <translation>쿼리 결과가 참인 경우에만 연산 결과를 속성 테이블의 컬럼의 새 값으로 할당합니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="20"/>
@@ -67598,7 +67598,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="29"/>
         <source>Break (topologically clean) polygons (imported from non topological format, like ShapeFile). Boundaries are broken on each point shared between 2 and more polygons where angles of segments are different</source>
-        <translation>(위상적으로 완벽한) 폴리곤(Shapefile 같은 위상 구조가없는 형식에서 가져온 것)을 분리합니다. 경계는 2 개 이상의 폴리곤에 공유되는 세그먼트의 앵글이 다른 점에서 분할됩니다.</translation>
+        <translation>(위상적으로 완벽한) 폴리곤(Shapefile 같은 위상 구조가없는 형식에서 가져온 것)을 분리합니다. 경계는 2 개 이상의 폴리곤에 공유되는 세그먼트의 앵글이 다른 점에서 분할됩니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="30"/>
@@ -67653,7 +67653,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="40"/>
         <source>Calculate mode of raster within areas with the same category in a user-defined base map</source>
-        <translation>사용자 정의 기본지도에서 같은 카테고리 영역 내 래스터의 최빈 값을 계산합니다.</translation>
+        <translation>사용자 정의 기본지도에서 같은 카테고리 영역 내 래스터의 최빈 값을 계산합니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="41"/>
@@ -67748,7 +67748,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="59"/>
         <source>Change the type of bridges connecting area and island or 2 islands from boundary to line</source>
-        <translation>영역과 하나 이상의 아이슬랜드 사이의 브리지 유형을 바운더리에서 라인으로 변경합니다.</translation>
+        <translation>영역과 하나 이상의 아일랜드 사이의 브리지 유형을 바운더리에서 라인으로 변경합니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="60"/>
@@ -69794,19 +69794,19 @@ Returns a string representation of a color based on its hue, saturation, value a
     <name>optionsDialog</name>
     <message>
         <source>Warning!</source>
-        <translation type="unfinished"></translation>
+        <translation>경고!</translation>
     </message>
     <message>
         <source>You need to add some APIs file in order to compile</source>
-        <translation type="unfinished"></translation>
+        <translation>컴파일을 위하여 API 파일을 추가하세요</translation>
     </message>
     <message>
         <source>Please specify API file or check &quot;Use preloaded API files&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>API 파일을 적거나 &quot;Use Preloaded API files&quot;에 체크하세요</translation>
     </message>
     <message>
         <source>The APIs file was not compiled, click on &quot;Compile APIs...&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>API 파일이 컴파일 되지 않았거나 &quot;Compile APIs&quot;를 누르세요</translation>
     </message>
 </context>
 <context>
@@ -69814,59 +69814,59 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="14"/>
         <source>Topology Rule Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>토폴로지 규칙. 설정</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="20"/>
         <source>Current Rules</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 규칙</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="112"/>
         <source>Rule</source>
-        <translation type="unfinished">규칙</translation>
+        <translation>규칙</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="117"/>
         <source>Layer #1</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 1</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="122"/>
         <source>Layer #2</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 2</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="66"/>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="127"/>
         <source>Tolerance</source>
-        <translation type="unfinished">허용 범위</translation>
+        <translation>허용 범위</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="132"/>
         <source>Layer1ID</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어1 ID</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="137"/>
         <source>Layer2ID</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어2 ID</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="33"/>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="52"/>
         <source>No layer</source>
-        <translation type="unfinished">레이어가 없습니다.</translation>
+        <translation>레이어 없음</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="93"/>
         <source>Add New Rule</source>
-        <translation type="unfinished"></translation>
+        <translation>새 규칙 추가</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/rulesDialog.ui" line="100"/>
         <source>Delete Rule</source>
-        <translation type="unfinished"></translation>
+        <translation>규칙 삭제</translation>
     </message>
 </context>
 <context>
@@ -69874,7 +69874,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="232"/>
         <source>Invalid second geometry.</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 두 번째 지오메트리.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="232"/>
@@ -69899,64 +69899,64 @@ Returns a string representation of a color based on its hue, saturation, value a
         <location filename="../src/plugins/topology/topolTest.cpp" line="1672"/>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1678"/>
         <source>Topology plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 두 번째 지오메트리</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="235"/>
         <source>Invalid first geometry.</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 첫 번째 지오메트리.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="276"/>
         <source>First geometry invalid in line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>라인 테스트에서 첫 번재 지오메트리가 잘못 되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="282"/>
         <source>Failed to import first geometry into GEOS in line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>라인 테스트에서 GEOS의 첫 번째 지오메트리를 가져올 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="408"/>
         <location filename="../src/plugins/topology/topolTest.cpp" line="531"/>
         <source>Invalid second geometry in dangling line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>danling 라인 테스트에서 두 번째 지오메트리가 잘못 되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="414"/>
         <location filename="../src/plugins/topology/topolTest.cpp" line="537"/>
         <source>Failed to import second geometry into GEOS in dangling line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>dangling 라인 테스트에서 GEOS의 두 번째 지오메트리를 가져올 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="543"/>
         <source>Skipping invalid second geometry of feature %1 in dangling line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>dangling 라인 테스트에서 %1 피처의 잘못된 두 번째 지오메트리를 무시하겠습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="767"/>
         <source>Skipping invalid first geometry in pseudo line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>pseudo 라인 테스트에서 잘못된 첫 번째 지오메트리를 무시하겠습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="773"/>
         <source>Failed to import first geometry into GEOS in pseudo line test.</source>
-        <translation type="unfinished"></translation>
+        <translation>pseudo 라인 테스트에서 GEOS의 첫 번째 지오메트리를 가져올 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="868"/>
         <source>Invalid geometry in validity test.</source>
-        <translation type="unfinished"></translation>
+        <translation>유효성 검사에서 지오메트리가 잘못되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="939"/>
         <source>Invalid geometry in covering test.</source>
-        <translation type="unfinished"></translation>
+        <translation>커버링 테스트에서 지오메트리가 잘못되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1173"/>
         <source>Second geometry missing.</source>
-        <translation type="unfinished"></translation>
+        <translation>두 번째 지오메트리가 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1262"/>
@@ -69964,22 +69964,22 @@ Returns a string representation of a color based on its hue, saturation, value a
         <location filename="../src/plugins/topology/topolTest.cpp" line="1438"/>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1512"/>
         <source>No second geometry missing or GEOS import failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>두 번째 지오메트리가 누락되지 않았거나 GOES 임포트가 실패했습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1553"/>
         <source>Missing geometry in multipart check.</source>
-        <translation type="unfinished"></translation>
+        <translation>멀티파트 검사에서 지오메트리가 누락되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1672"/>
         <source>First layer not found in registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>레지스트리에서 첫번째 레이어를 찾을 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="1678"/>
         <source>Second layer not found in registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>레지스트리에서 두 번째 레이어를 찾을 수 없습니다.</translation>
     </message>
 </context>
 <context>
