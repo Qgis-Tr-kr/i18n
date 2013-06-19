@@ -814,12 +814,12 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgDbError.ui" line="54"/>
         <source>An error occured when executing a query:</source>
-        <translation type="unfinished">다음 쿼리 실행중 오류 발생:</translation>
+        <translation type="unfinished">다음 질의 실행중 오류 발생:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgDbError.ui" line="71"/>
         <source>Query:</source>
-        <translation type="unfinished">쿼리:</translation>
+        <translation type="unfinished">질의:</translation>
     </message>
 </context>
 <context>
@@ -1021,7 +1021,7 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="29"/>
         <source>SQL query:</source>
-        <translation type="unfinished">SQL 쿼리:</translation>
+        <translation type="unfinished">SQL 질의:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="59"/>
@@ -3086,11 +3086,11 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>An error occured when executing a query:</source>
-        <translation type="obsolete">다음 쿼리 실행중 오류 발생:</translation>
+        <translation type="obsolete">다음 질의 실행중 오류 발생:</translation>
     </message>
     <message>
         <source>Query:</source>
-        <translation type="obsolete">쿼리:</translation>
+        <translation type="obsolete">질의:</translation>
     </message>
 </context>
 <context>
@@ -3349,7 +3349,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>SQL query:</source>
-        <translation type="obsolete">SQL 쿼리:</translation>
+        <translation type="obsolete">SQL 질의:</translation>
     </message>
     <message>
         <source>&amp;Execute (F5)</source>
@@ -10618,7 +10618,7 @@ It will be disabled.</source>
     <message>
         <location filename="../src/providers/grass/qgsgrass.cpp" line="1483"/>
         <source>Cannot query raster </source>
-        <translation>래스터 쿼리할 수 없습니다.</translation>
+        <translation>래스터 질의할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugin.cpp" line="62"/>
@@ -11283,7 +11283,7 @@ Only %1 of %2 features written.</source>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialqueryplugin.cpp" line="48"/>
         <source>Spatial Query Plugin</source>
-        <translation>공간 쿼리 플러그인</translation>
+        <translation>공간 질의 플러그인</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialqueryplugin.cpp" line="49"/>
@@ -13956,7 +13956,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Load/save queries created in the query builder.</source>
-        <translation type="obsolete">쿼리 빌더에서 만든 쿼리를 로드/저장하는 기능을 추가했습니다.</translation>
+        <translation type="obsolete">질의 빌더에서 만든 질의를 로드/저장하는 기능을 추가했습니다.</translation>
     </message>
     <message>
         <source>Manual adding of categories in symbology-ng.</source>
@@ -14464,7 +14464,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Set subset query of the current layer</source>
-        <translation type="obsolete">현재 레이어에 대한 서브셋 쿼리를 설정</translation>
+        <translation type="obsolete">현재 레이어에 대한 서브셋 질의를 설정</translation>
     </message>
     <message>
         <source>Add to Overview</source>
@@ -17603,7 +17603,7 @@ SVG 검색 경로:	%7
     </message>
     <message>
         <source>Opens the search query builder</source>
-        <translation type="obsolete">검색 쿼리 빌더 열기</translation>
+        <translation type="obsolete">검색 질의 빌더 열기</translation>
     </message>
     <message>
         <source>Advanced search</source>
@@ -38082,11 +38082,11 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     </message>
     <message>
         <source>&amp;Build query</source>
-        <translation type="obsolete">쿼리 작성(&amp;B)</translation>
+        <translation type="obsolete">질의 작성(&amp;B)</translation>
     </message>
     <message>
         <source>Build query</source>
-        <translation type="obsolete">쿼리 작성</translation>
+        <translation type="obsolete">질의 작성</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlsourceselect.cpp" line="138"/>
@@ -39281,7 +39281,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/analysis/openstreetmap/qgsosmdownload.cpp" line="46"/>
         <source>No query has been specified.</source>
-        <translation>아무 쿼리도 지정되지 않았습니다..</translation>
+        <translation>아무 질의도 지정되지 않았습니다..</translation>
     </message>
     <message>
         <location filename="../src/analysis/openstreetmap/qgsosmdownload.cpp" line="52"/>
@@ -42779,7 +42779,7 @@ SQL: %3</source>
 The error message from the database was:
 %1.
 SQL: %2</source>
-        <translation type="unfinished">쿼리를 수행할 수 없습니다.
+        <translation type="unfinished">질의를 수행할 수 없습니다.
 데이터베이스 오류 메시지는 다음과 같음:
 %1.
 SQL: %2</translation>
@@ -43138,11 +43138,11 @@ Error: %2</source>
     </message>
     <message>
         <source>&amp;Build query</source>
-        <translation type="obsolete">쿼리 작성(&amp;B)</translation>
+        <translation type="obsolete">질의 작성(&amp;B)</translation>
     </message>
     <message>
         <source>Build query</source>
-        <translation type="obsolete">쿼리 작성</translation>
+        <translation type="obsolete">질의 작성</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="188"/>
@@ -43894,11 +43894,11 @@ Extended error information:
     </message>
     <message>
         <source>&amp;Build query</source>
-        <translation type="obsolete">쿼리 작성(&amp;B)</translation>
+        <translation type="obsolete">질의 작성(&amp;B)</translation>
     </message>
     <message>
         <source>Build query</source>
-        <translation type="obsolete">쿼리 작성</translation>
+        <translation type="obsolete">질의 작성</translation>
     </message>
     <message>
         <source>&amp;Save</source>
@@ -44139,7 +44139,7 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>Build query</source>
-        <translation type="obsolete">쿼리 작성</translation>
+        <translation type="obsolete">질의 작성</translation>
     </message>
 </context>
 <context>
@@ -46414,7 +46414,7 @@ Write accesses will be denied.</source>
     </message>
     <message>
         <source>Unable execute the query</source>
-        <translation type="obsolete">쿼리를 수행할 수 없습니다.</translation>
+        <translation type="obsolete">질의를 수행할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="976"/>
@@ -46422,7 +46422,7 @@ Write accesses will be denied.</source>
 The error message from the database was:
 %1.
 SQL: %2</source>
-        <translation>쿼리를 수행할 수 없습니다.
+        <translation>질의를 수행할 수 없습니다.
 데이터베이스 오류 메시지는 다음과 같음:
 %1.
 SQL: %2</translation>
@@ -47506,24 +47506,24 @@ Because of this the projection selector will not work...</source>
     </message>
     <message>
         <source>Invalid Query</source>
-        <translation type="obsolete">잘못된 쿼리</translation>
+        <translation type="obsolete">잘못된 질의</translation>
     </message>
     <message>
         <source>Setting the query failed</source>
-        <translation type="obsolete">쿼리 설정에 실패했습니다.</translation>
+        <translation type="obsolete">질의 설정에 실패했습니다.</translation>
     </message>
     <message>
         <source>No Query</source>
-        <translation type="obsolete">쿼리가 없습니다.</translation>
+        <translation type="obsolete">질의가 없습니다.</translation>
     </message>
     <message>
         <source>You must create a query before you can test it</source>
-        <translation type="obsolete">테스트 전에 쿼리를 만들어야합니다.</translation>
+        <translation type="obsolete">테스트 전에 질의를 만들어야합니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="191"/>
         <source>Query Result</source>
-        <translation>쿼리 결과</translation>
+        <translation>질의 결과</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/qgsquerybuilder.cpp" line="192"/>
@@ -47538,7 +47538,7 @@ Because of this the projection selector will not work...</source>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="205"/>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="218"/>
         <source>Query Failed</source>
-        <translation>쿼리 실패</translation>
+        <translation>질의 실패</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="198"/>
@@ -47559,12 +47559,12 @@ The data provider said:
     </message>
     <message>
         <source>An error occurred when executing the query</source>
-        <translation type="obsolete">쿼리 실행 중 오류 발생했습니다.</translation>
+        <translation type="obsolete">질의 실행 중 오류 발생했습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="225"/>
         <source>Error in Query</source>
-        <translation>쿼리에 오류 있음</translation>
+        <translation>질의에 오류 있음</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="225"/>
@@ -47577,7 +47577,7 @@ The data provider said:
     <message>
         <location filename="../src/ui/qgsquerybuilderbase.ui" line="22"/>
         <source>Query Builder</source>
-        <translation>쿼리 빌더</translation>
+        <translation>질의 생성기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsquerybuilderbase.ui" line="36"/>
@@ -51870,12 +51870,12 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="256"/>
         <source>The query you specified results in zero records being returned.</source>
-        <translation>지정된 쿼리를 실행한 결과 0 개의 레코드가 반환되었습니다.</translation>
+        <translation>지정된 질의를 실행한 결과 0 개의 레코드가 반환되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="40"/>
         <source>Search query builder</source>
-        <translation>검색 쿼리 생성기</translation>
+        <translation>검색 질의 생성기</translation>
     </message>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="42"/>
@@ -51895,7 +51895,7 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="52"/>
         <source>Save query to an xml file</source>
-        <translation>쿼리를 xml 파일로 저장하기</translation>
+        <translation>질의를 xml 파일로 저장하기</translation>
     </message>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="55"/>
@@ -51905,7 +51905,7 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="57"/>
         <source>Load query from xml file</source>
-        <translation>쿼리를 xml 파일에서 로드</translation>
+        <translation>질의를 xml 파일에서 로드</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="182"/>
@@ -51928,7 +51928,7 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="365"/>
         <source>Save query to file</source>
-        <translation>쿼리를 파일로 저장</translation>
+        <translation>질의를 파일로 저장</translation>
     </message>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="379"/>
@@ -51946,12 +51946,12 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="401"/>
         <source>Load query from file</source>
-        <translation>파일에서 쿼리를 로드</translation>
+        <translation>파일에서 질의를 로드</translation>
     </message>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="401"/>
         <source>Query files</source>
-        <translation>쿼리 파일</translation>
+        <translation>질의 파일</translation>
     </message>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="401"/>
@@ -51971,7 +51971,7 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="423"/>
         <source>File is not a valid query document</source>
-        <translation>파일이 올바른 쿼리 문서가 아닙니다.</translation>
+        <translation>파일이 올바른 질의 문서가 아닙니다.</translation>
     </message>
     <message>
         <source>Error creating search tree</source>
@@ -52956,7 +52956,7 @@ SQL: %1</translation>
     </message>
     <message>
         <source>&amp;Build Query</source>
-        <translation type="obsolete">쿼리 만들기(&amp;B)</translation>
+        <translation type="obsolete">질의 만들기(&amp;B)</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="64"/>
@@ -53227,7 +53227,7 @@ but implies better performance thereafter.</source>
     <name>QgsSpatialQueryDialog</name>
     <message>
         <source>The spatial query requires at least two layers</source>
-        <translation type="obsolete">공간 쿼리에는 적어도 두 개 이상의 레이어가 필요합니다.</translation>
+        <translation type="obsolete">공간 질의에는 적어도 두 개 이상의 레이어가 필요합니다.</translation>
     </message>
     <message>
         <source>Insufficient number of layers</source>
@@ -53256,7 +53256,7 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>Query:</source>
-        <translation type="obsolete">쿼리:</translation>
+        <translation type="obsolete">질의:</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="211"/>
@@ -53289,12 +53289,12 @@ but implies better performance thereafter.</source>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="89"/>
         <source>The spatial query requires at least two vector layers</source>
-        <translation>공간 쿼리에는 적어도 두 개 이상의 레이어가 필요합니다.</translation>
+        <translation>공간 질의에는 적어도 두 개 이상의 레이어가 필요합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="204"/>
         <source>%1)Query</source>
-        <translation>%1)쿼리</translation>
+        <translation>%1)질의</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="206"/>
@@ -53438,7 +53438,7 @@ CRS of map is %1.
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="831"/>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="857"/>
         <source>The query from &quot;%1&quot; using &quot;%2&quot; in field not possible.</source>
-        <translation>&quot;%1&quot;의 쿼리에서 사용하는 필드의 &quot;%2&quot;를 사용할 수 없습니다.</translation>
+        <translation>&quot;%1&quot;의 질의에서 사용하는 필드의 &quot;%2&quot;를 사용할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="839"/>
@@ -53591,7 +53591,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="404"/>
         <source>Run query or close the window</source>
-        <translation>쿼리를 실행하거나 창을 닫으십시오.</translation>
+        <translation>질의를 실행하거나 창을 닫으십시오.</translation>
     </message>
     <message>
         <source>Topological operations between layers of target and reference</source>
@@ -53617,7 +53617,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="350"/>
         <source>Check to show log processing of query</source>
-        <translation>쿼리 실행 중의 로그를 확인하십시오.</translation>
+        <translation>질의 실행 중의 로그를 확인하십시오.</translation>
     </message>
     <message>
         <source>Show log messages</source>
@@ -53625,7 +53625,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Total of features from query</source>
-        <translation type="obsolete">쿼리결과 총 객체</translation>
+        <translation type="obsolete">질의결과 총 객체</translation>
     </message>
     <message>
         <source> Total</source>
@@ -53644,7 +53644,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialqueryplugin.cpp" line="114"/>
         <source>Query not executed</source>
-        <translation>쿼리를 실행할 수 없습니다.</translation>
+        <translation>질의를 실행할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialqueryplugin.cpp" line="161"/>
@@ -56904,12 +56904,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="352"/>
         <source>This button opens the query builder and allows you to create a subset of features to display on the map canvas rather than displaying all features in the layer</source>
-        <translation>이 버튼은 쿼리 빌더를 열어 맵 캔버스 상에 레이어의 모든 객체를 디스플레이 하는 대신 디스플레이 할 객체의 서브셋을 만들 수 있게 함</translation>
+        <translation>이 버튼은 질의 빌더를 열어 맵 캔버스 상에 레이어의 모든 객체를 디스플레이 하는 대신 디스플레이 할 객체의 서브셋을 만들 수 있게 함</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="355"/>
         <source>The query used to limit the features in the layer is shown here. To enter or modify the query, click on the Query Builder button</source>
-        <translation>쿼리는 여기에 표시되는 레이어의 객체에 대해서만 사용할 수 있습니다. 쿼리를 변경하기 위해서는 쿼리 작성기 단추를 클릭</translation>
+        <translation>질의는 여기에 표시되는 레이어의 객체에 대해서만 사용할 수 있습니다. 질의를 변경하기 위해서는 질의 생성기 단추를 클릭</translation>
     </message>
     <message>
         <source>Line edit</source>
@@ -57333,7 +57333,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="652"/>
         <source>Query Builder</source>
-        <translation>쿼리 빌더</translation>
+        <translation>질의 생성기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="149"/>
@@ -58139,12 +58139,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/providers/wfs/qgswfssourceselect.cpp" line="55"/>
         <source>&amp;Build query</source>
-        <translation type="unfinished">쿼리 작성(&amp;B)</translation>
+        <translation type="unfinished">질의 작성(&amp;B)</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfssourceselect.cpp" line="56"/>
         <source>Build query</source>
-        <translation type="unfinished">쿼리 작성</translation>
+        <translation type="unfinished">질의 작성</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfssourceselect.cpp" line="203"/>
@@ -59305,7 +59305,7 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3120"/>
         <source>GetFeatureInfo request is applied to a Layer which is not declared queryable.</source>
-        <translation>쿼리 가능하게 설정되지 않은 레이어에 대한 GetFeatureInfo를 요청합니다.</translation>
+        <translation>질의 가능하게 설정되지 않은 레이어에 대한 GetFeatureInfo를 요청합니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3124"/>
@@ -60803,23 +60803,23 @@ SQL Anywhere 오류 코드: %1
     </message>
     <message>
         <source>Invalid Query</source>
-        <translation type="obsolete">잘못된 쿼리</translation>
+        <translation type="obsolete">잘못된 질의</translation>
     </message>
     <message>
         <source>Setting the query failed</source>
-        <translation type="obsolete">쿼리 설정 실패</translation>
+        <translation type="obsolete">질의 설정 실패</translation>
     </message>
     <message>
         <source>No Query</source>
-        <translation type="obsolete">쿼리가 없음</translation>
+        <translation type="obsolete">질의가 없음</translation>
     </message>
     <message>
         <source>You must create a query before you can test it</source>
-        <translation type="obsolete">테스트 전에 쿼리를 만들어야합니다.</translation>
+        <translation type="obsolete">테스트 전에 질의를 만들어야합니다.</translation>
     </message>
     <message>
         <source>Query Result</source>
-        <translation type="obsolete">쿼리 결과</translation>
+        <translation type="obsolete">질의 결과</translation>
     </message>
     <message numerus="yes">
         <source>The where clause returned %n row(s).</source>
@@ -60830,15 +60830,15 @@ SQL Anywhere 오류 코드: %1
     </message>
     <message>
         <source>Query Failed</source>
-        <translation type="obsolete">쿼리 실패</translation>
+        <translation type="obsolete">질의 실패</translation>
     </message>
     <message>
         <source>An error occurred when executing the query</source>
-        <translation type="obsolete">쿼리 실행 중 오류 발생</translation>
+        <translation type="obsolete">질의 실행 중 오류 발생</translation>
     </message>
     <message>
         <source>Error in Query</source>
-        <translation type="obsolete">쿼리 오류</translation>
+        <translation type="obsolete">질의 오류</translation>
     </message>
     <message>
         <source>The subset string could not be set</source>
@@ -60854,7 +60854,7 @@ SQL Anywhere 오류 코드: %1
     </message>
     <message>
         <source>&amp;Build Query</source>
-        <translation type="obsolete">쿼리 만들기(&amp;B)</translation>
+        <translation type="obsolete">질의 만들기(&amp;B)</translation>
     </message>
     <message>
         <location filename="../src/plugins/sqlanywhere/sasourceselect.cpp" line="65"/>
@@ -61017,7 +61017,7 @@ SQL Anywhere 오류 코드: %2
     </message>
     <message>
         <source>Build query</source>
-        <translation type="obsolete">쿼리 작성</translation>
+        <translation type="obsolete">질의 작성</translation>
     </message>
     <message>
         <location filename="../src/plugins/sqlanywhere/sasourceselectbase.ui" line="83"/>
@@ -64543,7 +64543,7 @@ For support send a mail to scala@itc.cnr.it
     <message>
         <location filename="../src/plugins/evis/evis.cpp" line="109"/>
         <source>Create layer from a database query</source>
-        <translation>데이터베이스 쿼리에서 레이어를 만들</translation>
+        <translation>데이터베이스 질의에서 레이어를 만들</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/evis.cpp" line="110"/>
@@ -64567,7 +64567,7 @@ For support send a mail to scala@itc.cnr.it
     <message>
         <location filename="../src/plugins/evis/databaseconnection/evisdatabaseconnectiongui.cpp" line="77"/>
         <source>No predefined queries loaded</source>
-        <translation>미리 정의된 쿼리가 로드되지 않음</translation>
+        <translation>미리 정의된 질의가 로드되지 않음</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/databaseconnection/evisdatabaseconnectiongui.cpp" line="82"/>
@@ -64616,7 +64616,7 @@ For support send a mail to scala@itc.cnr.it
     <message>
         <location filename="../src/plugins/evis/databaseconnection/evisdatabaseconnectiongui.cpp" line="476"/>
         <source>Error: Query failed: %1</source>
-        <translation>오류: 쿼리 실패: %1</translation>
+        <translation>오류: 질의 실패: %1</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/databaseconnection/evisdatabaseconnectiongui.cpp" line="530"/>
@@ -64655,27 +64655,27 @@ For support send a mail to scala@itc.cnr.it
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="65"/>
         <source>Load predefined queries</source>
-        <translation>미리 정의된 쿼리 로드</translation>
+        <translation>미리 정의된 질의 로드</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="68"/>
         <source>Loads an XML file with predefined queries. Use the Open File window to locate the XML file that contains one or more predefined queries using the format described in the user guide.</source>
-        <translation>미리 정의된 쿼리가 기술된 XML 파일을로드합니다. 파일 열기를 이용하여 쿼리가 정의된 XML 파일을 지정합니다. 쿼리를 사용하는 형식은 사용자 가이드에 기술되어 있습니다.</translation>
+        <translation>미리 정의된 질의가 기술된 XML 파일을로드합니다. 파일 열기를 이용하여 질의가 정의된 XML 파일을 지정합니다. 질의를 사용하는 형식은 사용자 가이드에 기술되어 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="98"/>
         <source>The description of the selected query.</source>
-        <translation>선택된 쿼리의 설명.</translation>
+        <translation>선택된 질의의 설명.</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="47"/>
         <source>Predefined Queries</source>
-        <translation>미리 정의된 쿼리</translation>
+        <translation>미리 정의된 질의</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="108"/>
         <source>Select the predefined query you want to use from the drop-down list containing queries identified from the file loaded using the Open File icon above. To run the query you need to click on the SQL Query tab. The query will be automatically entered in the query window.</source>
-        <translation>이용하고 싶은 정의된 쿼리를 파일의 내용을 가져온 드롭 다운 목록에서 선택하십시오. 파일은 위 파일 열기 아이콘으로 지정할 수 있습니다. 쿼리를 실행하기 위해서는 SQL 쿼리 탭을 클릭 해야합니다. 지정된 쿼리는 자동으로 쿼리 창에 입력됩니다.</translation>
+        <translation>이용하고 싶은 정의된 질의를 파일의 내용을 가져온 드롭 다운 목록에서 선택하십시오. 파일은 위 파일 열기 아이콘으로 지정할 수 있습니다. 질의를 실행하기 위해서는 SQL 질의 탭을 클릭 해야합니다. 지정된 질의는 자동으로 질의 창에 입력됩니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="165"/>
@@ -64766,22 +64766,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="350"/>
         <source>SQL Query</source>
-        <translation>SQL 쿼리</translation>
+        <translation>SQL 질의</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="375"/>
         <source>Run the query entered above. The status of the query will be displayed in the Output  Console below.</source>
-        <translation>위에 입력한 쿼리를 실행합니다. 쿼리의 상태는 출력 콘솔에 표시됩니다.</translation>
+        <translation>위에 입력한 질의를 실행합니다. 질의의 상태는 출력 콘솔에 표시됩니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="378"/>
         <source>Run Query</source>
-        <translation>쿼리 실행</translation>
+        <translation>질의 실행</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="388"/>
         <source>Enter the query you want to run in this window.</source>
-        <translation>실행하려는 쿼리를 이 창에 입력하십시오.</translation>
+        <translation>실행하려는 질의를 이 창에 입력하십시오.</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="435"/>
@@ -67538,7 +67538,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="17"/>
         <source>Assign new constant value to column only if the result of query is TRUE</source>
-        <translation>쿼리의 결과가 참인 경우에만 상수를 컬럼에 설정</translation>
+        <translation>질의의 결과가 참인 경우에만 상수를 컬럼에 설정</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="18"/>
@@ -67548,7 +67548,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="19"/>
         <source>Assign new value to column as result of operation on columns only if the result of query is TRUE</source>
-        <translation>쿼리 결과가 참인 경우에만 인산 결과를 속성 테이블의 컬럼의 새 값으로 할당합니다.</translation>
+        <translation>질의 결과가 참인 경우에만 인산 결과를 속성 테이블의 컬럼의 새 값으로 할당합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="20"/>
@@ -69164,7 +69164,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="323"/>
         <source>Query rasters on their category values and labels</source>
-        <translation>카테고리 값 및 라벨 래스터 쿼리</translation>
+        <translation>카테고리 값 및 라벨 래스터 질의</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="324"/>
