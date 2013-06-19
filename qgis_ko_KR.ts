@@ -72,12 +72,12 @@
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="124"/>
         <source>Coordinate in your selected CRS (lat,lon or east,north)</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 좌표계상의 좌표 (경,위도 혹은 동,북)</translation>
     </message>
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="128"/>
         <source>Coordinate in map canvas coordinate reference system (lat,lon or east,north)</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 캔버스 좌표계상의 좌표 (경,위도 혹은 동,북)</translation>
     </message>
     <message>
         <source>Coordinate in your selected CRS</source>
@@ -112,559 +112,567 @@
     <name>DBManager</name>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스가 선택되지 않았거나 연결되지 않았습니다.</translation>
     </message>
     <message>
         <source>Select the table you want export to file.</source>
-        <translation type="unfinished"></translation>
+        <translation>파일로 내보낼 테이블을 선택하십시오.</translation>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>DB 관리자</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation type="unfinished">정보</translation>
+        <translation>정보</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">테이블</translation>
+        <translation>테이블</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished">미리보기</translation>
+        <translation>미리보기</translation>
     </message>
     <message>
         <source>&amp;Database</source>
-        <translation type="unfinished">데이터베이스(&amp;D)</translation>
+        <translation>데이터베이스(&amp;D)</translation>
     </message>
     <message>
         <source>&amp;Schema</source>
-        <translation type="unfinished"></translation>
+        <translation>스키마(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블(&amp;T)</translation>
     </message>
     <message>
         <source>&amp;Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>새로고침(&amp;R)</translation>
     </message>
     <message>
         <source>&amp;SQL window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;SQL 창</translation>
     </message>
     <message>
         <source>&amp;Exit</source>
-        <translation type="unfinished"></translation>
+        <translation>종료(&amp;E)</translation>
     </message>
     <message>
         <source>&amp;Import layer/file</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어/파일 가져오기(&amp;I)</translation>
     </message>
     <message>
         <source>&amp;Export to file</source>
-        <translation type="unfinished"></translation>
+        <translation>파일로 내보내기(&amp;E)</translation>
     </message>
 </context>
 <context>
     <name>DBManagerPlugin</name>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>Unable to find a valid unique field</source>
-        <translation type="unfinished"></translation>
+        <translation>유효한 유일키 필드를 찾지 못했음</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">복사</translation>
+        <translation>복사</translation>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>DB 관리자</translation>
     </message>
     <message>
         <source>Server version: </source>
-        <translation type="unfinished"></translation>
+        <translation>서버 버전:</translation>
     </message>
     <message>
         <source>Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>호스트:</translation>
     </message>
     <message>
         <source>User:</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자:</translation>
     </message>
     <message>
         <source>Library:</source>
-        <translation type="unfinished"></translation>
+        <translation>라이브러리:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; geometry_columns table doesn&apos;t exist!
 This table is essential for many GIS applications for enumeration of tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; geometry_columns 테이블이 없습니다!
+이 테이블은 여러 GIS 프로그램에서 테이블의 구분을 위해 필수적입니다.</translation>
     </message>
     <message>
         <source>create new schemas</source>
-        <translation type="unfinished"></translation>
+        <translation>새 스키마 만들기</translation>
     </message>
     <message>
         <source>create temporary tables</source>
-        <translation type="unfinished"></translation>
+        <translation>임시 테이블 만들기</translation>
     </message>
     <message>
         <source>Not connected</source>
-        <translation type="unfinished">연결되지 않았습니다.</translation>
+        <translation>연결되지 않았음</translation>
     </message>
     <message>
         <source>Connection details</source>
-        <translation type="unfinished">연결 상세</translation>
+        <translation>연결 상세</translation>
     </message>
     <message>
         <source>General info</source>
-        <translation type="unfinished"></translation>
+        <translation>일반 정보</translation>
     </message>
     <message>
         <source>&lt;warning&gt; %s support not enabled!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; %s 지원 불가!</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user has no privileges!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 이 사용자에 권한 없음!</translation>
     </message>
     <message>
         <source>User has privileges:</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자가 가진 권한:</translation>
     </message>
     <message>
         <source>Privileges</source>
-        <translation type="unfinished"></translation>
+        <translation>권한</translation>
     </message>
     <message>
         <source>Owner:</source>
-        <translation type="unfinished"></translation>
+        <translation>소유자:</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>설명:</translation>
     </message>
     <message>
         <source>create new objects</source>
-        <translation type="unfinished"></translation>
+        <translation>새 객체 생성</translation>
     </message>
     <message>
         <source>access objects</source>
-        <translation type="unfinished"></translation>
+        <translation>객체에 접근</translation>
     </message>
     <message>
         <source>Schema details</source>
-        <translation type="unfinished"></translation>
+        <translation>스키마 상세</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user has no privileges to access this schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 사용자가 이 스키마에 접근할 권한 없음!</translation>
     </message>
     <message>
         <source>Relation type:</source>
-        <translation type="unfinished">릴래이션 타입:</translation>
+        <translation>릴래이션 타입:</translation>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished">보기</translation>
+        <translation>보기</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">테이블</translation>
+        <translation>테이블</translation>
     </message>
     <message>
         <source>Rows:</source>
-        <translation type="unfinished"></translation>
+        <translation>행:</translation>
     </message>
     <message>
         <source>Unknown (&lt;a href=&quot;action:rows/count&quot;&gt;find out&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>알 수 없음 (&lt;a href=&quot;action:rows/count&quot;&gt;발견&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">유형</translation>
+        <translation>유형</translation>
     </message>
     <message>
         <source>Null</source>
-        <translation type="unfinished"></translation>
+        <translation>널</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished">기본</translation>
+        <translation>기본값</translation>
     </message>
     <message>
         <source>Column(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>컬럼</translation>
     </message>
     <message>
         <source>Function</source>
-        <translation type="unfinished"></translation>
+        <translation>함수</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This is not a spatial table.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 공간 테이블 아님.</translation>
     </message>
     <message>
         <source>Fields</source>
-        <translation type="unfinished">필드</translation>
+        <translation>필드</translation>
     </message>
     <message>
         <source>Constraints</source>
-        <translation type="unfinished">제약조건</translation>
+        <translation>제약조건</translation>
     </message>
     <message>
         <source>Indexes</source>
-        <translation type="unfinished">인덱스</translation>
+        <translation>인덱스</translation>
     </message>
     <message>
         <source>Triggers</source>
-        <translation type="unfinished"></translation>
+        <translation>트리거</translation>
     </message>
     <message>
         <source>View definition</source>
-        <translation type="unfinished"></translation>
+        <translation>정의 보기</translation>
     </message>
     <message>
         <source>Column:</source>
-        <translation type="unfinished"></translation>
+        <translation>컬럼:</translation>
     </message>
     <message>
         <source>Geometry:</source>
-        <translation type="unfinished"></translation>
+        <translation>지오매트리:</translation>
     </message>
     <message>
         <source>Dimension:</source>
-        <translation type="unfinished"></translation>
+        <translation>차원:</translation>
     </message>
     <message>
         <source>Undefined</source>
-        <translation type="unfinished">정의되지 않음</translation>
+        <translation>정의되지 않음</translation>
     </message>
     <message>
         <source>Spatial ref:</source>
-        <translation type="unfinished"></translation>
+        <translation>공간 참조:</translation>
     </message>
     <message>
         <source>Estimated extent:</source>
-        <translation type="unfinished"></translation>
+        <translation>측정된 범위:</translation>
     </message>
     <message>
         <source>(unknown) (&lt;a href=&quot;action:extent/get&quot;&gt;find out&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>(알 수 없음) (&lt;a href=&quot;action:rows/count&quot;&gt;발견&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Extent:</source>
-        <translation type="unfinished"></translation>
+        <translation>범위:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; There isn&apos;t entry in geometry_columns!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; geometry_columns에 내용 없음!</translation>
     </message>
     <message>
         <source>&lt;warning&gt; No spatial index defined (&lt;a href=&quot;action:spatialindex/create&quot;&gt;create it&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 공간 인덱스 정의되지 않음 (&lt;a href=&quot;action:spatialindex/create&quot;&gt;생성&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Pages:</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지:</translation>
     </message>
     <message>
         <source>Rows (estimation):</source>
-        <translation type="unfinished"></translation>
+        <translation>행 (추정):</translation>
     </message>
     <message>
         <source>Privileges:</source>
-        <translation type="unfinished"></translation>
+        <translation>권한:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user doesn&apos;t have usage privileges for this schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 사용자가 이 스키마를 사용할 권한 없음!</translation>
     </message>
     <message>
         <source>Rows (counted):</source>
-        <translation type="unfinished"></translation>
+        <translation>행 (실측):</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user has read-only privileges.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 사용자가 읽기 권한만 있음.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; There&apos;s a significant difference between estimated and real row count. Consider running &lt;a href=&quot;action:vacuumanalyze/run&quot;&gt;VACUUM ANALYZE&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 추정치와 실제 행 수 사이의 차이가 꽤 큽니다. &lt;a href=&quot;action:vacuumanalyze/run&quot;&gt;VACUUM ANALYZE&lt;/a&gt; 수행을 권장합니다.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; No primary key defined for this table!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 이 테이블에 프로아머리 키 없음!</translation>
     </message>
     <message>
         <source>Scripts:</source>
-        <translation type="unfinished"></translation>
+        <translation>스크립트:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; Version of installed scripts doesn&apos;t match version of released scripts!
 This is probably a result of incorrect PostGIS upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 설치된 스크립트의 버전이 릴리즈된 스크립트 버전과 일치 않음!
+이는 아마도 잘못된 PostGIS 업그래이드 때문인 듯 함.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user doesn&apos;t have privileges to read contents of geometry_columns table!
 This table is essential for many GIS applications for enumeration of tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 사용자가 geometry_columns 테이블 읽기 권한 없음!
+이 테이블은 여러 GIS 프로그램에서 테이블 열거를 위해 필수적임.</translation>
     </message>
     <message>
         <source>Length</source>
-        <translation type="unfinished">길이</translation>
+        <translation>길이</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation type="unfinished">사용 가능</translation>
+        <translation>사용 가능</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished">예</translation>
+        <translation>예</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>아니오</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;action:triggers/enable&quot;&gt;Enable all triggers&lt;/a&gt; / &lt;a href=&quot;action:triggers/disable&quot;&gt;Disable all triggers&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;action:triggers/enable&quot;&gt;모든 트리거 활성화&lt;/a&gt; / &lt;a href=&quot;action:triggers/disable&quot;&gt;모든 트리거 비활성화&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Definition</source>
-        <translation type="unfinished"></translation>
+        <translation>정의</translation>
     </message>
     <message>
         <source>Rules</source>
-        <translation type="unfinished">규칙 그룹</translation>
+        <translation>규칙</translation>
     </message>
     <message>
         <source>&amp;Versioning</source>
-        <translation type="unfinished"></translation>
+        <translation>버저닝(&amp;V)</translation>
     </message>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블(&amp;T)</translation>
     </message>
     <message>
         <source>Filename:</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 이름:</translation>
     </message>
     <message>
         <source>SQLite version:</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLite 버전:</translation>
     </message>
     <message>
         <source>Error:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>오류:
+%s</translation>
     </message>
     <message>
         <source>
 
 Query:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>
+
+질의:
+%s</translation>
     </message>
     <message>
         <source>&amp;Re-connect</source>
-        <translation type="unfinished"></translation>
+        <translation>재접속(&amp;R)</translation>
     </message>
     <message>
         <source>&amp;Database</source>
-        <translation type="unfinished">데이터베이스(&amp;D)</translation>
+        <translation>데이터베이스(&amp;D)</translation>
     </message>
     <message>
         <source>&amp;Create schema</source>
-        <translation type="unfinished"></translation>
+        <translation>스키마 생성(&amp;C)</translation>
     </message>
     <message>
         <source>&amp;Schema</source>
-        <translation type="unfinished"></translation>
+        <translation>스키마(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Delete (empty) schema</source>
-        <translation type="unfinished"></translation>
+        <translation>(빈) 스키마 삭제(&amp;D)</translation>
     </message>
     <message>
         <source>Delete selected item</source>
-        <translation type="unfinished">선택 항목 삭제</translation>
+        <translation>선택 항목 삭제</translation>
     </message>
     <message>
         <source>&amp;Create table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 생성(&amp;C)</translation>
     </message>
     <message>
         <source>&amp;Edit table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 수정(&amp;E)</translation>
     </message>
     <message>
         <source>&amp;Delete table/view</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블/뷰 삭제(&amp;D)</translation>
     </message>
     <message>
         <source>&amp;Empty table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 비우기(&amp;E)</translation>
     </message>
     <message>
         <source>&amp;Move to schema</source>
-        <translation type="unfinished"></translation>
+        <translation>스키마로 이동(&amp;M)</translation>
     </message>
     <message>
         <source>Cannot delete the selected item.</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 아이템을 제거할 수 없음.</translation>
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스가 선택되지 않았거나 연결되지 않았습니다.</translation>
     </message>
     <message>
         <source>New schema</source>
-        <translation type="unfinished"></translation>
+        <translation>새 스키마</translation>
     </message>
     <message>
         <source>Enter new schema name</source>
-        <translation type="unfinished"></translation>
+        <translation>새 스키마 이름 입력</translation>
     </message>
     <message>
         <source>Select an empty SCHEMA for deletion.</source>
-        <translation type="unfinished"></translation>
+        <translation>삭제할 빈 스키마를 선택하세요.</translation>
     </message>
     <message>
         <source>hey!</source>
-        <translation type="unfinished"></translation>
+        <translation>헤이!</translation>
     </message>
     <message>
         <source>Really delete schema %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 %s 스키마를 삭제하시겠습니까?</translation>
     </message>
     <message>
         <source>Select a TABLE for editation.</source>
-        <translation type="unfinished"></translation>
+        <translation>수정할 테이블을 선택하세요.</translation>
     </message>
     <message>
         <source>Select a TABLE/VIEW for deletion.</source>
-        <translation type="unfinished"></translation>
+        <translation>삭제할 테이블/뷰를 선택 하세요.</translation>
     </message>
     <message>
         <source>Really delete table/view %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 테이블/뷰 %s를 지우겠습니까?</translation>
     </message>
     <message>
         <source>Select a TABLE to empty it.</source>
-        <translation type="unfinished"></translation>
+        <translation>비울 테이블을 선택 하십시오.</translation>
     </message>
     <message>
         <source>Really delete all items from table %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 테이블 %s의 모든 아이템을 삭제하시겠습니까?</translation>
     </message>
     <message>
         <source>Select a TABLE/VIEW.</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블/뷰를 선택하십시오.</translation>
     </message>
     <message>
         <source>Do you want to %s all triggers?</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>%s 의미 파악 불가</translatorcomment>
+        <translation>모든 트리거에 %s 하시겠습니까?</translation>
     </message>
     <message>
         <source>Table triggers</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 트리거</translation>
     </message>
     <message>
         <source>Do you want to %s trigger %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>%s를 트리거 %s에 하시겠습니까?</translation>
     </message>
     <message>
         <source>Table trigger</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 트리거</translation>
     </message>
     <message>
         <source>Do you want to %s spatial index for field %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>%s를 필드 %s의 공간 인덱스에 하시겠습니까?</translation>
     </message>
     <message>
         <source>Spatial Index</source>
-        <translation type="unfinished">공간 인덱스</translation>
+        <translation>공간 인덱스</translation>
     </message>
     <message>
         <source>Check</source>
-        <translation type="unfinished"></translation>
+        <translation>검토</translation>
     </message>
     <message>
         <source>Primary key</source>
-        <translation type="unfinished">기본 키</translation>
+        <translation>기본 키</translation>
     </message>
     <message>
         <source>Foreign key</source>
-        <translation type="unfinished"></translation>
+        <translation>외래 키</translation>
     </message>
     <message>
         <source>Unique</source>
-        <translation type="unfinished">유일조건</translation>
+        <translation>유일조건</translation>
     </message>
     <message>
         <source>Exclusion</source>
-        <translation type="unfinished"></translation>
+        <translation>제외</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>알 수 없음</translation>
     </message>
 </context>
 <context>
     <name>DBModel</name>
     <message>
         <source>Databases</source>
-        <translation type="unfinished">데이터베이스</translation>
+        <translation>데이터베이스</translation>
     </message>
     <message>
         <source>Invalid MIME uri</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 MIME uri</translation>
     </message>
     <message>
         <source>The dropped object is not a valid layer</source>
-        <translation type="unfinished"></translation>
+        <translation>드랍된 객체가 유효한 레이어가 아님</translation>
     </message>
     <message>
         <source>Invalid layer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 레이어</translation>
     </message>
     <message>
         <source>Unable to load the layer %s</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 %s 읽기 실패</translation>
     </message>
 </context>
 <context>
     <name>DBTree</name>
     <message>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>이름 변경</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <source>Add to canvas</source>
-        <translation type="unfinished"></translation>
+        <translation>캔버스에 추가</translation>
     </message>
     <message>
         <source>Re-connect</source>
-        <translation type="unfinished"></translation>
+        <translation>재접속</translation>
     </message>
 </context>
 <context>
@@ -672,27 +680,27 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgAddGeometryColumn.ui" line="14"/>
         <source>Add geometry column</source>
-        <translation type="unfinished">지오메트리 컬럼 추가</translation>
+        <translation>지오메트리 컬럼 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgAddGeometryColumn.ui" line="20"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgAddGeometryColumn.ui" line="37"/>
         <source>Type</source>
-        <translation type="unfinished">유형</translation>
+        <translation>유형</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgAddGeometryColumn.ui" line="86"/>
         <source>Dimensions</source>
-        <translation type="unfinished">차원</translation>
+        <translation>차원</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgAddGeometryColumn.ui" line="119"/>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
 </context>
 <context>
@@ -700,22 +708,22 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateConstraint.ui" line="14"/>
         <source>Add constraint</source>
-        <translation type="unfinished">제약조건 추가</translation>
+        <translation>제약조건 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateConstraint.ui" line="20"/>
         <source>Column</source>
-        <translation type="unfinished">컬럼</translation>
+        <translation>컬럼</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateConstraint.ui" line="37"/>
         <source>Primary key</source>
-        <translation type="unfinished">기본 키</translation>
+        <translation>기본 키</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateConstraint.ui" line="47"/>
         <source>Unique</source>
-        <translation type="unfinished">유일조건</translation>
+        <translation>유일조건</translation>
     </message>
 </context>
 <context>
@@ -723,17 +731,17 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateIndex.ui" line="14"/>
         <source>Create index</source>
-        <translation type="unfinished">인덱스 생성</translation>
+        <translation>인덱스 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateIndex.ui" line="20"/>
         <source>Column</source>
-        <translation type="unfinished">컬럼</translation>
+        <translation>컬럼</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateIndex.ui" line="30"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
 </context>
 <context>
@@ -741,63 +749,63 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="14"/>
         <source>Create Table</source>
-        <translation type="unfinished">테이블 생성</translation>
+        <translation>테이블 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="22"/>
         <source>Schema</source>
-        <translation type="unfinished">스키마</translation>
+        <translation>스키마</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="35"/>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="171"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="56"/>
         <source>Add field</source>
-        <translation type="unfinished">필드 추가</translation>
+        <translation>필드 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="63"/>
         <source>Delete field</source>
-        <translation type="unfinished">필드 제거</translation>
+        <translation>필드 제거</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="83"/>
         <source>Up</source>
-        <translation type="unfinished">위로</translation>
+        <translation>위로</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="90"/>
         <source>Down</source>
-        <translation type="unfinished">아래로</translation>
+        <translation>아래로</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="104"/>
         <source>Primary key</source>
-        <translation type="unfinished">기본 키</translation>
+        <translation>기본 키</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="125"/>
         <source>Create geometry column</source>
-        <translation type="unfinished">공간 컬럼 생성</translation>
+        <translation>공간 컬럼 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="188"/>
         <source>Dimensions</source>
-        <translation type="unfinished">차원</translation>
+        <translation>차원</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="221"/>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="238"/>
         <source>Create spatial index</source>
-        <translation type="unfinished"></translation>
+        <translation>공간 인덱스 생성</translation>
     </message>
 </context>
 <context>
@@ -805,22 +813,22 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgDbError.ui" line="14"/>
         <source>Database Error</source>
-        <translation type="unfinished">데이터베이스 오류</translation>
+        <translation>데이터베이스 오류</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgDbError.ui" line="30"/>
         <source>An error occured:</source>
-        <translation type="unfinished">오류 발생됨:</translation>
+        <translation>오류 발생됨:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgDbError.ui" line="54"/>
         <source>An error occured when executing a query:</source>
-        <translation type="unfinished">다음 질의 실행중 오류 발생:</translation>
+        <translation>다음 질의 실행중 오류 발생:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgDbError.ui" line="71"/>
         <source>Query:</source>
-        <translation type="unfinished">질의:</translation>
+        <translation>질의:</translation>
     </message>
 </context>
 <context>
@@ -828,57 +836,57 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="14"/>
         <source>Export to vector file</source>
-        <translation type="unfinished"></translation>
+        <translation>벡터 파일로 내보내기</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="26"/>
         <source>Output file</source>
-        <translation type="unfinished">출력 파일</translation>
+        <translation>출력 파일</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="40"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="47"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>동작</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="53"/>
         <source>Create new file</source>
-        <translation type="unfinished"></translation>
+        <translation>새 파일 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="81"/>
         <source>Drop existing one</source>
-        <translation type="unfinished">기존 테이블 삭제</translation>
+        <translation>기존 파일 삭제</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="93"/>
         <source>Append data to file</source>
-        <translation type="unfinished"></translation>
+        <translation>기존 파일에 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="103"/>
         <source>Options</source>
-        <translation type="unfinished">옵션</translation>
+        <translation>옵션</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="111"/>
         <source>Source SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>원본 SRID</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="144"/>
         <source>Target SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>대상 SRID</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="163"/>
         <source>Encoding</source>
-        <translation type="unfinished">인코딩</translation>
+        <translation>인코딩</translation>
     </message>
 </context>
 <context>
@@ -886,32 +894,32 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgFieldProperties.ui" line="14"/>
         <source>Field properties</source>
-        <translation type="unfinished">필드 속성</translation>
+        <translation>필드 속성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgFieldProperties.ui" line="22"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgFieldProperties.ui" line="36"/>
         <source>Type</source>
-        <translation type="unfinished">유형</translation>
+        <translation>유형</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgFieldProperties.ui" line="53"/>
         <source>Can be NULL</source>
-        <translation type="unfinished">널 허용</translation>
+        <translation>널 허용</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgFieldProperties.ui" line="70"/>
         <source>Default value</source>
-        <translation type="unfinished">디폴트 값</translation>
+        <translation>기본값</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgFieldProperties.ui" line="84"/>
         <source>Length</source>
-        <translation type="unfinished">길이</translation>
+        <translation>길이</translation>
     </message>
 </context>
 <context>
@@ -919,97 +927,97 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="14"/>
         <source>Import vector layer</source>
-        <translation type="unfinished">벡터 레이어 가져오기</translation>
+        <translation>벡터 레이어 가져오기</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="29"/>
         <source>Input</source>
-        <translation type="unfinished">입력</translation>
+        <translation>입력</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="36"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="81"/>
         <source>Update options</source>
-        <translation type="unfinished"></translation>
+        <translation>설정 업데이트</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="93"/>
         <source>Output table</source>
-        <translation type="unfinished">출력 테이블</translation>
+        <translation>출력 테이블</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="99"/>
         <source>Schema</source>
-        <translation type="unfinished">스키마</translation>
+        <translation>스키마</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="116"/>
         <source>Table</source>
-        <translation type="unfinished">테이블</translation>
+        <translation>테이블</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="146"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>동작</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="152"/>
         <source>Create new table</source>
-        <translation type="unfinished">새 테이블 생성</translation>
+        <translation>새 테이블 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="180"/>
         <source>Drop existing one</source>
-        <translation type="unfinished">기존 테이블 삭제</translation>
+        <translation>기존 테이블 삭제</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="192"/>
         <source>Append data to table</source>
-        <translation type="unfinished"></translation>
+        <translation>기존 테이블에 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="202"/>
         <source>Options</source>
-        <translation type="unfinished">옵션</translation>
+        <translation>옵션</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="208"/>
         <source>Primary key</source>
-        <translation type="unfinished">기본 키</translation>
+        <translation>기본 키</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="222"/>
         <source>Geometry column</source>
-        <translation type="unfinished">지오메트리 컬럼</translation>
+        <translation>지오메트리 컬럼</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="238"/>
         <source>Source SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>원본 SRID</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="268"/>
         <source>Target SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>대상 SRID</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="284"/>
         <source>Encoding</source>
-        <translation type="unfinished">인코딩</translation>
+        <translation>인코딩</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="301"/>
         <source>Create single-part geometries instead of multi-part</source>
-        <translation type="unfinished">멀티파트 대신 싱글파트 지오메트리 생성</translation>
+        <translation>멀티파트 대신 싱글파트 지오메트리 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="308"/>
         <source>Create spatial index</source>
-        <translation type="unfinished"></translation>
+        <translation>공간 인덱스 생성</translation>
     </message>
 </context>
 <context>
@@ -1017,101 +1025,100 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="14"/>
         <source>SQL window</source>
-        <translation type="unfinished">SQL 윈도우</translation>
+        <translation>SQL 창</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="29"/>
         <source>SQL query:</source>
-        <translation type="unfinished">SQL 질의:</translation>
+        <translation>SQL 질의:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="59"/>
         <source>Store</source>
-        <translation type="unfinished"></translation>
+        <translation>저장</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="66"/>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="94"/>
         <source>&amp;Execute (F5)</source>
-        <translation type="unfinished">실행(&amp;E) (F5)</translation>
+        <translation>실행(&amp;E) (F5)</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="97"/>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation>F5</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="124"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>초기화(&amp;C)</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="137"/>
         <source>Result:</source>
-        <translation type="unfinished">결과:</translation>
+        <translation>결과:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="177"/>
         <source>Load as new layer</source>
-        <translation type="unfinished">새 레이어로 로드</translation>
+        <translation>새 레이어로 불러오기</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="197"/>
         <source>Column with unique 
 integer values</source>
-        <translation type="unfinished">유니크한 정수값을 
+        <translation>유니크한 정수값을 
 가진 컬럼</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="221"/>
         <source>Geometry column</source>
-        <translation type="unfinished">지오메트리 컬럼</translation>
+        <translation>지오메트리 컬럼</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="263"/>
         <source>Retrieve 
 columns</source>
-        <translation type="unfinished">컬럼
-검색</translation>
+        <translation>컬럼 검색</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="275"/>
         <source>Layer name (prefix)</source>
-        <translation type="unfinished">레이어 이름 (접두사)</translation>
+        <translation>레이어 이름 (접두사)</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="298"/>
         <source>Type</source>
-        <translation type="unfinished">유형</translation>
+        <translation>유형</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="308"/>
         <source>Vector</source>
-        <translation type="unfinished">벡터</translation>
+        <translation>벡터</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="318"/>
         <source>Raster</source>
-        <translation type="unfinished">래스터</translation>
+        <translation>래스터</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="344"/>
         <source>Load now!</source>
-        <translation type="unfinished">지금 로드!</translation>
+        <translation>지금 로드!</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="356"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Avoid selecting feature by id.  Sometimes - especially when running expensive queries/views - fetching the data sequentially instead of fetching features by id can be much quicker.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;객체 ID로 선택 않기.  때로는(특히 비용이 많이드는 질의/뷰 실행시) 순차적으로 데이터를 가져오는 것이 객체 ID로 가져오는 것 보다 많이 빠를 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="359"/>
         <source>Avoid selecting by feature id</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 ID로 선택 않기</translation>
     </message>
 </context>
 <context>
@@ -1119,82 +1126,82 @@ columns</source>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="14"/>
         <source>Table properties</source>
-        <translation type="unfinished">테이블 속성</translation>
+        <translation>테이블 속성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="24"/>
         <source>Columns</source>
-        <translation type="unfinished">컬럼</translation>
+        <translation>컬럼</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="30"/>
         <source>Table columns:</source>
-        <translation type="unfinished">테이블 컬럼:</translation>
+        <translation>테이블 컬럼:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="46"/>
         <source>Add column</source>
-        <translation type="unfinished">컬럼 추가</translation>
+        <translation>컬럼 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="53"/>
         <source>Add geometry column</source>
-        <translation type="unfinished">지오메트리 컬럼 추가</translation>
+        <translation>지오메트리 컬럼 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="60"/>
         <source>Edit column</source>
-        <translation type="unfinished">컬럼 편집</translation>
+        <translation>컬럼 편집</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="80"/>
         <source>Delete column</source>
-        <translation type="unfinished"></translation>
+        <translation>커럼 삭제</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="90"/>
         <source>Constraints</source>
-        <translation type="unfinished">제약조건</translation>
+        <translation>제약조건</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="96"/>
         <source>Primary, foreign keys, unique and check constraints:</source>
-        <translation type="unfinished">기본, 외래 키, 유니크 및 제약조건 체크:</translation>
+        <translation>기본, 외래 키, 유니크 및 제약조건 체크:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="112"/>
         <source>Add primary key / unique</source>
-        <translation type="unfinished">기본 키 / 유니크 추가</translation>
+        <translation>기본 키 / 유일조건 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="132"/>
         <source>Delete constraint</source>
-        <translation type="unfinished">제약조건 삭제</translation>
+        <translation>제약조건 삭제</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="142"/>
         <source>Indexes</source>
-        <translation type="unfinished">인덱스</translation>
+        <translation>인덱스</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="148"/>
         <source>Indexes defined for this table:</source>
-        <translation type="unfinished">이 테이블에 정의된 제약조건:</translation>
+        <translation>이 테이블에 정의된 제약조건:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="164"/>
         <source>Add index</source>
-        <translation type="unfinished">인덱스 추가</translation>
+        <translation>인덱스 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="171"/>
         <source>Add spatial index</source>
-        <translation type="unfinished">공간 인덱스 추가</translation>
+        <translation>공간 인덱스 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="191"/>
         <source>Delete index</source>
-        <translation type="unfinished">인덱스 제거</translation>
+        <translation>인덱스 제거</translation>
     </message>
 </context>
 <context>
@@ -1206,17 +1213,17 @@ columns</source>
     <message>
         <location filename="../python/plugins/fTools/tools/frmEliminate.ui" line="14"/>
         <source>Eliminate sliver polygons</source>
-        <translation type="unfinished"></translation>
+        <translation>틈 폴리곤 제거</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmEliminate.ui" line="20"/>
         <source>common boundary</source>
-        <translation type="unfinished"></translation>
+        <translation>공통 경계</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmEliminate.ui" line="27"/>
         <source>Merge selection with the neighbouring polygon with the largest</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 객체를 인접 폴리곤과 최대한 합치기</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmEliminate.ui" line="43"/>
@@ -1243,12 +1250,12 @@ columns</source>
     <message>
         <location filename="../python/plugins/fTools/tools/frmEliminate.ui" line="100"/>
         <source>Selected features:</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 객체:</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmEliminate.ui" line="107"/>
         <source>area</source>
-        <translation type="unfinished">면적</translation>
+        <translation>면적</translation>
     </message>
     <message>
         <source>OGR Converter</source>
@@ -1358,7 +1365,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="140"/>
         <source>Tolerance</source>
-        <translation>허용 범위</translation>
+        <translation>허용 오차</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="183"/>
@@ -1368,7 +1375,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="195"/>
         <source>Calculate extent for each feature separately</source>
-        <translation>각 객체별로 범위를 계산</translation>
+        <translation>각 객체별로 범위 계산</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="44"/>
@@ -1548,7 +1555,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointDistance.ui" line="16"/>
         <source>Create Distance Matrix</source>
-        <translation>거리 행렬 작성</translation>
+        <translation>거리 행렬 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointDistance.ui" line="27"/>
@@ -1623,7 +1630,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointsInPolygon.ui" line="14"/>
         <source>Count Points In Polygons</source>
-        <translation>폴리곤의 점 개수 세기</translation>
+        <translation>폴리곤 내 점 개수 세기</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointsInPolygon.ui" line="22"/>
@@ -1655,7 +1662,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/plugins/fTools/tools/frmRandPoints.ui" line="32"/>
         <location filename="../python/plugins/fTools/tools/frmRegPoints.ui" line="32"/>
         <source>Input Boundary Layer</source>
-        <translation>입력 바운더리 레이어</translation>
+        <translation>입력 경계 레이어</translation>
     </message>
     <message>
         <source>Minimum distance between points</source>
@@ -2037,7 +2044,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmVisual.ui" line="120"/>
         <source>Save errors location</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 위치 저장</translation>
     </message>
     <message>
         <source>OGR Layer Converter</source>
@@ -2187,23 +2194,23 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Eliminate</source>
-        <translation type="unfinished"></translation>
+        <translation>제거</translation>
     </message>
     <message>
         <source>No selection in input layer</source>
-        <translation type="unfinished"></translation>
+        <translation>입력 레이어에서 선택 없음</translation>
     </message>
     <message>
         <source>Error creating output file</source>
-        <translation type="unfinished"></translation>
+        <translation>출력파일 생성 오류</translation>
     </message>
     <message>
         <source>Could not delete features</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 제거 불가</translation>
     </message>
     <message>
         <source>Could not add features</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 추가 불가</translation>
     </message>
     <message>
         <source>Created output shapefile:
@@ -2227,35 +2234,39 @@ This may cause unexpected results.</source>
     </message>
     <message>
         <source>Selected features: %s</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 객체: %s</translation>
     </message>
     <message>
         <source>Commit error:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>커밋 오류:
+%s</translation>
     </message>
     <message>
         <source>Could not replace geometry of feature with id %s</source>
-        <translation type="unfinished"></translation>
+        <translation>ID %s로 객체의 지오메트리를 대체할 수 없음</translation>
     </message>
     <message>
         <source>Could not eliminate features with these ids:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 ID 들로 객체를 제거할 수 없음:
+%s</translation>
     </message>
     <message>
         <source>Created output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 shapefile 생성됨:
+%s</translation>
     </message>
     <message>
         <source>There were %d vertices in original dataset which
 were reduced to %d vertices after simplification</source>
-        <translation type="unfinished"></translation>
+        <translation>원본 데이터셋에 있던 %d 버텍스가
+간략화 후 %d 버텍스로 줄어듬</translation>
     </message>
     <message>
         <source>Processing of the following layers/files ended with error:&lt;br&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 레이어/파일 처리가 오류와 함께 끝남:&lt;br&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <source>Summary field</source>
@@ -2265,12 +2276,15 @@ were reduced to %d vertices after simplification</source>
         <source>No output will be created.
 Following field names are longer than 10 characters:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>결과가 생성되지 않았음.
+다음 필드 이름이 10 글자 이상임:
+%s</translation>
     </message>
     <message>
         <source>Can&apos;t delete existing shapefile
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>기존 shapefile %s 삭제 불가
+%s</translation>
     </message>
     <message>
         <source>Please specify valid extent coordinates</source>
@@ -2345,7 +2359,10 @@ Following field names are longer than 10 characters:
 %s
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 점 shapefile 생성됨:
+%s
+
+새 레이어를 TOC에 추가 시키겠습니까?</translation>
     </message>
     <message>
         <source>Please specify select layer</source>
@@ -2353,16 +2370,17 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>There are no shapefiles with the given geometry type. Please select an available geometry type.</source>
-        <translation type="unfinished"></translation>
+        <translation>선택한 지오메트리 형식의 shapefile이 없습니다. 유효한 지오메트리 형식을 선택해 주십시오.</translation>
     </message>
     <message>
         <source>Can&apos;t delete file %s</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 %s 삭제 불가</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>결과 shapefile 읽기 실패:
+%s</translation>
     </message>
     <message>
         <source>Sum Line Lengths In Polyons</source>
@@ -2385,7 +2403,10 @@ Would you like to add the new layer to the TOC?</source>
 %s
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 shapefile이 작성됨:
+%s
+
+새 레이어로 TOC에 추가하시겠습니까?</translation>
     </message>
     <message>
         <source>length field</source>
@@ -2402,7 +2423,8 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Defined Projection For:
 %s.shp</source>
-        <translation type="unfinished"></translation>
+        <translation>다음을 위한 프로젝선 정의:
+%s.shp</translation>
     </message>
     <message>
         <source>Random Points</source>
@@ -2431,7 +2453,8 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Created output shapefiles in folder:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 폴더에 결과 shapefile 생성됨:
+%s</translation>
     </message>
     <message>
         <source>Regular points</source>
@@ -2471,7 +2494,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Count Points in Polygon</source>
-        <translation>폴리곤 점 개수 세기</translation>
+        <translation>폴리곤 내 점 개수 세기</translation>
     </message>
     <message>
         <source>Missing or invalid CRS</source>
@@ -2479,7 +2502,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Count Points In Polygon</source>
-        <translation>폴리곤 점 개수 세기</translation>
+        <translation>폴리곤 내 점 개수 세기</translation>
     </message>
     <message>
         <source>Please specify input point vector layer</source>
@@ -2868,11 +2891,11 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>field name must not be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 이름이 비어있으면 안됨</translation>
     </message>
 </context>
 <context>
@@ -2880,22 +2903,22 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/sextante/ui/DlgConfig.ui" line="14"/>
         <source>SEXTANTE options</source>
-        <translation type="unfinished"></translation>
+        <translation>SEXTANT 옵션</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgConfig.ui" line="26"/>
         <source>Enter setting name to filter list</source>
-        <translation type="unfinished"></translation>
+        <translation>필터 리스트의 설정 이름 입력</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgConfig.ui" line="37"/>
         <source>Setting</source>
-        <translation type="unfinished"></translation>
+        <translation>설정</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgConfig.ui" line="42"/>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>값</translation>
     </message>
 </context>
 <context>
@@ -2933,11 +2956,11 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
     <message>
         <source>Please enter some name for the index</source>
-        <translation type="unfinished"></translation>
+        <translation>인덱스를 위한 이름 입력</translation>
     </message>
 </context>
 <context>
@@ -3028,51 +3051,51 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>&amp;Create</source>
-        <translation type="unfinished"></translation>
+        <translation>생성(&amp;C)</translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>no field selected</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 선택 안됨</translation>
     </message>
     <message>
         <source>field is at top already</source>
-        <translation type="unfinished"></translation>
+        <translation>필드가 이미 제일 위에 있음</translation>
     </message>
     <message>
         <source>No field selected</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 선택 안됨</translation>
     </message>
     <message>
         <source>field is at bottom already</source>
-        <translation type="unfinished"></translation>
+        <translation>필드가 이미 제일 아래 있음</translation>
     </message>
     <message>
         <source>select schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>스키마 선택!</translation>
     </message>
     <message>
         <source>enter table name!</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 이름 입력!</translation>
     </message>
     <message>
         <source>add some fields!</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 추가!</translation>
     </message>
     <message>
         <source>set geometry column name</source>
-        <translation type="unfinished"></translation>
+        <translation>지오메트리 컬럼 이름 설정</translation>
     </message>
     <message>
         <source>Good</source>
-        <translation type="unfinished"></translation>
+        <translation>좋음</translation>
     </message>
     <message>
         <source>everything went fine</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 잘 되었음</translation>
     </message>
 </context>
 <context>
@@ -3098,36 +3121,37 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <name>DlgExportVector</name>
     <message>
         <source>Choose where to save the file</source>
-        <translation type="unfinished"></translation>
+        <translation>어디에 파일을 저장할지 선택</translation>
     </message>
     <message>
         <source>Shapefiles</source>
-        <translation type="unfinished">쉐입파일</translation>
+        <translation>Shapefile</translation>
     </message>
     <message>
         <source>Export to file</source>
-        <translation type="unfinished">파일로 내보내기</translation>
+        <translation>파일로 내보내기</translation>
     </message>
     <message>
         <source>Output table name is required</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 테이블 이름이 필요함</translation>
     </message>
     <message>
         <source>Invalid source srid: must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 원본 SRID: 정수여야 함</translation>
     </message>
     <message>
         <source>Invalid target srid: must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 대상 SRID: 정수여야 함</translation>
     </message>
     <message>
         <source>Error %d
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 %d
+%s</translation>
     </message>
     <message>
         <source>Export finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>내보내기 완료.</translation>
     </message>
 </context>
 <context>
@@ -3158,15 +3182,15 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>field name must not be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 이름이 비어있으면 안됨</translation>
     </message>
     <message>
         <source>field type must not be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 유형이 비어있으면 안됨</translation>
     </message>
 </context>
 <context>
@@ -3174,22 +3198,22 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/sextante/ui/DlgHelpEdition.ui" line="14"/>
         <source>Help editor</source>
-        <translation type="unfinished"></translation>
+        <translation>도움말 편집기</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgHelpEdition.ui" line="31"/>
         <source>about:blank</source>
-        <translation type="unfinished">정보:공백</translation>
+        <translation>정보:공백</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgHelpEdition.ui" line="47"/>
         <source>Select element to edit</source>
-        <translation type="unfinished"></translation>
+        <translation>편집할 항목 선택</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgHelpEdition.ui" line="82"/>
         <source>Element description</source>
-        <translation type="unfinished"></translation>
+        <translation>항목 설명</translation>
     </message>
 </context>
 <context>
@@ -3197,7 +3221,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/sextante/ui/DlgHistory.ui" line="14"/>
         <source>History and log</source>
-        <translation type="unfinished"></translation>
+        <translation>역사와 기록</translation>
     </message>
 </context>
 <context>
@@ -3260,40 +3284,41 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>Create spatial index</source>
-        <translation type="obsolete">공간 인덱슨 생성</translation>
+        <translation type="obsolete">공간 인덱스 생성</translation>
     </message>
     <message>
         <source>Choose the file to import</source>
-        <translation type="unfinished"></translation>
+        <translation>가져올 파일 선택</translation>
     </message>
     <message>
         <source>Import to database</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스로 가져오기</translation>
     </message>
     <message>
         <source>Input layer missing or not valid</source>
-        <translation type="unfinished"></translation>
+        <translation>입력 레이어가 없거나 유효하지 않음</translation>
     </message>
     <message>
         <source>Output table name is required</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 테이블 이름이 필요함</translation>
     </message>
     <message>
         <source>Invalid source srid: must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 원본 SRID: 정수여야 함</translation>
     </message>
     <message>
         <source>Invalid target srid: must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 대상 SRID: 정수여야 함</translation>
     </message>
     <message>
         <source>Error %d
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 %d
+%s</translation>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">임포트 성공함.</translation>
+        <translation>임포트 성공함.</translation>
     </message>
 </context>
 <context>
@@ -3301,32 +3326,32 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/sextante/ui/DlgModeler.ui" line="14"/>
         <source>SEXTANTE modeler</source>
-        <translation type="unfinished"></translation>
+        <translation>SEXTANTE 모델러</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgModeler.ui" line="40"/>
         <source>Inputs</source>
-        <translation type="unfinished"></translation>
+        <translation>입력</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgModeler.ui" line="68"/>
         <source>Algorithms</source>
-        <translation type="unfinished"></translation>
+        <translation>알고리즘</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgModeler.ui" line="80"/>
         <source>Enter algorithm name to filter list</source>
-        <translation type="unfinished"></translation>
+        <translation>필터 리스트의 알고리즘 이름 입력</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgModeler.ui" line="110"/>
         <source>Enter model name here</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 모델 이름 입력</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgModeler.ui" line="117"/>
         <source>Enter group name here</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 그룹 이름 입력</translation>
     </message>
 </context>
 <context>
@@ -3334,12 +3359,12 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/sextante/ui/DlgResults.ui" line="14"/>
         <source>Results</source>
-        <translation type="unfinished"></translation>
+        <translation>결과</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgResults.ui" line="53"/>
         <source>about:blank</source>
-        <translation type="unfinished">정보:공백</translation>
+        <translation>정보:공백</translation>
     </message>
 </context>
 <context>
@@ -3410,7 +3435,7 @@ columns</source>
     </message>
     <message>
         <source>%d rows, %.1f seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>%d 행, %.1f 초</translation>
     </message>
     <message>
         <source>Sorry</source>
@@ -3538,43 +3563,43 @@ geometry column - column with unique integer values</source>
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>nothing selected</source>
-        <translation type="unfinished"></translation>
+        <translation>아무것도 선택 안됨</translation>
     </message>
     <message>
         <source>Are you sure</source>
-        <translation type="unfinished"></translation>
+        <translation>정말로 입니까?</translation>
     </message>
     <message>
         <source>really delete column &apos;%s&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 컬럼 %s을 삭제하시겠습니까?</translation>
     </message>
     <message>
         <source>really delete constraint &apos;%s&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 제약조건 %s을 삭제하시겠습니까?</translation>
     </message>
     <message>
         <source>The selected table has no geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>선택한 테이블에 지오메트리가 없음</translation>
     </message>
     <message>
         <source>Create?</source>
-        <translation type="unfinished"></translation>
+        <translation>생성?</translation>
     </message>
     <message>
         <source>Create spatial index for field %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 %s의 공간 인덱스를 만드시겠습니까?</translation>
     </message>
     <message>
         <source>Nothing selected</source>
-        <translation type="unfinished"></translation>
+        <translation>아무것도 선택 안됨</translation>
     </message>
     <message>
         <source>really delete index &apos;%s&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 인덱스 %s을 삭제하시겠습니까?</translation>
     </message>
 </context>
 <context>
@@ -3582,7 +3607,7 @@ geometry column - column with unique integer values</source>
     <message>
         <location filename="../python/plugins/db_manager/db_plugins/postgis/plugins/versioning/DlgVersioning.ui" line="14"/>
         <source>Add versioning support to a table</source>
-        <translation>테이블에 버전 지원 추가</translation>
+        <translation>테이블에 버저닝 지원 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/db_plugins/postgis/plugins/versioning/DlgVersioning.ui" line="22"/>
@@ -3649,24 +3674,26 @@ geometry column - column with unique integer values</source>
     <name>EditRScriptDialog</name>
     <message>
         <source>I/O error</source>
-        <translation type="unfinished"></translation>
+        <translation>I/O 오류</translation>
     </message>
     <message>
         <source>Unable to save edits. Reason:
  %1</source>
-        <translation type="unfinished"></translation>
+        <translation>편집을 저장할 수 없음. 원인:
+%1</translation>
     </message>
 </context>
 <context>
     <name>EditScriptDialog</name>
     <message>
         <source>I/O error</source>
-        <translation type="unfinished"></translation>
+        <translation>I/O 오류</translation>
     </message>
     <message>
         <source>Unable to save edits. Reason:
  %1</source>
-        <translation type="unfinished"></translation>
+        <translation>편집을 저장할 수 없음. 원인:
+%1</translation>
     </message>
 </context>
 <context>
@@ -3707,7 +3734,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Burns vector geometries into a raster</source>
-        <translation>벡터 도형을 래스터로 구움</translation>
+        <translation>벡터 도형을 래스터로 만듬</translation>
     </message>
     <message>
         <source>Polygonize</source>
@@ -3715,7 +3742,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Produces a polygon feature layer from a raster</source>
-        <translation>래스터에서 폴리곤 객체를 만듦</translation>
+        <translation>래스터에서 폴리곤 객체를 만듬</translation>
     </message>
     <message>
         <source>Merge</source>
@@ -3723,7 +3750,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Build a quick mosaic from a set of images</source>
-        <translation>이미지 세트에서 빠른 모자이크를 만듦</translation>
+        <translation>이미지 세트에서 빠른 모자이크를 만듬</translation>
     </message>
     <message>
         <source>Sieve</source>
@@ -3875,7 +3902,7 @@ Install it and try again.</source>
     </message>
     <message>
         <source>QGIS version detected: </source>
-        <translation type="unfinished"></translation>
+        <translation>QGIS 버전 탐지됨:</translation>
     </message>
     <message>
         <source>Projections</source>
@@ -4113,7 +4140,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>%s not created.</source>
-        <translation type="unfinished"></translation>
+        <translation>%s 생성 안됨.</translation>
     </message>
     <message>
         <source>Elaboration completed.</source>
@@ -4129,7 +4156,7 @@ Do you want terminate it anyway?</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/dialogBase.ui" line="14"/>
         <source>Dialog</source>
-        <translation>대화창</translation>
+        <translation>대화상자</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/dialogBase.ui" line="29"/>
@@ -4218,11 +4245,11 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>Output size or resolution required</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 크기나 해상도가 필요함</translation>
     </message>
     <message>
         <source>The output file doesn&apos;t exist. You must set up the output size or resolution to create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 파일이 없음. 생성하시려면 출력 크기나 해상도를 설정해야 함.</translation>
     </message>
     <message>
         <source>Select the input file for Polygonize</source>
@@ -4250,7 +4277,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>[select levels]</source>
-        <translation type="unfinished"></translation>
+        <translation>[레벨 선택]</translation>
     </message>
     <message>
         <source>Select the file to analyse</source>
@@ -4570,17 +4597,24 @@ and python executables.
 
 MacOS users usually need to set it to something like
 /Library/Frameworks/GDAL.framework/Versions/1.8/Programs</source>
-        <translation type="unfinished"></translation>
+        <translation>바이너리와 파이썬 실행파일의
+콜론으로 구분되거나 (리눅스 혹은 맥OS)
+세미 콜론으로 구분된 (윈도우) 경로 리스트.
+
+맥OS 사용자의 경우 다음처럼 설정할 수 있음
+/Library/Frameworks/GDAL.framework/Versions/1.8/Programs</translation>
     </message>
     <message>
         <source>A list of colon-separated (Linux and MacOS) or
 semicolon-separated (Windows) paths to python modules.</source>
-        <translation type="unfinished"></translation>
+        <translation>콜론으로 구분(리눅스 혹은 맥OS) 되거나 
+세미콜론으로 구분(윈도우)된 파이썬 모듈 경로 리스트.</translation>
     </message>
     <message>
         <source>Useful to open local GDAL documentation instead of online help
 when pressing on the tool dialog&apos;s Help button.</source>
-        <translation type="unfinished"></translation>
+        <translation>도구 대화 상자의 도움말 버튼을 누르면 
+온라인 도움말이 아닌 로컬 GDAL 문서를 열 때 유용합니다.</translation>
     </message>
     <message>
         <source>Select directory with GDAL executables</source>
@@ -5157,7 +5191,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="145"/>
         <source>Mode Options</source>
-        <translation type="unfinished"></translation>
+        <translation>모드 옵션</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="164"/>
@@ -5513,27 +5547,27 @@ suitable for direct use with Imagine,ArcGIS, GDAL.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetRasterize.ui" line="76"/>
         <source>Keep existing raster size and resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>기존 래스터 크기와 해상도 유지</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetRasterize.ui" line="86"/>
         <source>Raster size in pixels</source>
-        <translation type="unfinished"></translation>
+        <translation>픽셀 단위 래스터 크기</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetRasterize.ui" line="157"/>
         <source>Raster resolution in map units per pixel</source>
-        <translation type="unfinished"></translation>
+        <translation>픽셀 당 지도 단위 래스터 해상도</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetRasterize.ui" line="185"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>가로</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetRasterize.ui" line="211"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>세로</translation>
     </message>
     <message>
         <source>New size (required if output file doens&apos;t exist)</source>
@@ -5967,16 +6001,21 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
 {1}
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 shapefile 생성됨:
+{0}
+{1}
+
+새 레이어를 TOC에 추가하시겠습니까?</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 {0}</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 shapefile 읽기 실패:
+{0}</translation>
     </message>
     <message>
         <source>Layer &apos;{0}&apos; updated</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 &apos;{0}&apos; 업데이트 됨</translation>
     </message>
     <message>
         <source>Simplify geometries</source>
@@ -6202,12 +6241,15 @@ Would you like to add the new layer to the TOC?</source>
         <source>Created output shapefile:
 %s
 %s%s</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 shapefile 생성됨:
+%s
+%s%s</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 shapefile 읽기 실패:
+%s</translation>
     </message>
     <message>
         <source>Dissolve all</source>
@@ -6216,7 +6258,8 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>No output created. File creation error:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>결과 생성 안됨. 파일 생성 오류:
+%s</translation>
     </message>
     <message>
         <source>
@@ -6306,7 +6349,7 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="196"/>
         <source>Unload Globe</source>
-        <translation type="unfinished"></translation>
+        <translation>지구본 내리기</translation>
     </message>
     <message>
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="199"/>
@@ -6321,7 +6364,7 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="201"/>
         <source>Unload globe</source>
-        <translation type="unfinished"></translation>
+        <translation>지구본 내리기</translation>
     </message>
     <message>
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="212"/>
@@ -6372,12 +6415,12 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/plugins/heatmap/heatmap.cpp" line="206"/>
         <source>Creating heatmap</source>
-        <translation type="unfinished"></translation>
+        <translation>온도지도 생성중</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmap.cpp" line="206"/>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>정보</translation>
     </message>
     <message>
         <source>Point layer error</source>
@@ -6463,17 +6506,17 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="29"/>
         <source>Input point layer</source>
-        <translation type="unfinished">입력 점 레이어</translation>
+        <translation>입력 점 레이어</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="39"/>
         <source>Output raster</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 래스터</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="62"/>
         <source>Output format</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 포맷</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="79"/>
@@ -6500,72 +6543,72 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="130"/>
         <source>Rows</source>
-        <translation type="unfinished">행</translation>
+        <translation>행</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="140"/>
         <source>Cell size X</source>
-        <translation type="unfinished"></translation>
+        <translation>셀 크기 X</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="150"/>
         <source>Columns</source>
-        <translation type="unfinished">컬럼</translation>
+        <translation>컬럼</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="160"/>
         <source>Cell size Y</source>
-        <translation type="unfinished"></translation>
+        <translation>셀 크기 Y</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="186"/>
         <source>Use radius from field</source>
-        <translation type="unfinished"></translation>
+        <translation>필드값을 반지름으로 사용</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="217"/>
         <source>Use weight from field</source>
-        <translation type="unfinished"></translation>
+        <translation>필드값을 가중치로 사용</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="234"/>
         <source>0.0</source>
-        <translation type="unfinished">0.0</translation>
+        <translation>0.0</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="241"/>
         <source>Decay ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>감쇠 비율</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="249"/>
         <source>Quartic (biweight)</source>
-        <translation type="unfinished"></translation>
+        <translation>Quartic (biweight)</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="254"/>
         <source>Triangular</source>
-        <translation type="unfinished"></translation>
+        <translation>Triangular</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="259"/>
         <source>Uniform</source>
-        <translation type="unfinished"></translation>
+        <translation>Uniform</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="264"/>
         <source>Triweight</source>
-        <translation type="unfinished"></translation>
+        <translation>Triweight</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="269"/>
         <source>Epanechnikov</source>
-        <translation type="unfinished"></translation>
+        <translation>Epanechnikov</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="277"/>
         <source>Kernel shape</source>
-        <translation type="unfinished"></translation>
+        <translation>커널 형태</translation>
     </message>
     <message>
         <source>Decay Ratio</source>
@@ -6616,22 +6659,22 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <name>HelpEditionDialog</name>
     <message>
         <source>Outputs</source>
-        <translation type="unfinished"></translation>
+        <translation>출력</translation>
     </message>
 </context>
 <context>
     <name>HistoryDialog</name>
     <message>
         <source>Clear</source>
-        <translation type="unfinished">클리어</translation>
+        <translation>클리어</translation>
     </message>
     <message>
         <source>Clear history and log</source>
-        <translation type="unfinished"></translation>
+        <translation>히스토리 및 로그 삭제</translation>
     </message>
     <message>
         <source>Create test</source>
-        <translation type="unfinished"></translation>
+        <translation>테스트 만들기</translation>
     </message>
 </context>
 <context>
@@ -6639,19 +6682,19 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../python/console/console_history_dlg.ui" line="14"/>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>대화상자</translation>
     </message>
     <message>
         <location filename="../python/console/console_history_dlg.ui" line="45"/>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>다시 읽기</translation>
     </message>
 </context>
 <context>
     <name>InfoViewer</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>DB 관리자</translation>
     </message>
 </context>
 <context>
@@ -6659,17 +6702,17 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/symbollayer/widget_layerproperties.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>양식</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_layerproperties.ui" line="28"/>
         <source>Symbol layer type</source>
-        <translation type="unfinished">심볼 레이어 타입</translation>
+        <translation>심볼 레이어 타입</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_layerproperties.ui" line="51"/>
         <source>This layer doesn&apos;t have any editable properties</source>
-        <translation type="unfinished"></translation>
+        <translation>이 레이어에는 편집가능한 속성이 없음</translation>
     </message>
 </context>
 <context>
