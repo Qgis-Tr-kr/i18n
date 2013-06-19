@@ -6889,7 +6889,7 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/qgisapp.ui" line="551"/>
         <source>Composer Manager...</source>
-        <translation>컴포저 관리자...</translation>
+        <translation>구성 관리자...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="560"/>
@@ -7209,7 +7209,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Composer manager...</source>
-        <translation type="obsolete">컴포저 관리자...</translation>
+        <translation type="obsolete">구성 관리자...</translation>
     </message>
     <message>
         <source>Exit</source>
@@ -13578,7 +13578,7 @@ Please contact the developers.
     </message>
     <message>
         <source>&amp;Open Recent Projects</source>
-        <translation type="obsolete">최근 프로젝트 열기(&amp;O)</translation>
+        <translation type="obsolete">최근 이용한 프로젝트 열기(&amp;O)</translation>
     </message>
     <message>
         <source>&amp;View</source>
@@ -13876,7 +13876,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Choice between mm and map units for new symbology. Scaling to use new symbology in print composer as well</source>
-        <translation type="obsolete">새로운 심볼로지에서는 단위를 mm 혹은 지도 단위 중에서 선택 가능합니다. 또한 프린트 컴포저도 새로운 심볼로지의 배율을 사용할 수 있습니다.</translation>
+        <translation type="obsolete">새로운 심볼로지에서는 단위를 mm 혹은 지도 단위 중에서 선택 가능합니다. 또한 프린트 구성도 새로운 심볼로지의 배율을 사용할 수 있습니다.</translation>
     </message>
     <message>
         <source>SVG fill symbol layer for polygon textures</source>
@@ -14004,7 +14004,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Map composer can add attribute tables in layouts. It is possibile to show only visible features in composer table or all features</source>
-        <translation type="obsolete">지도 컴포저에서 속성 테이블을 레이아웃에 추가할 수 있습니다. 이 기능으로 컴포저 테이블에 표시된 객체만 표시하거나, 또는 모든 모든 리처를 표시할 수 있습니다.</translation>
+        <translation type="obsolete">지도 구성에서 속성 테이블을 레이아웃에 추가할 수 있습니다. 이 기능으로 구성 테이블에 표시된 객체만 표시하거나, 또는 모든 모든 리처를 표시할 수 있습니다.</translation>
     </message>
     <message>
         <source>Identify tool attribute form now non-modal in view mode (since r12796)</source>
@@ -14923,19 +14923,19 @@ This copy of QGIS writes debugging output.</source>
     </message>
     <message>
         <source>Map Composer</source>
-        <translation type="obsolete">지도 컴포저</translation>
+        <translation type="obsolete">지도 구성</translation>
     </message>
     <message>
         <source>add capability to show and manipulate composer item width/ height in item position dialog.</source>
-        <translation type="obsolete">컴포저 항목의 너비/높이를 위치 대화상자에서 표시 및 조작하는 기능이 추가되었습니다.</translation>
+        <translation type="obsolete">구성 항목의 너비/높이를 위치 대화상자에서 표시 및 조작하는 기능이 추가되었습니다.</translation>
     </message>
     <message>
         <source>Composer items can now be deleted with the backspace key.</source>
-        <translation type="obsolete">컴포저 아이템이 백스페이스 키로 삭제될 수 있습니다.</translation>
+        <translation type="obsolete">구성 아이템이 백스페이스 키로 삭제될 수 있습니다.</translation>
     </message>
     <message>
         <source>Sorting for composer attribute table (several columns and ascending / descending).</source>
-        <translation type="obsolete">컴포저 속성 테이블 정렬 기능 (각각의 컬럼으로 오름차순 / 내림차순).</translation>
+        <translation type="obsolete">구성 속성 테이블 정렬 기능 (각각의 컬럼으로 오름차순 / 내림차순).</translation>
     </message>
     <message>
         <source>Select raster layers to add...</source>
@@ -15549,7 +15549,7 @@ Error: %1</source>
         <location filename="../src/app/qgisapp.cpp" line="4876"/>
         <location filename="../src/app/qgisapp.cpp" line="4957"/>
         <source>Composer %1</source>
-        <translation>컴포저 %1</translation>
+        <translation>구성 %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4919"/>
@@ -15817,7 +15817,7 @@ Ignore errors?</source>
     </message>
     <message>
         <source>&amp;New Print Composer</source>
-        <translation type="obsolete">새 프린트 컴포저(&amp;N)</translation>
+        <translation type="obsolete">새 프린트 구성(&amp;N)</translation>
     </message>
     <message>
         <source>Ctrl+P</source>
@@ -15826,17 +15826,17 @@ Ignore errors?</source>
     </message>
     <message>
         <source>New Print Composer</source>
-        <translation type="obsolete">새로운 프린트 컴포저</translation>
+        <translation type="obsolete">새 프린트 구성</translation>
     </message>
     <message>
         <source>Composer manager...</source>
         <translatorcomment>
       </translatorcomment>
-        <translation type="obsolete">컴포저 관리자...</translation>
+        <translation type="obsolete">구성 관리자...</translation>
     </message>
     <message>
         <source>Composer manager</source>
-        <translation type="obsolete">컴포저 관리자</translation>
+        <translation type="obsolete">구성 관리자</translation>
     </message>
     <message>
         <source>Ctrl+.</source>
@@ -16585,7 +16585,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/ui/qgsatlascompositionwidgetbase.ui" line="128"/>
         <source>Composer map</source>
-        <translation type="unfinished">컴포저 맵</translation>
+        <translation type="unfinished">구성 맵</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsatlascompositionwidgetbase.ui" line="142"/>
@@ -19073,7 +19073,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1477"/>
         <source>Composer templates</source>
-        <translation>컴포저 템플릿</translation>
+        <translation>구성 템플릿</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2118"/>
@@ -19094,7 +19094,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/composer/qgscomposer.cpp" line="179"/>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1831"/>
         <source>Composer</source>
-        <translation>컴포저</translation>
+        <translation>구성</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="712"/>
@@ -19433,7 +19433,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="51"/>
         <source>Composer</source>
-        <translation type="unfinished">컴포저</translation>
+        <translation type="unfinished">구성</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="76"/>
@@ -19652,7 +19652,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="532"/>
         <source>Composer manager</source>
-        <translation type="unfinished">컴포저 관리자</translation>
+        <translation type="unfinished">구성 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="537"/>
@@ -20873,7 +20873,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="240"/>
         <source>Composer templates</source>
-        <translation type="unfinished">컴포저 템플릿</translation>
+        <translation type="unfinished">구성 템플릿</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="265"/>
@@ -20888,12 +20888,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="280"/>
         <source>Remove composer</source>
-        <translation>컴포저 제거</translation>
+        <translation>구성 제거</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="280"/>
         <source>Do you really want to remove the map composer &apos;%1&apos;?</source>
-        <translation>정말 이 지도 컴포저 &apos;%1&apos;를 삭제하시겠습니까?</translation>
+        <translation>정말 이 지도 구성 &apos;%1&apos;를 삭제하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="386"/>
@@ -20929,7 +20929,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="20"/>
         <source>Composer manager</source>
-        <translation>컴포저 관리자</translation>
+        <translation>구성 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="35"/>
@@ -22226,12 +22226,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposertablewidgetbase.ui" line="146"/>
         <source>Show only visible features</source>
-        <translation>가시 객체만을 표시합니다.</translation>
+        <translation>보이는 객체만 표시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposertablewidgetbase.ui" line="98"/>
         <source>Composer map</source>
-        <translation>컴포저 맵</translation>
+        <translation>구성 맵</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposertablewidgetbase.ui" line="14"/>
@@ -60183,7 +60183,7 @@ Tried URL: %1</source>
     </message>
     <message>
         <source>Note: If you want more control over the map layout please use the map composer function in QGIS.</source>
-        <translation type="obsolete">참고: 지도 레이아웃에 더 많은 컨트롤을 사용하려면 QGIS의 지도 컴포저 기능을 이용하십시오.</translation>
+        <translation type="obsolete">참고: 지도 레이아웃에 더 많은 컨트롤을 사용하려면 QGIS의 지도 구성 기능을 이용하십시오.</translation>
     </message>
 </context>
 <context>
