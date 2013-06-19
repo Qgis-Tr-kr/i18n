@@ -1380,7 +1380,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="75"/>
         <location filename="../python/plugins/fTools/tools/frmVisual.ui" line="152"/>
         <source>Output point shapefile</source>
-        <translation>출력 포인트 shapefile</translation>
+        <translation>출력 점 shapefile</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeoprocessing.ui" line="20"/>
@@ -1552,12 +1552,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointDistance.ui" line="27"/>
         <source>Input point layer</source>
-        <translation>입력 포인트 레이어</translation>
+        <translation>입력 점 레이어</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointDistance.ui" line="55"/>
         <source>Target point layer</source>
-        <translation>대상 포인트 레이어</translation>
+        <translation>대상 점 레이어</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointDistance.ui" line="69"/>
@@ -1633,7 +1633,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointsInPolygon.ui" line="36"/>
         <source>Input point vector layer</source>
-        <translation>입력 포인트 벡터 레이어</translation>
+        <translation>입력 점 벡터 레이어</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointsInPolygon.ui" line="50"/>
@@ -1675,7 +1675,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/plugins/fTools/tools/frmRandPoints.ui" line="105"/>
         <location filename="../python/plugins/fTools/tools/frmRegPoints.ui" line="149"/>
         <source>Use this number of points</source>
-        <translation>이 포인트 수 사용</translation>
+        <translation>이 점 수 사용</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmRandPoints.ui" line="96"/>
@@ -2063,7 +2063,7 @@ p, li { white-space: pre-wrap; }
 %1
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="obsolete">출력 포인트 shapefile 생성되었음:
+        <translation type="obsolete">출력 점 shapefile 생성되었음:
 %1
 
 새 레이어로 TOC에 추가하시겠습니까?</translation>
@@ -2482,7 +2482,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please specify input point vector layer</source>
-        <translation>입력 포인트 벡터 레이어를 지정하십시오.</translation>
+        <translation>입력 점 벡터 레이어를 지정하십시오.</translation>
     </message>
     <message>
         <source>Please specify output count field</source>
@@ -2490,7 +2490,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>point count field</source>
-        <translation type="obsolete">포인트 계산 필드</translation>
+        <translation type="obsolete">점 계산 필드</translation>
     </message>
     <message>
         <source>Please select a raster layer</source>
@@ -2537,11 +2537,11 @@ were reduced to %2 vertices after simplification</source>
     </message>
     <message>
         <source>Create Point Distance Matrix</source>
-        <translation>포인트 거리 행렬 만들기</translation>
+        <translation>점 거리 행렬 만들기</translation>
     </message>
     <message>
         <source>Please specify input point layer</source>
-        <translation>입력 포인트 레이어를 지정하십시오.</translation>
+        <translation>입력 점 레이어를 지정하십시오.</translation>
     </message>
     <message>
         <source>Please specify output file</source>
@@ -2549,7 +2549,7 @@ were reduced to %2 vertices after simplification</source>
     </message>
     <message>
         <source>Please specify target point layer</source>
-        <translation>대상 포인트 레이어를 지정하십시오.</translation>
+        <translation>대상 점 레이어를 지정하십시오.</translation>
     </message>
     <message>
         <source>Please specify target unique ID field</source>
@@ -2653,7 +2653,7 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="47"/>
         <source>Point</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="57"/>
@@ -2827,7 +2827,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>POINT</source>
-        <translation type="obsolete">포인트</translation>
+        <translation type="obsolete">점</translation>
     </message>
     <message>
         <source>LINESTRING</source>
@@ -2839,7 +2839,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>MULTIPOINT</source>
-        <translation type="obsolete">멀티포인트</translation>
+        <translation type="obsolete">다중 점</translation>
     </message>
     <message>
         <source>MULTILINESTRING</source>
@@ -2979,7 +2979,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>POINT</source>
-        <translation type="obsolete">포인트</translation>
+        <translation type="obsolete">점</translation>
     </message>
     <message>
         <source>LINESTRING</source>
@@ -2991,7 +2991,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>MULTIPOINT</source>
-        <translation type="obsolete">멀티포인트</translation>
+        <translation type="obsolete">다중 점</translation>
     </message>
     <message>
         <source>MULTILINESTRING</source>
@@ -5987,7 +5987,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Output point shapefile</source>
-        <translation>출력 포인트 shapefile</translation>
+        <translation>출력 점 shapefile</translation>
     </message>
     <message>
         <source>Delaunay triangulation</source>
@@ -5995,7 +5995,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Input point vector layer</source>
-        <translation>입력 포인트 벡터 레이어</translation>
+        <translation>입력 점 벡터 레이어</translation>
     </message>
     <message>
         <source>Voronoi polygon</source>
@@ -6380,7 +6380,7 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     </message>
     <message>
         <source>Point layer error</source>
-        <translation type="obsolete">포인트 레이어 오류</translation>
+        <translation type="obsolete">점 레이어 오류</translation>
     </message>
     <message>
         <source>Could not identify the vector data provider.</source>
@@ -6444,7 +6444,7 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     </message>
     <message>
         <source>Input Point Vector</source>
-        <translation type="obsolete">입력 포인트 벡터</translation>
+        <translation type="obsolete">입력 점 벡터</translation>
     </message>
     <message>
         <source>Output Raster</source>
@@ -6462,7 +6462,7 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="29"/>
         <source>Input point layer</source>
-        <translation type="unfinished">입력 포인트 레이어</translation>
+        <translation type="unfinished">입력 점 레이어</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="39"/>
@@ -7360,7 +7360,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="788"/>
         <source>Rotate Point Symbols</source>
-        <translation>포인트 심볼 회전</translation>
+        <translation>점 심볼 회전</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="793"/>
@@ -8481,7 +8481,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Create point</source>
-        <translation type="obsolete">포인트 만들기</translation>
+        <translation type="obsolete">점 만들기</translation>
     </message>
     <message>
         <source>Create line</source>
@@ -8711,7 +8711,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Failed to load point layer.</source>
-        <translation type="obsolete">포인트 레이어 로드 실패.</translation>
+        <translation type="obsolete">점 레이어 로드 실패.</translation>
     </message>
     <message>
         <source>Could not connect to setRenderer signal.</source>
@@ -8835,7 +8835,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Points</source>
-        <translation type="obsolete">포인트</translation>
+        <translation type="obsolete">점</translation>
     </message>
     <message>
         <source>Lines</source>
@@ -9074,7 +9074,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     <name>PointsInPolygonThread</name>
     <message>
         <source>point count field</source>
-        <translation>포인트 수 필드</translation>
+        <translation>점 수 필드</translation>
     </message>
 </context>
 <context>
@@ -12266,7 +12266,7 @@ You are seeing this message most likely because you have no DISPLAY environment 
     <message>
         <location filename="../src/plugins/heatmap/heatmap.cpp" line="51"/>
         <source>Creates a Heatmap raster for the input point vector</source>
-        <translation>입력된 포인트 벡터로 온도지도 래스터 만들기</translation>
+        <translation>입력된 점 벡터로 온도지도 래스터 만들기</translation>
     </message>
     <message>
         <location filename="../src/core/qgsgeometry.cpp" line="46"/>
@@ -13896,7 +13896,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Add point displacement renderer plugin - allows points to be shifted to avoid colliding with other points</source>
-        <translation type="obsolete">점 재배치 렌더러 플러그인 추가 - 포인트가 다른 포인트와 겹치는 경우 이동하여 보여줌</translation>
+        <translation type="obsolete">점 재배치 렌더러 플러그인 추가 - 점이 다른 점과 겹치는 경우 이동하여 보여줌</translation>
     </message>
     <message>
         <source>Allow saving vector layers as ogr vector files</source>
@@ -13908,7 +13908,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Allow adding parts to multi points and lines</source>
-        <translation type="obsolete">멀티 포인트와 라인에 파트 추가 허용</translation>
+        <translation type="obsolete">다중 점과 선에 파트 추가 허용</translation>
     </message>
     <message>
         <source>Text and form annotation tools are now in gui and app</source>
@@ -15875,7 +15875,7 @@ Ignore errors?</source>
     </message>
     <message>
         <source>Rotate Point Symbols</source>
-        <translation type="obsolete">포인트 심볼 회전</translation>
+        <translation type="obsolete">점 심볼 회전</translation>
     </message>
     <message>
         <source>Deselect features from all layers</source>
@@ -24188,19 +24188,19 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Point</source>
-        <translation type="obsolete">포인트</translation>
+        <translation type="obsolete">점</translation>
     </message>
     <message>
         <source>Multipoint</source>
-        <translation type="obsolete">멀티 포인트</translation>
+        <translation type="obsolete">다중 점</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="obsolete">라인</translation>
+        <translation type="obsolete">선</translation>
     </message>
     <message>
         <source>Multiline</source>
-        <translation type="obsolete">멀티 라인</translation>
+        <translation type="obsolete">다중 선</translation>
     </message>
     <message>
         <source>Polygon</source>
@@ -26596,7 +26596,7 @@ Parser error:
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="114"/>
         <source>Point</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="143"/>
@@ -28133,12 +28133,12 @@ gray = no data
     <message>
         <location filename="../src/ui/qgsgpsinformationwidgetbase.ui" line="109"/>
         <source>Add track point</source>
-        <translation>트랙 포인트 추가</translation>
+        <translation>트랙 점 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsgpsinformationwidgetbase.ui" line="128"/>
         <source>Reset track</source>
-        <translation>트랙 제설정</translation>
+        <translation>트랙 재설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsgpsinformationwidgetbase.ui" line="149"/>
@@ -29108,7 +29108,7 @@ Please reselect a valid file.</source>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefconfigdialogbase.ui" line="20"/>
         <source>Point tip</source>
-        <translation>포인트 팁</translation>
+        <translation>점 팁</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefconfigdialogbase.ui" line="26"/>
@@ -29281,17 +29281,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="561"/>
         <source>Load GCP points</source>
-        <translation>GCP 포인트 로드</translation>
+        <translation>GCP 점 로드</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="573"/>
         <source>No GCP points to save</source>
-        <translation>GCP 포인트가 저장되지 않았습니다.</translation>
+        <translation>GCP 점가 저장되지 않았습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="578"/>
         <source>Save GCP points</source>
-        <translation>GCP 포인트 저장</translation>
+        <translation>GCP 점 저장</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="600"/>
@@ -29333,7 +29333,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="1235"/>
         <source>Unable to open GCP points file %1</source>
-        <translation>GCP 포인트 파일 %1을 열 수 없습니다.</translation>
+        <translation>GCP 점 파일 %1을 열 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="1364"/>
@@ -29353,7 +29353,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="1250"/>
         <source>Save GCP points?</source>
-        <translation>GCP 포인트를 저장하시겠습니까?</translation>
+        <translation>GCP 점을 저장하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="1284"/>
@@ -29652,7 +29652,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="242"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="245"/>
         <source>Add point</source>
-        <translation>포인트 추가</translation>
+        <translation>점 추가</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="248"/>
@@ -29663,7 +29663,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="253"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="256"/>
         <source>Delete point</source>
-        <translation>포인트 삭제</translation>
+        <translation>점 삭제</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="259"/>
@@ -29722,7 +29722,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="316"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="319"/>
         <source>Save GCP points as...</source>
-        <translation>새 이름으로 GCP 포인트를 저장...</translation>
+        <translation>새 이름으로 GCP 점을 저장...</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="322"/>
@@ -29733,7 +29733,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="327"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="330"/>
         <source>Load GCP points</source>
-        <translation>GCP 포인트 로드</translation>
+        <translation>GCP 점 로드</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="333"/>
@@ -29759,7 +29759,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="351"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="354"/>
         <source>Move GCP point</source>
-        <translation>GCP 포인트 이동</translation>
+        <translation>GCP 점 이동</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="359"/>
@@ -29912,7 +29912,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/globe/globe_plugin_dialog_guibase.ui" line="307"/>
         <source>Point Layer</source>
-        <translation>포인트 레이어</translation>
+        <translation>점 레이어</translation>
     </message>
     <message>
         <location filename="../src/plugins/globe/globe_plugin_dialog_guibase.ui" line="317"/>
@@ -30392,7 +30392,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="256"/>
         <source>New point</source>
-        <translation>새 포인트</translation>
+        <translation>새 점</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="274"/>
@@ -30522,7 +30522,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="407"/>
         <source>Point</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="408"/>
@@ -30843,11 +30843,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>New point</source>
-        <translation type="obsolete">새 포인트</translation>
+        <translation type="obsolete">새 점</translation>
     </message>
     <message>
         <source>Undo last point</source>
-        <translation type="obsolete">마지막 포인트 되돌리기</translation>
+        <translation type="obsolete">마지막 점 되돌리기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="239"/>
@@ -30865,7 +30865,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="74"/>
         <source>New point</source>
-        <translation>새 포인트</translation>
+        <translation>새 점</translation>
     </message>
 </context>
 <context>
@@ -30890,7 +30890,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="844"/>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="856"/>
         <source>Select point on line</source>
-        <translation>라인 위의 포인트 선택</translation>
+        <translation>라인 위의 점 선택</translation>
     </message>
 </context>
 <context>
@@ -33601,7 +33601,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="282"/>
         <source>Points</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="311"/>
@@ -33747,11 +33747,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsItemPositionDialogBase</name>
     <message>
         <source>Set item position</source>
-        <translation type="obsolete">항목 위치 ​​설정</translation>
+        <translation type="obsolete">항목 위치 설정</translation>
     </message>
     <message>
         <source>Item reference point</source>
-        <translation type="obsolete">항목 참조 포인트</translation>
+        <translation type="obsolete">항목 참조 점</translation>
     </message>
     <message>
         <source>Coordinates</source>
@@ -36236,7 +36236,7 @@ not displayed</source>
     <message>
         <location filename="../src/plugins/georeferencer/qgsmapcoordsdialogbase.ui" line="23"/>
         <source>Enter X and Y coordinates (DMS (dd mm ss.ss), DD (dd.dd) or projected coordinates (mmmm.mm)) which correspond with the selected point on the image. Alternatively, click the button with icon of a pencil and then click a corresponding point on map canvas of QGIS to fill in coordinates of that point.</source>
-        <translation>X와 Y 좌표 입력 (도분초 (dd mm ss.ss), DD (dd.dd) 또는 투영된 좌표 (mmmm.mm))는 이미지의 선택된 점에 대응합니다. 또는 연필 아이콘 버튼을 클릭하여 포인트 좌표에 해당하는 QGIS지도 캔버스의 해당 지점을 클릭하십시오.</translation>
+        <translation>X와 Y 좌표 입력 (도분초 (dd mm ss.ss), DD (dd.dd) 또는 투영된 좌표 (mmmm.mm))는 이미지의 선택된 점에 대응합니다. 또는 연필 아이콘 버튼을 클릭하여 점 좌표에 해당하는 QGIS지도 캔버스의 해당 지점을 클릭하십시오.</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsmapcoordsdialogbase.ui" line="35"/>
@@ -37077,12 +37077,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="99"/>
         <source>No point feature</source>
-        <translation>포인트 피처 없음</translation>
+        <translation>점 피처 없음</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="99"/>
         <source>No point feature was detected at the clicked position. Please click closer to the feature or enhance the search tolerance under Settings-&gt;Options-&gt;Digitizing-&gt;Serch radius for vertex edits</source>
-        <translation>클릭 지점에서 포인트 피처를 찾지 못했습니다. 피처 근처 클릭하거나 검색 허용치를 확대하십시오. 허용치는 설정-&gt;옵션-&gt; 디지타이징-&gt;버텍스 편집 검색 범위에서 설정할 수 있습니다.</translation>
+        <translation>클릭 지점에서 점 피처를 찾지 못했습니다. 피처 근처 클릭하거나 검색 허용치를 확대하십시오. 허용치는 설정-&gt;옵션-&gt; 디지타이징-&gt;버텍스 편집 검색 범위에서 설정할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="113"/>
@@ -37092,7 +37092,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="113"/>
         <source>The active point layer does not have a rotation attribute</source>
-        <translation>활성 포인트 레이어에 회전 속성이 없습니다.</translation>
+        <translation>활성 점 레이어에 회전 속성이 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="193"/>
@@ -38283,12 +38283,12 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="464"/>
         <source>Point</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="468"/>
         <source>Multipoint</source>
-        <translation>멀티포인트</translation>
+        <translation>다중 점</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="472"/>
@@ -38902,7 +38902,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="186"/>
         <source>MultiPoint</source>
-        <translation>멀티포인트</translation>
+        <translation>다중 점</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="193"/>
@@ -45734,8 +45734,8 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/gui/symbology-ng/qgspointdisplacementrendererwidget.cpp" line="337"/>
         <source>The point displacement renderer only applies to (single) point layers. 
 &apos;%1&apos; is not a point layer and cannot be displayed by the point displacement renderer</source>
-        <translation>포인트 이동 렌더러는 (단일) 포인트 레이어에만 적용할 수 있습니다.
-&apos;%1&apos;는 포인트 레이어가 아니기 때문에 포인트 이동 렌더러로 표시할 수 없습니다.</translation>
+        <translation>점 이동 렌더러는 (단일) 점 레이어에만 적용할 수 있습니다.
+&apos;%1&apos;는 점 레이어가 아니기 때문에 점 이동 렌더러로 표시할 수 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -52026,12 +52026,12 @@ standard deviation ×</source>
     <message>
         <location filename="../src/app/nodetool/qgsselectedfeature.cpp" line="493"/>
         <source>point %1</source>
-        <translation>포인트 %1</translation>
+        <translation>점 %1</translation>
     </message>
     <message>
         <location filename="../src/app/nodetool/qgsselectedfeature.cpp" line="499"/>
         <source>single point</source>
-        <translation>단일 포인트</translation>
+        <translation>단일 점</translation>
     </message>
 </context>
 <context>
@@ -52584,7 +52584,7 @@ enhancement</source>
     </message>
     <message>
         <source>Point Symbol</source>
-        <translation type="obsolete">포인트 기호</translation>
+        <translation type="obsolete">점 기호</translation>
     </message>
     <message>
         <source>Label</source>
@@ -52785,7 +52785,7 @@ enhancement</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="324"/>
         <source>POINT</source>
-        <translation type="unfinished">포인트</translation>
+        <translation type="unfinished">점</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="327"/>
@@ -52800,7 +52800,7 @@ enhancement</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="333"/>
         <source>MULTIPOINT</source>
-        <translation type="unfinished">멀티포인트</translation>
+        <translation type="unfinished">다중 점</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="336"/>
@@ -53195,12 +53195,12 @@ but implies better performance thereafter.</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="193"/>
         <source>Point</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="197"/>
         <source>Multipoint</source>
-        <translation>멀티포인트</translation>
+        <translation>다중 점</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="201"/>
@@ -57839,7 +57839,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="135"/>
         <source>Select the coordinate reference system for the vector file. The data points will be transformed from the layer coordinate reference system.</source>
-        <translation>벡터 파일의 좌표계를 선택하십시오. 데이터 포인트는 레이어의 좌표계에서 변환됩니다.</translation>
+        <translation>벡터 파일의 좌표계를 선택하십시오. 데이터 점은 레이어의 좌표계에서 변환됩니다.</translation>
     </message>
 </context>
 <context>
@@ -61125,11 +61125,11 @@ SQL Anywhere 오류 코드: %2
     </message>
     <message>
         <source>point %1</source>
-        <translation type="obsolete">포인트 %1</translation>
+        <translation type="obsolete">점 %1</translation>
     </message>
     <message>
         <source>single point</source>
-        <translation type="obsolete">단일 포인트</translation>
+        <translation type="obsolete">단일 점</translation>
     </message>
     <message>
         <source>Node tool</source>
@@ -64408,7 +64408,7 @@ Click on one of the icons along the top of the composer window to select what ty
     <message>
         <location filename="../src/plugins/dxf2shp_converter/dxf2shpconvertergui.ui" line="95"/>
         <source>Point</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/plugins/dxf2shp_converter/dxf2shpconvertergui.ui" line="14"/>
@@ -64488,7 +64488,7 @@ For support send a mail to scala@itc.cnr.it
 * 입력 DXF 파일: 변환할 DXF 파일의 경로입니다. 
 * 출력 Shp 파일: 만들 shape 파일의 이름입니다. 
 * 출력 Shp 파일 형식: 출력 shape 파일 유형을 지정하십시오. 
-* 내보내기 텍스트 확인란: 체크되어 있으면 추가적인 shp 포인트 레이어가 생성됩니다. 해당 레이어의 dbf는 dxf 파일에서 찾은 &quot;TEXT&quot; 필드와 문자열로 구성됩니다. 
+* 내보내기 텍스트 확인란: 체크되어 있으면 추가적인 shp 점 레이어가 생성됩니다. 해당 레이어의 dbf는 dxf 파일에서 찾은 &quot;TEXT&quot; 필드와 문자열로 구성됩니다. 
 
 --- 
 개발자 Paolo L. Scala, Barbara Rita Barricelli, Marco Padula CNR, Milan Unit (Information Technology), Construction Technologies Institute. 지원이 필요하시면 다음의 주소로 메일을 보내주세요. scala@itc.cnr.it
@@ -64946,7 +64946,7 @@ p, li { white-space: pre-wrap; }
     <message utf8="true">
         <location filename="../src/plugins/evis/ui/evisgenericeventbrowserguibase.ui" line="113"/>
         <source>All of the attribute information for the point associated with the photo being viewed is displayed here. If the file type being referenced in the displayed record is not an image but is of a file type defined in the “Configure External Applications” tab then when you double-click on the value of the field containing the path to the file the application to open the file will be launched to view or hear the contents of the file. If the file extension is recognized the attribute data will be displayed in green.</source>
-        <translation>사진과 연결된 포인트의 모든 속성 정보가 여기에 표시됩니다. 이미지 이외의 파일 형식에서 &quot;외부 응용 프로그램 구성&quot; 탭에서 설정된 파일은 더블 클릭했을 때 응용 프로그램이 시작되어 보고 들을 수 있습니다. 파일 확장명을 시스템에서 인식할 수 있는 경우 녹색으로 표시됩니다.</translation>
+        <translation>사진과 연결된 점의 모든 속성 정보가 여기에 표시됩니다. 이미지 이외의 파일 형식에서 &quot;외부 응용 프로그램 구성&quot; 탭에서 설정된 파일은 더블 클릭했을 때 응용 프로그램이 시작되어 보고 들을 수 있습니다. 파일 확장명을 시스템에서 인식할 수 있는 경우 녹색으로 표시됩니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisgenericeventbrowserguibase.ui" line="117"/>
@@ -67468,11 +67468,11 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Point x coordinate</source>
-        <translation type="obsolete">포인트 x 좌표</translation>
+        <translation type="obsolete">점 x 좌표</translation>
     </message>
     <message>
         <source>Point y coordinate</source>
-        <translation type="obsolete">포인트 y 좌표</translation>
+        <translation type="obsolete">점 y 좌표</translation>
     </message>
 </context>
 <context>
@@ -67783,7 +67783,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="66"/>
         <source>Computes a coordinate transformation based on the control points</source>
-        <translation>컨트롤 포인트에 따라 좌표 변환 계산</translation>
+        <translation>컨트롤 점에 따라 좌표 변환 계산</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="67"/>
@@ -67855,7 +67855,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="78"/>
         <source>Convert centroids to points</source>
-        <translation>센트로이드를 포인트로 변환</translation>
+        <translation>센트로이드를 점으로 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="79"/>
@@ -67890,7 +67890,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="85"/>
         <source>Convert raster to vector points</source>
-        <translation>래스터를 벡터 포인트로 변환</translation>
+        <translation>래스터를 벡터 점으로 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="86"/>
@@ -67920,7 +67920,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="91"/>
         <source>Count of neighbouring points</source>
-        <translation>인근의 포인트를 카운팅</translation>
+        <translation>인근의 점을 카운팅</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="92"/>
@@ -68030,12 +68030,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="113"/>
         <source>Create points</source>
-        <translation>포인트 만들기</translation>
+        <translation>점 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="114"/>
         <source>Create points along input lines</source>
-        <translation>입력 라인에 따라 포인트 만들기</translation>
+        <translation>입력 라인에 따라 점 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="115"/>
@@ -68050,7 +68050,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="117"/>
         <source>Create random 2D/3D vector points</source>
-        <translation>무작위 2D/3D 벡터 포인트 만들기</translation>
+        <translation>무작위 2D/3D 벡터 점 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="118"/>
@@ -68589,12 +68589,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="209"/>
         <source>Fill lake from seed at given level</source>
-        <translation>주어진 래벨의 씨드로 래이크 채우기</translation>
+        <translation>주어진 래벨의 씨드로 호수 채우기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="210"/>
         <source>Fill lake from seed point at given level</source>
-        <translation>주어진 씨드 포인트로 래이크 채우기</translation>
+        <translation>주어진 씨드 점으로 호수 채우기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="211"/>
@@ -68890,7 +68890,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="269"/>
         <source>Import vector points from database table containing coordinates</source>
-        <translation>좌표를 가지는 데이터베이스 테이블에서 벡터 포인트 가져오기</translation>
+        <translation>좌표를 가지는 데이터베이스 테이블에서 벡터 점 가져오기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="270"/>
@@ -68915,7 +68915,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="274"/>
         <source>Inverse distance squared weighting raster interpolation based on vector points</source>
-        <translation>벡터 포인트에 따라 거리의 제곱에 반비례하도록 래스터 보간</translation>
+        <translation>벡터 점에 따라 거리의 제곱에 반비례하도록 래스터 보간</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="275"/>
@@ -69169,7 +69169,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="324"/>
         <source>Random location perturbations of vector points</source>
-        <translation>벡터 포인트를 교란시켜 무작위 위치</translation>
+        <translation>벡터 점을 교란시킨 무작위 위치</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="325"/>
@@ -69293,7 +69293,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="348"/>
         <source>Regularized spline with tension raster interpolation based on vector points</source>
-        <translation>래스터의 장력을 이용한 정규화된 스플라인 벡터 포인트에 따라 보간합니다.</translation>
+        <translation>래스터의 장력을 이용한 정규화된 스플라인 벡터 점에 따라 보간합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="349"/>
@@ -69333,7 +69333,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="356"/>
         <source>Remove outliers from vector point data</source>
-        <translation>벡터 포인트 데이터에서 이상치 제거</translation>
+        <translation>벡터 점 데이터에서 이상치 제거</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="357"/>
@@ -69542,7 +69542,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="396"/>
         <source>Snap lines to vertex in threshold</source>
-        <translation>라인을 임계값 내 포인트에 스냅</translation>
+        <translation>라인을 임계값 내 점에 스냅</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="397"/>
@@ -69622,7 +69622,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="412"/>
         <source>Tests of normality on vector points</source>
-        <translation>벡터 포인트 군의 정규성 테스트</translation>
+        <translation>벡터 점 군의 정규성 테스트</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="413"/>
@@ -69692,12 +69692,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="426"/>
         <source>Upload raster values at positions of vector points to the table</source>
-        <translation>벡터 포인트 위치에 있는 래스터의 값을 테이블에 업로드</translation>
+        <translation>벡터 점 위치에 있는 래스터의 값을 테이블에 업로드</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="427"/>
         <source>Upload vector values at positions of vector points</source>
-        <translation>벡터 포인트 위치에 있는 벡터 값을 업로드</translation>
+        <translation>벡터 점 위치에 있는 벡터 값을 업로드</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="428"/>
@@ -69777,7 +69777,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="443"/>
         <source>Work with vector points</source>
-        <translation>벡터 포인트로 작업</translation>
+        <translation>벡터 점으로 작업</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="444"/>
