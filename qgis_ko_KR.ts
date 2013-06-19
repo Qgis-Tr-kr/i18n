@@ -6,7 +6,7 @@
     <message>
         <location filename="../python/console/console_compile_apis.ui" line="32"/>
         <source>Generating prepared API file (please wait)...</source>
-        <translation type="unfinished"></translation>
+        <translation>준비된 API 파일 받기(시간 걸림)...</translation>
     </message>
 </context>
 <context>
@@ -18,30 +18,31 @@
     <message>
         <location filename="../src/gui/symbology-ng/characterwidget.cpp" line="124"/>
         <source>&lt;p&gt;Character: &lt;span style=&quot;font-size: 24pt; font-family: %1&quot;&gt;%2&lt;/span&gt;&lt;p&gt;Value: 0x%3</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;문자: &lt;span style=&quot;font-size: 24pt; font-family: %1&quot;&gt;%2&lt;/span&gt;&lt;p&gt;값: 0x%3</translation>
     </message>
 </context>
 <context>
     <name>ConfigDialog</name>
     <message>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>검색...</translation>
     </message>
     <message>
         <source>Wrong value</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 값</translation>
     </message>
     <message>
         <source>Wrong parameter value:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 인자 값:
+%1</translation>
     </message>
 </context>
 <context>
     <name>ConnectionItem</name>
     <message>
         <source>Unable to connect</source>
-        <translation type="unfinished"></translation>
+        <translation>연결 불가</translation>
     </message>
 </context>
 <context>
@@ -66,21 +67,21 @@
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="116"/>
         <source>Click to select the CRS to use for coordinate display</source>
-        <translation>클릭하여 좌표 표시 위한 CRS를 선택</translation>
+        <translation>클릭하여 좌표 표시 위한 좌표계를 선택</translation>
     </message>
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="124"/>
         <source>Coordinate in your selected CRS (lat,lon or east,north)</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 좌표계상의 좌표 (경,위도 혹은 동,북)</translation>
     </message>
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="128"/>
         <source>Coordinate in map canvas coordinate reference system (lat,lon or east,north)</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 캔버스 좌표계상의 좌표 (경,위도 혹은 동,북)</translation>
     </message>
     <message>
         <source>Coordinate in your selected CRS</source>
-        <translation type="obsolete">선택한 CRS상의 좌표</translation>
+        <translation type="obsolete">선택한 좌표계상의 좌표</translation>
     </message>
     <message>
         <source>Coordinate in map canvas coordinate reference system</source>
@@ -111,559 +112,567 @@
     <name>DBManager</name>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스가 선택되지 않았거나 연결되지 않았습니다.</translation>
     </message>
     <message>
         <source>Select the table you want export to file.</source>
-        <translation type="unfinished"></translation>
+        <translation>파일로 내보낼 테이블을 선택하십시오.</translation>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>DB 관리자</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation type="unfinished">정보</translation>
+        <translation>정보</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">테이블</translation>
+        <translation>테이블</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished">미리보기</translation>
+        <translation>미리보기</translation>
     </message>
     <message>
         <source>&amp;Database</source>
-        <translation type="unfinished">데이터베이스(&amp;D)</translation>
+        <translation>데이터베이스(&amp;D)</translation>
     </message>
     <message>
         <source>&amp;Schema</source>
-        <translation type="unfinished"></translation>
+        <translation>스키마(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블(&amp;T)</translation>
     </message>
     <message>
         <source>&amp;Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>새로고침(&amp;R)</translation>
     </message>
     <message>
         <source>&amp;SQL window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;SQL 창</translation>
     </message>
     <message>
         <source>&amp;Exit</source>
-        <translation type="unfinished"></translation>
+        <translation>종료(&amp;E)</translation>
     </message>
     <message>
         <source>&amp;Import layer/file</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어/파일 가져오기(&amp;I)</translation>
     </message>
     <message>
         <source>&amp;Export to file</source>
-        <translation type="unfinished"></translation>
+        <translation>파일로 내보내기(&amp;E)</translation>
     </message>
 </context>
 <context>
     <name>DBManagerPlugin</name>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>Unable to find a valid unique field</source>
-        <translation type="unfinished"></translation>
+        <translation>유효한 유일키 필드를 찾지 못했음</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="unfinished">복사</translation>
+        <translation>복사</translation>
     </message>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>DB 관리자</translation>
     </message>
     <message>
         <source>Server version: </source>
-        <translation type="unfinished"></translation>
+        <translation>서버 버전:</translation>
     </message>
     <message>
         <source>Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>호스트:</translation>
     </message>
     <message>
         <source>User:</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자:</translation>
     </message>
     <message>
         <source>Library:</source>
-        <translation type="unfinished"></translation>
+        <translation>라이브러리:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; geometry_columns table doesn&apos;t exist!
 This table is essential for many GIS applications for enumeration of tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; geometry_columns 테이블이 없습니다!
+이 테이블은 여러 GIS 프로그램에서 테이블의 구분을 위해 필수적입니다.</translation>
     </message>
     <message>
         <source>create new schemas</source>
-        <translation type="unfinished"></translation>
+        <translation>새 스키마 만들기</translation>
     </message>
     <message>
         <source>create temporary tables</source>
-        <translation type="unfinished"></translation>
+        <translation>임시 테이블 만들기</translation>
     </message>
     <message>
         <source>Not connected</source>
-        <translation type="unfinished">연결되지 않았습니다.</translation>
+        <translation>연결되지 않았음</translation>
     </message>
     <message>
         <source>Connection details</source>
-        <translation type="unfinished">연결 상세</translation>
+        <translation>연결 상세</translation>
     </message>
     <message>
         <source>General info</source>
-        <translation type="unfinished"></translation>
+        <translation>일반 정보</translation>
     </message>
     <message>
         <source>&lt;warning&gt; %s support not enabled!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; %s 지원 불가!</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user has no privileges!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 이 사용자에 권한 없음!</translation>
     </message>
     <message>
         <source>User has privileges:</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자가 가진 권한:</translation>
     </message>
     <message>
         <source>Privileges</source>
-        <translation type="unfinished"></translation>
+        <translation>권한</translation>
     </message>
     <message>
         <source>Owner:</source>
-        <translation type="unfinished"></translation>
+        <translation>소유자:</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>설명:</translation>
     </message>
     <message>
         <source>create new objects</source>
-        <translation type="unfinished"></translation>
+        <translation>새 객체 생성</translation>
     </message>
     <message>
         <source>access objects</source>
-        <translation type="unfinished"></translation>
+        <translation>객체에 접근</translation>
     </message>
     <message>
         <source>Schema details</source>
-        <translation type="unfinished"></translation>
+        <translation>스키마 상세</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user has no privileges to access this schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 사용자가 이 스키마에 접근할 권한 없음!</translation>
     </message>
     <message>
         <source>Relation type:</source>
-        <translation type="unfinished">릴래이션 타입:</translation>
+        <translation>릴래이션 타입:</translation>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished">보기</translation>
+        <translation>보기</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished">테이블</translation>
+        <translation>테이블</translation>
     </message>
     <message>
         <source>Rows:</source>
-        <translation type="unfinished"></translation>
+        <translation>행:</translation>
     </message>
     <message>
         <source>Unknown (&lt;a href=&quot;action:rows/count&quot;&gt;find out&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>알 수 없음 (&lt;a href=&quot;action:rows/count&quot;&gt;발견&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">유형</translation>
+        <translation>유형</translation>
     </message>
     <message>
         <source>Null</source>
-        <translation type="unfinished"></translation>
+        <translation>널</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished">기본</translation>
+        <translation>기본값</translation>
     </message>
     <message>
         <source>Column(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>컬럼</translation>
     </message>
     <message>
         <source>Function</source>
-        <translation type="unfinished"></translation>
+        <translation>함수</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This is not a spatial table.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 공간 테이블 아님.</translation>
     </message>
     <message>
         <source>Fields</source>
-        <translation type="unfinished">필드</translation>
+        <translation>필드</translation>
     </message>
     <message>
         <source>Constraints</source>
-        <translation type="unfinished">제약조건</translation>
+        <translation>제약조건</translation>
     </message>
     <message>
         <source>Indexes</source>
-        <translation type="unfinished">인덱스</translation>
+        <translation>인덱스</translation>
     </message>
     <message>
         <source>Triggers</source>
-        <translation type="unfinished"></translation>
+        <translation>트리거</translation>
     </message>
     <message>
         <source>View definition</source>
-        <translation type="unfinished"></translation>
+        <translation>정의 보기</translation>
     </message>
     <message>
         <source>Column:</source>
-        <translation type="unfinished"></translation>
+        <translation>컬럼:</translation>
     </message>
     <message>
         <source>Geometry:</source>
-        <translation type="unfinished"></translation>
+        <translation>지오매트리:</translation>
     </message>
     <message>
         <source>Dimension:</source>
-        <translation type="unfinished"></translation>
+        <translation>차원:</translation>
     </message>
     <message>
         <source>Undefined</source>
-        <translation type="unfinished">정의되지 않음</translation>
+        <translation>정의되지 않음</translation>
     </message>
     <message>
         <source>Spatial ref:</source>
-        <translation type="unfinished"></translation>
+        <translation>공간 참조:</translation>
     </message>
     <message>
         <source>Estimated extent:</source>
-        <translation type="unfinished"></translation>
+        <translation>측정된 범위:</translation>
     </message>
     <message>
         <source>(unknown) (&lt;a href=&quot;action:extent/get&quot;&gt;find out&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>(알 수 없음) (&lt;a href=&quot;action:rows/count&quot;&gt;발견&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Extent:</source>
-        <translation type="unfinished"></translation>
+        <translation>범위:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; There isn&apos;t entry in geometry_columns!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; geometry_columns에 내용 없음!</translation>
     </message>
     <message>
         <source>&lt;warning&gt; No spatial index defined (&lt;a href=&quot;action:spatialindex/create&quot;&gt;create it&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 공간 인덱스 정의되지 않음 (&lt;a href=&quot;action:spatialindex/create&quot;&gt;생성&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Pages:</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지:</translation>
     </message>
     <message>
         <source>Rows (estimation):</source>
-        <translation type="unfinished"></translation>
+        <translation>행 (추정):</translation>
     </message>
     <message>
         <source>Privileges:</source>
-        <translation type="unfinished"></translation>
+        <translation>권한:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user doesn&apos;t have usage privileges for this schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 사용자가 이 스키마를 사용할 권한 없음!</translation>
     </message>
     <message>
         <source>Rows (counted):</source>
-        <translation type="unfinished"></translation>
+        <translation>행 (실측):</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user has read-only privileges.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 사용자가 읽기 권한만 있음.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; There&apos;s a significant difference between estimated and real row count. Consider running &lt;a href=&quot;action:vacuumanalyze/run&quot;&gt;VACUUM ANALYZE&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 추정치와 실제 행 수 사이의 차이가 꽤 큽니다. &lt;a href=&quot;action:vacuumanalyze/run&quot;&gt;VACUUM ANALYZE&lt;/a&gt; 수행을 권장합니다.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; No primary key defined for this table!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 이 테이블에 프로아머리 키 없음!</translation>
     </message>
     <message>
         <source>Scripts:</source>
-        <translation type="unfinished"></translation>
+        <translation>스크립트:</translation>
     </message>
     <message>
         <source>&lt;warning&gt; Version of installed scripts doesn&apos;t match version of released scripts!
 This is probably a result of incorrect PostGIS upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 설치된 스크립트의 버전이 릴리즈된 스크립트 버전과 일치 않음!
+이는 아마도 잘못된 PostGIS 업그래이드 때문인 듯 함.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; This user doesn&apos;t have privileges to read contents of geometry_columns table!
 This table is essential for many GIS applications for enumeration of tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;경고&gt; 사용자가 geometry_columns 테이블 읽기 권한 없음!
+이 테이블은 여러 GIS 프로그램에서 테이블 열거를 위해 필수적임.</translation>
     </message>
     <message>
         <source>Length</source>
-        <translation type="unfinished">길이</translation>
+        <translation>길이</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation type="unfinished">사용 가능</translation>
+        <translation>사용 가능</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished">예</translation>
+        <translation>예</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>아니오</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;action:triggers/enable&quot;&gt;Enable all triggers&lt;/a&gt; / &lt;a href=&quot;action:triggers/disable&quot;&gt;Disable all triggers&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;action:triggers/enable&quot;&gt;모든 트리거 활성화&lt;/a&gt; / &lt;a href=&quot;action:triggers/disable&quot;&gt;모든 트리거 비활성화&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Definition</source>
-        <translation type="unfinished"></translation>
+        <translation>정의</translation>
     </message>
     <message>
         <source>Rules</source>
-        <translation type="unfinished">규칙 그룹</translation>
+        <translation>규칙</translation>
     </message>
     <message>
         <source>&amp;Versioning</source>
-        <translation type="unfinished"></translation>
+        <translation>버저닝(&amp;V)</translation>
     </message>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블(&amp;T)</translation>
     </message>
     <message>
         <source>Filename:</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 이름:</translation>
     </message>
     <message>
         <source>SQLite version:</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLite 버전:</translation>
     </message>
     <message>
         <source>Error:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>오류:
+%s</translation>
     </message>
     <message>
         <source>
 
 Query:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>
+
+질의:
+%s</translation>
     </message>
     <message>
         <source>&amp;Re-connect</source>
-        <translation type="unfinished"></translation>
+        <translation>재접속(&amp;R)</translation>
     </message>
     <message>
         <source>&amp;Database</source>
-        <translation type="unfinished">데이터베이스(&amp;D)</translation>
+        <translation>데이터베이스(&amp;D)</translation>
     </message>
     <message>
         <source>&amp;Create schema</source>
-        <translation type="unfinished"></translation>
+        <translation>스키마 생성(&amp;C)</translation>
     </message>
     <message>
         <source>&amp;Schema</source>
-        <translation type="unfinished"></translation>
+        <translation>스키마(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Delete (empty) schema</source>
-        <translation type="unfinished"></translation>
+        <translation>(빈) 스키마 삭제(&amp;D)</translation>
     </message>
     <message>
         <source>Delete selected item</source>
-        <translation type="unfinished">선택 항목 삭제</translation>
+        <translation>선택 항목 삭제</translation>
     </message>
     <message>
         <source>&amp;Create table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 생성(&amp;C)</translation>
     </message>
     <message>
         <source>&amp;Edit table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 수정(&amp;E)</translation>
     </message>
     <message>
         <source>&amp;Delete table/view</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블/뷰 삭제(&amp;D)</translation>
     </message>
     <message>
         <source>&amp;Empty table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 비우기(&amp;E)</translation>
     </message>
     <message>
         <source>&amp;Move to schema</source>
-        <translation type="unfinished"></translation>
+        <translation>스키마로 이동(&amp;M)</translation>
     </message>
     <message>
         <source>Cannot delete the selected item.</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 아이템을 제거할 수 없음.</translation>
     </message>
     <message>
         <source>No database selected or you are not connected to it.</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스가 선택되지 않았거나 연결되지 않았습니다.</translation>
     </message>
     <message>
         <source>New schema</source>
-        <translation type="unfinished"></translation>
+        <translation>새 스키마</translation>
     </message>
     <message>
         <source>Enter new schema name</source>
-        <translation type="unfinished"></translation>
+        <translation>새 스키마 이름 입력</translation>
     </message>
     <message>
         <source>Select an empty SCHEMA for deletion.</source>
-        <translation type="unfinished"></translation>
+        <translation>삭제할 빈 스키마를 선택하세요.</translation>
     </message>
     <message>
         <source>hey!</source>
-        <translation type="unfinished"></translation>
+        <translation>헤이!</translation>
     </message>
     <message>
         <source>Really delete schema %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 %s 스키마를 삭제하시겠습니까?</translation>
     </message>
     <message>
         <source>Select a TABLE for editation.</source>
-        <translation type="unfinished"></translation>
+        <translation>수정할 테이블을 선택하세요.</translation>
     </message>
     <message>
         <source>Select a TABLE/VIEW for deletion.</source>
-        <translation type="unfinished"></translation>
+        <translation>삭제할 테이블/뷰를 선택 하세요.</translation>
     </message>
     <message>
         <source>Really delete table/view %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 테이블/뷰 %s를 지우겠습니까?</translation>
     </message>
     <message>
         <source>Select a TABLE to empty it.</source>
-        <translation type="unfinished"></translation>
+        <translation>비울 테이블을 선택 하십시오.</translation>
     </message>
     <message>
         <source>Really delete all items from table %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 테이블 %s의 모든 아이템을 삭제하시겠습니까?</translation>
     </message>
     <message>
         <source>Select a TABLE/VIEW.</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블/뷰를 선택하십시오.</translation>
     </message>
     <message>
         <source>Do you want to %s all triggers?</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>%s 의미 파악 불가</translatorcomment>
+        <translation>모든 트리거에 %s 하시겠습니까?</translation>
     </message>
     <message>
         <source>Table triggers</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 트리거</translation>
     </message>
     <message>
         <source>Do you want to %s trigger %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>%s를 트리거 %s에 하시겠습니까?</translation>
     </message>
     <message>
         <source>Table trigger</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 트리거</translation>
     </message>
     <message>
         <source>Do you want to %s spatial index for field %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>%s를 필드 %s의 공간 인덱스에 하시겠습니까?</translation>
     </message>
     <message>
         <source>Spatial Index</source>
-        <translation type="unfinished">공간 인덱스</translation>
+        <translation>공간 인덱스</translation>
     </message>
     <message>
         <source>Check</source>
-        <translation type="unfinished"></translation>
+        <translation>검토</translation>
     </message>
     <message>
         <source>Primary key</source>
-        <translation type="unfinished">기본 키</translation>
+        <translation>기본 키</translation>
     </message>
     <message>
         <source>Foreign key</source>
-        <translation type="unfinished"></translation>
+        <translation>외래 키</translation>
     </message>
     <message>
         <source>Unique</source>
-        <translation type="unfinished">유일조건</translation>
+        <translation>유일조건</translation>
     </message>
     <message>
         <source>Exclusion</source>
-        <translation type="unfinished"></translation>
+        <translation>제외</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>알 수 없음</translation>
     </message>
 </context>
 <context>
     <name>DBModel</name>
     <message>
         <source>Databases</source>
-        <translation type="unfinished">데이터베이스</translation>
+        <translation>데이터베이스</translation>
     </message>
     <message>
         <source>Invalid MIME uri</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 MIME uri</translation>
     </message>
     <message>
         <source>The dropped object is not a valid layer</source>
-        <translation type="unfinished"></translation>
+        <translation>드랍된 객체가 유효한 레이어가 아님</translation>
     </message>
     <message>
         <source>Invalid layer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 레이어</translation>
     </message>
     <message>
         <source>Unable to load the layer %s</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 %s 읽기 실패</translation>
     </message>
 </context>
 <context>
     <name>DBTree</name>
     <message>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>이름 변경</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <source>Add to canvas</source>
-        <translation type="unfinished"></translation>
+        <translation>캔버스에 추가</translation>
     </message>
     <message>
         <source>Re-connect</source>
-        <translation type="unfinished"></translation>
+        <translation>재접속</translation>
     </message>
 </context>
 <context>
@@ -671,27 +680,27 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgAddGeometryColumn.ui" line="14"/>
         <source>Add geometry column</source>
-        <translation type="unfinished">지오메트리 컬럼 추가</translation>
+        <translation>지오메트리 컬럼 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgAddGeometryColumn.ui" line="20"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgAddGeometryColumn.ui" line="37"/>
         <source>Type</source>
-        <translation type="unfinished">유형</translation>
+        <translation>유형</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgAddGeometryColumn.ui" line="86"/>
         <source>Dimensions</source>
-        <translation type="unfinished">차원</translation>
+        <translation>차원</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgAddGeometryColumn.ui" line="119"/>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
 </context>
 <context>
@@ -699,22 +708,22 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateConstraint.ui" line="14"/>
         <source>Add constraint</source>
-        <translation type="unfinished">제약조건 추가</translation>
+        <translation>제약조건 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateConstraint.ui" line="20"/>
         <source>Column</source>
-        <translation type="unfinished">컬럼</translation>
+        <translation>컬럼</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateConstraint.ui" line="37"/>
         <source>Primary key</source>
-        <translation type="unfinished">기본 키</translation>
+        <translation>기본 키</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateConstraint.ui" line="47"/>
         <source>Unique</source>
-        <translation type="unfinished">유일조건</translation>
+        <translation>유일조건</translation>
     </message>
 </context>
 <context>
@@ -722,17 +731,17 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateIndex.ui" line="14"/>
         <source>Create index</source>
-        <translation type="unfinished">인덱스 생성</translation>
+        <translation>인덱스 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateIndex.ui" line="20"/>
         <source>Column</source>
-        <translation type="unfinished">컬럼</translation>
+        <translation>컬럼</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateIndex.ui" line="30"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
 </context>
 <context>
@@ -740,63 +749,63 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="14"/>
         <source>Create Table</source>
-        <translation type="unfinished">테이블 생성</translation>
+        <translation>테이블 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="22"/>
         <source>Schema</source>
-        <translation type="unfinished">스키마</translation>
+        <translation>스키마</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="35"/>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="171"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="56"/>
         <source>Add field</source>
-        <translation type="unfinished">필드 추가</translation>
+        <translation>필드 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="63"/>
         <source>Delete field</source>
-        <translation type="unfinished">필드 제거</translation>
+        <translation>필드 제거</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="83"/>
         <source>Up</source>
-        <translation type="unfinished">위로</translation>
+        <translation>위로</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="90"/>
         <source>Down</source>
-        <translation type="unfinished">아래로</translation>
+        <translation>아래로</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="104"/>
         <source>Primary key</source>
-        <translation type="unfinished">기본 키</translation>
+        <translation>기본 키</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="125"/>
         <source>Create geometry column</source>
-        <translation type="unfinished">공간 컬럼 생성</translation>
+        <translation>공간 컬럼 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="188"/>
         <source>Dimensions</source>
-        <translation type="unfinished">차원</translation>
+        <translation>차원</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="221"/>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgCreateTable.ui" line="238"/>
         <source>Create spatial index</source>
-        <translation type="unfinished"></translation>
+        <translation>공간 인덱스 생성</translation>
     </message>
 </context>
 <context>
@@ -804,22 +813,22 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgDbError.ui" line="14"/>
         <source>Database Error</source>
-        <translation type="unfinished">데이터베이스 오류</translation>
+        <translation>데이터베이스 오류</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgDbError.ui" line="30"/>
         <source>An error occured:</source>
-        <translation type="unfinished">오류 발생됨:</translation>
+        <translation>오류 발생됨:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgDbError.ui" line="54"/>
         <source>An error occured when executing a query:</source>
-        <translation type="unfinished">다음 쿼리 실행중 오류 발생:</translation>
+        <translation>다음 질의 실행중 오류 발생:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgDbError.ui" line="71"/>
         <source>Query:</source>
-        <translation type="unfinished">쿼리:</translation>
+        <translation>질의:</translation>
     </message>
 </context>
 <context>
@@ -827,57 +836,57 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="14"/>
         <source>Export to vector file</source>
-        <translation type="unfinished"></translation>
+        <translation>벡터 파일로 내보내기</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="26"/>
         <source>Output file</source>
-        <translation type="unfinished">출력 파일</translation>
+        <translation>출력 파일</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="40"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="47"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>동작</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="53"/>
         <source>Create new file</source>
-        <translation type="unfinished"></translation>
+        <translation>새 파일 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="81"/>
         <source>Drop existing one</source>
-        <translation type="unfinished">기존 테이블 삭제</translation>
+        <translation>기존 파일 삭제</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="93"/>
         <source>Append data to file</source>
-        <translation type="unfinished"></translation>
+        <translation>기존 파일에 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="103"/>
         <source>Options</source>
-        <translation type="unfinished">옵션</translation>
+        <translation>옵션</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="111"/>
         <source>Source SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>원본 SRID</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="144"/>
         <source>Target SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>대상 SRID</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgExportVector.ui" line="163"/>
         <source>Encoding</source>
-        <translation type="unfinished">인코딩</translation>
+        <translation>인코딩</translation>
     </message>
 </context>
 <context>
@@ -885,32 +894,32 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgFieldProperties.ui" line="14"/>
         <source>Field properties</source>
-        <translation type="unfinished">필드 속성</translation>
+        <translation>필드 속성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgFieldProperties.ui" line="22"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgFieldProperties.ui" line="36"/>
         <source>Type</source>
-        <translation type="unfinished">유형</translation>
+        <translation>유형</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgFieldProperties.ui" line="53"/>
         <source>Can be NULL</source>
-        <translation type="unfinished">널 허용</translation>
+        <translation>널 허용</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgFieldProperties.ui" line="70"/>
         <source>Default value</source>
-        <translation type="unfinished">디폴트 값</translation>
+        <translation>기본값</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgFieldProperties.ui" line="84"/>
         <source>Length</source>
-        <translation type="unfinished">길이</translation>
+        <translation>길이</translation>
     </message>
 </context>
 <context>
@@ -918,97 +927,97 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="14"/>
         <source>Import vector layer</source>
-        <translation type="unfinished">벡터 레이어 가져오기</translation>
+        <translation>벡터 레이어 가져오기</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="29"/>
         <source>Input</source>
-        <translation type="unfinished">입력</translation>
+        <translation>입력</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="36"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="81"/>
         <source>Update options</source>
-        <translation type="unfinished"></translation>
+        <translation>설정 업데이트</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="93"/>
         <source>Output table</source>
-        <translation type="unfinished">출력 테이블</translation>
+        <translation>출력 테이블</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="99"/>
         <source>Schema</source>
-        <translation type="unfinished">스키마</translation>
+        <translation>스키마</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="116"/>
         <source>Table</source>
-        <translation type="unfinished">테이블</translation>
+        <translation>테이블</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="146"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>동작</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="152"/>
         <source>Create new table</source>
-        <translation type="unfinished">새 테이블 생성</translation>
+        <translation>새 테이블 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="180"/>
         <source>Drop existing one</source>
-        <translation type="unfinished">기존 테이블 삭제</translation>
+        <translation>기존 테이블 삭제</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="192"/>
         <source>Append data to table</source>
-        <translation type="unfinished"></translation>
+        <translation>기존 테이블에 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="202"/>
         <source>Options</source>
-        <translation type="unfinished">옵션</translation>
+        <translation>옵션</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="208"/>
         <source>Primary key</source>
-        <translation type="unfinished">기본 키</translation>
+        <translation>기본 키</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="222"/>
         <source>Geometry column</source>
-        <translation type="unfinished">지오메트리 컬럼</translation>
+        <translation>지오메트리 컬럼</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="238"/>
         <source>Source SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>원본 SRID</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="268"/>
         <source>Target SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>대상 SRID</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="284"/>
         <source>Encoding</source>
-        <translation type="unfinished">인코딩</translation>
+        <translation>인코딩</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="301"/>
         <source>Create single-part geometries instead of multi-part</source>
-        <translation type="unfinished">멀티파트 대신 싱글파트 지오메트리 생성</translation>
+        <translation>멀티파트 대신 싱글파트 지오메트리 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="308"/>
         <source>Create spatial index</source>
-        <translation type="unfinished"></translation>
+        <translation>공간 인덱스 생성</translation>
     </message>
 </context>
 <context>
@@ -1016,101 +1025,100 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="14"/>
         <source>SQL window</source>
-        <translation type="unfinished">SQL 윈도우</translation>
+        <translation>SQL 창</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="29"/>
         <source>SQL query:</source>
-        <translation type="unfinished">SQL 쿼리:</translation>
+        <translation>SQL 질의:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="59"/>
         <source>Store</source>
-        <translation type="unfinished"></translation>
+        <translation>저장</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="66"/>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="94"/>
         <source>&amp;Execute (F5)</source>
-        <translation type="unfinished">실행(&amp;E) (F5)</translation>
+        <translation>실행(&amp;E) (F5)</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="97"/>
         <source>F5</source>
-        <translation type="unfinished">F5</translation>
+        <translation>F5</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="124"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>초기화(&amp;C)</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="137"/>
         <source>Result:</source>
-        <translation type="unfinished">결과:</translation>
+        <translation>결과:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="177"/>
         <source>Load as new layer</source>
-        <translation type="unfinished">새 레이어로 로드</translation>
+        <translation>새 레이어로 불러오기</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="197"/>
         <source>Column with unique 
 integer values</source>
-        <translation type="unfinished">유니크한 정수값을 
+        <translation>유니크한 정수값을 
 가진 컬럼</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="221"/>
         <source>Geometry column</source>
-        <translation type="unfinished">지오메트리 컬럼</translation>
+        <translation>지오메트리 컬럼</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="263"/>
         <source>Retrieve 
 columns</source>
-        <translation type="unfinished">컬럼
-검색</translation>
+        <translation>컬럼 검색</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="275"/>
         <source>Layer name (prefix)</source>
-        <translation type="unfinished">레이어 이름 (접두사)</translation>
+        <translation>레이어 이름 (접두사)</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="298"/>
         <source>Type</source>
-        <translation type="unfinished">유형</translation>
+        <translation>유형</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="308"/>
         <source>Vector</source>
-        <translation type="unfinished">벡터</translation>
+        <translation>벡터</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="318"/>
         <source>Raster</source>
-        <translation type="unfinished">래스터</translation>
+        <translation>래스터</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="344"/>
         <source>Load now!</source>
-        <translation type="unfinished">지금 로드!</translation>
+        <translation>지금 로드!</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="356"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Avoid selecting feature by id.  Sometimes - especially when running expensive queries/views - fetching the data sequentially instead of fetching features by id can be much quicker.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;객체 ID로 선택 않기.  때로는(특히 비용이 많이드는 질의/뷰 실행시) 순차적으로 데이터를 가져오는 것이 객체 ID로 가져오는 것 보다 많이 빠를 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="359"/>
         <source>Avoid selecting by feature id</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 ID로 선택 않기</translation>
     </message>
 </context>
 <context>
@@ -1118,82 +1126,82 @@ columns</source>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="14"/>
         <source>Table properties</source>
-        <translation type="unfinished">테이블 속성</translation>
+        <translation>테이블 속성</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="24"/>
         <source>Columns</source>
-        <translation type="unfinished">컬럼</translation>
+        <translation>컬럼</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="30"/>
         <source>Table columns:</source>
-        <translation type="unfinished">테이블 컬럼:</translation>
+        <translation>테이블 컬럼:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="46"/>
         <source>Add column</source>
-        <translation type="unfinished">컬럼 추가</translation>
+        <translation>컬럼 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="53"/>
         <source>Add geometry column</source>
-        <translation type="unfinished">지오메트리 컬럼 추가</translation>
+        <translation>지오메트리 컬럼 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="60"/>
         <source>Edit column</source>
-        <translation type="unfinished">컬럼 편집</translation>
+        <translation>컬럼 편집</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="80"/>
         <source>Delete column</source>
-        <translation type="unfinished"></translation>
+        <translation>커럼 삭제</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="90"/>
         <source>Constraints</source>
-        <translation type="unfinished">제약조건</translation>
+        <translation>제약조건</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="96"/>
         <source>Primary, foreign keys, unique and check constraints:</source>
-        <translation type="unfinished">기본, 외래 키, 유니크 및 제약조건 체크:</translation>
+        <translation>기본, 외래 키, 유니크 및 제약조건 체크:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="112"/>
         <source>Add primary key / unique</source>
-        <translation type="unfinished">기본 키 / 유니크 추가</translation>
+        <translation>기본 키 / 유일조건 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="132"/>
         <source>Delete constraint</source>
-        <translation type="unfinished">제약조건 삭제</translation>
+        <translation>제약조건 삭제</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="142"/>
         <source>Indexes</source>
-        <translation type="unfinished">인덱스</translation>
+        <translation>인덱스</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="148"/>
         <source>Indexes defined for this table:</source>
-        <translation type="unfinished">이 테이블에 정의된 제약조건:</translation>
+        <translation>이 테이블에 정의된 제약조건:</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="164"/>
         <source>Add index</source>
-        <translation type="unfinished">인덱스 추가</translation>
+        <translation>인덱스 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="171"/>
         <source>Add spatial index</source>
-        <translation type="unfinished">공간 인덱스 추가</translation>
+        <translation>공간 인덱스 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="191"/>
         <source>Delete index</source>
-        <translation type="unfinished">인덱스 제거</translation>
+        <translation>인덱스 제거</translation>
     </message>
 </context>
 <context>
@@ -1205,17 +1213,17 @@ columns</source>
     <message>
         <location filename="../python/plugins/fTools/tools/frmEliminate.ui" line="14"/>
         <source>Eliminate sliver polygons</source>
-        <translation type="unfinished"></translation>
+        <translation>틈 폴리곤 제거</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmEliminate.ui" line="20"/>
         <source>common boundary</source>
-        <translation type="unfinished"></translation>
+        <translation>공통 경계</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmEliminate.ui" line="27"/>
         <source>Merge selection with the neighbouring polygon with the largest</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 객체를 인접 폴리곤과 최대한 합치기</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmEliminate.ui" line="43"/>
@@ -1242,12 +1250,12 @@ columns</source>
     <message>
         <location filename="../python/plugins/fTools/tools/frmEliminate.ui" line="100"/>
         <source>Selected features:</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 객체:</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmEliminate.ui" line="107"/>
         <source>area</source>
-        <translation type="unfinished">면적</translation>
+        <translation>면적</translation>
     </message>
     <message>
         <source>OGR Converter</source>
@@ -1347,7 +1355,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="28"/>
         <source>Input line or polygon vector layer</source>
-        <translation>입력 라인 또는 폴리곤 벡터 레이어</translation>
+        <translation>입력 선 또는 폴리곤 벡터 레이어</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="68"/>
@@ -1357,7 +1365,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="140"/>
         <source>Tolerance</source>
-        <translation>허용 범위</translation>
+        <translation>허용 오차</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="183"/>
@@ -1367,7 +1375,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="195"/>
         <source>Calculate extent for each feature separately</source>
-        <translation>각 피처별로 범위를 계산</translation>
+        <translation>각 객체별로 범위 계산</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="44"/>
@@ -1380,7 +1388,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="75"/>
         <location filename="../python/plugins/fTools/tools/frmVisual.ui" line="152"/>
         <source>Output point shapefile</source>
-        <translation>출력 포인트 shapefile</translation>
+        <translation>출력 점 shapefile</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeoprocessing.ui" line="20"/>
@@ -1437,12 +1445,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmIntersectLines.ui" line="16"/>
         <source>Locate Line Intersections</source>
-        <translation>라인 교차점에 위치</translation>
+        <translation>선 교차점에 위치</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmIntersectLines.ui" line="27"/>
         <source>Input line layer</source>
-        <translation>입력 라인 레이어</translation>
+        <translation>입력 선 레이어</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmIntersectLines.ui" line="41"/>
@@ -1453,7 +1461,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmIntersectLines.ui" line="55"/>
         <source>Intersect line layer</source>
-        <translation>라인 레이어 교차분석</translation>
+        <translation>선 레이어 교차분석</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmIntersectLines.ui" line="69"/>
@@ -1547,17 +1555,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointDistance.ui" line="16"/>
         <source>Create Distance Matrix</source>
-        <translation>거리 행렬 작성</translation>
+        <translation>거리 행렬 생성</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointDistance.ui" line="27"/>
         <source>Input point layer</source>
-        <translation>입력 포인트 레이어</translation>
+        <translation>입력 점 레이어</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointDistance.ui" line="55"/>
         <source>Target point layer</source>
-        <translation>대상 포인트 레이어</translation>
+        <translation>대상 점 레이어</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointDistance.ui" line="69"/>
@@ -1617,12 +1625,12 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/plugins/fTools/tools/frmSimplify.ui" line="37"/>
         <location filename="../python/plugins/fTools/tools/frmVisual.ui" line="161"/>
         <source>Use only selected features</source>
-        <translation>선택된 피처만 이용</translation>
+        <translation>선택된 객체만 이용</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointsInPolygon.ui" line="14"/>
         <source>Count Points In Polygons</source>
-        <translation>폴리곤의 점 개수 세기</translation>
+        <translation>폴리곤 내 점 개수 세기</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointsInPolygon.ui" line="22"/>
@@ -1633,7 +1641,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointsInPolygon.ui" line="36"/>
         <source>Input point vector layer</source>
-        <translation>입력 포인트 벡터 레이어</translation>
+        <translation>입력 점 벡터 레이어</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmPointsInPolygon.ui" line="50"/>
@@ -1654,7 +1662,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/plugins/fTools/tools/frmRandPoints.ui" line="32"/>
         <location filename="../python/plugins/fTools/tools/frmRegPoints.ui" line="32"/>
         <source>Input Boundary Layer</source>
-        <translation>입력 바운더리 레이어</translation>
+        <translation>입력 경계 레이어</translation>
     </message>
     <message>
         <source>Minimum distance between points</source>
@@ -1675,7 +1683,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/plugins/fTools/tools/frmRandPoints.ui" line="105"/>
         <location filename="../python/plugins/fTools/tools/frmRegPoints.ui" line="149"/>
         <source>Use this number of points</source>
-        <translation>이 포인트 수 사용</translation>
+        <translation>이 점 수 사용</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmRandPoints.ui" line="96"/>
@@ -1714,13 +1722,13 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/plugins/fTools/tools/frmRandom.ui" line="42"/>
         <location filename="../python/plugins/fTools/tools/frmSubsetSelect.ui" line="64"/>
         <source>Number of Features</source>
-        <translation>피처 수</translation>
+        <translation>객체 수</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmRandom.ui" line="76"/>
         <location filename="../python/plugins/fTools/tools/frmSubsetSelect.ui" line="100"/>
         <source>Percentage of Features</source>
-        <translation>피처의 퍼센트</translation>
+        <translation>객체의 퍼센트</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmRandom.ui" line="96"/>
@@ -1883,12 +1891,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmSpatialJoin.ui" line="146"/>
         <source>Take attributes of first located feature</source>
-        <translation>최초로 발견된 피처의 속성 이용</translation>
+        <translation>최초로 발견된 객체의 속성 이용</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmSpatialJoin.ui" line="99"/>
         <source>Take summary of intersecting features</source>
-        <translation>교차하는 모든 피처 속성 종합 이용</translation>
+        <translation>교차하는 모든 객체 속성 종합 이용</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmSpatialJoin.ui" line="89"/>
@@ -1921,7 +1929,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Line intersections</source>
-        <translation>라인 교차</translation>
+        <translation>선 교차</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmSubsetSelect.ui" line="14"/>
@@ -1951,7 +1959,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmSumLines.ui" line="127"/>
         <source>Input line vector layer</source>
-        <translation>입력 라인 벡터 레이어</translation>
+        <translation>입력 선 벡터 레이어</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmVectorGrid.ui" line="26"/>
@@ -2001,7 +2009,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmVectorGrid.ui" line="296"/>
         <source>Output grid as lines</source>
-        <translation>라인으로 그리드 출력</translation>
+        <translation>선으로 그리드 출력</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmVectorSplit.ui" line="17"/>
@@ -2036,7 +2044,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmVisual.ui" line="120"/>
         <source>Save errors location</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 위치 저장</translation>
     </message>
     <message>
         <source>OGR Layer Converter</source>
@@ -2044,7 +2052,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Please specify input line layer</source>
-        <translation>입력 라인 레이어를 지정 하십시오</translation>
+        <translation>입력 선 레이어를 지정 하십시오</translation>
     </message>
     <message>
         <source>Please specify line intersect layer</source>
@@ -2063,7 +2071,7 @@ p, li { white-space: pre-wrap; }
 %1
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="obsolete">출력 포인트 shapefile 생성되었음:
+        <translation type="obsolete">출력 점 shapefile 생성되었음:
 %1
 
 새 레이어로 TOC에 추가하시겠습니까?</translation>
@@ -2096,11 +2104,11 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Output layer will be projected from it&apos;s current CRS to the output CRS.</source>
-        <translation type="obsolete">출력 레이어는 현재 CRS에서 출력 CRS로 투영 됩니다.</translation>
+        <translation type="obsolete">출력 레이어는 현재 좌표계에서 출력 좌표계로 투영 됩니다.</translation>
     </message>
     <message>
         <source>No Valid CRS selected</source>
-        <translation>유효한 CRS가 선택되지 않았음</translation>
+        <translation>유효한 좌표계가 선택되지 않았음</translation>
     </message>
     <message>
         <source>Output spatial reference system is not valid</source>
@@ -2186,23 +2194,23 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Eliminate</source>
-        <translation type="unfinished"></translation>
+        <translation>제거</translation>
     </message>
     <message>
         <source>No selection in input layer</source>
-        <translation type="unfinished"></translation>
+        <translation>입력 레이어에서 선택 없음</translation>
     </message>
     <message>
         <source>Error creating output file</source>
-        <translation type="unfinished"></translation>
+        <translation>출력파일 생성 오류</translation>
     </message>
     <message>
         <source>Could not delete features</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 제거 불가</translation>
     </message>
     <message>
         <source>Could not add features</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 추가 불가</translation>
     </message>
     <message>
         <source>Created output shapefile:
@@ -2216,45 +2224,49 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>CRS warning!</source>
-        <translation>CRS 경고!</translation>
+        <translation>좌표계 경고!</translation>
     </message>
     <message>
         <source>Warning: Input layers have non-matching CRS.
 This may cause unexpected results.</source>
-        <translation>경고: 입력 레이어에 해당하는 좌표계이 없습니다.
+        <translation>경고: 입력 레이어에 해당하는 좌표계가 없습니다.
 이것은 예상치 않은 결과를 발생시킬수 있습니다.</translation>
     </message>
     <message>
         <source>Selected features: %s</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 객체: %s</translation>
     </message>
     <message>
         <source>Commit error:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>커밋 오류:
+%s</translation>
     </message>
     <message>
         <source>Could not replace geometry of feature with id %s</source>
-        <translation type="unfinished"></translation>
+        <translation>ID %s로 객체의 지오메트리를 대체할 수 없음</translation>
     </message>
     <message>
         <source>Could not eliminate features with these ids:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 ID 들로 객체를 제거할 수 없음:
+%s</translation>
     </message>
     <message>
         <source>Created output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 shapefile 생성됨:
+%s</translation>
     </message>
     <message>
         <source>There were %d vertices in original dataset which
 were reduced to %d vertices after simplification</source>
-        <translation type="unfinished"></translation>
+        <translation>원본 데이터셋에 있던 %d 버텍스가
+간략화 후 %d 버텍스로 줄어듬</translation>
     </message>
     <message>
         <source>Processing of the following layers/files ended with error:&lt;br&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 레이어/파일 처리가 오류와 함께 끝남:&lt;br&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <source>Summary field</source>
@@ -2264,12 +2276,15 @@ were reduced to %d vertices after simplification</source>
         <source>No output will be created.
 Following field names are longer than 10 characters:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>결과가 생성되지 않았음.
+다음 필드 이름이 10 글자 이상임:
+%s</translation>
     </message>
     <message>
         <source>Can&apos;t delete existing shapefile
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>기존 shapefile %s 삭제 불가
+%s</translation>
     </message>
     <message>
         <source>Please specify valid extent coordinates</source>
@@ -2303,7 +2318,7 @@ Following field names are longer than 10 characters:
     </message>
     <message>
         <source>Layer CRS information will be updated to the selected CRS.</source>
-        <translation>레이어 CRS 정보가 선택된 CRS로 업데이트됩니다.</translation>
+        <translation>레이어 좌표계 정보가 선택된 좌표계로 업데이트됩니다.</translation>
     </message>
     <message>
         <source>Created output shapefiles in folder:
@@ -2325,11 +2340,11 @@ Following field names are longer than 10 characters:
     </message>
     <message>
         <source>Select features in:</source>
-        <translation>다음의 피처를 선택:</translation>
+        <translation>다음의 객체를 선택:</translation>
     </message>
     <message>
         <source>that intersect features in:</source>
-        <translation>피처가 다음과 교차:</translation>
+        <translation>객체가 다음과 교차:</translation>
     </message>
     <message>
         <source>Modify current selection by:</source>
@@ -2344,7 +2359,10 @@ Following field names are longer than 10 characters:
 %s
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 점 shapefile 생성됨:
+%s
+
+새 레이어를 TOC에 추가 시키겠습니까?</translation>
     </message>
     <message>
         <source>Please specify select layer</source>
@@ -2352,20 +2370,21 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>There are no shapefiles with the given geometry type. Please select an available geometry type.</source>
-        <translation type="unfinished"></translation>
+        <translation>선택한 지오메트리 형식의 shapefile이 없습니다. 유효한 지오메트리 형식을 선택해 주십시오.</translation>
     </message>
     <message>
         <source>Can&apos;t delete file %s</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 %s 삭제 불가</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>결과 shapefile 읽기 실패:
+%s</translation>
     </message>
     <message>
         <source>Sum Line Lengths In Polyons</source>
-        <translation>폴리곤내 라인 길이 합계</translation>
+        <translation>폴리곤내 선 길이 합계</translation>
     </message>
     <message>
         <source>Please specify input polygon vector layer</source>
@@ -2373,7 +2392,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please specify input line vector layer</source>
-        <translation>입력 라인 벡터 레이어를 지정하십시오.</translation>
+        <translation>입력 선 벡터 레이어를 지정하십시오.</translation>
     </message>
     <message>
         <source>Please specify output length field</source>
@@ -2384,7 +2403,10 @@ Would you like to add the new layer to the TOC?</source>
 %s
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 shapefile이 작성됨:
+%s
+
+새 레이어로 TOC에 추가하시겠습니까?</translation>
     </message>
     <message>
         <source>length field</source>
@@ -2401,7 +2423,8 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Defined Projection For:
 %s.shp</source>
-        <translation type="unfinished"></translation>
+        <translation>다음을 위한 프로젝선 정의:
+%s.shp</translation>
     </message>
     <message>
         <source>Random Points</source>
@@ -2430,7 +2453,8 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Created output shapefiles in folder:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 폴더에 결과 shapefile 생성됨:
+%s</translation>
     </message>
     <message>
         <source>Regular points</source>
@@ -2438,7 +2462,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Use selected features only</source>
-        <translation>선택된 피처만 사용</translation>
+        <translation>선택된 객체만 사용</translation>
     </message>
     <message>
         <source>Select files to merge</source>
@@ -2470,19 +2494,19 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Count Points in Polygon</source>
-        <translation>폴리곤 점 개수 세기</translation>
+        <translation>폴리곤 내 점 개수 세기</translation>
     </message>
     <message>
         <source>Missing or invalid CRS</source>
-        <translation>없거나 잘못된 CRS 임</translation>
+        <translation>없거나 잘못된 좌표계 임</translation>
     </message>
     <message>
         <source>Count Points In Polygon</source>
-        <translation>폴리곤 점 개수 세기</translation>
+        <translation>폴리곤 내 점 개수 세기</translation>
     </message>
     <message>
         <source>Please specify input point vector layer</source>
-        <translation>입력 포인트 벡터 레이어를 지정하십시오.</translation>
+        <translation>입력 점 벡터 레이어를 지정하십시오.</translation>
     </message>
     <message>
         <source>Please specify output count field</source>
@@ -2490,7 +2514,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>point count field</source>
-        <translation type="obsolete">포인트 계산 필드</translation>
+        <translation type="obsolete">점 계산 필드</translation>
     </message>
     <message>
         <source>Please select a raster layer</source>
@@ -2537,11 +2561,11 @@ were reduced to %2 vertices after simplification</source>
     </message>
     <message>
         <source>Create Point Distance Matrix</source>
-        <translation>포인트 거리 행렬 만들기</translation>
+        <translation>점 거리 행렬 만들기</translation>
     </message>
     <message>
         <source>Please specify input point layer</source>
-        <translation>입력 포인트 레이어를 지정하십시오.</translation>
+        <translation>입력 점 레이어를 지정하십시오.</translation>
     </message>
     <message>
         <source>Please specify output file</source>
@@ -2549,7 +2573,7 @@ were reduced to %2 vertices after simplification</source>
     </message>
     <message>
         <source>Please specify target point layer</source>
-        <translation>대상 포인트 레이어를 지정하십시오.</translation>
+        <translation>대상 점 레이어를 지정하십시오.</translation>
     </message>
     <message>
         <source>Please specify target unique ID field</source>
@@ -2648,12 +2672,12 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="42"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="47"/>
         <source>Point</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="57"/>
@@ -2751,7 +2775,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/fTools/tools/frmSimplify.ui" line="20"/>
         <source>Input line or polygon layer</source>
-        <translation>라인이나 폴리곤 레이어 입력</translation>
+        <translation>선이나 폴리곤 레이어 입력</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmSimplify.ui" line="46"/>
@@ -2827,11 +2851,11 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>POINT</source>
-        <translation type="obsolete">포인트</translation>
+        <translation type="obsolete">점</translation>
     </message>
     <message>
         <source>LINESTRING</source>
-        <translation type="obsolete">라인스트링</translation>
+        <translation type="obsolete">선</translation>
     </message>
     <message>
         <source>POLYGON</source>
@@ -2839,15 +2863,15 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>MULTIPOINT</source>
-        <translation type="obsolete">멀티포인트</translation>
+        <translation type="obsolete">다중 점</translation>
     </message>
     <message>
         <source>MULTILINESTRING</source>
-        <translation type="obsolete">멀티라인스트링</translation>
+        <translation type="obsolete">다중 선</translation>
     </message>
     <message>
         <source>MULTIPOLYGON</source>
-        <translation type="obsolete">멀티폴리곤</translation>
+        <translation type="obsolete">다중 폴리곤</translation>
     </message>
     <message>
         <source>GEOMETRYCOLLECTION</source>
@@ -2867,11 +2891,11 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>field name must not be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 이름이 비어있으면 안됨</translation>
     </message>
 </context>
 <context>
@@ -2879,22 +2903,22 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/sextante/ui/DlgConfig.ui" line="14"/>
         <source>SEXTANTE options</source>
-        <translation type="unfinished"></translation>
+        <translation>SEXTANT 옵션</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgConfig.ui" line="26"/>
         <source>Enter setting name to filter list</source>
-        <translation type="unfinished"></translation>
+        <translation>필터 리스트의 설정 이름 입력</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgConfig.ui" line="37"/>
         <source>Setting</source>
-        <translation type="unfinished"></translation>
+        <translation>설정</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgConfig.ui" line="42"/>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>값</translation>
     </message>
 </context>
 <context>
@@ -2932,11 +2956,11 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
     <message>
         <source>Please enter some name for the index</source>
-        <translation type="unfinished"></translation>
+        <translation>인덱스를 위한 이름 입력</translation>
     </message>
 </context>
 <context>
@@ -2979,11 +3003,11 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>POINT</source>
-        <translation type="obsolete">포인트</translation>
+        <translation type="obsolete">점</translation>
     </message>
     <message>
         <source>LINESTRING</source>
-        <translation type="obsolete">라인스트링</translation>
+        <translation type="obsolete">선</translation>
     </message>
     <message>
         <source>POLYGON</source>
@@ -2991,11 +3015,11 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>MULTIPOINT</source>
-        <translation type="obsolete">멀티포인트</translation>
+        <translation type="obsolete">다중 점</translation>
     </message>
     <message>
         <source>MULTILINESTRING</source>
-        <translation type="obsolete">멀티라인스트링</translation>
+        <translation type="obsolete">다중 선</translation>
     </message>
     <message>
         <source>MULTIPOLYGON</source>
@@ -3027,51 +3051,51 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>&amp;Create</source>
-        <translation type="unfinished"></translation>
+        <translation>생성(&amp;C)</translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>no field selected</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 선택 안됨</translation>
     </message>
     <message>
         <source>field is at top already</source>
-        <translation type="unfinished"></translation>
+        <translation>필드가 이미 제일 위에 있음</translation>
     </message>
     <message>
         <source>No field selected</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 선택 안됨</translation>
     </message>
     <message>
         <source>field is at bottom already</source>
-        <translation type="unfinished"></translation>
+        <translation>필드가 이미 제일 아래 있음</translation>
     </message>
     <message>
         <source>select schema!</source>
-        <translation type="unfinished"></translation>
+        <translation>스키마 선택!</translation>
     </message>
     <message>
         <source>enter table name!</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 이름 입력!</translation>
     </message>
     <message>
         <source>add some fields!</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 추가!</translation>
     </message>
     <message>
         <source>set geometry column name</source>
-        <translation type="unfinished"></translation>
+        <translation>지오메트리 컬럼 이름 설정</translation>
     </message>
     <message>
         <source>Good</source>
-        <translation type="unfinished"></translation>
+        <translation>좋음</translation>
     </message>
     <message>
         <source>everything went fine</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 잘 되었음</translation>
     </message>
 </context>
 <context>
@@ -3086,47 +3110,48 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>An error occured when executing a query:</source>
-        <translation type="obsolete">다음 쿼리 실행중 오류 발생:</translation>
+        <translation type="obsolete">다음 질의 실행중 오류 발생:</translation>
     </message>
     <message>
         <source>Query:</source>
-        <translation type="obsolete">쿼리:</translation>
+        <translation type="obsolete">질의:</translation>
     </message>
 </context>
 <context>
     <name>DlgExportVector</name>
     <message>
         <source>Choose where to save the file</source>
-        <translation type="unfinished"></translation>
+        <translation>어디에 파일을 저장할지 선택</translation>
     </message>
     <message>
         <source>Shapefiles</source>
-        <translation type="unfinished">쉐입파일</translation>
+        <translation>Shapefile</translation>
     </message>
     <message>
         <source>Export to file</source>
-        <translation type="unfinished">파일로 내보내기</translation>
+        <translation>파일로 내보내기</translation>
     </message>
     <message>
         <source>Output table name is required</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 테이블 이름이 필요함</translation>
     </message>
     <message>
         <source>Invalid source srid: must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 원본 SRID: 정수여야 함</translation>
     </message>
     <message>
         <source>Invalid target srid: must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 대상 SRID: 정수여야 함</translation>
     </message>
     <message>
         <source>Error %d
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 %d
+%s</translation>
     </message>
     <message>
         <source>Export finished.</source>
-        <translation type="unfinished"></translation>
+        <translation>내보내기 완료.</translation>
     </message>
 </context>
 <context>
@@ -3157,15 +3182,15 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>field name must not be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 이름이 비어있으면 안됨</translation>
     </message>
     <message>
         <source>field type must not be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 유형이 비어있으면 안됨</translation>
     </message>
 </context>
 <context>
@@ -3173,22 +3198,22 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/sextante/ui/DlgHelpEdition.ui" line="14"/>
         <source>Help editor</source>
-        <translation type="unfinished"></translation>
+        <translation>도움말 편집기</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgHelpEdition.ui" line="31"/>
         <source>about:blank</source>
-        <translation type="unfinished">정보:공백</translation>
+        <translation>정보:공백</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgHelpEdition.ui" line="47"/>
         <source>Select element to edit</source>
-        <translation type="unfinished"></translation>
+        <translation>편집할 항목 선택</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgHelpEdition.ui" line="82"/>
         <source>Element description</source>
-        <translation type="unfinished"></translation>
+        <translation>항목 설명</translation>
     </message>
 </context>
 <context>
@@ -3196,7 +3221,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/sextante/ui/DlgHistory.ui" line="14"/>
         <source>History and log</source>
-        <translation type="unfinished"></translation>
+        <translation>역사와 기록</translation>
     </message>
 </context>
 <context>
@@ -3259,40 +3284,41 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>Create spatial index</source>
-        <translation type="obsolete">공간 인덱슨 생성</translation>
+        <translation type="obsolete">공간 인덱스 생성</translation>
     </message>
     <message>
         <source>Choose the file to import</source>
-        <translation type="unfinished"></translation>
+        <translation>가져올 파일 선택</translation>
     </message>
     <message>
         <source>Import to database</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스로 가져오기</translation>
     </message>
     <message>
         <source>Input layer missing or not valid</source>
-        <translation type="unfinished"></translation>
+        <translation>입력 레이어가 없거나 유효하지 않음</translation>
     </message>
     <message>
         <source>Output table name is required</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 테이블 이름이 필요함</translation>
     </message>
     <message>
         <source>Invalid source srid: must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 원본 SRID: 정수여야 함</translation>
     </message>
     <message>
         <source>Invalid target srid: must be an integer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 대상 SRID: 정수여야 함</translation>
     </message>
     <message>
         <source>Error %d
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 %d
+%s</translation>
     </message>
     <message>
         <source>Import was successful.</source>
-        <translation type="unfinished">임포트 성공함.</translation>
+        <translation>임포트 성공함.</translation>
     </message>
 </context>
 <context>
@@ -3300,32 +3326,32 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/sextante/ui/DlgModeler.ui" line="14"/>
         <source>SEXTANTE modeler</source>
-        <translation type="unfinished"></translation>
+        <translation>SEXTANTE 모델러</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgModeler.ui" line="40"/>
         <source>Inputs</source>
-        <translation type="unfinished"></translation>
+        <translation>입력</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgModeler.ui" line="68"/>
         <source>Algorithms</source>
-        <translation type="unfinished"></translation>
+        <translation>알고리즘</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgModeler.ui" line="80"/>
         <source>Enter algorithm name to filter list</source>
-        <translation type="unfinished"></translation>
+        <translation>필터 리스트의 알고리즘 이름 입력</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgModeler.ui" line="110"/>
         <source>Enter model name here</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 모델 이름 입력</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgModeler.ui" line="117"/>
         <source>Enter group name here</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 그룹 이름 입력</translation>
     </message>
 </context>
 <context>
@@ -3333,12 +3359,12 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/sextante/ui/DlgResults.ui" line="14"/>
         <source>Results</source>
-        <translation type="unfinished"></translation>
+        <translation>결과</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/DlgResults.ui" line="53"/>
         <source>about:blank</source>
-        <translation type="unfinished">정보:공백</translation>
+        <translation>정보:공백</translation>
     </message>
 </context>
 <context>
@@ -3349,7 +3375,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>SQL query:</source>
-        <translation type="obsolete">SQL 쿼리:</translation>
+        <translation type="obsolete">SQL 질의:</translation>
     </message>
     <message>
         <source>&amp;Execute (F5)</source>
@@ -3409,7 +3435,7 @@ columns</source>
     </message>
     <message>
         <source>%d rows, %.1f seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>%d 행, %.1f 초</translation>
     </message>
     <message>
         <source>Sorry</source>
@@ -3537,43 +3563,43 @@ geometry column - column with unique integer values</source>
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>nothing selected</source>
-        <translation type="unfinished"></translation>
+        <translation>아무것도 선택 안됨</translation>
     </message>
     <message>
         <source>Are you sure</source>
-        <translation type="unfinished"></translation>
+        <translation>정말로 입니까?</translation>
     </message>
     <message>
         <source>really delete column &apos;%s&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 컬럼 %s을 삭제하시겠습니까?</translation>
     </message>
     <message>
         <source>really delete constraint &apos;%s&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 제약조건 %s을 삭제하시겠습니까?</translation>
     </message>
     <message>
         <source>The selected table has no geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>선택한 테이블에 지오메트리가 없음</translation>
     </message>
     <message>
         <source>Create?</source>
-        <translation type="unfinished"></translation>
+        <translation>생성?</translation>
     </message>
     <message>
         <source>Create spatial index for field %s?</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 %s의 공간 인덱스를 만드시겠습니까?</translation>
     </message>
     <message>
         <source>Nothing selected</source>
-        <translation type="unfinished"></translation>
+        <translation>아무것도 선택 안됨</translation>
     </message>
     <message>
         <source>really delete index &apos;%s&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말 인덱스 %s을 삭제하시겠습니까?</translation>
     </message>
 </context>
 <context>
@@ -3581,7 +3607,7 @@ geometry column - column with unique integer values</source>
     <message>
         <location filename="../python/plugins/db_manager/db_plugins/postgis/plugins/versioning/DlgVersioning.ui" line="14"/>
         <source>Add versioning support to a table</source>
-        <translation>테이블에 버전 지원 추가</translation>
+        <translation>테이블에 버저닝 지원 추가</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/db_plugins/postgis/plugins/versioning/DlgVersioning.ui" line="22"/>
@@ -3648,24 +3674,26 @@ geometry column - column with unique integer values</source>
     <name>EditRScriptDialog</name>
     <message>
         <source>I/O error</source>
-        <translation type="unfinished"></translation>
+        <translation>I/O 오류</translation>
     </message>
     <message>
         <source>Unable to save edits. Reason:
  %1</source>
-        <translation type="unfinished"></translation>
+        <translation>편집을 저장할 수 없음. 원인:
+%1</translation>
     </message>
 </context>
 <context>
     <name>EditScriptDialog</name>
     <message>
         <source>I/O error</source>
-        <translation type="unfinished"></translation>
+        <translation>I/O 오류</translation>
     </message>
     <message>
         <source>Unable to save edits. Reason:
  %1</source>
-        <translation type="unfinished"></translation>
+        <translation>편집을 저장할 수 없음. 원인:
+%1</translation>
     </message>
 </context>
 <context>
@@ -3706,7 +3734,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Burns vector geometries into a raster</source>
-        <translation>벡터 도형을 래스터로 구움</translation>
+        <translation>벡터 도형을 래스터로 만듬</translation>
     </message>
     <message>
         <source>Polygonize</source>
@@ -3714,7 +3742,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Produces a polygon feature layer from a raster</source>
-        <translation>래스터에서 폴리곤 피처를 만듦</translation>
+        <translation>래스터에서 폴리곤 객체를 만듬</translation>
     </message>
     <message>
         <source>Merge</source>
@@ -3722,7 +3750,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Build a quick mosaic from a set of images</source>
-        <translation>이미지 세트에서 빠른 모자이크를 만듦</translation>
+        <translation>이미지 세트에서 빠른 모자이크를 만듬</translation>
     </message>
     <message>
         <source>Sieve</source>
@@ -3874,7 +3902,7 @@ Install it and try again.</source>
     </message>
     <message>
         <source>QGIS version detected: </source>
-        <translation type="unfinished"></translation>
+        <translation>QGIS 버전 탐지됨:</translation>
     </message>
     <message>
         <source>Projections</source>
@@ -4112,7 +4140,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>%s not created.</source>
-        <translation type="unfinished"></translation>
+        <translation>%s 생성 안됨.</translation>
     </message>
     <message>
         <source>Elaboration completed.</source>
@@ -4128,7 +4156,7 @@ Do you want terminate it anyway?</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/dialogBase.ui" line="14"/>
         <source>Dialog</source>
-        <translation>대화창</translation>
+        <translation>대화상자</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/dialogBase.ui" line="29"/>
@@ -4217,11 +4245,11 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>Output size or resolution required</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 크기나 해상도가 필요함</translation>
     </message>
     <message>
         <source>The output file doesn&apos;t exist. You must set up the output size or resolution to create it.</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 파일이 없음. 생성하시려면 출력 크기나 해상도를 설정해야 함.</translation>
     </message>
     <message>
         <source>Select the input file for Polygonize</source>
@@ -4249,7 +4277,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>[select levels]</source>
-        <translation type="unfinished"></translation>
+        <translation>[레벨 선택]</translation>
     </message>
     <message>
         <source>Select the file to analyse</source>
@@ -4257,7 +4285,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>Select the cutline file</source>
-        <translation type="obsolete">컷라인 파일 선택</translation>
+        <translation type="obsolete">분할선 파일 선택</translation>
     </message>
     <message>
         <source>Select the input file for Grid</source>
@@ -4377,7 +4405,7 @@ Disable the &quot;Use intersected extent&quot; option to have a nonempty output.
     </message>
     <message>
         <source>Warning: CRS information for all raster in subfolders will be rewritten. Are you sure?</source>
-        <translation>경고: 하위 폴더에 있는 모든 래스터의 CRS 정보를 덮어 씁니다. 정말 하시겠습니까?</translation>
+        <translation>경고: 하위 폴더에 있는 모든 래스터의 좌표계 정보를 덮어 씁니다. 정말 하시겠습니까?</translation>
     </message>
     <message>
         <source>Select the input directory with files to Assign projection</source>
@@ -4569,17 +4597,24 @@ and python executables.
 
 MacOS users usually need to set it to something like
 /Library/Frameworks/GDAL.framework/Versions/1.8/Programs</source>
-        <translation type="unfinished"></translation>
+        <translation>바이너리와 파이썬 실행파일의
+콜론으로 구분되거나 (리눅스 혹은 맥OS)
+세미 콜론으로 구분된 (윈도우) 경로 리스트.
+
+맥OS 사용자의 경우 다음처럼 설정할 수 있음
+/Library/Frameworks/GDAL.framework/Versions/1.8/Programs</translation>
     </message>
     <message>
         <source>A list of colon-separated (Linux and MacOS) or
 semicolon-separated (Windows) paths to python modules.</source>
-        <translation type="unfinished"></translation>
+        <translation>콜론으로 구분(리눅스 혹은 맥OS) 되거나 
+세미콜론으로 구분(윈도우)된 파이썬 모듈 경로 리스트.</translation>
     </message>
     <message>
         <source>Useful to open local GDAL documentation instead of online help
 when pressing on the tool dialog&apos;s Help button.</source>
-        <translation type="unfinished"></translation>
+        <translation>도구 대화 상자의 도움말 버튼을 누르면 
+온라인 도움말이 아닌 로컬 GDAL 문서를 열 때 유용합니다.</translation>
     </message>
     <message>
         <source>Select directory with GDAL executables</source>
@@ -4811,7 +4846,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetContour.ui" line="38"/>
         <source>&amp;Output file for contour lines (vector)</source>
-        <translation>등고선 라인 (벡터) 출력 파일(&amp;O)</translation>
+        <translation>등고선 (벡터) 출력 파일(&amp;O)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetContour.ui" line="48"/>
@@ -5156,7 +5191,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="145"/>
         <source>Mode Options</source>
-        <translation type="unfinished"></translation>
+        <translation>모드 옵션</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="164"/>
@@ -5512,27 +5547,27 @@ suitable for direct use with Imagine,ArcGIS, GDAL.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetRasterize.ui" line="76"/>
         <source>Keep existing raster size and resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>기존 래스터 크기와 해상도 유지</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetRasterize.ui" line="86"/>
         <source>Raster size in pixels</source>
-        <translation type="unfinished"></translation>
+        <translation>픽셀 단위 래스터 크기</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetRasterize.ui" line="157"/>
         <source>Raster resolution in map units per pixel</source>
-        <translation type="unfinished"></translation>
+        <translation>픽셀 당 지도 단위 래스터 해상도</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetRasterize.ui" line="185"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>가로</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetRasterize.ui" line="211"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>세로</translation>
     </message>
     <message>
         <source>New size (required if output file doens&apos;t exist)</source>
@@ -5934,7 +5969,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     </message>
     <message>
         <source>Polygons to lines</source>
-        <translation>폴리곤을 라인으로</translation>
+        <translation>폴리곤을 선으로</translation>
     </message>
     <message>
         <source>Input polygon vector layer</source>
@@ -5950,11 +5985,11 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     </message>
     <message>
         <source>Layer CRS</source>
-        <translation>레이어 CRS</translation>
+        <translation>레이어 좌표계</translation>
     </message>
     <message>
         <source>Project CRS</source>
-        <translation>프로젝트 CRS</translation>
+        <translation>프로젝트 좌표계</translation>
     </message>
     <message>
         <source>Ellipsoid</source>
@@ -5966,16 +6001,21 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
 {1}
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 shapefile 생성됨:
+{0}
+{1}
+
+새 레이어를 TOC에 추가하시겠습니까?</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 {0}</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 shapefile 읽기 실패:
+{0}</translation>
     </message>
     <message>
         <source>Layer &apos;{0}&apos; updated</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 &apos;{0}&apos; 업데이트 됨</translation>
     </message>
     <message>
         <source>Simplify geometries</source>
@@ -5987,7 +6027,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Output point shapefile</source>
-        <translation>출력 포인트 shapefile</translation>
+        <translation>출력 점 shapefile</translation>
     </message>
     <message>
         <source>Delaunay triangulation</source>
@@ -5995,7 +6035,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Input point vector layer</source>
-        <translation>입력 포인트 벡터 레이어</translation>
+        <translation>입력 점 벡터 레이어</translation>
     </message>
     <message>
         <source>Voronoi polygon</source>
@@ -6007,11 +6047,11 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Lines to polygons</source>
-        <translation>라인을 폴리곤으로</translation>
+        <translation>선을 폴리곤으로</translation>
     </message>
     <message>
         <source>Input line vector layer</source>
-        <translation>입력 라인 벡터 레이어</translation>
+        <translation>입력 선 벡터 레이어</translation>
     </message>
     <message>
         <source>Polygon from layer extent</source>
@@ -6048,13 +6088,13 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>At least two features must have same attribute value!
 Please choose another field...</source>
-        <translation>적어도 두 개의 피처가 동일한 속성값을 가져야 합니다!
+        <translation>적어도 두 개의 객체가 동일한 속성값을 가져야 합니다!
 다른 필드를 선택하십시오...</translation>
     </message>
     <message>
         <source>One or more features in the output layer may have invalid geometry, please check using the check validity tool
 </source>
-        <translation>출력 레이어에서 1개 이상의 피처가 잘못된 지오메트리입니다. 유효성 확인 도구를 이용해 확인하세요.</translation>
+        <translation>출력 레이어에서 1개 이상의 객체가 잘못된 지오메트리입니다. 유효성 확인 도구를 이용해 확인하세요.</translation>
     </message>
     <message>
         <source>Created output shapefile:
@@ -6127,7 +6167,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>No features selected, please uncheck &apos;Use selected&apos; or make a selection</source>
-        <translation>피처가 선택되지 않았습니다. &apos;선택 이용&apos;의 체크를 해제하거나 선택하십시오.</translation>
+        <translation>객체가 선택되지 않았습니다. &apos;선택 이용&apos;의 체크를 해제하거나 선택하십시오.</translation>
     </message>
     <message>
         <source>Buffer(s)</source>
@@ -6201,12 +6241,15 @@ Would you like to add the new layer to the TOC?</source>
         <source>Created output shapefile:
 %s
 %s%s</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 shapefile 생성됨:
+%s
+%s%s</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 shapefile 읽기 실패:
+%s</translation>
     </message>
     <message>
         <source>Dissolve all</source>
@@ -6215,7 +6258,8 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>No output created. File creation error:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>결과 생성 안됨. 파일 생성 오류:
+%s</translation>
     </message>
     <message>
         <source>
@@ -6245,25 +6289,25 @@ Would you like to add the new layer to the TOC?</source>
         <source>
 Input CRS error: Different input coordinate reference systems detected, results may not be as expected.</source>
         <translation>
-입력 CRS 오류: 다른 좌표계가 감지되었기에 결과를 예측할 수 없습니다.</translation>
+입력 좌표계 오류: 다른 좌표계가 감지되었기에 결과를 예측할 수 없습니다.</translation>
     </message>
     <message>
         <source>
 Input CRS error: One or more input layers missing coordinate reference information, results may not be as expected.</source>
         <translation>
-입력 CRS 오류: 하나 이상의 입력 레이어에 좌표계가 없습니다. 결과를 예측할 수 없습니다.</translation>
+입력 좌표계 오류: 하나 이상의 입력 레이어에 좌표계가 없습니다. 결과를 예측할 수 없습니다.</translation>
     </message>
     <message>
         <source>
 Feature geometry error: One or more output features ignored due to invalid geometry.</source>
         <translation>
-피처 지오메트리 오류: 하나 이상의 피처가 잘못된 지오메트리 때문에 무시되었습니다.</translation>
+객체 지오메트리 오류: 하나 이상의 객체가 잘못된 지오메트리 때문에 무시되었습니다.</translation>
     </message>
     <message>
         <source>
 GEOS geoprocessing error: One or more input features have invalid geometry.</source>
         <translation>
-GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못되었습니다.</translation>
+GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못되었습니다.</translation>
     </message>
     <message>
         <source>Created output shapefile:
@@ -6305,7 +6349,7 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     <message>
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="196"/>
         <source>Unload Globe</source>
-        <translation type="unfinished"></translation>
+        <translation>지구본 내리기</translation>
     </message>
     <message>
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="199"/>
@@ -6320,7 +6364,7 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     <message>
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="201"/>
         <source>Unload globe</source>
-        <translation type="unfinished"></translation>
+        <translation>지구본 내리기</translation>
     </message>
     <message>
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="212"/>
@@ -6371,16 +6415,16 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     <message>
         <location filename="../src/plugins/heatmap/heatmap.cpp" line="206"/>
         <source>Creating heatmap</source>
-        <translation type="unfinished"></translation>
+        <translation>온도지도 생성중</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmap.cpp" line="206"/>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>정보</translation>
     </message>
     <message>
         <source>Point layer error</source>
-        <translation type="obsolete">포인트 레이어 오류</translation>
+        <translation type="obsolete">점 레이어 오류</translation>
     </message>
     <message>
         <source>Could not identify the vector data provider.</source>
@@ -6444,7 +6488,7 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     </message>
     <message>
         <source>Input Point Vector</source>
-        <translation type="obsolete">입력 포인트 벡터</translation>
+        <translation type="obsolete">입력 점 벡터</translation>
     </message>
     <message>
         <source>Output Raster</source>
@@ -6462,17 +6506,17 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="29"/>
         <source>Input point layer</source>
-        <translation type="unfinished">입력 포인트 레이어</translation>
+        <translation>입력 점 레이어</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="39"/>
         <source>Output raster</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 래스터</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="62"/>
         <source>Output format</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 포맷</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="79"/>
@@ -6499,72 +6543,72 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="130"/>
         <source>Rows</source>
-        <translation type="unfinished">행</translation>
+        <translation>행</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="140"/>
         <source>Cell size X</source>
-        <translation type="unfinished"></translation>
+        <translation>셀 크기 X</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="150"/>
         <source>Columns</source>
-        <translation type="unfinished">컬럼</translation>
+        <translation>컬럼</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="160"/>
         <source>Cell size Y</source>
-        <translation type="unfinished"></translation>
+        <translation>셀 크기 Y</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="186"/>
         <source>Use radius from field</source>
-        <translation type="unfinished"></translation>
+        <translation>필드값을 반지름으로 사용</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="217"/>
         <source>Use weight from field</source>
-        <translation type="unfinished"></translation>
+        <translation>필드값을 가중치로 사용</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="234"/>
         <source>0.0</source>
-        <translation type="unfinished">0.0</translation>
+        <translation>0.0</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="241"/>
         <source>Decay ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>감쇠 비율</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="249"/>
         <source>Quartic (biweight)</source>
-        <translation type="unfinished"></translation>
+        <translation>Quartic (biweight)</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="254"/>
         <source>Triangular</source>
-        <translation type="unfinished"></translation>
+        <translation>Triangular</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="259"/>
         <source>Uniform</source>
-        <translation type="unfinished"></translation>
+        <translation>Uniform</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="264"/>
         <source>Triweight</source>
-        <translation type="unfinished"></translation>
+        <translation>Triweight</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="269"/>
         <source>Epanechnikov</source>
-        <translation type="unfinished"></translation>
+        <translation>Epanechnikov</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmapguibase.ui" line="277"/>
         <source>Kernel shape</source>
-        <translation type="unfinished"></translation>
+        <translation>커널 형태</translation>
     </message>
     <message>
         <source>Decay Ratio</source>
@@ -6615,22 +6659,22 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     <name>HelpEditionDialog</name>
     <message>
         <source>Outputs</source>
-        <translation type="unfinished"></translation>
+        <translation>출력</translation>
     </message>
 </context>
 <context>
     <name>HistoryDialog</name>
     <message>
         <source>Clear</source>
-        <translation type="unfinished">클리어</translation>
+        <translation>클리어</translation>
     </message>
     <message>
         <source>Clear history and log</source>
-        <translation type="unfinished"></translation>
+        <translation>히스토리 및 로그 삭제</translation>
     </message>
     <message>
         <source>Create test</source>
-        <translation type="unfinished"></translation>
+        <translation>테스트 만들기</translation>
     </message>
 </context>
 <context>
@@ -6638,19 +6682,19 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     <message>
         <location filename="../python/console/console_history_dlg.ui" line="14"/>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>대화상자</translation>
     </message>
     <message>
         <location filename="../python/console/console_history_dlg.ui" line="45"/>
         <source>Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>다시 읽기</translation>
     </message>
 </context>
 <context>
     <name>InfoViewer</name>
     <message>
         <source>DB Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>DB 관리자</translation>
     </message>
 </context>
 <context>
@@ -6658,17 +6702,17 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/symbollayer/widget_layerproperties.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>양식</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_layerproperties.ui" line="28"/>
         <source>Symbol layer type</source>
-        <translation type="unfinished">심볼 레이어 타입</translation>
+        <translation>심볼 레이어 타입</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_layerproperties.ui" line="51"/>
         <source>This layer doesn&apos;t have any editable properties</source>
-        <translation type="unfinished"></translation>
+        <translation>이 레이어에는 편집가능한 속성이 없음</translation>
     </message>
 </context>
 <context>
@@ -6889,7 +6933,7 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/qgisapp.ui" line="551"/>
         <source>Composer Manager...</source>
-        <translation>컴포저 관리자...</translation>
+        <translation>구성 관리자...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="560"/>
@@ -6899,47 +6943,47 @@ GEOS 공간 연산 오류: 하나 이상의 피처의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/qgisapp.ui" line="638"/>
         <source>Add Feature</source>
-        <translation>피처 추가</translation>
+        <translation>객체 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="755"/>
         <source>Merge Selected Features</source>
-        <translation>선택된 피처 병합</translation>
+        <translation>선택된 객체 병합</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="764"/>
         <source>Merge Attributes of Selected Features</source>
-        <translation>선택된 피터의 속성 결합</translation>
+        <translation>선택된 객체의 속성 결합</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="847"/>
         <source>Select Single Feature</source>
-        <translation>단일 피처 선택</translation>
+        <translation>단일 객체 선택</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="859"/>
         <source>Select Features by Rectangle</source>
-        <translation>사각형으로 피처 선택</translation>
+        <translation>사각형으로 객체 선택</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="871"/>
         <source>Select Features by Polygon</source>
-        <translation>폴리곤으로 피처 선택</translation>
+        <translation>폴리곤으로 객체 선택</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="883"/>
         <source>Select Features by Freehand</source>
-        <translation>프리핸드로 피처 선택</translation>
+        <translation>프리핸드로 객체 선택</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="895"/>
         <source>Select Features by Radius</source>
-        <translation>반경으로 피처 선택</translation>
+        <translation>반경으로 객체 선택</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="904"/>
         <source>Deselect Features from All Layers</source>
-        <translation>모든 레이어에서 피처 선택 해제</translation>
+        <translation>모든 레이어에서 객체 선택 해제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1099"/>
@@ -6980,7 +7024,7 @@ Ctl (Cmd) increments by 15 deg.</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1685"/>
         <source>Run Feature Action</source>
-        <translation>피처 동작 수행</translation>
+        <translation>객체 동작 수행</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1709"/>
@@ -7209,7 +7253,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Composer manager...</source>
-        <translation type="obsolete">컴포저 관리자...</translation>
+        <translation type="obsolete">구성 관리자...</translation>
     </message>
     <message>
         <source>Exit</source>
@@ -7243,7 +7287,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="599"/>
         <source>Cut Features</source>
-        <translation>피처 잘라내기</translation>
+        <translation>객체 잘라내기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="602"/>
@@ -7253,7 +7297,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="611"/>
         <source>Copy Features</source>
-        <translation>피처 복사</translation>
+        <translation>객체 복사</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="614"/>
@@ -7263,7 +7307,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="623"/>
         <source>Paste Features</source>
-        <translation>피처 붙여넣기</translation>
+        <translation>객체 붙여넣기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="626"/>
@@ -7272,7 +7316,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Capture Point</source>
-        <translation type="obsolete">점 캡춰</translation>
+        <translation type="obsolete">점 입력</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="641"/>
@@ -7281,7 +7325,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Capture Line</source>
-        <translation type="obsolete">라인 캡춰</translation>
+        <translation type="obsolete">선 입력</translation>
     </message>
     <message>
         <source>Ctrl+/</source>
@@ -7289,7 +7333,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Capture Polygon</source>
-        <translation type="obsolete">폴리곤 캡춰</translation>
+        <translation type="obsolete">폴리곤 입력</translation>
     </message>
     <message>
         <source>Ctrl+?</source>
@@ -7297,22 +7341,22 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Add feature</source>
-        <translation type="obsolete">피처 추가</translation>
+        <translation type="obsolete">객체 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="653"/>
         <source>Move Feature(s)</source>
-        <translation>피처 이동</translation>
+        <translation>객체 이동</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="665"/>
         <source>Reshape Features</source>
-        <translation>피처 변형</translation>
+        <translation>객체 변형</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="677"/>
         <source>Split Features</source>
-        <translation>피처 분할</translation>
+        <translation>객체 분할</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="686"/>
@@ -7332,7 +7376,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="722"/>
         <source>Simplify Feature</source>
-        <translation>피처 단순화</translation>
+        <translation>객체 단순화</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="734"/>
@@ -7346,11 +7390,11 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Merge selected features</source>
-        <translation type="obsolete">선택된 피처 병합</translation>
+        <translation type="obsolete">선택된 객체 병합</translation>
     </message>
     <message>
         <source>Merge attributes of selected features</source>
-        <translation type="obsolete">선택된 피처의 속성 병합</translation>
+        <translation type="obsolete">선택된 객체의 속성 병합</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="776"/>
@@ -7360,7 +7404,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="788"/>
         <source>Rotate Point Symbols</source>
-        <translation>포인트 심볼 회전</translation>
+        <translation>점 심볼 회전</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="793"/>
@@ -7394,32 +7438,32 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Select single feature</source>
-        <translation type="obsolete">1 개의 피처 선택</translation>
+        <translation type="obsolete">1 개의 객체 선택</translation>
     </message>
     <message>
         <source>Select features by rectangle</source>
-        <translation type="obsolete">사각형으로 피처 선택</translation>
+        <translation type="obsolete">사각형으로 객체 선택</translation>
     </message>
     <message>
         <source>Select features by polygon</source>
-        <translation type="obsolete">다각형으로 피처 선택</translation>
+        <translation type="obsolete">다각형으로 객체 선택</translation>
     </message>
     <message>
         <source>Select features by freehand</source>
-        <translation type="obsolete">프리핸드로 피처 선택</translation>
+        <translation type="obsolete">프리핸드로 객체 선택</translation>
     </message>
     <message>
         <source>Select features by radius</source>
-        <translation type="obsolete">반경으로 피처 선택</translation>
+        <translation type="obsolete">반경으로 객체 선택</translation>
     </message>
     <message>
         <source>Deselect features from all layers</source>
-        <translation type="obsolete">모든 레이어에서 피처 선택 취소</translation>
+        <translation type="obsolete">모든 레이어에서 객체 선택 취소</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="916"/>
         <source>Identify Features</source>
-        <translation>피처 정보표시</translation>
+        <translation>객체 정보표시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="919"/>
@@ -7505,7 +7549,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1039"/>
         <source>Show information about a feature when the mouse is hovered over it</source>
-        <translation>마우스 커서가 위에 있는 피처의 정보가 표시됨</translation>
+        <translation>마우스 커서가 위에 있는 객체의 정보가 표시됨</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1048"/>
@@ -7608,7 +7652,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1311"/>
         <source>Set Project CRS from Layer</source>
-        <translation>레이어에서 프로젝트 CRS 설정</translation>
+        <translation>레이어에서 프로젝트 좌표계 설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1351"/>
@@ -7693,7 +7737,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1682"/>
         <source>Feature Action</source>
-        <translation>피처 동작</translation>
+        <translation>객체 동작</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1694"/>
@@ -7807,7 +7851,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1303"/>
         <source>Set CRS of Layer(s)</source>
-        <translation>레이어 CRS 설정</translation>
+        <translation>레이어 좌표계 설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1306"/>
@@ -7816,7 +7860,7 @@ Acts on currently active editable layer</source>
     </message>
     <message>
         <source>Set project CRS from layer</source>
-        <translation type="obsolete">레이어 CRS를 프로젝트에 설정</translation>
+        <translation type="obsolete">레이어 좌표계를 프로젝트에 설정</translation>
     </message>
     <message>
         <source>Tile scale slider</source>
@@ -7928,7 +7972,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1425"/>
         <source>Custom CRS...</source>
-        <translation>사용자 정의 CRS...</translation>
+        <translation>사용자 정의 좌표계...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1434"/>
@@ -8469,11 +8513,11 @@ Wrong line: %1</source>
     <name>OsmFeatureDW</name>
     <message>
         <source>OSM Feature Dock Widget</source>
-        <translation type="obsolete">OSM 피처 도크 위젯</translation>
+        <translation type="obsolete">OSM 객체 도크 위젯</translation>
     </message>
     <message>
         <source>OSM Feature</source>
-        <translation type="obsolete">OSM 피처</translation>
+        <translation type="obsolete">OSM 객체</translation>
     </message>
     <message>
         <source>...</source>
@@ -8481,11 +8525,11 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Create point</source>
-        <translation type="obsolete">포인트 만들기</translation>
+        <translation type="obsolete">점 만들기</translation>
     </message>
     <message>
         <source>Create line</source>
-        <translation type="obsolete">라인 만들기</translation>
+        <translation type="obsolete">선 만들기</translation>
     </message>
     <message>
         <source>Create polygon</source>
@@ -8509,7 +8553,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Feature:</source>
-        <translation type="obsolete">피처:</translation>
+        <translation type="obsolete">객체:</translation>
     </message>
     <message>
         <source>TYPE, ID:</source>
@@ -8565,15 +8609,15 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Identify feature</source>
-        <translation type="obsolete">피처 정보표시</translation>
+        <translation type="obsolete">객체 정보표시</translation>
     </message>
     <message>
         <source>Move feature</source>
-        <translation type="obsolete">피처 이동</translation>
+        <translation type="obsolete">객체 이동</translation>
     </message>
     <message>
         <source>Remove this feature</source>
-        <translation type="obsolete">이 피처 삭제</translation>
+        <translation type="obsolete">이 객체 삭제</translation>
     </message>
     <message>
         <source>OSM Plugin</source>
@@ -8585,7 +8629,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Choose OSM feature first.</source>
-        <translation type="obsolete">OSM 피처를 먼저 선택하십시오.</translation>
+        <translation type="obsolete">OSM 객체를 먼저 선택하십시오.</translation>
     </message>
     <message>
         <source>Choose relation for editing first.</source>
@@ -8632,7 +8676,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Importing features...</source>
-        <translation type="obsolete">피처 가져오기...</translation>
+        <translation type="obsolete">객체 가져오기...</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -8707,11 +8751,11 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Failed to load line layer.</source>
-        <translation type="obsolete">라인 레이어 로드 실패.</translation>
+        <translation type="obsolete">선 레이어 로드 실패.</translation>
     </message>
     <message>
         <source>Failed to load point layer.</source>
-        <translation type="obsolete">포인트 레이어 로드 실패.</translation>
+        <translation type="obsolete">점 레이어 로드 실패.</translation>
     </message>
     <message>
         <source>Could not connect to setRenderer signal.</source>
@@ -8766,11 +8810,11 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Show/Hide OSM Feature Manager</source>
-        <translation type="obsolete">OSM 피처 관리자 보이기/감추기</translation>
+        <translation type="obsolete">OSM 객체 관리자 보이기/감추기</translation>
     </message>
     <message>
         <source>Show/Hide OpenStreetMap Feature Manager</source>
-        <translation type="obsolete">OpenStreetMap 피처 관리자 보이기/감추기</translation>
+        <translation type="obsolete">OpenStreetMap 객체 관리자 보이기/감추기</translation>
     </message>
     <message>
         <source>Sorry</source>
@@ -8831,15 +8875,15 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Features to save:</source>
-        <translation type="obsolete">저장 피처:</translation>
+        <translation type="obsolete">저장 객체:</translation>
     </message>
     <message>
         <source>Points</source>
-        <translation type="obsolete">포인트</translation>
+        <translation type="obsolete">점</translation>
     </message>
     <message>
         <source>Lines</source>
-        <translation type="obsolete">라인</translation>
+        <translation type="obsolete">선</translation>
     </message>
     <message>
         <source>Polygons</source>
@@ -8879,7 +8923,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Saving lines...</source>
-        <translation type="obsolete">라인 저장 중...</translation>
+        <translation type="obsolete">선 저장 중...</translation>
     </message>
     <message>
         <source>Saving polygons...</source>
@@ -9074,7 +9118,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     <name>PointsInPolygonThread</name>
     <message>
         <source>point count field</source>
-        <translation>포인트 수 필드</translation>
+        <translation>점 수 필드</translation>
     </message>
 </context>
 <context>
@@ -9687,7 +9731,7 @@ qgis.utils.iface 객체(QgisInterface 클래스의 인스턴스)를 이용하십
         <location filename="../src/core/qgsdistancearea.cpp" line="442"/>
         <location filename="../src/core/qgsdistancearea.cpp" line="476"/>
         <source>Caught a coordinate system exception while trying to transform a point. Unable to calculate line length.</source>
-        <translation>점을 변환하는 동안 좌표계 오류가 발생했습니다. 라인의 길이를 계산할 수 없습니다.</translation>
+        <translation>점을 변환하는 동안 좌표계 오류가 발생했습니다. 선의 길이를 계산할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgsdistancearea.cpp" line="594"/>
@@ -10046,7 +10090,7 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodel.cpp" line="258"/>
         <source>Lines</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodel.cpp" line="259"/>
@@ -10113,7 +10157,7 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodel.cpp" line="360"/>
         <source>Features</source>
-        <translation>피처</translation>
+        <translation>객체</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodel.cpp" line="369"/>
@@ -10349,7 +10393,7 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="52"/>
         <source>Capture mouse coordinates in different CRS</source>
-        <translation>다른 CRS의 좌표를 마우스로 선택합니다.</translation>
+        <translation>다른 좌표계의 좌표를 마우스로 선택합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="53"/>
@@ -10618,7 +10662,7 @@ It will be disabled.</source>
     <message>
         <location filename="../src/providers/grass/qgsgrass.cpp" line="1483"/>
         <source>Cannot query raster </source>
-        <translation>래스터 쿼리할 수 없습니다.</translation>
+        <translation>래스터 질의할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugin.cpp" line="62"/>
@@ -10672,7 +10716,7 @@ It will be disabled.</source>
     <message>
         <location filename="../src/plugins/evis/evis.cpp" line="83"/>
         <source>An event visualization tool - view images associated with vector features</source>
-        <translation>이벤트 가시화 도구 - 벡터 피처에 연결된 이미지를 보여줌</translation>
+        <translation>이벤트 가시화 도구 - 벡터 객체에 연결된 이미지를 보여줌</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/evis.cpp" line="85"/>
@@ -10691,19 +10735,19 @@ It will be disabled.</source>
     </message>
     <message>
         <source>Could not open CRS database %1&lt;br&gt;Error(%2): %3</source>
-        <translation type="obsolete">CRS 데이터베이스 %1을 열 수 없음&lt;br&gt;오류(%2): %3</translation>
+        <translation type="obsolete">좌표계 데이터베이스 %1을 열 수 없음&lt;br&gt;오류(%2): %3</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatereferencesystem.cpp" line="1372"/>
         <source>Could not open CRS database %1
 Error(%2): %3</source>
-        <translation>CRS 데이터베이스 %1 열지 못함. 오류(%2): %3</translation>
+        <translation>좌표계 데이터베이스 %1 열지 못함. 오류(%2): %3</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatereferencesystem.cpp" line="1375"/>
         <location filename="../src/core/qgscoordinatereferencesystem.cpp" line="1475"/>
         <source>CRS</source>
-        <translation type="unfinished">CRS</translation>
+        <translation type="unfinished">좌표계</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatereferencesystem.cpp" line="145"/>
@@ -10826,7 +10870,7 @@ Error(%2): %3</source>
     <message>
         <location filename="../src/core/qgsgeometryvalidator.cpp" line="355"/>
         <source>invalid line</source>
-        <translation>잘못된 라인</translation>
+        <translation>잘못된 선</translation>
     </message>
     <message>
         <location filename="../src/core/qgsgeometryvalidator.cpp" line="67"/>
@@ -10854,20 +10898,20 @@ Error(%2): %3</source>
     <message>
         <location filename="../src/core/qgsgeometryvalidator.cpp" line="105"/>
         <source>line %1 with less than two points</source>
-        <translation>라인 %1이 2 점 미만으로 구성되어 있습니다.</translation>
+        <translation>선 %1이 2 점 미만으로 구성되어 있습니다.</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/core/qgsgeometryvalidator.cpp" line="124"/>
         <source>line %1 contains %n duplicate node(s) at %2</source>
         <comment>number of duplicate nodes</comment>
         <translation>
-            <numerusform>라인 %1은 %2에 %n개의 중복 노드를 가지고 있습니다.</numerusform>
+            <numerusform>선 %1은 %2에 %n개의 중복 노드를 가지고 있습니다.</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../src/core/qgsgeometryvalidator.cpp" line="156"/>
         <source>segments %1 and %2 of line %3 intersect at %4</source>
-        <translation>라인 %3의 세그먼트 %1과 %2이 %4 곳에서 교차합니다.</translation>
+        <translation>선 %3의 세그먼트 %1과 %2이 %4 곳에서 교차합니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgsgeometryvalidator.cpp" line="171"/>
@@ -11133,29 +11177,29 @@ Error(%2): %3</source>
     </message>
     <message>
         <source>Invalid feature geometry</source>
-        <translation type="obsolete">잘못된 피처 지오메트리</translation>
+        <translation type="obsolete">잘못된 객체 지오메트리</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="618"/>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="629"/>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="645"/>
         <source>Feature geometry not imported (OGR error: %1)</source>
-        <translation>피처 지오메트리를 가져올 수 없습니다. (OGR 오류: %1)</translation>
+        <translation>객체 지오메트리를 가져올 수 없습니다. (OGR 오류: %1)</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="664"/>
         <source>Feature creation error (OGR error: %1)</source>
-        <translation>피처 만들기 오류 (OGR 오류: %1)</translation>
+        <translation>객체 만들기 오류 (OGR 오류: %1)</translation>
     </message>
     <message>
         <source>Failed to transform a point while drawing a feature of type &apos;%1&apos;. Writing stopped. (Exception: %2)</source>
-        <translation type="obsolete">&apos;%1&apos; 타입의 피처를 그리는 중 변환에 실패했습니다. 기록이 중지되었습니다. (익셉션: %2)</translation>
+        <translation type="obsolete">&apos;%1&apos; 타입의 객체를 그리는 중 변환에 실패했습니다. 기록이 중지되었습니다. (익셉션: %2)</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="845"/>
         <location filename="../src/core/qgsvectorlayerimport.cpp" line="334"/>
         <source>Feature write errors:</source>
-        <translation>피처 쓰기 오류:</translation>
+        <translation>객체 쓰기 오류:</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="855"/>
@@ -11169,7 +11213,7 @@ Error(%2): %3</source>
         <source>
 Only %1 of %2 features written.</source>
         <translation>
-%2 중 %1 피처만이 기록되었습니다.</translation>
+%2 중 %1 객체만이 기록되었습니다.</translation>
     </message>
     <message>
         <source>Groups not yet supported</source>
@@ -11196,11 +11240,11 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>CRS undefined - defaulting to project CRS</source>
-        <translation type="obsolete">CRS가 정의되어 있지 않음 - 프로젝트 CRS로 초기값 설정됨</translation>
+        <translation type="obsolete">좌표계가 정의되어 있지 않음 - 프로젝트 좌표계로 초기값 설정됨</translation>
     </message>
     <message>
         <source>CRS undefined - defaulting to default CRS: %1</source>
-        <translation type="obsolete">CRS가 정의되어 있지 않음 - 기본 CRS로 초기값 설정됨: %1</translation>
+        <translation type="obsolete">좌표계가 정의되어 있지 않음 - 기본 좌표계로 초기값 설정됨: %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolselectutils.cpp" line="42"/>
@@ -11209,7 +11253,7 @@ Only %1 of %2 features written.</source>
     </message>
     <message>
         <source>CRS undefined - defaulting to default CRS</source>
-        <translation type="obsolete">CRS가 정의되어 있지 않음 - 기본 CRS로 초기값 설정됨</translation>
+        <translation type="obsolete">좌표계가 정의되어 있지 않음 - 기본 좌표계로 초기값 설정됨</translation>
     </message>
     <message>
         <location filename="../src/gui/qgstextannotationitem.cpp" line="22"/>
@@ -11283,7 +11327,7 @@ Only %1 of %2 features written.</source>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialqueryplugin.cpp" line="48"/>
         <source>Spatial Query Plugin</source>
-        <translation>공간 쿼리 플러그인</translation>
+        <translation>공간 질의 플러그인</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialqueryplugin.cpp" line="49"/>
@@ -11325,17 +11369,17 @@ You are seeing this message most likely because you have no DISPLAY environment 
     <message>
         <location filename="../src/core/symbology-ng/qgssymbollayerv2registry.cpp" line="29"/>
         <source>Simple line</source>
-        <translation>심플 라인</translation>
+        <translation>단순 선</translation>
     </message>
     <message>
         <location filename="../src/core/symbology-ng/qgssymbollayerv2registry.cpp" line="31"/>
         <source>Marker line</source>
-        <translation>마커 라인</translation>
+        <translation>마커 선</translation>
     </message>
     <message>
         <location filename="../src/core/symbology-ng/qgssymbollayerv2registry.cpp" line="33"/>
         <source>Line decoration</source>
-        <translation>라인 장식</translation>
+        <translation>선 장식</translation>
     </message>
     <message>
         <location filename="../src/core/symbology-ng/qgssymbollayerv2registry.cpp" line="36"/>
@@ -11394,13 +11438,13 @@ You are seeing this message most likely because you have no DISPLAY environment 
     </message>
     <message>
         <source>To select features, you must choose a vector layer by clicking on its name in the legend</source>
-        <translation type="obsolete">피처를 선택하기 위해서는, 범례에서 벡터 레이어 이름을 클릭하여 선택 해야합니다.</translation>
+        <translation type="obsolete">객체를 선택하기 위해서는, 범례에서 벡터 레이어 이름을 클릭하여 선택 해야합니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolselectutils.cpp" line="121"/>
         <location filename="../src/app/qgsmaptoolshowhidelabels.cpp" line="213"/>
         <source>CRS Exception</source>
-        <translation>CRS 익셉션</translation>
+        <translation>좌표계 예외상황</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolselectutils.cpp" line="122"/>
@@ -12013,7 +12057,7 @@ You are seeing this message most likely because you have no DISPLAY environment 
         <location filename="../src/core/qgsvectorlayerimport.cpp" line="176"/>
         <source>Creation error for features from #%1 to #%2. Provider errors was: 
 %3</source>
-        <translation>#%1에서 #%2까지 피처 생성 오류. 프로바이더 오류는 다음과 같음:
+        <translation>#%1에서 #%2까지 객체 생성 오류. 프로바이더 오류는 다음과 같음:
 %3</translation>
     </message>
     <message>
@@ -12266,7 +12310,7 @@ You are seeing this message most likely because you have no DISPLAY environment 
     <message>
         <location filename="../src/plugins/heatmap/heatmap.cpp" line="51"/>
         <source>Creates a Heatmap raster for the input point vector</source>
-        <translation>입력된 포인트 벡터로 온도지도 래스터 만들기</translation>
+        <translation>입력된 점 벡터로 온도지도 래스터 만들기</translation>
     </message>
     <message>
         <location filename="../src/core/qgsgeometry.cpp" line="46"/>
@@ -12606,7 +12650,7 @@ SQL: %1</translation>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitefeatureiterator.cpp" line="295"/>
         <source>SQLite error getting feature: %1</source>
-        <translation type="unfinished">SQLite 피처 가져오기 오류: %1</translation>
+        <translation type="unfinished">SQLite 객체 가져오기 오류: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywherefeatureiterator.cpp" line="308"/>
@@ -13022,12 +13066,12 @@ Errors: %3
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4711"/>
         <source>Problem deleting features</source>
-        <translation>피처 삭제중 문제발생</translation>
+        <translation>객체 삭제중 문제발생</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4712"/>
         <source>A problem occured during deletion of features</source>
-        <translation>피처를 삭제하는 동안 문제가 발생</translation>
+        <translation>객체를 삭제하는 동안 문제가 발생</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4679"/>
@@ -13037,12 +13081,12 @@ Errors: %3
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4680"/>
         <source>Deleting features only works on vector layers</source>
-        <translation>피처 삭제는 벡터 레이어에서만 유효합니다.</translation>
+        <translation>객체 삭제는 벡터 레이어에서만 유효합니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4671"/>
         <source>To delete features, you must select a vector layer in the legend</source>
-        <translation>피처를 제거하려면 범례에서 벡터 레이어를 선택하십시오.</translation>
+        <translation>객체를 제거하려면 범례에서 벡터 레이어를 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="1572"/>
@@ -13149,12 +13193,12 @@ Errors: %3
     <message>
         <location filename="../src/app/qgisapp.cpp" line="410"/>
         <source>CRS undefined - defaulting to project CRS</source>
-        <translation type="unfinished">CRS가 정의되어 있지 않음 - 프로젝트 CRS로 초기값 설정됨</translation>
+        <translation type="unfinished">좌표계가 정의되어 있지 않음 - 프로젝트 좌표계로 초기값 설정됨</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="417"/>
         <source>CRS undefined - defaulting to default CRS: %1</source>
-        <translation type="unfinished">CRS가 정의되어 있지 않음 - 기본 CRS로 초기값 설정됨: %1</translation>
+        <translation type="unfinished">좌표계가 정의되어 있지 않음 - 기본 좌표계로 초기값 설정됨: %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="445"/>
@@ -13269,7 +13313,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Move Feature(s)</source>
-        <translation type="obsolete">피처 이동</translation>
+        <translation type="obsolete">객체 이동</translation>
     </message>
     <message>
         <source>Text Annotation</source>
@@ -13477,15 +13521,15 @@ Please contact the developers.
     </message>
     <message>
         <source>Identify Features</source>
-        <translation type="obsolete">피처 정보 표시</translation>
+        <translation type="obsolete">객체 정보 표시</translation>
     </message>
     <message>
         <source>Click on features to identify them</source>
-        <translation type="obsolete">피처를 클릭하여 정보를 표시</translation>
+        <translation type="obsolete">객체를 클릭하여 정보를 표시</translation>
     </message>
     <message>
         <source>Select Features</source>
-        <translation type="obsolete">피처 선택</translation>
+        <translation type="obsolete">객체 선택</translation>
     </message>
     <message>
         <source>Measure Line </source>
@@ -13578,7 +13622,7 @@ Please contact the developers.
     </message>
     <message>
         <source>&amp;Open Recent Projects</source>
-        <translation type="obsolete">최근 프로젝트 열기(&amp;O)</translation>
+        <translation type="obsolete">최근 이용한 프로젝트 열기(&amp;O)</translation>
     </message>
     <message>
         <source>&amp;View</source>
@@ -13650,27 +13694,27 @@ Please contact the developers.
     </message>
     <message>
         <source>Cut Features</source>
-        <translation type="obsolete">피처 잘라내기</translation>
+        <translation type="obsolete">객체 잘라내기</translation>
     </message>
     <message>
         <source>Cut selected features</source>
-        <translation type="obsolete">선택한 피처를 잘라내기</translation>
+        <translation type="obsolete">선택한 객체를 잘라내기</translation>
     </message>
     <message>
         <source>Copy Features</source>
-        <translation type="obsolete">피처 복사</translation>
+        <translation type="obsolete">객체 복사</translation>
     </message>
     <message>
         <source>Copy selected features</source>
-        <translation type="obsolete">선택한 피처를 복사</translation>
+        <translation type="obsolete">선택한 객체를 복사</translation>
     </message>
     <message>
         <source>Paste Features</source>
-        <translation type="obsolete">피처 붙여넣기</translation>
+        <translation type="obsolete">객체 붙여넣기</translation>
     </message>
     <message>
         <source>Paste selected features</source>
-        <translation type="obsolete">선택 피처 붙여넣기</translation>
+        <translation type="obsolete">선택 객체 붙여넣기</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="602"/>
@@ -13796,7 +13840,7 @@ Please contact the developers.
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4688"/>
         <source>Data provider does not support deleting features</source>
-        <translation>데이터 프로바이더가 피처의 삭제를 지원하지 않습니다.</translation>
+        <translation>데이터 프로바이더가 객체의 삭제를 지원하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4695"/>
@@ -13876,7 +13920,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Choice between mm and map units for new symbology. Scaling to use new symbology in print composer as well</source>
-        <translation type="obsolete">새로운 심볼로지에서는 단위를 mm 혹은 지도 단위 중에서 선택 가능합니다. 또한 프린트 컴포저도 새로운 심볼로지의 배율을 사용할 수 있습니다.</translation>
+        <translation type="obsolete">새로운 심볼로지에서는 단위를 mm 혹은 지도 단위 중에서 선택 가능합니다. 또한 프린트 구성도 새로운 심볼로지의 배율을 사용할 수 있습니다.</translation>
     </message>
     <message>
         <source>SVG fill symbol layer for polygon textures</source>
@@ -13892,11 +13936,11 @@ Please contact the developers.
     </message>
     <message>
         <source>Allow hiding of deprecated CRSes</source>
-        <translation type="obsolete">비추천의 CRS를 표시하지 않음</translation>
+        <translation type="obsolete">비추천 좌표계를 표시하지 않음</translation>
     </message>
     <message>
         <source>Add point displacement renderer plugin - allows points to be shifted to avoid colliding with other points</source>
-        <translation type="obsolete">점 재배치 렌더러 플러그인 추가 - 포인트가 다른 포인트와 겹치는 경우 이동하여 보여줌</translation>
+        <translation type="obsolete">점 재배치 렌더러 플러그인 추가 - 점이 다른 점과 겹치는 경우 이동하여 보여줌</translation>
     </message>
     <message>
         <source>Allow saving vector layers as ogr vector files</source>
@@ -13908,7 +13952,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Allow adding parts to multi points and lines</source>
-        <translation type="obsolete">멀티 포인트와 라인에 파트 추가 허용</translation>
+        <translation type="obsolete">다중 점과 선에 파트 추가 허용</translation>
     </message>
     <message>
         <source>Text and form annotation tools are now in gui and app</source>
@@ -13944,7 +13988,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Show selected feature count in status bar </source>
-        <translation type="obsolete">상태 표시줄에 선택한 피처 개수를 표시합니다.</translation>
+        <translation type="obsolete">상태 표시줄에 선택한 객체 개수를 표시합니다.</translation>
     </message>
     <message>
         <source>Query option added to layer menu to subset vector layers</source>
@@ -13952,11 +13996,11 @@ Please contact the developers.
     </message>
     <message>
         <source>Option to label only selected features (on the &apos;old&apos; labelling tool)</source>
-        <translation type="obsolete">선택된 피처에만 라벨을 붙이는 옵션 추가 (&apos;오래된&apos; 라벨링 도구에 있음)</translation>
+        <translation type="obsolete">선택된 객체에만 라벨을 붙이는 옵션 추가 (&apos;오래된&apos; 라벨링 도구에 있음)</translation>
     </message>
     <message>
         <source>Load/save queries created in the query builder.</source>
-        <translation type="obsolete">쿼리 빌더에서 만든 쿼리를 로드/저장하는 기능을 추가했습니다.</translation>
+        <translation type="obsolete">질의 빌더에서 만든 질의를 로드/저장하는 기능을 추가했습니다.</translation>
     </message>
     <message>
         <source>Manual adding of categories in symbology-ng.</source>
@@ -14004,15 +14048,15 @@ Please contact the developers.
     </message>
     <message>
         <source>Map composer can add attribute tables in layouts. It is possibile to show only visible features in composer table or all features</source>
-        <translation type="obsolete">지도 컴포저에서 속성 테이블을 레이아웃에 추가할 수 있습니다. 이 기능으로 컴포저 테이블에 표시된 피처만 표시하거나, 또는 모든 모든 리처를 표시할 수 있습니다.</translation>
+        <translation type="obsolete">지도 구성에서 속성 테이블을 레이아웃에 추가할 수 있습니다. 이 기능으로 구성 테이블에 표시된 객체만 표시하거나, 또는 모든 모든 리처를 표시할 수 있습니다.</translation>
     </message>
     <message>
         <source>Identify tool attribute form now non-modal in view mode (since r12796)</source>
-        <translation type="obsolete">피처 정보 표시 도구 표시가 비 모달 모드로 바뀌었습니다. (r12796 이상)</translation>
+        <translation type="obsolete">객체 정보 표시 도구 표시가 비 모달 모드로 바뀌었습니다. (r12796 이상)</translation>
     </message>
     <message>
         <source>Identified features&apos; highlight disappear when window is deactivate or closed and reappears when reactivated.</source>
-        <translation type="obsolete">피처 정보 특정 윈도우 창이 비활성화되거나 닫히면 피처 하이라이트가 없어집니다.</translation>
+        <translation type="obsolete">객체 정보 특정 윈도우 창이 비활성화되거나 닫히면 객체 하이라이트가 없어집니다.</translation>
     </message>
     <message>
         <source>WMS and WMS-C Support</source>
@@ -14102,7 +14146,7 @@ Please contact the developers.
         <location filename="../src/app/qgisapp.cpp" line="5231"/>
         <location filename="../src/app/qgisapp.cpp" line="5268"/>
         <source>Not enough features selected</source>
-        <translation>충분한 피처가 선택되지 않았습니다.</translation>
+        <translation>충분한 객체가 선택되지 않았습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5251"/>
@@ -14153,11 +14197,11 @@ Please contact the developers.
     </message>
     <message>
         <source>Current CRS: %1</source>
-        <translation type="obsolete">현재 CRS: %1</translation>
+        <translation type="obsolete">현재 좌표계: %1</translation>
     </message>
     <message>
         <source>Inactive project CRS: %1</source>
-        <translation type="obsolete">잘못된 투영 CRS: %1</translation>
+        <translation type="obsolete">잘못된 투영 좌표계: %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="8596"/>
@@ -14174,7 +14218,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Split Features</source>
-        <translation type="obsolete">피처 분할</translation>
+        <translation type="obsolete">객체 분할</translation>
     </message>
     <message>
         <source>Map Tips</source>
@@ -14182,7 +14226,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Show information about a feature when the mouse is hovered over it</source>
-        <translation type="obsolete">마우스 커서가 올라가면 피처의 정보가 표시됩니다.</translation>
+        <translation type="obsolete">마우스 커서가 올라가면 객체의 정보가 표시됩니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="1544"/>
@@ -14324,11 +14368,11 @@ Please contact the developers.
     </message>
     <message>
         <source>Merge selected features</source>
-        <translation type="obsolete">선택 피처 머지</translation>
+        <translation type="obsolete">선택 객체 머지</translation>
     </message>
     <message>
         <source>Merge attributes of selected features</source>
-        <translation type="obsolete">선택된 피처의 속성을 결합합니다.</translation>
+        <translation type="obsolete">선택된 객체의 속성을 결합합니다.</translation>
     </message>
     <message>
         <source>Node Tool</source>
@@ -14348,11 +14392,11 @@ Please contact the developers.
     </message>
     <message>
         <source>Select single feature</source>
-        <translation type="obsolete">1 개의 피처 선택</translation>
+        <translation type="obsolete">1 개의 객체 선택</translation>
     </message>
     <message>
         <source>Select single features</source>
-        <translation type="obsolete">1 개의 피처를 선택합니다.</translation>
+        <translation type="obsolete">1 개의 객체를 선택합니다.</translation>
     </message>
     <message>
         <source>, hold shift to select by containment</source>
@@ -14360,19 +14404,19 @@ Please contact the developers.
     </message>
     <message>
         <source>Select features by rectangle</source>
-        <translation type="obsolete">사각형 영역으로 피처 선택</translation>
+        <translation type="obsolete">사각형 영역으로 객체 선택</translation>
     </message>
     <message>
         <source>Select features by polygon</source>
-        <translation type="obsolete">다각형으로 피처 선택</translation>
+        <translation type="obsolete">다각형으로 객체 선택</translation>
     </message>
     <message>
         <source>Select features by freehand</source>
-        <translation type="obsolete">자유롭게 피처 선택</translation>
+        <translation type="obsolete">자유롭게 객체 선택</translation>
     </message>
     <message>
         <source>Select features by radius</source>
-        <translation type="obsolete">반경 지정에 의한 피처 선택</translation>
+        <translation type="obsolete">반경 지정에 의한 객체 선택</translation>
     </message>
     <message>
         <source>Zoom to Selection</source>
@@ -14435,7 +14479,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Set CRS of Layer(s)</source>
-        <translation type="obsolete">레이어의 CRS 설정</translation>
+        <translation type="obsolete">레이어의 좌표계 설정</translation>
     </message>
     <message>
         <source>Ctrl+Shift+C</source>
@@ -14464,7 +14508,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Set subset query of the current layer</source>
-        <translation type="obsolete">현재 레이어에 대한 서브셋 쿼리를 설정</translation>
+        <translation type="obsolete">현재 레이어에 대한 서브셋 질의를 설정</translation>
     </message>
     <message>
         <source>Add to Overview</source>
@@ -14509,7 +14553,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Custom CRS...</source>
-        <translation type="obsolete">사용자 정의 CRS...</translation>
+        <translation type="obsolete">사용자 정의 좌표계...</translation>
     </message>
     <message>
         <source>Manage custom coordinate reference systems</source>
@@ -14696,7 +14740,7 @@ Always ignore these errors?</source>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="1607"/>
         <source>CRS status - Click to open coordinate reference system dialog</source>
-        <translation>CRS 상태 - 클릭하면 좌표계 대화상자가 열립니다.</translation>
+        <translation>좌표계 상태 - 클릭하면 좌표계 대화상자가 열립니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="2082"/>
@@ -14799,7 +14843,7 @@ This copy of QGIS writes debugging output.</source>
     </message>
     <message>
         <source>Field calculator will now insert NULL feature value in case of calculation error instead of stopping and reverting calculation for all features.</source>
-        <translation type="obsolete">필드 계산기 오류가 발생한 경우 중지하고 모든 피처 계산을 취소하지 않고 널 피처를 삽입합니다.</translation>
+        <translation type="obsolete">필드 계산기 오류가 발생한 경우 중지하고 모든 객체 계산을 취소하지 않고 널 객체를 삽입합니다.</translation>
     </message>
     <message>
         <source>Update srs.db to include grid reference.</source>
@@ -14851,7 +14895,7 @@ This copy of QGIS writes debugging output.</source>
     </message>
     <message>
         <source>Added search string support for feature ids ($id) and various other search related improvements.</source>
-        <translation type="obsolete">검색에 피처의 id($id)를 이용할 수 있게 되었습니다. 또 다른 다양한 검색 관련 기능이 개선되었습니다.</translation>
+        <translation type="obsolete">검색에 객체의 id($id)를 이용할 수 있게 되었습니다. 또 다른 다양한 검색 관련 기능이 개선되었습니다.</translation>
     </message>
     <message>
         <source>Added reload method to map layers and provider interface. Like this, caching providers (currently WMS and WFS) can synchronize with changes in the datasource.</source>
@@ -14883,7 +14927,7 @@ This copy of QGIS writes debugging output.</source>
     </message>
     <message>
         <source>Line wrapping, data defined font and buffer settings.</source>
-        <translation type="obsolete">라인의 피복 글꼴 및 테두리 설정을 데이터로 정의할 수 있습니다.</translation>
+        <translation type="obsolete">서울 둘러싼, 글꼴 및 테두리 설정을 데이터로 정의할 수 있습니다.</translation>
     </message>
     <message>
         <source>Layer properties and symbology</source>
@@ -14903,7 +14947,7 @@ This copy of QGIS writes debugging output.</source>
     </message>
     <message>
         <source>Use size scale also for line symbols to modify line width.</source>
-        <translation type="obsolete">라인 심볼의 라인 너비를 위해 크기 스케일을 사용할 수 있게 되었습니다.</translation>
+        <translation type="obsolete">선 심볼의 선 너비를 위해 크기 스케일을 사용할 수 있게 되었습니다.</translation>
     </message>
     <message>
         <source>Replaced raster histogram implementation with one based on Qwt. Added option to save histogram as image file. Show actual pixel values on x axis of raster histogram.</source>
@@ -14923,19 +14967,19 @@ This copy of QGIS writes debugging output.</source>
     </message>
     <message>
         <source>Map Composer</source>
-        <translation type="obsolete">지도 컴포저</translation>
+        <translation type="obsolete">지도 구성</translation>
     </message>
     <message>
         <source>add capability to show and manipulate composer item width/ height in item position dialog.</source>
-        <translation type="obsolete">컴포저 항목의 너비/높이를 위치 대화상자에서 표시 및 조작하는 기능이 추가되었습니다.</translation>
+        <translation type="obsolete">구성 항목의 너비/높이를 위치 대화상자에서 표시 및 조작하는 기능이 추가되었습니다.</translation>
     </message>
     <message>
         <source>Composer items can now be deleted with the backspace key.</source>
-        <translation type="obsolete">컴포저 아이템이 백스페이스 키로 삭제될 수 있습니다.</translation>
+        <translation type="obsolete">구성 아이템이 백스페이스 키로 삭제될 수 있습니다.</translation>
     </message>
     <message>
         <source>Sorting for composer attribute table (several columns and ascending / descending).</source>
-        <translation type="obsolete">컴포저 속성 테이블 정렬 기능 (각각의 컬럼으로 오름차순 / 내림차순).</translation>
+        <translation type="obsolete">구성 속성 테이블 정렬 기능 (각각의 컬럼으로 오름차순 / 내림차순).</translation>
     </message>
     <message>
         <source>Select raster layers to add...</source>
@@ -15027,15 +15071,15 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Allow the line symbol layers to be used for outline of polygon (fill) symbols.</source>
-        <translation type="obsolete">라인 심볼 레이어를 다각형(채우기) 기호의 외곽선으로 사용할 수 있습니다.</translation>
+        <translation type="obsolete">선 심볼 레이어를 다각형(채우기) 기호의 외곽선으로 사용할 수 있습니다.</translation>
     </message>
     <message>
         <source>Option to put marker on the central point of a line.</source>
-        <translation type="obsolete">라인의 중심점에 마커를 두는 옵션이 추가되었습니다.</translation>
+        <translation type="obsolete">선의 중심점에 마커를 두는 옵션이 추가되었습니다.</translation>
     </message>
     <message>
         <source>Option to put marker only on first/last vertex of a line.</source>
-        <translation type="obsolete">라인의 처음 혹은 마지막 지점에 마커를 두는 옵션이 추가되었습니다.</translation>
+        <translation type="obsolete">선의 처음 혹은 마지막 지점에 마커를 두는 옵션이 추가되었습니다.</translation>
     </message>
     <message>
         <source>Added &quot;centroid fill&quot; symbol layer which draws a marker on polygon&apos;s centroid.</source>
@@ -15043,7 +15087,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Allow the marker line symbol layer to draw markers on each vertex.</source>
-        <translation type="obsolete">각 버텍스에 마커를 그릴 때 마커 라인 심볼 레이어를 쓸 수있게 되었습니다.</translation>
+        <translation type="obsolete">각 버텍스에 마커를 그릴 때 마커 선 심볼 레이어를 쓸 수있게 되었습니다.</translation>
     </message>
     <message>
         <source>Move/rotate/change label edit tools to interactively change data defined label properties.</source>
@@ -15059,7 +15103,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Added &apos;Lines to polygons&apos; tool to vector menu.</source>
-        <translation type="obsolete">벡터 메뉴에 &apos;라인을 폴리곤으로&apos;가 추가되었습니다.</translation>
+        <translation type="obsolete">벡터 메뉴에 &apos;선을 폴리곤으로&apos;가 추가되었습니다.</translation>
     </message>
     <message>
         <source>Added field calculator with functions like $x, $y and $perimeter.</source>
@@ -15091,7 +15135,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Add ability to show number of features in legend classes. Accessible via right-click legend menu.</source>
-        <translation type="obsolete">범례 클래스에서 피처의 수를 볼 수 있습니다. 이 기능은 범례 메뉴에서 오른쪽 클릭에 연결되어 있습니다.</translation>
+        <translation type="obsolete">범례 클래스에서 객체의 수를 볼 수 있습니다. 이 기능은 범례 메뉴에서 오른쪽 클릭에 연결되어 있습니다.</translation>
     </message>
     <message>
         <source>General clean-ups and usability improvements.</source>
@@ -15099,27 +15143,27 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>CRS Handling</source>
-        <translation type="obsolete">CRS 다루기</translation>
+        <translation type="obsolete">좌표계 다루기</translation>
     </message>
     <message>
         <source>Show active crs in status bar.</source>
-        <translation type="obsolete">활성 CRS가 상태 표시줄에 표시됩니다.</translation>
+        <translation type="obsolete">활성 좌표계가 상태 표시줄에 표시됩니다.</translation>
     </message>
     <message>
         <source>Assign layer CRS to project (in the legend context menu).</source>
-        <translation type="obsolete">레이어 CRS를 프로젝트에 적용(범례 컨텍스트 메뉴에서).</translation>
+        <translation type="obsolete">레이어 좌표계를 프로젝트에 적용(범례 컨텍스트 메뉴에서).</translation>
     </message>
     <message>
         <source>Select default CRS for new projects.</source>
-        <translation type="obsolete">새로운 프로젝트를 위한 기본 CRS를 선택.</translation>
+        <translation type="obsolete">새로운 프로젝트를 위한 기본 좌표계를 선택.</translation>
     </message>
     <message>
         <source>Allow setting CRS for multiple layers at once.</source>
-        <translation type="obsolete">여러 레이어에 한번에 CRS를 할당.</translation>
+        <translation type="obsolete">여러 레이어에 한번에 좌표계를 할당.</translation>
     </message>
     <message>
         <source>Default to last selection when prompting for CRS.</source>
-        <translation type="obsolete">CRS 선택시 마지막으로 선택했던 것을 기본으로 설정됨</translation>
+        <translation type="obsolete">좌표계 선택시 마지막으로 선택했던 것을 기본으로 설정됨</translation>
     </message>
     <message>
         <source>Rasters</source>
@@ -15155,7 +15199,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Feature form updates</source>
-        <translation type="obsolete">피처 양식 업데이트</translation>
+        <translation type="obsolete">객체 양식 업데이트</translation>
     </message>
     <message>
         <source>Make NULL value string representation configurable.</source>
@@ -15163,7 +15207,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Fix feature updates in feature form from attribute table.</source>
-        <translation type="obsolete">속성 테이블에서 피처 양식의 피처 업데이트가 수정되었습니다.</translation>
+        <translation type="obsolete">속성 테이블에서 객체 양식의 객체 업데이트가 수정되었습니다.</translation>
     </message>
     <message>
         <source>Add support for NULL values in value maps (comboboxes).</source>
@@ -15175,7 +15219,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Support feature form expression fields: line edits on the form which name prefix &quot;expr_&quot; are evaluated. Their value is interpreted as field calculator string and replaced with the calculated value.</source>
-        <translation type="obsolete">피처 폼 계산 지원: 피처 양식 필드의 행 편집에서 &quot;expr_&quot;로 시작하는 이름은 식으로 계산됩니다. 값은 필드 계산자로 해석되어 계산된 값으로 대체됩니다.</translation>
+        <translation type="obsolete">객체 폼 계산 지원: 객체 양식 필드의 행 편집에서 &quot;expr_&quot;로 시작하는 이름은 식으로 계산됩니다. 값은 필드 계산자로 해석되어 계산된 값으로 대체됩니다.</translation>
     </message>
     <message>
         <source>Support searching for NULL in attribute table.</source>
@@ -15187,11 +15231,11 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Improved interactive attribute editing in table (adding/deleting features, attribute update).</source>
-        <translation type="obsolete">테이블의 대화형 속성 편집 기능이 향상되었습니다. (피처 추가/삭제 , 속성 갱신)</translation>
+        <translation type="obsolete">테이블의 대화형 속성 편집 기능이 향상되었습니다. (객체 추가/삭제 , 속성 갱신)</translation>
     </message>
     <message>
         <source>Allow adding of geometryless features.</source>
-        <translation type="obsolete">지오메트리가 없는 피처를 추가할 수 있게 되었습니다.</translation>
+        <translation type="obsolete">지오메트리가 없는 객체를 추가할 수 있게 되었습니다.</translation>
     </message>
     <message>
         <source>Fixed attribute undo/redo.</source>
@@ -15203,11 +15247,11 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Optionally re-use entered attribute values for next digitized feature.</source>
-        <translation type="obsolete">다음 디지타이징 하는 피처에, 이전에 입력한 속성 값을 다시 사용하는 옵션이 생겼습니다.</translation>
+        <translation type="obsolete">다음 디지타이징 하는 객체에, 이전에 입력한 속성 값을 다시 사용하는 옵션이 생겼습니다.</translation>
     </message>
     <message>
         <source>Allow merging/assigning attribute values to a set of features.</source>
-        <translation type="obsolete">여러 피처에서 속성 값을 결합하거나 할당할 수 있습니다.</translation>
+        <translation type="obsolete">여러 객체에서 속성 값을 결합하거나 할당할 수 있습니다.</translation>
     </message>
     <message>
         <source>Allow OGR &apos;save as&apos; without attributes (for eg. DGN/DXF).</source>
@@ -15508,12 +15552,12 @@ Error: %1</source>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4708"/>
         <source>Features deleted</source>
-        <translation>피처 삭제됨</translation>
+        <translation>객체 삭제됨</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4759"/>
         <source>Merging features...</source>
-        <translation>피처를 결합중...</translation>
+        <translation>객체를 결합중...</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4759"/>
@@ -15549,7 +15593,7 @@ Error: %1</source>
         <location filename="../src/app/qgisapp.cpp" line="4876"/>
         <location filename="../src/app/qgisapp.cpp" line="4957"/>
         <source>Composer %1</source>
-        <translation>컴포저 %1</translation>
+        <translation>구성 %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4919"/>
@@ -15578,25 +15622,25 @@ Error: %1</source>
         <location filename="../src/app/qgisapp.cpp" line="5151"/>
         <location filename="../src/app/qgisapp.cpp" line="5211"/>
         <source>The merge features tool only works on vector layers. Please select a vector layer from the layer list</source>
-        <translation>피처 머지 도구는 벡터 레이어에서만 사용할 수 있습니다. 레이어 목록에서 벡터 레이어를 선택하십시오.</translation>
+        <translation>객체 머지 도구는 벡터 레이어에서만 사용할 수 있습니다. 레이어 목록에서 벡터 레이어를 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5157"/>
         <location filename="../src/app/qgisapp.cpp" line="5216"/>
         <source>Merging features can only be done for layers in editing mode. To use the merge tool, go to  Layer-&gt;Toggle editing</source>
-        <translation>피처 머지는 편집 모드인 레이어에서만 사용할 수 있습니다. 머지를 이용하기 위해서는 레이어-&gt;편집 전환을 해주십시오.</translation>
+        <translation>객체 머지는 편집 모드인 레이어에서만 사용할 수 있습니다. 머지를 이용하기 위해서는 레이어-&gt;편집 전환을 해주십시오.</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5165"/>
         <location filename="../src/app/qgisapp.cpp" line="5231"/>
         <location filename="../src/app/qgisapp.cpp" line="5268"/>
         <source>The merge tool requires at least two selected features</source>
-        <translation>머지 도구를 이용하기 위해서는 적어도 2 개의 피처를 선택해야 합니다.</translation>
+        <translation>머지 도구를 이용하기 위해서는 적어도 2 개의 객체를 선택해야 합니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5179"/>
         <source>Merged feature attributes</source>
-        <translation>머지된 피처 속성</translation>
+        <translation>머지된 객체 속성</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5243"/>
@@ -15619,7 +15663,7 @@ Error: %1</source>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5296"/>
         <source>Merged features</source>
-        <translation>머지된 피처 군</translation>
+        <translation>머지된 객체 군</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5411"/>
@@ -15634,12 +15678,12 @@ Error: %1</source>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5456"/>
         <source>Features cut</source>
-        <translation>피처 잘라내기</translation>
+        <translation>객체 잘라내기</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5490"/>
         <source>Features pasted</source>
-        <translation>피처 붙여넣기</translation>
+        <translation>객체 붙여넣기</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5563"/>
@@ -15728,12 +15772,12 @@ Error: %1</source>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="7636"/>
         <source>Current CRS: %1 (OTFR enabled)</source>
-        <translation>현재 CRS: %1 (OTFR 활성화)</translation>
+        <translation>현재 좌표계: %1 (OTFR 활성화)</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="7643"/>
         <source>Current CRS: %1 (OTFR disabled)</source>
-        <translation>현재 CRS: %1 (OTFR 비활성화)</translation>
+        <translation>현재 좌표계: %1 (OTFR 비활성화)</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="7696"/>
@@ -15755,7 +15799,7 @@ Error: %1</source>
         <source>%n feature(s) selected on layer %1.</source>
         <comment>number of selected features</comment>
         <translation>
-            <numerusform>%n개의 피처가 레이어 %1에서 선택되어 있습니다.</numerusform>
+            <numerusform>%n개의 객체가 레이어 %1에서 선택되어 있습니다.</numerusform>
         </translation>
     </message>
     <message>
@@ -15817,7 +15861,7 @@ Ignore errors?</source>
     </message>
     <message>
         <source>&amp;New Print Composer</source>
-        <translation type="obsolete">새 프린트 컴포저(&amp;N)</translation>
+        <translation type="obsolete">새 프린트 구성(&amp;N)</translation>
     </message>
     <message>
         <source>Ctrl+P</source>
@@ -15826,17 +15870,17 @@ Ignore errors?</source>
     </message>
     <message>
         <source>New Print Composer</source>
-        <translation type="obsolete">새로운 프린트 컴포저</translation>
+        <translation type="obsolete">새 프린트 구성</translation>
     </message>
     <message>
         <source>Composer manager...</source>
         <translatorcomment>
       </translatorcomment>
-        <translation type="obsolete">컴포저 관리자...</translation>
+        <translation type="obsolete">구성 관리자...</translation>
     </message>
     <message>
         <source>Composer manager</source>
-        <translation type="obsolete">컴포저 관리자</translation>
+        <translation type="obsolete">구성 관리자</translation>
     </message>
     <message>
         <source>Ctrl+.</source>
@@ -15855,7 +15899,7 @@ Ignore errors?</source>
     </message>
     <message>
         <source>Reshape Features</source>
-        <translation type="obsolete">피처 변형</translation>
+        <translation type="obsolete">객체 변형</translation>
     </message>
     <message>
         <source>Add Part</source>
@@ -15875,11 +15919,11 @@ Ignore errors?</source>
     </message>
     <message>
         <source>Rotate Point Symbols</source>
-        <translation type="obsolete">포인트 심볼 회전</translation>
+        <translation type="obsolete">점 심볼 회전</translation>
     </message>
     <message>
         <source>Deselect features from all layers</source>
-        <translation type="obsolete">모든 레이어에서 피처 선택 해제</translation>
+        <translation type="obsolete">모든 레이어에서 객체 선택 해제</translation>
     </message>
     <message>
         <source>Ctrl+Shift+I</source>
@@ -16047,14 +16091,14 @@ Errors: %2
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4703"/>
         <source>Delete features</source>
-        <translation>피처 삭제</translation>
+        <translation>객체 삭제</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/app/qgisapp.cpp" line="4703"/>
         <source>Delete %n feature(s)?</source>
         <comment>number of features to delete</comment>
         <translation>
-            <numerusform>%n 개의 피처를 삭제하시겠습니까?</numerusform>
+            <numerusform>%n 개의 객체를 삭제하시겠습니까?</numerusform>
         </translation>
     </message>
     <message>
@@ -16081,7 +16125,7 @@ This copy of QGIS has been built without SpatiaLite support.</source>
     </message>
     <message>
         <source>Simplify Feature</source>
-        <translation type="obsolete">피처 단순화</translation>
+        <translation type="obsolete">객체 단순화</translation>
     </message>
     <message>
         <source>Delete Ring</source>
@@ -16120,7 +16164,7 @@ This copy of QGIS has been built without SpatiaLite support.</source>
     <name>QgisAppInterface</name>
     <message>
         <source>Feature form edit</source>
-        <translation type="obsolete">피처 양식 편집</translation>
+        <translation type="obsolete">객체 양식 편집</translation>
     </message>
     <message>
         <source>Run actions</source>
@@ -16585,7 +16629,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/ui/qgsatlascompositionwidgetbase.ui" line="128"/>
         <source>Composer map</source>
-        <translation type="unfinished">컴포저 맵</translation>
+        <translation type="unfinished">구성 맵</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsatlascompositionwidgetbase.ui" line="142"/>
@@ -16706,17 +16750,17 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/app/qgsattributeactiondialog.cpp" line="339"/>
         <source>Get feature id</source>
-        <translation>피처 ID 얻기</translation>
+        <translation>객체 ID 얻기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsattributeactiondialog.cpp" line="340"/>
         <source>Selected field&apos;s value (Identify features tool)</source>
-        <translation>선택된 필드 값 (피처 속성보기 툴)</translation>
+        <translation>선택된 필드 값 (객체 속성보기 툴)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsattributeactiondialog.cpp" line="341"/>
         <source>Clicked coordinates (Run feature actions tool)</source>
-        <translation>클릭된 좌표 (피처 액션 툴 실행)</translation>
+        <translation>클릭된 좌표 (객체 액션 툴 실행)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsattributeactiondialog.cpp" line="342"/>
@@ -17199,21 +17243,21 @@ SVG 검색 경로:	%7
         <source>Attribute table - %1 (%n Feature(s))</source>
         <comment>feature count</comment>
         <translation>
-            <numerusform>속성 테이블 - %1 (%n 피처(군))</numerusform>
+            <numerusform>속성 테이블 - %1 (%n 객체(군))</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Attribute table - %1:: %n / %2 feature(s) selected</source>
         <comment>feature count</comment>
         <translation type="obsolete">
-            <numerusform>속성 테이블 - %1:: %n / %2 피처가 선택됨</numerusform>
+            <numerusform>속성 테이블 - %1:: %n / %2 객체가 선택됨</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Attribute table - %1 :: %n / %2 feature(s) selected</source>
         <comment>feature count</comment>
         <translation type="obsolete">
-            <numerusform>속성 테이블 - %1 :: %n / %2 피처 선택됨</numerusform>
+            <numerusform>속성 테이블 - %1 :: %n / %2 객체 선택됨</numerusform>
         </translation>
     </message>
     <message>
@@ -17230,12 +17274,12 @@ SVG 검색 경로:	%7
         <source>Attribute table - %1 (%n matching features)</source>
         <comment>matching features</comment>
         <translation type="obsolete">
-            <numerusform>속성 테이블 - %1 (매칭 피처 %n)</numerusform>
+            <numerusform>속성 테이블 - %1 (매칭 객체 %n)</numerusform>
         </translation>
     </message>
     <message>
         <source>Attribute table - %1 (No matching features)</source>
-        <translation type="obsolete">속성 테이블 - %1 (일치하지 않는 피처)</translation>
+        <translation type="obsolete">속성 테이블 - %1 (일치하지 않는 객체)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsattributetabledialog.cpp" line="204"/>
@@ -17297,7 +17341,7 @@ SVG 검색 경로:	%7
     </message>
     <message>
         <source>Loading feature attributes...</source>
-        <translation type="obsolete">피처 속성 읽기 중...</translation>
+        <translation type="obsolete">객체 속성 읽기 중...</translation>
     </message>
     <message>
         <source>Abort</source>
@@ -17309,7 +17353,7 @@ SVG 검색 경로:	%7
     </message>
     <message>
         <source>%1 features loaded.</source>
-        <translation type="obsolete">%1 개의 피처 로드됨.</translation>
+        <translation type="obsolete">%1 개의 객체 로드됨.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="14"/>
@@ -17396,7 +17440,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="115"/>
         <source>Delete selected features (Ctrl+D)</source>
-        <translation>선택 피처 삭제 (Ctrl+D)</translation>
+        <translation>선택 객체 삭제 (Ctrl+D)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="131"/>
@@ -17507,7 +17551,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="105"/>
         <source>Add feature</source>
-        <translation>피처 추가</translation>
+        <translation>객체 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="108"/>
@@ -17603,7 +17647,7 @@ SVG 검색 경로:	%7
     </message>
     <message>
         <source>Opens the search query builder</source>
-        <translation type="obsolete">검색 쿼리 빌더 열기</translation>
+        <translation type="obsolete">검색 질의 빌더 열기</translation>
     </message>
     <message>
         <source>Advanced search</source>
@@ -17615,7 +17659,7 @@ SVG 검색 경로:	%7
     </message>
     <message>
         <source>Delete selected features</source>
-        <translation type="obsolete">선택된 피처 제거</translation>
+        <translation type="obsolete">선택된 객체 제거</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="118"/>
@@ -17641,7 +17685,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/gui/attributetable/qgsattributetablemodel.cpp" line="436"/>
         <source>feature id</source>
-        <translation>피처 id</translation>
+        <translation>객체 id</translation>
     </message>
 </context>
 <context>
@@ -18251,12 +18295,12 @@ Database:%2</source>
     <message>
         <location filename="../src/browser/qgsbrowser.cpp" line="321"/>
         <source>CRS</source>
-        <translation>CRS</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/browser/qgsbrowser.cpp" line="321"/>
         <source>Cannot set layer CRS</source>
-        <translation>CRS 레이어 설정 실패</translation>
+        <translation>레이어 좌표계 설정 실패</translation>
     </message>
 </context>
 <context>
@@ -18320,7 +18364,7 @@ Database:%2</source>
         <location filename="../src/browser/qgsbrowserbase.ui" line="220"/>
         <location filename="../src/browser/qgsbrowserbase.ui" line="223"/>
         <source>Set layer CRS</source>
-        <translation>레이어 CRS 설정</translation>
+        <translation>레이어 좌표계 설정</translation>
     </message>
     <message>
         <location filename="../src/browser/qgsbrowserbase.ui" line="232"/>
@@ -19073,7 +19117,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1477"/>
         <source>Composer templates</source>
-        <translation>컴포저 템플릿</translation>
+        <translation>구성 템플릿</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2118"/>
@@ -19094,7 +19138,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/composer/qgscomposer.cpp" line="179"/>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1831"/>
         <source>Composer</source>
-        <translation>컴포저</translation>
+        <translation>구성</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="712"/>
@@ -19433,7 +19477,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="51"/>
         <source>Composer</source>
-        <translation type="unfinished">컴포저</translation>
+        <translation type="unfinished">구성</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="76"/>
@@ -19652,7 +19696,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="532"/>
         <source>Composer manager</source>
-        <translation type="unfinished">컴포저 관리자</translation>
+        <translation type="unfinished">구성 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="537"/>
@@ -20873,7 +20917,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="240"/>
         <source>Composer templates</source>
-        <translation type="unfinished">컴포저 템플릿</translation>
+        <translation type="unfinished">구성 템플릿</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="265"/>
@@ -20888,12 +20932,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="280"/>
         <source>Remove composer</source>
-        <translation>컴포저 제거</translation>
+        <translation>구성 제거</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="280"/>
         <source>Do you really want to remove the map composer &apos;%1&apos;?</source>
-        <translation>정말 이 지도 컴포저 &apos;%1&apos;를 삭제하시겠습니까?</translation>
+        <translation>정말 이 지도 구성 &apos;%1&apos;를 삭제하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="386"/>
@@ -20929,7 +20973,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="20"/>
         <source>Composer manager</source>
-        <translation>컴포저 관리자</translation>
+        <translation>구성 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="35"/>
@@ -21701,13 +21745,13 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="41"/>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="430"/>
         <source>Line Ticks Down</source>
-        <translation>라인 틱 아래로</translation>
+        <translation>선 틱 아래로</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="42"/>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="434"/>
         <source>Line Ticks Up</source>
-        <translation>라인 틱 위로</translation>
+        <translation>선 틱 위로</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="43"/>
@@ -21760,7 +21804,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="207"/>
         <source>Scalebar line width</source>
-        <translation>스케일바 라인 폭</translation>
+        <translation>스케일바 선 폭</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="224"/>
@@ -22226,12 +22270,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposertablewidgetbase.ui" line="146"/>
         <source>Show only visible features</source>
-        <translation>가시 피처만을 표시합니다.</translation>
+        <translation>보이는 객체만 표시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposertablewidgetbase.ui" line="98"/>
         <source>Composer map</source>
-        <translation>컴포저 맵</translation>
+        <translation>구성 맵</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposertablewidgetbase.ui" line="14"/>
@@ -23149,27 +23193,27 @@ Should the existing classes be deleted before classification?</source>
     <name>QgsCoordinateTransform</name>
     <message>
         <source>The source spatial reference system (CRS) is not valid. </source>
-        <translation type="obsolete">원본 좌표계(CRS)가 잘못되었습니다.</translation>
+        <translation type="obsolete">원본 좌표계가 잘못되었습니다.</translation>
     </message>
     <message>
         <source>The destination spatial reference system (CRS) is not valid. </source>
-        <translation type="obsolete">대상 좌표계(CRS)가 잘못되었습니다.</translation>
+        <translation type="obsolete">대상 좌표계가 잘못되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatetransform.cpp" line="559"/>
         <location filename="../src/core/qgscoordinatetransform.cpp" line="565"/>
         <source>CRS</source>
-        <translation>CRS</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatetransform.cpp" line="557"/>
         <source>The source spatial reference system (CRS) is not valid. The coordinates can not be reprojected. The CRS is: %1</source>
-        <translation>원본 좌표계 (CRS)가 잘못됨. 좌표를 재투영 할 수 없음. CRS: %1</translation>
+        <translation>원본 좌표계가 잘못됨. 좌표를 재투영 할 수 없음. 좌표계: %1</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatetransform.cpp" line="564"/>
         <source>The destination spatial reference system (CRS) is not valid. The coordinates can not be reprojected. The CRS is: %1</source>
-        <translation>대상 좌표계 (CRS)가 잘못됨. 좌표를 재투영 할 수 없음. CRS: %1</translation>
+        <translation>대상 좌표계가 잘못됨. 좌표를 재투영 할 수 없음. 좌표계: %1</translation>
     </message>
     <message>
         <location filename="../src/core/qgscoordinatetransform.cpp" line="594"/>
@@ -23202,7 +23246,7 @@ failed with error: %3
     </message>
     <message>
         <source>The coordinates can not be reprojected. The CRS is: %1</source>
-        <translation type="obsolete">지정 좌표는 재투영 할 수 없습니다. CRS는 %1임</translation>
+        <translation type="obsolete">지정 좌표는 재투영 할 수 없습니다. 좌표계는 %1임</translation>
     </message>
 </context>
 <context>
@@ -23647,7 +23691,7 @@ and current file is [%3]</source>
     <message>
         <location filename="../src/ui/qgscustomprojectiondialogbase.ui" line="65"/>
         <source>You can define your own custom Coordinate Reference System (CRS) here. The definition must conform to the proj4 format for specifying a CRS.</source>
-        <translation>여기에 사용자 정의 좌표계(CRS)를 정의하십시오. CRS의 정의는 proj4 형식 이어야합니다.</translation>
+        <translation>여기에 사용자 정의 좌표계를 정의하십시오. 좌표계의 정의는 proj4 형식 이어야합니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscustomprojectiondialogbase.ui" line="94"/>
@@ -23678,12 +23722,12 @@ and current file is [%3]</source>
     <message>
         <location filename="../src/ui/qgscustomprojectiondialogbase.ui" line="183"/>
         <source>Use the text boxes below to test the CRS definition you are creating. Enter a coordinate where both the lat/long and the transformed result are known (for example by reading off a map). Then press the calculate button to see if the CRS definition you are creating is accurate.</source>
-        <translation>아래의 텍스트 상자에서 작성중인 CRS 정의를 테스트할 수 있습니다. 결과를 알고 있는 지점의 경위도와 투영좌표를 입력(예를 들어 지도에서 읽어서)합니다. 그리고 계산 버튼을 누르면 CRS 정의가 올바른지 확인할 수 있습니다.</translation>
+        <translation>아래의 텍스트 상자에서 작성중인 좌표계 정의를 테스트할 수 있습니다. 결과를 알고 있는 지점의 경위도와 투영좌표를 입력(예를 들어 지도에서 읽어서)합니다. 그리고 계산 버튼을 누르면 좌표계 정의가 올바른지 확인할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscustomprojectiondialogbase.ui" line="200"/>
         <source>Destination CRS        </source>
-        <translation>대상 CRS        </translation>
+        <translation>대상 좌표계        </translation>
     </message>
 </context>
 <context>
@@ -24188,19 +24232,19 @@ and current file is [%3]</source>
     </message>
     <message>
         <source>Point</source>
-        <translation type="obsolete">포인트</translation>
+        <translation type="obsolete">점</translation>
     </message>
     <message>
         <source>Multipoint</source>
-        <translation type="obsolete">멀티 포인트</translation>
+        <translation type="obsolete">다중 점</translation>
     </message>
     <message>
         <source>Line</source>
-        <translation type="obsolete">라인</translation>
+        <translation type="obsolete">선</translation>
     </message>
     <message>
         <source>Multiline</source>
-        <translation type="obsolete">멀티 라인</translation>
+        <translation type="obsolete">다중 선</translation>
     </message>
     <message>
         <source>Polygon</source>
@@ -24444,7 +24488,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/app/qgsdecorationgriddialog.cpp" line="45"/>
         <location filename="../src/app/qgsdecorationgriddialog.cpp" line="122"/>
         <source>Line</source>
-        <translation type="unfinished">라인</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdecorationgriddialog.cpp" line="47"/>
@@ -25381,7 +25425,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="367"/>
         <source>Line</source>
-        <translation type="unfinished">라인</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="372"/>
@@ -25845,7 +25889,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="82"/>
         <source>Line</source>
-        <translation type="unfinished">라인</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="83"/>
@@ -25865,12 +25909,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="94"/>
         <source>Above line</source>
-        <translation type="unfinished">라인 위</translation>
+        <translation type="unfinished">선 위</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="95"/>
         <source>Below Line</source>
-        <translation type="unfinished">라인 아래</translation>
+        <translation type="unfinished">선 아래</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="96"/>
@@ -26158,7 +26202,7 @@ Leave empty to automatically apply the maximum value.</source>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="531"/>
         <source>Line Options</source>
-        <translation type="unfinished">라인 옵션</translation>
+        <translation type="unfinished">선 옵션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="541"/>
@@ -26340,7 +26384,7 @@ Leave empty to automatically apply the maximum value.</source>
     <name>QgsDlgPgBufferBase</name>
     <message>
         <source>Buffer features</source>
-        <translation type="obsolete">피처 버퍼 화</translation>
+        <translation type="obsolete">객체 버퍼 화</translation>
     </message>
     <message>
         <source>Buffer distance in map units:</source>
@@ -26368,7 +26412,7 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>Unique field to use as feature id:</source>
-        <translation type="obsolete">피처 ID로 사용하는 고유 필드:</translation>
+        <translation type="obsolete">객체 ID로 사용하는 고유 필드:</translation>
     </message>
     <message>
         <source>Schema:</source>
@@ -26380,7 +26424,7 @@ Leave empty to automatically apply the maximum value.</source>
     </message>
     <message>
         <source>&lt;h2&gt;Buffer the features in layer: &lt;/h2&gt;</source>
-        <translation type="obsolete">&lt;h2&gt;레이어의 피처를 버퍼: &lt;/h2&gt;</translation>
+        <translation type="obsolete">&lt;h2&gt;레이어의 객체를 버퍼: &lt;/h2&gt;</translation>
     </message>
     <message>
         <source>Parameters</source>
@@ -26440,7 +26484,7 @@ Parser error:
     <message>
         <location filename="../src/gui/attributetable/qgsdualview.cpp" line="398"/>
         <source>%1 features loaded.</source>
-        <translation type="unfinished">%1 개의 피처 로드됨.</translation>
+        <translation type="unfinished">%1 개의 객체 로드됨.</translation>
     </message>
 </context>
 <context>
@@ -26596,12 +26640,12 @@ Parser error:
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="114"/>
         <source>Point</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="143"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="172"/>
@@ -26914,7 +26958,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="382"/>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="406"/>
         <source>Output preview is generated &lt;br&gt; using the first feature from the layer.</source>
-        <translation>출력 미리보기는 레이어의 &lt;br&gt; 첫번째 피처를 이용해 생성됩니다.</translation>
+        <translation>출력 미리보기는 레이어의 &lt;br&gt; 첫번째 객체를 이용해 생성됩니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="385"/>
@@ -27052,7 +27096,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsfieldcalculatorbase.ui" line="20"/>
         <source>Only update selected features</source>
-        <translation>선택되어 있는 피처에만 업데이트</translation>
+        <translation>선택되어 있는 객체에만 업데이트</translation>
     </message>
     <message>
         <source>New field</source>
@@ -27850,7 +27894,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Adding features to 2.5D shapetypes is not supported yet. Please select a different editable, non 2.5D layer and try again.</source>
-        <translation type="obsolete">2.5D shape 형식의 피처를 추가하는 것은 아직 지원되지 않습니다. 2.5D 형태가 아닌 다른 편집 가능한 레이어를 선택하고 다시 시도하십시오.</translation>
+        <translation type="obsolete">2.5D shape 형식의 객체를 추가하는 것은 아직 지원되지 않습니다. 2.5D 형태가 아닌 다른 편집 가능한 레이어를 선택하고 다시 시도하십시오.</translation>
     </message>
     <message>
         <source>Multipart shape type not supported</source>
@@ -27858,7 +27902,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Adding features to multipart shapetypes is not supported yet. Please select a different editable, non 2.5D layer and try again.</source>
-        <translation type="obsolete">멀티 파트의 shape 형식에 피처를 추가하는 것은 아직 지원되지 않습니다.멀티 파트 shape이 아닌 다른 편집 가능한 레이어를 선택하고 다시 시도하십시오.</translation>
+        <translation type="obsolete">멀티 파트의 shape 형식에 객체를 추가하는 것은 아직 지원되지 않습니다.멀티 파트 shape이 아닌 다른 편집 가능한 레이어를 선택하고 다시 시도하십시오.</translation>
     </message>
     <message>
         <source>Layer cannot be added to</source>
@@ -27866,7 +27910,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The data provider for this layer does not support the addition of features.</source>
-        <translation type="obsolete">이 레이어의 데이터 프로바이더는 피처 추가를 지원하지 않습니다.</translation>
+        <translation type="obsolete">이 레이어의 데이터 프로바이더는 객체 추가를 지원하지 않습니다.</translation>
     </message>
     <message>
         <source>Layer not editable</source>
@@ -27885,7 +27929,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="787"/>
         <source>Cannot close a line feature until it has at least two vertices.</source>
-        <translation>라인은 적어도 2 개의 버텍스가 없으면 만들 수 없습니다.</translation>
+        <translation>선은 적어도 2 개의 버텍스가 없으면 만들 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="795"/>
@@ -27896,7 +27940,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="827"/>
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="956"/>
         <source>Feature added</source>
-        <translation>피처가 추가되었습니다.</translation>
+        <translation>객체가 추가되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="836"/>
@@ -27922,7 +27966,7 @@ Errors: %2
     <message>
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="935"/>
         <source>The feature could not be added because removing the polygon intersections would change the geometry type</source>
-        <translation>폴리곤 교차 부분 삭제가 지오메트리 타입을 변경시킬 수 있기에 이 피처를 추가할 수 없습니다.</translation>
+        <translation>폴리곤 교차 부분 삭제가 지오메트리 타입을 변경시킬 수 있기에 이 객체를 추가할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="942"/>
@@ -27932,7 +27976,7 @@ Errors: %2
     <message>
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="950"/>
         <source>Cannot add feature. Unknown WKB type. Choose a different layer and try again.</source>
-        <translation>피처를 추가할 수 없습니다. 알 수 없는 WKB 타입입니다. 다른 레이어를 선택하고 다시 시도해주십시오.</translation>
+        <translation>객체를 추가할 수 없습니다. 알 수 없는 WKB 타입입니다. 다른 레이어를 선택하고 다시 시도해주십시오.</translation>
     </message>
     <message>
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="1041"/>
@@ -27942,7 +27986,7 @@ Errors: %2
     <message>
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="1091"/>
         <source>&amp;Add feature</source>
-        <translation type="unfinished">피처 추가(&amp;A)</translation>
+        <translation type="unfinished">객체 추가(&amp;A)</translation>
     </message>
     <message>
         <location filename="../src/app/gps/qgsgpsinformationwidget.cpp" line="1110"/>
@@ -28008,11 +28052,11 @@ Errors: %2
     </message>
     <message>
         <source>Add feature</source>
-        <translation type="obsolete">피처 추가</translation>
+        <translation type="obsolete">객체 추가</translation>
     </message>
     <message>
         <source>Reset current feature</source>
-        <translation type="obsolete">현재 피처 재설정</translation>
+        <translation type="obsolete">현재 객체 재설정</translation>
     </message>
     <message>
         <source>GPS device port</source>
@@ -28111,7 +28155,7 @@ Errors: %2
     <message>
         <location filename="../src/ui/qgsgpsinformationwidgetbase.ui" line="43"/>
         <source>&amp;Add feature</source>
-        <translation>피처 추가(&amp;A)</translation>
+        <translation>객체 추가(&amp;A)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsgpsinformationwidgetbase.ui" line="68"/>
@@ -28133,12 +28177,12 @@ gray = no data
     <message>
         <location filename="../src/ui/qgsgpsinformationwidgetbase.ui" line="109"/>
         <source>Add track point</source>
-        <translation>트랙 포인트 추가</translation>
+        <translation>트랙 점 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsgpsinformationwidgetbase.ui" line="128"/>
         <source>Reset track</source>
-        <translation>트랙 제설정</translation>
+        <translation>트랙 재설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsgpsinformationwidgetbase.ui" line="149"/>
@@ -28743,7 +28787,7 @@ Please reselect a valid file.</source>
     <message>
         <location filename="../src/plugins/gps_importer/qgsgpspluginguibase.ui" line="61"/>
         <source>Feature types</source>
-        <translation>피처 타입</translation>
+        <translation>객체 타입</translation>
     </message>
     <message>
         <location filename="../src/plugins/gps_importer/qgsgpspluginguibase.ui" line="145"/>
@@ -28754,7 +28798,7 @@ Please reselect a valid file.</source>
         <location filename="../src/plugins/gps_importer/qgsgpspluginguibase.ui" line="169"/>
         <location filename="../src/plugins/gps_importer/qgsgpspluginguibase.ui" line="315"/>
         <source>Feature type</source>
-        <translation>피처 타입</translation>
+        <translation>객체 타입</translation>
     </message>
     <message>
         <location filename="../src/plugins/gps_importer/qgsgpspluginguibase.ui" line="189"/>
@@ -28834,7 +28878,7 @@ Please reselect a valid file.</source>
     <message>
         <location filename="../src/providers/gpx/qgsgpxprovider.cpp" line="84"/>
         <source>Bad URI - you need to specify the feature type.</source>
-        <translation>잘못된 URI - 피처 유형을 지정해야합니다.</translation>
+        <translation>잘못된 URI - 객체 유형을 지정해야합니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/gpx/qgsgpxprovider.cpp" line="126"/>
@@ -29108,7 +29152,7 @@ Please reselect a valid file.</source>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefconfigdialogbase.ui" line="20"/>
         <source>Point tip</source>
-        <translation>포인트 팁</translation>
+        <translation>점 팁</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefconfigdialogbase.ui" line="26"/>
@@ -29281,17 +29325,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="561"/>
         <source>Load GCP points</source>
-        <translation>GCP 포인트 로드</translation>
+        <translation>GCP 점 로드</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="573"/>
         <source>No GCP points to save</source>
-        <translation>GCP 포인트가 저장되지 않았습니다.</translation>
+        <translation>GCP 점가 저장되지 않았습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="578"/>
         <source>Save GCP points</source>
-        <translation>GCP 포인트 저장</translation>
+        <translation>GCP 점 저장</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="600"/>
@@ -29333,7 +29377,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="1235"/>
         <source>Unable to open GCP points file %1</source>
-        <translation>GCP 포인트 파일 %1을 열 수 없습니다.</translation>
+        <translation>GCP 점 파일 %1을 열 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="1364"/>
@@ -29353,7 +29397,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="1250"/>
         <source>Save GCP points?</source>
-        <translation>GCP 포인트를 저장하시겠습니까?</translation>
+        <translation>GCP 점을 저장하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefplugingui.cpp" line="1284"/>
@@ -29652,7 +29696,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="242"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="245"/>
         <source>Add point</source>
-        <translation>포인트 추가</translation>
+        <translation>점 추가</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="248"/>
@@ -29663,7 +29707,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="253"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="256"/>
         <source>Delete point</source>
-        <translation>포인트 삭제</translation>
+        <translation>점 삭제</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="259"/>
@@ -29722,7 +29766,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="316"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="319"/>
         <source>Save GCP points as...</source>
-        <translation>새 이름으로 GCP 포인트를 저장...</translation>
+        <translation>새 이름으로 GCP 점을 저장...</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="322"/>
@@ -29733,7 +29777,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="327"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="330"/>
         <source>Load GCP points</source>
-        <translation>GCP 포인트 로드</translation>
+        <translation>GCP 점 로드</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="333"/>
@@ -29759,7 +29803,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="351"/>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="354"/>
         <source>Move GCP point</source>
-        <translation>GCP 포인트 이동</translation>
+        <translation>GCP 점 이동</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsgeorefpluginguibase.ui" line="359"/>
@@ -29912,7 +29956,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/globe/globe_plugin_dialog_guibase.ui" line="307"/>
         <source>Point Layer</source>
-        <translation>포인트 레이어</translation>
+        <translation>점 레이어</translation>
     </message>
     <message>
         <location filename="../src/plugins/globe/globe_plugin_dialog_guibase.ui" line="317"/>
@@ -30392,7 +30436,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="256"/>
         <source>New point</source>
-        <translation>새 포인트</translation>
+        <translation>새 점</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="274"/>
@@ -30412,7 +30456,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="262"/>
         <source>New line</source>
-        <translation>새 라인</translation>
+        <translation>새 선</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="268"/>
@@ -30437,7 +30481,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="304"/>
         <source>Split line</source>
-        <translation>라인 분할</translation>
+        <translation>선 분할</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="310"/>
@@ -30522,12 +30566,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="407"/>
         <source>Point</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="408"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="409"/>
@@ -30630,7 +30674,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="462"/>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="473"/>
         <source>Select line segment</source>
-        <translation>라인 세그먼트 선택</translation>
+        <translation>선 세그먼트 선택</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="458"/>
@@ -30843,16 +30887,16 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>New point</source>
-        <translation type="obsolete">새 포인트</translation>
+        <translation type="obsolete">새 점</translation>
     </message>
     <message>
         <source>Undo last point</source>
-        <translation type="obsolete">마지막 포인트 되돌리기</translation>
+        <translation type="obsolete">마지막 점 되돌리기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="239"/>
         <source>Close line</source>
-        <translation>라인 닫기</translation>
+        <translation>선 닫기</translation>
     </message>
 </context>
 <context>
@@ -30865,7 +30909,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="74"/>
         <source>New point</source>
-        <translation>새 포인트</translation>
+        <translation>새 점</translation>
     </message>
 </context>
 <context>
@@ -30874,23 +30918,23 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="777"/>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="819"/>
         <source>Select position on line</source>
-        <translation>라인 위의 위치를 선택</translation>
+        <translation>선 위의 위치를 선택</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="840"/>
         <source>Split the line</source>
-        <translation>라인 분할</translation>
+        <translation>선 분할</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="840"/>
         <source>Release the line</source>
-        <translation>라인 선택 해제</translation>
+        <translation>선 선택 해제</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="844"/>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="856"/>
         <source>Select point on line</source>
-        <translation>라인 위의 포인트 선택</translation>
+        <translation>선 위의 점 선택</translation>
     </message>
 </context>
 <context>
@@ -33292,7 +33336,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Feature</source>
-        <translation type="obsolete">피처</translation>
+        <translation type="obsolete">객체</translation>
     </message>
     <message>
         <source>Value</source>
@@ -33304,15 +33348,15 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Edit feature form</source>
-        <translation type="obsolete">피처 편집 양식</translation>
+        <translation type="obsolete">객체 편집 양식</translation>
     </message>
     <message>
         <source>View feature form</source>
-        <translation type="obsolete">피처 양식 보기</translation>
+        <translation type="obsolete">객체 양식 보기</translation>
     </message>
     <message>
         <source>Zoom to feature</source>
-        <translation type="obsolete">피처에 확대</translation>
+        <translation type="obsolete">객체에 확대</translation>
     </message>
     <message>
         <source>Copy attribute value</source>
@@ -33320,7 +33364,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Copy feature attributes</source>
-        <translation type="obsolete">피처의 속성 값을 복사</translation>
+        <translation type="obsolete">객체의 속성 값을 복사</translation>
     </message>
     <message>
         <source>Expand all</source>
@@ -33415,7 +33459,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="279"/>
         <source>Feature</source>
-        <translation type="unfinished">피처</translation>
+        <translation type="unfinished">객체</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="280"/>
@@ -33438,14 +33482,14 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="592"/>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="712"/>
         <source>Edit feature form</source>
-        <translation type="unfinished">피처 편집 양식</translation>
+        <translation type="unfinished">객체 편집 양식</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="428"/>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="592"/>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="712"/>
         <source>View feature form</source>
-        <translation type="unfinished">피처 양식 보기</translation>
+        <translation type="unfinished">객체 양식 보기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="496"/>
@@ -33470,7 +33514,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="723"/>
         <source>Copy feature attributes</source>
-        <translation type="unfinished">피처의 속성 값을 복사</translation>
+        <translation type="unfinished">객체의 속성 값을 복사</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="736"/>
@@ -33590,18 +33634,18 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="171"/>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="284"/>
         <source>Break lines</source>
-        <translation>브레이크 라인</translation>
+        <translation>분할 선</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="175"/>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="283"/>
         <source>Structure lines</source>
-        <translation>스트럭처 라인</translation>
+        <translation>구조 선</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="282"/>
         <source>Points</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="311"/>
@@ -33747,11 +33791,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsItemPositionDialogBase</name>
     <message>
         <source>Set item position</source>
-        <translation type="obsolete">항목 위치 ​​설정</translation>
+        <translation type="obsolete">항목 위치 설정</translation>
     </message>
     <message>
         <source>Item reference point</source>
-        <translation type="obsolete">항목 참조 포인트</translation>
+        <translation type="obsolete">항목 참조 점</translation>
     </message>
     <message>
         <source>Coordinates</source>
@@ -34005,7 +34049,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabeldialogbase.ui" line="462"/>
         <source>Label only selected features</source>
-        <translation>선택된 피처에만 라벨</translation>
+        <translation>선택된 객체에만 라벨</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabeldialogbase.ui" line="501"/>
@@ -34468,12 +34512,12 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5435"/>
         <source>Label every part of multi-part features</source>
-        <translation>멀티파트 피처 각 파트에 라벨을 출력</translation>
+        <translation>멀티파트 객체 각 파트에 라벨을 출력</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5442"/>
         <source>Merge connected lines to avoid duplicate labels</source>
-        <translation>라벨 중복을 제거하기 위해 연결된 라인을 결합</translation>
+        <translation>라벨 중복을 제거하기 위해 연결된 선을 결합</translation>
     </message>
     <message>
         <source>Multiline labels</source>
@@ -34485,7 +34529,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Features don&apos;t act as obstacles for labels</source>
-        <translation type="obsolete">피처를 라벨 방해물로 보지않음</translation>
+        <translation type="obsolete">객체를 라벨 방해물로 보지않음</translation>
     </message>
     <message>
         <source>Wrap label on character</source>
@@ -34574,15 +34618,15 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>above line</source>
-        <translation type="obsolete">라인 상단</translation>
+        <translation type="obsolete">선 상단</translation>
     </message>
     <message>
         <source>on line</source>
-        <translation type="obsolete">라인 위</translation>
+        <translation type="obsolete">선 상</translation>
     </message>
     <message>
         <source>below line</source>
-        <translation type="obsolete">라인 하단</translation>
+        <translation type="obsolete">선 하단</translation>
     </message>
     <message>
         <source>Orientation</source>
@@ -34594,7 +34638,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>line</source>
-        <translation type="obsolete">라인</translation>
+        <translation type="obsolete">선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="493"/>
@@ -34865,11 +34909,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>label every part of multi-part features</source>
-        <translation type="obsolete">멀티파트 피처의 각 파트에 라벨 만들기</translation>
+        <translation type="obsolete">멀티파트 객체의 각 파트에 라벨 만들기</translation>
     </message>
     <message>
         <source>merge connected lines to avoid duplicate labels</source>
-        <translation type="obsolete">중복 라벨을 제거하기위해 연결되어 있는 라인 병합</translation>
+        <translation type="obsolete">중복 라벨을 제거하기위해 연결되어 있는 선 병합</translation>
     </message>
     <message>
         <source>multiline labels</source>
@@ -34878,11 +34922,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5535"/>
         <source>Suppress labeling of features smaller than</source>
-        <translation>피처가 더 작은 경우 라벨링 안하기</translation>
+        <translation>객체가 더 작은 경우 라벨링 안하기</translation>
     </message>
     <message>
         <source>features don&apos;t act as obstacles for labels</source>
-        <translation type="obsolete">피처는 라벨 방해물로 동작 않음</translation>
+        <translation type="obsolete">객체는 라벨 방해물로 동작 않음</translation>
     </message>
     <message>
         <source>Engine settings</source>
@@ -35329,7 +35373,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3900"/>
         <source>Above line</source>
-        <translation type="unfinished">라인 위</translation>
+        <translation type="unfinished">선 위</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3916"/>
@@ -35686,7 +35730,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="848"/>
         <source>&amp;Set Group CRS</source>
-        <translation>그룹 CRS 설정(&amp;S)</translation>
+        <translation>그룹 좌표계 설정(&amp;S)</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="861"/>
@@ -35748,7 +35792,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>&amp;Set group CRS</source>
-        <translation type="obsolete">그룹 CRS 설정(&amp;S)</translation>
+        <translation type="obsolete">그룹 좌표계 설정(&amp;S)</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="853"/>
@@ -35793,11 +35837,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>&amp;Set layer CRS</source>
-        <translation type="obsolete">레이어 CRS 설정(&amp;S)</translation>
+        <translation type="obsolete">레이어 좌표계 설정(&amp;S)</translation>
     </message>
     <message>
         <source>Set &amp;project CRS from layer</source>
-        <translation type="obsolete">레이어 CRS로 프로젝트 CRS 설정(&amp;p)</translation>
+        <translation type="obsolete">레이어 좌표계로 프로젝트 좌표계 설정(&amp;p)</translation>
     </message>
     <message>
         <source>&amp;Open attribute table</source>
@@ -35817,7 +35861,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Show feature count</source>
-        <translation type="obsolete">피처 수 표시</translation>
+        <translation type="obsolete">객체 수 표시</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="228"/>
@@ -35853,12 +35897,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="368"/>
         <source>&amp;Set Layer CRS</source>
-        <translation>레이어 CRS 설정(&amp;S)</translation>
+        <translation>레이어 좌표계 설정(&amp;S)</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="371"/>
         <source>Set &amp;Project CRS from Layer</source>
-        <translation>레이어에서 프로젝트 CRS 설정(&amp;P)</translation>
+        <translation>레이어에서 프로젝트 좌표계 설정(&amp;P)</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="380"/>
@@ -35884,7 +35928,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="423"/>
         <source>Show Feature Count</source>
-        <translation>피처 수 표시</translation>
+        <translation>객체 수 표시</translation>
     </message>
     <message>
         <source>&amp;Properties</source>
@@ -35892,11 +35936,11 @@ not displayed</source>
     </message>
     <message>
         <source>Updating feature count for layer %1</source>
-        <translation type="obsolete">레이어 %1의 피처 수를 갱신 중</translation>
+        <translation type="obsolete">레이어 %1의 객체 수를 갱신 중</translation>
     </message>
     <message>
         <source>Updating feature count for layer </source>
-        <translation type="obsolete">레이어의 피처 수를 갱신 중</translation>
+        <translation type="obsolete">레이어의 객체 수를 갱신 중</translation>
     </message>
     <message>
         <source>Abort</source>
@@ -36236,7 +36280,7 @@ not displayed</source>
     <message>
         <location filename="../src/plugins/georeferencer/qgsmapcoordsdialogbase.ui" line="23"/>
         <source>Enter X and Y coordinates (DMS (dd mm ss.ss), DD (dd.dd) or projected coordinates (mmmm.mm)) which correspond with the selected point on the image. Alternatively, click the button with icon of a pencil and then click a corresponding point on map canvas of QGIS to fill in coordinates of that point.</source>
-        <translation>X와 Y 좌표 입력 (도분초 (dd mm ss.ss), DD (dd.dd) 또는 투영된 좌표 (mmmm.mm))는 이미지의 선택된 점에 대응합니다. 또는 연필 아이콘 버튼을 클릭하여 포인트 좌표에 해당하는 QGIS지도 캔버스의 해당 지점을 클릭하십시오.</translation>
+        <translation>X와 Y 좌표 입력 (도분초 (dd mm ss.ss), DD (dd.dd) 또는 투영된 좌표 (mmmm.mm))는 이미지의 선택된 점에 대응합니다. 또는 연필 아이콘 버튼을 클릭하여 점 좌표에 해당하는 QGIS지도 캔버스의 해당 지점을 클릭하십시오.</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsmapcoordsdialogbase.ui" line="35"/>
@@ -36325,7 +36369,7 @@ not displayed</source>
         <location filename="../src/core/qgsmaplayer.cpp" line="299"/>
         <location filename="../src/core/qgsmaplayer.cpp" line="688"/>
         <source>Specify CRS for layer %1</source>
-        <translation>레이어 %1의 CRS를 지정</translation>
+        <translation>레이어 %1의 좌표계를 지정</translation>
     </message>
     <message>
         <location filename="../src/core/qgsmaplayer.cpp" line="922"/>
@@ -36373,7 +36417,7 @@ not displayed</source>
         <location filename="../src/core/qgsmaprenderer.cpp" line="873"/>
         <location filename="../src/core/qgsmaprenderer.cpp" line="895"/>
         <source>CRS</source>
-        <translation>CRS</translation>
+        <translation>좌표계</translation>
     </message>
 </context>
 <context>
@@ -36381,7 +36425,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="45"/>
         <source>add feature</source>
-        <translation>피처 추가</translation>
+        <translation>객체 추가</translation>
     </message>
     <message>
         <source>Not a vector layer</source>
@@ -36399,7 +36443,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="68"/>
         <source>The data provider for this layer does not support the addition of features.</source>
-        <translation>이 레이어의 데이터 프로바이더는 피처 추가를 지원하지 않습니다.</translation>
+        <translation>이 레이어의 데이터 프로바이더는 객체 추가를 지원하지 않습니다.</translation>
     </message>
     <message>
         <source>Layer not editable</source>
@@ -36437,7 +36481,7 @@ not displayed</source>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="130"/>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="287"/>
         <source>Feature added</source>
-        <translation>피처 추가됨</translation>
+        <translation>객체 추가됨</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="151"/>
@@ -36462,12 +36506,12 @@ not displayed</source>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="217"/>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="236"/>
         <source>Cannot add feature. Unknown WKB type</source>
-        <translation>피처를 추가할 수 없습니다. 알 수 없는 WKB 타입입니다.</translation>
+        <translation>객체를 추가할 수 없습니다. 알 수 없는 WKB 타입입니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="258"/>
         <source>The feature could not be added because removing the polygon intersections would change the geometry type</source>
-        <translation>폴리곤 교차 부분 삭제가 지오메트리 타입을 변경시킬 수 있기에 이 피처를 추가할 수 없습니다.</translation>
+        <translation>폴리곤 교차 부분 삭제가 지오메트리 타입을 변경시킬 수 있기에 이 객체를 추가할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="266"/>
@@ -36505,11 +36549,11 @@ not displayed</source>
     </message>
     <message>
         <source>No feature selected. Please select a feature with the selection tool or in the attribute table</source>
-        <translation type="obsolete">피처가 선택되지 않았습니다. 선택 도구 또는 속성 테이블에서 피처를 선택하십시오.</translation>
+        <translation type="obsolete">객체가 선택되지 않았습니다. 선택 도구 또는 속성 테이블에서 객체를 선택하십시오.</translation>
     </message>
     <message>
         <source>Several features are selected. Please select only one feature to which an island should be added.</source>
-        <translation type="obsolete">여러 피처가 선택되어 있습니다. 섬을 추가하기 위해 단일 피처만을 선택하십시오.</translation>
+        <translation type="obsolete">여러 객체가 선택되어 있습니다. 섬을 추가하기 위해 단일 객체만을 선택하십시오.</translation>
     </message>
     <message>
         <source>Error, could not add island</source>
@@ -36529,7 +36573,7 @@ not displayed</source>
     </message>
     <message>
         <source>Selected feature is not a multipolygon</source>
-        <translation type="obsolete">선택된 피처가 멀티폴리곤이 아닙니다.</translation>
+        <translation type="obsolete">선택된 객체가 멀티폴리곤이 아닙니다.</translation>
     </message>
     <message>
         <source>New ring is not a valid geometry</source>
@@ -36566,12 +36610,12 @@ not displayed</source>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="57"/>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="184"/>
         <source>No feature selected. Please select a feature with the selection tool or in the attribute table</source>
-        <translation>피처가 선택되지 않았습니다. 선택 도구 또는 속성 테이블에서 피처를 선택하십시오.</translation>
+        <translation>객체가 선택되지 않았습니다. 선택 도구 또는 속성 테이블에서 객체를 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="61"/>
         <source>Several features are selected. Please select only one feature to which an part should be added.</source>
-        <translation>여러 피처가 선택되어 있습니다. 파트를 추가하기 위해 단일 피처만을 선택하십시오.</translation>
+        <translation>여러 객체가 선택되어 있습니다. 파트를 추가하기 위해 단일 객체만을 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="66"/>
@@ -36597,7 +36641,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="172"/>
         <source>Selected feature is not multi part.</source>
-        <translation>선택된 피처는 멀트파트가 아님니다.</translation>
+        <translation>선택된 객체는 멀트파트가 아님니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="176"/>
@@ -36612,7 +36656,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="188"/>
         <source>Several features are selected. Please select only one feature to which an island should be added.</source>
-        <translation>여러 피처가 선택되어 있습니다. 섬을 추가하기 위해 단일 피처만을 선택하십시오.</translation>
+        <translation>여러 객체가 선택되어 있습니다. 섬을 추가하기 위해 단일 객체만을 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="192"/>
@@ -36681,7 +36725,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="99"/>
         <source>The inserted Ring is not contained in a feature</source>
-        <translation>삽입된 링이 피처 안에 포함되지 않습니다.</translation>
+        <translation>삽입된 링이 객체 안에 포함되지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="103"/>
@@ -36742,7 +36786,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooldeletepart.cpp" line="111"/>
         <source>Part of multipart feature deleted</source>
-        <translation>멀티파트 피처의 파트가 삭제되었습니다.</translation>
+        <translation>멀티파트 객체의 파트가 삭제되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooldeletepart.cpp" line="118"/>
@@ -36813,7 +36857,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolfeatureaction.cpp" line="90"/>
         <source>No features at this position found.</source>
-        <translation>이 위치에 피처가 존재하지 않습니다.</translation>
+        <translation>이 위치에 객체가 존재하지 않습니다.</translation>
     </message>
 </context>
 <context>
@@ -36830,12 +36874,12 @@ not displayed</source>
     </message>
     <message>
         <source>To identify features, you must choose an active layer by clicking on its name in the legend</source>
-        <translation type="obsolete">클릭하여 피처 정보를 표시하려면, 범례에 있는 레이어 이름을 클릭하여 활성 레이어를 선택하십시오.</translation>
+        <translation type="obsolete">클릭하여 객체 정보를 표시하려면, 범례에 있는 레이어 이름을 클릭하여 활성 레이어를 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="138"/>
         <source>Identifying on %1...</source>
-        <translation>%1 피처 정보...</translation>
+        <translation>%1 객체 정보...</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="151"/>
@@ -36844,7 +36888,7 @@ not displayed</source>
     </message>
     <message>
         <source>No features at this position found.</source>
-        <translation type="obsolete">이 위치에 피처가 존재하지 않습니다.</translation>
+        <translation type="obsolete">이 위치에 객체가 존재하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="309"/>
@@ -36896,7 +36940,7 @@ not displayed</source>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="266"/>
         <source>feature id</source>
-        <translation>피처 id</translation>
+        <translation>객체 id</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="107"/>
@@ -36906,7 +36950,7 @@ not displayed</source>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="266"/>
         <source>new feature</source>
-        <translation>새 피처</translation>
+        <translation>새 객체</translation>
     </message>
     <message>
         <source>WMS layer</source>
@@ -36914,7 +36958,7 @@ not displayed</source>
     </message>
     <message>
         <source>Feature info</source>
-        <translation type="obsolete">피처 정보</translation>
+        <translation type="obsolete">객체 정보</translation>
     </message>
     <message>
         <source>Raster</source>
@@ -36926,7 +36970,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolidentifyaction.cpp" line="123"/>
         <source>No features at this position found.</source>
-        <translation type="unfinished">이 위치에 피처가 존재하지 않습니다.</translation>
+        <translation type="unfinished">이 위치에 객체가 존재하지 않습니다.</translation>
     </message>
 </context>
 <context>
@@ -36942,7 +36986,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolmovefeature.cpp" line="155"/>
         <source>Feature moved</source>
-        <translation>피처 이동됨</translation>
+        <translation>객체 이동됨</translation>
     </message>
 </context>
 <context>
@@ -36973,7 +37017,7 @@ not displayed</source>
     <message>
         <source>Feature was deleted on background.
 </source>
-        <translation type="obsolete">피처가 백그라운드에서 삭제됨
+        <translation type="obsolete">객체가 백그라운드에서 삭제됨
 </translation>
     </message>
     <message>
@@ -37077,12 +37121,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="99"/>
         <source>No point feature</source>
-        <translation>포인트 피처 없음</translation>
+        <translation>점 객체 없음</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="99"/>
         <source>No point feature was detected at the clicked position. Please click closer to the feature or enhance the search tolerance under Settings-&gt;Options-&gt;Digitizing-&gt;Serch radius for vertex edits</source>
-        <translation>클릭 지점에서 포인트 피처를 찾지 못했습니다. 피처 근처 클릭하거나 검색 허용치를 확대하십시오. 허용치는 설정-&gt;옵션-&gt; 디지타이징-&gt;버텍스 편집 검색 범위에서 설정할 수 있습니다.</translation>
+        <translation>클릭 지점에서 점 객체를 찾지 못했습니다. 객체 근처 클릭하거나 검색 허용치를 확대하십시오. 허용치는 설정-&gt;옵션-&gt; 디지타이징-&gt;버텍스 편집 검색 범위에서 설정할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="113"/>
@@ -37092,7 +37136,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="113"/>
         <source>The active point layer does not have a rotation attribute</source>
-        <translation>활성 포인트 레이어에 회전 속성이 없습니다.</translation>
+        <translation>활성 점 레이어에 회전 속성이 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="193"/>
@@ -37108,11 +37152,11 @@ not displayed</source>
     </message>
     <message>
         <source>To select features, you must choose a vector layer by clicking on its name in the legend</source>
-        <translation type="obsolete">피처를 선택하기 위해서는 범례에서 벡터 레이어 이름을 클릭하여 선택해야합니다.</translation>
+        <translation type="obsolete">객체를 선택하기 위해서는 범례에서 벡터 레이어 이름을 클릭하여 선택해야합니다.</translation>
     </message>
     <message>
         <source>CRS Exception</source>
-        <translation type="obsolete">CRS 오류</translation>
+        <translation type="obsolete">좌표계 오류</translation>
     </message>
     <message>
         <source>Selection extends beyond layer&apos;s coordinate system.</source>
@@ -37148,12 +37192,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolsimplify.cpp" line="296"/>
         <source>Multipart features are not supported for simplification.</source>
-        <translation>멀티파트 피처는 단순화를 지원하지 않습니다.</translation>
+        <translation>멀티파트 객체는 단순화를 지원하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolsimplify.cpp" line="313"/>
         <source>This feature cannot be simplified. Check if feature has enough vertices to be simplified.</source>
-        <translation>이 피처는 단순화할 수 없습니다. 피처가 단순화할 만큼의 버텍스을 가지고 있는지 확인하십시오.</translation>
+        <translation>이 객체는 단순화할 수 없습니다. 객체가 단순화할 만큼의 버텍스을 가지고 있는지 확인하십시오.</translation>
     </message>
 </context>
 <context>
@@ -37182,12 +37226,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="74"/>
         <source>Features split</source>
-        <translation>피처 분할</translation>
+        <translation>객체 분할</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="79"/>
         <source>If there are selected features, the split tool only applies to the selected ones. If you like to split all features under the split line, clear the selection</source>
-        <translation>선택되어 있는 피처가 있는 경우, 분할 도구는 선택된 객체에만 적용됩니다. 분할 라인과 교차하는 모든 요소에 대해 분할을 실시하고 싶은 경우는 선택을 해제하십시오.</translation>
+        <translation>선택되어 있는 객체가 있는 경우, 분할 도구는 선택된 객체에만 적용됩니다. 분할 선과 교차하는 모든 요소에 대해 분할을 실시하고 싶은 경우는 선택을 해제하십시오.</translation>
     </message>
     <message>
         <source>Not a vector layer</source>
@@ -37214,7 +37258,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="83"/>
         <source>Cut edges detected. Make sure the line splits features into multiple parts.</source>
-        <translation>컷 에지가 발견되었습니다. 라인이 피처를 절단하여 여러 부분으로 되는지 확인하십시오.</translation>
+        <translation>컷 에지가 발견되었습니다. 선이 객체를 절단하여 여러 부분으로 되는지 확인하십시오.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="87"/>
@@ -37489,7 +37533,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="707"/>
         <source>Line offset</source>
-        <translation type="unfinished">라인 오프셋</translation>
+        <translation type="unfinished">선 오프셋</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="709"/>
@@ -37645,7 +37689,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
         <location filename="../src/app/qgsmergeattributesdialog.cpp" line="477"/>
         <location filename="../src/app/qgsmergeattributesdialog.cpp" line="530"/>
         <source>feature %1</source>
-        <translation>피처 %1</translation>
+        <translation>객체 %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmergeattributesdialog.cpp" line="154"/>
@@ -37707,17 +37751,17 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/ui/qgsmergeattributesdialogbase.ui" line="14"/>
         <source>Merge feature attributes</source>
-        <translation>피처의 속성을 결합</translation>
+        <translation>객체의 속성을 결합</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsmergeattributesdialogbase.ui" line="38"/>
         <source>Take attributes from selected feature</source>
-        <translation>선택한 피처에서 속성 취득</translation>
+        <translation>선택한 객체에서 속성 취득</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsmergeattributesdialogbase.ui" line="72"/>
         <source>Remove feature from selection</source>
-        <translation>선택에서 피처를 제거</translation>
+        <translation>선택에서 객체를 제거</translation>
     </message>
 </context>
 <context>
@@ -38082,11 +38126,11 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     </message>
     <message>
         <source>&amp;Build query</source>
-        <translation type="obsolete">쿼리 작성(&amp;B)</translation>
+        <translation type="obsolete">질의 작성(&amp;B)</translation>
     </message>
     <message>
         <source>Build query</source>
-        <translation type="obsolete">쿼리 작성</translation>
+        <translation type="obsolete">질의 작성</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlsourceselect.cpp" line="138"/>
@@ -38283,22 +38327,22 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="464"/>
         <source>Point</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="468"/>
         <source>Multipoint</source>
-        <translation>멀티포인트</translation>
+        <translation>다중 점</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="472"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="476"/>
         <source>Multiline</source>
-        <translation>멀티 라인</translation>
+        <translation>다중 선</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="480"/>
@@ -38451,7 +38495,7 @@ enhancement</source>
     <message>
         <location filename="../src/core/qgsnetworkaccessmanager.cpp" line="152"/>
         <source>Network request %1 timed out</source>
-        <translation type="unfinished">네트워크 요청 시간이 %1 만큼 초과되었습니다</translation>
+        <translation>네트워크 요청 시간이 %1 만큼 초과되었습니다</translation>
     </message>
     <message>
         <location filename="../src/core/qgsnetworkaccessmanager.cpp" line="152"/>
@@ -38892,7 +38936,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="172"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="179"/>
@@ -38902,22 +38946,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="186"/>
         <source>MultiPoint</source>
-        <translation>멀티포인트</translation>
+        <translation>다중 점</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="193"/>
         <source>Multiline</source>
-        <translation>멀티라인</translation>
+        <translation>다중 선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="200"/>
         <source>Multipolygon</source>
-        <translation>멀티폴리곤</translation>
+        <translation>다중 폴리곤</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="234"/>
         <source>Specify CRS</source>
-        <translation>CRS 지정</translation>
+        <translation>좌표계 지정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewspatialitelayerdialogbase.ui" line="400"/>
@@ -39049,7 +39093,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsnewvectorlayerdialogbase.ui" line="56"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewvectorlayerdialogbase.ui" line="63"/>
@@ -39100,18 +39144,18 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>CRS ID</source>
-        <translation type="obsolete">CRS ID</translation>
+        <translation type="obsolete">좌표계 ID</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewvectorlayerdialogbase.ui" line="254"/>
         <location filename="../src/ui/qgsnewvectorlayerdialogbase.ui" line="257"/>
         <source>Specify the coordinate reference system of the layer&apos;s geometry.</source>
-        <translation>레이어 지오메트리의 좌표계를 지정</translation>
+        <translation>레이어 지오메트리의 좌표계를 지정하십시오.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewvectorlayerdialogbase.ui" line="260"/>
         <source>Specify CRS</source>
-        <translation>CRS 지정</translation>
+        <translation>좌표계 지정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewvectorlayerdialogbase.ui" line="160"/>
@@ -39225,7 +39269,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Nb of features</source>
-        <translation type="obsolete">피처의 수</translation>
+        <translation type="obsolete">객체의 수</translation>
     </message>
     <message>
         <source>Geometry type</source>
@@ -39281,17 +39325,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/analysis/openstreetmap/qgsosmdownload.cpp" line="46"/>
         <source>No query has been specified.</source>
-        <translation type="unfinished"></translation>
+        <translation>아무 질의도 지정되지 않았습니다..</translation>
     </message>
     <message>
         <location filename="../src/analysis/openstreetmap/qgsosmdownload.cpp" line="52"/>
         <source>There is already a pending request for data.</source>
-        <translation type="unfinished"></translation>
+        <translation>해당 데이터에 진행중인 요청사항이 이미 존재합니다.</translation>
     </message>
     <message>
         <location filename="../src/analysis/openstreetmap/qgsosmdownload.cpp" line="58"/>
         <source>Cannot open output file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 파일 %1을 열 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -39299,70 +39343,70 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsosmdownloaddialog.ui" line="14"/>
         <source>Download OpenStreetMap data</source>
-        <translation type="unfinished">OpenStreetMap 데이터 다운로드</translation>
+        <translation>OpenStreetMap 데이터 다운로드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmdownloaddialog.ui" line="20"/>
         <source>Extent</source>
-        <translation type="unfinished">범위</translation>
+        <translation>범위</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmdownloaddialog.ui" line="26"/>
         <source>From map canvas</source>
-        <translation type="unfinished">지도 캔버스에서</translation>
+        <translation>지도 캔버스에서</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmdownloaddialog.ui" line="38"/>
         <source>From layer</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어에서</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmdownloaddialog.ui" line="50"/>
         <source>Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>설명서</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmdownloaddialog.ui" line="128"/>
         <source>Output file</source>
-        <translation type="unfinished">출력 파일</translation>
+        <translation>출력 파일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmdownloaddialog.ui" line="137"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmdownloaddialog.cpp" line="135"/>
         <source>OpenStreetMap files (*.osm)</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenStreetMap 파일 (*.osm)</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmdownloaddialog.cpp" line="149"/>
         <source>Download error</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 오류</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmdownloaddialog.cpp" line="161"/>
         <location filename="../src/app/openstreetmap/qgsosmdownloaddialog.cpp" line="177"/>
         <location filename="../src/app/openstreetmap/qgsosmdownloaddialog.cpp" line="181"/>
         <source>OpenStreetMap download</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenStreetMap 다운로드</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmdownloaddialog.cpp" line="162"/>
         <source>Would you like to abort download?</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드를 중지하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmdownloaddialog.cpp" line="177"/>
         <source>Download failed.
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 실패\n %1</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmdownloaddialog.cpp" line="181"/>
         <source>Download has been successful.</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드가 성공하였습니다.</translation>
     </message>
 </context>
 <context>
@@ -39370,99 +39414,99 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsosmexportdialog.ui" line="14"/>
         <source>Export OpenStreetMap topology to SpatiaLite</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenStreetMap 토폴로지를 SpatialLite로 내보내기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmexportdialog.ui" line="20"/>
         <source>Input DB file</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스 파일 입력</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmexportdialog.ui" line="29"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmexportdialog.ui" line="39"/>
         <source>Export type</source>
-        <translation type="unfinished"></translation>
+        <translation>종류 내보내기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmexportdialog.ui" line="45"/>
         <source>Points (nodes)</source>
-        <translation type="unfinished"></translation>
+        <translation>점(노드)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmexportdialog.ui" line="55"/>
         <source>Polylines (open ways)</source>
-        <translation type="unfinished"></translation>
+        <translation>폴리곤(열린 방식)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmexportdialog.ui" line="62"/>
         <source>Polygons (closed ways)</source>
-        <translation type="unfinished"></translation>
+        <translation>폴리곤(닫힌 방식)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmexportdialog.ui" line="72"/>
         <source>Output layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 레이어 이름</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmexportdialog.ui" line="84"/>
         <source>Exported tags</source>
-        <translation type="unfinished"></translation>
+        <translation>내보낸 태그</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmexportdialog.ui" line="92"/>
         <source>Load from DB</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스에서 읽기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsosmexportdialog.ui" line="124"/>
         <source>&amp;Load into canvas when finished</source>
-        <translation type="unfinished">종료시 캔버스로 로드함(&amp;L)</translation>
+        <translation>종료시 캔버스로 로드함(&amp;L)</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmexportdialog.cpp" line="45"/>
         <source>Tag</source>
-        <translation type="unfinished"></translation>
+        <translation>태그</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmexportdialog.cpp" line="45"/>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>갯수</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmexportdialog.cpp" line="60"/>
         <source>SQLite databases (*.db)</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLite 데이터베이스 (*.db)</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmexportdialog.cpp" line="89"/>
         <source>Unable to open database:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 데이터베이스를 열 수 없음:\n %1</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmexportdialog.cpp" line="171"/>
         <source>OpenStreetMap export</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenStreetMap 내보내기</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmexportdialog.cpp" line="171"/>
         <source>Export has been successful.</source>
-        <translation type="unfinished"></translation>
+        <translation>내보내기가 성공하였습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmexportdialog.cpp" line="175"/>
         <source>OpenStreetMap import</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenStreetMap 가져오기</translation>
     </message>
     <message>
         <location filename="../src/app/openstreetmap/qgsosmexportdialog.cpp" line="175"/>
         <source>Failed to export OSM data:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>OSM 데이터를 가져오는데 아래와 같은 이유로 실패하였습니다: \n%1</translation>
     </message>
 </context>
 <context>
@@ -39788,7 +39832,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="324"/>
         <source>Feature limit for GetFeatureInfo</source>
-        <translation type="unfinished">GetFeatureInfo를 위한 피처 한계</translation>
+        <translation type="unfinished">GetFeatureInfo를 위한 객체 한계</translation>
     </message>
     <message>
         <source>Coordinate Reference System</source>
@@ -39871,7 +39915,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="481"/>
         <source>CRS</source>
-        <translation type="unfinished">CRS</translation>
+        <translation type="unfinished">좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="490"/>
@@ -39939,11 +39983,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>%v / %m features copied</source>
-        <translation type="obsolete">%v / %m 피처 복사됨</translation>
+        <translation type="obsolete">%v / %m 객체 복사됨</translation>
     </message>
     <message>
         <source>%v / %m features processed</source>
-        <translation type="obsolete">%v / %m 피처 처리됨</translation>
+        <translation type="obsolete">%v / %m 객체 처리됨</translation>
     </message>
     <message>
         <source>%v / %m fields added</source>
@@ -39951,19 +39995,19 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>%v / %m features added</source>
-        <translation type="obsolete">%v / %m 피처 추가됨</translation>
+        <translation type="obsolete">%v / %m 객체 추가됨</translation>
     </message>
     <message>
         <source>%v / %m features removed</source>
-        <translation type="obsolete">%v / %m 피처 삭제됨</translation>
+        <translation type="obsolete">%v / %m 객체 삭제됨</translation>
     </message>
     <message>
         <source>%v / %m feature updates</source>
-        <translation type="obsolete">%v / %m 피처 업데이트됨</translation>
+        <translation type="obsolete">%v / %m 객체 업데이트됨</translation>
     </message>
     <message>
         <source>%v / %m feature geometry updates</source>
-        <translation type="obsolete">%v / %m 피처 지오메트리 업데이트됨</translation>
+        <translation type="obsolete">%v / %m 객체 지오메트리 업데이트됨</translation>
     </message>
     <message>
         <location filename="../src/core/qgsofflineediting.cpp" line="788"/>
@@ -40019,12 +40063,12 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/plugins/offline_editing/offline_editing_plugin.cpp" line="165"/>
         <source>%v / %m features copied</source>
-        <translation type="unfinished">%v / %m 피처 복사됨</translation>
+        <translation type="unfinished">%v / %m 객체 복사됨</translation>
     </message>
     <message>
         <location filename="../src/plugins/offline_editing/offline_editing_plugin.cpp" line="168"/>
         <source>%v / %m features processed</source>
-        <translation type="unfinished">%v / %m 피처 처리됨</translation>
+        <translation type="unfinished">%v / %m 객체 처리됨</translation>
     </message>
     <message>
         <location filename="../src/plugins/offline_editing/offline_editing_plugin.cpp" line="171"/>
@@ -40034,22 +40078,22 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/plugins/offline_editing/offline_editing_plugin.cpp" line="174"/>
         <source>%v / %m features added</source>
-        <translation type="unfinished">%v / %m 피처 추가됨</translation>
+        <translation type="unfinished">%v / %m 객체 추가됨</translation>
     </message>
     <message>
         <location filename="../src/plugins/offline_editing/offline_editing_plugin.cpp" line="177"/>
         <source>%v / %m features removed</source>
-        <translation type="unfinished">%v / %m 피처 삭제됨</translation>
+        <translation type="unfinished">%v / %m 객체 삭제됨</translation>
     </message>
     <message>
         <location filename="../src/plugins/offline_editing/offline_editing_plugin.cpp" line="180"/>
         <source>%v / %m feature updates</source>
-        <translation type="unfinished">%v / %m 피처 업데이트됨</translation>
+        <translation type="unfinished">%v / %m 객체 업데이트됨</translation>
     </message>
     <message>
         <location filename="../src/plugins/offline_editing/offline_editing_plugin.cpp" line="183"/>
         <source>%v / %m feature geometry updates</source>
-        <translation type="unfinished">%v / %m 피처 지오메트리 업데이트됨</translation>
+        <translation type="unfinished">%v / %m 객체 지오메트리 업데이트됨</translation>
     </message>
 </context>
 <context>
@@ -40568,16 +40612,16 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="309"/>
         <source>Show all features</source>
-        <translation>모든 피처 표시</translation>
+        <translation>모든 객체 표시</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="310"/>
         <source>Show selected features</source>
-        <translation>선택한 피처 표시</translation>
+        <translation>선택한 객체 표시</translation>
     </message>
     <message>
         <source>Show features in current canvas</source>
-        <translation type="obsolete">피처를 현재 캔버스에 표시</translation>
+        <translation type="obsolete">객체를 현재 캔버스에 표시</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="323"/>
@@ -40899,7 +40943,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1633"/>
         <source>Map display will be updated (drawn) after this many features have been read from the data source</source>
-        <translation>지도보기는 데이터 소스에서 다음 수의 피처를 읽은 후 업데이트 (그리기)됨</translation>
+        <translation>지도보기는 데이터 소스에서 다음 수의 객체를 읽은 후 업데이트 (그리기)됨</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="653"/>
@@ -40977,7 +41021,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>When this option is enabled, any new project you create will have &apos;on the fly&apos; projection enabled by default and the CRS below will be used for the project.</source>
-        <translation type="obsolete">이 옵션을 사용하면 새로 만드는 모든 새 프로젝트에서 &apos;즉시&apos; 투영이 기본값입니다. 다음 CRS가 프로젝트를 위해 사용됩니다.</translation>
+        <translation type="obsolete">이 옵션을 사용하면 새로 만드는 모든 새 프로젝트에서 &apos;즉시&apos; 투영이 기본값입니다. 다음 좌표계가 프로젝트를 위해 사용됩니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="193"/>
@@ -41004,7 +41048,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3461"/>
         <source>Coordinate Reference System (CRS)</source>
-        <translation type="unfinished">좌표계(CRS)</translation>
+        <translation type="unfinished">좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3486"/>
@@ -41209,11 +41253,11 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1620"/>
         <source>Number of features to draw before updating the display</source>
-        <translation>표시 업데이트 전에 그릴 피처 수</translation>
+        <translation>표시 업데이트 전에 그릴 객체 수</translation>
     </message>
     <message>
         <source>&lt;b&gt;Note:&lt;/b&gt; Use zero to prevent display updates until all features have been rendered</source>
-        <translation type="obsolete">&lt;b&gt;참고:&lt;/b&gt; 모든 피처를 그릴 때까지 새로 고침을 하지 않으려면 0을 사용합니다.</translation>
+        <translation type="obsolete">&lt;b&gt;참고:&lt;/b&gt; 모든 객체를 그릴 때까지 새로 고침을 하지 않으려면 0을 사용합니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="288"/>
@@ -41440,7 +41484,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3601"/>
         <source>Always start new projects with this CRS</source>
-        <translation>항상 이 CRS로 새 프로젝트 시작</translation>
+        <translation>항상 이 좌표계로 새 프로젝트 시작</translation>
     </message>
     <message>
         <source>Coordinate Reference System for new layers</source>
@@ -41448,7 +41492,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>When a new layer is created, or when a layer is loaded that has no Coordinate Reference System (CRS)</source>
-        <translation type="obsolete">새 레이어를 만들 때 또는 레이어가 로드되었을 때 좌표계(CRS)가 없는 경우 사용</translation>
+        <translation type="obsolete">새 레이어를 만들 때 또는 레이어가 로드되었을 때 좌표계가 없는 경우 사용</translation>
     </message>
     <message>
         <source>Enable &apos;on the fly&apos; reprojection by defaul</source>
@@ -41524,7 +41568,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2438"/>
         <source>Identify</source>
-        <translation>피처 정보보기</translation>
+        <translation>객체 정보보기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="97"/>
@@ -41957,7 +42001,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2471"/>
         <source>Search radius for identifying features and displaying map tips</source>
-        <translation>피처 정보보기와 지도 팁 보기에 대한 검색 반경</translation>
+        <translation>객체 정보보기와 지도 팁 보기에 대한 검색 반경</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2494"/>
@@ -41967,7 +42011,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2451"/>
         <source>Open feature form, if a single feature is identified</source>
-        <translation>단일 피처가 확인되면 피처 양식을 띠움</translation>
+        <translation>단일 객체가 확인되면 객체 양식을 띠움</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2694"/>
@@ -41992,7 +42036,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3199"/>
         <source>Show markers only for selected features</source>
-        <translation>선택된 피처에만 마커를 표시합니다.</translation>
+        <translation>선택된 객체에만 마커를 표시합니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3136"/>
@@ -42015,7 +42059,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>When a new layer is created, or when a layer is loaded that has no coordinate reference system (CRS)</source>
-        <translation type="obsolete">새 레이어가 만들어진 경우 또는 레이어가 로드되었을 때 좌표계(CRS)가 없는 경우</translation>
+        <translation type="obsolete">새 레이어가 만들어진 경우 또는 레이어가 로드되었을 때 좌표계가 없는 경우</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3667"/>
@@ -42070,19 +42114,19 @@ Always network: always load from network and do not check if the cache has a val
         <location filename="../src/ui/qgsoptionsbase.ui" line="181"/>
         <location filename="../src/ui/qgsoptionsbase.ui" line="184"/>
         <source>CRS</source>
-        <translation>CRS</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <source>Prompt for CRS</source>
-        <translation type="obsolete">CRS를 확인합니다.</translation>
+        <translation type="obsolete">좌표계를 확인합니다.</translation>
     </message>
     <message>
         <source>Project wide default CRS will be used</source>
-        <translation type="obsolete">프로젝트의 기본 CRS를 사용</translation>
+        <translation type="obsolete">프로젝트의 기본 좌표계를 사용</translation>
     </message>
     <message>
         <source>Global default CRS displa&amp;yed below will be used</source>
-        <translation type="obsolete">아래의 글로벌 기본 CRS를 사용(&amp;y)</translation>
+        <translation type="obsolete">아래의 글로벌 기본 좌표계를 사용(&amp;y)</translation>
     </message>
     <message>
         <source>Enter attribute values</source>
@@ -42101,22 +42145,22 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2871"/>
         <source>Suppress attributes pop-up windows after each created feature</source>
-        <translation>각각의 피처가 만들어진 후 속성 팝업이 표시되는 것을 방지합니다.</translation>
+        <translation>각각의 객체가 만들어진 후 속성 팝업이 표시되는 것을 방지합니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3513"/>
         <source>Prompt for &amp;CRS</source>
-        <translation>CRS 확인(&amp;C)</translation>
+        <translation>좌표계 확인(&amp;C)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3506"/>
         <source>Use &amp;project CRS</source>
-        <translation>프로젝트의 CRS를 사용(&amp;p)</translation>
+        <translation>프로젝트의 좌표계를 사용(&amp;p)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3520"/>
         <source>Use default CRS displa&amp;yed below</source>
-        <translation>아래의 기본 CRS를 사용(&amp;y)</translation>
+        <translation>아래의 기본 좌표계를 사용(&amp;y)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3938"/>
@@ -42272,7 +42316,7 @@ error:%2
     <message>
         <location filename="../src/providers/oracle/qgsoracleconn.cpp" line="516"/>
         <source>Line</source>
-        <translation type="unfinished">라인</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracleconn.cpp" line="520"/>
@@ -42779,7 +42823,7 @@ SQL: %3</source>
 The error message from the database was:
 %1.
 SQL: %2</source>
-        <translation type="unfinished">쿼리를 수행할 수 없습니다.
+        <translation type="unfinished">질의를 수행할 수 없습니다.
 데이터베이스 오류 메시지는 다음과 같음:
 %1.
 SQL: %2</translation>
@@ -43138,11 +43182,11 @@ Error: %2</source>
     </message>
     <message>
         <source>&amp;Build query</source>
-        <translation type="obsolete">쿼리 작성(&amp;B)</translation>
+        <translation type="obsolete">질의 작성(&amp;B)</translation>
     </message>
     <message>
         <source>Build query</source>
-        <translation type="obsolete">쿼리 작성</translation>
+        <translation type="obsolete">질의 작성</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="188"/>
@@ -43581,7 +43625,7 @@ Error: %2</source>
     <name>QgsPgGeoprocessing</name>
     <message>
         <source>Buffer features in layer %1</source>
-        <translation type="obsolete">레이어 %1의 피처 버퍼 만들기</translation>
+        <translation type="obsolete">레이어 %1의 객체 버퍼 만들기</translation>
     </message>
     <message>
         <source>Error connecting to the database</source>
@@ -43589,7 +43633,7 @@ Error: %2</source>
     </message>
     <message>
         <source>&amp;Buffer features</source>
-        <translation type="obsolete">피처 버퍼 만들기(&amp;B)</translation>
+        <translation type="obsolete">객체 버퍼 만들기(&amp;B)</translation>
     </message>
     <message>
         <source>&amp;Geoprocessing</source>
@@ -43625,7 +43669,7 @@ Error: %2</source>
     </message>
     <message>
         <source>Create a buffer for a PostgreSQL layer. A new layer is created in the database with the buffered features.</source>
-        <translation type="obsolete">PostgreSQL 레이어의 버퍼를 만듭니다. 버퍼된 피처로 새 레이어가 데이터베이스에 만들어집니다.</translation>
+        <translation type="obsolete">PostgreSQL 레이어의 버퍼를 만듭니다. 버퍼된 객체로 새 레이어가 데이터베이스에 만들어집니다.</translation>
     </message>
     <message>
         <source>Unable to add geometry column to the output table %1-%2</source>
@@ -43894,11 +43938,11 @@ Extended error information:
     </message>
     <message>
         <source>&amp;Build query</source>
-        <translation type="obsolete">쿼리 작성(&amp;B)</translation>
+        <translation type="obsolete">질의 작성(&amp;B)</translation>
     </message>
     <message>
         <source>Build query</source>
-        <translation type="obsolete">쿼리 작성</translation>
+        <translation type="obsolete">질의 작성</translation>
     </message>
     <message>
         <source>&amp;Save</source>
@@ -44139,7 +44183,7 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>Build query</source>
-        <translation type="obsolete">쿼리 작성</translation>
+        <translation type="obsolete">질의 작성</translation>
     </message>
 </context>
 <context>
@@ -45734,8 +45778,8 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/gui/symbology-ng/qgspointdisplacementrendererwidget.cpp" line="337"/>
         <source>The point displacement renderer only applies to (single) point layers. 
 &apos;%1&apos; is not a point layer and cannot be displayed by the point displacement renderer</source>
-        <translation>포인트 이동 렌더러는 (단일) 포인트 레이어에만 적용할 수 있습니다.
-&apos;%1&apos;는 포인트 레이어가 아니기 때문에 포인트 이동 렌더러로 표시할 수 없습니다.</translation>
+        <translation>점 이동 렌더러는 (단일) 점 레이어에만 적용할 수 있습니다.
+&apos;%1&apos;는 점 레이어가 아니기 때문에 점 이동 렌더러로 표시할 수 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -45892,7 +45936,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="241"/>
         <source>Your PostGIS installation has no GEOS support. Feature selection and identification will not work properly. Please install PostGIS with GEOS support (http://geos.refractions.net)</source>
-        <translation>설치된 PostGIS가 GEOS를 지원하지 않습니다. 피처 선택과 정보조회가 잘 동작하지 않을 것입니다. GEOS를 지원하는 PostGIS를 설치해 주십시오 (http://geos.refractions.net)</translation>
+        <translation>설치된 PostGIS가 GEOS를 지원하지 않습니다. 객체 선택과 정보조회가 잘 동작하지 않을 것입니다. GEOS를 지원하는 PostGIS를 설치해 주십시오 (http://geos.refractions.net)</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="293"/>
@@ -46018,7 +46062,7 @@ SQL: %2
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1332"/>
         <source>Line</source>
-        <translation type="unfinished">라인</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1340"/>
@@ -46141,11 +46185,11 @@ SQL: %2
     </message>
     <message>
         <source>Unable to get feature type and srid</source>
-        <translation type="obsolete">피처의 타입과 srid를 가져올 수 없습니다.</translation>
+        <translation type="obsolete">객체의 타입과 srid를 가져올 수 없습니다.</translation>
     </message>
     <message>
         <source>Error while adding features</source>
-        <translation type="obsolete">피처 추가 중 오류 발생</translation>
+        <translation type="obsolete">객체 추가 중 오류 발생</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="837"/>
@@ -46385,7 +46429,7 @@ SQL: %3</translation>
 Feature selection and identification will not work properly.
 Please install PostGIS with GEOS support (http://geos.refractions.net)</source>
         <translation type="obsolete">당신의 PostGIS에는 GEOS 지원이 설치되지 않았습니다.
-피처 선택 및 정보 표시가 제대로 작동하지 않습니다.
+객체 선택 및 정보 표시가 제대로 작동하지 않습니다.
 PostGIS를 GEOS 지원과 함께 설치하십시오 (http://geos.refractions.net)</translation>
     </message>
     <message>
@@ -46414,7 +46458,7 @@ Write accesses will be denied.</source>
     </message>
     <message>
         <source>Unable execute the query</source>
-        <translation type="obsolete">쿼리를 수행할 수 없습니다.</translation>
+        <translation type="obsolete">질의를 수행할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="976"/>
@@ -46422,7 +46466,7 @@ Write accesses will be denied.</source>
 The error message from the database was:
 %1.
 SQL: %2</source>
-        <translation>쿼리를 수행할 수 없습니다.
+        <translation>질의를 수행할 수 없습니다.
 데이터베이스 오류 메시지는 다음과 같음:
 %1.
 SQL: %2</translation>
@@ -46462,7 +46506,7 @@ Quantum GIS에서 뷰는 고유 키로 사용할 수 있는 컬럼이 필요합�
     </message>
     <message>
         <source>Error while deleting features</source>
-        <translation type="obsolete">피처 삭제중 오류 발생</translation>
+        <translation type="obsolete">객체 삭제중 오류 발생</translation>
     </message>
     <message>
         <source>Error while adding attributes</source>
@@ -46732,7 +46776,7 @@ Try to find missing layers?</source>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="953"/>
         <source>CRS %1 was already selected</source>
-        <translation>CRS %1은 이미 선택되어 있습니다.</translation>
+        <translation>좌표계 %1은 이미 선택되어 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="973"/>
@@ -46868,7 +46912,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Layer units (only used when CRS transformation is disabled)</source>
-        <translation type="obsolete">레이어 단위 (CRS 변환이 불가능한 경우에만 사용 가능)</translation>
+        <translation type="obsolete">레이어 단위 (좌표계 변환이 불가능한 경우에만 사용 가능)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="544"/>
@@ -47009,7 +47053,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1461"/>
         <source>Add WKT geometry to feature info response</source>
-        <translation>피처 정보 응답에 WKT 지오메트리를 추가</translation>
+        <translation>객체 정보 응답에 WKT 지오메트리를 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="647"/>
@@ -47036,7 +47080,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="958"/>
         <source>Line</source>
-        <translation type="unfinished">라인</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1100"/>
@@ -47227,7 +47271,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="97"/>
         <source>CRS</source>
-        <translation type="unfinished">CRS</translation>
+        <translation type="unfinished">좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="100"/>
@@ -47365,12 +47409,12 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="762"/>
         <source>Coordinate Reference System (CRS)</source>
-        <translation>좌표계(CRS)</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="793"/>
         <source>Enable &apos;on the fly&apos; CRS transformation</source>
-        <translation>&apos;즉시&apos; CRS 변환 활성화</translation>
+        <translation>&apos;즉시&apos; 좌표계 변환 활성화</translation>
     </message>
 </context>
 <context>
@@ -47506,24 +47550,24 @@ Because of this the projection selector will not work...</source>
     </message>
     <message>
         <source>Invalid Query</source>
-        <translation type="obsolete">잘못된 쿼리</translation>
+        <translation type="obsolete">잘못된 질의</translation>
     </message>
     <message>
         <source>Setting the query failed</source>
-        <translation type="obsolete">쿼리 설정에 실패했습니다.</translation>
+        <translation type="obsolete">질의 설정에 실패했습니다.</translation>
     </message>
     <message>
         <source>No Query</source>
-        <translation type="obsolete">쿼리가 없습니다.</translation>
+        <translation type="obsolete">질의가 없습니다.</translation>
     </message>
     <message>
         <source>You must create a query before you can test it</source>
-        <translation type="obsolete">테스트 전에 쿼리를 만들어야합니다.</translation>
+        <translation type="obsolete">테스트 전에 질의를 만들어야합니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="191"/>
         <source>Query Result</source>
-        <translation>쿼리 결과</translation>
+        <translation>질의 결과</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/qgsquerybuilder.cpp" line="192"/>
@@ -47538,7 +47582,7 @@ Because of this the projection selector will not work...</source>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="205"/>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="218"/>
         <source>Query Failed</source>
-        <translation>쿼리 실패</translation>
+        <translation>질의 실패</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="198"/>
@@ -47559,12 +47603,12 @@ The data provider said:
     </message>
     <message>
         <source>An error occurred when executing the query</source>
-        <translation type="obsolete">쿼리 실행 중 오류 발생했습니다.</translation>
+        <translation type="obsolete">질의 실행 중 오류 발생했습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="225"/>
         <source>Error in Query</source>
-        <translation>쿼리에 오류 있음</translation>
+        <translation>질의에 오류 있음</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="225"/>
@@ -47577,7 +47621,7 @@ The data provider said:
     <message>
         <location filename="../src/ui/qgsquerybuilderbase.ui" line="22"/>
         <source>Query Builder</source>
-        <translation>쿼리 빌더</translation>
+        <translation>질의 생성기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsquerybuilderbase.ui" line="36"/>
@@ -48025,7 +48069,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Feature info</source>
-        <translation type="obsolete">피처 정보</translation>
+        <translation type="obsolete">객체 정보</translation>
     </message>
     <message>
         <source>Average</source>
@@ -48056,7 +48100,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/core/raster/qgsrasterdataprovider.cpp" line="476"/>
         <source>Feature</source>
-        <translation type="unfinished">피처</translation>
+        <translation type="unfinished">객체</translation>
     </message>
 </context>
 <context>
@@ -48705,7 +48749,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Specify CRS for layer %1</source>
-        <translation type="obsolete">레이어 %1의 CRS 지정</translation>
+        <translation type="obsolete">레이어 %1의 좌표계 지정</translation>
     </message>
     <message>
         <source>Average Magphase</source>
@@ -50231,7 +50275,7 @@ datasets with maximum width and height specified below.</source>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="153"/>
         <source>CRS</source>
-        <translation type="unfinished">CRS</translation>
+        <translation type="unfinished">좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="182"/>
@@ -50961,7 +51005,7 @@ standard deviation ×</source>
         <source>Filter returned %n feature(s)</source>
         <comment>number of filtered features</comment>
         <translation>
-            <numerusform>필터가 %n 개의 피처를 반환</numerusform>
+            <numerusform>필터가 %n 개의 객체를 반환</numerusform>
         </translation>
     </message>
 </context>
@@ -51870,12 +51914,12 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="256"/>
         <source>The query you specified results in zero records being returned.</source>
-        <translation>지정된 쿼리를 실행한 결과 0 개의 레코드가 반환되었습니다.</translation>
+        <translation>지정된 질의를 실행한 결과 0 개의 레코드가 반환되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="40"/>
         <source>Search query builder</source>
-        <translation>검색 쿼리 생성기</translation>
+        <translation>검색 질의 생성기</translation>
     </message>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="42"/>
@@ -51895,7 +51939,7 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="52"/>
         <source>Save query to an xml file</source>
-        <translation>쿼리를 xml 파일로 저장하기</translation>
+        <translation>질의를 xml 파일로 저장하기</translation>
     </message>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="55"/>
@@ -51905,14 +51949,14 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="57"/>
         <source>Load query from xml file</source>
-        <translation>쿼리를 xml 파일에서 로드</translation>
+        <translation>질의를 xml 파일에서 로드</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="182"/>
         <source>Found %n matching feature(s).</source>
         <comment>test result</comment>
         <translation>
-            <numerusform>%n개의 피처가 일치했습니다.</numerusform>
+            <numerusform>%n개의 객체가 일치했습니다.</numerusform>
         </translation>
     </message>
     <message>
@@ -51928,7 +51972,7 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="365"/>
         <source>Save query to file</source>
-        <translation>쿼리를 파일로 저장</translation>
+        <translation>질의를 파일로 저장</translation>
     </message>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="379"/>
@@ -51946,12 +51990,12 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="401"/>
         <source>Load query from file</source>
-        <translation>파일에서 쿼리를 로드</translation>
+        <translation>파일에서 질의를 로드</translation>
     </message>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="401"/>
         <source>Query files</source>
-        <translation>쿼리 파일</translation>
+        <translation>질의 파일</translation>
     </message>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="401"/>
@@ -51971,7 +52015,7 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/qgssearchquerybuilder.cpp" line="423"/>
         <source>File is not a valid query document</source>
-        <translation>파일이 올바른 쿼리 문서가 아닙니다.</translation>
+        <translation>파일이 올바른 질의 문서가 아닙니다.</translation>
     </message>
     <message>
         <source>Error creating search tree</source>
@@ -52026,12 +52070,12 @@ standard deviation ×</source>
     <message>
         <location filename="../src/app/nodetool/qgsselectedfeature.cpp" line="493"/>
         <source>point %1</source>
-        <translation>포인트 %1</translation>
+        <translation>점 %1</translation>
     </message>
     <message>
         <location filename="../src/app/nodetool/qgsselectedfeature.cpp" line="499"/>
         <source>single point</source>
-        <translation>단일 포인트</translation>
+        <translation>단일 점</translation>
     </message>
 </context>
 <context>
@@ -52584,7 +52628,7 @@ enhancement</source>
     </message>
     <message>
         <source>Point Symbol</source>
-        <translation type="obsolete">포인트 기호</translation>
+        <translation type="obsolete">점 기호</translation>
     </message>
     <message>
         <source>Label</source>
@@ -52785,12 +52829,12 @@ enhancement</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="324"/>
         <source>POINT</source>
-        <translation type="unfinished">포인트</translation>
+        <translation type="unfinished">점</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="327"/>
         <source>LINESTRING</source>
-        <translation type="unfinished">라인스트링</translation>
+        <translation type="unfinished">선</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="330"/>
@@ -52800,22 +52844,22 @@ enhancement</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="333"/>
         <source>MULTIPOINT</source>
-        <translation type="unfinished">멀티포인트</translation>
+        <translation type="unfinished">다중 점</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="336"/>
         <source>MULTILINESTRING</source>
-        <translation type="unfinished">멀티라인스트링</translation>
+        <translation type="unfinished">다중 선</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="339"/>
         <source>MULTIPOLYGON</source>
-        <translation type="unfinished">멀티폴리곤</translation>
+        <translation type="unfinished">다중 폴리곤</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="342"/>
         <source>GEOMETRYCOLLECTION</source>
-        <translation type="unfinished">지오메트리컬렉션</translation>
+        <translation type="unfinished">지오메트리 집합</translation>
     </message>
 </context>
 <context>
@@ -52924,7 +52968,7 @@ SQL: %1</translation>
     </message>
     <message>
         <source>SQLite error getting feature: %1</source>
-        <translation type="obsolete">SQLite 피처 가져오기 오류: %1</translation>
+        <translation type="obsolete">SQLite 객체 가져오기 오류: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteprovider.cpp" line="4976"/>
@@ -52956,7 +53000,7 @@ SQL: %1</translation>
     </message>
     <message>
         <source>&amp;Build Query</source>
-        <translation type="obsolete">쿼리 만들기(&amp;B)</translation>
+        <translation type="obsolete">질의 만들기(&amp;B)</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="64"/>
@@ -53195,22 +53239,22 @@ but implies better performance thereafter.</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="193"/>
         <source>Point</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="197"/>
         <source>Multipoint</source>
-        <translation>멀티포인트</translation>
+        <translation>다중 점</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="201"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="205"/>
         <source>Multiline</source>
-        <translation>멀티라인</translation>
+        <translation>다중 선</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="209"/>
@@ -53220,14 +53264,14 @@ but implies better performance thereafter.</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitetablemodel.cpp" line="213"/>
         <source>Multipolygon</source>
-        <translation>멀티폴리곤</translation>
+        <translation>다중 폴리곤</translation>
     </message>
 </context>
 <context>
     <name>QgsSpatialQueryDialog</name>
     <message>
         <source>The spatial query requires at least two layers</source>
-        <translation type="obsolete">공간 쿼리에는 적어도 두 개 이상의 레이어가 필요합니다.</translation>
+        <translation type="obsolete">공간 질의에는 적어도 두 개 이상의 레이어가 필요합니다.</translation>
     </message>
     <message>
         <source>Insufficient number of layers</source>
@@ -53256,7 +53300,7 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>Query:</source>
-        <translation type="obsolete">쿼리:</translation>
+        <translation type="obsolete">질의:</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="211"/>
@@ -53265,7 +53309,7 @@ but implies better performance thereafter.</source>
     </message>
     <message>
         <source>Result: %1 features</source>
-        <translation type="obsolete">결과: %1 피처</translation>
+        <translation type="obsolete">결과: %1 객체</translation>
     </message>
     <message>
         <source>-- Finish at [%L1] (processing time %L2 minutes) --&gt;&gt;</source>
@@ -53289,12 +53333,12 @@ but implies better performance thereafter.</source>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="89"/>
         <source>The spatial query requires at least two vector layers</source>
-        <translation>공간 쿼리에는 적어도 두 개 이상의 레이어가 필요합니다.</translation>
+        <translation>공간 질의에는 적어도 두 개 이상의 레이어가 필요합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="204"/>
         <source>%1)Query</source>
-        <translation>%1)쿼리</translation>
+        <translation>%1)질의</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="206"/>
@@ -53304,12 +53348,12 @@ but implies better performance thereafter.</source>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="215"/>
         <source>Total of features =  %1</source>
-        <translation>총 피처 수 = %1</translation>
+        <translation>총 객체 수 = %1</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="218"/>
         <source>Total of invalid features:</source>
-        <translation>잘못된 피처 수:</translation>
+        <translation>잘못된 객체 수:</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="223"/>
@@ -53329,7 +53373,7 @@ but implies better performance thereafter.</source>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="347"/>
         <source>%1 of %2(selected features)</source>
-        <translation>%2 중 %1(선택되어 있는 피처)</translation>
+        <translation>%2 중 %1(선택되어 있는 객체)</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="503"/>
@@ -53390,8 +53434,8 @@ but implies better performance thereafter.</source>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="694"/>
         <source>Coordinate reference system(CRS) of
 &quot;%1&quot; is invalid(see CRS of provider).</source>
-        <translation>&quot;%1&quot;의 좌표계(CRS) 잘못됨
-(프로바이더의 CRS를 참조하십시오).</translation>
+        <translation>&quot;%1&quot;의 좌표계 잘못됨
+(프로바이더의 좌표계를 참조하십시오).</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="695"/>
@@ -53401,13 +53445,13 @@ CRS of map is %1.
 %2.</source>
         <translation>
 	  
-지도의 CRS는 %1입니다. 
+지도의 좌표계는 %1입니다. 
 %2.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="698"/>
         <source>Zoom to feature</source>
-        <translation>피처에 줌</translation>
+        <translation>객체에 줌</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="737"/>
@@ -53438,7 +53482,7 @@ CRS of map is %1.
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="831"/>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="857"/>
         <source>The query from &quot;%1&quot; using &quot;%2&quot; in field not possible.</source>
-        <translation>&quot;%1&quot;의 쿼리에서 사용하는 필드의 &quot;%2&quot;를 사용할 수 없습니다.</translation>
+        <translation>&quot;%1&quot;의 질의에서 사용하는 필드의 &quot;%2&quot;를 사용할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialog.cpp" line="839"/>
@@ -53466,7 +53510,7 @@ CRS of map is %1.
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="45"/>
         <source>Layer on which the topological operation will select geometries</source>
-        <translation>토폴로지 작업을 수행하는 레이어에서 피처가 선택됩니다.</translation>
+        <translation>토폴로지 작업을 수행하는 레이어에서 객체가 선택됩니다.</translation>
     </message>
     <message>
         <source>Target layer</source>
@@ -53499,12 +53543,12 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="74"/>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="144"/>
         <source>Selected feature(s) only</source>
-        <translation>선택된 피처에만</translation>
+        <translation>선택된 객체에만</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="86"/>
         <source>Where the feature</source>
-        <translation>피처의 위치</translation>
+        <translation>객체의 위치</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="106"/>
@@ -53514,7 +53558,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="109"/>
         <source>Reference features of </source>
-        <translation>참조 피처 </translation>
+        <translation>참조 객체 </translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="154"/>
@@ -53524,13 +53568,13 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="183"/>
         <source>Selected features</source>
-        <translation>선택된 피처</translation>
+        <translation>선택된 객체</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="189"/>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="285"/>
         <source>Number of selected features in map</source>
-        <translation>지도에서 선택된 피처 수</translation>
+        <translation>지도에서 선택된 객체 수</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="214"/>
@@ -53544,7 +53588,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="273"/>
         <source>Select one FID to identify geometry of feature</source>
-        <translation>피처의 지오메트리을 확인하기 위해 1 개의 FID를 선택하십시오.</translation>
+        <translation>객체의 지오메트리을 확인하기 위해 1 개의 FID를 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="310"/>
@@ -53586,12 +53630,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="242"/>
         <source>Result feature ID&apos;s</source>
-        <translation>결과 피처 ID</translation>
+        <translation>결과 객체 ID</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="404"/>
         <source>Run query or close the window</source>
-        <translation>쿼리를 실행하거나 창을 닫으십시오.</translation>
+        <translation>질의를 실행하거나 창을 닫으십시오.</translation>
     </message>
     <message>
         <source>Topological operations between layers of target and reference</source>
@@ -53612,12 +53656,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Select item to identify geometry of feature</source>
-        <translation type="obsolete">피처의 형상 정보를 표시할 항목을 선택하십시오.</translation>
+        <translation type="obsolete">객체의 형상 정보를 표시할 항목을 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="350"/>
         <source>Check to show log processing of query</source>
-        <translation>쿼리 실행 중의 로그를 확인하십시오.</translation>
+        <translation>질의 실행 중의 로그를 확인하십시오.</translation>
     </message>
     <message>
         <source>Show log messages</source>
@@ -53625,7 +53669,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Total of features from query</source>
-        <translation type="obsolete">쿼리결과 총 피처</translation>
+        <translation type="obsolete">질의결과 총 객체</translation>
     </message>
     <message>
         <source> Total</source>
@@ -53644,7 +53688,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialqueryplugin.cpp" line="114"/>
         <source>Query not executed</source>
-        <translation>쿼리를 실행할 수 없습니다.</translation>
+        <translation>질의를 실행할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialqueryplugin.cpp" line="161"/>
@@ -53885,7 +53929,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="536"/>
         <source>Problem inserting features from file:</source>
-        <translation>파일에서 피처를 삽입시 문제:</translation>
+        <translation>파일에서 객체를 삽입시 문제:</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="677"/>
@@ -53900,12 +53944,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="49"/>
         <source>Feature Class</source>
-        <translation>피처 클래스</translation>
+        <translation>객체 클래스</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="49"/>
         <source>Features</source>
-        <translation>피처</translation>
+        <translation>객체</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="50"/>
@@ -54386,12 +54430,12 @@ QGIS requires that the relation has an integer column no larger than 32 bits con
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="870"/>
         <source>Error inserting features</source>
-        <translation>피처 삽입 오류</translation>
+        <translation>객체 삽입 오류</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="933"/>
         <source>Error deleting features</source>
-        <translation>피처 삭제 오류</translation>
+        <translation>객체 삭제 오류</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="1029"/>
@@ -54416,7 +54460,7 @@ QGIS requires that the relation has an integer column no larger than 32 bits con
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="1293"/>
         <source>Error updating features</source>
-        <translation>피처 업데이트 오류</translation>
+        <translation>객체 업데이트 오류</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="1446"/>
@@ -54690,7 +54734,7 @@ Overwrite?</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="178"/>
         <source>Line symbol (%1)</source>
-        <translation>라인 심볼 (%1)</translation>
+        <translation>선 심볼 (%1)</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="179"/>
@@ -54955,7 +54999,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/ui/qgsstylev2managerdialogbase.ui" line="201"/>
         <source>Line</source>
-        <translation>라인</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsstylev2managerdialogbase.ui" line="216"/>
@@ -55697,7 +55741,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="160"/>
         <source>When applying layered styles to a polyline layer, you can join intersecting lines together simply by enabling symbol levels. The image below shows a before (left) and after (right) view of an intersection when symbol levels are enabled.</source>
-        <translation>폴리라인 레이어에 스타일을 적용할 때, 교차하는 라인을 심플하게 심볼 수준에서 결합할 수 있습니다. 다음 이미지로 전(왼쪽)과 후(오른쪽)의 심볼 수준의 결합 상태를 알 수 있습니다.</translation>
+        <translation>폴리라인 레이어에 스타일을 적용할 때, 교차하는 선을 심플하게 심볼 수준에서 결합할 수 있습니다. 다음 이미지로 전(왼쪽)과 후(오른쪽)의 심볼 수준의 결합 상태를 알 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="168"/>
@@ -56108,12 +56152,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/core/qgsvectordataprovider.cpp" line="150"/>
         <source>Add Features</source>
-        <translation>피처 추가</translation>
+        <translation>객체 추가</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectordataprovider.cpp" line="156"/>
         <source>Delete Features</source>
-        <translation>피처 삭제</translation>
+        <translation>객체 삭제</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectordataprovider.cpp" line="162"/>
@@ -56138,7 +56182,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/core/qgsvectordataprovider.cpp" line="187"/>
         <source>Fast Access to Features at ID</source>
-        <translation>ID를 이용한 빠른 피처 액세스</translation>
+        <translation>ID를 이용한 빠른 객체 액세스</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectordataprovider.cpp" line="193"/>
@@ -56378,21 +56422,21 @@ Should the existing classes be deleted before classification?</source>
         <source>SUCCESS: %n feature(s) added.</source>
         <comment>added features count</comment>
         <translation type="obsolete">
-            <numerusform>성공: %n개의 피처를 추가했습니다.</numerusform>
+            <numerusform>성공: %n개의 객체를 추가했습니다.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>ERROR: %n feature(s) not added.</source>
         <comment>not added features count</comment>
         <translation type="obsolete">
-            <numerusform>오류: %n개의 피처가 추가되지 않았습니다.</numerusform>
+            <numerusform>오류: %n개의 객체가 추가되지 않았습니다.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>ERROR: %n feature(s) not added - provider doesn&apos;t support adding features.</source>
         <comment>not added features count</comment>
         <translation type="obsolete">
-            <numerusform>오류: %n개의 피처가 추가되지 않음 - 프로바이더가 피처 추가를 지원 않음.</numerusform>
+            <numerusform>오류: %n개의 객체가 추가되지 않음 - 프로바이더가 객체 추가를 지원 않음.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -56413,14 +56457,14 @@ Should the existing classes be deleted before classification?</source>
         <source>SUCCESS: %n feature(s) deleted.</source>
         <comment>deleted features count</comment>
         <translation type="obsolete">
-            <numerusform>성공: %n개의 피처가 삭제되었니다.</numerusform>
+            <numerusform>성공: %n개의 객체가 삭제되었니다.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>ERROR: %n feature(s) not deleted.</source>
         <comment>not deleted features count</comment>
         <translation type="obsolete">
-            <numerusform>오류: %n개의 피처가 삭제되지 않았습니다.</numerusform>
+            <numerusform>오류: %n개의 객체가 삭제되지 않았습니다.</numerusform>
         </translation>
     </message>
     <message>
@@ -56432,7 +56476,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/core/qgsvectorlayer.cpp" line="1073"/>
         <source>Updating feature count for layer %1</source>
-        <translation type="unfinished">레이어 %1의 피처 수를 갱신 중</translation>
+        <translation type="unfinished">레이어 %1의 객체 수를 갱신 중</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorlayer.cpp" line="1073"/>
@@ -56464,11 +56508,11 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Geometry type of the features in this layer: %1</source>
-        <translation type="obsolete">이 레이어 피처의 지오메트리 유형: %1</translation>
+        <translation type="obsolete">이 레이어 객체의 지오메트리 유형: %1</translation>
     </message>
     <message>
         <source>The number of features in this layer: %1</source>
-        <translation type="obsolete">이 레이어의 피처 수: %1</translation>
+        <translation type="obsolete">이 레이어의 객체 수: %1</translation>
     </message>
     <message>
         <source>Editing capabilities of this layer: %1</source>
@@ -56617,7 +56661,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Specify CRS for layer %1</source>
-        <translation type="obsolete">레이어 %1의 CRS 지정</translation>
+        <translation type="obsolete">레이어 %1의 좌표계 지정</translation>
     </message>
     <message>
         <source>Unknown renderer</source>
@@ -56689,7 +56733,7 @@ Should the existing classes be deleted before classification?</source>
         <source>SUCCESS: %n feature(s) deleted.</source>
         <comment>deleted features count</comment>
         <translation type="unfinished">
-            <numerusform>성공: %n개의 피처가 삭제되었니다.</numerusform>
+            <numerusform>성공: %n개의 객체가 삭제되었니다.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -56697,7 +56741,7 @@ Should the existing classes be deleted before classification?</source>
         <source>ERROR: %n feature(s) not deleted.</source>
         <comment>not deleted features count</comment>
         <translation type="unfinished">
-            <numerusform>오류: %n개의 피처가 삭제되지 않았습니다.</numerusform>
+            <numerusform>오류: %n개의 객체가 삭제되지 않았습니다.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -56705,7 +56749,7 @@ Should the existing classes be deleted before classification?</source>
         <source>SUCCESS: %n feature(s) added.</source>
         <comment>added features count</comment>
         <translation type="unfinished">
-            <numerusform>성공: %n개의 피처를 추가했습니다.</numerusform>
+            <numerusform>성공: %n개의 객체를 추가했습니다.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -56713,7 +56757,7 @@ Should the existing classes be deleted before classification?</source>
         <source>ERROR: %n feature(s) not added.</source>
         <comment>not added features count</comment>
         <translation type="unfinished">
-            <numerusform>오류: %n개의 피처가 추가되지 않았습니다.</numerusform>
+            <numerusform>오류: %n개의 객체가 추가되지 않았습니다.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -56721,7 +56765,7 @@ Should the existing classes be deleted before classification?</source>
         <source>ERROR: %n feature(s) not added - provider doesn&apos;t support adding features.</source>
         <comment>not added features count</comment>
         <translation type="unfinished">
-            <numerusform>오류: %n개의 피처가 추가되지 않음 - 프로바이더가 피처 추가를 지원 않음.</numerusform>
+            <numerusform>오류: %n개의 객체가 추가되지 않음 - 프로바이더가 객체 추가를 지원 않음.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -56904,12 +56948,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="352"/>
         <source>This button opens the query builder and allows you to create a subset of features to display on the map canvas rather than displaying all features in the layer</source>
-        <translation>이 버튼은 쿼리 빌더를 열어 맵 캔버스 상에 레이어의 모든 피처를 디스플레이 하는 대신 디스플레이 할 피처의 서브셋을 만들 수 있게 함</translation>
+        <translation>이 버튼은 질의 빌더를 열어 맵 캔버스 상에 레이어의 모든 객체를 디스플레이 하는 대신 디스플레이 할 객체의 서브셋을 만들 수 있게 함</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="355"/>
         <source>The query used to limit the features in the layer is shown here. To enter or modify the query, click on the Query Builder button</source>
-        <translation>쿼리는 여기에 표시되는 레이어의 피처에 대해서만 사용할 수 있습니다. 쿼리를 변경하기 위해서는 쿼리 작성기 단추를 클릭</translation>
+        <translation>질의는 여기에 표시되는 레이어의 객체에 대해서만 사용할 수 있습니다. 질의를 변경하기 위해서는 질의 생성기 단추를 클릭</translation>
     </message>
     <message>
         <source>Line edit</source>
@@ -57147,7 +57191,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Line</source>
-        <translation type="obsolete">라인</translation>
+        <translation type="obsolete">선</translation>
     </message>
     <message>
         <source>Horizontal</source>
@@ -57163,11 +57207,11 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Above line</source>
-        <translation type="obsolete">라인 위</translation>
+        <translation type="obsolete">선 위</translation>
     </message>
     <message>
         <source>Below Line</source>
-        <translation type="obsolete">라인 아래</translation>
+        <translation type="obsolete">선 아래</translation>
     </message>
     <message>
         <source>Map orientation</source>
@@ -57223,11 +57267,11 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Geometry type of the features in this layer: %1</source>
-        <translation type="obsolete">이 레이어 피처의 지오메트리 유형: %1</translation>
+        <translation type="obsolete">이 레이어 객체의 지오메트리 유형: %1</translation>
     </message>
     <message>
         <source>The number of features in this layer: %1</source>
-        <translation type="obsolete">이 레이어의 피처 수: %1</translation>
+        <translation type="obsolete">이 레이어의 객체 수: %1</translation>
     </message>
     <message>
         <source>Editing capabilities of this layer: %1</source>
@@ -57282,11 +57326,11 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Use this control to set which field is placed at the top level of the Identify Results dialog box.</source>
-        <translation type="obsolete">피처 정보 표시 대화상자의 맨 위에 오는 필드를 설정하는 컨트롤입니다.</translation>
+        <translation type="obsolete">객체 정보 표시 대화상자의 맨 위에 오는 필드를 설정하는 컨트롤입니다.</translation>
     </message>
     <message>
         <source>Display field for the Identify Results dialog box</source>
-        <translation type="obsolete">피처 정보 표시 대화상자의 필드를 표시</translation>
+        <translation type="obsolete">객체 정보 표시 대화상자의 필드를 표시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="101"/>
@@ -57304,7 +57348,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>This sets the display field for the Identify Results dialog box</source>
-        <translation type="obsolete">피처 정보 표시 대화상자의 표시 필드를 설정</translation>
+        <translation type="obsolete">객체 정보 표시 대화상자의 표시 필드를 설정</translation>
     </message>
     <message>
         <source>Display field</source>
@@ -57324,7 +57368,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>CRS</source>
-        <translation type="obsolete">CRS</translation>
+        <translation type="obsolete">좌표계</translation>
     </message>
     <message>
         <source>Subset</source>
@@ -57333,7 +57377,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="652"/>
         <source>Query Builder</source>
-        <translation>쿼리 빌더</translation>
+        <translation>질의 생성기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="149"/>
@@ -57567,7 +57611,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Specify CRS</source>
-        <translation type="obsolete">CRS 지정</translation>
+        <translation type="obsolete">좌표계 지정</translation>
     </message>
     <message>
         <source>Legend type</source>
@@ -57718,7 +57762,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Line Options</source>
-        <translation type="obsolete">라인 옵션</translation>
+        <translation type="obsolete">선 옵션</translation>
     </message>
     <message>
         <source>Distance</source>
@@ -57798,22 +57842,22 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Original CRS</source>
-        <translation type="obsolete">기존 CRS</translation>
+        <translation type="obsolete">기존 좌표계</translation>
     </message>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="58"/>
         <source>Layer CRS</source>
-        <translation>레이어 CRS</translation>
+        <translation>레이어 좌표계</translation>
     </message>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="58"/>
         <source>Project CRS</source>
-        <translation>프로젝트 CRS</translation>
+        <translation>프로젝트 좌표계</translation>
     </message>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="58"/>
         <source>Selected CRS</source>
-        <translation>선택된 CRS</translation>
+        <translation>선택된 좌표계</translation>
     </message>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="67"/>
@@ -57839,7 +57883,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="135"/>
         <source>Select the coordinate reference system for the vector file. The data points will be transformed from the layer coordinate reference system.</source>
-        <translation>벡터 파일의 좌표계를 선택하십시오. 데이터 포인트는 레이어의 좌표계에서 변환됩니다.</translation>
+        <translation>벡터 파일의 좌표계를 선택하십시오. 데이터 점은 레이어의 좌표계에서 변환됩니다.</translation>
     </message>
 </context>
 <context>
@@ -57857,7 +57901,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorlayersaveasdialogbase.ui" line="44"/>
         <source>CRS</source>
-        <translation>CRS</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayersaveasdialogbase.ui" line="64"/>
@@ -57999,7 +58043,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/providers/wcs/qgswcssourceselect.cpp" line="188"/>
         <source>No CRS selected</source>
-        <translation type="unfinished">CRS가 선택되어 있지 않습니다.</translation>
+        <translation type="unfinished">좌표계가 선택되어 있지 않습니다.</translation>
     </message>
 </context>
 <context>
@@ -58139,12 +58183,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/providers/wfs/qgswfssourceselect.cpp" line="55"/>
         <source>&amp;Build query</source>
-        <translation type="unfinished">쿼리 작성(&amp;B)</translation>
+        <translation type="unfinished">질의 작성(&amp;B)</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfssourceselect.cpp" line="56"/>
         <source>Build query</source>
-        <translation type="unfinished">쿼리 작성</translation>
+        <translation type="unfinished">질의 작성</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfssourceselect.cpp" line="203"/>
@@ -58274,7 +58318,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <source>Cache
 Features</source>
-        <translation type="obsolete">피처 캐시</translation>
+        <translation type="obsolete">객체 캐시</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -58287,7 +58331,7 @@ Features</source>
     </message>
     <message>
         <source>Only request features overlapping the current view extent</source>
-        <translation type="obsolete">현재 뷰 범위에만 요청한 피처 오버랩</translation>
+        <translation type="obsolete">현재 뷰 범위에만 요청한 객체 오버랩</translation>
     </message>
     <message>
         <location filename="../src/ui/qgswfssourceselectbase.ui" line="14"/>
@@ -58396,7 +58440,7 @@ Features</source>
     </message>
     <message>
         <source>CRS %1 not supported.</source>
-        <translation type="obsolete">CRS %1은 지원하지 않습니다.</translation>
+        <translation type="obsolete">좌표계 %1은 지원되지 않습니다.</translation>
     </message>
     <message>
         <source>WMS Password for %1</source>
@@ -58495,12 +58539,12 @@ This might be an server configuration error. Should the URL be used?</source>
     <message>
         <location filename="../src/providers/wms/qgswmssourceselect.cpp" line="923"/>
         <source>No common CRS for selected layers.</source>
-        <translation>선택된 레이어를 위한 일반 CRS가 없습니다.</translation>
+        <translation>선택된 레이어를 위한 일반 좌표계가 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmssourceselect.cpp" line="928"/>
         <source>No CRS selected</source>
-        <translation>CRS가 선택되어 있지 않습니다.</translation>
+        <translation>좌표계가 선택되어 있지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmssourceselect.cpp" line="933"/>
@@ -58669,7 +58713,7 @@ This might be an server configuration error. Should the URL be used?</source>
     <message>
         <location filename="../src/ui/qgswmssourceselectbase.ui" line="262"/>
         <source>Feature limit for GetFeatureInfo</source>
-        <translation>GetFeatureInfo를 위한 피처 한계</translation>
+        <translation>GetFeatureInfo를 위한 객체 한계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgswmssourceselectbase.ui" line="272"/>
@@ -58739,7 +58783,7 @@ This might be an server configuration error. Should the URL be used?</source>
     <message>
         <location filename="../src/ui/qgswmssourceselectbase.ui" line="387"/>
         <source>CRS</source>
-        <translation>CRS</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgswmssourceselectbase.ui" line="396"/>
@@ -59169,7 +59213,7 @@ Response was:
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1482"/>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1487"/>
         <source>Available in CRS</source>
-        <translation type="unfinished">사용 가능한 CRS</translation>
+        <translation type="unfinished">사용 가능한 좌표계</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1487"/>
@@ -59305,7 +59349,7 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3120"/>
         <source>GetFeatureInfo request is applied to a Layer which is not declared queryable.</source>
-        <translation>쿼리 가능하게 설정되지 않은 레이어에 대한 GetFeatureInfo를 요청합니다.</translation>
+        <translation>질의 가능하게 설정되지 않은 레이어에 대한 GetFeatureInfo를 요청합니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3124"/>
@@ -59523,7 +59567,7 @@ Response was:
     </message>
     <message>
         <source>mismatch layers=%1, styles=%2 and crs=%3.</source>
-        <translation type="obsolete">불일치 레이어=%1, 스타일=%2, crs=%3.</translation>
+        <translation type="obsolete">불일치 레이어=%1, 스타일=%2, 좌표계=%3.</translation>
     </message>
     <message>
         <source>no extent for layer</source>
@@ -59569,7 +59613,7 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3673"/>
         <source>Identify Formats</source>
-        <translation>피처 정보 표시 포맷</translation>
+        <translation>객체 정보 표시 포맷</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3681"/>
@@ -59812,7 +59856,7 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3425"/>
         <source>Can Identify</source>
-        <translation>피처 검색 가능</translation>
+        <translation>객체 검색 가능</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3433"/>
@@ -59848,7 +59892,7 @@ Response was:
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3483"/>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3493"/>
         <source>Available in CRS</source>
-        <translation>사용 가능한 CRS</translation>
+        <translation>사용 가능한 좌표계</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3504"/>
@@ -59915,7 +59959,7 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="4325"/>
         <source>identify request redirected.</source>
-        <translation>피처정보조회 요청이 리다이렉션 되었습니다.</translation>
+        <translation>객체정보조회 요청이 리다이렉션 되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1564"/>
@@ -60183,7 +60227,7 @@ Tried URL: %1</source>
     </message>
     <message>
         <source>Note: If you want more control over the map layout please use the map composer function in QGIS.</source>
-        <translation type="obsolete">참고: 지도 레이아웃에 더 많은 컨트롤을 사용하려면 QGIS의 지도 컴포저 기능을 이용하십시오.</translation>
+        <translation type="obsolete">참고: 지도 레이아웃에 더 많은 컨트롤을 사용하려면 QGIS의 지도 구성 기능을 이용하십시오.</translation>
     </message>
 </context>
 <context>
@@ -60206,7 +60250,7 @@ Tried URL: %1</source>
     <message>
         <location filename="../src/plugins/roadgraph/exportdlg.cpp" line="34"/>
         <source>Export feature</source>
-        <translation>피처 내보내기</translation>
+        <translation>객체 내보내기</translation>
     </message>
     <message>
         <location filename="../src/plugins/roadgraph/exportdlg.cpp" line="38"/>
@@ -60289,7 +60333,7 @@ Tried URL: %1</source>
     <message>
         <location filename="../src/plugins/roadgraph/linevectorlayerwidget.cpp" line="112"/>
         <source>Line lengths</source>
-        <translation>라인 길이</translation>
+        <translation>선 길이</translation>
     </message>
     <message>
         <location filename="../src/plugins/roadgraph/linevectorlayerwidget.cpp" line="117"/>
@@ -60590,7 +60634,7 @@ Tried URL: %1</source>
     <message>
         <location filename="../src/plugins/sqlanywhere/sadbtablemodel.cpp" line="41"/>
         <source>Line Interpretation</source>
-        <translation>라인 판독</translation>
+        <translation>선 판독</translation>
     </message>
     <message>
         <location filename="../src/plugins/sqlanywhere/sadbtablemodel.cpp" line="42"/>
@@ -60803,23 +60847,23 @@ SQL Anywhere 오류 코드: %1
     </message>
     <message>
         <source>Invalid Query</source>
-        <translation type="obsolete">잘못된 쿼리</translation>
+        <translation type="obsolete">잘못된 질의</translation>
     </message>
     <message>
         <source>Setting the query failed</source>
-        <translation type="obsolete">쿼리 설정 실패</translation>
+        <translation type="obsolete">질의 설정 실패</translation>
     </message>
     <message>
         <source>No Query</source>
-        <translation type="obsolete">쿼리가 없음</translation>
+        <translation type="obsolete">질의가 없음</translation>
     </message>
     <message>
         <source>You must create a query before you can test it</source>
-        <translation type="obsolete">테스트 전에 쿼리를 만들어야합니다.</translation>
+        <translation type="obsolete">테스트 전에 질의를 만들어야합니다.</translation>
     </message>
     <message>
         <source>Query Result</source>
-        <translation type="obsolete">쿼리 결과</translation>
+        <translation type="obsolete">질의 결과</translation>
     </message>
     <message numerus="yes">
         <source>The where clause returned %n row(s).</source>
@@ -60830,15 +60874,15 @@ SQL Anywhere 오류 코드: %1
     </message>
     <message>
         <source>Query Failed</source>
-        <translation type="obsolete">쿼리 실패</translation>
+        <translation type="obsolete">질의 실패</translation>
     </message>
     <message>
         <source>An error occurred when executing the query</source>
-        <translation type="obsolete">쿼리 실행 중 오류 발생</translation>
+        <translation type="obsolete">질의 실행 중 오류 발생</translation>
     </message>
     <message>
         <source>Error in Query</source>
-        <translation type="obsolete">쿼리 오류</translation>
+        <translation type="obsolete">질의 오류</translation>
     </message>
     <message>
         <source>The subset string could not be set</source>
@@ -60854,7 +60898,7 @@ SQL Anywhere 오류 코드: %1
     </message>
     <message>
         <source>&amp;Build Query</source>
-        <translation type="obsolete">쿼리 만들기(&amp;B)</translation>
+        <translation type="obsolete">질의 만들기(&amp;B)</translation>
     </message>
     <message>
         <location filename="../src/plugins/sqlanywhere/sasourceselect.cpp" line="65"/>
@@ -60907,7 +60951,7 @@ SQL Anywhere 오류 코드: %1
         <location filename="../src/plugins/sqlanywhere/sasourceselect.cpp" line="80"/>
         <location filename="../src/plugins/sqlanywhere/sasourceselect.cpp" line="223"/>
         <source>Line Interpretation</source>
-        <translation>라인 판독</translation>
+        <translation>선 판독</translation>
     </message>
     <message>
         <location filename="../src/plugins/sqlanywhere/sasourceselect.cpp" line="81"/>
@@ -61017,7 +61061,7 @@ SQL Anywhere 오류 코드: %2
     </message>
     <message>
         <source>Build query</source>
-        <translation type="obsolete">쿼리 작성</translation>
+        <translation type="obsolete">질의 작성</translation>
     </message>
     <message>
         <location filename="../src/plugins/sqlanywhere/sasourceselectbase.ui" line="83"/>
@@ -61125,11 +61169,11 @@ SQL Anywhere 오류 코드: %2
     </message>
     <message>
         <source>point %1</source>
-        <translation type="obsolete">포인트 %1</translation>
+        <translation type="obsolete">점 %1</translation>
     </message>
     <message>
         <source>single point</source>
-        <translation type="obsolete">단일 포인트</translation>
+        <translation type="obsolete">단일 점</translation>
     </message>
     <message>
         <source>Node tool</source>
@@ -61309,7 +61353,7 @@ about SEXTANTE</source>
     <message>
         <location filename="../src/ui/qgssimplifytolerancedialog.ui" line="14"/>
         <source>Simplify line tolerance</source>
-        <translation>라인 간략화 허용치</translation>
+        <translation>선 간략화 허용치</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssimplifytolerancedialog.ui" line="20"/>
@@ -61544,7 +61588,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Feature</source>
-        <translation>피처</translation>
+        <translation>객체</translation>
     </message>
     <message>
         <source>Error(s)</source>
@@ -61895,7 +61939,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_markerline.ui" line="126"/>
         <source>Line offset</source>
-        <translation>라인 오프셋</translation>
+        <translation>선 오프셋</translation>
     </message>
     <message>
         <source>Change</source>
@@ -62531,7 +62575,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>LineStyle</source>
-        <translation type="obsolete">라인 스타일</translation>
+        <translation type="obsolete">선 스타일</translation>
     </message>
     <message>
         <source>change</source>
@@ -64408,7 +64452,7 @@ Click on one of the icons along the top of the composer window to select what ty
     <message>
         <location filename="../src/plugins/dxf2shp_converter/dxf2shpconvertergui.ui" line="95"/>
         <source>Point</source>
-        <translation>포인트</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/plugins/dxf2shp_converter/dxf2shpconvertergui.ui" line="14"/>
@@ -64488,7 +64532,7 @@ For support send a mail to scala@itc.cnr.it
 * 입력 DXF 파일: 변환할 DXF 파일의 경로입니다. 
 * 출력 Shp 파일: 만들 shape 파일의 이름입니다. 
 * 출력 Shp 파일 형식: 출력 shape 파일 유형을 지정하십시오. 
-* 내보내기 텍스트 확인란: 체크되어 있으면 추가적인 shp 포인트 레이어가 생성됩니다. 해당 레이어의 dbf는 dxf 파일에서 찾은 &quot;TEXT&quot; 필드와 문자열로 구성됩니다. 
+* 내보내기 텍스트 확인란: 체크되어 있으면 추가적인 shp 점 레이어가 생성됩니다. 해당 레이어의 dbf는 dxf 파일에서 찾은 &quot;TEXT&quot; 필드와 문자열로 구성됩니다. 
 
 --- 
 개발자 Paolo L. Scala, Barbara Rita Barricelli, Marco Padula CNR, Milan Unit (Information Technology), Construction Technologies Institute. 지원이 필요하시면 다음의 주소로 메일을 보내주세요. scala@itc.cnr.it
@@ -64543,17 +64587,17 @@ For support send a mail to scala@itc.cnr.it
     <message>
         <location filename="../src/plugins/evis/evis.cpp" line="109"/>
         <source>Create layer from a database query</source>
-        <translation>데이터베이스 쿼리에서 레이어를 만들</translation>
+        <translation>데이터베이스 질의에서 레이어를 만들</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/evis.cpp" line="110"/>
         <source>Open an Event Browers and display the selected feature</source>
-        <translation>이벤트 브라우저를 열어 선택한 피처보기</translation>
+        <translation>이벤트 브라우저를 열어 선택한 객체보기</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/evis.cpp" line="111"/>
         <source>Open an Event Browser to explore the current layer&apos;s features</source>
-        <translation>이벤트 브라우저를 열어 현재 레이어의 피처 탐색</translation>
+        <translation>이벤트 브라우저를 열어 현재 레이어의 객체 탐색</translation>
     </message>
 </context>
 <context>
@@ -64567,7 +64611,7 @@ For support send a mail to scala@itc.cnr.it
     <message>
         <location filename="../src/plugins/evis/databaseconnection/evisdatabaseconnectiongui.cpp" line="77"/>
         <source>No predefined queries loaded</source>
-        <translation>미리 정의된 쿼리가 로드되지 않음</translation>
+        <translation>미리 정의된 질의가 로드되지 않음</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/databaseconnection/evisdatabaseconnectiongui.cpp" line="82"/>
@@ -64616,7 +64660,7 @@ For support send a mail to scala@itc.cnr.it
     <message>
         <location filename="../src/plugins/evis/databaseconnection/evisdatabaseconnectiongui.cpp" line="476"/>
         <source>Error: Query failed: %1</source>
-        <translation>오류: 쿼리 실패: %1</translation>
+        <translation>오류: 질의 실패: %1</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/databaseconnection/evisdatabaseconnectiongui.cpp" line="530"/>
@@ -64655,27 +64699,27 @@ For support send a mail to scala@itc.cnr.it
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="65"/>
         <source>Load predefined queries</source>
-        <translation>미리 정의된 쿼리 로드</translation>
+        <translation>미리 정의된 질의 로드</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="68"/>
         <source>Loads an XML file with predefined queries. Use the Open File window to locate the XML file that contains one or more predefined queries using the format described in the user guide.</source>
-        <translation>미리 정의된 쿼리가 기술된 XML 파일을로드합니다. 파일 열기를 이용하여 쿼리가 정의된 XML 파일을 지정합니다. 쿼리를 사용하는 형식은 사용자 가이드에 기술되어 있습니다.</translation>
+        <translation>미리 정의된 질의가 기술된 XML 파일을로드합니다. 파일 열기를 이용하여 질의가 정의된 XML 파일을 지정합니다. 질의를 사용하는 형식은 사용자 가이드에 기술되어 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="98"/>
         <source>The description of the selected query.</source>
-        <translation>선택된 쿼리의 설명.</translation>
+        <translation>선택된 질의의 설명.</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="47"/>
         <source>Predefined Queries</source>
-        <translation>미리 정의된 쿼리</translation>
+        <translation>미리 정의된 질의</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="108"/>
         <source>Select the predefined query you want to use from the drop-down list containing queries identified from the file loaded using the Open File icon above. To run the query you need to click on the SQL Query tab. The query will be automatically entered in the query window.</source>
-        <translation>이용하고 싶은 정의된 쿼리를 파일의 내용을 가져온 드롭 다운 목록에서 선택하십시오. 파일은 위 파일 열기 아이콘으로 지정할 수 있습니다. 쿼리를 실행하기 위해서는 SQL 쿼리 탭을 클릭 해야합니다. 지정된 쿼리는 자동으로 쿼리 창에 입력됩니다.</translation>
+        <translation>이용하고 싶은 정의된 질의를 파일의 내용을 가져온 드롭 다운 목록에서 선택하십시오. 파일은 위 파일 열기 아이콘으로 지정할 수 있습니다. 질의를 실행하기 위해서는 SQL 질의 탭을 클릭 해야합니다. 지정된 질의는 자동으로 질의 창에 입력됩니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="165"/>
@@ -64766,22 +64810,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="350"/>
         <source>SQL Query</source>
-        <translation>SQL 쿼리</translation>
+        <translation>SQL 질의</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="375"/>
         <source>Run the query entered above. The status of the query will be displayed in the Output  Console below.</source>
-        <translation>위에 입력한 쿼리를 실행합니다. 쿼리의 상태는 출력 콘솔에 표시됩니다.</translation>
+        <translation>위에 입력한 질의를 실행합니다. 질의의 상태는 출력 콘솔에 표시됩니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="378"/>
         <source>Run Query</source>
-        <translation>쿼리 실행</translation>
+        <translation>질의 실행</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="388"/>
         <source>Enter the query you want to run in this window.</source>
-        <translation>실행하려는 쿼리를 이 창에 입력하십시오.</translation>
+        <translation>실행하려는 질의를 이 창에 입력하십시오.</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisdatabaseconnectionguibase.ui" line="435"/>
@@ -64883,7 +64927,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/evis/eventbrowser/evisgenericeventbrowsergui.cpp" line="281"/>
         <source>An invalid feature was received during initialization</source>
-        <translation>초기화하는 동안 잘못된 피처를 받았음</translation>
+        <translation>초기화하는 동안 잘못된 객체를 받았음</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/eventbrowser/evisgenericeventbrowsergui.cpp" line="316"/>
@@ -64946,7 +64990,7 @@ p, li { white-space: pre-wrap; }
     <message utf8="true">
         <location filename="../src/plugins/evis/ui/evisgenericeventbrowserguibase.ui" line="113"/>
         <source>All of the attribute information for the point associated with the photo being viewed is displayed here. If the file type being referenced in the displayed record is not an image but is of a file type defined in the “Configure External Applications” tab then when you double-click on the value of the field containing the path to the file the application to open the file will be launched to view or hear the contents of the file. If the file extension is recognized the attribute data will be displayed in green.</source>
-        <translation>사진과 연결된 포인트의 모든 속성 정보가 여기에 표시됩니다. 이미지 이외의 파일 형식에서 &quot;외부 응용 프로그램 구성&quot; 탭에서 설정된 파일은 더블 클릭했을 때 응용 프로그램이 시작되어 보고 들을 수 있습니다. 파일 확장명을 시스템에서 인식할 수 있는 경우 녹색으로 표시됩니다.</translation>
+        <translation>사진과 연결된 점의 모든 속성 정보가 여기에 표시됩니다. 이미지 이외의 파일 형식에서 &quot;외부 응용 프로그램 구성&quot; 탭에서 설정된 파일은 더블 클릭했을 때 응용 프로그램이 시작되어 보고 들을 수 있습니다. 파일 확장명을 시스템에서 인식할 수 있는 경우 녹색으로 표시됩니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/ui/evisgenericeventbrowserguibase.ui" line="117"/>
@@ -65316,7 +65360,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Line intersections</source>
-        <translation>라인 교차</translation>
+        <translation>선 교차</translation>
     </message>
     <message>
         <source>&amp;Research Tools</source>
@@ -65436,11 +65480,11 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Polygons to lines</source>
-        <translation>폴리곤을 라인으로</translation>
+        <translation>폴리곤을 선으로</translation>
     </message>
     <message>
         <source>Lines to polygons</source>
-        <translation>라인을 폴리곤으로</translation>
+        <translation>선을 폴리곤으로</translation>
     </message>
     <message>
         <source>&amp;Data Management Tools</source>
@@ -67456,7 +67500,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Line length</source>
-        <translation>라인 길이</translation>
+        <translation>선 길이</translation>
     </message>
     <message>
         <source>Point x ordinate</source>
@@ -67468,11 +67512,11 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Point x coordinate</source>
-        <translation type="obsolete">포인트 x 좌표</translation>
+        <translation type="obsolete">점 x 좌표</translation>
     </message>
     <message>
         <source>Point y coordinate</source>
-        <translation type="obsolete">포인트 y 좌표</translation>
+        <translation type="obsolete">점 y 좌표</translation>
     </message>
 </context>
 <context>
@@ -67538,7 +67582,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="17"/>
         <source>Assign new constant value to column only if the result of query is TRUE</source>
-        <translation>쿼리의 결과가 참인 경우에만 상수를 컬럼에 설정</translation>
+        <translation>질의의 결과가 참인 경우에만 상수를 컬럼에 설정</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="18"/>
@@ -67548,7 +67592,11 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="19"/>
         <source>Assign new value to column as result of operation on columns only if the result of query is TRUE</source>
+<<<<<<< HEAD
         <translation>쿼리 결과가 참인 경우에만 연산 결과를 속성 테이블의 컬럼의 새 값으로 할당합니다</translation>
+=======
+        <translation>질의 결과가 참인 경우에만 인산 결과를 속성 테이블의 컬럼의 새 값으로 할당합니다.</translation>
+>>>>>>> b553306c8faefaed7929244817dd9867f161b67f
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="20"/>
@@ -67603,7 +67651,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="30"/>
         <source>Break lines at each intersection of vector</source>
-        <translation>라인을 벡터의 교차점에서 분리</translation>
+        <translation>선을 벡터의 교차점에서 분리</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="31"/>
@@ -67618,7 +67666,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="33"/>
         <source>Build polylines from lines</source>
-        <translation>라인에서 폴리라인 만들기</translation>
+        <translation>선에서 폴리라인 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="34"/>
@@ -67698,7 +67746,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="49"/>
         <source>Calculate univariate statistics of vector map features</source>
-        <translation>벡터 맵 피처의 단일 변량 통계를 계산</translation>
+        <translation>벡터 맵 객체의 단일 변량 통계를 계산</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="50"/>
@@ -67743,12 +67791,16 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="58"/>
         <source>Change the type of boundary dangle to line</source>
-        <translation>라인에 걸리는 경계의 타입 바꾸기</translation>
+        <translation>선에 걸리는 경계의 타입 바꾸기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="59"/>
         <source>Change the type of bridges connecting area and island or 2 islands from boundary to line</source>
+<<<<<<< HEAD
         <translation>영역과 하나 이상의 아일랜드 사이의 브리지 유형을 바운더리에서 라인으로 변경합니다</translation>
+=======
+        <translation>영역과 하나 이상의 아이슬랜드 사이의 브리지 유형을 바운더리에서 선으로 변경합니다.</translation>
+>>>>>>> b553306c8faefaed7929244817dd9867f161b67f
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="60"/>
@@ -67783,7 +67835,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="66"/>
         <source>Computes a coordinate transformation based on the control points</source>
-        <translation>컨트롤 포인트에 따라 좌표 변환 계산</translation>
+        <translation>컨트롤 점에 따라 좌표 변환 계산</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="67"/>
@@ -67850,12 +67902,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="77"/>
         <source>Convert boundaries to lines</source>
-        <translation>바운더리를 라인으로 변환</translation>
+        <translation>바운더리를 선으로 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="78"/>
         <source>Convert centroids to points</source>
-        <translation>센트로이드를 포인트로 변환</translation>
+        <translation>센트로이드를 점으로 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="79"/>
@@ -67870,7 +67922,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="81"/>
         <source>Convert lines to boundaries</source>
-        <translation>라인을 바운더리로 변환</translation>
+        <translation>선을 바운더리로 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="82"/>
@@ -67885,12 +67937,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="84"/>
         <source>Convert raster to vector lines</source>
-        <translation>래스터를 벡터 라인으로 변환</translation>
+        <translation>래스터를 벡터 선으로 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="85"/>
         <source>Convert raster to vector points</source>
-        <translation>래스터를 벡터 포인트로 변환</translation>
+        <translation>래스터를 벡터 점으로 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="86"/>
@@ -67920,7 +67972,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="91"/>
         <source>Count of neighbouring points</source>
-        <translation>인근의 포인트를 카운팅</translation>
+        <translation>인근의 점을 카운팅</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="92"/>
@@ -68025,22 +68077,22 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="112"/>
         <source>Create parallel line to input lines</source>
-        <translation>입력 라인의 평행선 만들기</translation>
+        <translation>입력 선의 평행선 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="113"/>
         <source>Create points</source>
-        <translation>포인트 만들기</translation>
+        <translation>점 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="114"/>
         <source>Create points along input lines</source>
-        <translation>입력 라인에 따라 포인트 만들기</translation>
+        <translation>입력 선에 따라 점 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="115"/>
         <source>Create points/segments from input vector lines and positions</source>
-        <translation>입력 벡터 라인과 위치에서 점군/세그먼트 만들기</translation>
+        <translation>입력 벡터 선과 위치에서 점군/세그먼트 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="116"/>
@@ -68050,7 +68102,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="117"/>
         <source>Create random 2D/3D vector points</source>
-        <translation>무작위 2D/3D 벡터 포인트 만들기</translation>
+        <translation>무작위 2D/3D 벡터 점 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="118"/>
@@ -68075,12 +68127,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="122"/>
         <source>Create raster images with textural features from raster (first serie of indices)</source>
-        <translation>래스터의 텍스처 피처를 사용하여 래스터 이미지 만들기(인덱스의 첫번째 세리에)</translation>
+        <translation>래스터의 텍스처 객체를 사용하여 래스터 이미지 만들기(인덱스의 첫번째 세리에)</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="123"/>
         <source>Create raster of distance to features in input layer</source>
-        <translation>입력 레이어의 피처에 대한 거리 래스터 만들기</translation>
+        <translation>입력 레이어의 객체에 대한 거리 래스터 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="124"/>
@@ -68100,7 +68152,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="127"/>
         <source>Create raster with textural features from raster (second serie of indices)</source>
-        <translation>래스터의 텍스처 피처를 사용하여 래스터 만들기(인덱스의 두번째 세리에)</translation>
+        <translation>래스터의 텍스처 객체를 사용하여 래스터 만들기(인덱스의 두번째 세리에)</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="128"/>
@@ -68426,7 +68478,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="207"/>
         <source>Feature type (for polygons, choose Boundary)</source>
-        <translation>(폴리곤, 닫힌 경계에 대한) 피처 유형</translation>
+        <translation>(폴리곤, 닫힌 경계에 대한) 객체 유형</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="220"/>
@@ -68550,12 +68602,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="201"/>
         <source>Extract features from vector</source>
-        <translation>벡터에서 피처 추출</translation>
+        <translation>벡터에서 객체 추출</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="202"/>
         <source>Extract selected features</source>
-        <translation>선택한 피처 추출</translation>
+        <translation>선택한 객체 추출</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="203"/>
@@ -68589,12 +68641,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="209"/>
         <source>Fill lake from seed at given level</source>
-        <translation>주어진 래벨의 씨드로 래이크 채우기</translation>
+        <translation>주어진 래벨의 씨드로 호수 채우기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="210"/>
         <source>Fill lake from seed point at given level</source>
-        <translation>주어진 씨드 포인트로 래이크 채우기</translation>
+        <translation>주어진 씨드 점으로 호수 채우기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="211"/>
@@ -68819,7 +68871,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Import loaded vector selecting some features</source>
-        <translation type="obsolete">로드된 벡터를 가져와 일부 피처 선택하기</translation>
+        <translation type="obsolete">로드된 벡터를 가져와 일부 객체 선택하기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="259"/>
@@ -68833,7 +68885,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="260"/>
         <source>Import raster from ASCII polygon/line</source>
-        <translation>ASCII 폴리곤/라인에서 래스터 가져오기</translation>
+        <translation>ASCII 폴리곤/선에서 래스터 가져오기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="261"/>
@@ -68890,7 +68942,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="269"/>
         <source>Import vector points from database table containing coordinates</source>
-        <translation>좌표를 가지는 데이터베이스 테이블에서 벡터 포인트 가져오기</translation>
+        <translation>좌표를 가지는 데이터베이스 테이블에서 벡터 점 가져오기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="270"/>
@@ -68915,7 +68967,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="274"/>
         <source>Inverse distance squared weighting raster interpolation based on vector points</source>
-        <translation>벡터 포인트에 따라 거리의 제곱에 반비례하도록 래스터 보간</translation>
+        <translation>벡터 점에 따라 거리의 제곱에 반비례하도록 래스터 보간</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="275"/>
@@ -68962,7 +69014,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="285"/>
         <source>Manage features</source>
-        <translation>피처 관리</translation>
+        <translation>객체 관리</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="286"/>
@@ -69099,7 +69151,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="310"/>
         <source>Output raster values along user-defined transect line(s)</source>
-        <translation>사용자 정의 횡단 라인에 따라 래스터 값 출력</translation>
+        <translation>사용자 정의 횡단 선에 따라 래스터 값 출력</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="311"/>
@@ -69164,12 +69216,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="323"/>
         <source>Query rasters on their category values and labels</source>
-        <translation>카테고리 값 및 라벨 래스터 쿼리</translation>
+        <translation>카테고리 값 및 라벨 래스터 질의</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="324"/>
         <source>Random location perturbations of vector points</source>
-        <translation>벡터 포인트를 교란시켜 무작위 위치</translation>
+        <translation>벡터 점을 교란시킨 무작위 위치</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="325"/>
@@ -69293,7 +69345,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="348"/>
         <source>Regularized spline with tension raster interpolation based on vector points</source>
-        <translation>래스터의 장력을 이용한 정규화된 스플라인 벡터 포인트에 따라 보간합니다.</translation>
+        <translation>래스터의 장력을 이용한 정규화된 스플라인 벡터 점에 따라 보간합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="349"/>
@@ -69303,7 +69355,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="350"/>
         <source>Remove all lines or boundaries of zero length</source>
-        <translation>둘레가 0 인 모든 라인을 삭제합니다.</translation>
+        <translation>둘레가 0 인 모든 선을 삭제합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="351"/>
@@ -69323,7 +69375,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="354"/>
         <source>Remove duplicate lines (pay attention to categories!)</source>
-        <translation>중복 라인 제거 (카테고리에 주의!)</translation>
+        <translation>중복 선 제거 (카테고리에 주의!)</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="355"/>
@@ -69333,12 +69385,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="356"/>
         <source>Remove outliers from vector point data</source>
-        <translation>벡터 포인트 데이터에서 이상치 제거</translation>
+        <translation>벡터 점 데이터에서 이상치 제거</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="357"/>
         <source>Remove small angles between lines at nodes</source>
-        <translation>라인과 노드 사이의 미세한 각도 삭제</translation>
+        <translation>선과 노드 사이의 미세한 틈 삭제</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="358"/>
@@ -69348,7 +69400,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="359"/>
         <source>Remove vertices in threshold from lines and boundaries, boundary is pruned only if topology is not damaged (new intersection, changed attachement of centroid), first and last segment of the boundary is never changed</source>
-        <translation>라인과 외곽선에서 임계값 내의 버텍스를 삭제합니다. 외곽선은 토폴로지가 손상(새로은 교차, 센트로이드 부착 변경)되지 않는 경우에만 잘라낼 수 있습니다. 외곽선의 처음과 마지막 세그먼트는 변경되지 않습니다.</translation>
+        <translation>선과 외곽선에서 임계값 내의 버텍스를 삭제합니다. 외곽선은 토폴로지가 손상(새로은 교차, 센트로이드 부착 변경)되지 않는 경우에만 잘라낼 수 있습니다. 외곽선의 처음과 마지막 세그먼트는 변경되지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="360"/>
@@ -69417,12 +69469,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="371"/>
         <source>Select features by attributes</source>
-        <translation>속성으로 피처 선택</translation>
+        <translation>속성으로 객체 선택</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="372"/>
         <source>Select features overlapped by features in another map</source>
-        <translation>다른 지도의 피처와 겹치는 피처 선택</translation>
+        <translation>다른 지도의 객체와 겹치는 객체 선택</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="373"/>
@@ -69542,7 +69594,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="396"/>
         <source>Snap lines to vertex in threshold</source>
-        <translation>라인을 임계값 내 포인트에 스냅</translation>
+        <translation>선을 임계값 내 점에 스냅</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="397"/>
@@ -69562,7 +69614,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="400"/>
         <source>Split lines to shorter segments</source>
-        <translation>라인을 짧은 세그먼트로 분할</translation>
+        <translation>선을 짧은 세그먼트로 분할</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="401"/>
@@ -69622,7 +69674,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="412"/>
         <source>Tests of normality on vector points</source>
-        <translation>벡터 포인트 군의 정규성 테스트</translation>
+        <translation>벡터 점 군의 정규성 테스트</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="413"/>
@@ -69632,7 +69684,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="414"/>
         <source>Thin no-zero cells that denote line features</source>
-        <translation>라인 피처를 나타내는 0이 아닌 셀을 솎아내기</translation>
+        <translation>선 객체를 나타내는 0이 아닌 셀을 솎아내기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="415"/>
@@ -69657,7 +69709,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="419"/>
         <source>Transform features</source>
-        <translation>피처 변환</translation>
+        <translation>객체 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="420"/>
@@ -69692,12 +69744,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="426"/>
         <source>Upload raster values at positions of vector points to the table</source>
-        <translation>벡터 포인트 위치에 있는 래스터의 값을 테이블에 업로드</translation>
+        <translation>벡터 점 위치에 있는 래스터의 값을 테이블에 업로드</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="427"/>
         <source>Upload vector values at positions of vector points</source>
-        <translation>벡터 포인트 위치에 있는 벡터 값을 업로드</translation>
+        <translation>벡터 점 위치에 있는 벡터 값을 업로드</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="428"/>
@@ -69777,12 +69829,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="443"/>
         <source>Work with vector points</source>
-        <translation>벡터 포인트로 작업</translation>
+        <translation>벡터 점으로 작업</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="444"/>
         <source>Write only features link to a record</source>
-        <translation>레코드에 연결된 피처에만 쓰기</translation>
+        <translation>레코드에 연결된 객체에만 쓰기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="445"/>
@@ -70062,19 +70114,19 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Feature %1 contains an unnested hole</source>
-        <translation type="obsolete">피처 %1은 중첩되지 않는 구멍을 가지고 있음</translation>
+        <translation type="obsolete">객체 %1은 중첩되지 않는 구멍을 가지고 있음</translation>
     </message>
     <message>
         <source>Feature %1 is not closed</source>
-        <translation type="obsolete">피처 %1 닫히지 않았음</translation>
+        <translation type="obsolete">객체 %1 닫히지 않았음</translation>
     </message>
     <message>
         <source>Feature %1 is self intersecting</source>
-        <translation type="obsolete">피처 %1은 자신의 선이 교차하고 있음</translation>
+        <translation type="obsolete">객체 %1은 자신의 선이 교차하고 있음</translation>
     </message>
     <message>
         <source>Feature %1 has incorrect node ordering</source>
-        <translation type="obsolete">피처 %1은 잘못된 순서의 노드를 가짐</translation>
+        <translation type="obsolete">객체 %1은 잘못된 순서의 노드를 가짐</translation>
     </message>
 </context>
 </TS>
