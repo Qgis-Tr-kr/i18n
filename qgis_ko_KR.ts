@@ -38328,42 +38328,42 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
         <location filename="../src/gui/raster/qgsmultibandcolorrendererwidget.cpp" line="50"/>
         <location filename="../src/gui/raster/qgsmultibandcolorrendererwidget.cpp" line="51"/>
         <source>Not set</source>
-        <translation type="unfinished">설정안됨</translation>
+        <translation>설정안됨</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsmultibandcolorrendererwidget.cpp" line="54"/>
         <source>No enhancement</source>
-        <translation type="unfinished"></translation>
+        <translation>강조 없음</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsmultibandcolorrendererwidget.cpp" line="55"/>
         <source>Stretch to MinMax</source>
-        <translation type="unfinished"></translation>
+        <translation>최소/최대값까지 스트레치</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsmultibandcolorrendererwidget.cpp" line="56"/>
         <source>Stretch and clip to MinMax</source>
-        <translation type="unfinished"></translation>
+        <translation>최소/최대값까지 스트레치하고 자름</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsmultibandcolorrendererwidget.cpp" line="57"/>
         <source>Clip to MinMax</source>
-        <translation type="unfinished"></translation>
+        <translation>최소/최대값으로 자름</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsmultibandcolorrendererwidget.cpp" line="279"/>
         <source>Red</source>
-        <translation type="unfinished">빨강</translation>
+        <translation>빨강</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsmultibandcolorrendererwidget.cpp" line="280"/>
         <source>Green</source>
-        <translation type="unfinished">녹색</translation>
+        <translation>녹색</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsmultibandcolorrendererwidget.cpp" line="281"/>
         <source>Blue</source>
-        <translation type="unfinished">파랑</translation>
+        <translation>파랑</translation>
     </message>
 </context>
 <context>
@@ -38371,35 +38371,35 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/ui/qgsmultibandcolorrendererwidgetbase.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>양식</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsmultibandcolorrendererwidgetbase.ui" line="134"/>
         <source>Contrast
 enhancement</source>
-        <translation type="unfinished"></translation>
+        <translation>콘트라스트 강조</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsmultibandcolorrendererwidgetbase.ui" line="212"/>
         <location filename="../src/ui/qgsmultibandcolorrendererwidgetbase.ui" line="242"/>
         <location filename="../src/ui/qgsmultibandcolorrendererwidgetbase.ui" line="249"/>
         <source>Min/max</source>
-        <translation type="unfinished"></translation>
+        <translation>최소값/최대값</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsmultibandcolorrendererwidgetbase.ui" line="235"/>
         <source>Red band</source>
-        <translation type="unfinished">Red 밴드</translation>
+        <translation>Red 밴드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsmultibandcolorrendererwidgetbase.ui" line="149"/>
         <source>Green band</source>
-        <translation type="unfinished">Green 밴드</translation>
+        <translation>Green 밴드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsmultibandcolorrendererwidgetbase.ui" line="142"/>
         <source>Blue band</source>
-        <translation type="unfinished">Blue 밴드</translation>
+        <translation>Blue 밴드</translation>
     </message>
     <message>
         <source>Min</source>
@@ -38451,12 +38451,12 @@ enhancement</source>
     <message>
         <location filename="../src/core/qgsnetworkaccessmanager.cpp" line="152"/>
         <source>Network request %1 timed out</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">네트워크 요청 시간이 %1 만큼 초과되었습니다</translation>
     </message>
     <message>
         <location filename="../src/core/qgsnetworkaccessmanager.cpp" line="152"/>
         <source>Network</source>
-        <translation type="unfinished">네트워크</translation>
+        <translation>네트워크</translation>
     </message>
 </context>
 <context>
@@ -38464,7 +38464,7 @@ enhancement</source>
     <message>
         <location filename="../src/core/qgsnetworkreplyparser.cpp" line="58"/>
         <source>Cannot find boundary in multipart content type</source>
-        <translation type="unfinished"></translation>
+        <translation>여러 부분으로 된  content type에서 경계를 찾을 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -38472,17 +38472,17 @@ enhancement</source>
     <message>
         <location filename="../src/gui/qgsnewhttpconnection.cpp" line="33"/>
         <source>Create a new %1 connection</source>
-        <translation type="unfinished"></translation>
+        <translation>새로운 %1 연결 만들기</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsnewhttpconnection.cpp" line="70"/>
         <source>Ignore GetCoverage URI reported in capabilities</source>
-        <translation type="unfinished"></translation>
+        <translation>Capabilities에 보고된 GetCoverage URI를 무시</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsnewhttpconnection.cpp" line="71"/>
         <source>Ignore axis orientation</source>
-        <translation type="unfinished"></translation>
+        <translation>축 방향을 무시</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsnewhttpconnection.cpp" line="119"/>
@@ -38497,13 +38497,13 @@ enhancement</source>
     <message>
         <location filename="../src/gui/qgsnewhttpconnection.cpp" line="128"/>
         <source>Saving passwords</source>
-        <translation type="unfinished"></translation>
+        <translation>암호 저장</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsnewhttpconnection.cpp" line="129"/>
         <source>WARNING: You have entered a password. It will be stored in plain text in your project files and in your home directory on Unix-like systems, or in your user profile on Windows. If you do not want this to happen, please press the Cancel button.
 Note: giving the password is optional. It will be requested interactivly, when needed.</source>
-        <translation type="unfinished"></translation>
+        <translation>경고: 당신은 암호를 입력하였습니다. 해당 암호는 유닉스 타입의 시스템일 경우 당신의 프로젝트 파일혹은 홈 디렉토리에 일반 텍스트로 저장되고 윈도우 시스템일 경우 사용자 프로필에 저장됩니다. 이것을 원치 않는다면 취소 버튼을 클릭하세요. \nNote: 암호는 선택사항입니다. .필요할 경우 요청을 할 것입니다.</translation>
     </message>
 </context>
 <context>
@@ -38521,7 +38521,7 @@ Note: giving the password is optional. It will be requested interactivly, when n
     <message>
         <location filename="../src/ui/qgsnewhttpconnectionbase.ui" line="58"/>
         <source>If the service requires basic authentication, enter a user name and optional password</source>
-        <translation>만약 서비스 기본 인증이 필요한 경우 사용자 이름과 암호를 입력하세요</translation>
+        <translation>서비스 기본 인증이 필요한 경우 사용자 이름과 암호를 입력하세요</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewhttpconnectionbase.ui" line="113"/>
@@ -38536,32 +38536,32 @@ Note: giving the password is optional. It will be requested interactivly, when n
     <message>
         <location filename="../src/ui/qgsnewhttpconnectionbase.ui" line="140"/>
         <source>Ignore GetFeatureInfo URI reported in capabilities</source>
-        <translation>GetFeatureInfo URI 무시가 capabilities에서 보고되었습니다.</translation>
+        <translation>Capabilities에 보고된 GetFeatureInfo URI를 무시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewhttpconnectionbase.ui" line="147"/>
         <source>Ignore GetMap URI reported in capabilities</source>
-        <translation>GetMap URI 무시가 capabilities에서 보고되었습니다.</translation>
+        <translation>Capabilities에 보고된 GetMap URI를 무시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewhttpconnectionbase.ui" line="154"/>
         <source>Ignore axis orientation (WMS 1.3/WMTS)</source>
-        <translation type="unfinished"></translation>
+        <translation>축 방향(WMS 1.3/WMTS)을 무시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewhttpconnectionbase.ui" line="161"/>
         <source>Invert axis orientation</source>
-        <translation type="unfinished"></translation>
+        <translation>축 방향 도치</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewhttpconnectionbase.ui" line="168"/>
         <source>Smooth pixmap transform</source>
-        <translation type="unfinished"></translation>
+        <translation>부드러운 Pixmap 변환</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewhttpconnectionbase.ui" line="178"/>
         <source>Referer</source>
-        <translation type="unfinished"></translation>
+        <translation>참조</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsnewhttpconnectionbase.ui" line="14"/>
@@ -38610,7 +38610,7 @@ Extended error information:
     <message>
         <location filename="../src/app/ogr/qgsnewogrconnection.cpp" line="98"/>
         <source>Connection to %1 was successful</source>
-        <translation>%1에 연결하는 데 성공했습니다.</translation>
+        <translation>%1에 연결하는 데 성공했습니다</translation>
     </message>
     <message>
         <location filename="../src/app/ogr/qgsnewogrconnection.cpp" line="114"/>
