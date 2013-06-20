@@ -20196,29 +20196,29 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="61"/>
         <source>Label text HTML state changed</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 텍스트  HTML 문장 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="75"/>
         <source>Label text changed</source>
-        <translation>라벨 텍스트가 변경되었습니다.</translation>
+        <translation>라벨 텍스트가 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="97"/>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="127"/>
         <source>Label font changed</source>
-        <translation>라벨 글꼴이 변경되었습니다.</translation>
+        <translation>라벨 글꼴이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="109"/>
         <source>Label margin changed</source>
-        <translation>라벨 여백이 변경되었습니다.</translation>
+        <translation>라벨 여백이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="152"/>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="158"/>
         <source>Insert expression</source>
-        <translation type="unfinished">식 삽입</translation>
+        <translation>식 삽입</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="169"/>
@@ -20228,7 +20228,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="213"/>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="224"/>
         <source>Label alignment changed</source>
-        <translation>라벨의 정렬이 변경되었습니다.</translation>
+        <translation>라벨의 정렬이 변경되었습니다</translation>
     </message>
     <message>
         <source>Label id changed</source>
@@ -20237,7 +20237,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="235"/>
         <source>Label rotation changed</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 로테이션이 변경되었습니다</translation>
     </message>
 </context>
 <context>
