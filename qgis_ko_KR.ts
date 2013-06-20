@@ -54375,7 +54375,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="135"/>
         <source>No suitable key column</source>
-        <translation>적절한 키 컬럼이 없습니다.</translation>
+        <translation>키 컬럼이 적절치 못합니다</translation>
     </message>
     <message>
         <source>The source relation %1 has no column suitable for use as a unique key.
@@ -54399,7 +54399,7 @@ Quantum GIS는 32bit 이하의 정수를 관계의 고유 값으로 가질 필�
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="249"/>
         <source>Duplicate field %1 found
 </source>
-        <translation>중복 필드 %1 이 있었습니다.
+        <translation>중복된 필드 %1 가 있습니다
 </translation>
     </message>
     <message>
@@ -54415,17 +54415,19 @@ Quantum GIS는 32bit 이하의 정수를 관계의 고유 값으로 가질 필�
         <source>The source relation %1 has no column suitable for use as a unique key.
 
 QGIS requires that the relation has an integer column no larger than 32 bits containing unique values. </source>
-        <translation type="unfinished"></translation>
+        <translation>%1 소스 관계에 고유 키에 적합한 컬럼이 없습니다.
+
+Quantum GIS에서는 32bit 이하의 정수를 고유 값으로 지정해야 합니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="284"/>
         <source>Read attempt on an invalid SqlAnywhere data source</source>
-        <translation type="unfinished"></translation>
+        <translation>비적절한  SqlAnywhere 데이터 소스에 대해 읽어보십시오</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="284"/>
         <source>SQLAnywhere</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLAnywhere</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="870"/>
@@ -54450,7 +54452,7 @@ QGIS requires that the relation has an integer column no larger than 32 bits con
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="1170"/>
         <source>Attribute not found</source>
-        <translation>속성을 찾을 수 없습니다.</translation>
+        <translation>속성을 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="1187"/>
@@ -54475,22 +54477,22 @@ QGIS requires that the relation has an integer column no larger than 32 bits con
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="1520"/>
         <source>Column %1 has a geometry type of %2, which QGIS does not currently support.</source>
-        <translation type="unfinished"></translation>
+        <translation>컬럼 %1의 지오메트리 유형 %2는 Quantum GIS에서 현재 지원하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="1529"/>
         <source>Column %1 is not restricted to a single SRID, which QGIS requires.</source>
-        <translation type="unfinished"></translation>
+        <translation>컬럼 %1은 하나의 SRID에 제한되지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="1822"/>
         <source>Because QGIS supports only planar data, the SQL Anywhere data provider will transform the data to the compatible planar projection (SRID=%1).</source>
-        <translation type="unfinished"></translation>
+        <translation>Quantum GIS는 평면적인 데이터만을 지원하기 때문에 SQL Anywhere 데이터 프로바이더는 평면 투영 호환 데이터로 변환합니다. (SRID = %1).</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="1839"/>
         <source>Because QGIS supports only planar data and no compatible planar projection was found, the SQL Anywhere data provider will attempt to transform the data to planar WGS 84 (SRID=%1).</source>
-        <translation type="unfinished"></translation>
+        <translation>Quantum GIS가 평면적인 데이터만을 지원하고 있기 때문에 호환성이 없는 평면 투영이 검색되었습니다. SQL Anywhere 데이터 프로바이더는 평면 데이터 WGS84(SRID=%1)로 변환을 시도합니다.</translation>
     </message>
     <message>
         <source>Column %1 has a geometry type of %2, which Quantum GIS does not currently support.</source>
@@ -54499,7 +54501,7 @@ QGIS requires that the relation has an integer column no larger than 32 bits con
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="1528"/>
         <source>Mixed Spatial Reference Systems</source>
-        <translation>좌표계가 혼합되어 있습니다.</translation>
+        <translation>좌표계가 혼합되어 있습니다</translation>
     </message>
     <message>
         <source>Column %1 is not restricted to a single SRID, which Quantum GIS requires.</source>
