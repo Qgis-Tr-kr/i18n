@@ -20850,7 +20850,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="50"/>
         <source>&amp;Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>복제하기(&amp;D)</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="54"/>
@@ -20973,12 +20973,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="20"/>
         <source>Composer manager</source>
-        <translation>구성 관리자</translation>
+        <translation>컴포져 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="35"/>
         <source>New from template</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿 이용해서 새로만들기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="50"/>
@@ -20988,22 +20988,22 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="63"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="78"/>
         <source>Open template directory</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿 디렉토리 열기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="91"/>
         <source>user</source>
-        <translation type="unfinished">사용자</translation>
+        <translation>사용자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="104"/>
         <source>default</source>
-        <translation type="unfinished">기본값</translation>
+        <translation>기본값</translation>
     </message>
 </context>
 <context>
