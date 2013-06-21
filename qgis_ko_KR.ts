@@ -6670,7 +6670,7 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     </message>
     <message>
         <source>Clear history and log</source>
-        <translation>히스토리 및 로그 삭제</translation>
+        <translation type="unfinished">역사와 기록</translation>
     </message>
     <message>
         <source>Create test</source>
@@ -18934,12 +18934,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="214"/>
         <source>Panels</source>
-        <translation type="unfinished">패널</translation>
+        <translation>패널</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="216"/>
         <source>Toolbars</source>
-        <translation type="unfinished"></translation>
+        <translation>툴바</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="227"/>
@@ -18949,12 +18949,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="252"/>
         <source>Window</source>
-        <translation type="unfinished">윈도우</translation>
+        <translation>윈도우</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="257"/>
         <source>Help</source>
-        <translation type="unfinished">도움말</translation>
+        <translation>도움말</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="311"/>
@@ -19013,33 +19013,33 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="186"/>
         <source>Print Composers</source>
-        <translation type="unfinished"></translation>
+        <translation>컴포져 인쇄</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="687"/>
         <location filename="../src/app/composer/qgscomposer.cpp" line="993"/>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1200"/>
         <source>Empty filename pattern</source>
-        <translation type="unfinished"></translation>
+        <translation>파일이름 비어 있음</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="688"/>
         <location filename="../src/app/composer/qgscomposer.cpp" line="994"/>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1201"/>
         <source>The filename pattern is empty. A default one will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>파일이름이 비어있습니다.기본값이 사용됩니다.</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="701"/>
         <source>Directory where to save PDF files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">PDF 파일을 저장할 디렉토리</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="711"/>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1057"/>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1225"/>
         <source>Unable to write into the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>디렉토리내에 쓸 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="735"/>
@@ -19059,7 +19059,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1084"/>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1254"/>
         <source>Rendering maps...</source>
-        <translation type="unfinished"></translation>
+        <translation>도면 표현하기...</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="750"/>
@@ -19072,12 +19072,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1008"/>
         <source>Directory where to save image files</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지파일을 저장할 디렉토리</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1032"/>
         <source>Image format: </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">이미지 포맷:</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1156"/>
@@ -19087,22 +19087,22 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1215"/>
         <source>Directory where to save SVG files</source>
-        <translation type="unfinished"></translation>
+        <translation>SVG 파일을 저장할 디렉토리</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1436"/>
         <source> copy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">복사</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1443"/>
         <source>Duplicating composer...</source>
-        <translation type="unfinished"></translation>
+        <translation>컴포져 복사하기...</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1455"/>
         <source>Duplicate Composer</source>
-        <translation type="unfinished"></translation>
+        <translation>컴포져 복사</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1456"/>
@@ -19122,7 +19122,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2118"/>
         <source>Project contains composition effects</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트에 구성 효과가 포함되어 있습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2119"/>
@@ -19132,7 +19132,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2120"/>
         <source>Print as raster</source>
-        <translation type="unfinished">래스터로 인쇄</translation>
+        <translation>래스터로 인쇄</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="179"/>
@@ -19145,7 +19145,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1058"/>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1226"/>
         <source>The given output directory is not writable. Cancelling.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1549"/>
@@ -19155,22 +19155,22 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1549"/>
         <source>Error, could not create new composer</source>
-        <translation type="unfinished"></translation>
+        <translation>오류, 새로운 구성을 생성할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1566"/>
         <source>Loading template into composer...</source>
-        <translation type="unfinished"></translation>
+        <translation>컴포져 안에 템플릿 불러오기...</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2103"/>
         <source>Project contains WMS layers</source>
-        <translation>프로젝트에 WMS 레이어가 포함되어 있습니다.</translation>
+        <translation>프로젝트에 WMS 레이어가 포함되어 있습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2104"/>
         <source>Some WMS servers (e.g. UMN mapserver) have a limit for the WIDTH and HEIGHT parameter. Printing layers from such servers may exceed this limit. If this is the case, the WMS layer will not be printed</source>
-        <translation>어떤 WMS 서버(예: UMN mapserver)는 WIDTH와 HEIGHT 매개 변수에 제한이 있습니다. 이러한 서버 레이어를 인쇄하는 경우 제한을 초과할 수 있습니다. 이 경우 WMS 레이어는 인쇄되지 않습니다.</translation>
+        <translation>어떤 WMS 서버(예: UMN mapserver)는 WIDTH와 HEIGHT 매개 변수에 제한이 있습니다. 이러한 서버 레이어를 인쇄하는 경우 제한을 초과할 수 있습니다. 이 경우 WMS 레이어는 인쇄되지 않습니다</translation>
     </message>
     <message>
         <source>&lt;p&gt;The SVG export function in Qgis has several problems due to bugs and deficiencies in the </source>
@@ -19206,12 +19206,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1501"/>
         <source>Error, could not save file</source>
-        <translation>오류, 파일을 저장할 수 없습니다.</translation>
+        <translation>오류, 파일을 저장할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1519"/>
         <source>Load template</source>
-        <translation>템플릿 로드</translation>
+        <translation>템플릿 불러오기</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1532"/>
@@ -19221,7 +19221,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1532"/>
         <source>Error, could not read file</source>
-        <translation>오류, 파일을 읽을 수 없습니다.</translation>
+        <translation>오류, 파일을 읽을 수 없습니다</translation>
     </message>
     <message>
         <source>Content of template file is not valid</source>
@@ -19251,19 +19251,19 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerarrowwidget.cpp" line="87"/>
         <source>Arrow color changed</source>
-        <translation>화살표 색상이 변경되었습니다.</translation>
+        <translation>화살표 색상이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerarrowwidget.cpp" line="116"/>
         <source>Select arrow color</source>
-        <translation type="unfinished"></translation>
+        <translation>화살표 색상 고르기</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerarrowwidget.cpp" line="152"/>
         <location filename="../src/app/composer/qgscomposerarrowwidget.cpp" line="163"/>
         <location filename="../src/app/composer/qgscomposerarrowwidget.cpp" line="175"/>
         <source>Arrow marker changed</source>
-        <translation>화살표 표시가 변경되었습니다.</translation>
+        <translation>화살표 표시가 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerarrowwidget.cpp" line="186"/>
@@ -19940,37 +19940,37 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerhtmlwidget.cpp" line="29"/>
         <source>Use existing frames</source>
-        <translation type="unfinished"></translation>
+        <translation>기존의 프레임 사용하기</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerhtmlwidget.cpp" line="30"/>
         <source>Extend to next page</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 페이지로 확장</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerhtmlwidget.cpp" line="31"/>
         <source>Repeat on every page</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 페이지에 반복</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerhtmlwidget.cpp" line="32"/>
         <source>Repeat until finished</source>
-        <translation type="unfinished"></translation>
+        <translation>마지막까지 반복</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerhtmlwidget.cpp" line="78"/>
         <source>Change html url</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML 주소 변경하기</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerhtmlwidget.cpp" line="90"/>
         <source>Select HTML document</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML문서 선택하기</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerhtmlwidget.cpp" line="111"/>
         <source>Change resize mode</source>
-        <translation type="unfinished"></translation>
+        <translation>크기조정 모드 변경하기</translation>
     </message>
 </context>
 <context>
@@ -19978,32 +19978,32 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerhtmlwidgetbase.ui" line="90"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerhtmlwidgetbase.ui" line="75"/>
         <source>URL</source>
-        <translation type="unfinished">URL</translation>
+        <translation>URL</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerhtmlwidgetbase.ui" line="14"/>
         <source>HTML Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML 프레임</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerhtmlwidgetbase.ui" line="35"/>
         <source>HTML frame</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML 프레임</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerhtmlwidgetbase.ui" line="57"/>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>주 속성들</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerhtmlwidgetbase.ui" line="99"/>
         <source>Resize mode</source>
-        <translation type="unfinished"></translation>
+        <translation>크기조정 모드</translation>
     </message>
 </context>
 <context>
@@ -20048,17 +20048,17 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposeritemwidget.cpp" line="216"/>
         <source>Item background toggled</source>
-        <translation type="unfinished"></translation>
+        <translation>아이템 배경색 전환됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposeritemwidget.cpp" line="337"/>
         <source>Select background color</source>
-        <translation type="unfinished">배경색 선택</translation>
+        <translation>배경색 선택</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposeritemwidget.cpp" line="340"/>
         <source>Select frame color</source>
-        <translation type="unfinished">프레임 색상 선택</translation>
+        <translation>프레임 색상 선택</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposeritemwidget.cpp" line="382"/>
@@ -20196,29 +20196,29 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="61"/>
         <source>Label text HTML state changed</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 텍스트  HTML 문장 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="75"/>
         <source>Label text changed</source>
-        <translation>라벨 텍스트가 변경되었습니다.</translation>
+        <translation>라벨 텍스트가 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="97"/>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="127"/>
         <source>Label font changed</source>
-        <translation>라벨 글꼴이 변경되었습니다.</translation>
+        <translation>라벨 글꼴이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="109"/>
         <source>Label margin changed</source>
-        <translation>라벨 여백이 변경되었습니다.</translation>
+        <translation>라벨 여백이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="152"/>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="158"/>
         <source>Insert expression</source>
-        <translation type="unfinished">식 삽입</translation>
+        <translation>식 삽입</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="169"/>
@@ -20228,7 +20228,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="213"/>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="224"/>
         <source>Label alignment changed</source>
-        <translation>라벨의 정렬이 변경되었습니다.</translation>
+        <translation>라벨의 정렬이 변경되었습니다</translation>
     </message>
     <message>
         <source>Label id changed</source>
@@ -20237,7 +20237,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="235"/>
         <source>Label rotation changed</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 로테이션이 변경되었습니다</translation>
     </message>
 </context>
 <context>
@@ -20850,7 +20850,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="50"/>
         <source>&amp;Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>복제하기(&amp;D)</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="54"/>
@@ -20877,32 +20877,32 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="157"/>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="222"/>
         <source>Template error</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿 오류</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="152"/>
         <source>Error, template file not found</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 템플릿 파일을 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="157"/>
         <source>Error, could not read file</source>
-        <translation type="unfinished">오류, 파일을 읽을 수 없습니다.</translation>
+        <translation>오류, 파일을 읽을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="174"/>
         <source>Composer error</source>
-        <translation type="unfinished"></translation>
+        <translation>컴포져 오류</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="174"/>
         <source>Error, could not create composer</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 컴포져를 생성할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="189"/>
         <source>Loading template into composer...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">컴포져 안에 템플릿 불러오기...</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="222"/>
@@ -20973,12 +20973,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="20"/>
         <source>Composer manager</source>
-        <translation>구성 관리자</translation>
+        <translation>컴포져 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="35"/>
         <source>New from template</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿 이용해서 새로만들기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="50"/>
@@ -20988,22 +20988,22 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="63"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="78"/>
         <source>Open template directory</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿 디렉토리 열기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="91"/>
         <source>user</source>
-        <translation type="unfinished">사용자</translation>
+        <translation>사용자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="104"/>
         <source>default</source>
-        <translation type="unfinished">기본값</translation>
+        <translation>기본값</translation>
     </message>
 </context>
 <context>
