@@ -22090,12 +22090,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposershapewidget.cpp" line="89"/>
         <source>Shape rotation changed</source>
-        <translation>도형의 회전이 변경되었습니다.</translation>
+        <translation>도형의 회전이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposershapewidget.cpp" line="103"/>
         <source>Shape type changed</source>
-        <translation>도형 유형이 변경되었습니다.</translation>
+        <translation>도형 유형이 변경되었습니다</translation>
     </message>
     <message>
         <source>Select outline color</source>
