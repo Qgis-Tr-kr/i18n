@@ -22187,7 +22187,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="128"/>
         <source>Table layer changed</source>
-        <translation>테이블의 레이어가 변경되었습니다.</translation>
+        <translation>테이블 레이어가 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="147"/>
@@ -22197,7 +22197,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="175"/>
         <source>Table map changed</source>
-        <translation>테이블 지도가 변경되었습니다.</translation>
+        <translation>테이블 지도가 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="193"/>
@@ -22226,27 +22226,27 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="262"/>
         <source>Table grid stroke</source>
-        <translation>테이블 그리드 선</translation>
+        <translation>테이블 격자 스트로크</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="329"/>
         <source>Select grid color</source>
-        <translation>그리드 색상 선택</translation>
+        <translation>격자 색상 선택</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="275"/>
         <source>Table grid color</source>
-        <translation>테이블 그리드 색</translation>
+        <translation>테이블 격자 색상</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="288"/>
         <source>Table grid toggled</source>
-        <translation>테이블 그리드가 전환되었습니다.</translation>
+        <translation>테이블 격자가 전환되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="377"/>
         <source>Table visible only toggled</source>
-        <translation>테이블 표시속성만 전환되었습니다.</translation>
+        <translation>테이블 표시속성만 전환되었습니다</translation>
     </message>
 </context>
 <context>
