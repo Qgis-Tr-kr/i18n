@@ -61704,17 +61704,17 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="34"/>
         <source>Colors</source>
-        <translation type="unfinished">색상</translation>
+        <translation>색상</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="49"/>
         <source>Fill</source>
-        <translation type="unfinished">채우기</translation>
+        <translation>채우기</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="81"/>
         <source>Border</source>
-        <translation type="unfinished">테두리</translation>
+        <translation>테두리</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="122"/>
@@ -61727,7 +61727,7 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="246"/>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="309"/>
         <source>Millimeter</source>
-        <translation type="unfinished">밀리미터</translation>
+        <translation>밀리미터</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="153"/>
@@ -61735,7 +61735,7 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="251"/>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="314"/>
         <source>Map unit</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="163"/>
@@ -61750,12 +61750,12 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="267"/>
         <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>미리 정의된 속성....</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="324"/>
         <source>Offset X,Y</source>
-        <translation type="unfinished">오프셋 X,Y</translation>
+        <translation>오프셋 X,Y</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_ellipse.ui" line="204"/>
@@ -61805,13 +61805,13 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/ui/symbollayer/widget_fontmarker.ui" line="108"/>
         <location filename="../src/ui/symbollayer/widget_fontmarker.ui" line="191"/>
         <source>Millimeter</source>
-        <translation type="unfinished">밀리미터</translation>
+        <translation>밀리미터</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_fontmarker.ui" line="113"/>
         <location filename="../src/ui/symbollayer/widget_fontmarker.ui" line="196"/>
         <source>Map unit</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_fontmarker.ui" line="123"/>
@@ -61844,12 +61844,12 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_linedecoration.ui" line="96"/>
         <source>Millimeter</source>
-        <translation type="unfinished">밀리미터</translation>
+        <translation>밀리미터</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_linedecoration.ui" line="101"/>
         <source>Map unit</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <source>Change</source>
@@ -61883,19 +61883,19 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/ui/symbollayer/widget_linepatternfill.ui" line="110"/>
         <location filename="../src/ui/symbollayer/widget_linepatternfill.ui" line="154"/>
         <source>Millimeter</source>
-        <translation type="unfinished">밀리미터</translation>
+        <translation>밀리미터</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_linepatternfill.ui" line="74"/>
         <location filename="../src/ui/symbollayer/widget_linepatternfill.ui" line="115"/>
         <location filename="../src/ui/symbollayer/widget_linepatternfill.ui" line="159"/>
         <source>Map unit</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_linepatternfill.ui" line="84"/>
         <source>Line width</source>
-        <translation>선 두깨</translation>
+        <translation>선 두께</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_linepatternfill.ui" line="169"/>
@@ -61905,7 +61905,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_linepatternfill.ui" line="201"/>
         <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>미리 정의된 속성...</translation>
     </message>
     <message>
         <source>Change</source>
@@ -61918,7 +61918,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_linepatternfill.ui" line="125"/>
         <source>Offset</source>
-        <translation>옵셋</translation>
+        <translation>오프셋</translation>
     </message>
 </context>
 <context>
@@ -61959,13 +61959,13 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/ui/symbollayer/widget_markerline.ui" line="73"/>
         <location filename="../src/ui/symbollayer/widget_markerline.ui" line="172"/>
         <source>Millimeter</source>
-        <translation type="unfinished">밀리미터</translation>
+        <translation>밀리미터</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_markerline.ui" line="78"/>
         <location filename="../src/ui/symbollayer/widget_markerline.ui" line="177"/>
         <source>Map unit</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_markerline.ui" line="88"/>
@@ -61990,7 +61990,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_markerline.ui" line="141"/>
         <source>Data defined properties</source>
-        <translation type="unfinished">데이터에 따른 속성</translation>
+        <translation>미리 정의된 속성</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_markerline.ui" line="109"/>
@@ -62024,7 +62024,7 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/ui/symbollayer/widget_pointpatternfill.ui" line="140"/>
         <location filename="../src/ui/symbollayer/widget_pointpatternfill.ui" line="181"/>
         <source>Millimeter</source>
-        <translation type="unfinished">밀리미터</translation>
+        <translation>밀리미터</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_pointpatternfill.ui" line="63"/>
@@ -62032,7 +62032,7 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/ui/symbollayer/widget_pointpatternfill.ui" line="145"/>
         <location filename="../src/ui/symbollayer/widget_pointpatternfill.ui" line="186"/>
         <source>Map unit</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_pointpatternfill.ui" line="73"/>
@@ -62052,7 +62052,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_pointpatternfill.ui" line="202"/>
         <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>미리 정의된 속성...</translation>
     </message>
 </context>
 <context>
@@ -62071,13 +62071,13 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/ui/symbollayer/widget_svgfill.ui" line="124"/>
         <location filename="../src/ui/symbollayer/widget_svgfill.ui" line="264"/>
         <source>Millimeter</source>
-        <translation type="unfinished">밀리미터</translation>
+        <translation>밀리미터</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgfill.ui" line="129"/>
         <location filename="../src/ui/symbollayer/widget_svgfill.ui" line="269"/>
         <source>Map unit</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgfill.ui" line="139"/>
@@ -62087,22 +62087,22 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgfill.ui" line="153"/>
         <source>Colors</source>
-        <translation type="unfinished">색상</translation>
+        <translation>색상</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgfill.ui" line="168"/>
         <source>Fill</source>
-        <translation type="unfinished">채우기</translation>
+        <translation>채우기</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgfill.ui" line="200"/>
         <source>Border</source>
-        <translation type="unfinished">테두리</translation>
+        <translation>테두리</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgfill.ui" line="285"/>
         <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>미리 정의된 속성...</translation>
     </message>
     <message>
         <source>Color</source>
@@ -62128,12 +62128,12 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgfill.ui" line="25"/>
         <source>SVG Groups</source>
-        <translation type="unfinished"></translation>
+        <translation>SVG그룹</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgfill.ui" line="32"/>
         <source>SVG Symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>SVG심볼</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgfill.ui" line="78"/>
@@ -62164,7 +62164,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplefill.ui" line="32"/>
         <source>Colors</source>
-        <translation type="unfinished">색상</translation>
+        <translation>색상</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplefill.ui" line="49"/>
@@ -62180,13 +62180,13 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/ui/symbollayer/widget_simplefill.ui" line="85"/>
         <location filename="../src/ui/symbollayer/widget_simplefill.ui" line="148"/>
         <source>Millimeter</source>
-        <translation type="unfinished">밀리미터</translation>
+        <translation>밀리미터</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplefill.ui" line="90"/>
         <location filename="../src/ui/symbollayer/widget_simplefill.ui" line="153"/>
         <source>Map unit</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplefill.ui" line="100"/>
@@ -62196,17 +62196,17 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplefill.ui" line="169"/>
         <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>미리 정의된 속성...</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplefill.ui" line="184"/>
         <source>Fill</source>
-        <translation type="unfinished">채우기</translation>
+        <translation>채우기</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplefill.ui" line="216"/>
         <source>Border</source>
-        <translation type="unfinished">테두리</translation>
+        <translation>테두리</translation>
     </message>
     <message>
         <source>Change</source>
@@ -62235,14 +62235,14 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/ui/symbollayer/widget_simpleline.ui" line="155"/>
         <location filename="../src/ui/symbollayer/widget_simpleline.ui" line="229"/>
         <source>Millimeter</source>
-        <translation type="unfinished">밀리미터</translation>
+        <translation>밀리미터</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simpleline.ui" line="107"/>
         <location filename="../src/ui/symbollayer/widget_simpleline.ui" line="160"/>
         <location filename="../src/ui/symbollayer/widget_simpleline.ui" line="234"/>
         <source>Map unit</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simpleline.ui" line="117"/>
@@ -62272,12 +62272,12 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_simpleline.ui" line="221"/>
         <source>Dash pattern unit</source>
-        <translation type="unfinished"></translation>
+        <translation>대시 패턴 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simpleline.ui" line="248"/>
         <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>미리 정의된 속성...</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simpleline.ui" line="205"/>
@@ -62303,12 +62303,12 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="36"/>
         <source>Fill</source>
-        <translation type="unfinished">채우기</translation>
+        <translation>채우기</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="68"/>
         <source>Border</source>
-        <translation type="unfinished">테두리</translation>
+        <translation>테두리</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="109"/>
@@ -62320,19 +62320,19 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="173"/>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="253"/>
         <source>Millimeter</source>
-        <translation type="unfinished">밀리미터</translation>
+        <translation>밀리미터</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="143"/>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="178"/>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="258"/>
         <source>Map unit</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="153"/>
         <source>Outline width</source>
-        <translation type="unfinished">외곽선 폭</translation>
+        <translation>외곽선 폭</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="188"/>
@@ -62342,7 +62342,7 @@ Would you like to add the new layer to the TOC?</source>
     <message utf8="true">
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="195"/>
         <source> °</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="211"/>
@@ -62352,12 +62352,12 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="274"/>
         <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>미리 정의된 속성...</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_simplemarker.ui" line="281"/>
         <source>Colors</source>
-        <translation type="unfinished">색상</translation>
+        <translation>색상</translation>
     </message>
     <message>
         <source>Change</source>
@@ -62381,14 +62381,14 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="299"/>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="362"/>
         <source>Millimeter</source>
-        <translation type="unfinished">밀리미터</translation>
+        <translation>밀리미터</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="158"/>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="304"/>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="367"/>
         <source>Map unit</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="168"/>
@@ -62398,17 +62398,17 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="188"/>
         <source>Colors</source>
-        <translation type="unfinished">색상</translation>
+        <translation>색상</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="203"/>
         <source>Fill</source>
-        <translation type="unfinished">채우기</translation>
+        <translation>채우기</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="235"/>
         <source>Border</source>
-        <translation type="unfinished">테두리</translation>
+        <translation>테두리</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="314"/>
@@ -62418,7 +62418,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="383"/>
         <source>Data defined properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>미리 정의된 속성...</translation>
     </message>
     <message>
         <source>Change</source>
@@ -62440,7 +62440,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="93"/>
         <source>SVG Groups</source>
-        <translation type="unfinished"></translation>
+        <translation>SVG그룹</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgmarker.ui" line="100"/>
@@ -62458,32 +62458,32 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgselector.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>양식</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgselector.ui" line="23"/>
         <source>SVG Images</source>
-        <translation type="unfinished"></translation>
+        <translation>SVG이미지</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgselector.ui" line="30"/>
         <source>SVG Groups</source>
-        <translation type="unfinished"></translation>
+        <translation>SVG그룹</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgselector.ui" line="110"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgselector.ui" line="117"/>
         <source>Generated path will be relative to current SVG search directories or to Project file</source>
-        <translation type="unfinished"></translation>
+        <translation>생성된 경로는 현재 SVG 검색 디렉토리나 프로젝트 파일에 대한 상대적 경로이다</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_svgselector.ui" line="120"/>
         <source>Relative path</source>
-        <translation type="unfinished"></translation>
+        <translation>상대 경로</translation>
     </message>
 </context>
 <context>
@@ -62526,17 +62526,17 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_vectorfield.ui" line="86"/>
         <source>Distance unit</source>
-        <translation type="unfinished">거리 단위</translation>
+        <translation>거리 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_vectorfield.ui" line="100"/>
         <source>Millimeter</source>
-        <translation type="unfinished">밀리미터</translation>
+        <translation>밀리미터</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_vectorfield.ui" line="105"/>
         <source>Map unit</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_vectorfield.ui" line="146"/>
@@ -62600,59 +62600,59 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/plugins/topology/checkDock.ui" line="14"/>
         <source>Topology Checker</source>
-        <translation type="unfinished"></translation>
+        <translation>토폴로지 검사</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.ui" line="41"/>
         <source>Validate All</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 유효성 검사</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.ui" line="48"/>
         <source>Validate Extent</source>
-        <translation type="unfinished"></translation>
+        <translation>제한된 유효성 검사</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.ui" line="72"/>
         <source>Topology not checked yet</source>
-        <translation type="unfinished"></translation>
+        <translation>토폴로지가 아직 검사되지 않음</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.ui" line="30"/>
         <source>Configure</source>
-        <translation type="unfinished"></translation>
+        <translation>설정</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.ui" line="59"/>
         <source>Show topology errors</source>
-        <translation type="unfinished"></translation>
+        <translation>토폴로지 오류를 나타냄</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.ui" line="62"/>
         <source>Show errors</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 보기</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.ui" line="84"/>
         <location filename="../src/plugins/topology/checkDock.cpp" line="212"/>
         <source>Select automatic fix</source>
-        <translation type="unfinished"></translation>
+        <translation>자동 오류 수정</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.ui" line="92"/>
         <source>Fix!</source>
-        <translation type="unfinished"></translation>
+        <translation>수정!</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="172"/>
         <location filename="../src/plugins/topology/checkDock.cpp" line="191"/>
         <source>No errors were found</source>
-        <translation type="unfinished"></translation>
+        <translation>발견된 에러 없음</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="219"/>
         <source>Invalid first layer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 첫 번째 레이어</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="219"/>
@@ -62662,18 +62662,18 @@ Would you like to add the new layer to the TOC?</source>
         <location filename="../src/plugins/topology/checkDock.cpp" line="281"/>
         <location filename="../src/plugins/topology/checkDock.cpp" line="336"/>
         <source>Topology plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>토폴로지 플러그인</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="229"/>
         <source>Invalid first geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>첫 번째 지오메트리가 잘못됨</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="230"/>
         <location filename="../src/plugins/topology/checkDock.cpp" line="263"/>
         <source>Topology test</source>
-        <translation type="unfinished"></translation>
+        <translation>토폴로지 시험</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="230"/>
@@ -62681,48 +62681,48 @@ Would you like to add the new layer to the TOC?</source>
         <source>Feature not found in the layer.
 The layer has probably changed.
 Run topology check again.</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어에서 객체를 발견할 수 없습니다. 이 레이어는 아마 변경되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="253"/>
         <source>Invalid second layer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 두 번째 레이어</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="262"/>
         <source>Invalid second geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>잘 못된 두번째 지오메트리</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="281"/>
         <source>Invalid conflict</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 충돌</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="317"/>
         <location filename="../src/plugins/topology/checkDock.cpp" line="402"/>
         <source>%1 errors were found</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 에러 발견</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="321"/>
         <source>Topology fix error</source>
-        <translation type="unfinished"></translation>
+        <translation>토폴로지 수정 에러</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="321"/>
         <source>Fixing failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>수정 실패!</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="336"/>
         <source>Layer %1 not found in registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 레이어는 레리스트리에서 발견되지 않았습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/checkDock.cpp" line="346"/>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>정보</translation>
     </message>
 </context>
 <context>
@@ -62731,7 +62731,7 @@ Run topology check again.</source>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="11"/>
         <source>&lt;h3&gt;Database connection&lt;/h3&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스 연결</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="13"/>
@@ -62773,7 +62773,44 @@ On this tab you can search for WMS servers. It is possible to enter a search-str
 To visualize the results, select an table entry, press the &lt;label&gt;Add selected row to WMS list&lt;/label&gt; button and change back to the &lt;label&gt;Servers&lt;/label&gt; tab.&lt;p&gt;
 You only need to request the list of layers by clicking the &lt;label&gt;Connect&lt;/label&gt; button.
 </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">
+fTools의 목적은 많은 일반적인 벡터 기반 GIS 작업을 위해 추가 소프트웨어 또는 라이브러리 또는 복잡한 해결 방법을 이용하지 않고 원스톱 리소스를 제공하는 것입니다.
+
+fTools은 QGIS의 핵심 기능과 python 라이브러리만을 이용한 QuantumGIS 확장하도록 설계되어 있습니다. 급속히 기능이 증가하고 있는 공간 데이터 관리 및 분석 기능을 제공합니다. 또한 Dr. Horst Duester and Stefan Ziegler의 지오프로세싱 기능이 통합되어 GIS 기반의 조사와 분석을 보다 효율적으로 사용할 수 있습니다.
+
+버그 보고와 조언을 주시면 fTools은 발전할 것입니다. 질문이 있으시면 carson.farmer@gmail.com으로 이메일을 주십시오.
+
+LICENSING INFORMATION:
+fTools is copyright (C) 2009 Carson J. Q. Farmer
+Geoprocessing functions adapted from &apos;Geoprocessing Plugin&apos;
+(C) 2008 by Dr. Horst Duester, Stefan Ziegler
+
+licensed under the terms of GNU GPL 2
+This program is free software; you can redistribute it and / or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc. 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+fTools 개발자:
+Carson J. Q. Farmer
+Alexander Bruy
+** 만약 당신이 fTools 코드에 기여하셨는데 당신의 이름을 여기에 없다면 연락을 해주십시오. 당신의 이름을 추가해 드리겠습니다.
+
+감사의 말:
+다음 사람들은 (그들이 알고 있자가 않든) 아이디어, 도움말, 테스트, 코드와 방향제시로 프로젝트에 기여해 주었습니다. 감사합니다.
+Hawthorn Beyer
+Borys Jurgiel
+Tim Sutton
+Barry Rowlingson
+Horst Duester and Stefan Ziegler
+Paolo Cavallini
+Aaron Racicot
+Colin Robertson
+Agustin Lobo
+Jurgen E. Fischer
+QGis developer and user communities
+Folks on # qgis at freenode.net
+All those who have reported bugs / fixes / suggestions / comments / etc.
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="51"/>
@@ -65324,7 +65361,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>QGIS version detected: </source>
-        <translation type="unfinished"></translation>
+        <translation>발견된 QGIS 버전:</translation>
     </message>
     <message>
         <source>&amp;Analysis Tools</source>
@@ -65432,7 +65469,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Eliminate sliver polygons</source>
-        <translation type="unfinished"></translation>
+        <translation>틈 폴리곤 제거</translation>
     </message>
     <message>
         <source>G&amp;eometry Tools</source>
@@ -67504,11 +67541,11 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Point x ordinate</source>
-        <translation type="unfinished"></translation>
+        <translation>점 x 좌표</translation>
     </message>
     <message>
         <source>Point y ordinate</source>
-        <translation type="unfinished"></translation>
+        <translation>점 y 좌표</translation>
     </message>
     <message>
         <source>Point x coordinate</source>
@@ -67524,7 +67561,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <source>Following field names are longer than 10 characters:
 %s</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 필드 이름이 10글자 이상임: %s</translation>
     </message>
 </context>
 <context>
@@ -67792,7 +67829,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="59"/>
         <source>Change the type of bridges connecting area and island or 2 islands from boundary to line</source>
-        <translation>영역과 하나 이상의 아이슬랜드 사이의 브리지 유형을 바운더리에서 선으로 변경합니다.</translation>
+        <translation>영역과 하나 이상의 아이슬랜드 사이의 브리지 유형을 바운더리에서 선으로 변경</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="60"/>
@@ -67861,7 +67898,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="72"/>
         <source>Convert 2D vector to 3D vector by sampling of elevation raster. Default sampling by nearest neighbour</source>
-        <translation>고도 래스터를 샘플링하여 2D 벡터를 3D 벡터로 변환합니다. 기본 샘플링은 최근린 방법입니다.</translation>
+        <translation>고도 래스터를 샘플링하여 2D 벡터를 3D 벡터로 변환합니다. 기본 샘플링은 최근린 방법임</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="73"/>
@@ -67875,7 +67912,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="74"/>
         <source>Convert a raster to vector within GRASS</source>
-        <translation>GRASS를 이용하여 래스터를 벡터로 변환합니다.</translation>
+        <translation>GRASS를 이용하여 래스터를 벡터로 변환</translation>
     </message>
     <message>
         <source>Convert a vector to raster</source>
@@ -67884,7 +67921,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="75"/>
         <source>Convert a vector to raster within GRASS</source>
-        <translation>GRASS를 이용하여 벡터를 래스터로 변환합니다.</translation>
+        <translation>GRASS를 이용하여 벡터를 래스터로 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="76"/>
@@ -67984,7 +68021,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="95"/>
         <source>Create a raster plane</source>
-        <translation>래스터 면 만들기.</translation>
+        <translation>래스터 면 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="96"/>
@@ -68109,7 +68146,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="120"/>
         <source>Create random raster</source>
-        <translation type="unfinished"></translation>
+        <translation>무작위 래스터 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="121"/>
@@ -68283,22 +68320,22 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="154"/>
         <source>Display projection information from PROJ.4 projection description file and create a new location based on it</source>
-        <translation>PROJ.4 투영 설명 파일의 투영 정보를 표시하고 그 정보를 기반으로 새 위치를 만듭니다.</translation>
+        <translation>PROJ.4 투영 설명 파일의 투영 정보를 표시하고 그 정보를 기반으로 새 위치를 만듦</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="155"/>
         <source>Display projection information from a georeferenced file (raster, vector or image) and create a new location based on it</source>
-        <translation>지리 참조 파일(래스터, 벡터 또는 이미지)의 투영 정보를 표시하고 그 정보를 기반으로 새 위치를 만듭니다.</translation>
+        <translation>지리 참조 파일(래스터, 벡터 또는 이미지)의 투영 정보를 표시하고 그 정보를 기반으로 새 위치를 만듦</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="156"/>
         <source>Display projection information from georeferenced ASCII file containing WKT projection description</source>
-        <translation>WKT(well known text)를 포함한 지리 참조 된 ASCII 파일의 투영 정보를 표시합니다.</translation>
+        <translation>WKT(well known text)를 포함한 지리 참조 된 ASCII 파일의 투영 정보를 표시</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="157"/>
         <source>Display projection information from georeferenced ASCII file containing WKT projection description and create a new location based on it</source>
-        <translation>WKT(well known text)를 포함한 지리 참조 된 ASCII 파일의 투영 정보를 표시하고 그 정보를 기반으로 새 위치를 만듭니다.</translation>
+        <translation>WKT(well known text)를 포함한 지리 참조 된 ASCII 파일의 투영 정보를 표시하고 그 정보를 기반으로 새 위치를 만듦</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="158"/>
@@ -68475,27 +68512,27 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="220"/>
         <source>Generate raster of cumulative cost of moving between locations based on cost input raster and starting point(s) coordinates</source>
-        <translation>입력 래스터 비용과 시작점의 좌표 사이의 이동의 누적 비용 래스터를 만듭니다.</translation>
+        <translation>입력 래스터 비용과 시작점의 좌표 사이의 이동의 누적 비용 래스터를 만듦</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="221"/>
         <source>Generate raster of cumulative cost of moving between locations based on cost input raster and starting point(s) raster</source>
-        <translation>입력 래스터 비용과 시작점 래스터 사이의 이동의 누적 비용 래스터를 만듭니다.</translation>
+        <translation>입력 래스터 비용과 시작점 래스터 사이의 이동의 누적 비용 래스터를 만듦</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="222"/>
         <source>Generate raster of cumulative cost of moving between locations based on cost input raster and starting point(s) vector</source>
-        <translation>입력 래스터 비용과 시작점 벡터 사이의 이동의 누적 비용 래스터를 만듭니다.</translation>
+        <translation>입력 래스터 비용과 시작점 벡터 사이의 이동의 누적 비용 래스터를 만듦</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="223"/>
         <source>Generate raster of cumulative cost of moving between locations, based on elevation and friction input rasters and starting point(s) coordinates</source>
-        <translation>입력 래스터 비용과 시작점의 좌표 사이의 표고와 간섭의 이동 누적 비용 래스터를 만듭니다.</translation>
+        <translation>입력 래스터 비용과 시작점의 좌표 사이의 표고와 간섭의 이동 누적 비용 래스터를 만듦</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="224"/>
         <source>Generate raster of cumulative cost of moving between locations, based on elevation and friction input rasters and starting point(s) vector</source>
-        <translation>입력 래스터 비용과 시작점 벡터 사이의 표고와 간섭의 이동 누적 비용 래스터를 만듭니다.</translation>
+        <translation>입력 래스터 비용과 시작점 벡터 사이의 표고와 간섭의 이동 누적 비용 래스터를 만듦</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="227"/>
@@ -68658,7 +68695,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="214"/>
         <source>Find nearest element in vector &apos;to&apos; for elements in vector &apos;from&apos;. Various information about this relation may be uploaded to attribute table of input vector &apos;from&apos;</source>
-        <translation>벡터 &apos;from&apos;의 요소에 대해 &apos;to&apos; 벡터에 가장 가까운 요소를 찾습니다. 이 관계에 대한 각종 정보 &apos;from&apos; 입력 벡터의 테이블을 속성으로 업로드 수 있습니다.</translation>
+        <translation>벡터 &apos;from&apos;의 요소에 대해 &apos;to&apos; 벡터에 가장 가까운 요소를 찾습니다. 이 관계에 대한 각종 정보 &apos;from&apos; 입력 벡터의 테이블을 속성으로 업로드 할 수 있음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="215"/>
@@ -69218,7 +69255,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="325"/>
         <source>Randomly partition points into test/train sets</source>
-        <translation>무작위로 나누어진 점군 테스트/트레이닝 세트에 배치합니다.</translation>
+        <translation>무작위로 나누어진 점군 테스트/트레이닝 세트에 배치</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="326"/>
@@ -69258,7 +69295,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="333"/>
         <source>Rebuild topology of all vectors in mapset</source>
-        <translation>지도 세트의 모든 벡터 토폴로지를 재구성합니다.</translation>
+        <translation>지도 세트의 모든 벡터 토폴로지를 재구성</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="334"/>
@@ -69268,42 +69305,42 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="335"/>
         <source>Reclass category values</source>
-        <translation>카테고리 값을 다시 분류합니다.</translation>
+        <translation>카테고리 값을 재분류</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="336"/>
         <source>Reclass category values using a column attribute (integer positive)</source>
-        <translation>컬럼의 속성 값(양의 정수)을 이용하여 카테고리 값을 다시 분류합니다.</translation>
+        <translation>컬럼의 속성 값(양의 정수)을 이용하여 카테고리 값을 재분류</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="337"/>
         <source>Reclass category values using a rules file</source>
-        <translation>규칙 파일을 이용하여 카테고리 값을 다시 분류합니다.</translation>
+        <translation>규칙 파일을 이용하여 카테고리 값을 재분류</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="338"/>
         <source>Reclass raster using reclassification rules</source>
-        <translation>재분류 규칙을 사용하여 래스터를 다시 분류합니다.</translation>
+        <translation>재분류 규칙을 사용하여 래스터를 재분류</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="339"/>
         <source>Reclass raster with patches larger than user-defined area size (in hectares)</source>
-        <translation>사용자가 정의한 영역 크기(헥타르)보다 큰 조각의 래스터를 재분류합니다.</translation>
+        <translation>사용자가 정의한 영역 크기(헥타르)보다 큰 조각의 래스터를 재분류</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="340"/>
         <source>Reclass raster with patches smaller than user-defined area size (in hectares)</source>
-        <translation>사용자가 정의한 영역 크기(헥타르)보다 작은 조각의 래스터를 재분류합니다.</translation>
+        <translation>사용자가 정의한 영역 크기(헥타르)보다 작은 조각의 래스터를 재분류</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="341"/>
         <source>Reclassify raster greater or less than user-defined area size (in hectares)</source>
-        <translation>사용자가 정의한 영역 크기(헥타르)보다 큰 또는 작은 크기로 래스터를 재분류합니다.</translation>
+        <translation>사용자가 정의한 영역 크기(헥타르)보다 큰 또는 작은 크기로 래스터를 재분류</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="342"/>
         <source>Recode categorical raster using reclassification rules</source>
-        <translation>재분류 규칙을 이용하여 분류한 ​​래스터를 다시 코딩합니다.</translation>
+        <translation>재분류 규칙을 이용하여 분류한 ​​래스터를 다시 코딩</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="343"/>
@@ -69337,22 +69374,22 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="348"/>
         <source>Regularized spline with tension raster interpolation based on vector points</source>
-        <translation>래스터의 장력을 이용한 정규화된 스플라인 벡터 점에 따라 보간합니다.</translation>
+        <translation>래스터의 장력을 이용한 정규화된 스플라인 벡터 점에 따라 보간</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="349"/>
         <source>Reinterpolate and compute topographic analysis using regularized spline with tension and smoothing</source>
-        <translation>재보간과 텐션과 스무딩을 이용한 정규화 스플라인에 의한 토폴로지 분석을 계산합니다.</translation>
+        <translation>재보간과 텐션과 스무딩을 이용한 정규화 스플라인에 의한 토폴로지 분석을 계산</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="350"/>
         <source>Remove all lines or boundaries of zero length</source>
-        <translation>둘레가 0 인 모든 선을 삭제합니다.</translation>
+        <translation>둘레가 0 인 모든 선을 삭제</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="351"/>
         <source>Remove bridges connecting area and island or 2 islands</source>
-        <translation>영역과 섬, 또는 2 개의 섬 사이에 다리를 제거합니다.</translation>
+        <translation>영역과 섬, 또는 2 개의 섬 사이에 다리를 제거</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="352"/>
@@ -69392,7 +69429,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="359"/>
         <source>Remove vertices in threshold from lines and boundaries, boundary is pruned only if topology is not damaged (new intersection, changed attachement of centroid), first and last segment of the boundary is never changed</source>
-        <translation>선과 외곽선에서 임계값 내의 버텍스를 삭제합니다. 외곽선은 토폴로지가 손상(새로은 교차, 센트로이드 부착 변경)되지 않는 경우에만 잘라낼 수 있습니다. 외곽선의 처음과 마지막 세그먼트는 변경되지 않습니다.</translation>
+        <translation>선과 외곽선에서 임계값 내의 버텍스를 삭제합니다. 외곽선은 토폴로지가 손상(새로은 교차, 센트로이드 부착 변경)되지 않는 경우에만 잘라낼 수 있습니다. 외곽선의 처음과 마지막 세그먼트는 변경되지 않음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="360"/>
@@ -69446,7 +69483,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="368"/>
         <source>Rescale the range of category values in raster</source>
-        <translation>래스터의 분류 값을 다시 조절합니다.</translation>
+        <translation>래스터의 분류 값을 재 설정</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="369"/>
@@ -69526,12 +69563,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="384"/>
         <source>Set raster color table from existing raster</source>
-        <translation>기존 래스터 값으로 래스터 색상표를 설정합니다.</translation>
+        <translation>기존 래스터 값으로 래스터 색상표를 설정</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="385"/>
         <source>Set raster color table from setted tables</source>
-        <translation>설정된 테이블의 값을 사용하여 래스터 색상표를 설정합니다.</translation>
+        <translation>설정된 테이블의 값을 사용하여 래스터 색상표를 설정</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="386"/>
@@ -69631,12 +69668,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="405"/>
         <source>Tabulate mutual occurrence (coincidence) of categories for two rasters</source>
-        <translation>두 래스터 사이에 분류가 서로 일치하는 목록을 만듭니다.</translation>
+        <translation>두 래스터 사이에 분류가 서로 일치하는 목록을 만듦</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="406"/>
         <source>Take vector stream data, transform it to raster, and subtract depth from the output DEM</source>
-        <translation>벡터 스트림 데이터를 검색하여 래스터로 변환합니다. 그리고 출력 DEM에서 깊이를 뺍니다.</translation>
+        <translation>벡터 스트림 데이터를 검색하여 래스터로 변환합니다. 그리고 출력 DEM에서 깊이를 뺌</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="407"/>
@@ -69816,7 +69853,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="442"/>
         <source>Which column for the Z coordinate? If 0, z coordinate is not used</source>
-        <translation>Z 좌표 컬럼이 무엇입니까? 만약 값이 0이면 z 좌표는 사용되지 않습니다.</translation>
+        <translation>Z 좌표 컬럼이 무엇입니까? 만약 값이 0이면 z 좌표는 사용되지 않음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="443"/>
@@ -69831,7 +69868,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="445"/>
         <source>Zero-crossing edge detection raster function for image processing</source>
-        <translation>이미지 처리를 위한 래스터 기능 제로 교차 에지가 감지되었습니다.</translation>
+        <translation>이미지 처리를 위한 래스터 기능 제로 교차 에지가 감지됨</translation>
     </message>
 </context>
 <context>
