@@ -21058,40 +21058,40 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="60"/>
         <source>Decimal</source>
-        <translation type="unfinished"></translation>
+        <translation>10진</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="61"/>
         <source>DegreeMinute</source>
-        <translation type="unfinished"></translation>
+        <translation>도분</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="62"/>
         <source>DegreeMinuteSecond</source>
-        <translation type="unfinished"></translation>
+        <translation>도분초</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="74"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="343"/>
         <source>No frame</source>
-        <translation type="unfinished"></translation>
+        <translation>프레임없음</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="75"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="339"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="872"/>
         <source>Zebra</source>
-        <translation type="unfinished"></translation>
+        <translation>제브라</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="366"/>
         <source>Select font color</source>
-        <translation type="unfinished">글꼴 색상 선택</translation>
+        <translation>글꼴 색상 선택</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="757"/>
         <source>Label font changed</source>
-        <translation type="unfinished">라벨 글꼴이 변경되었습니다.</translation>
+        <translation>라벨 글꼴이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="912"/>
@@ -21138,47 +21138,47 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="146"/>
         <source>Map scale changed</source>
-        <translation>지도 스케일이 변경되었습니다.</translation>
+        <translation>지도 스케일이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="158"/>
         <source>Map rotation changed</source>
-        <translation>지도 회전이 변경되었습니다.</translation>
+        <translation>지도 회전이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="199"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="410"/>
         <source>Map extent changed</source>
-        <translation>지도 영역이 변경되었습니다.</translation>
+        <translation>지도 영역이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="505"/>
         <source>Canvas items toggled</source>
-        <translation>캔버스 항목이 전환되었습니다.</translation>
+        <translation>캔버스 항목이 전환되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="522"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="1039"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="1063"/>
         <source>None</source>
-        <translation type="unfinished">없음</translation>
+        <translation>없음</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="601"/>
         <source>Grid checkbox toggled</source>
-        <translation>그리드 체크박스가 전환되었습니다.</translation>
+        <translation>격자 체크박스가 전환되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="622"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="635"/>
         <source>Grid interval changed</source>
-        <translation>격자 간격이 변경되었습니다.</translation>
+        <translation>격자 간격이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="648"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="661"/>
         <source>Grid offset changed</source>
-        <translation>그리드 오프셋이 변경되었습니다.</translation>
+        <translation>격자 오프셋이 변경되었습니다</translation>
     </message>
     <message>
         <source>Grid pen changed</source>
@@ -21187,54 +21187,54 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="699"/>
         <source>Grid type changed</source>
-        <translation>그리드 유형이 변경되었습니다.</translation>
+        <translation>격자 유형이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="711"/>
         <source>Grid cross width changed</source>
-        <translation>그리드의 십자선 두께가 변경되었습니다.</translation>
+        <translation>격자의 십자선 두께가 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="743"/>
         <source>Annotation font changed</source>
-        <translation>주기 글꼴이 변경되었습니다.</translation>
+        <translation>주석 글꼴이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="769"/>
         <source>Annotation distance changed</source>
-        <translation>주기 거리가 변경되었습니다.</translation>
+        <translation>주석 거리가 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="783"/>
         <source>Annotation format changed</source>
-        <translation type="unfinished"></translation>
+        <translation>주석 양식이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="871"/>
         <source>Changed grid frame style</source>
-        <translation type="unfinished"></translation>
+        <translation>격자 프레임 스타일이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="889"/>
         <source>Changed grid frame width</source>
-        <translation type="unfinished"></translation>
+        <translation>격자 프레임 폭이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="914"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="935"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="987"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>사용금지</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="930"/>
         <source>Annotation position changed</source>
-        <translation>주기 위치가 변경되었습니다.</translation>
+        <translation>주석 위치가 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="1052"/>
         <source>Map %1</source>
-        <translation type="unfinished">지도 %1</translation>
+        <translation>지도 %1</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="817"/>
