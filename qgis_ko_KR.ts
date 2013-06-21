@@ -21564,7 +21564,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/composer/qgscomposerpicturewidget.cpp" line="116"/>
         <location filename="../src/app/composer/qgscomposerpicturewidget.cpp" line="144"/>
         <source>Picture changed</source>
-        <translation>픽처가 변경되었습니다.</translation>
+        <translation>픽처가 변경되었습니다</translation>
     </message>
     <message>
         <source>Picture width changed</source>
@@ -21577,7 +21577,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerpicturewidget.cpp" line="128"/>
         <source>Picture rotation changed</source>
-        <translation>픽처 회전이 변경되었습니다.</translation>
+        <translation>픽처 회전이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerpicturewidget.cpp" line="154"/>
@@ -21587,12 +21587,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerpicturewidget.cpp" line="209"/>
         <source>Rotation synchronisation toggled</source>
-        <translation>회전 동기화가 전환되었습니다.</translation>
+        <translation>회전 동기화가 전환되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerpicturewidget.cpp" line="268"/>
         <source>Rotation map changed</source>
-        <translation>지도 회전이 변경되었습니다.</translation>
+        <translation>지도 회전이 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerpicturewidget.cpp" line="292"/>
