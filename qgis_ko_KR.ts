@@ -19332,43 +19332,43 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="57"/>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>주요 속성</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="75"/>
         <source>Line width</source>
-        <translation type="unfinished"></translation>
+        <translation>라인  width</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="85"/>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="102"/>
         <source> mm</source>
-        <translation type="unfinished"> mm</translation>
+        <translation> mm</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="92"/>
         <source>Arrow head width</source>
-        <translation type="unfinished"></translation>
+        <translation>화살표  head width</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="115"/>
         <source>Color...</source>
-        <translation type="unfinished">색상...</translation>
+        <translation>색상...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="145"/>
         <source>Default</source>
-        <translation type="unfinished">기본</translation>
+        <translation>기본</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="152"/>
         <source>None</source>
-        <translation type="unfinished">없음</translation>
+        <translation>없음</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="159"/>
         <source>SVG</source>
-        <translation type="unfinished"></translation>
+        <translation>SVG</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="168"/>
@@ -19477,42 +19477,42 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="51"/>
         <source>Composer</source>
-        <translation type="unfinished">구성</translation>
+        <translation>컴포져</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="76"/>
         <source>Paper Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>페이퍼 네비게이션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="91"/>
         <source>Composer Item Actions</source>
-        <translation type="unfinished"></translation>
+        <translation>컴포져 아이템 액션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="106"/>
         <source>Composer Items</source>
-        <translation type="unfinished"></translation>
+        <translation>컴포져 아이템</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="135"/>
         <source>Ctrl+P</source>
-        <translation type="unfinished">Ctrl+P</translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="147"/>
         <source>Zoom full</source>
-        <translation type="unfinished"></translation>
+        <translation>전체보기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="159"/>
         <source>Zoom in</source>
-        <translation type="unfinished">확대</translation>
+        <translation>확대</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="171"/>
         <source>Zoom out</source>
-        <translation type="unfinished">축소</translation>
+        <translation>축소</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="180"/>
@@ -19541,7 +19541,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="231"/>
         <source>Export as image</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지로 내보내기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="240"/>
@@ -19566,7 +19566,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="285"/>
         <source>Add image</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="290"/>
@@ -19641,112 +19641,112 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="346"/>
         <source>Load from Template</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿 불러오기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="349"/>
         <source>Load from template</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿 불러오기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="354"/>
         <source>Save as Template</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿으로 저장하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="362"/>
         <source>Align Left</source>
-        <translation type="unfinished"></translation>
+        <translation>왼쪽 정렬</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="370"/>
         <source>Align Center</source>
-        <translation type="unfinished"></translation>
+        <translation>가운데 정렬</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="378"/>
         <source>Align Right</source>
-        <translation type="unfinished"></translation>
+        <translation>오른쪽 정렬</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="386"/>
         <source>Align Top</source>
-        <translation type="unfinished"></translation>
+        <translation>상단 정렬</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="402"/>
         <source>Align Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>아래 정렬</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="513"/>
         <source>Add ellipse</source>
-        <translation type="unfinished"></translation>
+        <translation>엘립스 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="521"/>
         <source>Add HTML</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="529"/>
         <source>Composer Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>컴포져 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="532"/>
         <source>Composer manager</source>
-        <translation type="unfinished">구성 관리자</translation>
+        <translation>컴포져 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="537"/>
         <source>&amp;New Composer</source>
-        <translation type="unfinished"></translation>
+        <translation>새로운 컴포져(&amp;N)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="540"/>
         <source>New composer</source>
-        <translation type="unfinished"></translation>
+        <translation>새로운 컴포져</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="543"/>
         <source>Ctrl+N</source>
-        <translation type="unfinished">Ctrl+N</translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="548"/>
         <source>&amp;Save Project</source>
-        <translation type="unfinished">프로젝트 저장(&amp;S)</translation>
+        <translation>프로젝트 저장(&amp;S)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="551"/>
         <source>Save project</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트 저장</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="554"/>
         <source>Ctrl+S</source>
-        <translation type="unfinished">Ctrl+S</translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="559"/>
         <source>&amp;Duplicate Composer</source>
-        <translation type="unfinished"></translation>
+        <translation>컴포져 복제 (&amp;D)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="562"/>
         <source>Duplicate composer</source>
-        <translation type="unfinished"></translation>
+        <translation>컴포져 복제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="567"/>
         <source>New from Template</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿이용하여 새로 만들기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="570"/>
         <source>New from template</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿이용하여 새로 만들기</translation>
     </message>
     <message>
         <source>Load From template</source>
@@ -19796,7 +19796,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="394"/>
         <source>Align Center Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>세로 중앙 정렬</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="397"/>
@@ -19810,7 +19810,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="405"/>
         <source>Align selected items bottom</source>
-        <translation>선택된 아이템을하단 정렬</translation>
+        <translation>선택된 아이템을 하단 정렬</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="410"/>
@@ -19830,27 +19830,27 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="424"/>
         <source>Add Arrow</source>
-        <translation type="unfinished"></translation>
+        <translation>화살표 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="435"/>
         <source>Add Table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="438"/>
         <source>Add attribute table</source>
-        <translation type="unfinished"></translation>
+        <translation>속성테이블 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="446"/>
         <source>Page setup</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지 설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="449"/>
         <source>Ctrl+Shift+P</source>
-        <translation type="unfinished">Ctrl+Shift+P</translation>
+        <translation>Ctrl+Shift+P</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="488"/>
@@ -19860,7 +19860,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="491"/>
         <source>Add rectangle</source>
-        <translation type="unfinished"></translation>
+        <translation>사각형 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="499"/>
@@ -19870,17 +19870,17 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="502"/>
         <source>Add triangle</source>
-        <translation type="unfinished"></translation>
+        <translation>삼각형 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="510"/>
         <source>Add Ellipse</source>
-        <translation>차원 추가</translation>
+        <translation>엘립스 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="524"/>
         <source>Add html frame</source>
-        <translation type="unfinished"></translation>
+        <translation>html 프레임 추가</translation>
     </message>
     <message>
         <source>Add Basic Shape</source>
@@ -20099,58 +20099,58 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="14"/>
         <source>Global Options</source>
-        <translation type="unfinished"></translation>
+        <translation>전역 옵션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="23"/>
         <source>Position and size</source>
-        <translation type="unfinished"></translation>
+        <translation>위치와 크기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="167"/>
         <source>Reference point</source>
-        <translation type="unfinished"></translation>
+        <translation>참조 포인트</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="176"/>
         <source>X</source>
-        <translation type="unfinished">X</translation>
+        <translation>X</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="186"/>
         <source>Y</source>
-        <translation type="unfinished">Y</translation>
+        <translation>Y</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="196"/>
         <source>Width</source>
-        <translation type="unfinished">폭</translation>
+        <translation>폭</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="206"/>
         <source>Height</source>
-        <translation type="unfinished">높이</translation>
+        <translation>높이</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="223"/>
         <source>Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>프레임</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="244"/>
         <source>Thickness</source>
-        <translation type="unfinished"></translation>
+        <translation>굵기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="260"/>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="288"/>
         <source>Color...</source>
-        <translation type="unfinished">색상...</translation>
+        <translation>색상...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="270"/>
         <source>Background</source>
-        <translation type="unfinished">배경</translation>
+        <translation>배경</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="298"/>
@@ -20160,27 +20160,27 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="316"/>
         <source>Uuid (read-only)</source>
-        <translation type="unfinished"></translation>
+        <translation>Uuid(읽기전용)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="333"/>
         <source>Id</source>
-        <translation type="unfinished">Id</translation>
+        <translation>Id</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="343"/>
         <source>Rendering</source>
-        <translation type="unfinished">렌더링</translation>
+        <translation>렌더링</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="361"/>
         <source>Blending mode</source>
-        <translation type="unfinished"></translation>
+        <translation>블렌딩 모드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="371"/>
         <source>Transparency</source>
-        <translation type="unfinished">투명도</translation>
+        <translation>투명도</translation>
     </message>
     <message>
         <source>Position...</source>
@@ -20255,57 +20255,57 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="63"/>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>주 속성들</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="85"/>
         <source>Render as HTML</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML로 표현하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="92"/>
         <source>Insert an expression</source>
-        <translation type="unfinished"></translation>
+        <translation>식 삽입</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="122"/>
         <source>Alignment</source>
-        <translation type="unfinished">정렬</translation>
+        <translation>정렬</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="156"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>세로</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="257"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>가로</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="267"/>
         <source>Display</source>
-        <translation type="unfinished">디스플레이</translation>
+        <translation>디스플레이</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="288"/>
         <source>Margin</source>
-        <translation type="unfinished">여백</translation>
+        <translation>여백</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="298"/>
         <source> mm</source>
-        <translation type="unfinished"> mm</translation>
+        <translation> mm</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="311"/>
         <source>Rotation</source>
-        <translation type="unfinished">회전</translation>
+        <translation>회전</translation>
     </message>
     <message utf8="true">
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="324"/>
         <source> °</source>
-        <translation type="unfinished"></translation>
+        <translation> °</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="105"/>
@@ -20333,7 +20333,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="222"/>
         <source>Center</source>
-        <translation>중앙</translation>
+        <translation>가운데</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="232"/>
@@ -20352,7 +20352,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="175"/>
         <source>Middle</source>
-        <translation>중단</translation>
+        <translation>중앙</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="185"/>
