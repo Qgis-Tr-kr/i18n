@@ -21239,24 +21239,24 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="817"/>
         <source>Annotation toggled</source>
-        <translation>주기가 전환되었습니다.</translation>
+        <translation>주석 전환되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="956"/>
         <source>Changed annotation direction</source>
-        <translation>주기 방향이 변경되었습니다.</translation>
+        <translation>주석 방향이 변경되었습니</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="857"/>
         <source>Changed annotation precision</source>
-        <translation>주기 정밀도가 변경되었습니다.</translation>
+        <translation>주석 정밀도가 변경되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="54"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="116"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="257"/>
         <source>Render</source>
-        <translation>렌더</translation>
+        <translation>표현하기</translation>
     </message>
 </context>
 <context>
@@ -21301,114 +21301,114 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="257"/>
         <source>Show grid</source>
-        <translation type="unfinished">그리드 보기</translation>
+        <translation>격자 보기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="451"/>
         <source>Interval</source>
-        <translation type="unfinished"></translation>
+        <translation>간격</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="307"/>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="350"/>
         <source>X </source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="320"/>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="363"/>
         <source>Y </source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="335"/>
         <source>Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>오프셋</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="424"/>
         <source>Line style</source>
-        <translation type="unfinished"></translation>
+        <translation>라인 스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="434"/>
         <source>change...</source>
-        <translation type="unfinished"></translation>
+        <translation>변경...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="444"/>
         <source>Blend mode</source>
-        <translation type="unfinished"></translation>
+        <translation>블렌드 모드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="469"/>
         <source>Draw coordinates</source>
-        <translation type="unfinished"></translation>
+        <translation>좌표값 그리기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="499"/>
         <source>Format</source>
-        <translation type="unfinished"></translation>
+        <translation>양식</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="509"/>
         <source>Left</source>
-        <translation type="unfinished">왼쪽</translation>
+        <translation>왼쪽</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="528"/>
         <source>Right</source>
-        <translation type="unfinished">오른쪽</translation>
+        <translation>오른쪽</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="547"/>
         <source>Top</source>
-        <translation type="unfinished">상단</translation>
+        <translation>상단</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="566"/>
         <source>Bottom</source>
-        <translation type="unfinished">하단</translation>
+        <translation>하단</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="585"/>
         <source>Font</source>
-        <translation type="unfinished">글꼴</translation>
+        <translation>글꼴</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="631"/>
         <source>Font color...</source>
-        <translation type="unfinished">글꼴 색상...</translation>
+        <translation>글꼴 색상...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="644"/>
         <source>Overview</source>
-        <translation type="unfinished">오버뷰</translation>
+        <translation>오버뷰</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="662"/>
         <source>Overview frame</source>
-        <translation type="unfinished"></translation>
+        <translation>오버뷰 프레임</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="672"/>
         <source>Overview style</source>
-        <translation type="unfinished"></translation>
+        <translation>오버뷰 스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="679"/>
         <source>Change...</source>
-        <translation type="unfinished">변경...</translation>
+        <translation>변경...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="686"/>
         <source>Overview blending mode</source>
-        <translation type="unfinished"></translation>
+        <translation>블렌딩 모드로 오버뷰</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="696"/>
         <source>Invert overview</source>
-        <translation type="unfinished"></translation>
+        <translation>반전 오버뷰</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="168"/>
@@ -21436,7 +21436,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="289"/>
         <source>Grid &amp;type</source>
-        <translation>그리드 유형(&amp;t)</translation>
+        <translation>격자 유형(&amp;t)</translation>
     </message>
     <message>
         <source>Interval X</source>
@@ -21483,12 +21483,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="20"/>
         <source>Map Options</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 옵션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="72"/>
         <source>Main properties</source>
-        <translation type="unfinished"></translation>
+        <translation>주요 속성들</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="212"/>
@@ -21508,12 +21508,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="398"/>
         <source>Frame style</source>
-        <translation type="unfinished"></translation>
+        <translation>프레임 스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="411"/>
         <source>Frame width</source>
-        <translation type="unfinished">프레임 두께</translation>
+        <translation>프레임 두께</translation>
     </message>
     <message>
         <source>Draw annotation</source>
@@ -21545,7 +21545,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="102"/>
         <source>Update preview</source>
-        <translation>미리보기 업데이트</translation>
+        <translation>미리보기 변경하기</translation>
     </message>
 </context>
 <context>
