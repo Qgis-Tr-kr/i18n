@@ -56680,7 +56680,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="258"/>
         <source>SUCCESS: %n attribute(s) deleted.</source>
         <comment>deleted attributes count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>성공: %n개의 속성을 제거했습니다.</numerusform>
         </translation>
     </message>
@@ -56688,7 +56688,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="267"/>
         <source>ERROR: %n attribute(s) not deleted.</source>
         <comment>not deleted attributes count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>오류: %n개의 속성은 삭제되지 않았습니다.</numerusform>
         </translation>
     </message>
@@ -56696,7 +56696,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="279"/>
         <source>SUCCESS: %n attribute(s) added.</source>
         <comment>added attributes count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>성공: %n개의 속성을 추가했습니다.</numerusform>
         </translation>
     </message>
@@ -56704,25 +56704,25 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="288"/>
         <source>ERROR: %n new attribute(s) not added</source>
         <comment>not added attributes count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>오류: %n개의 속성이 추가되지 않음</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="304"/>
         <source>ERROR: the count of fields is incorrect after addition/removal of fields!</source>
-        <translation type="unfinished"></translation>
+        <translation>오류: 필드의 추가 및 삭제 후에 필드의 수가 정확하지 않음!</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="314"/>
         <source>ERROR: field with index %1 is not the same!</source>
-        <translation type="unfinished"></translation>
+        <translation>오류: 필드와 인덱스 %1가 같지 않음!</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="329"/>
         <source>SUCCESS: %n attribute value(s) changed.</source>
         <comment>changed attribute values count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>성공: %n개의 속성 값을 변경했습니다.</numerusform>
         </translation>
     </message>
@@ -56730,7 +56730,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="337"/>
         <source>ERROR: %n attribute value change(s) not applied.</source>
         <comment>not changed attribute values count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>오류: %n개의 속성의 값 변경은 반영되지 않았습니다.</numerusform>
         </translation>
     </message>
@@ -56738,7 +56738,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="349"/>
         <source>SUCCESS: %n feature(s) deleted.</source>
         <comment>deleted features count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>성공: %n개의 객체가 삭제되었니다.</numerusform>
         </translation>
     </message>
@@ -56746,7 +56746,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="363"/>
         <source>ERROR: %n feature(s) not deleted.</source>
         <comment>not deleted features count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>오류: %n개의 객체가 삭제되지 않았습니다.</numerusform>
         </translation>
     </message>
@@ -56754,7 +56754,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="380"/>
         <source>SUCCESS: %n feature(s) added.</source>
         <comment>added features count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>성공: %n개의 객체를 추가했습니다.</numerusform>
         </translation>
     </message>
@@ -56762,7 +56762,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="404"/>
         <source>ERROR: %n feature(s) not added.</source>
         <comment>not added features count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>오류: %n개의 객체가 추가되지 않았습니다.</numerusform>
         </translation>
     </message>
@@ -56770,7 +56770,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="410"/>
         <source>ERROR: %n feature(s) not added - provider doesn&apos;t support adding features.</source>
         <comment>not added features count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>오류: %n개의 객체가 추가되지 않음 - 프로바이더가 객체 추가를 지원 않음.</numerusform>
         </translation>
     </message>
@@ -56778,15 +56778,15 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="423"/>
         <source>SUCCESS: %n geometries were changed.</source>
         <comment>changed geometries count</comment>
-        <translation type="unfinished">
-            <numerusform>성공: %n개의 형상을 변경했습니다.</numerusform>
+        <translation>
+            <numerusform>성공: %n개의 지오메트리를 변경했습니다.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="431"/>
         <source>ERROR: %n geometries not changed.</source>
         <comment>not changed geometries count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>오류: %n개의 형상은 변경되지 않았습니다.</numerusform>
         </translation>
     </message>
@@ -56794,7 +56794,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/core/qgsvectorlayereditbuffer.cpp" line="440"/>
         <source>
   Provider errors:</source>
-        <translation type="unfinished">
+        <translation>
   프로바이더 오류:</translation>
     </message>
 </context>
@@ -56949,7 +56949,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="318"/>
         <source>Insert expression</source>
-        <translation type="unfinished">식 삽입</translation>
+        <translation>식 삽입</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="352"/>
@@ -57024,7 +57024,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="1013"/>
         <source>Save Style</source>
-        <translation type="unfinished"></translation>
+        <translation>스타일 저장</translation>
     </message>
     <message>
         <source>Save Style...</source>
@@ -57069,55 +57069,55 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="150"/>
         <source>Load from file</source>
-        <translation type="unfinished">파일에서 읽기</translation>
+        <translation>파일에서 읽기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="151"/>
         <source>Load from database</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스에서 불러오기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="159"/>
         <source>Save in database (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스 (%1)에 저장</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="594"/>
         <source>Load default style from: </source>
-        <translation type="unfinished"></translation>
+        <translation>기본 스타일을 불러옴:</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="596"/>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="653"/>
         <source>Cancel</source>
-        <translation type="unfinished">취소</translation>
+        <translation>취소</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="597"/>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="654"/>
         <source>Local database</source>
-        <translation type="unfinished"></translation>
+        <translation>부분적인 데이터베이스</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="598"/>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="655"/>
         <source>Datasource database</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터송신 데이터베이스</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="612"/>
         <source>Loaded from Provider</source>
-        <translation type="unfinished"></translation>
+        <translation>프로바이더로부터 불러옴</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="615"/>
         <source>No default style was found for this layer</source>
-        <translation type="unfinished"></translation>
+        <translation>이 레이어에 기본 스타일이 발견되지 않음</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="651"/>
         <source>Save default style to: </source>
-        <translation type="unfinished"></translation>
+        <translation>기본 스타일을 다음에 저장함:</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="715"/>
@@ -57127,7 +57127,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="772"/>
         <source>Style saved</source>
-        <translation type="unfinished"></translation>
+        <translation>스타일이 저장됨</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="796"/>
@@ -57139,12 +57139,12 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="884"/>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="893"/>
         <source>Error occured retrieving styles from database</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스에서 스타일을 불러오는 도중 오류 발생</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="894"/>
         <source>The retrieved style is not a valid named style. Error message: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>불러온 스타일의 이름 유형이 적합하지 않음. 오류 메시지: %1</translation>
     </message>
     <message>
         <source>UI file</source>
@@ -57390,107 +57390,107 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="152"/>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="909"/>
         <source>Display</source>
-        <translation type="unfinished">디스플레이</translation>
+        <translation>디스플레이</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="278"/>
         <source>Layer info</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 정보</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="320"/>
         <source>Layer source</source>
-        <translation type="unfinished">레이어 소스</translation>
+        <translation>레이어 소스</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="345"/>
         <source>Data source encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 소스 코드화</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="373"/>
         <source>Coordinate reference system</source>
-        <translation type="unfinished">좌표계</translation>
+        <translation>좌표체계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="406"/>
         <source>Specify...</source>
-        <translation type="unfinished">지정...</translation>
+        <translation>지정...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="417"/>
         <source>Create spatial index</source>
-        <translation type="unfinished"></translation>
+        <translation>공간적 지표 생성</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="424"/>
         <source>Update extents</source>
-        <translation type="unfinished"></translation>
+        <translation>범위 갱신</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="483"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:0.75em;&quot;&gt;Minimum&lt;br&gt;(exclusive)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:0.75em;&quot;&gt;최소&lt;br&gt;(제외적인)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="533"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:0.75em;&quot;&gt;Maximum&lt;br&gt;(inclusive)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:0.75em;&quot;&gt;최대&lt;br&gt;(포함적인)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="611"/>
         <source>Feature subset</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 부분 집합</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="937"/>
         <source>Map Tip display text</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 설명 문구</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="957"/>
         <source>Inserts an expression into the action</source>
-        <translation type="unfinished">식을 액션에 추가</translation>
+        <translation>식을 액션에 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="960"/>
         <source>Insert expression...</source>
-        <translation type="unfinished">식 삽입...</translation>
+        <translation>식 삽입...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="986"/>
         <source>The valid attribute names for this layer</source>
-        <translation type="unfinished">이 레이어에 유효한 속성 이름</translation>
+        <translation>이 레이어에 유효한 속성 이름</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1002"/>
         <source>Inserts the selected field into the action</source>
-        <translation type="unfinished">선택된 필드를 액션에 삽입</translation>
+        <translation>선택된 필드를 액션에 삽입</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1005"/>
         <source>Insert field</source>
-        <translation type="unfinished">필드 삽입</translation>
+        <translation>필드 삽입</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1023"/>
         <source>HTML</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1047"/>
         <source>Field</source>
-        <translation type="unfinished">필드</translation>
+        <translation>필드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="287"/>
         <source>Layer name</source>
-        <translation type="unfinished">레이어 이름</translation>
+        <translation>레이어 이름</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="313"/>
         <source>displayed as</source>
-        <translation type="unfinished"></translation>
+        <translation>다음과 같이 표현됨</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="173"/>
@@ -57547,49 +57547,49 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1330"/>
         <source>Description</source>
-        <translation type="unfinished">설명</translation>
+        <translation>설명</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1372"/>
         <source>Keyword list</source>
-        <translation type="unfinished"></translation>
+        <translation>주요단어 리스트</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1382"/>
         <source>DataUrl</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 Url</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1394"/>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1504"/>
         <source>Format</source>
-        <translation type="unfinished"></translation>
+        <translation>형식</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1425"/>
         <source>Attribution</source>
-        <translation type="unfinished"></translation>
+        <translation>속성</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1444"/>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1466"/>
         <source>Url</source>
-        <translation type="unfinished"></translation>
+        <translation>Url</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1457"/>
         <source>MetadataUrl</source>
-        <translation type="unfinished"></translation>
+        <translation>메타데이터 Url</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1478"/>
         <source>Type</source>
-        <translation type="unfinished">유형</translation>
+        <translation>유형</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1554"/>
         <source>Properties</source>
-        <translation type="unfinished">속성</translation>
+        <translation>속성</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1633"/>
@@ -57673,7 +57673,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="456"/>
         <source>Scale dependent visibility</source>
-        <translation type="unfinished">축척에 따른 표시 설정</translation>
+        <translation>축척에 따른 표시 설정</translation>
     </message>
     <message>
         <source>Background color</source>
@@ -57698,18 +57698,18 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="477"/>
         <source>Minimum scale, i.e. maximum scale denominator. This limit is exclusive, that means the layer will not be displayed on this scale.</source>
-        <translation type="unfinished"></translation>
+        <translation>최소 스케일, 즉 최대 스케일 분모. 레이어는 이 스케일에서 표현되지 않음.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="530"/>
         <source>Maximum scale, i.e. minimum scale denominator. This limit is inclusive, that means the layer will be displayed on this scale.</source>
-        <translation type="unfinished"></translation>
+        <translation>최대 스케일, 즉 최소 스케일 분모. 레이어는 이 스케일에서 표현됨.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="500"/>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="507"/>
         <source>Current</source>
-        <translation type="unfinished">현재 설정</translation>
+        <translation>현재 설정</translation>
     </message>
     <message>
         <source>Provider-specific options</source>
@@ -57809,7 +57809,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="128"/>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="783"/>
         <source>Labels (deprecated)</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 (중요도가 낮음)</translation>
     </message>
     <message>
         <source>New column</source>
@@ -57869,17 +57869,17 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="67"/>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="213"/>
         <source>No symbology</source>
-        <translation type="unfinished"></translation>
+        <translation>심볼 특성이 없음</translation>
     </message>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="68"/>
         <source>Feature symbology</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 심볼 유형</translation>
     </message>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="69"/>
         <source>Symbol layer symbology</source>
-        <translation type="unfinished"></translation>
+        <translation>심볼 레이어 심볼 유형</translation>
     </message>
     <message>
         <location filename="../src/app/ogr/qgsvectorlayersaveasdialog.cpp" line="123"/>
@@ -57928,7 +57928,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorlayersaveasdialogbase.ui" line="57"/>
         <source>Symbology export</source>
-        <translation type="unfinished"></translation>
+        <translation>심볼 유형 내보내기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayersaveasdialogbase.ui" line="100"/>
@@ -57958,17 +57958,17 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorlayersaveasdialogbase.ui" line="158"/>
         <source>Skip attribute creation</source>
-        <translation>속성 생성을 생략합니다.</translation>
+        <translation>속성 생성 생략</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayersaveasdialogbase.ui" line="175"/>
         <source>1:</source>
-        <translation type="unfinished">1:</translation>
+        <translation>1:</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayersaveasdialogbase.ui" line="188"/>
         <source>Scale</source>
-        <translation type="unfinished">축척</translation>
+        <translation>축척</translation>
     </message>
 </context>
 <context>
@@ -58023,12 +58023,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/providers/wcs/qgswcsdataitems.cpp" line="90"/>
         <source>Edit...</source>
-        <translation type="unfinished">편집...</translation>
+        <translation>편집...</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsdataitems.cpp" line="94"/>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
 </context>
 <context>
@@ -58036,7 +58036,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/providers/wcs/qgswcsdataitems.cpp" line="251"/>
         <source>New Connection...</source>
-        <translation type="unfinished">새 연결...</translation>
+        <translation>새 연결...</translation>
     </message>
 </context>
 <context>
@@ -58044,12 +58044,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/providers/wcs/qgswcssourceselect.cpp" line="182"/>
         <source>Select a layer</source>
-        <translation type="unfinished">레이어 선택</translation>
+        <translation>레이어 선택</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcssourceselect.cpp" line="188"/>
         <source>No CRS selected</source>
-        <translation type="unfinished">좌표계가 선택되어 있지 않습니다.</translation>
+        <translation>좌표계가 선택되어 있지 않음</translation>
     </message>
 </context>
 <context>
@@ -58057,7 +58057,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/providers/wfs/qgswfscapabilities.cpp" line="216"/>
         <source>Either the WFS server does not support WFS version 1.0.0 or the WFS url is wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>WFS 서버가 WFS 1.0.0 버전을 지원하지 않거나 WFS url 이 잘못되었음</translation>
     </message>
 </context>
 <context>
@@ -58115,12 +58115,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/providers/wfs/qgswfsprovider.cpp" line="97"/>
         <source>DescribeFeatureType failed for url %1</source>
-        <translation type="unfinished"></translation>
+        <translation>url %1의 객체 유형 정의 실패</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfsprovider.cpp" line="97"/>
         <source>WFS</source>
-        <translation type="unfinished">WFS</translation>
+        <translation>WFS</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfsprovider.cpp" line="1358"/>
@@ -58184,17 +58184,17 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/providers/wfs/qgswfssourceselect.cpp" line="52"/>
         <source>&amp;Add</source>
-        <translation type="unfinished">추가(&amp;A)</translation>
+        <translation>추가(&amp;A)</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfssourceselect.cpp" line="55"/>
         <source>&amp;Build query</source>
-        <translation type="unfinished">질의 작성(&amp;B)</translation>
+        <translation>질의 작성(&amp;B)</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfssourceselect.cpp" line="56"/>
         <source>Build query</source>
-        <translation type="unfinished">질의 작성</translation>
+        <translation>질의 작성</translation>
     </message>
     <message>
         <location filename="../src/providers/wfs/qgswfssourceselect.cpp" line="203"/>
@@ -58283,13 +58283,13 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgswfssourceselectbase.ui" line="83"/>
         <source>Filter:</source>
-        <translation type="unfinished">필터:</translation>
+        <translation>필터:</translation>
     </message>
     <message>
         <location filename="../src/ui/qgswfssourceselectbase.ui" line="96"/>
         <location filename="../src/ui/qgswfssourceselectbase.ui" line="99"/>
         <source>Display WFS FeatureTypes containing this word in the title, name or abstract</source>
-        <translation type="unfinished"></translation>
+        <translation>제목, 이름, 개요에 다음의 단어를 포함하고 있는 WFS 객체 유형 표시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgswfssourceselectbase.ui" line="122"/>
@@ -58319,7 +58319,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgswfssourceselectbase.ui" line="216"/>
         <source>Use title for layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 이름에 제목 이용</translation>
     </message>
     <message>
         <source>Cache
@@ -58509,7 +58509,7 @@ This might be an server configuration error. Should the URL be used?</source>
     <message>
         <location filename="../src/providers/wms/qgswmssourceselect.cpp" line="481"/>
         <source>Could not open the WMS Provider</source>
-        <translation>WMS 프로바이더를 열 수 없습니다.</translation>
+        <translation>WMS 프로바이더를 열 수 없음</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/providers/wms/qgswmssourceselect.cpp" line="916"/>
@@ -58550,7 +58550,7 @@ This might be an server configuration error. Should the URL be used?</source>
     <message>
         <location filename="../src/providers/wms/qgswmssourceselect.cpp" line="928"/>
         <source>No CRS selected</source>
-        <translation>좌표계가 선택되어 있지 않습니다.</translation>
+        <translation>좌표계가 선택되어 있지 않음</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmssourceselect.cpp" line="933"/>
@@ -58724,7 +58724,7 @@ This might be an server configuration error. Should the URL be used?</source>
     <message>
         <location filename="../src/ui/qgswmssourceselectbase.ui" line="272"/>
         <source>10</source>
-        <translation type="unfinished">10</translation>
+        <translation>10</translation>
     </message>
     <message>
         <location filename="../src/ui/qgswmssourceselectbase.ui" line="283"/>
@@ -58784,7 +58784,7 @@ This might be an server configuration error. Should the URL be used?</source>
     <message>
         <location filename="../src/ui/qgswmssourceselectbase.ui" line="382"/>
         <source>Tileset</source>
-        <translation type="unfinished"></translation>
+        <translation>타일셋</translation>
     </message>
     <message>
         <location filename="../src/ui/qgswmssourceselectbase.ui" line="387"/>
@@ -58856,54 +58856,54 @@ This might be an server configuration error. Should the URL be used?</source>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="182"/>
         <source>empty capabilities document</source>
-        <translation type="unfinished">capabilities 문서의 내용이 없음</translation>
+        <translation>capabilities 문서의 내용이 없음</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="474"/>
         <source>Version not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>지원되지 않는 버전</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="281"/>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="342"/>
         <source>
 Tried URL: %1</source>
-        <translation type="unfinished">시도한 URL %1</translation>
+        <translation>시도한 URL: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="359"/>
         <source>Capabilities request redirected.</source>
-        <translation type="unfinished">Capabilities 요청이 리디렉션 되었습니다.</translation>
+        <translation>Capabilities 요청이 리디렉션 되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="380"/>
         <source>empty of capabilities: %1</source>
-        <translation type="unfinished">capabilities 내용 없음: %1</translation>
+        <translation>capabilities 내용 없음: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="401"/>
         <source>Download of capabilities failed: %1</source>
-        <translation type="unfinished">capabilities 다운로드 실패: %1</translation>
+        <translation>capabilities 다운로드 실패: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="402"/>
         <source>WCS</source>
-        <translation type="unfinished"></translation>
+        <translation>WCS</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="412"/>
         <source>%1 of %2 bytes of capabilities downloaded.</source>
-        <translation type="unfinished">%2 바이트 중 %1 바이트의 capabilities를 다운로드했습니다.</translation>
+        <translation>%2 바이트 중 %1 바이트의 capabilities를 다운로드했습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="450"/>
         <source>Exception</source>
-        <translation type="unfinished">예외</translation>
+        <translation>예외</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="452"/>
         <source>Could not get WCS capabilities: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>WCS capabilities를 받을 수 없음: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="456"/>
@@ -58911,7 +58911,7 @@ Tried URL: %1</source>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="763"/>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="918"/>
         <source>Dom Exception</source>
-        <translation type="unfinished">Dom 예외</translation>
+        <translation>Dom 예외</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="458"/>
@@ -58922,12 +58922,16 @@ This might be due to an incorrect WCS Server URL.
 Tag:%3
 Response was:
 %4</source>
-        <translation type="unfinished"></translation>
+        <translation>다음의 유형으로 (DTD) WCS capabilities를 받을 수 없음: %1 가 발견되지 않음.
+잘못된 WCS 서버 URL에 의한 것일 수 있음.
+태그:%3
+응담은 다음과 같았음:
+%4</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="476"/>
         <source>WCS server version %1 is not supported by QGIS (supported versions: 1.0.0, 1.1.0, 1.1.2)</source>
-        <translation type="unfinished"></translation>
+        <translation>WCS 서버 버전 %1 이 QGIS에서 지원되지 않음 (지원 버전: 1.0.0, 1.1.0, 1.1.2)</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcscapabilities.cpp" line="738"/>
@@ -58936,7 +58940,11 @@ This is probably due to an incorrect WCS Server URL.
 Response was:
 
 %4</source>
-        <translation type="unfinished"></translation>
+        <translation>WCS capabilities 를 받을 수 없음: %3열 %2행의 %1
+잘못된 WCS 서버 URL에 의한 것일 수 있음.
+Response was:
+
+%4</translation>
     </message>
 </context>
 <context>
@@ -58944,7 +58952,7 @@ Response was:
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="136"/>
         <source>Cannot describe coverage</source>
-        <translation type="unfinished"></translation>
+        <translation>커버리지를 정의할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="583"/>
@@ -58965,122 +58973,122 @@ Response was:
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1282"/>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1426"/>
         <source>WCS</source>
-        <translation type="unfinished"></translation>
+        <translation>WCS</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="144"/>
         <source>Coverage not found</source>
-        <translation type="unfinished"></translation>
+        <translation>커버리지가 발견되지 않음</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="201"/>
         <source>Cannot calculate extent</source>
-        <translation type="unfinished"></translation>
+        <translation>범위를 계산할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="259"/>
         <source>Cannot get test dataset.</source>
-        <translation type="unfinished"></translation>
+        <translation>테스트 데이터세트를 받을 수 없음.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="583"/>
         <source>Received coverage has wrong extent %1 (expected %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>커버리지의 범위 %1 (예상범위 %2)가 잘못되었음</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="602"/>
         <source>Rotating raster</source>
-        <translation type="unfinished"></translation>
+        <translation>순환 래스터</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="627"/>
         <source>Block read OK</source>
-        <translation type="unfinished"></translation>
+        <translation>블럭 읽기 가능</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="633"/>
         <source>Received coverage has wrong size %1 x %2 (expected %3 x %4)</source>
-        <translation type="unfinished"></translation>
+        <translation>커버리지의 크기 %1 x %2 가 잘못되었음(예상 %3 x %4)</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="798"/>
         <source>Getting map via WCS.</source>
-        <translation type="unfinished"></translation>
+        <translation>WCS에서 지도 받기.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="865"/>
         <source>Map request error (Status: %1; Reason phrase: %2; URL:%3)</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 요청 오류 (상태:  %1; 이유: %2; URL:%3)</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="896"/>
         <source>Map request error:&lt;br&gt;Title: %1&lt;br&gt;Error: %2&lt;br&gt;URL: &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 요청 오류:&lt;br&gt;제목: %1&lt;br&gt;오류: %2&lt;br&gt;URL: &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;)</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="922"/>
         <source>Cannot parse multipart response: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>다수의 반응을 분석할 수 없음: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="954"/>
         <source>Map request error (Title:%1; Error:%2; URL: %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 요청 오류(제목:%1; 오류:%2; URL: %3)</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="902"/>
         <source>Map request error (Status: %1; Response: %2; URL:%3)</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 요청 오류 (상황: %1; 반응: %2; URL:%3)</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="931"/>
         <source>Expected 2 parts, %1 received</source>
-        <translation type="unfinished"></translation>
+        <translation>2부분 예상, %1 받았음</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="940"/>
         <source>More than 2 parts (%1) received</source>
-        <translation type="unfinished"></translation>
+        <translation>2부분 이상 (%1) 받았음</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="960"/>
         <source>Map request error (Response: %1; URL:%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 요청 오류 (반응: %1; URL:%2)</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="980"/>
         <source>Content-Transfer-Encoding %1 not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>내용-이동-암호화 %1 지원되지 않음</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1000"/>
         <source>No data received</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 수신되지 않음</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1024"/>
         <source>Cannot create memory file</source>
-        <translation type="unfinished"></translation>
+        <translation>메모리 파일 생성을 할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1073"/>
         <source>Map request failed [error:%1 url:%2]</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 요청 실패 [오류:%1 url:%2]</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1077"/>
         <source>Not logging more than 100 request errors.</source>
-        <translation type="unfinished"></translation>
+        <translation>100개 이상의 요청 오류.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1156"/>
         <source>%1 of %2 bytes of map downloaded.</source>
-        <translation type="unfinished">%2 바이트 중 %1 바이트의 지도를 다운로드했습니다.</translation>
+        <translation>%2 바이트 중 %1 바이트의 지도를 다운로드했습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1179"/>
         <source>Dom Exception</source>
-        <translation type="unfinished">Dom 예외</translation>
+        <translation>Dom 예외</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1181"/>
@@ -59089,144 +59097,148 @@ Response was:
 Response was:
 
 %5</source>
-        <translation type="unfinished"></translation>
+        <translation>%1에서 WCS 서비스 예외를 받을 수 없음: %4열 %3행의 %2
+
+반응의 다음과 같았음:
+
+%5</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1229"/>
         <source>Request contains a format not offered by the server.</source>
-        <translation type="unfinished">요청에 서버에서 제공되지 않는 형식이 포함되어 있습니다.</translation>
+        <translation>요청에 서버에서 제공되지 않는 형식이 포함되어 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1230"/>
         <source>Request is for a Coverage not offered by the service instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>커버리지 요청이 서비스에 의해 제공되지 않음.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1231"/>
         <source>Value of (optional) UpdateSequence parameter in GetCapabilities request is equal to current value of service metadata update sequence number.</source>
-        <translation type="unfinished">GetCapabilities 요청의 (옵션) UpdateSequence 매개 변수가 서비스 메타데이터의 현재 값과 동일합니다.</translation>
+        <translation>GetCapabilities 요청의 (옵션) UpdateSequence 매개 변수가 서비스 메타데이터의 현재 값과 동일합니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1232"/>
         <source>Value of (optional) UpdateSequence parameter in GetCapabilities request is greater than current value of service metadata update sequence number.</source>
-        <translation type="unfinished">GetCapabilities 요청의 (옵션) UpdateSequence 매개 변수가 서비스 메타데이터의 현재값보다 큽니다.</translation>
+        <translation>GetCapabilities 요청의 (옵션) UpdateSequence 매개 변수가 서비스 메타데이터의 현재값보다 큽니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1234"/>
         <source>Request does not include a parameter value, and the server instance did not declare a default value for that dimension.</source>
-        <translation type="unfinished"></translation>
+        <translation>요청이 변수 값을 포함하지 않으며, 서버 인스턴스가 기본 값을 제공하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1235"/>
         <source>Request contains an invalid parameter value.</source>
-        <translation type="unfinished"></translation>
+        <translation>요청이 부적합한 변수 값을 포함하고 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1237"/>
         <source>No other exceptionCode specified by this service and server applies to this exception.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 서비스에서 예외 코드가 구체화되지 않았으며, 서버가 이 예외에 적용됩니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1238"/>
         <source>Operation request contains an output CRS that can not be used within the output format.</source>
-        <translation type="unfinished"></translation>
+        <translation>작동 요청이 결과물의 형식에 적합한 좌표계를 포함하고 있지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1239"/>
         <source>Operation request specifies to &quot;store&quot; the result, but not enough storage is available to do this.</source>
-        <translation type="unfinished"></translation>
+        <translation>작동이 결과의 &quot;저장&quot;을 지정하고 있지만, 저장 공간이 충분하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1268"/>
         <source>(No error code was reported)</source>
-        <translation type="unfinished">(오류 코드가 보고되지 않았음)</translation>
+        <translation>(오류 코드가 보고되지 않았음)</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1276"/>
         <source>(Unknown error code)</source>
-        <translation type="unfinished">(알 수 없는 오류 코드)</translation>
+        <translation>(알 수 없는 오류 코드)</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1279"/>
         <source>The WCS vendor also reported: </source>
-        <translation type="unfinished"></translation>
+        <translation>WCS 판매인이 보고되었습니다:</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1282"/>
         <source>composed error message &apos;%1&apos;.</source>
-        <translation type="unfinished">구성 오류 메시지: &apos;%1&apos;.</translation>
+        <translation>구성 오류 메시지: &apos;%1&apos;.</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1426"/>
         <source>Cannot verify coverage full extent: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>커버리지 전체 범위가 불명확함: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1457"/>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1540"/>
         <source>Property</source>
-        <translation type="unfinished">속성</translation>
+        <translation>속성</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1460"/>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1543"/>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>값</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1463"/>
         <source>Name (identifier)</source>
-        <translation type="unfinished"></translation>
+        <translation>이름 (식별가능한 것)</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1464"/>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1547"/>
         <source>Title</source>
-        <translation type="unfinished">제목</translation>
+        <translation>제목</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1465"/>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1548"/>
         <source>Abstract</source>
-        <translation type="unfinished">요약</translation>
+        <translation>요약</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1468"/>
         <source>Fixed Width</source>
-        <translation type="unfinished">고정 폭</translation>
+        <translation>고정 폭</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1469"/>
         <source>Fixed Height</source>
-        <translation type="unfinished">고정 높이</translation>
+        <translation>고정 높이</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1470"/>
         <source>Native CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>고유 좌표계</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1471"/>
         <source>Native Bounding Box</source>
-        <translation type="unfinished"></translation>
+        <translation>고유 범위</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1474"/>
         <source>WGS 84 Bounding Box</source>
-        <translation type="unfinished">WGS 84 표시 범위</translation>
+        <translation>WGS 84 표시 범위</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1482"/>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1487"/>
         <source>Available in CRS</source>
-        <translation type="unfinished">사용 가능한 좌표계</translation>
+        <translation>사용 가능한 좌표계</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1487"/>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1497"/>
         <source>(and %n more)</source>
         <comment>crs</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>(또한 %n 추가)</numerusform>
         </translation>
     </message>
@@ -59234,88 +59246,88 @@ Response was:
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1492"/>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1497"/>
         <source>Available in format</source>
-        <translation type="unfinished"></translation>
+        <translation>이용가능한 형식</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1515"/>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1570"/>
         <source>Coverages</source>
-        <translation type="unfinished"></translation>
+        <translation>커버리지</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1522"/>
         <source>Cache Stats</source>
-        <translation type="unfinished">캐시 상태</translation>
+        <translation>캐시 상태</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1531"/>
         <source>Server Properties</source>
-        <translation type="unfinished">서버 속성</translation>
+        <translation>서버 속성</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1551"/>
         <source>Keywords</source>
-        <translation type="unfinished">키워드</translation>
+        <translation>키워드</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1552"/>
         <source>Online Resource</source>
-        <translation type="unfinished">온라인 리소스</translation>
+        <translation>온라인 리소스</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1553"/>
         <source>Contact Person</source>
-        <translation type="unfinished">문의처</translation>
+        <translation>문의처</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1557"/>
         <source>Fees</source>
-        <translation type="unfinished">가격</translation>
+        <translation>가격</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1558"/>
         <source>Access Constraints</source>
-        <translation type="unfinished">액세스 제한</translation>
+        <translation>액세스 제한</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1559"/>
         <source>Image Formats</source>
-        <translation type="unfinished">이미지 포맷</translation>
+        <translation>이미지 포맷</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1560"/>
         <source>GetCapabilitiesUrl</source>
-        <translation type="unfinished">GetCapabilitiesURL (WMS 기능 목록)</translation>
+        <translation>GetCapabilitiesURL (WMS 기능 목록)</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1562"/>
         <source>Get Coverage Url</source>
-        <translation type="unfinished"></translation>
+        <translation>커버리지 Url 목록</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1562"/>
         <source>&amp;nbsp;&lt;font color=&quot;red&quot;&gt;(advertised but ignored)&lt;/font&gt;</source>
-        <translation type="unfinished">&amp;nbsp;&lt;font color=&quot;red&quot;&gt;(통지가 있었지만 무시 되었습니다)&lt;/font&gt;</translation>
+        <translation>&amp;nbsp;&lt;font color=&quot;red&quot;&gt;(통지가 있었지만 무시 되었습니다)&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1584"/>
         <source>And %1 more coverages</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 이상의 커버리지</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1611"/>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>지원되지 않는 형식</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1671"/>
         <source>Read data error</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 오류</translation>
     </message>
     <message>
         <location filename="../src/providers/wcs/qgswcsprovider.cpp" line="1698"/>
         <source>RasterIO error: </source>
-        <translation type="unfinished"></translation>
+        <translation>래스터IO 오류:</translation>
     </message>
 </context>
 <context>
@@ -59395,7 +59407,7 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3279"/>
         <source>Extent for layer %1 not found in capabilities</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 레이어의 이용가능한 범위를 알 수 없음</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3385"/>
@@ -59436,7 +59448,7 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3566"/>
         <source>Tile Layer Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>타일 레이어 속성</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3597"/>
@@ -59446,7 +59458,7 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="4352"/>
         <source>Cannot parse getfeatureinfo: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>객체정보의 분석을 할 수 없음: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3409"/>
@@ -59649,57 +59661,57 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3723"/>
         <source>GetTileUrl</source>
-        <translation type="unfinished"></translation>
+        <translation>타일Url</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3732"/>
         <source>Tile templates</source>
-        <translation type="unfinished"></translation>
+        <translation>타일 유형</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3744"/>
         <source>FeatureInfo templates</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 정보 유형</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3806"/>
         <source>WMTS</source>
-        <translation type="unfinished"></translation>
+        <translation>WMTS</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3810"/>
         <source>WMS-C</source>
-        <translation type="unfinished"></translation>
+        <translation>WMS-C</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3837"/>
         <source>Available Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>이용가능한 스타일</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3864"/>
         <source>Available Tilesets</source>
-        <translation type="unfinished"></translation>
+        <translation>이용가능한 타일셋</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3935"/>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>지원되지 않는 유형</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="4116"/>
         <source>Get feature info request error (Title:%1; Error:%2; URL: %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 정보 요청 오류 (제목:%1; 오류:%2; URL: %3)</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="4220"/>
         <source>GML schema is not valid</source>
-        <translation type="unfinished"></translation>
+        <translation>유효하지 않은 GML 형식</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="4226"/>
         <source>GML is not valid</source>
-        <translation type="unfinished"></translation>
+        <translation>유효하지 않은 GML</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="4341"/>
@@ -59756,98 +59768,98 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="120"/>
         <source>Cannot parse URI</source>
-        <translation type="unfinished"></translation>
+        <translation>URI 분석 불가능</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="126"/>
         <source>Cannot calculate extent</source>
-        <translation type="unfinished"></translation>
+        <translation>범위 계산 불가능</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="213"/>
         <source>Cannot set CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>좌표계 정의 불가능</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="374"/>
         <source>Number of layers and styles don&apos;t match</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어와 스타일의 수가 일치하지 않음</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="455"/>
         <source>Number of tile layers must be one</source>
-        <translation type="unfinished"></translation>
+        <translation>타일 레이어의 수는 한 개 이어야 함</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="467"/>
         <source>Tile layer not found</source>
-        <translation type="unfinished"></translation>
+        <translation>타일 레이어가 발견되지 않음</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="523"/>
         <source>Tile layer or tile matrix set not found</source>
-        <translation type="unfinished"></translation>
+        <translation>타일 레이어 혹은 타일 매트릭스 세트가 발견되지 않음</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="978"/>
         <source>Getting tiles.</source>
-        <translation type="unfinished"></translation>
+        <translation>타일 받기.</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1144"/>
         <source>Tile request error (Title:%1; Error:%2; URL: %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>타일 요청 오류 (타일:%1; 오류:%2; URL: %3)</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1150"/>
         <source>Tile request error (Status:%1; Content-Type:%2; Length:%3; URL: %4)</source>
-        <translation type="unfinished"></translation>
+        <translation>타일 요청 오류 (상태:%1; 내용 유형:%2; 길이: %3; URL: %4)</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1203"/>
         <source>Returned image is flawed [Content-Type:%1; URL: %2]</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지 오류 [내용 유형:%1; URL: %2]</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1226"/>
         <source>Tile request failed [error:%1 url:%2]</source>
-        <translation type="unfinished"></translation>
+        <translation>타일 요청 오류 [오류:%1 URL: %2]</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1230"/>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1336"/>
         <source>Not logging more than 100 request errors.</source>
-        <translation type="unfinished"></translation>
+        <translation>100개 이상의 요청 오류.</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1266"/>
         <source>Map request error (Status: %1; Reason phrase: %2; URL:%3)</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 요청 오류 [상황:%1; 이유: %2; URL:%3)</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1290"/>
         <source>Returned image is flawed [Content-Type:%1; URL:%2]</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지 오류 [내용 유형:%1; URL: %2]</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1299"/>
         <source>Map request error (Title:%1; Error:%2; URL: %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 요청 오류 [타일:%1; 오류: %2; URL:%3)</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1332"/>
         <source>Map request failed [error:%1 url:%2]</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 요청 실패 [오류:%1 url:%2]</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1470"/>
         <source>Redirect loop detected: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>다시 전송된 회로 탑지: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3093"/>
         <source>Service Exception</source>
-        <translation type="unfinished"></translation>
+        <translation>서비스 예외</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3404"/>
@@ -59914,7 +59926,7 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1305"/>
         <source>Map request error (Status: %1; Response: %2; Content-Type: %3; URL:%4)</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 요청 오류 [상황:%1; 반응: %2; 내용 유형: %3; URL:%4)</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3881"/>
@@ -60088,7 +60100,7 @@ Tried URL: %1</source>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3691"/>
         <source>Tile Layer Count</source>
-        <translation type="unfinished"></translation>
+        <translation>타일 레이어 수</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3791"/>
@@ -67598,7 +67610,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="19"/>
         <source>Assign new value to column as result of operation on columns only if the result of query is TRUE</source>
-        <translation>질의 결과가 참인 경우에만 연산 결과를 속성 테이블의 컬럼의 새 값으로 할당함</translation>
+        <translation>쿼리 결과가 참인 경우에만 연산 결과를 속성 테이블의 컬럼의 새 값으로 할당합니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="20"/>
@@ -67798,7 +67810,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="59"/>
         <source>Change the type of bridges connecting area and island or 2 islands from boundary to line</source>
-        <translation>영역과 하나 이상의 섬 사이의 연결 유형을 바운더리에서 선으로 변경함</translation>
+        <translation>영역과 하나 이상의 아이슬랜드 사이의 브리지 유형을 바운더리에서 선으로 변경합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="60"/>
