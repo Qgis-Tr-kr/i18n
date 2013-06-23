@@ -6742,7 +6742,7 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/qgisapp.ui" line="68"/>
         <source>New From Template</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿이용하여 새로 만들기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="88"/>
@@ -6782,12 +6782,12 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/qgisapp.ui" line="54"/>
         <source>P&amp;roject</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트(&amp;r)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="58"/>
         <source>&amp;Open Recent</source>
-        <translation type="unfinished"></translation>
+        <translation>최근 열기(&amp;O)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="111"/>
@@ -6807,12 +6807,12 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/qgisapp.ui" line="232"/>
         <source>Vect&amp;or</source>
-        <translation type="unfinished">벡터(&amp;o)</translation>
+        <translation>벡터(&amp;o)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="236"/>
         <source>&amp;OpenStreetMap</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenStreetMap(&amp;O)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="257"/>
@@ -6938,7 +6938,7 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/qgisapp.ui" line="560"/>
         <source>Exit QGIS</source>
-        <translation type="unfinished">QGIS 종료</translation>
+        <translation>QGIS 종료</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="638"/>
@@ -6993,28 +6993,28 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1123"/>
         <source>Layer Labeling Options</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 라벨 옵션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1225"/>
         <source>Add Oracle Spatial Layer...</source>
-        <translation type="unfinished"></translation>
+        <translation>Oracle Spatial 레이어 추가...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1273"/>
         <source>Save for Selected Layer(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 레이어(들) 저장</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1384"/>
         <source>Manage and Install Plugins...</source>
-        <translation type="unfinished"></translation>
+        <translation>플러그인 관리 및 설치...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1541"/>
         <source>Rotate Label
 Ctl (Cmd) increments by 15 deg.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl(Cmd) 키로 라벨 15도씩 회전.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1619"/>
@@ -7050,22 +7050,22 @@ Ctl (Cmd) increments by 15 deg.</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1751"/>
         <source>Add WCS Layer...</source>
-        <translation type="unfinished"></translation>
+        <translation>WCS 레이어 추가...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1760"/>
         <source>&amp;Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>그리드(&amp;(G)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1763"/>
         <source>Grid</source>
-        <translation type="unfinished">그리드</translation>
+        <translation>그리드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1778"/>
         <source>Pin/Unpin Labels</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨에 핀 꽂기/뽑기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1781"/>
@@ -7073,44 +7073,47 @@ Ctl (Cmd) increments by 15 deg.</source>
 Click or marquee on label to pin
 Shift unpins, Ctl (Cmd) toggles state
 Acts on all editable layers</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨에 핀 꽂기/뽑기
+라벨에 핀 꽃기 위해 클릭하거나 표시하기
+Shift 핀뽑기, Ctrl(Cmd) 상태 변경
+모든 편집가능한 레이어에들 관한 법률들</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1796"/>
         <location filename="../src/ui/qgisapp.ui" line="1799"/>
         <source>Highlight Pinned Labels</source>
-        <translation type="unfinished"></translation>
+        <translation>핀 꽂힌 라벨들 강조하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1808"/>
         <location filename="../src/ui/qgisapp.ui" line="1811"/>
         <source>New Blank Project</source>
-        <translation type="unfinished"></translation>
+        <translation>빈 프로젝트로 시작</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1820"/>
         <source>Local Cumulative Cut Stretch</source>
-        <translation type="unfinished"></translation>
+        <translation>로컬 누적 컷 스트레치</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1823"/>
         <source>Local cumulative cut stretch using current extent, default limits and estimated values.</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 범위와 기본 한계와 예상값을 이용한 로컬 누적 컷 스트레치.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1832"/>
         <source>Full Dataset Cumulative Cut Stretch</source>
-        <translation type="unfinished"></translation>
+        <translation>누적 컷 스트레치의 전체 데이터셋</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1835"/>
         <source>Cumulative cut stretch using full dataset extent, default limits and estimated values.</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 데이터셋 범위와 기본 한계와 예상값을 이용한 로컬 누적 컷 스트레치.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1847"/>
         <source>Show/Hide Labels</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 보이기/숨김</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1850"/>
@@ -7118,138 +7121,141 @@ Acts on all editable layers</source>
 Click or marquee on feature to show label
 Shift+click or marquee on label to hide it
 Acts on currently active editable layer</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨들 보기/숨김
+라벨을 보기 위해 객체를 클릭하거나 표시하기
+라벨을 ShiftClick 혹은, 움직여서 숨기기
+현재 편집가능한 레이어에들 관한 법률</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1865"/>
         <location filename="../src/ui/qgisapp.ui" line="1868"/>
         <source>Html Annotation</source>
-        <translation type="unfinished"></translation>
+        <translation>Html 주석</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1877"/>
         <location filename="../src/ui/qgisapp.ui" line="1880"/>
         <source>Duplicate Layer(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 복제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1892"/>
         <source>SVG annotation</source>
-        <translation type="unfinished"></translation>
+        <translation>SVG 주석</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1901"/>
         <location filename="../src/ui/qgisapp.ui" line="1904"/>
         <source>Save for All Layers</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 레이어의 작업을 저장하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1916"/>
         <location filename="../src/ui/qgisapp.ui" line="1919"/>
         <source>Rollback for All Layers</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 레이어의 작업을 롤백하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1931"/>
         <location filename="../src/ui/qgisapp.ui" line="1934"/>
         <source>Cancel for All Layers</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 레이어의 작업을 취소하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1946"/>
         <location filename="../src/ui/qgisapp.ui" line="1949"/>
         <source>Rollback for Selected Layer(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 레이어(들)의 작업을 롤백하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1961"/>
         <location filename="../src/ui/qgisapp.ui" line="1964"/>
         <source>Current Edits</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 편집들</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1976"/>
         <location filename="../src/ui/qgisapp.ui" line="1979"/>
         <source>Cancel for Selected Layer(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 레이어(들)의 작업 취소하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1991"/>
         <location filename="../src/ui/qgisapp.ui" line="1994"/>
         <source>Save Layer Edits</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 편집들 저장</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2006"/>
         <location filename="../src/ui/qgisapp.ui" line="2009"/>
         <source>Rotate Feature(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>객체(들) 회전</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2014"/>
         <source>&amp;Download data</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 다운로드((&amp;D)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2019"/>
         <source>&amp;Import topology from XML</source>
-        <translation type="unfinished"></translation>
+        <translation>XML 데이터에서 위상정보 가져오기((&amp;I)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2024"/>
         <source>&amp;Export topology to SpatiaLite</source>
-        <translation type="unfinished"></translation>
+        <translation>위상정보  SpatiaLite로 내보내기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2033"/>
         <source>Increase brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>밝기 증가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2042"/>
         <source>Decrease brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>밝기 감소</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2051"/>
         <source>Increase contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>대비 증가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2060"/>
         <source>Decrease contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>대비 감소</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2069"/>
         <source>Select By Expression</source>
-        <translation type="unfinished"></translation>
+        <translation>표현식별 선택</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2072"/>
         <source>Select features using an expression</source>
-        <translation type="unfinished"></translation>
+        <translation>식을 이용하여 객체 선택하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2077"/>
         <source>Need Support?</source>
-        <translation type="unfinished"></translation>
+        <translation>지원이 필요합니까?</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2086"/>
         <location filename="../src/ui/qgisapp.ui" line="2089"/>
         <source>Open Field Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 계산기 열기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2098"/>
         <source>Add Delimited Text Layer...</source>
-        <translation type="unfinished"></translation>
+        <translation>구분된 텍스트 레이어를 추가...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2101"/>
         <source>Add Delimited Text Layer</source>
-        <translation type="unfinished">구분된 텍스트 레이어를 추가</translation>
+        <translation>구분된 텍스트 레이어를 추가</translation>
     </message>
     <message>
         <source>Composer manager...</source>
@@ -7894,22 +7900,22 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="482"/>
         <source>&amp;New</source>
-        <translation type="unfinished">새로 만들기(&amp;N)</translation>
+        <translation>새로 만들기(&amp;N)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="494"/>
         <source>&amp;Open...</source>
-        <translation type="unfinished"></translation>
+        <translation>열기(&amp;O)...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="506"/>
         <source>&amp;Save</source>
-        <translation type="unfinished">저장(&amp;S)</translation>
+        <translation>저장(&amp;S)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="518"/>
         <source>Save &amp;As...</source>
-        <translation type="unfinished"></translation>
+        <translation>다른 이름으로 저장(&amp;A)...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1342"/>
@@ -8073,118 +8079,121 @@ Acts on currently active editable layer</source>
     <name>ModelerDialog</name>
     <message>
         <source>Edit model help</source>
-        <translation type="unfinished"></translation>
+        <translation>모델 도움말 편집</translation>
     </message>
     <message>
         <source>Run</source>
-        <translation type="unfinished">실행</translation>
+        <translation>실행</translation>
     </message>
     <message>
         <source>Execute current model</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 모델 실행</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation type="unfinished">열기</translation>
+        <translation>열기</translation>
     </message>
     <message>
         <source>Open existing model</source>
-        <translation type="unfinished"></translation>
+        <translation>기존 모델 열기</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished">저장</translation>
+        <translation>저장</translation>
     </message>
     <message>
         <source>Save current model</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 모델 저장</translation>
     </message>
     <message>
         <source>Save as ...</source>
-        <translation type="unfinished"></translation>
+        <translation>다른 이름으로 저장...</translation>
     </message>
     <message>
         <source>Save current model as</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 모델 다른이름으로 저장</translation>
     </message>
     <message>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>검색...</translation>
     </message>
     <message>
         <source>Empty model</source>
-        <translation type="unfinished"></translation>
+        <translation>빈 모델</translation>
     </message>
     <message>
         <source>Model doesn&apos;t contains any algorithms and/or parameters and can&apos;t be executed</source>
-        <translation type="unfinished"></translation>
+        <translation>모델이 어떤 알고리즘이나 매개변수를 포함하지 않고 있어서 실행할 수 없습니다</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">경고</translation>
+        <translation>경고</translation>
     </message>
     <message>
         <source>Please enter group and model names before saving</source>
-        <translation type="unfinished"></translation>
+        <translation>저장하기 전에 그룹이름이나 모델이름을 입력하십시오</translation>
     </message>
     <message>
         <source>Save Model</source>
-        <translation type="unfinished"></translation>
+        <translation>모델 저장</translation>
     </message>
     <message>
         <source>SEXTANTE models (*.model)</source>
-        <translation type="unfinished"></translation>
+        <translation>SEXTANTE 모델들(*.model)</translation>
     </message>
     <message>
         <source>I/O error</source>
-        <translation type="unfinished"></translation>
+        <translation>I/O 오류</translation>
     </message>
     <message>
         <source>Unable to save edits. Reason:
  %1</source>
-        <translation type="unfinished"></translation>
+        <translation>편집을 저장할 수 없음. 원인:
+%1</translation>
     </message>
     <message>
         <source>Can&apos;t save model</source>
-        <translation type="unfinished"></translation>
+        <translation>모델을 저장할 수 없습니다</translation>
     </message>
     <message>
         <source>This model can&apos;t be saved in its original location
 (probably you do not have permission to do it).
 Please, use the &apos;Save as...&apos; option.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 모델을 현재 위치에 저장할 수 없습니다
+(아마도 권한이 부족해 보입니다)0
+&apos;다른이름으로 저장&apos; 옵션을 사용해 주세요.</translation>
     </message>
     <message>
         <source>Model saved</source>
-        <translation type="unfinished"></translation>
+        <translation>모델 이 저장되었습니다</translation>
     </message>
     <message>
         <source>Model was correctly saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>모델이 정상적으로 저장되었습니다.</translation>
     </message>
     <message>
         <source>Open Model</source>
-        <translation type="unfinished"></translation>
+        <translation>모델 열기</translation>
     </message>
     <message>
         <source>Could not open model</source>
-        <translation type="unfinished"></translation>
+        <translation>모델을 열 수 없습니다</translation>
     </message>
     <message>
         <source>The selected model could not be loaded.
 Wrong line: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>이 모델은 로드할 수 없습니다. 잘못된 줄 : %1</translation>
     </message>
     <message>
         <source>Parameters</source>
-        <translation type="unfinished">매개 변수</translation>
+        <translation>매개 변수</translation>
     </message>
 </context>
 <context>
     <name>NotSupportedDbType</name>
     <message>
         <source>%s is not supported yet</source>
-        <translation type="unfinished"></translation>
+        <translation>%s 은 지원하지 않습니</translation>
     </message>
 </context>
 <context>
@@ -9092,26 +9101,26 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     <name>PGDatabase</name>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블(&amp;T)</translation>
     </message>
     <message>
         <source>Run &amp;Vacuum Analyze</source>
-        <translation type="unfinished"></translation>
+        <translation>진공분석 실행((&amp;V)</translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>Select a TABLE for vacuum analyze.</source>
-        <translation type="unfinished"></translation>
+        <translation>진공 분석된 테이블을 선택합니다.</translation>
     </message>
 </context>
 <context>
     <name>PGTable</name>
     <message>
         <source>Table rule</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 규칙</translation>
     </message>
 </context>
 <context>
@@ -9125,33 +9134,33 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     <name>PostGisDBPlugin</name>
     <message>
         <source>There is no defined database connection &quot;%s&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>정의된 데이터베이스 연결이 없습니다 &quot;%s&quot;.</translation>
     </message>
     <message>
         <source>Enter password</source>
-        <translation type="unfinished"></translation>
+        <translation>비밀번호를 입력하세요</translation>
     </message>
     <message>
         <source>Enter password for connection &quot;%s&quot;:</source>
-        <translation type="unfinished"></translation>
+        <translation>연결을 위해 비밀번호를 입력하세요 &quot;% s&quot;:</translation>
     </message>
 </context>
 <context>
     <name>PrepareAPIDialog</name>
     <message>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation type="unfinished">종료</translation>
+        <translation>종료</translation>
     </message>
 </context>
 <context>
     <name>Python</name>
     <message>
         <source>Python</source>
-        <translation type="unfinished">Python</translation>
+        <translation type="unfinished">들Python</translation>
     </message>
     <message>
         <source>An error has occured while executing Python code:</source>
@@ -18959,7 +18968,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="311"/>
         <source>Composition</source>
-        <translation>컴포지션</translation>
+        <translation>구성</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="315"/>
@@ -19013,7 +19022,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="186"/>
         <source>Print Composers</source>
-        <translation>컴포져 인쇄</translation>
+        <translation>인쇄 조판기</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="687"/>
@@ -19097,17 +19106,17 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1443"/>
         <source>Duplicating composer...</source>
-        <translation>컴포져 복사하기...</translation>
+        <translation>조판기 복사하기...</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1455"/>
         <source>Duplicate Composer</source>
-        <translation>컴포져 복사</translation>
+        <translation>조판기 복사</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1456"/>
         <source>Composer duplication failed.</source>
-        <translation>컴포져 복사 실패.</translation>
+        <translation>조판기 복사 실패.</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1475"/>
@@ -19117,7 +19126,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1477"/>
         <source>Composer templates</source>
-        <translation>구성 템플릿</translation>
+        <translation>조판기 템플릿</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2118"/>
@@ -19127,7 +19136,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2119"/>
         <source>Advanced composition effects such as blend modes or vector layer transparency are enabled in this project, which cannot be printed as vectors. Printing as a raster is recommended.</source>
-        <translation>강화된 구성 효과는 이 프로젝트내에서 블렌드 모드나 벡터 레이어 투명성 기능을 지원합니다, 벡터로 출력할 수 없을 경우. 래스터로 출력하도록 추천합니다.</translation>
+        <translation>강화된 구성 효과는 이 프로젝트내에서 블렌드 모드나 벡터 레이어 투명도 기능을 지원합니다, 벡터로 출력할 수 없을 경우. 래스터로 출력하도록 추천합니다.</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2120"/>
@@ -19138,7 +19147,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/composer/qgscomposer.cpp" line="179"/>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1831"/>
         <source>Composer</source>
-        <translation>컴포져</translation>
+        <translation>조판기</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="712"/>
@@ -19150,17 +19159,17 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1549"/>
         <source>Composer error</source>
-        <translation>컴포져 오류</translation>
+        <translation>조판기 오류</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1549"/>
         <source>Error, could not create new composer</source>
-        <translation>오류, 새로운 컴포져를 생성할 수 없습니다</translation>
+        <translation>오류, 새로운 조판기를 생성할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1566"/>
         <source>Loading template into composer...</source>
-        <translation>컴포져 안에 템플릿 불러오기...</translation>
+        <translation>조판기 안에 템플릿 불러오기...</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2103"/>
@@ -19337,7 +19346,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="75"/>
         <source>Line width</source>
-        <translation>라인  width</translation>
+        <translation>라인 width</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="85"/>
@@ -19348,7 +19357,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="92"/>
         <source>Arrow head width</source>
-        <translation>화살표  head width</translation>
+        <translation>화살표 head width</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="115"/>
@@ -19358,7 +19367,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="145"/>
         <source>Default</source>
-        <translation>기본</translation>
+        <translation>기본값</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerarrowwidgetbase.ui" line="152"/>
@@ -19477,22 +19486,22 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="51"/>
         <source>Composer</source>
-        <translation>컴포져</translation>
+        <translation>조판기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="76"/>
         <source>Paper Navigation</source>
-        <translation>페이퍼 네비게이션</translation>
+        <translation>페이퍼 내비게이션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="91"/>
         <source>Composer Item Actions</source>
-        <translation>컴포져 아이템 액션</translation>
+        <translation>조판기 항목 액션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="106"/>
         <source>Composer Items</source>
-        <translation>컴포져 아이템</translation>
+        <translation>조판기 항목</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="135"/>
@@ -19691,22 +19700,22 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="529"/>
         <source>Composer Manager</source>
-        <translation>컴포져 관리자</translation>
+        <translation>조판기 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="532"/>
         <source>Composer manager</source>
-        <translation>컴포져 관리자</translation>
+        <translation>조판기 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="537"/>
         <source>&amp;New Composer</source>
-        <translation>새로운 컴포져(&amp;N)</translation>
+        <translation>새로운 조판기(&amp;N)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="540"/>
         <source>New composer</source>
-        <translation>새로운 컴포져</translation>
+        <translation>새로운 조판기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="543"/>
@@ -19731,12 +19740,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="559"/>
         <source>&amp;Duplicate Composer</source>
-        <translation>컴포져 복제 (&amp;D)</translation>
+        <translation>조판기 복제 (&amp;D)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="562"/>
         <source>Duplicate composer</source>
-        <translation>컴포져 복제</translation>
+        <translation>조판기 복제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="567"/>
@@ -19764,7 +19773,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="365"/>
         <source>Align selected items left</source>
-        <translation>선택된 아이템을 왼쪽 정렬</translation>
+        <translation>선택된 항목을 왼쪽 정렬</translation>
     </message>
     <message>
         <source>Align center</source>
@@ -19782,7 +19791,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="381"/>
         <source>Align selected items right</source>
-        <translation>선택된 아이템을 오른쪽 정렬</translation>
+        <translation>선택된 항목을 오른쪽 정렬</translation>
     </message>
     <message>
         <source>Align top</source>
@@ -19791,7 +19800,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="389"/>
         <source>Align selected items to top</source>
-        <translation>선택된 아이템을 상단 정렬</translation>
+        <translation>선택된 항목을 상단 정렬</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="394"/>
@@ -19810,7 +19819,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="405"/>
         <source>Align selected items bottom</source>
-        <translation>선택된 아이템을 하단 정렬</translation>
+        <translation>선택된 항목을 하단 정렬</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="410"/>
@@ -19875,7 +19884,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="510"/>
         <source>Add Ellipse</source>
-        <translation>엘립스 추가</translation>
+        <translation>타원 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="524"/>
@@ -19998,7 +20007,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerhtmlwidgetbase.ui" line="57"/>
         <source>Main properties</source>
-        <translation>주 속성들</translation>
+        <translation>주요 속성들</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerhtmlwidgetbase.ui" line="99"/>
@@ -20033,22 +20042,22 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposeritemwidget.cpp" line="189"/>
         <source>Item outline width</source>
-        <translation>아이템 외곽선 두께</translation>
+        <translation>항목 외곽선 두께</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposeritemwidget.cpp" line="203"/>
         <source>Item frame toggled</source>
-        <translation>아이템 프레임 전환</translation>
+        <translation>항목 프레임 전환</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposeritemwidget.cpp" line="120"/>
         <source>Item position changed</source>
-        <translation>아이템 위치가 변경되었음</translation>
+        <translation>항목 위치가 변경되었음</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposeritemwidget.cpp" line="216"/>
         <source>Item background toggled</source>
-        <translation>아이템 배경색 전환됨</translation>
+        <translation>항목 배경색 전환됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposeritemwidget.cpp" line="337"/>
@@ -20063,7 +20072,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposeritemwidget.cpp" line="382"/>
         <source>Item id changed</source>
-        <translation>아이템 ID 변경됨</translation>
+        <translation>항목 ID 변경됨</translation>
     </message>
 </context>
 <context>
@@ -20155,7 +20164,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="298"/>
         <source>Item ID</source>
-        <translation>아이템 ID</translation>
+        <translation>항목 ID</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposeritemwidgetbase.ui" line="316"/>
@@ -20196,23 +20205,23 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="61"/>
         <source>Label text HTML state changed</source>
-        <translation>라벨 텍스트  HTML 문장 변경되었습니다</translation>
+        <translation>라벨 텍스트  HTML 문장 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="75"/>
         <source>Label text changed</source>
-        <translation>라벨 텍스트가 변경되었습니다</translation>
+        <translation>라벨 텍스트가 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="97"/>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="127"/>
         <source>Label font changed</source>
-        <translation>라벨 글꼴이 변경되었습니다</translation>
+        <translation>라벨 글꼴이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="109"/>
         <source>Label margin changed</source>
-        <translation>라벨 여백이 변경되었습니다</translation>
+        <translation>라벨 여백이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="152"/>
@@ -20228,7 +20237,7 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="213"/>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="224"/>
         <source>Label alignment changed</source>
-        <translation>라벨의 정렬이 변경되었습니다</translation>
+        <translation>라벨의 정렬이 변경됨</translation>
     </message>
     <message>
         <source>Label id changed</source>
@@ -20237,7 +20246,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="235"/>
         <source>Label rotation changed</source>
-        <translation>라벨 로테이션이 변경되었습니다</translation>
+        <translation>라벨 회전이 변경됨</translation>
     </message>
 </context>
 <context>
@@ -20255,7 +20264,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="63"/>
         <source>Main properties</source>
-        <translation>주 속성들</translation>
+        <translation>주요 속성들</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="85"/>
@@ -20414,7 +20423,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="126"/>
         <source>Item</source>
-        <translation>아이템</translation>
+        <translation>항목</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="126"/>
@@ -20424,7 +20433,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="201"/>
         <source>Item wrapping changed</source>
-        <translation>아이템 랩핑 변경됨</translation>
+        <translation>항목 랩핑 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="213"/>
@@ -20439,13 +20448,13 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="239"/>
         <source>Legend split layers</source>
-        <translatorcomment>범례 레이어가 분리되었습니다</translatorcomment>
+        <translatorcomment>범례 레이어가 분리</translatorcomment>
         <translation></translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="251"/>
         <source>Legend equal column width</source>
-        <translation>범레 열 폭이 같습니다</translation>
+        <translation>범레 열 폭이 동일</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="263"/>
@@ -20485,27 +20494,27 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="358"/>
         <source>Title font changed</source>
-        <translation>제목 글꼴이 변경되었습니다</translation>
+        <translation>제목 글꼴이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="380"/>
         <source>Legend group font changed</source>
-        <translation>범례 그룹 글꼴이 변경되었습니다</translation>
+        <translation>범례 그룹 글꼴이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="402"/>
         <source>Legend layer font changed</source>
-        <translation>범례 레이어 글꼴이 변경되었습니다</translation>
+        <translation>범례 레이어 글꼴이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="424"/>
         <source>Legend item font changed</source>
-        <translation>범례 항목 글꼴이 변경되었습니다</translation>
+        <translation>범례 항목 글꼴이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="448"/>
         <source>Legend font color changed</source>
-        <translation>범례 글꼴 색상이 변경되었습니다</translation>
+        <translation>범례 글꼴 색상이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="458"/>
@@ -20521,19 +20530,19 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="747"/>
         <source>Legend item edited</source>
-        <translation>범례 항목이 변경되었습니다</translation>
+        <translation>범례 항목이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="780"/>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="825"/>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="856"/>
         <source>Legend updated</source>
-        <translation>범례가 변경되었습니다</translation>
+        <translation>범례가 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="845"/>
         <source>Legend group added</source>
-        <translation>범례 그룹이 추가되었습니다</translation>
+        <translation>범례 그룹이 추가됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="923"/>
@@ -20569,7 +20578,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="150"/>
         <source>Update item</source>
-        <translation>아이템이 변경되었습니다</translation>
+        <translation>항목이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="163"/>
@@ -20579,7 +20588,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="166"/>
         <source>Update all</source>
-        <translation>모두 변경되었습니다</translation>
+        <translation>모두 변경됨</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="255"/>
@@ -20590,7 +20599,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="320"/>
         <source>Show feature count for each class of vector layer.</source>
-        <translation type="unfinished">벡터 레이어의 각 클래스 피쳐수를 보여줍니다.</translation>
+        <translation>벡터 레이어의 각 클래스 피쳐수를 보여줍니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="371"/>
@@ -20630,7 +20639,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="465"/>
         <source>Equal column widths</source>
-        <translation>컬럼 폭이 같습니다</translation>
+        <translation>컬럼 폭이 동일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="472"/>
@@ -20655,73 +20664,73 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="523"/>
         <source>Symbol height</source>
-        <translation>심볼 높이 </translation>
+        <translation>심볼 높이</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="546"/>
         <source>Spacing</source>
-        <translation type="unfinished">여백</translation>
+        <translation>여백</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="564"/>
         <source>Space above text using group style.</source>
-        <translation type="unfinished">그룹 스타일을 사용하여 텍스트위에 여백 주기.</translation>
+        <translation>그룹 스타일을 사용하여 텍스트위에 여백 주기.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="567"/>
         <source>Group Space</source>
-        <translation type="unfinished">그룹 여백</translation>
+        <translation>그룹 여백</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="587"/>
         <source>Space above text using subgroup style.</source>
-        <translation type="unfinished">소그룹 스타일을 사용하여 텍스트위에 여백 주기.</translation>
+        <translation>소그룹 스타일을 사용하여 텍스트위에 여백 주기.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="590"/>
         <source>Subgroup space</source>
-        <translation type="unfinished">소그룹 여백</translation>
+        <translation>소그룹 여백</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="610"/>
         <source>Space above symbol and symbol label.</source>
-        <translation type="unfinished">심볼 라벨과 심볼위에 여백 주기.</translation>
+        <translation>심볼 라벨과 심볼위에 여백 주기.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="613"/>
         <source>Symbol space</source>
-        <translation type="unfinished">심볼 여백</translation>
+        <translation>심볼 여백</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="633"/>
         <source>Space between symbol icon and symbol label (symbol label left margin).</source>
-        <translation type="unfinished">심볼 아이콘과 심볼 라벨사이에 여백주기(심볼 라벨의 왼쪽 여백).</translation>
+        <translation>심볼 아이콘과 심볼 라벨사이에 여백주기(심볼 라벨의 왼쪽 여백).</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="636"/>
         <source>Icon label space</source>
-        <translation type="unfinished">아이콘 라벨 공간</translation>
+        <translation>아이콘 라벨 공간</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="656"/>
         <source>Box space</source>
-        <translation type="unfinished">상자 여백</translation>
+        <translation>상자 여백</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="676"/>
         <source>Column space</source>
-        <translation type="unfinished">컬럼 여백</translation>
+        <translation>컬럼 여백</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="693"/>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="703"/>
         <source>Space below title.</source>
-        <translation type="unfinished">하단 제목 여백.</translation>
+        <translation>하단 제목 여백.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="696"/>
         <source>Title space</source>
-        <translation type="unfinished">제목 여백</translation>
+        <translation>제목 여백</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="706"/>
@@ -20867,7 +20876,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="84"/>
         <source>Empty composer</source>
-        <translation>콤포저 비우기</translation>
+        <translation>조판기 비우기</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="85"/>
@@ -20884,32 +20893,32 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="152"/>
         <source>Error, template file not found</source>
-        <translation>오류 템플릿 파일을 찾을 수 없습니다</translation>
+        <translation>오류 템플릿 파일을 찾을 수 없음</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="157"/>
         <source>Error, could not read file</source>
-        <translation>오류, 파일을 읽을 수 없습니다</translation>
+        <translation>오류, 파일을 읽을 수 없음</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="174"/>
         <source>Composer error</source>
-        <translation>컴포져 오류</translation>
+        <translation>조판기 오류</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="174"/>
         <source>Error, could not create composer</source>
-        <translation>오류 컴포져를 생성할 수 없습니다</translation>
+        <translation>오류 조판기를 생성할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="189"/>
         <source>Loading template into composer...</source>
-        <translation>컴포져 안에 템플릿 불러오기...</translation>
+        <translation>조판기 안에 템플릿 불러오기...</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="222"/>
         <source>Error, could not load template file</source>
-        <translation>오류, 템플릿 파일을 불러올 수 없습니다</translation>
+        <translation>오류, 템플릿 파일을 불러올 수 없음</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="238"/>
@@ -20919,7 +20928,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="240"/>
         <source>Composer templates</source>
-        <translation>컴포져 템플릿</translation>
+        <translation>조판기 템플릿</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="265"/>
@@ -20929,17 +20938,17 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="265"/>
         <source>Error, could not open or create local directory</source>
-        <translation>오류 로컬 디렉토리를 열거나 생성할 수 없습니다</translation>
+        <translation>오류 로컬 디렉토리를 열거나 생성할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="280"/>
         <source>Remove composer</source>
-        <translation>컴포져 제거</translation>
+        <translation>조판기 제거</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="280"/>
         <source>Do you really want to remove the map composer &apos;%1&apos;?</source>
-        <translation>정말 이 지도 컴포져 &apos;%1&apos;를 삭제하시겠습니까?</translation>
+        <translation>정말 이 지도 조판기 &apos;%1&apos;를 삭제하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="386"/>
@@ -20949,17 +20958,17 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="393"/>
         <source>Duplicating composer...</source>
-        <translation>컴포져 복제하기...</translation>
+        <translation>조판기 복제하기...</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="414"/>
         <source>Duplicate Composer</source>
-        <translation>컴포져 복제</translation>
+        <translation>조판기 복제</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="415"/>
         <source>Composer duplication failed.</source>
-        <translation>컴포져 복제 실패.</translation>
+        <translation>조판기 복제 실패.</translation>
     </message>
     <message>
         <source>Change title</source>
@@ -20975,7 +20984,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="20"/>
         <source>Composer manager</source>
-        <translation>컴포져 관리자</translation>
+        <translation>조판기 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="35"/>
@@ -21091,7 +21100,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="757"/>
         <source>Label font changed</source>
-        <translation>라벨 글꼴이 변경되었습니다</translation>
+        <translation>라벨 글꼴이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="912"/>
@@ -21138,23 +21147,23 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="146"/>
         <source>Map scale changed</source>
-        <translation>지도 스케일이 변경되었습니다</translation>
+        <translation>지도 스케일이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="158"/>
         <source>Map rotation changed</source>
-        <translation>지도 회전이 변경되었습니다</translation>
+        <translation>지도 회전이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="199"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="410"/>
         <source>Map extent changed</source>
-        <translation>지도 영역이 변경되었습니다</translation>
+        <translation>지도 영역이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="505"/>
         <source>Canvas items toggled</source>
-        <translation>캔버스 항목이 전환되었습니다</translation>
+        <translation>캔버스 항목이 전환됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="522"/>
@@ -21166,19 +21175,19 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="601"/>
         <source>Grid checkbox toggled</source>
-        <translation>격자 체크박스가 전환되었습니다</translation>
+        <translation>격자 체크박스가 전환됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="622"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="635"/>
         <source>Grid interval changed</source>
-        <translation>격자 간격이 변경되었습니다</translation>
+        <translation>격자 간격이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="648"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="661"/>
         <source>Grid offset changed</source>
-        <translation>격자 오프셋이 변경되었습니다</translation>
+        <translation>격자 오프셋이 변경됨</translation>
     </message>
     <message>
         <source>Grid pen changed</source>
@@ -21187,37 +21196,37 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="699"/>
         <source>Grid type changed</source>
-        <translation>격자 유형이 변경되었습니다</translation>
+        <translation>격자 유형이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="711"/>
         <source>Grid cross width changed</source>
-        <translation>격자의 십자선 두께가 변경되었습니다</translation>
+        <translation>격자의 십자선 두께가 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="743"/>
         <source>Annotation font changed</source>
-        <translation>주석 글꼴이 변경되었습니다</translation>
+        <translation>주석 글꼴이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="769"/>
         <source>Annotation distance changed</source>
-        <translation>주석 거리가 변경되었습니다</translation>
+        <translation>주석 거리가 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="783"/>
         <source>Annotation format changed</source>
-        <translation>주석 양식이 변경되었습니다</translation>
+        <translation>주석 양식이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="871"/>
         <source>Changed grid frame style</source>
-        <translation>격자 프레임 스타일이 변경되었습니다</translation>
+        <translation>격자 프레임 스타일이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="889"/>
         <source>Changed grid frame width</source>
-        <translation>격자 프레임 폭이 변경되었습니다</translation>
+        <translation>격자 프레임 폭이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="914"/>
@@ -21229,7 +21238,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="930"/>
         <source>Annotation position changed</source>
-        <translation>주석 위치가 변경되었습니다</translation>
+        <translation>주석 위치가 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="1052"/>
@@ -21239,17 +21248,17 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="817"/>
         <source>Annotation toggled</source>
-        <translation>주석 전환되었습니다</translation>
+        <translation>주석 전환됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="956"/>
         <source>Changed annotation direction</source>
-        <translation>주석 방향이 변경되었습니</translation>
+        <translation>주석 방향이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="857"/>
         <source>Changed annotation precision</source>
-        <translation>주석 정밀도가 변경되었습니다</translation>
+        <translation>주석 정밀도가 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="54"/>
@@ -21296,7 +21305,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="145"/>
         <source>Draw map canvas items</source>
-        <translation>지도 캔버스 아이템 그리기</translation>
+        <translation>지도 캔버스 항목 그리기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="257"/>
@@ -21577,7 +21586,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerpicturewidget.cpp" line="128"/>
         <source>Picture rotation changed</source>
-        <translation>픽처 회전이 변경되었습니다</translation>
+        <translation>픽처 회전이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerpicturewidget.cpp" line="154"/>
@@ -21587,12 +21596,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerpicturewidget.cpp" line="209"/>
         <source>Rotation synchronisation toggled</source>
-        <translation>회전 동기화가 전환되었습니다</translation>
+        <translation>회전 동기화가 전환됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerpicturewidget.cpp" line="268"/>
         <source>Rotation map changed</source>
-        <translation>지도 회전이 변경되었습니다</translation>
+        <translation>지도 회전이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerpicturewidget.cpp" line="292"/>
@@ -21821,7 +21830,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="254"/>
         <source>Number of scalebar segments changed</source>
-        <translation>스케일바 세그먼트수가 변경되었습니다</translation>
+        <translation>스케일바 세그먼트수가 변경됨</translation>
     </message>
     <message>
         <source>Scalebar n segments</source>
@@ -21830,27 +21839,27 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="268"/>
         <source>Scalebar height changed</source>
-        <translation>스케일바 높이가 변경되었습니다</translation>
+        <translation>스케일바 높이가 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="293"/>
         <source>Scalebar font changed</source>
-        <translation>스케일바 글꼴이 변경되었습니다</translation>
+        <translation>스케일바 글꼴이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="317"/>
         <source>Scalebar font color changed</source>
-        <translation>스케일바 글꼴 색상이 변경되었습니다</translation>
+        <translation>스케일바 글꼴 색상이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="340"/>
         <source>Scalebar color changed</source>
-        <translation>스케일바의 색상이 변경되었습니다</translation>
+        <translation>스케일바의 색상이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="364"/>
         <source>Scalebar stroke color changed</source>
-        <translation>스케일바 스트로크 색상이 변경되었습니다</translation>
+        <translation>스케일바 스트로크 색상이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="381"/>
@@ -21865,7 +21874,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="411"/>
         <source>Scalebar style changed</source>
-        <translation>스케일바 스타일이 변경되었습니다</translation>
+        <translation>스케일바 스타일이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="485"/>
@@ -21885,7 +21894,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="535"/>
         <source>Scalebar unit changed</source>
-        <translation>스케일바 단위가 변경되었습니다</translation>
+        <translation>스케일바 단위가 변경됨</translation>
     </message>
 </context>
 <context>
@@ -22187,7 +22196,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="128"/>
         <source>Table layer changed</source>
-        <translation>테이블 레이어가 변경되었습니다</translation>
+        <translation>테이블 레이어가 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="147"/>
@@ -22197,7 +22206,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="175"/>
         <source>Table map changed</source>
-        <translation>테이블 지도가 변경되었습니다</translation>
+        <translation>테이블 지도가 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="193"/>
@@ -22241,12 +22250,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="288"/>
         <source>Table grid toggled</source>
-        <translation>테이블 격자가 전환되었습니다</translation>
+        <translation>테이블 격자가 전환됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="377"/>
         <source>Table visible only toggled</source>
-        <translation>테이블 표시속성만 전환되었습니다</translation>
+        <translation>테이블 표시속성만 전환됨</translation>
     </message>
 </context>
 <context>
@@ -30250,7 +30259,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassattributes.cpp" line="123"/>
         <source>Value</source>
-        <translation>값을</translation>
+        <translation>값</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassattributes.cpp" line="124"/>
@@ -30318,7 +30327,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassattributesbase.ui" line="238"/>
         <source>Delete selected category</source>
-        <translation>선택한 범주를 제거</translation>
+        <translation>선택한 카테고리를 삭제</translation>
     </message>
 </context>
 <context>
@@ -30420,12 +30429,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassbrowser.cpp" line="366"/>
         <source>Cannot rename map %1</source>
-        <translation>지도 %1 이름 변경할 수 없음</translation>
+        <translation>지도 %1 이름을 변경할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassbrowser.cpp" line="422"/>
         <source>Remove the selected layer(s) from canvas before continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>계속하기 전에 켄버스에서 선택된 레이어를 제거합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassbrowser.cpp" line="475"/>
@@ -30523,7 +30532,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="241"/>
         <source>Cannot open vector for update.</source>
-        <translation>업데이트를 위해 벡터를 열 수 없습니다.</translation>
+        <translation>업데이트를 위한 벡터를 열 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="699"/>
@@ -30538,7 +30547,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="1398"/>
         <source>Tool not yet implemented.</source>
-        <translation>도구가 실행되지 않았습니다.</translation>
+        <translation>아직 구현되지 않은 도구입니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="1427"/>
@@ -30578,7 +30587,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="409"/>
         <source>Boundary (no area)</source>
-        <translation>바운터리 (영역 없음)</translation>
+        <translation>바운더리 (영역 없음)</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="410"/>
@@ -30593,7 +30602,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="412"/>
         <source>Centroid (in area)</source>
-        <translation>센트로이드 (영역 내)</translation>
+        <translation>센트로이드 (영역 안)</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="413"/>
@@ -30618,7 +30627,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="546"/>
         <source>Next not used</source>
-        <translation>다음이 사용되지 않음</translation>
+        <translation>사용되지 않은 다음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="547"/>
@@ -30805,7 +30814,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="750"/>
         <source>Delete selected / select next</source>
-        <translation>선택을 삭제하고 다음을 선택</translation>
+        <translation>선택 항목을 삭제하고 다음을 선택</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="750"/>
@@ -30831,7 +30840,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="589"/>
         <source>Release vertex</source>
-        <translation>버텍스 해제</translation>
+        <translation>버텍스 선택 해제</translation>
     </message>
 </context>
 <context>
@@ -30906,12 +30915,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="72"/>
         <source>New centroid</source>
-        <translation>새 센트로이드</translation>
+        <translation>새로운 센트로이드</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedittools.cpp" line="74"/>
         <source>New point</source>
-        <translation>새 점</translation>
+        <translation>새로운 점</translation>
     </message>
 </context>
 <context>
@@ -30997,7 +31006,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="105"/>
         <source>Add connection</source>
-        <translation>관계 추가</translation>
+        <translation>연결 추가</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="112"/>
@@ -31052,7 +31061,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="153"/>
         <source>Exponentiation</source>
-        <translation>누승</translation>
+        <translation>거듭제곱</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="156"/>
@@ -31117,7 +31126,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="170"/>
         <source>Cosine of x (x is in degrees)</source>
-        <translation>x의 코사인</translation>
+        <translation>x의 코사인(x는 도단위)</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="171"/>
@@ -31285,12 +31294,12 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="489"/>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="544"/>
         <source>Cannot get current region</source>
-        <translation>현재 영역값을 가져올 수 없습니다.</translation>
+        <translation>현재 영역값을 가져올 수 없음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="783"/>
         <source>No GRASS raster maps currently in QGIS</source>
-        <translation>현재 QGIS에 GRASS 래스터 지도가 없습니다.</translation>
+        <translation>현재 QGIS에 GRASS 래스터 지도가 없음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="1080"/>
@@ -31321,12 +31330,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="1125"/>
         <source>File name empty</source>
-        <translation>파일 이름이 비어 있습니다.</translation>
+        <translation>파일 이름이 비어 있음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="1144"/>
         <source>Cannot open mapcalc file</source>
-        <translation>지도 연산 파일을 열 수 없습니다.</translation>
+        <translation>mapcalc 파일을 열 수 없음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="213"/>
@@ -31337,12 +31346,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="521"/>
         <source>Cannot check region of map %1</source>
-        <translation>지도 %1의 영역을 확인할 수 없습니다.</translation>
+        <translation>지도 %1의 영역을 확인할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="579"/>
         <source>Cannot get region of map %1</source>
-        <translation>지도 %1의 영역을 가져올 수 없습니다.</translation>
+        <translation>지도 %1의 영역을 가져올 수 없음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="1106"/>
@@ -31357,7 +31366,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="1277"/>
         <source>Cannot open mapcalc schema (%1)</source>
-        <translation>mapcalc schema (%1)을 열 수 없습니다.</translation>
+        <translation>mapcalc schema (%1)를 열 수 없음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmapcalc.cpp" line="1289"/>
@@ -31398,7 +31407,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1764"/>
         <source>Stop</source>
-        <translation>정지</translation>
+        <translation>중지</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="173"/>
@@ -31419,7 +31428,7 @@ at line %2 column %3</source>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1522"/>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1551"/>
         <source>Cannot get input region</source>
-        <translation>입력 영역을 가져올 수 없습니다.</translation>
+        <translation>입력 영역을 가져올 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1538"/>
@@ -31459,13 +31468,13 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="178"/>
         <source>Cannot open module file (%1)</source>
-        <translation>모듈 파일 (%1)을 열 수 없습니다.</translation>
+        <translation>모듈 파일 (%1)을 열 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="186"/>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1275"/>
         <source>Cannot read module file (%1)</source>
-        <translation>모듈 파일 (%1)를 읽을 수 없습니다.</translation>
+        <translation>모듈 파일 (%1)를 읽을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="187"/>
@@ -31480,12 +31489,12 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="220"/>
         <source>Module %1 not found</source>
-        <translation>모듈 %1을 찾을 수 없습니다.</translation>
+        <translation>모듈 %1을 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="265"/>
         <source>Cannot find man page %1</source>
-        <translation>%1의 매뉴얼 페이지를 찾을 수 없습니다.</translation>
+        <translation>%1의 매뉴얼 페이지를 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1264"/>
@@ -31515,12 +31524,12 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1685"/>
         <source>Cannot find module %1</source>
-        <translation>모듈 %1을 찾을 수 없습니다.</translation>
+        <translation>모듈 %1을 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1759"/>
         <source>Cannot start module: %1</source>
-        <translation>모듈 %1을 시작할 수 없습니다.</translation>
+        <translation>다음 모듈을 시작할 수 없습니다: %1</translation>
     </message>
 </context>
 <context>
@@ -31599,7 +31608,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="3899"/>
         <source>%1:&amp;nbsp;directory does not exist</source>
-        <translation>%1:&amp;nbsp;디렉토리가 존재하지 않습니다.</translation>
+        <translation>%1:&amp;nbsp;디렉토리가 존재하지 않습니다</translation>
     </message>
 </context>
 <context>
@@ -31619,7 +31628,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="3310"/>
         <source>Cannot find layeroption %1</source>
-        <translation>레이어 옵션 %1을 찾을 수 없음</translation>
+        <translation>레이어 옵션 %1을 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="3290"/>
@@ -31629,7 +31638,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="3325"/>
         <source>Cannot find whereoption %1</source>
-        <translation>Where 옵션 %1을 찾을 수 없음</translation>
+        <translation>Where 옵션 %1을 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="3338"/>
@@ -31662,27 +31671,27 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="2700"/>
         <source>Use region of this map</source>
-        <translation>이 지도의 영역을 사용합니다.</translation>
+        <translation>이 지도의 영역을 사용</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="2578"/>
         <source>Cannot find typeoption %1</source>
-        <translation>유형 옵션 %1를 찾을 수 없습니다.</translation>
+        <translation>유형 옵션 %1를 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="2587"/>
         <source>Cannot find values for typeoption %1</source>
-        <translation>유형 옵션 %1 값을 찾을 수 없습니다.</translation>
+        <translation>유형 옵션 %1 값을 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="2660"/>
         <source>Cannot find layeroption %1</source>
-        <translation>레이어 옵션 %1을 찾을 수 없습니다.</translation>
+        <translation>레이어 옵션 %1을 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="2677"/>
         <source>GRASS element %1 not supported</source>
-        <translation>GRASS 엘리먼트 %1을 지원하지 않습니다.</translation>
+        <translation>GRASS 엘리먼트 %1을 지원하지 않습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="2773"/>
@@ -31692,18 +31701,18 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="2925"/>
         <source>%1 (band %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (밴드 %2)</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="3004"/>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="3043"/>
         <source>Cannot get provider</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 제공자를 가져올 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="3157"/>
         <source>%1:&amp;nbsp;no input</source>
-        <translation>%1:&amp;nbsp;no입력이 없습니다.</translation>
+        <translation>%1:&amp;nbsp;no입력이 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="2554"/>
@@ -31716,17 +31725,17 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="2311"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>탐색</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="2329"/>
         <source>Output file</source>
-        <translation type="unfinished">출력 파일</translation>
+        <translation>출력 파일</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="2329"/>
         <source>GeoTIFF</source>
-        <translation type="unfinished"></translation>
+        <translation>GeoTIFF</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="2428"/>
@@ -31763,7 +31772,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="693"/>
         <source>Item with key %1 not found</source>
-        <translation>키가 %1인 항목을 찾을 수 없습니다.</translation>
+        <translation>키가 %1인 항목을 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="654"/>
@@ -31800,17 +31809,17 @@ at line %2 column %3</source>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="968"/>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1061"/>
         <source>Cannot get current region</source>
-        <translation>현재 지역을 가져올 수 없습니다.</translation>
+        <translation>현재 영역을 가져올 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="331"/>
         <source>Cannot find module %1</source>
-        <translation>모듈 %1을 찾을 수 없습니다.</translation>
+        <translation>모듈 %1을 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="366"/>
         <source>Cannot start module %1</source>
-        <translation>모듈 %1을 시작할 수 없습니다.</translation>
+        <translation>모듈 %1을 시작할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="369"/>
@@ -31820,7 +31829,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="434"/>
         <source>Cannot read module description (%1):</source>
-        <translation>모듈의 디스크립션을 읽을 수 없습니다. (%1)</translation>
+        <translation>다음 모듈의 정보를 읽을 수 없음 (%1):</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="435"/>
@@ -31834,64 +31843,64 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="462"/>
         <source>Region</source>
-        <translation type="unfinished">영역</translation>
+        <translation>영역</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="464"/>
         <source>Input layers</source>
-        <translation type="unfinished"></translation>
+        <translation>입력 레이어</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="465"/>
         <source>Current map canvas</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 지도 캔버스</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="532"/>
         <source>Cannot find key %1</source>
-        <translation>키 %1을 찾을 수 없습니다.</translation>
+        <translation>키 %1을 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="709"/>
         <source>Item with id %1 not found</source>
-        <translation>id %1 항목을 찾을 수 없습니다.</translation>
+        <translation>id %1 항목을 찾을 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1001"/>
         <source>Cannot check region of map %1</source>
-        <translation>지도 %1 영역을 확인할 수 없습니다.</translation>
+        <translation>지도 %1 영역을 확인할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1044"/>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1149"/>
         <source>Cannot set region</source>
-        <translation type="unfinished"></translation>
+        <translation>영역읈 설정할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1082"/>
         <source>Cannot get selected layer</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 레이어를 가져올 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1094"/>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1104"/>
         <source>Cannot get provider</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 제공자를 가져올 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1119"/>
         <source>The layer CRS (defined in QGIS) and data source CRS differ. We are not yet able to pass the layer CRS to GRASS module. Please set correct data source CRS or change layer CRS to data source CRS.</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 CRS(QGIS에서 정의된)와 데이터 원본 CRS가 다릅니다. 현재 레이어 CRS를 GRASS 모듈로 넘겨줄 수 없습니다.올바른  데이터 원본 CRS를 설정하거나 레이어 CRS를 데이터 원본 CRS로 변경하십시오.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1139"/>
         <source>Cannot get raster provider</source>
-        <translation type="unfinished"></translation>
+        <translation>래스터 제공자를 가져올 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassmodule.cpp" line="1181"/>
         <source>Cannot set region of map %1</source>
-        <translation>지도 %1 영역을 설정할 수 없습니다.</translation>
+        <translation>지도 %1 영역을 설정할 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -31977,12 +31986,12 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="687"/>
         <source>North must be greater than south</source>
-        <translation>북쪽 값은 남쪽 값보다 커야합니다.</translation>
+        <translation>북쪽 값은 남쪽 값보다 커야 합니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="692"/>
         <source>East must be greater than west</source>
-        <translation>동쪽 값은 서쪽 값보다 커야합니다.</translation>
+        <translation>동쪽 값은 서쪽 값보다 커야합니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="893"/>
@@ -31992,7 +32001,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="986"/>
         <source>Cannot reproject region</source>
-        <translation>영역을 다시 투영할 수 없습니다.</translation>
+        <translation>영역을 다시 투영할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="1207"/>
@@ -32002,7 +32011,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="1217"/>
         <source>The mapset already exists</source>
-        <translation>이 지도 세트는 이미 존재합니다.</translation>
+        <translation>이 지도 세트는 이미 존재합니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="1235"/>
@@ -32034,12 +32043,12 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="1324"/>
         <source>Cannot open DEFAULT_WIND</source>
-        <translation>DEFAULT_WIND을 열 수 없습니다.</translation>
+        <translation>DEFAULT_WIND을 열 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="1331"/>
         <source>Cannot open WIND</source>
-        <translation>WIND를 열 수 없습니다.</translation>
+        <translation>WIND를 열 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="1353"/>
@@ -32055,7 +32064,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="1315"/>
         <source>Cannot create new mapset directory</source>
-        <translation>새로운 지도 세트 디렉토리를 만들 수 없습니다.</translation>
+        <translation>새로운 지도 세트 디렉토리를 만들 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="856"/>
@@ -32063,7 +32072,7 @@ at line %2 column %3</source>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="1076"/>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="1085"/>
         <source>Cannot create QgsCoordinateReferenceSystem</source>
-        <translation>QgsCoordinateReferenceSystem을 만들 수 없습니다.</translation>
+        <translation>QgsCoordinateReferenceSystem을 생성할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="226"/>
@@ -32078,7 +32087,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="743"/>
         <source>Cannot open locations file (%1)</source>
-        <translation>위치 파일 (%1)을 열 수 없습니다.</translation>
+        <translation>위치 파일 (%1)을 열 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapset.cpp" line="753"/>
@@ -32247,7 +32256,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapsetbase.ui" line="44"/>
         <source>Comment</source>
-        <translation>코멘트</translation>
+        <translation>설명</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapsetbase.ui" line="59"/>
@@ -32301,7 +32310,7 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;GRASS의 영여역은 래스터 모듈을 위한 웍스페이스를 정의합니다. 기본 영역은 하나의 위치에 대해 유효합니다. 각각의 지도 세트에 다른 영역을 설정할 수 있습니다. 기본 영역은 나중에 변경할 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;GRASS의 영여역은 래스터 모듈을 위한 워크스페이스를 정의합니다. 기본 영역은 하나의 위치에 대해 유효합니다. 각각의 지도 세트에 다른 영역을 설정할 수 있습니다. 기본 영역은 나중에 변경할 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassnewmapsetbase.ui" line="2033"/>
@@ -32487,7 +32496,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassplugin.cpp" line="352"/>
         <source>Cannot open vector %1 in mapset %2</source>
-        <translation>지도 세트 %2의 벡터 %1을 열 수 없습니다.</translation>
+        <translation>지도 세트 %2의 벡터 %1을 열 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassplugin.cpp" line="456"/>
@@ -32504,7 +32513,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassplugin.cpp" line="577"/>
         <source>New vector created but cannot be opened by data provider.</source>
-        <translation>새로운 벡터가 만들어졌으나 데이터 프로바이더에 의해 열 수 없습니다.</translation>
+        <translation>새로운 벡터가 만들어졌으나 데이터 제공자로 열 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassplugin.cpp" line="591"/>
@@ -32531,7 +32540,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassplugin.cpp" line="597"/>
         <source>Cannot open vector for update.</source>
-        <translation>업데이트를 위해 벡터를 열 수 없습니다.</translation>
+        <translation>업데이트를 위한 벡터를 열 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassplugin.cpp" line="641"/>
@@ -32546,17 +32555,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassplugin.cpp" line="746"/>
         <source>Cannot close mapset. %1</source>
-        <translation>지도 세트 %1 닫지 못했음</translation>
+        <translation>지도 세트 %1 닫지 못했습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassplugin.cpp" line="800"/>
         <source>Cannot close current mapset. %1</source>
-        <translation>현재 지도 세트 %1 닫지 못했음</translation>
+        <translation>현재 지도 세트 %1 닫지 못했습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassplugin.cpp" line="809"/>
         <source>Cannot open GRASS mapset. %1</source>
-        <translation>GRASS 지도 세트 %1을 열 수 없습니다.</translation>
+        <translation>GRASS 지도 세트 %1을 열 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -32580,22 +32589,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/providers/grass/qgsgrassrasterprovider.cpp" line="59"/>
         <source>cellhd file %1 does not exist</source>
-        <translation type="unfinished"></translation>
+        <translation>cellhd file %1 이 없습니다</translation>
     </message>
     <message>
         <location filename="../src/providers/grass/qgsgrassrasterprovider.cpp" line="68"/>
         <source>Groups not yet supported</source>
-        <translation type="unfinished">그룹은 아직 지원하지 않습니다.</translation>
+        <translation>그룹은 아직 지원하지 않습니다</translation>
     </message>
     <message>
         <location filename="../src/providers/grass/qgsgrassrasterprovider.cpp" line="442"/>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>지원하지 않는 포맷입니다</translation>
     </message>
     <message>
         <location filename="../src/providers/grass/qgsgrassrasterprovider.cpp" line="459"/>
         <source>Cannot read data</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터를 읽을 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -32615,7 +32624,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassregion.cpp" line="509"/>
         <source>Cannot write region</source>
-        <translation>영역을 쓸 수 없습니다.</translation>
+        <translation>영역을 쓸 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassregion.cpp" line="250"/>
@@ -32692,7 +32701,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/grass/qgsgrassregionbase.ui" line="96"/>
         <source>Select the extent by dragging on canvas 
 or change the following values</source>
-        <translation>캔버스에 드래그하여 영역을 지정하시거나
+        <translation>캔버스에 드래그하여 영역을 지정하거나
 다음 값을 변경</translation>
     </message>
     <message>
@@ -32776,7 +32785,7 @@ or change the following values</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassselect.cpp" line="390"/>
         <source>Choose existing GISDBASE</source>
-        <translation>존재하는 GISDBASE 선택</translation>
+        <translation>기존 GISDBASE 선택</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassselect.cpp" line="405"/>
@@ -32796,17 +32805,17 @@ or change the following values</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassselect.cpp" line="427"/>
         <source>No map</source>
-        <translation>지도가 없습니다.</translation>
+        <translation>지도가 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassselect.cpp" line="435"/>
         <source>No layer</source>
-        <translation>레이어가 없습니다.</translation>
+        <translation>레이어가 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassselect.cpp" line="436"/>
         <source>No layers available in this map</source>
-        <translation>지도에 레이어가 없습니다.</translation>
+        <translation>지도에 레이어가 없습니다</translation>
     </message>
 </context>
 <context>
@@ -32828,7 +32837,7 @@ or change the following values</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrassselectbase.ui" line="50"/>
         <source>Mapset</source>
-        <translation>Mapset</translation>
+        <translation>지도 세트</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassselectbase.ui" line="60"/>
@@ -32886,7 +32895,7 @@ or change the following values</source>
         <location filename="../src/plugins/grass/qgsgrassshell.cpp" line="57"/>
         <location filename="../src/plugins/grass/qgsgrassshell.cpp" line="82"/>
         <source>Cannot rename the lock file %1</source>
-        <translation>잠긴 파일 %1의 이름 바꿀 수 없음</translation>
+        <translation>잠긴 파일 %1의 이름 바꿀 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -32923,27 +32932,27 @@ or change the following values</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrasstools.cpp" line="124"/>
         <source>GRASS Direct Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>GRASS 직접 도구</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrasstools.cpp" line="137"/>
         <source>Modules Tree</source>
-        <translation type="unfinished">모듈 트리</translation>
+        <translation>모듈 트리</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrasstools.cpp" line="138"/>
         <source>Modules List</source>
-        <translation type="unfinished">모듈 목록</translation>
+        <translation>모듈 목록</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrasstools.cpp" line="164"/>
         <source>Direct Modules Tree</source>
-        <translation type="unfinished"></translation>
+        <translation>직접 모듈 트리</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrasstools.cpp" line="165"/>
         <source>Direct Modules List</source>
-        <translation type="unfinished"></translation>
+        <translation>직접 모듈 목록</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrasstools.cpp" line="282"/>
@@ -33007,12 +33016,12 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/plugins/grass/qgsgrasstoolsbase.ui" line="85"/>
         <source>Direct Modules Tree</source>
-        <translation type="unfinished"></translation>
+        <translation>직접 모듈 트리</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrasstoolsbase.ui" line="110"/>
         <source>Direct Modules List</source>
-        <translation type="unfinished"></translation>
+        <translation>직접 모듈 목록</translation>
     </message>
 </context>
 <context>
@@ -33035,7 +33044,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/app/qgshandlebadlayers.cpp" line="85"/>
         <source>Provider</source>
-        <translation>프로바이더</translation>
+        <translation>제공자</translation>
     </message>
     <message>
         <location filename="../src/app/qgshandlebadlayers.cpp" line="86"/>
@@ -33065,7 +33074,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/app/qgshandlebadlayers.cpp" line="246"/>
         <source>Select new directory of selected files</source>
-        <translation>선택된 파일에 대한 새로운 디렉토리를 선택하십시오.</translation>
+        <translation>선택된 파일에 대한 새로운 디렉토리를 선택하십시오</translation>
     </message>
     <message>
         <location filename="../src/app/qgshandlebadlayers.cpp" line="248"/>
@@ -33108,7 +33117,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/ui/qgshandlebadlayersbase.ui" line="31"/>
         <source>Provider</source>
-        <translation>프로바이더</translation>
+        <translation>제공자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgshandlebadlayersbase.ui" line="36"/>
@@ -33136,12 +33145,12 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/app/qgshandlebadlayers.cpp" line="44"/>
         <source>Handle Bad layers</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 레이어 처리</translation>
     </message>
     <message>
         <location filename="../src/app/qgshandlebadlayers.cpp" line="45"/>
         <source>%1 of %2 bad layers were not not fixable.</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 %2 레이어 중 %1개는 처리할 수 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -33183,7 +33192,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/helpviewer/qgshelpviewer.cpp" line="76"/>
         <source>QGIS Help</source>
-        <translation type="unfinished">QGIS 도움말</translation>
+        <translation>QGIS 도움말</translation>
     </message>
 </context>
 <context>
@@ -33236,12 +33245,12 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/app/qgshtmlannotationdialog.cpp" line="37"/>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <location filename="../src/app/qgshtmlannotationdialog.cpp" line="76"/>
         <source>html</source>
-        <translation type="unfinished"></translation>
+        <translation>html</translation>
     </message>
 </context>
 <context>
@@ -33274,7 +33283,7 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/core/qgshttptransaction.cpp" line="439"/>
         <source>Not connected</source>
-        <translation>연결되지 않았습니다.</translation>
+        <translation>연결되지 않았습니다</translation>
     </message>
     <message>
         <location filename="../src/core/qgshttptransaction.cpp" line="445"/>
@@ -33294,17 +33303,17 @@ at line %2 column %3</source>
     <message>
         <location filename="../src/core/qgshttptransaction.cpp" line="463"/>
         <source>Receiving reply</source>
-        <translation>응답을 수신합니다.</translation>
+        <translation>응답을 수신합니다</translation>
     </message>
     <message>
         <location filename="../src/core/qgshttptransaction.cpp" line="469"/>
         <source>Response is complete</source>
-        <translation>응답이 완료되었습니다.</translation>
+        <translation>응답이 완료되었습니다</translation>
     </message>
     <message>
         <location filename="../src/core/qgshttptransaction.cpp" line="475"/>
         <source>Closing down connection</source>
-        <translation>연결을 닫습니다.</translation>
+        <translation>연결을 닫습니다</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/core/qgshttptransaction.cpp" line="485"/>
@@ -33419,7 +33428,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgsidentifyresultsbase.ui" line="43"/>
         <source>Expand tree.</source>
-        <translation type="unfinished"></translation>
+        <translation>트리를 확장합니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsidentifyresultsbase.ui" line="46"/>
@@ -33428,27 +33437,27 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgsidentifyresultsbase.ui" line="91"/>
         <location filename="../src/ui/qgsidentifyresultsbase.ui" line="111"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsidentifyresultsbase.ui" line="57"/>
         <source>Collapse tree.</source>
-        <translation type="unfinished"></translation>
+        <translation>트리를 축소합니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsidentifyresultsbase.ui" line="71"/>
         <source>New results will be expanded by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>새로운 결과는 ​​기본적으로 확장됩니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsidentifyresultsbase.ui" line="88"/>
         <source>Copy selected feature to clipboard.</source>
-        <translation type="unfinished"></translation>
+        <translation>선택한 항목을 클립보드에 복사합니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsidentifyresultsbase.ui" line="108"/>
         <source>Print selected HTML response.</source>
-        <translation type="unfinished"></translation>
+        <translation>선택한 HTML 응답을 출력합니다.</translation>
     </message>
 </context>
 <context>
@@ -33456,122 +33465,122 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="271"/>
         <source>Identify Results</source>
-        <translation type="unfinished">정보보기 결과</translation>
+        <translation>정보보기 결과</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="279"/>
         <source>Feature</source>
-        <translation type="unfinished">객체</translation>
+        <translation>객체</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="280"/>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>값</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="410"/>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="551"/>
         <source>(Derived)</source>
-        <translation type="unfinished">(상속하는 속성)</translation>
+        <translation>(상속하는 속성)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="422"/>
         <source>(Actions)</source>
-        <translation type="unfinished">(액션)</translation>
+        <translation>(액션)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="428"/>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="592"/>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="712"/>
         <source>Edit feature form</source>
-        <translation type="unfinished">객체 편집 양식</translation>
+        <translation>객체 양식 편집</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="428"/>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="592"/>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="712"/>
         <source>View feature form</source>
-        <translation type="unfinished">객체 양식 보기</translation>
+        <translation>객체 양식 보기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="496"/>
         <source>Format</source>
-        <translation type="unfinished"></translation>
+        <translation>형식</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="718"/>
         <source>Zoom to feature</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 영역으로 확대</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="719"/>
         <source>Copy feature</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 복사</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="722"/>
         <source>Copy attribute value</source>
-        <translation type="unfinished">속성 값 복사</translation>
+        <translation>속성 값 복사</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="723"/>
         <source>Copy feature attributes</source>
-        <translation type="unfinished">객체의 속성 값을 복사</translation>
+        <translation>객체의 속성 값을 복사</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="736"/>
         <source>Copy GetFeatureInfo request URL</source>
-        <translation type="unfinished"></translation>
+        <translation>GetFeatureInfo 요청 URL 복사</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="744"/>
         <source>Clear results</source>
-        <translation type="unfinished">결과 지우기</translation>
+        <translation>결과 지우기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="745"/>
         <source>Clear highlights</source>
-        <translation type="unfinished">하이라이트 클리어</translation>
+        <translation>강조 초기화</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="746"/>
         <source>Highlight all</source>
-        <translation type="unfinished">모두 하일라이트</translation>
+        <translation>모두 강조</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="747"/>
         <source>Highlight layer</source>
-        <translation type="unfinished">레이어 하일라이트</translation>
+        <translation>레이어 강조</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="748"/>
         <source>Layer properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 속성...</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="750"/>
         <source>Expand all</source>
-        <translation type="unfinished">모두 확대</translation>
+        <translation>모두 확장</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="751"/>
         <source>Collapse all</source>
-        <translation type="unfinished">모두 축소</translation>
+        <translation>모두 축소</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="1226"/>
         <source>Attribute changes</source>
-        <translation type="unfinished">속성 변경</translation>
+        <translation>속성 변경</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="1377"/>
         <source>Cannot not print</source>
-        <translation type="unfinished"></translation>
+        <translation>출력할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="1377"/>
         <source>Cannot print this item</source>
-        <translation type="unfinished"></translation>
+        <translation>이 항목을 출력할 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -33579,7 +33588,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="82"/>
         <source>Print</source>
-        <translation type="unfinished"></translation>
+        <translation>출력</translation>
     </message>
 </context>
 <context>
@@ -33587,7 +33596,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="214"/>
         <source>Loading...</source>
-        <translation type="unfinished"></translation>
+        <translation>로드중...</translation>
     </message>
 </context>
 <context>
@@ -33610,27 +33619,27 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="61"/>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="361"/>
         <source>Inverse Distance Weighting (IDW)</source>
-        <translation>거리 반비례 보간 (IDW)</translation>
+        <translation>역 거리 가중 보간 (IDW)</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="112"/>
         <source>No input data for interpolation</source>
-        <translation>보간을 위한 입력 데이터가 없습니다.</translation>
+        <translation>보간을 위한 입력 데이터가 없습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="112"/>
         <source>Please add one or more input layers</source>
-        <translation>하나 이상의 입력 레이어를 추가하십시오.</translation>
+        <translation>하나 이상의 입력 레이어를 추가하십시오</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="121"/>
         <source>Output file name invalid</source>
-        <translation>출력 파일 이름이 잘못되었습니다.</translation>
+        <translation>출력 파일 이름이 잘못되었습니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="121"/>
         <source>Please enter a valid output file name</source>
-        <translation>올바른 출력 파일 이름을 입력하십시오.</translation>
+        <translation>올바른 출력 파일 이름을 입력하십시오</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="171"/>
@@ -33652,7 +33661,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialog.cpp" line="311"/>
         <source>Save interpolated raster as...</source>
-        <translation>새 이름으로 보간된 래스터 저장...</translation>
+        <translation>보간된 래스터를 새 이름으로 저장...</translation>
     </message>
 </context>
 <context>
@@ -33686,12 +33695,12 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialogbase.ui" line="58"/>
         <source>Interpolation attribute</source>
-        <translation>속성 보간</translation>
+        <translation>보간 속성값</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialogbase.ui" line="78"/>
         <source>Use z-Coordinate for interpolation</source>
-        <translation>보간에 z 좌표 이용</translation>
+        <translation>보간에 z 좌표값 이용</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialogbase.ui" line="85"/>
@@ -33776,7 +33785,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/plugins/interpolation/qgsinterpolationdialogbase.ui" line="314"/>
         <source>Add result to project</source>
-        <translation type="unfinished">결과를 프로젝트에 추가</translation>
+        <translation>결과를 프로젝트에 추가</translation>
     </message>
 </context>
 <context>
@@ -33950,7 +33959,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabeldialogbase.ui" line="311"/>
         <source>Field containing label</source>
-        <translation>라벨이 포함된 필드</translation>
+        <translation>라벨을 포함한 필드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabeldialogbase.ui" line="331"/>
@@ -34076,7 +34085,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabeldialogbase.ui" line="598"/>
         <source>&amp;Italic</source>
-        <translation>이텔릭(&amp;I)</translation>
+        <translation>이탤릭(&amp;I)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabeldialogbase.ui" line="617"/>
@@ -34153,7 +34162,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgslabelpropertydialog.cpp" line="85"/>
         <source>Expression result</source>
-        <translation type="unfinished"></translation>
+        <translation>계산식 결과</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelpropertydialog.cpp" line="125"/>
@@ -34187,57 +34196,57 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="264"/>
         <source>Display</source>
-        <translation type="unfinished">디스플레이</translation>
+        <translation>디스플레이</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="322"/>
         <source>Show label</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 보이기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="304"/>
         <source>Max </source>
-        <translation type="unfinished"></translation>
+        <translation>최대 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="288"/>
         <source>Min </source>
-        <translation type="unfinished"></translation>
+        <translation>최소 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="278"/>
         <source>Scale-based</source>
-        <translation type="unfinished"></translation>
+        <translation>축척 기반</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="40"/>
         <source>Available typeface styles</source>
-        <translation type="unfinished"></translation>
+        <translation>사용 가능한 글꼴 스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="100"/>
         <source>Style</source>
-        <translation type="unfinished">스타일</translation>
+        <translation>스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="130"/>
         <source>Underlined text</source>
-        <translation type="unfinished"></translation>
+        <translation>밑줄 텍스트</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="133"/>
         <source>U</source>
-        <translation type="unfinished"></translation>
+        <translation>U</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="164"/>
         <source>Strikeout text</source>
-        <translation type="unfinished"></translation>
+        <translation>취소선 텍스트</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="167"/>
         <source>S</source>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="210"/>
@@ -34248,7 +34257,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="214"/>
         <source>B</source>
-        <translation type="unfinished">B</translation>
+        <translation>B</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="245"/>
@@ -34259,17 +34268,17 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="249"/>
         <source>I</source>
-        <translation type="unfinished">I</translation>
+        <translation>I</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="329"/>
         <source>Ignores priority and permits collisions/overlaps</source>
-        <translation type="unfinished"></translation>
+        <translation>우선 순위를 무시하고 충돌/중복을 허용</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="332"/>
         <source>Always show (exceptions above)</source>
-        <translation type="unfinished"></translation>
+        <translation>항상 보이기 (위의 예는 제외)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="342"/>
@@ -34329,17 +34338,17 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="372"/>
         <source>%1 not found. Default substituted.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1을 찾을 수 없습니다. 기본값으로 대체합니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="373"/>
         <source>Chosen font</source>
-        <translation type="unfinished"></translation>
+        <translation>선택한 글꼴</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="791"/>
         <source>string </source>
-        <translation type="unfinished"></translation>
+        <translation>문자</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="796"/>
@@ -34354,27 +34363,27 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="845"/>
         <source>double [0.0-10.0]</source>
-        <translation type="unfinished"></translation>
+        <translation>double [0.0-10.0]</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="867"/>
         <source>int [0-20]</source>
-        <translation type="unfinished"></translation>
+        <translation>int [0-20]</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="956"/>
         <source>int [0-2000]</source>
-        <translation type="unfinished"></translation>
+        <translation>int [0-2000]</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="968"/>
         <source>int&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>int&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="983"/>
         <source>double coord [&lt;b&gt;in,out&lt;/b&gt; as 20.0-60.0,20.0-95.0]</source>
-        <translation type="unfinished"></translation>
+        <translation>double coord [&lt;b&gt;in,out&lt;/b&gt; as 20.0-60.0,20.0-95.0]</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="986"/>
@@ -34389,72 +34398,72 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1025"/>
         <source>int [1-1000]</source>
-        <translation type="unfinished"></translation>
+        <translation>int [1-1000]</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1027"/>
         <source>int [1-10000]</source>
-        <translation type="unfinished"></translation>
+        <translation>int [1-10000]</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1091"/>
         <source>Text/Buffer sample</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트/버퍼 샘플</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1098"/>
         <source> @ %1 pts (using map units)</source>
-        <translation type="unfinished"></translation>
+        <translation> @ %1 pts (지도 단위 사용)</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1111"/>
         <source> @ %1 pts (using map units, BUFFER IN MILLIMETERS)</source>
-        <translation type="unfinished"></translation>
+        <translation> @ %1 pts (지도 단위 사용, 밀리미터 단위 버퍼)</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1130"/>
         <source> (BUFFER NOT SHOWN, in map units)</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 단위에서 보이지 않는 버퍼</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1178"/>
         <source>Expression based label</source>
-        <translation>식 기반 라벨</translation>
+        <translation>수식 기반 라벨</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1287"/>
         <source>No change</source>
-        <translation type="unfinished"></translation>
+        <translation>그대로</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1288"/>
         <source>All uppercase</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 대문자</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1289"/>
         <source>All lowercase</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 소문자</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1293"/>
         <source>Capitalize first letter</source>
-        <translation type="unfinished"></translation>
+        <translation>첫 글자를 대문자로</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1449"/>
         <source>Size%1</source>
-        <translation type="unfinished"></translation>
+        <translation>크기 %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1449"/>
         <source> X</source>
-        <translation type="unfinished"></translation>
+        <translation> X</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1499"/>
         <source>File not found</source>
-        <translation type="unfinished"></translation>
+        <translation>파일을 찾을 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -34564,7 +34573,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4789"/>
         <source>horizontal</source>
-        <translation type="unfinished">수평</translation>
+        <translation>수평</translation>
     </message>
     <message>
         <source>over centroid</source>
@@ -34601,7 +34610,7 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4304"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4419"/>
         <source>mm</source>
-        <translation type="unfinished">mm</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2462"/>
@@ -34774,7 +34783,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3960"/>
         <source>Centroid</source>
-        <translation type="unfinished"></translation>
+        <translation>센트로이드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4043"/>
@@ -34786,7 +34795,7 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4163"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4183"/>
         <source>abc</source>
-        <translation type="unfinished"></translation>
+        <translation>abc</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4211"/>
@@ -34796,43 +34805,43 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4448"/>
         <source>Distance</source>
-        <translation type="unfinished">거리</translation>
+        <translation>거리</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4654"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5336"/>
         <source>Data defined</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 정의</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4680"/>
         <source>X</source>
-        <translation type="unfinished">X</translation>
+        <translation>X</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4700"/>
         <source>Y</source>
-        <translation type="unfinished">Y</translation>
+        <translation>Y</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4736"/>
         <source>Coordinate</source>
-        <translation type="unfinished"></translation>
+        <translation>좌표</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4765"/>
         <source>Preserve data rotation values</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 회전 값을 유지</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4809"/>
         <source>vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>수직</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4954"/>
         <source>Label options</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 옵션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5034"/>
@@ -34843,12 +34852,12 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5105"/>
         <source>Pixel size-based visibility (labels in map units)</source>
-        <translation type="unfinished"></translation>
+        <translation>픽셀 크기 기반의 보이기 (지도 단위의 라벨)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5420"/>
         <source>Feature options</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 옵션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5528"/>
@@ -34974,47 +34983,47 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="289"/>
         <source>Sample text</source>
-        <translation type="unfinished">샘플 텍스트</translation>
+        <translation>샘플 텍스트</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="308"/>
         <source>Reset sample text</source>
-        <translation type="unfinished"></translation>
+        <translation>샘플 텍스트 초기화</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="350"/>
         <source>Size for sample text in map units</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 단위의 샘플 텍스트 크기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="403"/>
         <source>Sample background color</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">샘플 배경색</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="490"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3432"/>
         <source>Text</source>
-        <translation type="unfinished">텍스트</translation>
+        <translation>텍스트</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="502"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="505"/>
         <source>Formatting</source>
-        <translation type="unfinished"></translation>
+        <translation>서식</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="538"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="541"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">그림자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="562"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="565"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4920"/>
         <source>Rendering</source>
-        <translation type="unfinished">렌더링</translation>
+        <translation>렌더링</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="681"/>
@@ -35024,7 +35033,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="987"/>
         <source>Spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>간격</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1016"/>
@@ -35032,17 +35041,17 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2834"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3470"/>
         <source>Blend mode</source>
-        <translation type="unfinished"></translation>
+        <translation>블렌드 모드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1031"/>
         <source>word</source>
-        <translation type="unfinished"></translation>
+        <translation>단어</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1092"/>
         <source>Underlined text</source>
-        <translation type="unfinished"></translation>
+        <translation>밑줄 텍스트</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1186"/>
@@ -35053,7 +35062,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1190"/>
         <source>B</source>
-        <translation type="unfinished">B</translation>
+        <translation>B</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1228"/>
@@ -35064,65 +35073,65 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1232"/>
         <source>I</source>
-        <translation type="unfinished">I</translation>
+        <translation>I</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1340"/>
         <source>Text formatting</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트 서식</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1379"/>
         <source>Multiple lines</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">여러 줄</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1437"/>
         <source>Wrap on character</source>
-        <translation type="unfinished"></translation>
+        <translation>문자 랩</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1450"/>
         <source>Line height</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">줄 높이</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1466"/>
         <source>Line height spacing for multi-line text</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">멀티 라인 텍스트의 줄 높이 간격</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1469"/>
         <source> line</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">줄</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1494"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4743"/>
         <source>Alignment</source>
-        <translation type="unfinished">정렬</translation>
+        <translation>정렬</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1504"/>
         <source>Paragraph style alignment of multi-line text</source>
-        <translation type="unfinished"></translation>
+        <translation>멀티 라인 텍스트의 단락 스타일 정렬</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1511"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1610"/>
         <source>Left</source>
-        <translation type="unfinished">왼쪽</translation>
+        <translation>왼쪽</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1516"/>
         <source>Center</source>
-        <translation type="unfinished">중앙</translation>
+        <translation>중앙</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1521"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1665"/>
         <source>Right</source>
-        <translation type="unfinished">오른쪽</translation>
+        <translation>오른쪽</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5548"/>
@@ -35132,27 +35141,27 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="820"/>
         <source>Available typeface styles</source>
-        <translation type="unfinished"></translation>
+        <translation>사용 가능한 글꼴 스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1095"/>
         <source>U</source>
-        <translation type="unfinished"></translation>
+        <translation>U</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1133"/>
         <source>Strikeout text</source>
-        <translation type="unfinished"></translation>
+        <translation>취소선 텍스트</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1136"/>
         <source>S</source>
-        <translation type="unfinished"></translation>
+        <translation>S</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="967"/>
         <source>points</source>
-        <translation type="unfinished"></translation>
+        <translation>포인트</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="972"/>
@@ -35166,12 +35175,12 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4309"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4424"/>
         <source>map units</source>
-        <translation type="unfinished">지도 단위</translation>
+        <translation>지도 단위</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="747"/>
         <source>Style</source>
-        <translation type="unfinished">스타일</translation>
+        <translation>스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="779"/>
@@ -35179,7 +35188,7 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2603"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3500"/>
         <source>Transparency</source>
-        <translation type="unfinished">투명도</translation>
+        <translation>투명도</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="911"/>
@@ -35188,179 +35197,179 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3457"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3540"/>
         <source> %</source>
-        <translation type="unfinished"></translation>
+        <translation> %</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="694"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1044"/>
         <source>Space in pixels or map units, relative to size unit choice</source>
-        <translation type="unfinished"></translation>
+        <translation>크기 단위 선택에 상대적인 지도 또는 픽셀 단위의 간격</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="930"/>
         <source>Type case</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">형 유형</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="769"/>
         <source>Capitalization style of text</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트의 첫 대문자 스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3731"/>
         <source>Around point</source>
-        <translation type="unfinished"></translation>
+        <translation>점 주변</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3741"/>
         <source>Offset from point</source>
-        <translation type="unfinished"></translation>
+        <translation>점으로부터의 오프셋</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3774"/>
         <source>Parallel</source>
-        <translation type="unfinished"></translation>
+        <translation>평행</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3761"/>
         <source>Curved</source>
-        <translation type="unfinished"></translation>
+        <translation>구부러진</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="81"/>
         <source>Edit expression</source>
-        <translation type="unfinished"></translation>
+        <translation>수식 편집</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="114"/>
         <source>Automated placement settings (apply to all layers)</source>
-        <translation type="unfinished"></translation>
+        <translation>자동 위치 설정 (모든 레이어에 적용)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="171"/>
         <source>Text/Buffer Sample</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트/버퍼 샘플</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1576"/>
         <source>Line direction symbol</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">줄 방향 기호</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1951"/>
         <source>Text buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트 버퍼</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2003"/>
         <source>Draw text buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트 버퍼 그리기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2287"/>
         <source>Color buffer&apos;s fill</source>
-        <translation type="unfinished"></translation>
+        <translation>색상 버퍼의 채우기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2374"/>
         <source>Draw background</source>
-        <translation type="unfinished"></translation>
+        <translation>배경 그리기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2565"/>
         <source>Size X</source>
-        <translation type="unfinished"></translation>
+        <translation>크기 X</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2572"/>
         <source>Size type</source>
-        <translation type="unfinished"></translation>
+        <translation>크기 유형</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2586"/>
         <source>Size Y</source>
-        <translation type="unfinished"></translation>
+        <translation>크기 Y</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2720"/>
         <source>Fill color</source>
-        <translation type="unfinished">채움 색상</translation>
+        <translation>채움 색상</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2740"/>
         <source>Border color</source>
-        <translation type="unfinished">보더 색상</translation>
+        <translation>보더 색상</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3205"/>
         <source>Draw drop shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>그림자 그리기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3286"/>
         <source>Blur radius</source>
-        <translation type="unfinished"></translation>
+        <translation>반경 흐림</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3299"/>
         <source>Blur only alpha pixels</source>
-        <translation type="unfinished"></translation>
+        <translation>알파 픽셀만 흐림</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3342"/>
         <source>Label&apos;s rotation is ignored</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨의 회전은 무시됨</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3345"/>
         <source>Use global shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>전역 그림자 사용</translation>
     </message>
     <message utf8="true">
         <location filename="../src/ui/qgslabelingguibase.ui" line="3405"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4518"/>
         <source>˚</source>
-        <translation type="unfinished"></translation>
+        <translation>˚</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3427"/>
         <source>Lowest label component</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">가장 낮은 레이블 구성 요소</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3450"/>
         <source>Draw under</source>
-        <translation type="unfinished"></translation>
+        <translation>아래에 그리기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3784"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>수평</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3804"/>
         <source>Offset from centroid</source>
-        <translation type="unfinished"></translation>
+        <translation>중심으로부터의 오프셋</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3820"/>
         <source>Around centroid</source>
-        <translation type="unfinished"></translation>
+        <translation>센트로이드 주변</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3827"/>
         <source>Horizontal (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>수평 (느림)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3834"/>
         <source>Free (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>자유 (느림)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3847"/>
         <source>Using perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>둘레 이용</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3976"/>
@@ -35370,84 +35379,84 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3992"/>
         <source>whole polygon</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 다각형</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3900"/>
         <source>Above line</source>
-        <translation type="unfinished">선 위</translation>
+        <translation>선 위</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3916"/>
         <source>On line</source>
-        <translation type="unfinished">선상</translation>
+        <translation>선 위</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3923"/>
         <source>Below line</source>
-        <translation type="unfinished"></translation>
+        <translation>선 아래</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2078"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2701"/>
         <source>Pen join style</source>
-        <translation type="unfinished"></translation>
+        <translation>펜 조인 스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1632"/>
         <source>&lt;</source>
-        <translation type="unfinished">&lt;</translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1687"/>
         <source>&gt;</source>
-        <translation type="unfinished">&gt;</translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1745"/>
         <source>left/right</source>
-        <translation type="unfinished"></translation>
+        <translation>왼쪽/오른쪽</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1761"/>
         <source>above</source>
-        <translation type="unfinished"></translation>
+        <translation>상단</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1768"/>
         <source>below</source>
-        <translation type="unfinished"></translation>
+        <translation>하단</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1785"/>
         <source>Reverse direction</source>
-        <translation type="unfinished">역방향</translation>
+        <translation>역방향</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5194"/>
         <source>Labels will not show if larger than this on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>레이블이 이것보다 큰 경우 화면에 표시되지 않습니다</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5162"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5197"/>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> px</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5159"/>
         <source>Labels will not show if smaller than this on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>레이블이 이것보다 작은 경우 화면에 표시되지 않습니다</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3160"/>
         <source>Drop shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>그림자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3477"/>
         <source>Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>오프셋</translation>
     </message>
     <message>
         <source>%</source>
@@ -35456,7 +35465,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3279"/>
         <source>Scale</source>
-        <translation type="unfinished">축척</translation>
+        <translation>축척</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="526"/>
@@ -35464,7 +35473,7 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2329"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3442"/>
         <source>Background</source>
-        <translation type="unfinished">배경</translation>
+        <translation>배경</translation>
     </message>
     <message>
         <source>Fill</source>
@@ -35473,79 +35482,79 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2791"/>
         <source>Load symbol parameters</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">심볼 매개변수 불러오기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2852"/>
         <source>% of length</source>
-        <translation type="unfinished"></translation>
+        <translation>% 길이</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2760"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2871"/>
         <source>Fixed</source>
-        <translation type="unfinished"></translation>
+        <translation>고정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3066"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4387"/>
         <source>Offset X,Y</source>
-        <translation type="unfinished">오프셋 X,Y</translation>
+        <translation>오프셋 X,Y</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2999"/>
         <source>Rectangle</source>
-        <translation type="unfinished">사각형</translation>
+        <translation>사각형</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3004"/>
         <source>Square</source>
-        <translation type="unfinished">사각형</translation>
+        <translation>사각형</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3009"/>
         <source>Ellipse</source>
-        <translation type="unfinished">타원</translation>
+        <translation>타원</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3014"/>
         <source>Circle</source>
-        <translation type="unfinished"></translation>
+        <translation>원</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3019"/>
         <source>SVG</source>
-        <translation type="unfinished"></translation>
+        <translation>SVG</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2579"/>
         <source>Shape</source>
-        <translation type="unfinished">도형</translation>
+        <translation>도형</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2861"/>
         <source>Sync with label</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨과 동기화</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2866"/>
         <source>Offset of label</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨의 오프셋</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2419"/>
         <source>Radius X,Y</source>
-        <translation type="unfinished"></translation>
+        <translation>반경 X, Y</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2798"/>
         <source>Border width</source>
-        <translation type="unfinished"></translation>
+        <translation>보더 두께</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2967"/>
         <source>symbol units</source>
-        <translation type="unfinished"></translation>
+        <translation>심볼 단위</translation>
     </message>
     <message>
         <source>Border</source>
@@ -35554,17 +35563,17 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4605"/>
         <source>outside</source>
-        <translation type="unfinished"></translation>
+        <translation>외부</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4572"/>
         <source>inside</source>
-        <translation type="unfinished"></translation>
+        <translation>내부</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4631"/>
         <source>Maximum angle between curved characters</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">곡선 문자 사이의 최대 각도</translation>
     </message>
     <message>
         <source>Above Right</source>
@@ -35597,32 +35606,32 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5235"/>
         <source>Show all labels for this layer (including colliding labels)</source>
-        <translation type="unfinished"></translation>
+        <translation>이 레이어의 모든 라벨 표시 (충돌 라벨 포함)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5407"/>
         <source>Show upside-down labels</source>
-        <translation type="unfinished"></translation>
+        <translation>거꾸로 라벨을 표시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5368"/>
         <source>never</source>
-        <translation type="unfinished">안함</translation>
+        <translation>사용안함</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5384"/>
         <source>when rotation defined</source>
-        <translation type="unfinished"></translation>
+        <translation>회전이 설정될 때</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5355"/>
         <source>always</source>
-        <translation type="unfinished">항상</translation>
+        <translation>항상</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5493"/>
         <source>Limit number of features to be labeled to</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨에 사용되는 객체의 수를 제한</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5477"/>
@@ -35653,12 +35662,12 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5290"/>
         <source>Always show</source>
-        <translation type="unfinished"></translation>
+        <translation>항상 보임</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5306"/>
         <source>Show label</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 보이기</translation>
     </message>
     <message>
         <source>Strikeout</source>
@@ -35692,7 +35701,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgslayerpropertieswidget.cpp" line="125"/>
         <source>Outline: %1</source>
-        <translation type="unfinished">외곽선: %1</translation>
+        <translation>외곽선: %1</translation>
     </message>
 </context>
 <context>
@@ -35712,7 +35721,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="832"/>
         <source>&amp;Properties</source>
-        <translation type="unfinished">속성(&amp;P)</translation>
+        <translation>속성(&amp;P)</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="836"/>
@@ -35722,7 +35731,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="842"/>
         <source>Zoom to Group</source>
-        <translation>그룹에 줌</translation>
+        <translation>그룹 범위로 확대</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="845"/>
@@ -35772,12 +35781,12 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="1997"/>
         <source>Not fully defined drawing order set to legend order.</source>
-        <translation type="unfinished"></translation>
+        <translation>Not fully defined drawing order set to legend order.</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="1997"/>
         <source>Legend</source>
-        <translation type="unfinished">범례</translation>
+        <translation>Legend</translation>
     </message>
     <message>
         <source>&amp;Make to toplevel item</source>
@@ -35869,7 +35878,8 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="228"/>
         <source>following %1 items
 not displayed</source>
-        <translation type="unfinished"></translation>
+        <translation>다음의  %1 항목은 
+표시되지 않습니다</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="342"/>
@@ -35894,7 +35904,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="365"/>
         <source>&amp;Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>복제하기(&amp;D)</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="368"/>
@@ -35920,17 +35930,17 @@ not displayed</source>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="413"/>
         <source>Save Selection As...</source>
-        <translation>선택을 다른 이름으로 저장...</translation>
+        <translation>선택한 레이어의 객체를 다른 이름으로 저장...</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="420"/>
         <source>&amp;Filter...</source>
-        <translation type="unfinished"></translation>
+        <translation>필터(&amp;F)...</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="423"/>
         <source>Show Feature Count</source>
-        <translation>객체 수 표시</translation>
+        <translation>객체의 수 표시</translation>
     </message>
     <message>
         <source>&amp;Properties</source>
@@ -35962,22 +35972,22 @@ not displayed</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1597"/>
         <source>Angle</source>
-        <translation type="unfinished">각도</translation>
+        <translation>각도</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1599"/>
         <source>Distance</source>
-        <translation type="unfinished">거리</translation>
+        <translation>거리</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1601"/>
         <source>Line width</source>
-        <translation type="unfinished"></translation>
+        <translation>라인 폭</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1603"/>
         <source>Color</source>
-        <translation type="unfinished">색상</translation>
+        <translation>색상</translation>
     </message>
 </context>
 <context>
@@ -36019,27 +36029,27 @@ not displayed</source>
     <message>
         <location filename="../src/ui/qgsloadstylefromdbdialog.ui" line="20"/>
         <source>Add column</source>
-        <translation type="unfinished">컬럼 추가</translation>
+        <translation>컬럼 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsloadstylefromdbdialog.ui" line="31"/>
         <source>Styles related to the layer</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어와 관련된 스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsloadstylefromdbdialog.ui" line="45"/>
         <source>Other styles on the database</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스의 다른 스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsloadstylefromdbdialog.ui" line="76"/>
         <source>Cancel</source>
-        <translation type="unfinished">취소</translation>
+        <translation>취소</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsloadstylefromdbdialog.ui" line="89"/>
         <source>Load Style</source>
-        <translation type="unfinished">스타일 불러오기</translation>
+        <translation>스타일 불러오기</translation>
     </message>
 </context>
 <context>
@@ -36112,7 +36122,7 @@ not displayed</source>
     <message>
         <location filename="../src/gui/qgsmanageconnectionsdialog.cpp" line="125"/>
         <source>Saving connections</source>
-        <translation>연결을 저장합니다.</translation>
+        <translation>연결을 저장합니다</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmanageconnectionsdialog.cpp" line="126"/>
@@ -36143,7 +36153,7 @@ not displayed</source>
         <location filename="../src/gui/qgsmanageconnectionsdialog.cpp" line="865"/>
         <location filename="../src/gui/qgsmanageconnectionsdialog.cpp" line="892"/>
         <source>Loading connections</source>
-        <translation>연결을 로드합니다.</translation>
+        <translation>연결을 로드합니다</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmanageconnectionsdialog.cpp" line="141"/>
@@ -36175,7 +36185,7 @@ not displayed</source>
     <message>
         <location filename="../src/gui/qgsmanageconnectionsdialog.cpp" line="282"/>
         <source>The file is not an WCS connections exchange file.</source>
-        <translation type="unfinished"></translation>
+        <translation>지정된 파일은 WCS 연결 교환 파일이 아닙니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmanageconnectionsdialog.cpp" line="291"/>
@@ -36193,12 +36203,12 @@ not displayed</source>
         <location filename="../src/gui/qgsmanageconnectionsdialog.cpp" line="308"/>
         <location filename="../src/gui/qgsmanageconnectionsdialog.cpp" line="866"/>
         <source>The file is not an Oracle connections exchange file.</source>
-        <translation type="unfinished"></translation>
+        <translation>지정된 파일은 Oracle 연결 교환 파일이 아닙니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmanageconnectionsdialog.cpp" line="518"/>
         <source>The file is not an %1 connections exchange file.</source>
-        <translation type="unfinished"></translation>
+        <translation>지정된 파일은 %1 연결 교환 파일이 아닙니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmanageconnectionsdialog.cpp" line="545"/>
@@ -36236,17 +36246,17 @@ not displayed</source>
     <message>
         <location filename="../src/gui/qgsmapcanvas.cpp" line="449"/>
         <source>Canvas refresh: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Canvas refresh: %1 ms</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmapcanvas.cpp" line="453"/>
         <source>, sender &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>, sender &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmapcanvas.cpp" line="455"/>
         <source>Rendering</source>
-        <translation type="unfinished">렌더링</translation>
+        <translation>렌더링</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmapcanvas.cpp" line="1495"/>
@@ -36287,12 +36297,12 @@ not displayed</source>
     <message>
         <location filename="../src/plugins/georeferencer/qgsmapcoordsdialogbase.ui" line="35"/>
         <source>X / East:</source>
-        <translation type="unfinished"></translation>
+        <translation>X / 동쪽:</translation>
     </message>
     <message>
         <location filename="../src/plugins/georeferencer/qgsmapcoordsdialogbase.ui" line="49"/>
         <source>Y / North:</source>
-        <translation type="unfinished"></translation>
+        <translation>Y / 북쪽:</translation>
     </message>
     <message>
         <source>X:</source>
@@ -36386,7 +36396,7 @@ not displayed</source>
         <location filename="../src/core/qgsmaplayer.cpp" line="1132"/>
         <source>Could not save symbology because:
 %1</source>
-        <translation>심볼로지를 저장할 수 없습니다.
+        <translation>심볼을 저장할 수 없습니다.
 원인: %1</translation>
     </message>
     <message>
@@ -36413,13 +36423,13 @@ not displayed</source>
         <location filename="../src/core/qgsmaprenderer.cpp" line="873"/>
         <location filename="../src/core/qgsmaprenderer.cpp" line="895"/>
         <source>Transform error caught: %1</source>
-        <translation>변환 오류 발새이 %1</translation>
+        <translation>Transform error caught: %1</translation>
     </message>
     <message>
         <location filename="../src/core/qgsmaprenderer.cpp" line="873"/>
         <location filename="../src/core/qgsmaprenderer.cpp" line="895"/>
         <source>CRS</source>
-        <translation>좌표계</translation>
+        <translation>CRS</translation>
     </message>
 </context>
 <context>
@@ -36440,7 +36450,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="67"/>
         <source>Layer cannot be added to</source>
-        <translation>레이어를 추가할 수 없습니다.</translation>
+        <translation>레이어를 추가할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="68"/>
@@ -36460,12 +36470,12 @@ not displayed</source>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="150"/>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="158"/>
         <source>Wrong editing tool</source>
-        <translation>잘못된 편집 도구입니다.</translation>
+        <translation>잘못된 편집 도구입니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="85"/>
         <source>Cannot apply the &apos;capture point&apos; tool on this vector layer</source>
-        <translation>이 벡터 레이어에는 &apos;점 입력&apos; 도구를 사용할 수 없습니다.</translation>
+        <translation>이 벡터 레이어에는 &apos;점 입력&apos; 도구를 사용할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="105"/>
@@ -36477,7 +36487,7 @@ not displayed</source>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="106"/>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="174"/>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation>지정점을 이 레이어의 좌표계로 변환할 수 없습니다.</translation>
+        <translation>지정점을 이 레이어의 좌표계로 변환할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="130"/>
@@ -36488,12 +36498,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="151"/>
         <source>Cannot apply the &apos;capture line&apos; tool on this vector layer</source>
-        <translation>이 벡터 레이어에서는 &apos;선 입력&apos; 도구를 사용할 수 없습니다.</translation>
+        <translation>이 벡터 레이어에서는 &apos;선 입력&apos; 도구를 사용할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="159"/>
         <source>Cannot apply the &apos;capture polygon&apos; tool on this vector layer</source>
-        <translation>이 벡터 레이어에서는 &apos;다각형 입력&apos; 도구를 사용할 수 없습니다.</translation>
+        <translation>이 벡터 레이어에서는 &apos;다각형 입력&apos; 도구를 사용할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="217"/>
@@ -36508,27 +36518,27 @@ not displayed</source>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="217"/>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="236"/>
         <source>Cannot add feature. Unknown WKB type</source>
-        <translation>객체를 추가할 수 없습니다. 알 수 없는 WKB 타입입니다.</translation>
+        <translation>객체를 추가할 수 없습니다. 알 수 없는 WKB 타입입니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="258"/>
         <source>The feature could not be added because removing the polygon intersections would change the geometry type</source>
-        <translation>폴리곤 교차 부분 삭제가 지오메트리 타입을 변경시킬 수 있기에 이 객체를 추가할 수 없습니다.</translation>
+        <translation>폴리곤 교차 부분 삭제가 지오메트리 타입을 변경시킬 수 있기에 이 객체를 추가할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="266"/>
         <source>An error was reported during intersection removal</source>
-        <translation>교차 부분을 삭제하는 동안 오류가 보고되었습니다.</translation>
+        <translation>교차 부분을 삭제하는 동안 오류가 보고되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="274"/>
         <source>The feature cannot be added because it&apos;s geometry is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>지오메트리가 비어 있어서 이 객체를 추가할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdfeature.cpp" line="278"/>
         <source>The feature cannot be added because it&apos;s geometry collapsed due to intersection avoidance</source>
-        <translation type="unfinished"></translation>
+        <translation>교차가 안되어 결과 지오메트리가 없어 이 객체를 추가할 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -36612,12 +36622,12 @@ not displayed</source>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="57"/>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="184"/>
         <source>No feature selected. Please select a feature with the selection tool or in the attribute table</source>
-        <translation>객체가 선택되지 않았습니다. 선택 도구 또는 속성 테이블에서 객체를 선택하십시오.</translation>
+        <translation>객체가 선택되지 않았습니다. 선택 도구 또는 속성 테이블에서 객체를 선택하십시오</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="61"/>
         <source>Several features are selected. Please select only one feature to which an part should be added.</source>
-        <translation>여러 객체가 선택되어 있습니다. 파트를 추가하기 위해 단일 객체만을 선택하십시오.</translation>
+        <translation>여러 객체가 선택되어 있습니다. 파트를 추가하기 위해 하나의 객체만을 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="66"/>
@@ -36638,12 +36648,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="105"/>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation>이 점을 레이어 좌표계로 변환할 수 없음</translation>
+        <translation>이 점을 레이어 좌표계로 변환할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="172"/>
         <source>Selected feature is not multi part.</source>
-        <translation>선택된 객체는 멀트파트가 아님니다.</translation>
+        <translation>선택된 객체는 멀티파트가 아닙니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="176"/>
@@ -36658,17 +36668,17 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="188"/>
         <source>Several features are selected. Please select only one feature to which an island should be added.</source>
-        <translation>여러 객체가 선택되어 있습니다. 섬을 추가하기 위해 단일 객체만을 선택하십시오.</translation>
+        <translation>여러 객체가 선택되어 있습니다. 섬을 추가하기 위해 하나의 객체만을 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="192"/>
         <source>Selected geometry could not be found</source>
-        <translation>선택된 지오메트리가 없음</translation>
+        <translation>선택된 지오메트리가 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdpart.cpp" line="196"/>
         <source>Error, could not add part</source>
-        <translation>오류, 파트 추가 실패</translation>
+        <translation>오류, 파트를 추가할 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -36697,12 +36707,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="63"/>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation>지정점을 레이어의 좌표계로 변환할 수 없습니다.</translation>
+        <translation>이 점을 레이어의 좌표계로 변환할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="75"/>
         <source>Ring added</source>
-        <translation>링이 추가되었습니다.</translation>
+        <translation>링이 추가되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="83"/>
@@ -36712,22 +36722,22 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="87"/>
         <source>The inserted Ring is not closed</source>
-        <translation>삽입된 링이 닫히지 않았습니다.</translation>
+        <translation>삽입된 링이 닫혀 있지 않습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="91"/>
         <source>The inserted Ring is not a valid geometry</source>
-        <translation>삽입된 링이 올바른 지오메트리가 아닙니다.</translation>
+        <translation>삽입된 링이 올바른 지오메트리가 아닙니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="95"/>
         <source>The inserted Ring crosses existing rings</source>
-        <translation>삽입된 링이 기존의 링과 교차합니다.</translation>
+        <translation>삽입된 링이 기존의 링과 교차합니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="99"/>
         <source>The inserted Ring is not contained in a feature</source>
-        <translation>삽입된 링이 객체 안에 포함되지 않습니다.</translation>
+        <translation>삽입된 링이 객체 안에 포함되지 않습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="103"/>
@@ -36737,7 +36747,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooladdring.cpp" line="105"/>
         <source>Error, could not add ring</source>
-        <translation>오류, 링을 추가할 수 없습니다.</translation>
+        <translation>오류, 링을 추가할 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -36769,7 +36779,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolchangelabelproperties.cpp" line="70"/>
         <source>Changed properties for label</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 속성 변경</translation>
     </message>
 </context>
 <context>
@@ -36788,7 +36798,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooldeletepart.cpp" line="111"/>
         <source>Part of multipart feature deleted</source>
-        <translation>멀티파트 객체의 파트가 삭제되었습니다.</translation>
+        <translation>멀티파트 객체의 파트가 삭제되었습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooldeletepart.cpp" line="118"/>
@@ -36801,7 +36811,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooldeletering.cpp" line="116"/>
         <source>Ring deleted</source>
-        <translation>링이 삭제되었습니다.</translation>
+        <translation>링이 삭제되었습니다</translation>
     </message>
 </context>
 <context>
@@ -36816,22 +36826,22 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooledit.cpp" line="127"/>
         <source>No active vector layer</source>
-        <translation type="unfinished"></translation>
+        <translation>활성화된 벡터 레이어가 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooledit.cpp" line="128"/>
         <source>Choose a vector layer in the legend</source>
-        <translation type="unfinished"></translation>
+        <translation>범례에서 벡터 레이어를 선택하십시오</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooledit.cpp" line="136"/>
         <source>Layer not editable</source>
-        <translation type="unfinished"></translation>
+        <translation>편집이 불가능한 레이어입니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooledit.cpp" line="137"/>
         <source>Use &apos;Toggle Editing&apos; to make it editable</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;편집 모드 전환&apos;을 클릭하면 편집할 수 있습니다</translation>
     </message>
 </context>
 <context>
@@ -36844,7 +36854,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolfeatureaction.cpp" line="70"/>
         <source>To run an action, you must choose a vector layer by clicking on its name in the legend</source>
-        <translation>액션을 실행하려면, 범례에서 레이어 이름을 클릭하여 벡터 레이어를 선택해야 함</translation>
+        <translation>액션을 실행하려면, 범례에서 레이어 이름을 클릭하여 벡터 레이어를 선택해야 합니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolfeatureaction.cpp" line="84"/>
@@ -36854,7 +36864,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolfeatureaction.cpp" line="85"/>
         <source>The active vector layer has no defined actions</source>
-        <translation>활성 벡터 레이어에 지정된 액션이 없음</translation>
+        <translation>활성화된 벡터 레이어에 지정된 액션이 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolfeatureaction.cpp" line="90"/>
@@ -36886,7 +36896,7 @@ not displayed</source>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="151"/>
         <source>Identifying done.</source>
-        <translation>정보보기 종료</translation>
+        <translation>정보보기 종료.</translation>
     </message>
     <message>
         <source>No features at this position found.</source>
@@ -36927,17 +36937,17 @@ not displayed</source>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="335"/>
         <source>Perimeter</source>
-        <translation type="unfinished"></translation>
+        <translation>둘레</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="435"/>
         <source>no data</source>
-        <translation type="unfinished"></translation>
+        <translation>널 데이터</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="464"/>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="266"/>
@@ -36947,7 +36957,7 @@ not displayed</source>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="107"/>
         <source>No active layer. To identify features, you must choose an active layer.</source>
-        <translation type="unfinished"></translation>
+        <translation>활성화된 레이어가 없습니다. 객체의 정보를 보려면, 활성화된 레이어를 선택해야 합니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="266"/>
@@ -36972,7 +36982,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolidentifyaction.cpp" line="123"/>
         <source>No features at this position found.</source>
-        <translation type="unfinished">이 위치에 객체가 존재하지 않습니다.</translation>
+        <translation>이 위치에 객체가 존재하지 않습니다.</translation>
     </message>
 </context>
 <context>
@@ -37000,7 +37010,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolmovelabel.cpp" line="152"/>
         <source>Moved label</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 이동됨</translation>
     </message>
 </context>
 <context>
@@ -37033,12 +37043,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooloffsetcurve.cpp" line="112"/>
         <source>Offset curve</source>
-        <translation>커브 옵셋</translation>
+        <translation>커브 오프셋</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooloffsetcurve.cpp" line="300"/>
         <source>Offset: </source>
-        <translation>옵셋:</translation>
+        <translation>오프셋:</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptooloffsetcurve.cpp" line="372"/>
@@ -37048,7 +37058,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptooloffsetcurve.cpp" line="372"/>
         <source>Creating offset geometry failed</source>
-        <translation>옵셋 지오메트리 생성 실패</translation>
+        <translation>오프셋 지오메트리 생성 실패</translation>
     </message>
 </context>
 <context>
@@ -37056,12 +37066,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolpinlabels.cpp" line="420"/>
         <source>Pinned label</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 고정됨</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolpinlabels.cpp" line="431"/>
         <source>Unpinned label</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 고정 해제됨</translation>
     </message>
 </context>
 <context>
@@ -37090,12 +37100,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolreshape.cpp" line="62"/>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation>지정점을 레이어의 좌표계로 변환할 수 없습니다.</translation>
+        <translation>지정점을 레이어의 좌표계로 변환할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolreshape.cpp" line="91"/>
         <source>Reshape</source>
-        <translation>다시 형성</translation>
+        <translation>도형 모양 변경</translation>
     </message>
 </context>
 <context>
@@ -37103,7 +37113,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolrotatefeature.cpp" line="202"/>
         <source>Features Rotated</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 회전됨</translation>
     </message>
 </context>
 <context>
@@ -37115,7 +37125,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolrotatelabel.cpp" line="174"/>
         <source>Rotated label</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 회전됨</translation>
     </message>
 </context>
 <context>
@@ -37128,7 +37138,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="99"/>
         <source>No point feature was detected at the clicked position. Please click closer to the feature or enhance the search tolerance under Settings-&gt;Options-&gt;Digitizing-&gt;Serch radius for vertex edits</source>
-        <translation>클릭 지점에서 점 객체를 찾지 못했습니다. 객체 근처 클릭하거나 검색 허용치를 확대하십시오. 허용치는 설정-&gt;옵션-&gt; 디지타이징-&gt;버텍스 편집 검색 범위에서 설정할 수 있습니다.</translation>
+        <translation>클릭 지점에서 점 객체를 찾지 못했습니다. 객체 근처 클릭하거나 검색 허용치를 확대하십시오. 허용치는 설정-&gt;옵션-&gt; 디지타이징-&gt;버텍스 편집 검색 범위에서 설정할 수 있습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="113"/>
@@ -37138,7 +37148,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="113"/>
         <source>The active point layer does not have a rotation attribute</source>
-        <translation>활성 점 레이어에 회전 속성이 없습니다.</translation>
+        <translation>활성화된 점 레이어에 회전 속성이 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolrotatepointsymbols.cpp" line="193"/>
@@ -37170,12 +37180,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolshowhidelabels.cpp" line="165"/>
         <source>Hid labels</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 숨김</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolshowhidelabels.cpp" line="165"/>
         <source>Showed labels</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨 보임</translation>
     </message>
 </context>
 <context>
@@ -37212,14 +37222,14 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="92"/>
         <source>An error occured during feature splitting</source>
-        <translation>요소 분할에 오류가 발생했습니다.</translation>
+        <translation>객체 분할에 오류가 발생했습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="79"/>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="83"/>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="87"/>
         <source>No feature split done</source>
-        <translation>분할 요소가 없습니다.</translation>
+        <translation>분할된 객체가 없습니다</translation>
     </message>
     <message>
         <source>Cannot edit the vector layer. Use &apos;Toggle Editing&apos; to make it editable.</source>
@@ -37233,7 +37243,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="79"/>
         <source>If there are selected features, the split tool only applies to the selected ones. If you like to split all features under the split line, clear the selection</source>
-        <translation>선택되어 있는 객체가 있는 경우, 분할 도구는 선택된 객체에만 적용됩니다. 분할 선과 교차하는 모든 요소에 대해 분할을 실시하고 싶은 경우는 선택을 해제하십시오.</translation>
+        <translation>선택되어 있는 객체가 있는 경우, 분할 도구는 선택된 객체에만 적용됩니다. 분할 선과 교차하는 모든 요소에 대해 분할을 실시하고 싶은 경우는 선택을 해제하십시오</translation>
     </message>
     <message>
         <source>Not a vector layer</source>
@@ -37255,7 +37265,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="62"/>
         <source>Cannot transform the point to the layers coordinate system</source>
-        <translation>지정점을 레이어의 좌표계로 변환할 수 없습니다.</translation>
+        <translation>이 점을 레이어의 좌표계로 변환할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="83"/>
@@ -37265,7 +37275,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolsplitfeatures.cpp" line="87"/>
         <source>The geometry is invalid. Please repair before trying to split it.</source>
-        <translation>지오메트리가 잘못되었습니다. 자르기 전에 오류수정 하십시오.</translation>
+        <translation>지오메트리가 잘못되었습니다. 자르기 전에 오류수정을 하십시오.</translation>
     </message>
 </context>
 <context>
@@ -37278,7 +37288,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolvertexedit.cpp" line="47"/>
         <source>Could not snap segment. Have you set the tolerance in Settings &gt; Snapping Options?</source>
-        <translation type="unfinished"></translation>
+        <translation>세그먼트를 스냅할 수 없습니다. 설정 &gt; 스냅 옵션 메뉴에서 허용치를 설정했습니까?</translation>
     </message>
     <message>
         <source>Don&apos;t show this message again</source>
@@ -37349,7 +37359,7 @@ not displayed</source>
     <message>
         <location filename="../python/plugins/mapserver_export/qgsmapserverexportbase.ui" line="15"/>
         <source>MapServer Export: Save project to MapFile</source>
-        <translation>MapServer 내보내기: 프로젝트를 MapFile에 저장합니다.</translation>
+        <translation>MapServer 내보내기: 프로젝트를 MapFile에 저장합니다</translation>
     </message>
     <message>
         <location filename="../python/plugins/mapserver_export/qgsmapserverexportbase.ui" line="24"/>
@@ -37395,7 +37405,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../python/plugins/mapserver_export/qgsmapserverexportbase.ui" line="335"/>
         <source>The file name of the fonts file.</source>
-        <translation>글꼴 파일 이름</translation>
+        <translation>글꼴 파일 이름.</translation>
     </message>
     <message>
         <location filename="../python/plugins/mapserver_export/qgsmapserverexportbase.ui" line="354"/>
@@ -37405,7 +37415,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../python/plugins/mapserver_export/qgsmapserverexportbase.ui" line="367"/>
         <source>The file name of the symbols file.</source>
-        <translation>심볼 파일 이름</translation>
+        <translation>심볼 파일 이름.</translation>
     </message>
     <message>
         <location filename="../python/plugins/mapserver_export/qgsmapserverexportbase.ui" line="450"/>
@@ -37470,7 +37480,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../python/plugins/mapserver_export/qgsmapserverexportbase.ui" line="84"/>
         <source>If checked, only the layer information will be processed</source>
-        <translation>체크되어 있는 경우 레이어 정보만 처리됩니다.</translation>
+        <translation>체크되어 있는 경우 레이어 정보만 처리됩니다</translation>
     </message>
     <message>
         <location filename="../python/plugins/mapserver_export/qgsmapserverexportbase.ui" line="281"/>
@@ -37480,7 +37490,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../python/plugins/mapserver_export/qgsmapserverexportbase.ui" line="116"/>
         <source>Prefix attached to map, scalebar and legend GIF filenames created using this MapFile</source>
-        <translation>접두사는 이 지도파일을 이용해 만들어지는 지도, 스케일바, 범례 GIF 파일에 붙습니다.</translation>
+        <translation>접두사는 이 지도파일을 이용해 만들어지는 지도, 스케일바, 범례 GIF 파일에 붙습니다</translation>
     </message>
     <message>
         <location filename="../python/plugins/mapserver_export/qgsmapserverexportbase.ui" line="37"/>
@@ -37530,22 +37540,22 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="705"/>
         <source>Interval</source>
-        <translation type="unfinished"></translation>
+        <translation>간격</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="707"/>
         <source>Line offset</source>
-        <translation type="unfinished">선 오프셋</translation>
+        <translation>선 오프셋</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="709"/>
         <source>Placement</source>
-        <translation type="unfinished"></translation>
+        <translation>위치</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="710"/>
         <source>&apos;vertex&apos;|&apos;lastvertex&apos;|&apos;firstvertex&apos;|&apos;centerpoint&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;버텍스&apos;|&apos;마지막버텍스&apos;|&apos;첫번째버텍스&apos;|&apos;중심점&apos;</translation>
     </message>
 </context>
 <context>
@@ -37580,52 +37590,52 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="219"/>
         <source>The calculations are based on:</source>
-        <translation type="unfinished"></translation>
+        <translation>계산은 다음을 기반으로 합니다:</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="222"/>
         <source>Project CRS transformation is turned off.</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트 CRS 변환이 켜져 있지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="223"/>
         <source>Canvas units setting is taken from project properties setting (%1).</source>
-        <translation type="unfinished"></translation>
+        <translation>캔버스 단위 설정은 프로젝트 속성 설정 (%1)에서 가져온 것입니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="224"/>
         <source>Ellipsoidal calculation is not possible, as project CRS is undefined.</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트 CRS가 정의되어 있지 않기 때문에 타원체 계산은 불가능합니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="230"/>
         <source>Project CRS transformation is turned on and ellipsoidal calculation is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트 CRS 변환이 켜져 있고 타원체 계산이 선택되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="231"/>
         <source>The coordinates are transformed to the chosen ellipsoid (%1), and the result is in meters</source>
-        <translation type="unfinished"></translation>
+        <translation>좌표는 선택된 타원체 (%1)로 변환되었고, 결과의 단위는 미터입니다</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="235"/>
         <source>Project CRS transformation is turned on but ellipsoidal calculation is not selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트 CRS 변환이 켜져 있지만 타원체 계산은 선택되어 있지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="236"/>
         <source>The canvas units setting is taken from the project CRS (%1).</source>
-        <translation type="unfinished"></translation>
+        <translation>캔버스 단위 설정은 프로젝트 CRS (%1)로부터 가져왔습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="242"/>
         <source>Finally, the value is converted from %1 to %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>마지막으로, 값은 %1 에서 %2로 변환되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="251"/>
         <source>Segments [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>세그먼트 [%1]</translation>
     </message>
     <message>
         <source>Segments (in meters)</source>
@@ -37649,12 +37659,12 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/app/qgsmeasuretool.cpp" line="81"/>
         <source>Incorrect measure results</source>
-        <translation>측정 결과가 잘못되었습니다.</translation>
+        <translation>잘못된 측정 결과</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuretool.cpp" line="82"/>
         <source>&lt;p&gt;This map is defined with a geographic coordinate system (latitude/longitude) but the map extents suggests that it is actually a projected coordinate system (e.g., Mercator). If so, the results from line or area measurements will be incorrect.&lt;/p&gt;&lt;p&gt;To fix this, explicitly set an appropriate map coordinate system using the &lt;tt&gt;Settings:Project Properties&lt;/tt&gt; menu.</source>
-        <translation>&lt;p&gt;이 지도는 경위도로 정의되어 있습니다. 그러나 지도의 영역은 투영 좌표계(예를 들어 메르카토르 도법)필요로 합니다. 때문에 길이와 면적 측정 결과가 올바르지 않습니다.&lt;/p&gt;&lt;p&gt;이 문제를 해결 하기 위해서는, 지도의 좌표계를 &lt;tt&gt;설정:프로젝트 속성&lt;/tt&gt; 메뉴에서 올바르게 설정해야합니다.</translation>
+        <translation>&lt;p&gt;이 지도는 경위도로 정의되어 있습니다. 그러나 지도의 영역은 투영 좌표계(예를 들어 메르카토르 도법)를 필요로 합니다. 때문에 길이와 면적 측정 결과가 올바르지 않습니다.&lt;/p&gt;&lt;p&gt;이 문제를 해결 하기 위해서는, 지도의 좌표계를 &lt;tt&gt;설정:프로젝트 속성&lt;/tt&gt; 메뉴에서 올바르게 설정해야합니다.</translation>
     </message>
 </context>
 <context>
@@ -37702,7 +37712,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/app/qgsmergeattributesdialog.cpp" line="149"/>
         <source>Feature %1</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmergeattributesdialog.cpp" line="155"/>
@@ -37771,22 +37781,22 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/gui/qgsmessagebar.cpp" line="66"/>
         <source>Remaining messages</source>
-        <translation type="unfinished"></translation>
+        <translation>남은 메시지</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmessagebar.cpp" line="72"/>
         <source>Close all</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 닫기</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmessagebar.cpp" line="78"/>
         <source>Close</source>
-        <translation type="unfinished">닫기</translation>
+        <translation>닫기</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmessagebar.cpp" line="373"/>
         <source>more</source>
-        <translation type="unfinished"></translation>
+        <translation>이상</translation>
     </message>
 </context>
 <context>
@@ -37890,7 +37900,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlnewconnection.cpp" line="86"/>
         <source>Saving passwords</source>
-        <translation>암호 저장중</translation>
+        <translation>비밀번호 저장중</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlnewconnection.cpp" line="87"/>
@@ -37972,7 +37982,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/ui/qgsmssqlnewconnectionbase.ui" line="113"/>
         <source>Username</source>
-        <translation>사용자명</translation>
+        <translation>사용자이름</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsmssqlnewconnectionbase.ui" line="123"/>
@@ -37992,7 +38002,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/ui/qgsmssqlnewconnectionbase.ui" line="188"/>
         <source>Save Username</source>
-        <translation>사용자 이름 저장</translation>
+        <translation>사용자이름 저장</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsmssqlnewconnectionbase.ui" line="195"/>
@@ -38012,7 +38022,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/ui/qgsmssqlnewconnectionbase.ui" line="221"/>
         <source>Also list tables with no geometry</source>
-        <translation>지오메트리가 없는 테이블 목록도 보기</translation>
+        <translation>지오메트리가 없는 테이블 목록도 표시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsmssqlnewconnectionbase.ui" line="228"/>
@@ -38025,22 +38035,22 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlprovider.cpp" line="141"/>
         <source>8 Bytes integer</source>
-        <translation>8 바이드 정수</translation>
+        <translation>8 바이트 정수</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlprovider.cpp" line="142"/>
         <source>4 Bytes integer</source>
-        <translation>4 바이드 정수</translation>
+        <translation>4 바이트 정수</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlprovider.cpp" line="143"/>
         <source>2 Bytes integer</source>
-        <translation>2 바이드 정수</translation>
+        <translation>2 바이트 정수</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlprovider.cpp" line="144"/>
         <source>1 Bytes integer</source>
-        <translation>1 바이드 정수</translation>
+        <translation>1 바이트 정수</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlprovider.cpp" line="145"/>
@@ -38111,7 +38121,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/providers/mssql/qgsmssqldataitems.cpp" line="499"/>
         <source>as geometryless table</source>
-        <translation>지오메트리 없는 테이블 처럼</translation>
+        <translation>지오메트리가 없는 테이블 처럼</translation>
     </message>
 </context>
 <context>
@@ -38137,12 +38147,12 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlsourceselect.cpp" line="138"/>
         <source>&amp;Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>필터 설정(&amp;S)</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlsourceselect.cpp" line="139"/>
         <source>Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>필터를 설정합니다</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlsourceselect.cpp" line="153"/>
@@ -38245,7 +38255,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlsourceselect.cpp" line="575"/>
         <source>Stop</source>
-        <translation>정지</translation>
+        <translation>중지</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqlsourceselect.cpp" line="621"/>
@@ -38354,7 +38364,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="484"/>
         <source>Multipolygon</source>
-        <translation>멀티폴리곤</translation>
+        <translation>다중폴리곤</translation>
     </message>
     <message>
         <location filename="../src/providers/mssql/qgsmssqltablemodel.cpp" line="487"/>
@@ -46255,7 +46265,7 @@ SQL: %3</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="133"/>
         <source>invalid PostgreSQL topology layer</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 PostgreSQL 레이어</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="163"/>
@@ -46285,133 +46295,133 @@ SQL: %3</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="347"/>
         <source>Read attempt on an invalid postgresql data source</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 Postgresql 자료로의 읽기 시도</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="569"/>
         <source>FAILURE: Field %1 not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>오류:Field %1 을 찾지 못했습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="724"/>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="778"/>
         <source>unexpected formatted field type &apos;%1&apos; for field %2</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 %2 에 예기치 않은 필드 타입 &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="787"/>
         <source>Field %1 ignored, because of unsupported type %2</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 %1 은 지원되지 않는 유형 %2로 인해 무시되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="949"/>
         <source>The custom query is not a select query.</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 지정 쿼리가 선택 쿼리가 아닙니다. </translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1078"/>
         <source>Primary key field &apos;%1&apos; for view not unique.</source>
-        <translation type="unfinished"></translation>
+        <translation>뷰의 &apos;%1&apos; 프라이머리 키 필드가 고유하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="176"/>
         <source>Date</source>
-        <translation type="unfinished">일자</translation>
+        <translation>일자</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="145"/>
         <source>PostgreSQL layer has no primary key.</source>
-        <translation type="unfinished"></translation>
+        <translation>PostgreSQL 레이어에 프라이머리 키가 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="204"/>
         <source>PostgreSQL layer has unknown primary key type.</source>
-        <translation type="unfinished"></translation>
+        <translation>PostgreSQL 레이어가 알려지지 않은 프라이머리 키 유형을 가지고 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="806"/>
         <source>Field %1 ignored, because of unsupported type type %2</source>
-        <translation type="unfinished"></translation>
+        <translation>필드 %1 은 지원되지 않는 유형 %2로 인해 무시됨</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1055"/>
         <source>The table has no column suitable for use as a key. QGIS requires a primary key, a PostgreSQL oid column or a ctid for tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 테이블은 키로 사용할만한 적당한 컬럼이 없습니다. QGIS는 PostgreSQL의 oid 컬럼이나 테이블의 ctid와 같은 프라이머리 키를 필요로 합니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1083"/>
         <source>Key field &apos;%1&apos; for view not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>뷰의 키 필드인 &apos;%1&apos;을 찾을 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1088"/>
         <source>No key field for view given.</source>
-        <translation type="unfinished"></translation>
+        <translation>뷰를 위한 키 필드가 지정되지 않았습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1093"/>
         <source>Unexpected relation type &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>예기치 않은 릴레이션 유형 &apos;%1&apos;.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1146"/>
         <source>No key field for query given.</source>
-        <translation type="unfinished"></translation>
+        <translation>질의를 위한 키 필드가 주어지지 않음.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1455"/>
         <source>Could not find topology of layer %1.%2.%3</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 %1.%2.%3의 토폴로지를 찾을 수 없음</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1781"/>
         <source>PostGIS error while adding features: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 추가 중 PostGIS 오류 발생: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1838"/>
         <source>PostGIS error while deleting features: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 삭제 중 PostGIS 오류 발생: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1901"/>
         <source>PostGIS error while adding attributes: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>속성 추가 중 PostGIS 오류 발생: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1948"/>
         <source>PostGIS error while deleting attributes: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>속성 삭제 중 PostGIS 오류 발생: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="2053"/>
         <source>PostGIS error while changing attributes: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>속성 변경 중 PostGIS 오류 발생: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="2255"/>
         <source>PostGIS error while changing geometry values: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>기하 값 변경 중 PostGIS 오류 발생: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="2462"/>
         <source>result of extents query invalid: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 범위 질의 결과: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="2701"/>
         <source>Geometry type and srid for empty column %1 of %2 undefined.</source>
-        <translation type="unfinished"></translation>
+        <translation>%2의 공백 컬럼 %1의 기하 유형과 srid가 정의되지 않았습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="2729"/>
         <source>Feature type or srid for %1 of %2 could not be determined or was not requested.</source>
-        <translation type="unfinished"></translation>
+        <translation>%2의 %1의 객체 유형과 srid가 결정될 수 없거나 혹은 요청되지 않았습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="2752"/>
         <source>Editing and adding disabled for 2D+ layer (%1; %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>2차원과 레이어 (%1;%2)에 대한 편집과 추가 불가능 </translation>
     </message>
     <message>
         <source>No PostGIS Support!</source>
@@ -46591,7 +46601,7 @@ SQL: %2
     <message>
         <location filename="../src/core/qgsproject.cpp" line="690"/>
         <source>Loading layer %1</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 %1을 로드 중 </translation>
     </message>
     <message>
         <location filename="../src/core/qgsproject.cpp" line="802"/>
@@ -46665,7 +46675,7 @@ Try to find missing layers?</source>
     <message>
         <location filename="../src/app/qgsprojectlayergroupdialog.cpp" line="110"/>
         <source>Select project file</source>
-        <translation type="unfinished">프로젝트 파일 선택</translation>
+        <translation>프로젝트 파일 선택</translation>
     </message>
     <message>
         <source>QGis files</source>
@@ -46674,17 +46684,17 @@ Try to find missing layers?</source>
     <message>
         <location filename="../src/app/qgsprojectlayergroupdialog.cpp" line="112"/>
         <source>QGIS files</source>
-        <translation type="unfinished"></translation>
+        <translation>QGIS 파일</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectlayergroupdialog.cpp" line="143"/>
         <source>Recursive embedding not possible</source>
-        <translation type="unfinished"></translation>
+        <translation>재귀 부착 불가</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectlayergroupdialog.cpp" line="143"/>
         <source>It is not possible to embed layers / groups from the current project.</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 프로젝트의 레이어와 그룹을 부착할 수는 없음</translation>
     </message>
 </context>
 <context>
@@ -46692,17 +46702,17 @@ Try to find missing layers?</source>
     <message>
         <location filename="../src/ui/qgsprojectlayergroupdialogbase.ui" line="14"/>
         <source>Select layers and groups to embed</source>
-        <translation type="unfinished">포함할 레이어와 그룹 선택</translation>
+        <translation>포함할 레이어와 그룹 선택</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectlayergroupdialogbase.ui" line="22"/>
         <source>Project file</source>
-        <translation type="unfinished">프로젝트 파일</translation>
+        <translation>프로젝트 파일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectlayergroupdialogbase.ui" line="32"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -46756,29 +46766,29 @@ Try to find missing layers?</source>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="812"/>
         <source>Measure tool (CRS transformation: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>측정 도구 (CRS 변환: %1)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="813"/>
         <source>Canvas units (CRS transformation: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>캔버스 단위 (CRS 변환: %1)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="822"/>
         <location filename="../src/app/qgsprojectproperties.cpp" line="823"/>
         <source>OFF</source>
-        <translation type="unfinished"></translation>
+        <translation>끄기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="833"/>
         <location filename="../src/app/qgsprojectproperties.cpp" line="834"/>
         <source>ON</source>
-        <translation type="unfinished"></translation>
+        <translation>켜기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="953"/>
         <source>CRS %1 was already selected</source>
-        <translation>좌표계 %1은 이미 선택되어 있습니다.</translation>
+        <translation>좌표계 %1은 이미 선택됨 </translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="973"/>
@@ -46794,59 +46804,60 @@ Proceed?</source>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1007"/>
         <source>Select print composer</source>
-        <translation type="unfinished"></translation>
+        <translation>프린트 구성기 선택</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1007"/>
         <source>Composer Title</source>
-        <translation type="unfinished"></translation>
+        <translation>구성기 제목 </translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1029"/>
         <source>Select restricted layers and groups</source>
-        <translation type="unfinished"></translation>
+        <translation>제한 레이어와 그룹 선택 </translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1085"/>
         <source>Enter scale</source>
-        <translation type="unfinished"></translation>
+        <translation>스케일 입력 </translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1086"/>
         <source>Scale denominator</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>나중에 다시 검토 필요</translatorcomment>
+        <translation>스케일 눈금</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1110"/>
         <source>Load scales</source>
-        <translation type="unfinished"></translation>
+        <translation>스케일 로드 </translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1111"/>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1137"/>
         <source>XML files (*.xml *.XML)</source>
-        <translation type="unfinished">XML 파일 (*.xml * XML)</translation>
+        <translation>XML 파일 (*.xml * XML)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1136"/>
         <source>Save scales</source>
-        <translation type="unfinished"></translation>
+        <translation>스케일 저장 </translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1337"/>
         <source>Parameters :</source>
-        <translation type="unfinished"></translation>
+        <translation>매개 변수 :</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1441"/>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1442"/>
         <source>Parameters:</source>
-        <translation type="unfinished"></translation>
+        <translation>매개 변수:</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1454"/>
         <source>Can only use ellipsoidal calculations when CRS transformation is enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>CRS 변환이 켜져 있어 타원체 기반 계산만 사용 가능</translation>
     </message>
     <message>
         <source>Transparency %1%</source>
@@ -46855,12 +46866,12 @@ Proceed?</source>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1285"/>
         <source>Select a valid symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>유효한 심볼을 선택하십시오 </translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1291"/>
         <source>Invalid symbol : </source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 심볼 : </translation>
     </message>
 </context>
 <context>
@@ -46960,22 +46971,22 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="935"/>
         <source>Default symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 심</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1161"/>
         <source>Transparency</source>
-        <translation type="unfinished">투명도</translation>
+        <translation>투명도</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1196"/>
         <source> %</source>
-        <translation type="unfinished"></translation>
+        <translation> %</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1313"/>
         <source>Service capabilitities</source>
-        <translation type="unfinished"></translation>
+        <translation>서비스 기능</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1393"/>
@@ -47060,7 +47071,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="647"/>
         <source>Project scales</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트 스케일 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="667"/>
@@ -47072,42 +47083,42 @@ Proceed?</source>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1089"/>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1136"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1079"/>
         <source>Marker</source>
-        <translation type="unfinished">마커</translation>
+        <translation>마커</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="958"/>
         <source>Line</source>
-        <translation type="unfinished">선</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1100"/>
         <source>Fill</source>
-        <translation type="unfinished">채우기</translation>
+        <translation>채우기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1040"/>
         <source>Color Ramp</source>
-        <translation type="unfinished">컬러 램프</translation>
+        <translation>컬러 램프</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1233"/>
         <source>Style Manager</source>
-        <translation type="unfinished">스타일 관리자</translation>
+        <translation>스타일 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1150"/>
         <source>Options</source>
-        <translation type="unfinished">옵션</translation>
+        <translation>옵션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1221"/>
         <source>Assign random colors to symbols</source>
-        <translation type="unfinished"></translation>
+        <translation>심볼에 임의색 설정 </translation>
     </message>
     <message>
         <source>Opacity</source>
@@ -47135,103 +47146,103 @@ Proceed?</source>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="148"/>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1914"/>
         <source>Macros</source>
-        <translation type="unfinished"></translation>
+        <translation>매크로 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1422"/>
         <source>Fees</source>
-        <translation type="unfinished">가격</translation>
+        <translation>가격</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1432"/>
         <source>Access constraints</source>
-        <translation type="unfinished"></translation>
+        <translation>접근 제약 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1442"/>
         <source>Keyword list</source>
-        <translation type="unfinished"></translation>
+        <translation>키워드 목록 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1452"/>
         <source>WMS capabilitities</source>
-        <translation type="unfinished"></translation>
+        <translation>WMS 케이퍼빌리티</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1468"/>
         <source>Exclude layers</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 제외 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1529"/>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1872"/>
         <source>Advertised URL</source>
-        <translation type="unfinished"></translation>
+        <translation>알려진 서비스 URL </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1543"/>
         <source>Width</source>
-        <translation type="unfinished">폭</translation>
+        <translation>폭</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1572"/>
         <source>Height</source>
-        <translation type="unfinished">높이</translation>
+        <translation>높이</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1579"/>
         <source>Maximums for GetMap request</source>
-        <translation type="unfinished"></translation>
+        <translation>GetMap 요청의 최대치 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1588"/>
         <source>Advertised extent</source>
-        <translation type="unfinished"></translation>
+        <translation>서비스 가능 범위</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1697"/>
         <source>CRS restrictions</source>
-        <translation type="unfinished"></translation>
+        <translation>CRS 제한 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1744"/>
         <source>Exclude composers</source>
-        <translation type="unfinished"></translation>
+        <translation>구성기 제외 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1812"/>
         <source>WFS capabilitities</source>
-        <translation type="unfinished"></translation>
+        <translation>WFS 캐이퍼빌리티</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1838"/>
         <source>Update</source>
-        <translation type="unfinished">업데이트</translation>
+        <translation>업데이트</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1843"/>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>삽입 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1848"/>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1856"/>
         <source>Unselect all</source>
-        <translation type="unfinished">전체 선택 해제</translation>
+        <translation>전체 선택 해제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1863"/>
         <source>Select all</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 선택</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1945"/>
         <source>Python macros</source>
-        <translation type="unfinished"></translation>
+        <translation>Python 매크로 </translation>
     </message>
     <message>
         <source>Avoid intersections of new polygons...</source>
@@ -47246,7 +47257,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="859"/>
         <source>Project layers</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트 레이어</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="869"/>
@@ -47273,31 +47284,31 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="97"/>
         <source>CRS</source>
-        <translation type="unfinished">좌표계</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="100"/>
         <source>Coordinate Reference System</source>
-        <translation type="unfinished">좌표계</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="109"/>
         <source>Identify layers</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 정보보</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="121"/>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="124"/>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="904"/>
         <source>Default styles</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="133"/>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="136"/>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1282"/>
         <source>OWS server</source>
-        <translation type="unfinished"></translation>
+        <translation>OWS 서버</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="258"/>
@@ -47317,48 +47328,48 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="403"/>
         <source>Measure tool</source>
-        <translation type="unfinished">측정 도구</translation>
+        <translation>측정 도구</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="412"/>
         <source>Ellipsoid
 (for distance calculations)</source>
-        <translation type="unfinished"></translation>
+        <translation>거리 측정에 사용하는 타원체</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="420"/>
         <source>Semi-major</source>
-        <translation type="unfinished"></translation>
+        <translation>장반경 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="433"/>
         <source>Semi-minor</source>
-        <translation type="unfinished"></translation>
+        <translation>단반경 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="452"/>
         <source>Used when CRS transformation is turned off</source>
-        <translation type="unfinished"></translation>
+        <translation>CRS 변환이 꺼져 있을 때 사용됨 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="455"/>
         <source>Canvas units</source>
-        <translation type="unfinished"></translation>
+        <translation>캐번스 단위 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="485"/>
         <source>Degree</source>
-        <translation type="unfinished"></translation>
+        <translation>도 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="524"/>
         <source>Degree display</source>
-        <translation type="unfinished"></translation>
+        <translation>도 표시 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="537"/>
         <source>Degrees, Minutes</source>
-        <translation type="unfinished"></translation>
+        <translation>도, 분 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="580"/>
@@ -47508,7 +47519,7 @@ Because of this the projection selector will not work...</source>
     <message>
         <location filename="../src/ui/qgsprojectionselectorbase.ui" line="39"/>
         <source>Selected CRS:</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 좌표계:</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectionselectorbase.ui" line="194"/>
@@ -47697,7 +47708,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsquerybuilderbase.ui" line="134"/>
         <source>Use unfiltered layer</source>
-        <translation type="unfinished"></translation>
+        <translation>필터 되지 않은 레이어 사용 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsquerybuilderbase.ui" line="144"/>
@@ -48067,7 +48078,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/core/raster/qgsrasterdataprovider.cpp" line="286"/>
         <source>Format not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>지원되지 않는 포맷 </translation>
     </message>
     <message>
         <source>Feature info</source>
@@ -48092,17 +48103,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/core/raster/qgsrasterdataprovider.cpp" line="470"/>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>값</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterdataprovider.cpp" line="474"/>
         <source>Html</source>
-        <translation type="unfinished"></translation>
+        <translation>Html</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterdataprovider.cpp" line="476"/>
         <source>Feature</source>
-        <translation type="unfinished">객체</translation>
+        <translation>객체</translation>
     </message>
 </context>
 <context>
@@ -48110,41 +48121,41 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="48"/>
         <source>Default</source>
-        <translation type="unfinished">기본</translation>
+        <translation>기본값</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="54"/>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="70"/>
         <source>No compression</source>
-        <translation type="unfinished"></translation>
+        <translation>압축하지 않음 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="57"/>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="73"/>
         <source>Low compression</source>
-        <translation type="unfinished"></translation>
+        <translation>약한 압축 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="60"/>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="76"/>
         <source>High compression</source>
-        <translation type="unfinished"></translation>
+        <translation>강한 압축 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="63"/>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="79"/>
         <source>JPEG compression</source>
-        <translation type="unfinished"></translation>
+        <translation>JPEG 압축 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="330"/>
         <source>cannot validate pyramid options</source>
-        <translation type="unfinished"></translation>
+        <translation>피라미드 옵션을 유효화 할 수 없음 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="363"/>
         <source>Cannot validate creation options</source>
-        <translation type="unfinished"></translation>
+        <translation>생성 옵션을 유효화할 수 없음 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="378"/>
@@ -48153,52 +48164,56 @@ p, li { white-space: pre-wrap; }
 %2
 
 Click on help button to get valid creation options for this format.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 이상: ;
+
+%2
+
+도움말 버튼을 눌러 이 포맷에 대한 유효한 생성 옵션 정보를 얻으십시오.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="378"/>
         <source>pyramid creation option</source>
-        <translation type="unfinished"></translation>
+        <translation>피라미드 생성 옵션 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="378"/>
         <source>creation option</source>
-        <translation type="unfinished"></translation>
+        <translation>생성 옵션 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="266"/>
         <source>Cannot get create options for driver %1</source>
-        <translation type="unfinished"></translation>
+        <translation>driver %1에 대한 생성 옵션을 가져올 수 없음 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="270"/>
         <source>For details on pyramids options please see the following pages</source>
-        <translation type="unfinished"></translation>
+        <translation>피라미드 옵션에 관한 상세한 정보는 다음 페이지를 참고할 것 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="274"/>
         <source>No help available</source>
-        <translation type="unfinished"></translation>
+        <translation>도움말 없음 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="374"/>
         <source>Valid</source>
-        <translation type="unfinished"></translation>
+        <translation>유효함 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="415"/>
         <source>Profile name:</source>
-        <translation type="unfinished"></translation>
+        <translation>프로파일 이름:</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="588"/>
         <source>Use simple interface</source>
-        <translation type="unfinished"></translation>
+        <translation>단순 인터페이스 사용</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterformatsaveoptionswidget.cpp" line="590"/>
         <source>Use table interface</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 인터페이스 사용 </translation>
     </message>
 </context>
 <context>
@@ -48206,62 +48221,62 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/ui/qgsrasterformatsaveoptionswidgetbase.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>폼</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterformatsaveoptionswidgetbase.ui" line="31"/>
         <source>New</source>
-        <translation type="unfinished">새로 만들기</translation>
+        <translation>새로 만들기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterformatsaveoptionswidgetbase.ui" line="38"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterformatsaveoptionswidgetbase.ui" line="45"/>
         <source>Reset</source>
-        <translation type="unfinished">재설정</translation>
+        <translation>재설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterformatsaveoptionswidgetbase.ui" line="71"/>
         <source>Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>프로파일 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterformatsaveoptionswidgetbase.ui" line="103"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterformatsaveoptionswidgetbase.ui" line="108"/>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>값</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterformatsaveoptionswidgetbase.ui" line="124"/>
         <source>+</source>
-        <translation type="unfinished">+</translation>
+        <translation>+</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterformatsaveoptionswidgetbase.ui" line="137"/>
         <source>Validate</source>
-        <translation type="unfinished"></translation>
+        <translation>유효성 검사 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterformatsaveoptionswidgetbase.ui" line="144"/>
         <source>Help</source>
-        <translation type="unfinished">도움말</translation>
+        <translation>도움말</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterformatsaveoptionswidgetbase.ui" line="157"/>
         <source>-</source>
-        <translation type="unfinished">-</translation>
+        <translation>-</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterformatsaveoptionswidgetbase.ui" line="189"/>
         <source>Insert KEY=VALUE pairs separated by spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>스페이스로 구분되는  KEY=VALUE 쌍을 입력하십시오</translation>
     </message>
 </context>
 <context>
@@ -48269,102 +48284,102 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="131"/>
         <source>Visibility</source>
-        <translation type="unfinished">가시성</translation>
+        <translation>가시성</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="108"/>
         <source>Min/Max options</source>
-        <translation type="unfinished"></translation>
+        <translation>최소값/최대값 옵션 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="111"/>
         <source>Always show min/max markers</source>
-        <translation type="unfinished"></translation>
+        <translation>항상 최소값/최대값 마커 표시 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="116"/>
         <source>Zoom to min/max</source>
-        <translation type="unfinished"></translation>
+        <translation>최소값/최대값으로 확대하기 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="121"/>
         <source>Update style to min/max</source>
-        <translation type="unfinished"></translation>
+        <translation>최소값/최대값 스타일로 갱신 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="137"/>
         <source>Show all bands</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 밴드 표시 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="142"/>
         <source>Show RGB/Gray band(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB/Gray 밴드 표시 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="147"/>
         <source>Show selected band</source>
-        <translation type="unfinished"></translation>
+        <translation>선택 밴드 표시 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="154"/>
         <source>Actions</source>
-        <translation type="unfinished">액션</translation>
+        <translation>액션</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="162"/>
         <source>Reset</source>
-        <translation type="unfinished">재설정</translation>
+        <translation>재설정</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="169"/>
         <source>Load min/max</source>
-        <translation type="unfinished"></translation>
+        <translation>최소값/최대값 불러오기 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="172"/>
         <source>Estimate (faster)</source>
-        <translation type="unfinished">추정치 (빠름)</translation>
+        <translation>추정치 (빠름)</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="175"/>
         <source>Actual (slower)</source>
-        <translation type="unfinished">실제 값 (느림)</translation>
+        <translation>실제 값 (느림)</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="178"/>
         <source>Current extent</source>
-        <translation type="unfinished">현재 영역</translation>
+        <translation>현재 영역</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="181"/>
         <source>Use stddev (1.0)</source>
-        <translation type="unfinished"></translation>
+        <translation>표준편차 (1.0) 사용 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="184"/>
         <source>Use stddev (custom)</source>
-        <translation type="unfinished"></translation>
+        <translation>표준편차 (임의값) 사용 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="187"/>
         <source>Load for each band</source>
-        <translation type="unfinished"></translation>
+        <translation>개별 밴드를 위해 불러오기 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="195"/>
         <source>Recompute Histogram</source>
-        <translation type="unfinished"></translation>
+        <translation>히스토그램 재계산 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="449"/>
         <source>Band %1</source>
-        <translation type="unfinished">밴드 %1</translation>
+        <translation>밴드 %1</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgsrasterhistogramwidget.cpp" line="565"/>
         <source>Choose a file name to save the map image as</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 이미지로 저장하는 파일 이름을 선택하십시오.</translation>
     </message>
 </context>
 <context>
@@ -48372,7 +48387,7 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/ui/qgsrasterhistogramwidgetbase.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>폼</translation>
     </message>
     <message>
         <source>Band</source>
@@ -48381,53 +48396,53 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/ui/qgsrasterhistogramwidgetbase.ui" line="101"/>
         <source>Set min/max style for</source>
-        <translation type="unfinished"></translation>
+        <translation>최소값/최대값 스타일로 설정 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterhistogramwidgetbase.ui" line="145"/>
         <source>Min</source>
-        <translation type="unfinished">최소</translation>
+        <translation>최소값 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterhistogramwidgetbase.ui" line="171"/>
         <source>Pick Min value on graph</source>
-        <translation type="unfinished"></translation>
+        <translation>그래프에서 최소값 고르기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterhistogramwidgetbase.ui" line="174"/>
         <location filename="../src/ui/qgsrasterhistogramwidgetbase.ui" line="249"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterhistogramwidgetbase.ui" line="220"/>
         <source>Max</source>
-        <translation type="unfinished">최대</translation>
+        <translation>최대값 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterhistogramwidgetbase.ui" line="246"/>
         <source>Pick Max value on graph</source>
-        <translation type="unfinished"></translation>
+        <translation>그래프에서 최대값 고르기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterhistogramwidgetbase.ui" line="300"/>
         <source>Prefs/Actions</source>
-        <translation type="unfinished"></translation>
+        <translation>선호사항/액션 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterhistogramwidgetbase.ui" line="352"/>
         <source>Save plot</source>
-        <translation type="unfinished"></translation>
+        <translation>플롯 저장 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterhistogramwidgetbase.ui" line="355"/>
         <source>Save as image...</source>
-        <translation type="unfinished">이미지로 저장...</translation>
+        <translation>이미지로 저장...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterhistogramwidgetbase.ui" line="406"/>
         <source>Compute Histogram</source>
-        <translation type="unfinished"></translation>
+        <translation>히스토그램 계산 </translation>
     </message>
 </context>
 <context>
@@ -48435,27 +48450,27 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/core/raster/qgsrasterinterface.cpp" line="551"/>
         <source>Identify</source>
-        <translation type="unfinished"></translation>
+        <translation>정보 표시</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterinterface.cpp" line="566"/>
         <source>Build Pyramids</source>
-        <translation type="unfinished">피라미드 만들기</translation>
+        <translation>피라미드 만들기</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterinterface.cpp" line="556"/>
         <source>Create Datasources</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터소스 생성 </translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterinterface.cpp" line="561"/>
         <source>Remove Datasources</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터소스 제거 </translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterinterface.h" line="102"/>
         <source>Band</source>
-        <translation type="unfinished">밴드</translation>
+        <translation>밴드</translation>
     </message>
 </context>
 <context>
@@ -48511,87 +48526,87 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="467"/>
         <source>Driver</source>
-        <translation type="unfinished">드라이버</translation>
+        <translation>드라이버</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="493"/>
         <source>Data Type</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 유형</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="500"/>
         <source>Byte - Eight bit unsigned integer</source>
-        <translation type="unfinished"></translation>
+        <translation>Byte - 8 bit 부호없는 정수</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="503"/>
         <source>UInt16 - Sixteen bit unsigned integer </source>
-        <translation type="unfinished"></translation>
+        <translation>UInt16 - 16 bit 부호없는 정수</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="506"/>
         <source>Int16 - Sixteen bit signed integer </source>
-        <translation type="unfinished"></translation>
+        <translation>Int16 - 16 bit 부호있는 정수</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="509"/>
         <source>UInt32 - Thirty two bit unsigned integer </source>
-        <translation type="unfinished"></translation>
+        <translation>UInt32 - 32 bit 부호없는 정수</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="512"/>
         <source>Int32 - Thirty two bit signed integer </source>
-        <translation type="unfinished"></translation>
+        <translation>Int32 - 32 bit 부호있는 정수</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="515"/>
         <source>Float32 - Thirty two bit floating point </source>
-        <translation type="unfinished"></translation>
+        <translation>Float32 - 32 bit 실수</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="518"/>
         <source>Float64 - Sixty four bit floating point </source>
-        <translation type="unfinished"></translation>
+        <translation>Float64 - 64 bit 실수</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="521"/>
         <source>CInt16 - Complex Int16 </source>
-        <translation type="unfinished"></translation>
+        <translation>CInt16 - Complex Int16</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="524"/>
         <source>CInt32 - Complex Int32 </source>
-        <translation type="unfinished"></translation>
+        <translation>CInt32 - Complex Int32 </translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="527"/>
         <source>CFloat32 - Complex Float32 </source>
-        <translation type="unfinished"></translation>
+        <translation>CFloat32 - Complex Float32 </translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="530"/>
         <source>CFloat64 - Complex Float64 </source>
-        <translation type="unfinished"></translation>
+        <translation>CFloat64 - Complex Float64 </translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="538"/>
         <source>Pyramid overviews</source>
-        <translation type="unfinished"></translation>
+        <translation>피라미드 오버뷰</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="543"/>
         <source>Layer Spatial Reference System</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 좌표계</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="550"/>
         <source>Layer Extent (layer original source projection)</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 범위 (레이어의 원래 투영법)</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="560"/>
         <source>Project Spatial Reference System</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트 좌표계</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="576"/>
@@ -48656,12 +48671,12 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="801"/>
         <source>Cannot instantiate the &apos;%1&apos; data provider</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; 데이터 프로바이더를 인스턴스화 할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterlayer.cpp" line="811"/>
         <source>Provider is not valid (provider: %1, URI: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>프로바이더가 유효하지 않음 (프로바이더: %1, URI:%2</translation>
     </message>
     <message>
         <source>Failed to load provider %1 (Reason: %2)</source>
@@ -48835,17 +48850,17 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="450"/>
         <source>From</source>
-        <translation type="unfinished"></translation>
+        <translation>시작</translation>
     </message>
     <message>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="451"/>
         <source>To</source>
-        <translation type="unfinished">끝</translation>
+        <translation>끝</translation>
     </message>
     <message>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="639"/>
         <source>not defined</source>
-        <translation type="unfinished"></translation>
+        <translation>정의되지 않음</translation>
     </message>
     <message>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="686"/>
@@ -48935,7 +48950,7 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="1253"/>
         <source>Value</source>
-        <translation type="unfinished">값</translation>
+        <translation>값</translation>
     </message>
     <message>
         <source>Color</source>
@@ -48969,30 +48984,30 @@ Click on help button to get valid creation options for this format.</source>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="236"/>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="239"/>
         <source>Nearest neighbour</source>
-        <translation type="unfinished">최근린</translation>
+        <translation>최근린</translation>
     </message>
     <message>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="237"/>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="869"/>
         <source>Bilinear</source>
-        <translation type="unfinished">쌍선형(Bilinear)</translation>
+        <translation>쌍선형(Bilinear)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="238"/>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="873"/>
         <source>Cubic</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="240"/>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="886"/>
         <source>Average</source>
-        <translation type="unfinished">평균</translation>
+        <translation>평균</translation>
     </message>
     <message>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="302"/>
         <source>None</source>
-        <translation type="unfinished">없음</translation>
+        <translation>없음</translation>
     </message>
     <message>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="428"/>
@@ -49304,12 +49319,12 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1093"/>
         <source>Resampling</source>
-        <translation type="unfinished"></translation>
+        <translation>리샘플링 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="744"/>
         <source>Render type</source>
-        <translation type="unfinished"></translation>
+        <translation>렌더((Render) 유형 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="145"/>
@@ -49328,7 +49343,7 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1647"/>
         <source>Resolutions</source>
-        <translation type="unfinished"></translation>
+        <translation>해상도 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1679"/>
@@ -49337,7 +49352,11 @@ Click on help button to get valid creation options for this format.</source>
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Cantarell&apos;; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation> &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Cantarell&apos;; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1703"/>
@@ -49357,22 +49376,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1748"/>
         <source>Overview format</source>
-        <translation type="unfinished"></translation>
+        <translation>오버뷰 형식 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1730"/>
         <source>External</source>
-        <translation type="unfinished"></translation>
+        <translation>외부 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1735"/>
         <source>Internal (if possible)</source>
-        <translation type="unfinished"></translation>
+        <translation>내부 (가능할 경우)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1740"/>
         <source>External (Erdas Imagine)</source>
-        <translation type="unfinished"></translation>
+        <translation>외부 (Erdas Imagine) </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="133"/>
@@ -49449,7 +49468,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="100"/>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="669"/>
         <source>Style</source>
-        <translation type="unfinished">스타일</translation>
+        <translation>스타일</translation>
     </message>
     <message>
         <source>Three band color</source>
@@ -49565,7 +49584,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="414"/>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="421"/>
         <source>Current</source>
-        <translation type="unfinished">현재 설정</translation>
+        <translation>현재 설정</translation>
     </message>
     <message>
         <source>Save current contrast enhancement algorithm as default. This setting will be persistent between QGIS sessions.</source>
@@ -49669,184 +49688,184 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="229"/>
         <source>Layer info</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 정보 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="238"/>
         <source>displayed as</source>
-        <translation type="unfinished"></translation>
+        <translation>표시 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="252"/>
         <source>Layer name</source>
-        <translation type="unfinished">레이어 이름</translation>
+        <translation>레이어 이름</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="391"/>
         <source>Minimum scale, i.e. maximum scale denominator. This limit is exclusive, that means the layer will not be displayed on this scale.</source>
-        <translation type="unfinished"></translation>
+        <translation>최소 스케일, 즉, 최대 스케일의 분모. 이 한계는 배타적이어서, 레이어가 이 스케일에서는 표시되지 않습니다. </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="397"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:0.75em;&quot;&gt;Minimum&lt;br&gt;(exclusive)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:0.75em;&quot;&gt;Minimum&lt;br&gt;(exclusive)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="444"/>
         <source>Maximum scale, i.e. minimum scale denominator. This limit is inclusive, that means the layer will be displayed on this scale.</source>
-        <translation type="unfinished"></translation>
+        <translation>최대 스케일, 즉, 최소 스케일의 분모. 이 한계는 포괄적이어서, 레이어가 이 스케일에서는 표시됩니다. </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="447"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:0.75em;&quot;&gt;Maximum&lt;br&gt;(inclusive)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:0.75em;&quot;&gt;Maximum&lt;br&gt;(inclusive)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1479"/>
         <source>Add values from display</source>
-        <translation type="unfinished"></translation>
+        <translation>화면에서 값 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1863"/>
         <source>Description</source>
-        <translation type="unfinished">설명</translation>
+        <translation>설명</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1905"/>
         <source>Keyword list</source>
-        <translation type="unfinished"></translation>
+        <translation>키워드 목록 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1920"/>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="2030"/>
         <source>Format</source>
-        <translation type="unfinished"></translation>
+        <translation>포맷</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1951"/>
         <source>Attribution</source>
-        <translation type="unfinished"></translation>
+        <translation>귀속 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1970"/>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1992"/>
         <source>Url</source>
-        <translation type="unfinished"></translation>
+        <translation>Url</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1983"/>
         <source>MetadataUrl</source>
-        <translation type="unfinished"></translation>
+        <translation>메타데이터Url </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="2004"/>
         <source>Type</source>
-        <translation type="unfinished">유형</translation>
+        <translation>유형</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="2080"/>
         <source>Properties</source>
-        <translation type="unfinished">속성</translation>
+        <translation>속성</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="706"/>
         <source>Band rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>밴드 렌더링 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="794"/>
         <source>Color rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>컬러 렌더링 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="809"/>
         <source>Saturation</source>
-        <translation type="unfinished">채도</translation>
+        <translation>채도</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="817"/>
         <source>Off</source>
-        <translation type="unfinished">꺼짐</translation>
+        <translation>꺼짐</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="822"/>
         <source>By lightness</source>
-        <translation type="unfinished"></translation>
+        <translation>밝기에 따른 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="827"/>
         <source>By luminosity</source>
-        <translation type="unfinished"></translation>
+        <translation>명도에 따른 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="832"/>
         <source>By average</source>
-        <translation type="unfinished"></translation>
+        <translation>평균에 따른 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="840"/>
         <source>Hue</source>
-        <translation type="unfinished">색상</translation>
+        <translation>색상</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="872"/>
         <source>Blending mode</source>
-        <translation type="unfinished"></translation>
+        <translation>블렌딩 모드 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="879"/>
         <source>Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>밝기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="943"/>
         <source>Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>대비 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="974"/>
         <source>Grayscale</source>
-        <translation type="unfinished">그레이스케일</translation>
+        <translation>그레이스케일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="999"/>
         <source>Colorize</source>
-        <translation type="unfinished"></translation>
+        <translation>컬러화 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1025"/>
         <source>Strength</source>
-        <translation type="unfinished"></translation>
+        <translation>강도 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1045"/>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1073"/>
         <source>Reset all color rendering options to default</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 컬러 렌더링 옵션을 기본으로 재설정 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1076"/>
         <source>Reset</source>
-        <translation type="unfinished">재설정</translation>
+        <translation>재설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1111"/>
         <source>Zoomed: in</source>
-        <translation type="unfinished"></translation>
+        <translation>확대</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1121"/>
         <source>out</source>
-        <translation type="unfinished"></translation>
+        <translation>축소 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1131"/>
         <source>Oversampling</source>
-        <translation type="unfinished"></translation>
+        <translation>오버샘플링 </translation>
     </message>
     <message>
         <source>Add Values from display</source>
@@ -49913,33 +49932,33 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1315"/>
         <source>Use original source no data value.</source>
-        <translation type="unfinished"></translation>
+        <translation>원본 자료의  no data value를 사용 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1318"/>
         <source>No data value:</source>
-        <translation type="unfinished"></translation>
+        <translation> No data value:</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1331"/>
         <source>Original data source no data value, if exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>만약 있을 경우 원본 자료의 no data value</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1334"/>
         <source>&lt;src no data value&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;src no data value&gt;</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1345"/>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1355"/>
         <source>Additional user defined no data value.</source>
-        <translation type="unfinished"></translation>
+        <translation>추가적인 사용자 정의 no data value</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="1348"/>
         <source>Additional no data value</source>
-        <translation type="unfinished"></translation>
+        <translation>추가적인  no data value </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayerpropertiesbase.ui" line="347"/>
@@ -50146,79 +50165,79 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="45"/>
         <source>From</source>
-        <translation type="unfinished"></translation>
+        <translation>시작</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="46"/>
         <source>To</source>
-        <translation type="unfinished">끝</translation>
+        <translation>끝</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="164"/>
         <source>Select output directory</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 디렉토리 선택 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="177"/>
         <source>Warning</source>
-        <translation type="unfinished">경고</translation>
+        <translation>경고</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="178"/>
         <source>The directory %1 contains files which will be overwritten: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 디렉토리에 덮어쓰여지는 파일: %2가 존재 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="198"/>
         <source>Select output file</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 파일 선택 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="198"/>
         <source>GeoTIFF</source>
-        <translation type="unfinished"></translation>
+        <translation>GeoTIFF</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="440"/>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="469"/>
         <source>layer</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="443"/>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="475"/>
         <source>user defined</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 정의</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="448"/>
         <source>Resolution (current: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>해상도 (현재: %1)</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="472"/>
         <source>map view</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 창 </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="480"/>
         <source>Extent (current: %1)</source>
-        <translation type="unfinished"></translation>
+        <translation>범위 (현재: %1)</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="553"/>
         <source>Layer (%1, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 (%1, %2) </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="556"/>
         <source>Project (%1, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트 (%1, %2) </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsrasterlayersaveasdialog.cpp" line="559"/>
         <source>Selected (%1, %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>선택됨 ( %1, %2) </translation>
     </message>
 </context>
 <context>
@@ -50226,185 +50245,186 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="14"/>
         <source>Save raster layer as...</source>
-        <translation type="unfinished"></translation>
+        <translation>새 이름으로 래스터 레이어 저장하기... </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="22"/>
         <source>Output mode</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 모드 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="29"/>
         <source>Write out raw raster layer data. Optionally user defined no data values may be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Raw 래스터 레이어 자료를 씁니다. 선택적으로 사용자 정의 no data value를 적용할 수 있습니다. </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="32"/>
         <source>Raw data</source>
-        <translation type="unfinished"></translation>
+        <translation>Raw data</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="42"/>
         <source>Write out 3 bands RGB image rendered using current layer style.</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 레이어 스타일을 적용하여 3밴드 RGB 영상을 씁니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="45"/>
         <source>Rendered image</source>
-        <translation type="unfinished"></translation>
+        <translation>렌더링된 영상 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="72"/>
         <source>Format</source>
-        <translation type="unfinished"></translation>
+        <translation>포맷</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="92"/>
         <source>Create GDAL Virtual Format composed of multiple 
 datasets with maximum width and height specified below.</source>
-        <translation type="unfinished"></translation>
+        <translation>여러 자료로 구성된 GDAL 가상 포맷을 
+아래 지정된 최대 폭, 높이값을 이용하여 생성합니다. .</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="107"/>
         <source>Save as</source>
-        <translation type="unfinished"></translation>
+        <translation>다른 이름으로 저장</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="130"/>
         <source>Browse...</source>
-        <translation type="unfinished">탐색...</translation>
+        <translation>탐색...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="153"/>
         <source>CRS</source>
-        <translation type="unfinished">좌표계</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="182"/>
         <source>Change ...</source>
-        <translation type="unfinished">변경...</translation>
+        <translation>변경...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="236"/>
         <source>Extent</source>
-        <translation type="unfinished">범위</translation>
+        <translation>범위</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="250"/>
         <source>West</source>
-        <translation type="unfinished">서쪽</translation>
+        <translation>서쪽</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="263"/>
         <source>East</source>
-        <translation type="unfinished">동쪽</translation>
+        <translation>동쪽</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="276"/>
         <source>North</source>
-        <translation type="unfinished">북쪽</translation>
+        <translation>북쪽</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="293"/>
         <source>South</source>
-        <translation type="unfinished">남쪽</translation>
+        <translation>남쪽</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="330"/>
         <source>Layer extent</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 범위 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="359"/>
         <source>Map view extent</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 창 범위 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="391"/>
         <source>Resolution</source>
-        <translation type="unfinished">해상도</translation>
+        <translation>해상도</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="405"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>수평</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="418"/>
         <source>Columns</source>
-        <translation type="unfinished">컬럼</translation>
+        <translation>열 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="428"/>
         <source>Rows</source>
-        <translation type="unfinished">행</translation>
+        <translation>행</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="441"/>
         <source>Layer resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 해상도 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="448"/>
         <source>Layer size</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 크기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="455"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>수직 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="476"/>
         <source>VRT Tiles</source>
-        <translation type="unfinished"></translation>
+        <translation>VRT 타일 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="531"/>
         <source>Create Options</source>
-        <translation type="unfinished"></translation>
+        <translation>생성 옵션 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="488"/>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="498"/>
         <source>Maximum number of columns in one tile.</source>
-        <translation type="unfinished"></translation>
+        <translation>한 타일의 최대 열 수.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="491"/>
         <source>Max columns</source>
-        <translation type="unfinished"></translation>
+        <translation>최대 열 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="505"/>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="515"/>
         <source>Maximum number of rows in one tile.</source>
-        <translation type="unfinished"></translation>
+        <translation>한 타일의 최대 행 수.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="508"/>
         <source>Max rows</source>
-        <translation type="unfinished"></translation>
+        <translation>최대 행 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="96"/>
         <source>Create VRT</source>
-        <translation type="unfinished"></translation>
+        <translation>VRT 생성 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="639"/>
         <source>Additional no data values. The specified values will be set to no data in output raster.</source>
-        <translation type="unfinished"></translation>
+        <translation>추가적인  no data values. 지정된 이 값이 출력 래스터의  no data value 로 설정될 것입니다. </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="642"/>
         <source>No data values</source>
-        <translation type="unfinished">널 데이터 값</translation>
+        <translation>널 데이터 값</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="672"/>
         <source>Add values manually</source>
-        <translation type="unfinished">수동으로 값 추가</translation>
+        <translation>수동으로 값 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="675"/>
@@ -50412,42 +50432,42 @@ datasets with maximum width and height specified below.</source>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="706"/>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="720"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="686"/>
         <source>Load user defined fully transparent (100%) values </source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 정의 완전 투명값(100%) 불러오기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="700"/>
         <source>Remove selected row</source>
-        <translation type="unfinished">선택한 행 삭제</translation>
+        <translation>선택한 행 삭제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="717"/>
         <source>Clear all</source>
-        <translation type="unfinished">모두 클리어</translation>
+        <translation>모두 지우기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="555"/>
         <source>Pyramids</source>
-        <translation type="unfinished">피라미드</translation>
+        <translation>피라미드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="579"/>
         <source>Resolutions</source>
-        <translation type="unfinished"></translation>
+        <translation>해상도 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="602"/>
         <source>Pyramid resolutions corresponding to levels given</source>
-        <translation type="unfinished"></translation>
+        <translation>주어진 레벨에 따른 피라미드 해상도 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterlayersaveasdialogbase.ui" line="623"/>
         <source>Use existing</source>
-        <translation type="unfinished"></translation>
+        <translation>기존 것 사용 </translation>
     </message>
 </context>
 <context>
@@ -50455,74 +50475,75 @@ datasets with maximum width and height specified below.</source>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>폼</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="23"/>
         <source>Load min/max values</source>
-        <translation type="unfinished"></translation>
+        <translation>최소/최대값 불러오기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="52"/>
         <source>-</source>
-        <translation type="unfinished">-</translation>
+        <translation>-</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="66"/>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="90"/>
         <source>Min / max</source>
-        <translation type="unfinished"></translation>
+        <translation>최소값/최대값</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="155"/>
         <source>Extent</source>
-        <translation type="unfinished">범위</translation>
+        <translation>범위</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="161"/>
         <source>Full</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="171"/>
         <source>Current</source>
-        <translation type="unfinished">현재 설정</translation>
+        <translation>현재</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="181"/>
         <source>Accuracy</source>
-        <translation type="unfinished"></translation>
+        <translation>정확도</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="197"/>
         <source>Actual (slower)</source>
-        <translation type="unfinished">실제 값 (느림)</translation>
+        <translation>실제 값 (느림)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="187"/>
         <source>Estimate (faster)</source>
-        <translation type="unfinished">추정치 (빠름)</translation>
+        <translation>추정치 (빠름)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="34"/>
         <source>Cumulative
 count cut</source>
-        <translation type="unfinished"></translation>
+        <translation>누적 값에 따라 자르기 </translation>
     </message>
     <message utf8="true">
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="114"/>
         <source>Mean +/-
 standard deviation ×</source>
-        <translation type="unfinished"></translation>
+        <translation>평균 +/-
+표준편차 ×</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterminmaxwidgetbase.ui" line="224"/>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>불러오기 </translation>
     </message>
 </context>
 <context>
@@ -50530,62 +50551,62 @@ standard deviation ×</source>
     <message>
         <location filename="../src/ui/qgsrasterpyramidsoptionswidgetbase.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>폼</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterpyramidsoptionswidgetbase.ui" line="109"/>
         <source>Custom levels</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 정의 레벨 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterpyramidsoptionswidgetbase.ui" line="45"/>
         <source>Internal (if possible)</source>
-        <translation type="unfinished"></translation>
+        <translation>내부 (가능할 경우)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterpyramidsoptionswidgetbase.ui" line="23"/>
         <source>Insert positive integer values separated by spaces</source>
-        <translation type="unfinished"></translation>
+        <translation>스페이스로 구분되는 양의 정수 값 삽입 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterpyramidsoptionswidgetbase.ui" line="40"/>
         <source>External (GTiff .ovr)</source>
-        <translation type="unfinished"></translation>
+        <translation>외부 ( GTiff .ovr) </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterpyramidsoptionswidgetbase.ui" line="50"/>
         <source>External (Erdas Imagine .aux)</source>
-        <translation type="unfinished"></translation>
+        <translation>외부  (Erdas Imagine .aux)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterpyramidsoptionswidgetbase.ui" line="96"/>
         <source>Average</source>
-        <translation type="unfinished">평균</translation>
+        <translation>평균</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterpyramidsoptionswidgetbase.ui" line="101"/>
         <source>Nearest Neighbour</source>
-        <translation type="unfinished">최근린</translation>
+        <translation>최근린</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterpyramidsoptionswidgetbase.ui" line="126"/>
         <source>Overview format</source>
-        <translation type="unfinished"></translation>
+        <translation>오버뷰 형식 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterpyramidsoptionswidgetbase.ui" line="65"/>
         <source>Create Options</source>
-        <translation type="unfinished"></translation>
+        <translation>생성 옵션 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterpyramidsoptionswidgetbase.ui" line="58"/>
         <source>Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>레벨</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrasterpyramidsoptionswidgetbase.ui" line="88"/>
         <source>Resampling method</source>
-        <translation type="unfinished"></translation>
+        <translation>리샘플링 방법</translation>
     </message>
 </context>
 <context>
@@ -50593,32 +50614,32 @@ standard deviation ×</source>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="187"/>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>알 수 없음</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="191"/>
         <source>User defined</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 정의</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="197"/>
         <source>Estimated</source>
-        <translation type="unfinished"></translation>
+        <translation>추정 </translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="201"/>
         <source>Exact</source>
-        <translation type="unfinished">엄밀</translation>
+        <translation>정확 </translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="208"/>
         <source>min / max</source>
-        <translation type="unfinished"></translation>
+        <translation>최소값/최대값</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterrenderer.cpp" line="219"/>
         <source> of </source>
-        <translation type="unfinished"></translation>
+        <translation> 의 </translation>
     </message>
 </context>
 <context>
@@ -50642,37 +50663,37 @@ standard deviation ×</source>
     <message>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="215"/>
         <source>Export Frequency distribution as csv</source>
-        <translation type="unfinished"></translation>
+        <translation>빈도 분포를 csv 파일로 내보내기 </translation>
     </message>
     <message>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="228"/>
         <source>Export Colors and elevations as xml</source>
-        <translation type="unfinished"></translation>
+        <translation>컬러와 높이값을 xml로 내보내기 </translation>
     </message>
     <message>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="262"/>
         <source>Import Colors and elevations from xml</source>
-        <translation type="unfinished"></translation>
+        <translation>xml로부터 컬러와 높이값을 가져오기 </translation>
     </message>
     <message>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="271"/>
         <source>Error opening file</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 여는 중 오류 </translation>
     </message>
     <message>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="271"/>
         <source>The relief color file could not be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>기복 색상 파일을 읽을 수 없음 </translation>
     </message>
     <message>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="278"/>
         <source>Error parsing xml</source>
-        <translation type="unfinished"></translation>
+        <translation>xml 파싱 에러 </translation>
     </message>
     <message>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="278"/>
         <source>The xml file could not be loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>xml 파일을 불러올 수 없음 </translation>
     </message>
     <message>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="301"/>
@@ -50682,23 +50703,23 @@ standard deviation ×</source>
     <message>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="380"/>
         <source>Enter lower elevation class bound</source>
-        <translation type="unfinished"></translation>
+        <translation>낮은 고도 클래스 경계 입력 </translation>
     </message>
     <message>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="380"/>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="390"/>
         <source>Elevation</source>
-        <translation type="unfinished"> 높이</translation>
+        <translation>고도 </translation>
     </message>
     <message>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="390"/>
         <source>Enter upper elevation class bound</source>
-        <translation type="unfinished"></translation>
+        <translation>높은 고도 클래스 경계 입력 </translation>
     </message>
     <message>
         <location filename="../src/plugins/raster_terrain_analysis/qgsrasterterrainanalysisdialog.cpp" line="399"/>
         <source>Select color for relief class</source>
-        <translation type="unfinished"></translation>
+        <translation>기복 클래스를 위한 색상 선택 </translation>
     </message>
 </context>
 <context>
@@ -51046,13 +51067,13 @@ standard deviation ×</source>
         <location filename="../src/gui/symbology-ng/qgsrendererv2widget.cpp" line="191"/>
         <location filename="../src/gui/symbology-ng/qgsrendererv2widget.cpp" line="292"/>
         <source>Scale area</source>
-        <translation type="unfinished"></translation>
+        <translation>스케일 영역 </translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrendererv2widget.cpp" line="192"/>
         <location filename="../src/gui/symbology-ng/qgsrendererv2widget.cpp" line="296"/>
         <source>Scale diameter</source>
-        <translation type="unfinished"></translation>
+        <translation>스케일 직경 </translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrendererv2widget.cpp" line="224"/>
@@ -51083,22 +51104,22 @@ standard deviation ×</source>
     <message>
         <location filename="../src/ui/qgsrendererv2propsdialogbase.ui" line="20"/>
         <source>Layer rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 렌더링 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrendererv2propsdialogbase.ui" line="53"/>
         <source>Layer transparency</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 투명도 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrendererv2propsdialogbase.ui" line="63"/>
         <source>Feature blending mode</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 블렌딩 모드 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrendererv2propsdialogbase.ui" line="70"/>
         <source>Layer blending mode</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 블렌딩 모드 </translation>
     </message>
     <message>
         <source>Renderer</source>
@@ -51207,7 +51228,7 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrulebasedrendererv2widget.cpp" line="663"/>
         <source>&lt;li&gt;&lt;nobr&gt;%1 features also in rule %2&lt;/nobr&gt;&lt;/li&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation> &lt;li&gt;&lt;nobr&gt;%2 규칙에 %1 객체가 포함됨&lt;/nobr&gt;&lt;/li</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrulebasedrendererv2widget.cpp" line="705"/>
@@ -51231,27 +51252,27 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrulebasedrendererv2widget.cpp" line="705"/>
         <source>Count</source>
-        <translation type="unfinished"></translation>
+        <translation>갯수</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrulebasedrendererv2widget.cpp" line="705"/>
         <source>Duplicate count</source>
-        <translation type="unfinished"></translation>
+        <translation>중복 갯수 </translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrulebasedrendererv2widget.cpp" line="705"/>
         <source>Max. scale</source>
-        <translation type="unfinished">최대 스케일</translation>
+        <translation>최대 스케일</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrulebasedrendererv2widget.cpp" line="712"/>
         <source>Number of features in this rule.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 규칙에 포함된 객체 갯수.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrulebasedrendererv2widget.cpp" line="716"/>
         <source>Number of features in this rule which are also present in other rule(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>다른 규칙에 포함되면서도 이 규칙에 포함되는 객체의 갯수. </translation>
     </message>
 </context>
 <context>
@@ -51304,12 +51325,12 @@ standard deviation ×</source>
     <message>
         <location filename="../src/ui/qgsrulebasedrendererv2widget.ui" line="53"/>
         <source>Add rule</source>
-        <translation type="unfinished"></translation>
+        <translation>규칙 추가 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrulebasedrendererv2widget.ui" line="81"/>
         <source>Remove rule</source>
-        <translation type="unfinished"></translation>
+        <translation>규칙 삭제 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsrulebasedrendererv2widget.ui" line="98"/>
@@ -51319,7 +51340,7 @@ standard deviation ×</source>
     <message>
         <location filename="../src/ui/qgsrulebasedrendererv2widget.ui" line="117"/>
         <source>Count features</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 갯수세기 </translation>
     </message>
     <message>
         <source>Rule grouping</source>
@@ -51352,7 +51373,7 @@ standard deviation ×</source>
     <message>
         <location filename="../src/ui/qgsrulebasedrendererv2widget.ui" line="67"/>
         <source>Edit rule</source>
-        <translation type="unfinished">규칙 편집</translation>
+        <translation>규칙 편집</translation>
     </message>
     <message>
         <source>Groups of rules cannot be edited.</source>
@@ -51413,12 +51434,12 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrulebasedrendererv2widget.cpp" line="429"/>
         <source>Calculating feature count.</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 갯수 계산.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsrulebasedrendererv2widget.cpp" line="429"/>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>중지</translation>
     </message>
 </context>
 <context>
@@ -51622,32 +51643,32 @@ standard deviation ×</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1440"/>
         <source>Texture width</source>
-        <translation type="unfinished">텍스처 폭</translation>
+        <translation>텍스처 폭</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1442"/>
         <source>SVG file</source>
-        <translation type="unfinished"></translation>
+        <translation>SVG 파일</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1444"/>
         <source>Rotation</source>
-        <translation type="unfinished">회전</translation>
+        <translation>회전</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1446"/>
         <source>Color</source>
-        <translation type="unfinished">색상</translation>
+        <translation>색상</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1448"/>
         <source>Border color</source>
-        <translation type="unfinished">보더 색상</translation>
+        <translation>경계 색상</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1450"/>
         <source>Border width</source>
-        <translation type="unfinished"></translation>
+        <translation>경계 폭 </translation>
     </message>
 </context>
 <context>
@@ -51655,32 +51676,32 @@ standard deviation ×</source>
     <message>
         <location filename="../src/app/qgssavestyletodbdialog.cpp" line="50"/>
         <source>Save style in database</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터베이스에 스타일 저장 </translation>
     </message>
     <message>
         <location filename="../src/app/qgssavestyletodbdialog.cpp" line="50"/>
         <source>A name is mandatory</source>
-        <translation type="unfinished"></translation>
+        <translation>이름은 반드시 필요합니다 </translation>
     </message>
     <message>
         <location filename="../src/app/qgssavestyletodbdialog.cpp" line="61"/>
         <source>Attach Qt Designer UI file</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt 디자이너 파일 붙이기 </translation>
     </message>
     <message>
         <location filename="../src/app/qgssavestyletodbdialog.cpp" line="61"/>
         <source>Qt Designer UI file .ui</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt 디자이너 파일 .ui </translation>
     </message>
     <message>
         <location filename="../src/app/qgssavestyletodbdialog.cpp" line="82"/>
         <source>Wrong file</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 파일 </translation>
     </message>
     <message>
         <location filename="../src/app/qgssavestyletodbdialog.cpp" line="83"/>
         <source>The selected file does not appear to be a valid Qt Designer UI file.</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 파일이 유효한 Qt 디자이너 파일로 보이지 않습니다. </translation>
     </message>
 </context>
 <context>
@@ -51688,37 +51709,37 @@ standard deviation ×</source>
     <message>
         <location filename="../src/ui/qgssavetodbdialog.ui" line="14"/>
         <source>Add column</source>
-        <translation type="unfinished">컬럼 추가</translation>
+        <translation>컬럼 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssavetodbdialog.ui" line="23"/>
         <source>Description</source>
-        <translation type="unfinished">설명</translation>
+        <translation>설명</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssavetodbdialog.ui" line="33"/>
         <source>UI</source>
-        <translation type="unfinished"></translation>
+        <translation>UI</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssavetodbdialog.ui" line="43"/>
         <source>Style Name</source>
-        <translation type="unfinished"></translation>
+        <translation>스타일 이름 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssavetodbdialog.ui" line="66"/>
         <source>Use as default style for this layer</source>
-        <translation type="unfinished"></translation>
+        <translation>이 레이어의 기본 스타일로 사용 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssavetodbdialog.ui" line="88"/>
         <source>Open...</source>
-        <translation type="unfinished"></translation>
+        <translation>열기...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssavetodbdialog.ui" line="97"/>
         <source>Optionally pick an input form for attribute editing (QT Designer UI format), it will be stored in the database</source>
-        <translation type="unfinished"></translation>
+        <translation>선택적으로 속성 편집 (Qt 디자이너 UI 양식)을 위한 입력폼을 고르며, 이는 데이터베이스에 저장됨 </translation>
     </message>
 </context>
 <context>
@@ -52128,17 +52149,17 @@ The error was:
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="560"/>
         <source>Color</source>
-        <translation type="unfinished">색상</translation>
+        <translation>색상</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="561"/>
         <source>Border color</source>
-        <translation type="unfinished">보더 색상</translation>
+        <translation>경계 색상</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="563"/>
         <source>Border width</source>
-        <translation type="unfinished"></translation>
+        <translation>경계 폭 </translation>
     </message>
 </context>
 <context>
@@ -52146,32 +52167,32 @@ The error was:
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="200"/>
         <source>Color</source>
-        <translation type="unfinished">색상</translation>
+        <translation>색상</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="202"/>
         <source>Pen width</source>
-        <translation type="unfinished">펜 두께</translation>
+        <translation>펜 두께</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="204"/>
         <source>Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>오프셋</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="206"/>
         <source>Dash pattern</source>
-        <translation type="unfinished"></translation>
+        <translation>점선 패턴</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="207"/>
         <source>Join style</source>
-        <translation type="unfinished">이음새 스타일</translation>
+        <translation>이음새 스타일</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="208"/>
         <source>Cap style</source>
-        <translation type="unfinished">캡 스타일</translation>
+        <translation>캡 스타일</translation>
     </message>
 </context>
 <context>
@@ -52179,37 +52200,37 @@ The error was:
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="410"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="412"/>
         <source>Fill color</source>
-        <translation type="unfinished">채움 색상</translation>
+        <translation>채움 색상</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="414"/>
         <source>Border color</source>
-        <translation type="unfinished">보더 색상</translation>
+        <translation>경계 색상</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="416"/>
         <source>Outline width</source>
-        <translation type="unfinished">외곽선 폭</translation>
+        <translation>외곽선 폭</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="418"/>
         <source>Size</source>
-        <translation type="unfinished">크기</translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="420"/>
         <source>Angle</source>
-        <translation type="unfinished">각도</translation>
+        <translation>각도</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="422"/>
         <source>Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>오프셋</translation>
     </message>
 </context>
 <context>
@@ -52217,32 +52238,32 @@ The error was:
     <message>
         <location filename="../src/gui/raster/qgssinglebandgrayrendererwidget.cpp" line="26"/>
         <source>Black to white</source>
-        <translation type="unfinished"></translation>
+        <translation>검은색에서 흰색으로 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandgrayrendererwidget.cpp" line="27"/>
         <source>White to black</source>
-        <translation type="unfinished"></translation>
+        <translation>흰색에서 검은색으로 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandgrayrendererwidget.cpp" line="59"/>
         <source>No enhancement</source>
-        <translation type="unfinished"></translation>
+        <translation>강조 없음</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandgrayrendererwidget.cpp" line="60"/>
         <source>Stretch to MinMax</source>
-        <translation type="unfinished"></translation>
+        <translation>최소/최대값까지 스트레치</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandgrayrendererwidget.cpp" line="61"/>
         <source>Stretch and clip to MinMax</source>
-        <translation type="unfinished"></translation>
+        <translation>최소/최대값까지 스트레치하고 자름</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandgrayrendererwidget.cpp" line="62"/>
         <source>Clip to MinMax</source>
-        <translation type="unfinished"></translation>
+        <translation>최소/최대값으로 자름</translation>
     </message>
 </context>
 <context>
@@ -52250,23 +52271,23 @@ The error was:
     <message>
         <location filename="../src/ui/qgssinglebandgrayrendererwidgetbase.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>폼</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandgrayrendererwidgetbase.ui" line="22"/>
         <source>Contrast
 enhancement</source>
-        <translation type="unfinished"></translation>
+        <translation>콘트라스트 강조</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandgrayrendererwidgetbase.ui" line="36"/>
         <source>Gray band</source>
-        <translation type="unfinished">회색 밴드</translation>
+        <translation>회색 밴드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandgrayrendererwidgetbase.ui" line="63"/>
         <source>Color gradient</source>
-        <translation type="unfinished"></translation>
+        <translation>컬러 그레디언트 </translation>
     </message>
     <message>
         <source>Contrast enhancement</source>
@@ -52275,12 +52296,12 @@ enhancement</source>
     <message>
         <location filename="../src/ui/qgssinglebandgrayrendererwidgetbase.ui" line="43"/>
         <source>Min</source>
-        <translation type="unfinished">최소</translation>
+        <translation>최소값 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandgrayrendererwidgetbase.ui" line="53"/>
         <source>Max</source>
-        <translation type="unfinished">최대</translation>
+        <translation>최대값 </translation>
     </message>
     <message>
         <source>Estimate (faster)</source>
@@ -52300,7 +52321,7 @@ enhancement</source>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="496"/>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="576"/>
         <source>Discrete</source>
-        <translation type="unfinished">이산</translation>
+        <translation>이산</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="81"/>
@@ -52310,34 +52331,34 @@ enhancement</source>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="492"/>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="572"/>
         <source>Linear</source>
-        <translation type="unfinished">선형</translation>
+        <translation>선형</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="82"/>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="431"/>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="580"/>
         <source>Exact</source>
-        <translation type="unfinished">엄밀</translation>
+        <translation>엄밀</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="84"/>
         <source>Continuous</source>
-        <translation type="unfinished"></translation>
+        <translation>연속 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="85"/>
         <source>Equal interval</source>
-        <translation type="unfinished">등간격</translation>
+        <translation>등간격</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="162"/>
         <source>Custom color map entry</source>
-        <translation type="unfinished">사용자 정의 색상표 입력</translation>
+        <translation>사용자 정의 색상표 입력</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="384"/>
         <source>Load Color Map</source>
-        <translation type="unfinished">컬러 맵 로드</translation>
+        <translation>컬러 맵 불러오기 </translation>
     </message>
     <message>
         <source>The color map for band %1 failed to load</source>
@@ -52346,68 +52367,68 @@ enhancement</source>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="384"/>
         <source>The color map for band %1 has no entries</source>
-        <translation type="unfinished"></translation>
+        <translation>밴드 %1 컬러 맵에 값이 없음 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="395"/>
         <source>Open file</source>
-        <translation type="unfinished">파일 열기</translation>
+        <translation>파일 열기</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="395"/>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="478"/>
         <source>Textfile (*.txt)</source>
-        <translation type="unfinished">텍스트 파일 (*.txt)</translation>
+        <translation>텍스트 파일 (*.txt)</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="465"/>
         <source>Import Error</source>
-        <translation type="unfinished">가져오기 오류</translation>
+        <translation>가져오기 오류</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="465"/>
         <source>The following lines contained errors
 
 </source>
-        <translation type="unfinished">다음 행은 오류를 포함하고 있습니다.
-	  
+        <translation>다음 행은 오류를 포함하고 있습니다
+
 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="470"/>
         <source>Read access denied</source>
-        <translation type="unfinished">읽기 접근이 거부되었습니다.</translation>
+        <translation>읽기 접근이 거부되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="470"/>
         <source>Read access denied. Adjust the file permissions and try again.
 
 </source>
-        <translation type="unfinished">읽기 권한이 없습니다. 파일 액세스 권한을 조정하고 다시 시도하십시오.
+        <translation>읽기 권한이 없습니다. 파일 액세스 권한을 조정하고 다시 시도하십시오.
 	  
 </translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="478"/>
         <source>Save file</source>
-        <translation type="unfinished">파일로 저장하기</translation>
+        <translation>파일로 저장하기</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="490"/>
         <source>QGIS Generated Color Map Export File</source>
-        <translation type="unfinished">QGIS가 컬러 맵 내보내기 파일을 만들었습니다.</translation>
+        <translation>QGIS가 컬러 맵 내보내기 파일을 만들었습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="532"/>
         <source>Write access denied</source>
-        <translation type="unfinished">쓰기 접근 거부됨</translation>
+        <translation>쓰기 접근 거부됨</translation>
     </message>
     <message>
         <location filename="../src/gui/raster/qgssinglebandpseudocolorrendererwidget.cpp" line="532"/>
         <source>Write access denied. Adjust the file permissions and try again.
 
 </source>
-        <translation type="unfinished">쓰기 접근 거부됨. 파일 권한 수정후 다시 시도하십시오.
+        <translation>쓰기 접근 거부됨. 파일 권한 수정후 다시 시도하십시오.
 
 </translation>
     </message>
@@ -52417,17 +52438,17 @@ enhancement</source>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>폼</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="24"/>
         <source>Band</source>
-        <translation type="unfinished">밴드</translation>
+        <translation>밴드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="37"/>
         <source>Color interpolation</source>
-        <translation type="unfinished">색상 보간</translation>
+        <translation>색상 보간</translation>
     </message>
     <message>
         <source>Add entry</source>
@@ -52444,7 +52465,7 @@ enhancement</source>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="90"/>
         <source>Load color map from band</source>
-        <translation type="unfinished">밴드에서 컬러 맵을 로드</translation>
+        <translation>밴드에서 컬러 맵을 불러오기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="51"/>
@@ -52454,92 +52475,92 @@ enhancement</source>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="107"/>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="121"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="48"/>
         <source>Add values manually</source>
-        <translation type="unfinished">수동으로 값 추가</translation>
+        <translation>수동으로 값 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="62"/>
         <source>Remove selected row</source>
-        <translation type="unfinished">선택한 행 삭제</translation>
+        <translation>선택한 행 삭제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="76"/>
         <source>Sort colormap items</source>
-        <translation type="unfinished"></translation>
+        <translation>컬러맵 항목 정렬 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="104"/>
         <source>Load color map from file</source>
-        <translation type="unfinished">파일에서 컬러 맵을 로드</translation>
+        <translation>파일에서 컬러 맵을 불러오기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="118"/>
         <source>Export color map to file</source>
-        <translation type="unfinished">컬러 맵을 파일로 내보내기</translation>
+        <translation>컬러 맵을 파일로 내보내기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="163"/>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>값</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="168"/>
         <source>Color</source>
-        <translation type="unfinished">색상</translation>
+        <translation>색상</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="173"/>
         <source>Label</source>
-        <translation type="unfinished">라벨</translation>
+        <translation>라벨</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="181"/>
         <source>Clip</source>
-        <translation type="unfinished"></translation>
+        <translation>자르기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="192"/>
         <source>Generate new color map</source>
-        <translation type="unfinished">새 컬러 맵을 작성</translation>
+        <translation>새 컬러 맵을 작성</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="203"/>
         <source>Invert</source>
-        <translation type="unfinished"></translation>
+        <translation>뒤집기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="224"/>
         <source>Classes</source>
-        <translation type="unfinished"></translation>
+        <translation>클래스 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="264"/>
         <source>Min</source>
-        <translation type="unfinished">최소</translation>
+        <translation>최소값 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="274"/>
         <source>Max</source>
-        <translation type="unfinished">최대</translation>
+        <translation>최대값 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="317"/>
         <source>Min / Max origin</source>
-        <translation type="unfinished"></translation>
+        <translation>최소값 / 최대값 유래 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="340"/>
         <source>Min / max origin:</source>
-        <translation type="unfinished"></translation>
+        <translation>최소값 / 최대값 유래:</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="214"/>
         <source>Mode</source>
-        <translation type="unfinished">모드</translation>
+        <translation>모드</translation>
     </message>
     <message>
         <source>Number of entries</source>
@@ -52552,7 +52573,7 @@ enhancement</source>
     <message>
         <location filename="../src/ui/qgssinglebandpseudocolorrendererwidgetbase.ui" line="299"/>
         <source>Classify</source>
-        <translation type="unfinished">분류</translation>
+        <translation>분류</translation>
     </message>
 </context>
 <context>
@@ -52662,12 +52683,12 @@ enhancement</source>
     <message>
         <location filename="../src/ui/qgssmartgroupconditionwidget.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>폼</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssmartgroupconditionwidget.ui" line="31"/>
         <source>The Symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>심볼 </translation>
     </message>
 </context>
 <context>
@@ -52675,12 +52696,12 @@ enhancement</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="204"/>
         <source>Invalid name</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 이름 </translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssmartgroupeditordialog.cpp" line="204"/>
         <source>The smart group name field is empty. Kindly provide a name</source>
-        <translation type="unfinished"></translation>
+        <translation>스마트 그룹 이름이 비었습니다. 이름을 지정하세요 </translation>
     </message>
 </context>
 <context>
@@ -52688,27 +52709,27 @@ enhancement</source>
     <message>
         <location filename="../src/ui/qgssmartgroupeditordialogbase.ui" line="14"/>
         <source>Smart Group Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>스마트 그룹 편집기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssmartgroupeditordialogbase.ui" line="20"/>
         <source>Smart Group Name</source>
-        <translation type="unfinished"></translation>
+        <translation>스마트 그룹 이름 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssmartgroupeditordialogbase.ui" line="30"/>
         <source>Condition matches</source>
-        <translation type="unfinished"></translation>
+        <translation>조건 매치 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssmartgroupeditordialogbase.ui" line="40"/>
         <source>Add Condition</source>
-        <translation type="unfinished"></translation>
+        <translation>조건 추가 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgssmartgroupeditordialogbase.ui" line="47"/>
         <source>Conditions</source>
-        <translation type="unfinished"></translation>
+        <translation>조건 </translation>
     </message>
 </context>
 <context>
@@ -52795,7 +52816,7 @@ enhancement</source>
     <message>
         <location filename="../src/ui/qgssnappingdialogbase.ui" line="85"/>
         <source>Enable snapping on intersection</source>
-        <translation type="unfinished"></translation>
+        <translation>교차선에서 스내핑 활성화 </translation>
     </message>
 </context>
 <context>
@@ -52803,7 +52824,7 @@ enhancement</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="90"/>
         <source>obsolete libspatialite: connecting to this DB requires using v.4.0 (or any subsequent)</source>
-        <translation type="unfinished"></translation>
+        <translation>폐기된 libspatialite:이 DB에 접속하기 위해서는 v 4.0 (혹은 그 이후의)을 사용</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="266"/>
@@ -52816,52 +52837,52 @@ enhancement</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="293"/>
         <source>obsolete libspatialite: AbstractInterface is unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>폐기된  libspatialite:추상 인터페이시는 지원되지 않음 </translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="317"/>
         <source>UNKNOWN</source>
-        <translation type="unfinished"></translation>
+        <translation>알 수 없음</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="321"/>
         <source>GEOMETRY</source>
-        <translation type="unfinished"></translation>
+        <translation>지오매트리</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="324"/>
         <source>POINT</source>
-        <translation type="unfinished">점</translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="327"/>
         <source>LINESTRING</source>
-        <translation type="unfinished">선</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="330"/>
         <source>POLYGON</source>
-        <translation type="unfinished">폴리곤</translation>
+        <translation>폴리곤</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="333"/>
         <source>MULTIPOINT</source>
-        <translation type="unfinished">다중 점</translation>
+        <translation>다중 점</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="336"/>
         <source>MULTILINESTRING</source>
-        <translation type="unfinished">다중 선</translation>
+        <translation>다중 선</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="339"/>
         <source>MULTIPOLYGON</source>
-        <translation type="unfinished">다중 폴리곤</translation>
+        <translation>다중 폴리곤</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="342"/>
         <source>GEOMETRYCOLLECTION</source>
-        <translation type="unfinished">지오메트리 집합</translation>
+        <translation>지오메트리컬렉션</translation>
     </message>
 </context>
 <context>
@@ -52889,12 +52910,12 @@ enhancement</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteprovider.cpp" line="648"/>
         <source>Retrieval of spatialite version failed</source>
-        <translation type="unfinished"></translation>
+        <translation>spatialite 버전 조회 실패 </translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteprovider.cpp" line="663"/>
         <source>Could not parse spatialite version string &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>spatialite 버전 문자열인 &apos;%1&apos;을 파싱할 수 없음 </translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteprovider.cpp" line="750"/>
@@ -52975,7 +52996,7 @@ SQL: %1</translation>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteprovider.cpp" line="4976"/>
         <source>FAILURE: Field %1 not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>오류:Field %1 을 찾지 못했습니다.</translation>
     </message>
 </context>
 <context>
@@ -52993,7 +53014,7 @@ SQL: %1</translation>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="56"/>
         <source>&amp;Update statistics</source>
-        <translation type="unfinished"></translation>
+        <translation>통계 갱신(&amp;U)</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="60"/>
@@ -53007,7 +53028,7 @@ SQL: %1</translation>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="64"/>
         <source>&amp;Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>필터 설정(&amp;S) </translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="81"/>
@@ -53057,28 +53078,31 @@ SQL: %1</translation>
 
 This could take a long time (depending on the DB size),
 but implies better performance thereafter.</source>
-        <translation type="unfinished"></translation>
+        <translation>DB:%1의 내부 통계 갱신을 원하십니까?
+
+이 작업은 시간이 오래 걸릴 수 있습니다.(DB 크기에 달려 있음)0
+하지만 그 이후에는 더 나은 성능을 기대할 수 있습니다. </translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="151"/>
         <source>Confirm Update Statistics</source>
-        <translation type="unfinished"></translation>
+        <translation>통계 갱신 확인</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="159"/>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="164"/>
         <source>Update Statistics</source>
-        <translation type="unfinished"></translation>
+        <translation>통계 갱신 </translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="160"/>
         <source>Internal statistics successfully updated for: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1의 내부 통계가 성공적으로 갱신되었습니다 </translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="165"/>
         <source>Error while updating internal statistics for: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1의 내부 통계를 갱신하던 중 오류 발생 </translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="266"/>
