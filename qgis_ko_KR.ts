@@ -8184,7 +8184,7 @@ Wrong line: %1</source>
     <name>NotSupportedDbType</name>
     <message>
         <source>%s is not supported yet</source>
-        <translation type="unfinished"></translation>
+        <translation>%s 은 지원하지 않습니</translation>
     </message>
 </context>
 <context>
