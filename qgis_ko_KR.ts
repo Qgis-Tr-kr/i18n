@@ -7014,7 +7014,7 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
         <location filename="../src/ui/qgisapp.ui" line="1541"/>
         <source>Rotate Label
 Ctl (Cmd) increments by 15 deg.</source>
-        <translation>라벨 컨트롤 15deg 씩 회전(Cmd).</translation>
+        <translation>Ctrl(Cmd) 키로 라벨 15도씩 회전.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1619"/>
@@ -7073,13 +7073,15 @@ Ctl (Cmd) increments by 15 deg.</source>
 Click or marquee on label to pin
 Shift unpins, Ctl (Cmd) toggles state
 Acts on all editable layers</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">라벨에 핀 꽂기/뽑기
+라멜에 핀 꽃기 위해 클릭하거나 표시하기
+</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1796"/>
         <location filename="../src/ui/qgisapp.ui" line="1799"/>
         <source>Highlight Pinned Labels</source>
-        <translation type="unfinished"></translation>
+        <translation>핀 꽂힌 라벨들 강조하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1808"/>
