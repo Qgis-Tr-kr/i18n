@@ -7073,9 +7073,10 @@ Ctl (Cmd) increments by 15 deg.</source>
 Click or marquee on label to pin
 Shift unpins, Ctl (Cmd) toggles state
 Acts on all editable layers</source>
-        <translation type="unfinished">라벨에 핀 꽂기/뽑기
-라멜에 핀 꽃기 위해 클릭하거나 표시하기
-</translation>
+        <translation>라벨에 핀 꽂기/뽑기
+라벨에 핀 꽃기 위해 클릭하거나 표시하기
+Shift 핀뽑기, Ctrl(Cmd) 상태 변경
+모든 편집가능한 레이어에들 관한 법률들</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1796"/>
@@ -7102,12 +7103,12 @@ Acts on all editable layers</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1832"/>
         <source>Full Dataset Cumulative Cut Stretch</source>
-        <translation type="unfinished"></translation>
+        <translation>누적 컷 스트레치의 전체 데이터셋</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1835"/>
         <source>Cumulative cut stretch using full dataset extent, default limits and estimated values.</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 데이터셋 범위와 기본 한계와 예상값을 이용한 로컬 누적 컷 스트레치.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1847"/>
@@ -7120,7 +7121,10 @@ Acts on all editable layers</source>
 Click or marquee on feature to show label
 Shift+click or marquee on label to hide it
 Acts on currently active editable layer</source>
-        <translation type="unfinished"></translation>
+        <translation>라벨들 보기/숨김
+라벨을 보기 위해 객체를 클릭하거나 표시하기
+라벨을 ShiftClick 혹은, 움직여서 숨기기
+현재 편집가능한 레이어에들 관한 법률</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1865"/>
@@ -9156,7 +9160,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     <name>Python</name>
     <message>
         <source>Python</source>
-        <translation type="unfinished">Python</translation>
+        <translation type="unfinished">들Python</translation>
     </message>
     <message>
         <source>An error has occured while executing Python code:</source>
