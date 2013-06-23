@@ -9095,26 +9095,26 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     <name>PGDatabase</name>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블(&amp;T)</translation>
     </message>
     <message>
         <source>Run &amp;Vacuum Analyze</source>
-        <translation type="unfinished"></translation>
+        <translation>진공분석 실행((&amp;V)</translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation type="unfinished">죄송합니다</translation>
+        <translation>죄송합니다</translation>
     </message>
     <message>
         <source>Select a TABLE for vacuum analyze.</source>
-        <translation type="unfinished"></translation>
+        <translation>진공 분석된 테이블을 선택합니다.</translation>
     </message>
 </context>
 <context>
     <name>PGTable</name>
     <message>
         <source>Table rule</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 규칙</translation>
     </message>
 </context>
 <context>
@@ -9128,26 +9128,26 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     <name>PostGisDBPlugin</name>
     <message>
         <source>There is no defined database connection &quot;%s&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>정의된 데이터베이스 연결이 없습니다 &quot;%s&quot;.</translation>
     </message>
     <message>
         <source>Enter password</source>
-        <translation type="unfinished"></translation>
+        <translation>비밀번호를 입력하세요</translation>
     </message>
     <message>
         <source>Enter password for connection &quot;%s&quot;:</source>
-        <translation type="unfinished"></translation>
+        <translation>연결을 위해 비밀번호를 입력하세요 &quot;% s&quot;:</translation>
     </message>
 </context>
 <context>
     <name>PrepareAPIDialog</name>
     <message>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation type="unfinished">종료</translation>
+        <translation>종료</translation>
     </message>
 </context>
 <context>
