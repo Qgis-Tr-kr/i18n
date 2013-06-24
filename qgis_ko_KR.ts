@@ -6,7 +6,7 @@
     <message>
         <location filename="../python/console/console_compile_apis.ui" line="32"/>
         <source>Generating prepared API file (please wait)...</source>
-        <translation>준비된 API 파일 받기(시간 걸림)...</translation>
+        <translation>준비된 API 파일 생성(시간 걸림)...</translation>
     </message>
 </context>
 <context>
@@ -273,7 +273,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Relation type:</source>
-        <translation>릴래이션 타입:</translation>
+        <translation>관계 타입:</translation>
     </message>
     <message>
         <source>View</source>
@@ -365,7 +365,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>(unknown) (&lt;a href=&quot;action:extent/get&quot;&gt;find out&lt;/a&gt;)</source>
-        <translation>(알 수 없음) (&lt;a href=&quot;action:rows/count&quot;&gt;발견&lt;/a&gt;)</translation>
+        <translation>(알 수 없음) (&lt;a href=&quot;action:rows/get&quot;&gt;발견&lt;/a&gt;)</translation>
     </message>
     <message>
         <source>Extent:</source>
@@ -1350,7 +1350,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="17"/>
         <source>Extract Nodes</source>
-        <translation>노드 확장</translation>
+        <translation>노드 추출</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="28"/>
@@ -1612,7 +1612,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Random selection within subsets</source>
-        <translation>서브셋에서 램덤 선택</translation>
+        <translation>서브셋 내 무작위 선택</translation>
     </message>
     <message>
         <source>Join attributes by location</source>
@@ -1656,7 +1656,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmRandPoints.ui" line="17"/>
         <source>Generate Random Points</source>
-        <translation>랜덤 점군 만들기</translation>
+        <translation>무작위 점 군 만들기</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmRandPoints.ui" line="32"/>
@@ -1683,7 +1683,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/plugins/fTools/tools/frmRandPoints.ui" line="105"/>
         <location filename="../python/plugins/fTools/tools/frmRegPoints.ui" line="149"/>
         <source>Use this number of points</source>
-        <translation>이 점 수 사용</translation>
+        <translation>사용할 점 수</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmRandPoints.ui" line="96"/>
@@ -1693,17 +1693,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmRandPoints.ui" line="129"/>
         <source>Use this density of points</source>
-        <translation>이 점 밀도 사용</translation>
+        <translation>사용할 점 밀도</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmRandPoints.ui" line="162"/>
         <source>Use value from input field</source>
-        <translation>입력 필드의 값 사용</translation>
+        <translation>사용할 입력 필드 값</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmRandom.ui" line="14"/>
         <source>Random Selection Tool</source>
-        <translation>랜덤 선택 도구</translation>
+        <translation>무작위 선택 도구</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmRandom.ui" line="23"/>
@@ -1744,7 +1744,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmReProject.ui" line="35"/>
         <source>Input spatial reference system</source>
-        <translation>좌표계 입력</translation>
+        <translation>입력 좌표계</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmReProject.ui" line="49"/>
@@ -1792,7 +1792,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmRegPoints.ui" line="45"/>
         <source>Input Coordinates</source>
-        <translation>좌표 입력</translation>
+        <translation>입력 좌표</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmRegPoints.ui" line="52"/>
@@ -1826,7 +1826,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmRegPoints.ui" line="119"/>
         <source>Use this point spacing</source>
-        <translation>이 점 간격 사용</translation>
+        <translation>사용할 점 간격</translation>
     </message>
     <message>
         <source>buttonGroup_2</source>
@@ -1840,7 +1840,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmRegPoints.ui" line="191"/>
         <source>Initial inset from corner (LH side)</source>
-        <translation>코너(좌상단)에서 초기 연결 위치</translation>
+        <translatorcomment>inset의 의미 모호: 그리드가 삽입되는 위치로 해석</translatorcomment>
+        <translation>모서리(좌상단)에서 초기 삽입 위치</translation>
     </message>
     <message>
         <source>Random selection</source>
@@ -1896,7 +1897,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmSpatialJoin.ui" line="99"/>
         <source>Take summary of intersecting features</source>
-        <translation>교차하는 모든 객체 속성 종합 이용</translation>
+        <translation>교차하는 모든 객체 속성 요약 이용</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmSpatialJoin.ui" line="89"/>
@@ -1934,7 +1935,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmSubsetSelect.ui" line="14"/>
         <source>Random Selection From Within Subsets</source>
-        <translation>집합에서 랜덤 선택</translation>
+        <translation>서브셋 내에서 무작위 선택</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmSubsetSelect.ui" line="39"/>
@@ -2064,7 +2065,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Please specify intersect unique ID field</source>
-        <translation>교차 고유 ID 필드를 지정하십시오.</translation>
+        <translation>교차 고유 ID 필드를 지정하십시오</translation>
     </message>
     <message>
         <source>Created output point shapefile:
@@ -2082,7 +2083,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please specify spatial reference system</source>
-        <translation>좌표계를 지정 하십시오.</translation>
+        <translation>좌표계를 지정 하십시오</translation>
     </message>
     <message>
         <source>Created projected shapefile:
@@ -2120,11 +2121,11 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please specify target vector layer</source>
-        <translation>작업 대상 벡터 레이어를 선택하십시오.</translation>
+        <translation>작업 대상 벡터 레이어를 선택하십시오</translation>
     </message>
     <message>
         <source>Please specify join vector layer</source>
-        <translation>결합 벡터 레이어를 선택하십시오.</translation>
+        <translation>결합 벡터 레이어를 선택하십시오</translation>
     </message>
     <message>
         <source>No output will be created.
@@ -2220,7 +2221,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please specify at least one summary statistic</source>
-        <translation>집계 방법을 하나 이상 선택하십시오.</translation>
+        <translation>집계 방법을 하나 이상 선택하십시오</translation>
     </message>
     <message>
         <source>CRS warning!</source>
@@ -2230,7 +2231,7 @@ Would you like to add the new layer to the TOC?</source>
         <source>Warning: Input layers have non-matching CRS.
 This may cause unexpected results.</source>
         <translation>경고: 입력 레이어에 해당하는 좌표계가 없습니다.
-이것은 예상치 않은 결과를 발생시킬수 있습니다.</translation>
+이것은 예상치 않은 결과를 발생시킬 수 있습니다.</translation>
     </message>
     <message>
         <source>Selected features: %s</source>
@@ -2270,7 +2271,7 @@ were reduced to %d vertices after simplification</source>
     </message>
     <message>
         <source>Summary field</source>
-        <translation>계산 필드</translation>
+        <translation>요약 필드</translation>
     </message>
     <message>
         <source>No output will be created.
@@ -2288,7 +2289,7 @@ Following field names are longer than 10 characters:
     </message>
     <message>
         <source>Please specify valid extent coordinates</source>
-        <translation>유효범위의 좌표값을 지정하십시오.</translation>
+        <translation>유효범위의 좌표값을 지정하십시오</translation>
     </message>
     <message>
         <source>Invalid extent coordinates entered</source>
@@ -2328,7 +2329,7 @@ Following field names are longer than 10 characters:
     </message>
     <message>
         <source>creating new selection</source>
-        <translation>새로 선택한</translation>
+        <translation>새 선택 만들기</translation>
     </message>
     <message>
         <source>adding to current selection</source>
@@ -2352,7 +2353,7 @@ Following field names are longer than 10 characters:
     </message>
     <message>
         <source>Please specify input layer</source>
-        <translation>입력 레이어를 선택하십시오.</translation>
+        <translation>입력 레이어를 선택하십시오</translation>
     </message>
     <message>
         <source>Created output point shapefile:
@@ -2366,7 +2367,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please specify select layer</source>
-        <translation>레이어를 선택하십시오.</translation>
+        <translation>레이어를 선택하십시오</translation>
     </message>
     <message>
         <source>There are no shapefiles with the given geometry type. Please select an available geometry type.</source>
@@ -2388,15 +2389,15 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please specify input polygon vector layer</source>
-        <translation>입력 폴리곤 벡터 레이어를 지정하십시오.</translation>
+        <translation>입력 폴리곤 벡터 레이어를 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify input line vector layer</source>
-        <translation>입력 선 벡터 레이어를 지정하십시오.</translation>
+        <translation>입력 선 벡터 레이어를 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify output length field</source>
-        <translation>출력 길이필드를 지정하십시오.</translation>
+        <translation>출력 길이필드를 지정하십시오</translation>
     </message>
     <message>
         <source>Created output shapefile:
@@ -2414,11 +2415,11 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please specify input vector layer</source>
-        <translation>입력 벡터 레이어를 지정 하십시오.</translation>
+        <translation>입력 벡터 레이어를 지정 하십시오</translation>
     </message>
     <message>
         <source>Please specify an input field</source>
-        <translation>입력 필드를 지정 하십시오.</translation>
+        <translation>입력 필드를 지정 하십시오</translation>
     </message>
     <message>
         <source>Defined Projection For:
@@ -2428,7 +2429,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Random Points</source>
-        <translation>랜덤 점군</translation>
+        <translation>무작위 점군</translation>
     </message>
     <message>
         <source>unstratified</source>
@@ -2448,7 +2449,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Unknown layer type...</source>
-        <translation>레이어 유형 알 수 없음...</translation>
+        <translation>알 수 없는 레이어 유형...</translation>
     </message>
     <message>
         <source>Created output shapefiles in folder:
@@ -2482,7 +2483,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please properly specify extent coordinates</source>
-        <translation>적절한 영역 좌표를 지정하십시오.</translation>
+        <translation>적절한 영역 좌표를 지정하십시오</translation>
     </message>
     <message>
         <source>Finished</source>
@@ -2506,11 +2507,11 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please specify input point vector layer</source>
-        <translation>입력 점 벡터 레이어를 지정하십시오.</translation>
+        <translation>입력 점 벡터 레이어를 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify output count field</source>
-        <translation>출력 계산 필드를 지정하십시오.</translation>
+        <translation>출력 계산 필드를 지정하십시오</translation>
     </message>
     <message>
         <source>point count field</source>
@@ -2518,7 +2519,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please select a raster layer</source>
-        <translation>래스터 레이어를 선택해 주십시오.</translation>
+        <translation>래스터 레이어를 선택해 주십시오</translation>
     </message>
     <message>
         <source>Unable to compute extents aligned on selected raster layer</source>
@@ -2543,7 +2544,7 @@ Would you like to add the new layer to the TOC?</source>
                                  attribute tables are closed. Continue?</source>
         <translation>현재 QGIS는 다른 쓰레드에서 같은 데이터 소스로의 
                                  동시 접속을 허용하지 않습니다. 해당 레이어의 속성테이블이 닫혀있는지 
-                                 확인해주십시오. 계속하시겠습니까&gt;?</translation>
+                                 확인해주십시오. 계속하시겠습니까?</translation>
     </message>
     <message>
         <source>Simplify results</source>
@@ -2565,19 +2566,19 @@ were reduced to %2 vertices after simplification</source>
     </message>
     <message>
         <source>Please specify input point layer</source>
-        <translation>입력 점 레이어를 지정하십시오.</translation>
+        <translation>입력 점 레이어를 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify output file</source>
-        <translation>대상 출력 파일을 지정하십시오.</translation>
+        <translation>대상 출력 파일을 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify target point layer</source>
-        <translation>대상 점 레이어를 지정하십시오.</translation>
+        <translation>대상 점 레이어를 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify target unique ID field</source>
-        <translation>대상 고유 ID 필드를 지정하십시오.</translation>
+        <translation>대상 고유 ID 필드를 지정하십시오</translation>
     </message>
     <message>
         <source>Created output matrix:
@@ -2647,7 +2648,7 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Merging</source>
-        <translation>결합 중</translation>
+        <translation>결합</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="14"/>
@@ -2662,7 +2663,7 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="29"/>
         <source>Shapefile type</source>
-        <translation>Shapefile 타입</translation>
+        <translation>Shape 파일 타입</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="37"/>
@@ -2770,7 +2771,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     <message>
         <location filename="../python/plugins/fTools/tools/frmSimplify.ui" line="14"/>
         <source>Simplify geometries</source>
-        <translation>형상을 단순화</translation>
+        <translation>형상 단순화</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmSimplify.ui" line="20"/>
@@ -3571,7 +3572,7 @@ geometry column - column with unique integer values</source>
     </message>
     <message>
         <source>Are you sure</source>
-        <translation>정말로 입니까?</translation>
+        <translation>확실히</translation>
     </message>
     <message>
         <source>really delete column &apos;%s&apos;?</source>
@@ -3734,7 +3735,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Burns vector geometries into a raster</source>
-        <translation>벡터 도형을 래스터로 만듬</translation>
+        <translation>벡터 도형을 래스터로 만들기</translation>
     </message>
     <message>
         <source>Polygonize</source>
@@ -3742,7 +3743,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Produces a polygon feature layer from a raster</source>
-        <translation>래스터에서 폴리곤 객체를 만듬</translation>
+        <translation>래스터에서 폴리곤 객체를 만들기</translation>
     </message>
     <message>
         <source>Merge</source>
@@ -3750,11 +3751,11 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Build a quick mosaic from a set of images</source>
-        <translation>이미지 세트에서 빠른 모자이크를 만듬</translation>
+        <translation>이미지 세트에서 빠른 모자이크를 만들기</translation>
     </message>
     <message>
         <source>Sieve</source>
-        <translation>체</translation>
+        <translation>거르기(작은 객체 제거)</translation>
     </message>
     <message>
         <source>Removes small raster polygons</source>
@@ -3766,7 +3767,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Produces a raster proximity map</source>
-        <translation>래스터 근접도를 만듦</translation>
+        <translation>래스터 근접도를 만들기</translation>
     </message>
     <message>
         <source>Near black</source>
@@ -3882,7 +3883,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Build a shapefile as a raster tileindex</source>
-        <translation>래스터 타일 인덱스를 shapefile로 만들기</translation>
+        <translation>래스터 타일 인덱스를 shape 파일로 만들기</translation>
     </message>
     <message>
         <source>DEM (Terrain models)</source>
@@ -3902,7 +3903,7 @@ Install it and try again.</source>
     </message>
     <message>
         <source>QGIS version detected: </source>
-        <translation>QGIS 버전 탐지됨:</translation>
+        <translation>탐지된 QGIS 버전:</translation>
     </message>
     <message>
         <source>Projections</source>
@@ -3982,7 +3983,7 @@ Install it and try again.</source>
     </message>
     <message>
         <source>The process crashed some time after starting successfully.</source>
-        <translation>처리가 시작 후 곧 충돌이 발생하였습니다.</translation>
+        <translation>성공적으로 시작된 후 처리 오류가 발생하였습니다.</translation>
     </message>
     <message>
         <source>An unknown error occurred.</source>
@@ -4241,7 +4242,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>Select the input file for Sieve</source>
-        <translation>체를 위한 입력 파일 선택</translation>
+        <translation>거르기를 위한 입력 파일 선택</translation>
     </message>
     <message>
         <source>Output size or resolution required</source>
@@ -4253,7 +4254,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>Select the input file for Polygonize</source>
-        <translation>폴리곤화 할 입력 파을 선택</translation>
+        <translation>폴리곤화 할 입력 파일 선택</translation>
     </message>
     <message>
         <source>Select where to save the Polygonize output</source>
@@ -4361,7 +4362,7 @@ Do you want terminate it anyway?</source>
     </message>
     <message>
         <source>Select the color configuration file</source>
-        <translation>색상 구성 파일을 선택</translation>
+        <translation>색상 구성 파일 선택</translation>
     </message>
     <message>
         <source>Select the input directory with files for VRT</source>
@@ -4387,7 +4388,7 @@ Do you want terminate it anyway?</source>
         <source>GDAL was unable to retrieve the extent from any file. 
 The &quot;Use intersected extent&quot; option will be unchecked.</source>
         <translation>GDAL이 파일에서 영역을 얻을 수 없습니다. 
-&quot;교차 영역 이용&quot; 옵션의 체크는 해제됩니다.</translation>
+&quot;교차 영역 이용&quot; 옵션의 체크가 해제됩니다.</translation>
     </message>
     <message>
         <source>Empty extent</source>
@@ -4659,7 +4660,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetBuildVRT.ui" line="31"/>
         <source>Use visible raster layers for input</source>
-        <translation>입력으로 보이는 레이어 사용</translation>
+        <translation>입력으로 켜진 레이어 사용</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetBuildVRT.ui" line="38"/>
@@ -4813,7 +4814,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetMerge.ui" line="104"/>
         <source>Grab pseudocolor table from the first image</source>
-        <translation>첫 번째 이미지에서 의사 색상(pseudocolor) 집기</translation>
+        <translation>첫 이미지에서 의사 색상 테이블 잡기</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetContour.ui" line="20"/>
@@ -4856,12 +4857,12 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetContour.ui" line="73"/>
         <source>&amp;Attribute name</source>
-        <translation>속성 컬럼 이름(&amp;A)</translation>
+        <translation>속성 이름(&amp;A)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetContour.ui" line="85"/>
         <source>If not provided, no elevation attribute is attached.</source>
-        <translation>제공되지 않으면 고도 속성은 추가되지 않습니다.</translation>
+        <translation>입력되지 않으면, 고도 속성이 추가되지 않습니다.</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetContour.ui" line="99"/>
@@ -4939,7 +4940,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetGrid.ui" line="66"/>
         <source>Inverse distance to a power</source>
-        <translation>지수 반전 분포</translation>
+        <translation>거리 제곱 반비례</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetGrid.ui" line="71"/>
@@ -4959,12 +4960,12 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetGrid.ui" line="107"/>
         <source>Power</source>
-        <translation>지수</translation>
+        <translation>제곱</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetGrid.ui" line="127"/>
         <source>Smoothing</source>
-        <translation>스무딩</translation>
+        <translation>평활화</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetGrid.ui" line="153"/>
@@ -5033,8 +5034,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetGrid.ui" line="573"/>
         <source>Metrics</source>
-        <translation>
-      </translation>
+        <translation>메트릭스</translation>
     </message>
     <message>
         <source>Power:</source>
@@ -5075,8 +5075,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetGrid.ui" line="587"/>
         <source>Minimum</source>
-        <translation>
-      </translation>
+        <translation>최소</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetGrid.ui" line="592"/>
@@ -5101,12 +5100,12 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetInfo.ui" line="63"/>
         <source>Suppress GCP printing</source>
-        <translation>GCP 표시 않음</translation>
+        <translation>GCP 표시 억제</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetInfo.ui" line="70"/>
         <source>Suppress metadata printing</source>
-        <translation>메타데이터 표시 않음</translation>
+        <translation>메타데이터 표시 억제</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetMerge.ui" line="20"/>
@@ -5151,7 +5150,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="105"/>
         <source>Hillshade</source>
-        <translation>힐쉐이드</translation>
+        <translation>음영기복</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="110"/>
@@ -5171,12 +5170,12 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="125"/>
         <source>TRI (Terrain Ruggedness Index)</source>
-        <translation>TRI (영역 기복 지표)</translation>
+        <translation>TRI (지형 기복 지표)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="130"/>
         <source>TPI (Topographic Position Index)</source>
-        <translation>TPI (위상적 위치 인덱스)</translation>
+        <translation>TPI (위상적 위치 지표)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="135"/>
@@ -5207,12 +5206,12 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="210"/>
         <source>Azimuth of the light</source>
-        <translation>빛의 방위각</translation>
+        <translation>광원의 방위각</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="233"/>
         <source>Altitude of the light</source>
-        <translation>빛의 높이각</translation>
+        <translation>관원의 높이각</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="260"/>
@@ -5222,7 +5221,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="307"/>
         <source>Return trigonometric angle (instead of azimuth)</source>
-        <translation>삼각 각도를 반환 (방위각 대신)</translation>
+        <translation>삼각함수 각도를 반환 (방위각 대신)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetDEM.ui" line="314"/>
@@ -5438,9 +5437,9 @@ suitable for direct use with Imagine,ArcGIS, GDAL.</source>
         <source>Output will be:
 - new GeoTiff if input file is not GeoTiff
 - overwritten if input is GeoTiff</source>
-        <translation>출력은 다음과 같음:
+        <translation>다음과 같이 출력예정:
 - 입력 파일이 GeoTiff 형식이 아닌 경우 새로운 GeoTiff이 만들어짐
-- 입력이 GeoTiff 파일의 경우 파일에 덮어 씀</translation>
+- 입력이 GeoTiff 파일인 경우 덮어 씀</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetBuildVRT.ui" line="55"/>
@@ -5592,7 +5591,7 @@ suitable for direct use with Imagine,ArcGIS, GDAL.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetSieve.ui" line="20"/>
         <source>Sieve</source>
-        <translation>체</translation>
+        <translation>거르기</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetSieve.ui" line="48"/>
@@ -5638,7 +5637,7 @@ suitable for direct use with Imagine,ArcGIS, GDAL.</source>
         <location filename="../python/plugins/GdalTools/tools/widgetTranslate.ui" line="106"/>
         <location filename="../python/plugins/GdalTools/tools/widgetTranslate.ui" line="122"/>
         <source>Percentage to resize image. This will change pixel size/image resolution accordingly: 25% will create an image with pixels 4x larger.</source>
-        <translation>이미지 크기를 조정할 퍼센트. 이 값은 픽셀크기/이미지레졸루션에 따라 달라짐: 25%를 지정하면 이미지 픽셀은 4배 커집니다.</translation>
+        <translation>이미지 크기를 조정할 퍼센트. 이 값은 픽셀크기/이미지레졸루션에 따라 달라짐: 25%를 지정하면 이미지 픽셀이 4배 커집니다.</translation>
     </message>
     <message>
         <source>Outsize:</source>
@@ -5693,7 +5692,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetFillNodata.ui" line="99"/>
         <source>Smooth iterations</source>
-        <translation>부드럽게 반복</translation>
+        <translation>평활화 반복회수</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetFillNodata.ui" line="116"/>
@@ -5714,7 +5713,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
         <location filename="../python/plugins/GdalTools/tools/widgetTranslate.ui" line="72"/>
         <location filename="../python/plugins/GdalTools/tools/widgetWarp.ui" line="83"/>
         <source>&amp;Target SRS</source>
-        <translation>대상 SRS(&amp;T)</translation>
+        <translation>대상 좌표계(&amp;T)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetTranslate.ui" line="109"/>
@@ -5729,7 +5728,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetTranslate.ui" line="166"/>
         <source>Gray</source>
-        <translation>회색</translation>
+        <translation>회색조</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetTranslate.ui" line="171"/>
@@ -5849,12 +5848,12 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetWarp.ui" line="55"/>
         <source>&amp;Source SRS</source>
-        <translation>소스 SRS(&amp;S)</translation>
+        <translation>원본 좌표계(&amp;S)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetWarp.ui" line="111"/>
         <source>&amp;Resampling method</source>
-        <translation>리샘플링 메소드(&amp;R)</translation>
+        <translation>재샘플링 방법(&amp;R)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetWarp.ui" line="147"/>
@@ -5870,7 +5869,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
         <location filename="../python/plugins/GdalTools/tools/widgetGrid.ui" line="746"/>
         <location filename="../python/plugins/GdalTools/tools/widgetWarp.ui" line="199"/>
         <source>Resize</source>
-        <translation>크기</translation>
+        <translation>크기변경</translation>
     </message>
     <message>
         <source>Image width</source>
@@ -5898,7 +5897,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetTileIndex.ui" line="39"/>
         <source>Output shapefile</source>
-        <translation>출력 shapefile</translation>
+        <translation>출력 shape파일</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetTileIndex.ui" line="49"/>
@@ -5937,19 +5936,19 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     </message>
     <message>
         <source>Please specify input vector layer</source>
-        <translation>입력 벡터 레이어 지정하십시오.</translation>
+        <translation>입력 벡터 레이어 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify output shapefile</source>
-        <translation>출력 shapefile를 지정하십시오.</translation>
+        <translation>출력 shape 파일를 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify valid tolerance value</source>
-        <translation>올바른 허용치를 지정하십시오.</translation>
+        <translation>올바른 허용치를 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify valid UID field</source>
-        <translation>올바른 UID 필드를 지정하십시오.</translation>
+        <translation>올바른 UID 필드를 지정하십시오</translation>
     </message>
     <message>
         <source>Singleparts to multipart</source>
@@ -5957,7 +5956,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     </message>
     <message>
         <source>Output shapefile</source>
-        <translation>출력 Shapefile</translation>
+        <translation>출력 Shape 파일</translation>
     </message>
     <message>
         <source>Multipart to singleparts</source>
@@ -5965,7 +5964,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     </message>
     <message>
         <source>Extract nodes</source>
-        <translation>노드 확장</translation>
+        <translation>노드 추출</translation>
     </message>
     <message>
         <source>Polygons to lines</source>
@@ -5981,7 +5980,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     </message>
     <message>
         <source>Input vector layer</source>
-        <translation>임력 벡터 레이어</translation>
+        <translation>입력 벡터 레이어</translation>
     </message>
     <message>
         <source>Layer CRS</source>
@@ -6027,7 +6026,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Output point shapefile</source>
-        <translation>출력 점 shapefile</translation>
+        <translation>출력 점 shape 파일</translation>
     </message>
     <message>
         <source>Delaunay triangulation</source>
@@ -6055,7 +6054,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Polygon from layer extent</source>
-        <translation>레이어 범위의 폴리곤 만들기</translation>
+        <translation>레이어 범위로 폴리곤 만들기</translation>
     </message>
     <message>
         <source>Input layer</source>
@@ -6063,7 +6062,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Output polygon shapefile</source>
-        <translation>출력 폴리곤 shapefile</translation>
+        <translation>출력 폴리곤 shape 파일</translation>
     </message>
     <message>
         <source>Geoprocessing</source>
@@ -6071,7 +6070,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Unable to delete existing shapefile.</source>
-        <translation>기존의 shapefile을 삭제할 수 없습니다.</translation>
+        <translation>기존의 shape 파일을 삭제할 수 없습니다.</translation>
     </message>
     <message>
         <source>Currently QGIS doesn&apos;t allow simultaneous access from 
@@ -6083,7 +6082,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Unable to delete incomplete shapefile.</source>
-        <translation>불완전한 shapefile을 삭제할 수 없습니다.</translation>
+        <translation>불완전한 shape 파일을 삭제할 수 없습니다.</translation>
     </message>
     <message>
         <source>At least two features must have same attribute value!
@@ -6094,7 +6093,7 @@ Please choose another field...</source>
     <message>
         <source>One or more features in the output layer may have invalid geometry, please check using the check validity tool
 </source>
-        <translation>출력 레이어에서 1개 이상의 객체가 잘못된 지오메트리입니다. 유효성 확인 도구를 이용해 확인하세요.</translation>
+        <translation>출력 레이어에서 1개 이상의 객체가 잘못된 지오메트리입니다. 유효성 확인 도구를 이용해 확인하세요</translation>
     </message>
     <message>
         <source>Created output shapefile:
@@ -6114,7 +6113,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Error writing output shapefile.</source>
-        <translation>출력 shapefile 쓰는 동안 오류 발생.</translation>
+        <translation>출력 shape 파일 쓰는 동안 오류 발생.</translation>
     </message>
     <message>
         <source>Error processing specified tolerance!
@@ -6147,27 +6146,27 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Please specify an input layer</source>
-        <translation>입력 레이어를 지정하십시오.</translation>
+        <translation>입력 레이어를 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify a difference/intersect/union layer</source>
-        <translation>차이/교차/통합 분석을 수행할 레이어를 지정하십시오.</translation>
+        <translation>차이/교차/병합 분석을 수행할 레이어를 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify valid buffer value</source>
-        <translation>올바른 버퍼값을 지정하십시오.</translation>
+        <translation>올바른 버퍼값을 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify dissolve field</source>
-        <translation>융합 필드를 지정하십시오.</translation>
+        <translation>디졸브 필드를 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify output shapefile</source>
-        <translation>출력 shapefile를 지정하십시오.</translation>
+        <translation>출력 shape파일를 지정하십시오</translation>
     </message>
     <message>
         <source>No features selected, please uncheck &apos;Use selected&apos; or make a selection</source>
-        <translation>객체가 선택되지 않았습니다. &apos;선택 이용&apos;의 체크를 해제하거나 선택하십시오.</translation>
+        <translation>객체가 선택되지 않았음, &apos;선택 이용&apos;의 체크를 해제하거나 선택</translation>
     </message>
     <message>
         <source>Buffer(s)</source>
@@ -6219,15 +6218,15 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Union layer</source>
-        <translation>레이어 통합</translation>
+        <translation>레이어 병합</translation>
     </message>
     <message>
         <source>Union</source>
-        <translation>통합</translation>
+        <translation>병합</translation>
     </message>
     <message>
         <source>Unable to delete existing shapefile.</source>
-        <translation>기존의 shapefile을 삭제할 수 없습니다.</translation>
+        <translation>기존의 shape 파일을 삭제할 수 없습니다.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -6248,7 +6247,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation>출력 shapefile 읽기 실패:
+        <translation>출력 shape 파일 읽기 실패:
 %s</translation>
     </message>
     <message>
@@ -6275,7 +6274,7 @@ Would you like to add the new layer anyway?</source>
         <translation>
 일부 출력 지오메트리가 누락되었거나 잘못되었습니다.
 
-그대로 새로운 레이어를 추가시겠습니까?</translation>
+그래도 새 레이어로 추가시겠습니까?</translation>
     </message>
     <message>
         <source>
@@ -6295,7 +6294,7 @@ Input CRS error: Different input coordinate reference systems detected, results 
         <source>
 Input CRS error: One or more input layers missing coordinate reference information, results may not be as expected.</source>
         <translation>
-입력 좌표계 오류: 하나 이상의 입력 레이어에 좌표계가 없습니다. 결과를 예측할 수 없습니다.</translation>
+입력 좌표계 오류: 하나 이상의 입력 레이어에 좌표계가 없어, 결과를 예측할 수 없습니다.</translation>
     </message>
     <message>
         <source>
