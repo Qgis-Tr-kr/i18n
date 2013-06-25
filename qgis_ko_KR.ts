@@ -1360,7 +1360,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="68"/>
         <source>Save to new shapefile</source>
-        <translation>새 쉐입파일로 저장</translation>
+        <translation>새 쉐입 파일로 저장</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="140"/>
@@ -1388,7 +1388,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/plugins/fTools/tools/frmGeometry.ui" line="75"/>
         <location filename="../python/plugins/fTools/tools/frmVisual.ui" line="152"/>
         <source>Output point shapefile</source>
-        <translation>출력 점 shapefile</translation>
+        <translation>출력 점 쉐입 파일</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeoprocessing.ui" line="20"/>
@@ -1435,7 +1435,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="78"/>
         <location filename="../python/plugins/fTools/tools/frmVectorGrid.ui" line="315"/>
         <source>Output shapefile</source>
-        <translation>출력 Shapefile</translation>
+        <translation>출력 쉐입 파일</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeoprocessing.ui" line="262"/>
@@ -1477,7 +1477,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/plugins/fTools/tools/frmSpatialJoin.ui" line="161"/>
         <location filename="../python/plugins/fTools/tools/frmSumLines.ui" line="61"/>
         <source>Output Shapefile</source>
-        <translation>출력 Shapefile</translation>
+        <translation>출력 쉐입 파일</translation>
     </message>
     <message>
         <source>Join Attributes</source>
@@ -1853,7 +1853,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Please specify output shapefile</source>
-        <translation>출력 shapefile을 지정 하십시오</translation>
+        <translation>출력 쉐입 파일을 지정 하십시오</translation>
     </message>
     <message>
         <source>Export to new projection</source>
@@ -1926,7 +1926,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Output Shapefile:</source>
-        <translation type="obsolete">출력 Shapefile:</translation>
+        <translation type="obsolete">출력 쉐입 파일:</translation>
     </message>
     <message>
         <source>Line intersections</source>
@@ -2072,7 +2072,7 @@ p, li { white-space: pre-wrap; }
 %1
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="obsolete">출력 점 shapefile 생성되었음:
+        <translation type="obsolete">출력 점 쉐입 파일 생성되었음:
 %1
 
 새 레이어로 TOC에 추가하시겠습니까?</translation>
@@ -2090,7 +2090,7 @@ Would you like to add the new layer to the TOC?</source>
 %1
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="obsolete">투영된 shapefile 생성되었음:
+        <translation type="obsolete">투영된 쉐입 파일 생성되었음:
 %1
 
 새 레이어로 TOC에 추가하시겠습니까?</translation>
@@ -2152,7 +2152,7 @@ Following field names are longer than 10 characters:
 %1
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="obsolete">출력 shapefile이 작성됨:
+        <translation type="obsolete">출력 쉐입 파일이 작성됨:
 %1
 
 새 레이어로 TOC에 추가하시겠습니까?</translation>
@@ -2216,7 +2216,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Created output shapefile:
 %1</source>
-        <translation type="obsolete">출력 shapefile 생성:
+        <translation type="obsolete">출력 쉐입 파일 생성:
 %1</translation>
     </message>
     <message>
@@ -2256,7 +2256,7 @@ This may cause unexpected results.</source>
     <message>
         <source>Created output shapefile:
 %s</source>
-        <translation>출력 shapefile 생성됨:
+        <translation>출력 쉐입 파일 생성됨:
 %s</translation>
     </message>
     <message>
@@ -2284,7 +2284,7 @@ Following field names are longer than 10 characters:
     <message>
         <source>Can&apos;t delete existing shapefile
 %s</source>
-        <translation>기존 shapefile %s 삭제 불가
+        <translation>기존 쉐입 파일 %s 삭제 불가
 %s</translation>
     </message>
     <message>
@@ -2302,7 +2302,7 @@ Following field names are longer than 10 characters:
     </message>
     <message>
         <source>No input shapefile specified</source>
-        <translation>입력 shapefile이 지정되지 않음</translation>
+        <translation>입력 쉐입 파일이 지정되지 않음</translation>
     </message>
     <message>
         <source>Cannot define projection for PostGIS data...yet!</source>
@@ -2324,7 +2324,7 @@ Following field names are longer than 10 characters:
     <message>
         <source>Created output shapefiles in folder:
 %1</source>
-        <translation type="obsolete">다음 폴더에 출력 shapefile이 생성됨:
+        <translation type="obsolete">다음 폴더에 출력 쉐입 파일이 생성됨:
 %1</translation>
     </message>
     <message>
@@ -2360,7 +2360,7 @@ Following field names are longer than 10 characters:
 %s
 
 Would you like to add the new layer to the TOC?</source>
-        <translation>출력 점 shapefile 생성됨:
+        <translation>출력 점 쉐입 파일 생성됨:
 %s
 
 새 레이어를 TOC에 추가 시키겠습니까?</translation>
@@ -2371,7 +2371,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>There are no shapefiles with the given geometry type. Please select an available geometry type.</source>
-        <translation>선택한 지오메트리 형식의 shapefile이 없습니다. 유효한 지오메트리 형식을 선택해 주십시오.</translation>
+        <translation>선택한 지오메트리 형식의 쉐입 파일이 없습니다. 유효한 지오메트리 형식을 선택해 주십시오.</translation>
     </message>
     <message>
         <source>Can&apos;t delete file %s</source>
@@ -2380,7 +2380,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation>결과 shapefile 읽기 실패:
+        <translation>결과 쉐입 파일 읽기 실패:
 %s</translation>
     </message>
     <message>
@@ -2404,7 +2404,7 @@ Would you like to add the new layer to the TOC?</source>
 %s
 
 Would you like to add the new layer to the TOC?</source>
-        <translation>출력 shapefile이 작성됨:
+        <translation>출력 쉐입 파일이 작성됨:
 %s
 
 새 레이어로 TOC에 추가하시겠습니까?</translation>
@@ -2454,7 +2454,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Created output shapefiles in folder:
 %s</source>
-        <translation>다음 폴더에 결과 shapefile 생성됨:
+        <translation>다음 폴더에 결과 쉐입 파일 생성됨:
 %s</translation>
     </message>
     <message>
@@ -2588,7 +2588,7 @@ were reduced to %2 vertices after simplification</source>
     <message>
         <source>Error loading output shapefile:
 %1</source>
-        <translation type="obsolete">출력 shapefile 불러오는 중 오류:
+        <translation type="obsolete">출력 쉐입 파일 불러오는 중 오류:
 %1</translation>
     </message>
     <message>
@@ -2614,25 +2614,25 @@ Are you sure you want to proceed?</source>
     </message>
     <message>
         <source>Error deleting shapefile</source>
-        <translation>shape 파일 삭제 오류</translation>
+        <translation>쉐입 파일 삭제 오류</translation>
     </message>
     <message>
         <source>Can&apos;t delete existing shapefile
 %1</source>
-        <translation type="obsolete">shape 파일을 삭제할 수 없습니다.
+        <translation type="obsolete">쉐입 파일을 삭제할 수 없습니다.
 %1</translation>
     </message>
     <message>
         <source>Select directory with shapefiles to merge</source>
-        <translation>결합할 shape 파일이 있는 디렉토리를 선택</translation>
+        <translation>결합할 쉐입 파일이 있는 디렉토리를 선택</translation>
     </message>
     <message>
         <source>No shapefiles found</source>
-        <translation>shape 파일 찾을 수 없음</translation>
+        <translation>쉐입 파일 찾을 수 없음</translation>
     </message>
     <message>
         <source>There are no shapefiles in this directory. Please select another one.</source>
-        <translation>이 디렉토리는 shape 파일이 존재하지 않습니다. 다른 디렉토리를 선택하십시오.</translation>
+        <translation>이 디렉토리는 쉐입 파일이 존재하지 않습니다. 다른 디렉토리를 선택하십시오.</translation>
     </message>
     <message>
         <source>Delete error</source>
@@ -2653,7 +2653,7 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="14"/>
         <source>Merge shapefiles</source>
-        <translation>shape 파일 결합</translation>
+        <translation>쉐입 파일 결합</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="20"/>
@@ -2663,7 +2663,7 @@ Are you sure you want to proceed?</source>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="29"/>
         <source>Shapefile type</source>
-        <translation>Shape 파일 타입</translation>
+        <translation>쉐입 파일 타입</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmMergeShapes.ui" line="37"/>
@@ -3126,7 +3126,7 @@ All those who have reported bugs / fixes / suggestions / comments / etc.
     </message>
     <message>
         <source>Shapefiles</source>
-        <translation>Shapefile</translation>
+        <translation>쉐입 파일</translation>
     </message>
     <message>
         <source>Export to file</source>
@@ -3883,7 +3883,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Build a shapefile as a raster tileindex</source>
-        <translation>래스터 타일 인덱스를 shape 파일로 만들기</translation>
+        <translation>래스터 타일 인덱스를 쉐입 파일로 만들기</translation>
     </message>
     <message>
         <source>DEM (Terrain models)</source>
@@ -4827,7 +4827,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>&amp;Output directory for contour lines (shapefile):</source>
-        <translation type="obsolete">등고선 (shapefile) 출력 디렉토리(&amp;O):</translation>
+        <translation type="obsolete">등고선 (쉐입 파일) 출력 디렉토리(&amp;O):</translation>
     </message>
     <message>
         <source>&amp;Attribute name:</source>
@@ -4842,7 +4842,7 @@ when pressing on the tool dialog&apos;s Help button.</source>
     </message>
     <message>
         <source>&amp;Output directory for contour lines (shapefile)</source>
-        <translation>등고선 (shapefile)의 출력 디렉토리(&amp;O)</translation>
+        <translation>등고선 (쉐입 파일)의 출력 디렉토리(&amp;O)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetContour.ui" line="38"/>
@@ -5388,7 +5388,7 @@ suitable for direct use with Imagine,ArcGIS, GDAL.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetPolygonize.ui" line="39"/>
         <source>&amp;Output file for polygons (shapefile)</source>
-        <translation>폴리곤 출력 파일(shapefile)(&amp;O)</translation>
+        <translation>폴리곤 출력 파일(쉐입 파일)(&amp;O)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetPolygonize.ui" line="52"/>
@@ -5402,7 +5402,7 @@ suitable for direct use with Imagine,ArcGIS, GDAL.</source>
     </message>
     <message>
         <source>&amp;Output file for polygons (shapefile):</source>
-        <translation type="obsolete">폴리곤 출력 파일(shapefile)(&amp;O):</translation>
+        <translation type="obsolete">폴리곤 출력 파일(쉐입 파일)(&amp;O):</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetPolygonize.ui" line="59"/>
@@ -5531,7 +5531,7 @@ suitable for direct use with Imagine,ArcGIS, GDAL.</source>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetRasterize.ui" line="28"/>
         <source>&amp;Input file (shapefile)</source>
-        <translation>입력 파일 (shapefile)(&amp;I)</translation>
+        <translation>입력 파일 (쉐입 파일)(&amp;I)</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetRasterize.ui" line="38"/>
@@ -5578,7 +5578,7 @@ suitable for direct use with Imagine,ArcGIS, GDAL.</source>
     </message>
     <message>
         <source>&amp;Input file (shapefile):</source>
-        <translation type="obsolete">입력 파일 (shapefile)(&amp;I):</translation>
+        <translation type="obsolete">입력 파일 (쉐입 파일)(&amp;I):</translation>
     </message>
     <message>
         <source>&amp;Output file for rasterized vectors (raster, must exists):</source>
@@ -5897,7 +5897,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetTileIndex.ui" line="39"/>
         <source>Output shapefile</source>
-        <translation>출력 shape파일</translation>
+        <translation>출력 쉐입 파일</translation>
     </message>
     <message>
         <location filename="../python/plugins/GdalTools/tools/widgetTileIndex.ui" line="49"/>
@@ -5940,7 +5940,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     </message>
     <message>
         <source>Please specify output shapefile</source>
-        <translation>출력 shape 파일를 지정하십시오</translation>
+        <translation>출력 쉐입 파일를 지정하십시오</translation>
     </message>
     <message>
         <source>Please specify valid tolerance value</source>
@@ -5956,7 +5956,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     </message>
     <message>
         <source>Output shapefile</source>
-        <translation>출력 Shape 파일</translation>
+        <translation>출력 쉐입 파일</translation>
     </message>
     <message>
         <source>Multipart to singleparts</source>
@@ -6000,7 +6000,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
 {1}
 
 Would you like to add the new layer to the TOC?</source>
-        <translation>출력 shapefile 생성됨:
+        <translation>출력 쉐입 파일 생성됨:
 {0}
 {1}
 
@@ -6009,7 +6009,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Error loading output shapefile:
 {0}</source>
-        <translation>출력 shapefile 읽기 실패:
+        <translation>출력 쉐입 파일 읽기 실패:
 {0}</translation>
     </message>
     <message>
@@ -6026,7 +6026,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Output point shapefile</source>
-        <translation>출력 점 shape 파일</translation>
+        <translation>출력 점 쉐입 파일</translation>
     </message>
     <message>
         <source>Delaunay triangulation</source>
@@ -6062,7 +6062,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Output polygon shapefile</source>
-        <translation>출력 폴리곤 shape 파일</translation>
+        <translation>출력 폴리곤 쉐입 파일</translation>
     </message>
     <message>
         <source>Geoprocessing</source>
@@ -6070,7 +6070,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Unable to delete existing shapefile.</source>
-        <translation>기존의 shape 파일을 삭제할 수 없습니다.</translation>
+        <translation>기존의 쉐입 파일을 삭제할 수 없습니다.</translation>
     </message>
     <message>
         <source>Currently QGIS doesn&apos;t allow simultaneous access from 
@@ -6082,7 +6082,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Unable to delete incomplete shapefile.</source>
-        <translation>불완전한 shape 파일을 삭제할 수 없습니다.</translation>
+        <translation>불완전한 쉐입 파일을 삭제할 수 없습니다.</translation>
     </message>
     <message>
         <source>At least two features must have same attribute value!
@@ -6101,7 +6101,7 @@ Please choose another field...</source>
 %2
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="obsolete">다음 출력 shapefile이 작성됨:
+        <translation type="obsolete">다음 출력 쉐입 파일이 작성됨:
 %1
 %2
 
@@ -6113,7 +6113,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Error writing output shapefile.</source>
-        <translation>출력 shape 파일 쓰는 동안 오류 발생.</translation>
+        <translation>출력 쉐입 파일 쓰는 동안 오류 발생.</translation>
     </message>
     <message>
         <source>Error processing specified tolerance!
@@ -6126,7 +6126,7 @@ Please choose larger tolerance...</source>
 %1
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="obsolete">다음 출력 shapefile이 작성됨:
+        <translation type="obsolete">다음 출력 쉐입 파일이 작성됨:
 %1
 
 새 레이어로 TOC에 추가하시겠습니까?</translation>
@@ -6134,7 +6134,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Error loading output shapefile:
 %1</source>
-        <translation type="obsolete">출력 shapefile 불러오는 중 오류:
+        <translation type="obsolete">출력 쉐입 파일 불러오는 중 오류:
 %1</translation>
     </message>
 </context>
@@ -6226,7 +6226,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Unable to delete existing shapefile.</source>
-        <translation>기존의 shape 파일을 삭제할 수 없습니다.</translation>
+        <translation>기존의 쉐입 파일을 삭제할 수 없습니다.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -6240,14 +6240,14 @@ Would you like to add the new layer to the TOC?</source>
         <source>Created output shapefile:
 %s
 %s%s</source>
-        <translation>출력 shapefile 생성됨:
+        <translation>출력 쉐입 파일 생성됨:
 %s
 %s%s</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation>출력 shape 파일 읽기 실패:
+        <translation>출력 쉐입 파일 읽기 실패:
 %s</translation>
     </message>
     <message>
@@ -6312,14 +6312,14 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
         <source>Created output shapefile:
 %1
 %2%3</source>
-        <translation type="obsolete">출력 shapefile 생성:
+        <translation type="obsolete">출력 쉐입 파일 생성:
 %1
 %2%3</translation>
     </message>
     <message>
         <source>Error loading output shapefile:
 %1</source>
-        <translation type="obsolete">출력 shapefile 불러오는 중 오류:
+        <translation type="obsolete">출력 쉐입 파일 불러오는 중 오류:
 %1</translation>
     </message>
     <message>
@@ -7608,7 +7608,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1132"/>
         <source>New Shapefile Layer...</source>
-        <translation>새 Shapefile 레이어...</translation>
+        <translation>새 쉐입 파일 레이어...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1135"/>
@@ -9183,7 +9183,6 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Couldn&apos;t load plugin &apos;%s&apos; from [&apos;%s&apos;]</source>
-<<<<<<< HEAD
         <translation>다음에서 플러그인 &apos;%s&apos; 읽지 못함 [&apos;%s&apos;]</translation>
     </message>
     <message>
@@ -9192,34 +9191,15 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>%s due an error when calling its classFactory() method</source>
-        <translation>classFactory()호출 중 %s로 인한 오류</translation>
+        <translation>classFactory() 메서드 호출 중 %s로 인한 오류</translation>
     </message>
     <message>
         <source>%s due an error when calling its initGui() method</source>
-        <translation>initGui()호출 중 %s로 인한 오류</translation>
+        <translation>initGui() 메서드 호출 중 %s로 인한 오류</translation>
     </message>
     <message>
         <source>Error while unloading plugin %s</source>
         <translation>플러그인 %s 제거중 오류</translation>
-=======
-        <translation>[&apos;%s&apos;]에서 플러그인 &apos;%s&apos;을 로드할 수 없음</translation>
-    </message>
-    <message>
-        <source>Couldn&apos;t load plugin %s</source>
-        <translation>%s 플러그인을 로드하지 못함</translation>
-    </message>
-    <message>
-        <source>%s due an error when calling its classFactory() method</source>
-        <translation>%s에서 내부 classFactory() 메서드를 호출하는 중 오류 발생</translation>
-    </message>
-    <message>
-        <source>%s due an error when calling its initGui() method</source>
-        <translation>%s에서 내부 initGui() 메서드를 호출하는 중 오류 발생</translation>
-    </message>
-    <message>
-        <source>Error while unloading plugin %s</source>
-        <translation>%s 플러그인을 언로드하는 중 오류 발생</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <source>Couldn&apos;t load plugin &apos;%1&apos; from [&apos;%2&apos;]</source>
@@ -9254,19 +9234,11 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Compile APIs</source>
-<<<<<<< HEAD
         <translation>API 컴파일</translation>
     </message>
     <message>
         <source>Saving prepared file...</source>
         <translation>준비된 파일 저장중...</translation>
-=======
-        <translation>컴파일  APIs</translation>
-    </message>
-    <message>
-        <source>Saving prepared file...</source>
-        <translation>준비된 파일을 저장하는 중...</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <source>Saved</source>
@@ -9278,11 +9250,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Error preparing file...</source>
-<<<<<<< HEAD
         <translation>파일 준비 오류...</translation>
-=======
-        <translation>파일을 준비하는 중 오류...</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <source>Hide Editor</source>
@@ -9893,7 +9861,7 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
     <message>
         <location filename="../src/plugins/spit/qgsspitplugin.cpp" line="34"/>
         <source>Shapefile to PostgreSQL/PostGIS Import Tool</source>
-        <translation>Shape 파일을 PostgreSQL/PostGIS로 임포트 도구</translation>
+        <translation>쉐입 파일을 PostgreSQL/PostGIS로 임포트 도구</translation>
     </message>
     <message>
         <source>WFS plugin</source>
@@ -11071,7 +11039,7 @@ Error(%2): %3</source>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1071"/>
         <source>ESRI Shapefile</source>
-        <translation>ESRI Shapefile</translation>
+        <translation>ESRI 쉐입 파일</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorfilewriter.cpp" line="1078"/>
@@ -11568,7 +11536,7 @@ You are seeing this message most likely because you have no DISPLAY environment 
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1538"/>
         <source>ESRI Shapefiles</source>
-        <translation>ESRI Shapefiles</translation>
+        <translation>ESRI 쉐입 파일</translation>
     </message>
     <message>
         <source>GMT</source>
@@ -12941,25 +12909,15 @@ SQL: %1</translation>
 
 Errors: %3
 </source>
-<<<<<<< HEAD
         <translation>레이어 %2에 %1할 수 없음
 
-오류: %3</translation>
-=======
-        <translation>레이어 %2에 %1 변경할 수 없음ㅁ
-
-에러: %3;
+오류: %3
 </translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5821"/>
         <source>rollback</source>
-<<<<<<< HEAD
         <translation>롤백</translation>
-=======
-        <translation>복귀</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5821"/>
@@ -12981,11 +12939,7 @@ Errors: %3
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5889"/>
         <source>Rollback</source>
-<<<<<<< HEAD
         <translation>롤백</translation>
-=======
-        <translation>복귀</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5921"/>
@@ -12995,11 +12949,7 @@ Errors: %3
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5937"/>
         <source>Current edits</source>
-<<<<<<< HEAD
         <translation>현재 편집내용</translation>
-=======
-        <translation>현재 편집</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="5938"/>
@@ -13014,20 +12964,12 @@ Errors: %3
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6214"/>
         <source>Plugin layer</source>
-<<<<<<< HEAD
         <translation>플러그인 레이어</translation>
-=======
-        <translation type="unfinished">플러그인 레이어</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6226"/>
         <source>Memory layer</source>
-<<<<<<< HEAD
         <translation>메모리 레이어</translation>
-=======
-        <translation type="unfinished">메모리 레이어</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6246"/>
@@ -13038,20 +12980,12 @@ Errors: %3
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6247"/>
         <source>%1 (duplication resulted in invalid layer)</source>
-<<<<<<< HEAD
         <translation>%1 (잘못된 레이어에서의 중복된 결과)</translation>
-=======
-        <translation>%1 (잘못된 레이어의 중복된 결과)</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6257"/>
         <source>%1 (%2type unsupported)</source>
-<<<<<<< HEAD
         <translation>%1 (%2 형식 지원안됨)</translation>
-=======
-        <translation>%1 (%2지원되지 않는 타입)</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6436"/>
@@ -13120,11 +13054,7 @@ Errors: %3
         <location filename="../src/app/qgisapp.cpp" line="6737"/>
         <source>en</source>
         <comment>documentation language</comment>
-<<<<<<< HEAD
         <translation>ko-KR</translation>
-=======
-        <translation>en</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6755"/>
@@ -13139,11 +13069,7 @@ Errors: %3
     <message>
         <location filename="../src/app/qgisapp.cpp" line="539"/>
         <source>Browser</source>
-<<<<<<< HEAD
-        <translation>탐색rl</translation>
-=======
         <translation>탐색기</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="544"/>
@@ -13153,11 +13079,7 @@ Errors: %3
     <message>
         <location filename="../src/app/qgisapp.cpp" line="1062"/>
         <source>Current Edits</source>
-<<<<<<< HEAD
         <translation>현재 편집내용</translation>
-=======
-        <translation>현재 편집</translation>
->>>>>>> 689b701d22c7075fbed6de95722e163c8eee23b5
     </message>
     <message>
         <source>%1 is an invalid layer and cannot be loaded.</source>
@@ -13430,16 +13352,16 @@ Please contact the developers.
     </message>
     <message>
         <source>New Shapefile Layer...</source>
-        <translation type="obsolete">새 Shape 파일 레이어...</translation>
+        <translation type="obsolete">새 쉐입 파일 레이어...</translation>
     </message>
     <message>
         <source>Ctrl+Shift+N</source>
-        <comment>Create a New Shapefile layer</comment>
+        <comment>Ctrl+Shift+N</comment>
         <translation type="obsolete">Ctrl+Shift+N</translation>
     </message>
     <message>
         <source>Create a New Shapefile layer</source>
-        <translation type="obsolete">새로운 Shape 파일 레이어를 만듦</translation>
+        <translation type="obsolete">새로운 쉐입 파일 레이어를 만듦</translation>
     </message>
     <message>
         <source>New SpatiaLite Layer...</source>
@@ -18458,7 +18380,7 @@ Database:%2</source>
     <message>
         <location filename="../src/browser/qgsbrowserbase.ui" line="193"/>
         <source>New Shapefile</source>
-        <translation>새 Shape 파일</translation>
+        <translation>새 쉐입 파일</translation>
     </message>
     <message>
         <location filename="../src/browser/qgsbrowserbase.ui" line="196"/>
@@ -39176,7 +39098,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/gui/qgsnewvectorlayerdialog.cpp" line="52"/>
         <source>ESRI Shapefile</source>
-        <translation>ESRI Shapefile</translation>
+        <translation>ESRI 쉐입 파일</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsnewvectorlayerdialog.cpp" line="241"/>
@@ -53895,14 +53817,14 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Shapefiles (*.shp);;All files (*)</source>
-        <translation type="obsolete">Shape 파일 (*.shp);;모든 파일 (*)</translation>
+        <translation type="obsolete">쉐입 파일 (*.shp);;모든 파일 (*)</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="262"/>
         <source>The following Shapefile(s) could not be loaded:
 
 </source>
-        <translation>다음 Shapefile를 로드할 수 없음:
+        <translation>다음 쉐입 파일를 로드할 수 없음:
 	  
 </translation>
     </message>
@@ -53914,7 +53836,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="271"/>
         <source>REASON: One or both of the Shapefile files (*.dbf, *.shx) missing</source>
-        <translation>원인: 하나 혹은 여러 Shapefile (*.dbf, *.shx)을 찾을 수 없습니다.</translation>
+        <translation>원인: 하나 혹은 여러 쉐입 파일 (*.dbf, *.shx)을 찾을 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="348"/>
@@ -53952,7 +53874,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="356"/>
         <source>Shapefile List:</source>
-        <translation>Shapefile 목록:</translation>
+        <translation>쉐입 파일 목록:</translation>
     </message>
     <message>
         <source>[Add...] - open a File dialog and browse to the desired file(s) to import</source>
@@ -53971,7 +53893,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="361"/>
         <source>[SRID] - Reference ID for the shapefiles to be imported</source>
-        <translation>[SRID] - 가져올 Shapefile의 참조 ID</translation>
+        <translation>[SRID] - 가져올 쉐입 파일의 참조 ID</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="362"/>
@@ -53991,7 +53913,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="367"/>
         <source>[Import] - import the current shapefiles in the list</source>
-        <translation>[가져오기] - 리스트에서 현재 Shapefile 가져오기</translation>
+        <translation>[가져오기] - 리스트에서 현재 쉐입 파일 가져오기</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="368"/>
@@ -54025,7 +53947,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/plugins/spit/qgsspit.cpp" line="832"/>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="837"/>
         <source>Import Shapefiles</source>
-        <translation>Shapefile 가져오기</translation>
+        <translation>쉐입 파일 가져오기</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="387"/>
@@ -54041,7 +53963,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="518"/>
         <source>You need to add shapefiles to the list first</source>
-        <translation>먼저 Shapefile 목록에 추가하십시오.</translation>
+        <translation>먼저 쉐입 파일 목록에 추가하십시오.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="523"/>
@@ -54066,7 +53988,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="677"/>
         <source>Import Shapefiles - Relation Exists</source>
-        <translation>Shapefile 가져오기 - 관계가 존재합니다.</translation>
+        <translation>쉐입 파일 가져오기 - 관계가 존재합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="49"/>
@@ -54096,7 +54018,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="166"/>
         <source>Add Shapefiles</source>
-        <translation>Shapefile 추가</translation>
+        <translation>쉐입 파일 추가</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="473"/>
@@ -54111,7 +54033,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="833"/>
         <source>%1 of %2 shapefiles could not be imported.</source>
-        <translation>%2 중 %1 Shapefile을 가져올 수 없었습니다.</translation>
+        <translation>%2 중 %1 쉐입 파일을 가져올 수 없었습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="402"/>
@@ -54213,12 +54135,12 @@ To avoid data loss change the &quot;DB Relation Name&quot;
 for this Shapefile in the main dialog file list.
 
 Do you want to overwrite the [%2] relation?</source>
-        <translation>Shapefile:
+        <translation>쉐입 파일:
 %1
 는 관계 [%2] 를 사용하는데, 이것이 
 이미 포함된 데이터에 존재하고 사용중입니다.
 데이터를 잃지 않기 위하여 기본 대화상자 파일목록에서
-이 Shapefile의 &quot;DB 관계 이름&quot;을 변경 해야합니다.
+이 쉐입 파일의 &quot;DB 관계 이름&quot;을 변경 해야합니다.
 
 [%2] 관계를 덮어 쓰시겠습니까?</translation>
     </message>
@@ -54250,7 +54172,7 @@ Do you want to overwrite the [%2] relation?</source>
         <location filename="../src/plugins/spit/qgsspitbase.ui" line="256"/>
         <location filename="../src/plugins/spit/qgsspitbase.ui" line="259"/>
         <source>Add a shapefile to the list of files to be imported</source>
-        <translation>가져올 파일 목록에 Shape 파일을 추가</translation>
+        <translation>가져올 파일 목록에 쉐입 파일을 추가</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspitbase.ui" line="45"/>
@@ -54286,13 +54208,13 @@ Do you want to overwrite the [%2] relation?</source>
         <location filename="../src/plugins/spit/qgsspitbase.ui" line="269"/>
         <location filename="../src/plugins/spit/qgsspitbase.ui" line="272"/>
         <source>Remove the selected shapefile from the import list</source>
-        <translation>가져오기 목록에서 선택한 Shape 파일을 제거</translation>
+        <translation>가져오기 목록에서 선택한 쉐입 파일을 제거</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspitbase.ui" line="282"/>
         <location filename="../src/plugins/spit/qgsspitbase.ui" line="285"/>
         <source>Remove all the shapefiles from the import list</source>
-        <translation>가져올 목록의 Shape 파일을 모두 제거</translation>
+        <translation>가져올 목록의 쉐입 파일을 모두 제거</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspitbase.ui" line="177"/>
@@ -54342,12 +54264,12 @@ Do you want to overwrite the [%2] relation?</source>
     <message>
         <location filename="../src/plugins/spit/qgsspitbase.ui" line="20"/>
         <source>SPIT - Shapefile to PostGIS Import Tool</source>
-        <translation>SPIT - Shapefile to PostGIS Import Tool</translation>
+        <translation>SPIT - 쉐입 파일을 PostGIS로 가져오는 툴</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspitbase.ui" line="120"/>
         <source>Import options and shapefile list</source>
-        <translation>가져오기 옵션과 Shapefile 목록</translation>
+        <translation>가져오기 옵션과 쉐입 파일 목록</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspitbase.ui" line="63"/>
@@ -54361,12 +54283,12 @@ Do you want to overwrite the [%2] relation?</source>
     <message>
         <location filename="../src/plugins/spit/qgsspitplugin.cpp" line="66"/>
         <source>&amp;Import Shapefiles to PostgreSQL</source>
-        <translation>Shapefile를 PostgreSQL로 가져오기(&amp;I)</translation>
+        <translation>쉐입 파일를 PostgreSQL로 가져오기(&amp;I)</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspitplugin.cpp" line="68"/>
         <source>Import shapefiles into a PostGIS-enabled PostgreSQL database. The schema and field names can be customized on import</source>
-        <translation>Shapefile을 PostGIS 사용 가능한 PostgreSQL 데이터베이스로 가져옵니다. 스키마와 필드 이름은 가져올 때 변경 가능합니다.</translation>
+        <translation>쉐입 파일을 PostGIS 사용 가능한 PostgreSQL 데이터베이스로 가져옵니다. 스키마와 필드 이름은 가져올 때 변경 가능합니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspitplugin.cpp" line="74"/>
@@ -55646,7 +55568,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/plugins/interpolation/qgstininterpolatordialogbase.ui" line="46"/>
         <source>Export triangulation to shapefile after interpolation</source>
-        <translation>보간 후 삼각망을 shapefile로 내보내기</translation>
+        <translation>보간 후 삼각망을 쉐입 파일로 내보내기</translation>
     </message>
     <message>
         <location filename="../src/plugins/interpolation/qgstininterpolatordialogbase.ui" line="59"/>
@@ -61701,7 +61623,7 @@ about SEXTANTE</source>
     </message>
     <message>
         <source>Please specify output shapefile</source>
-        <translation>결과 셰이프파일을 지정하십시오</translation>
+        <translation>결과 쉐입 파일을 지정하십시오</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -61717,7 +61639,7 @@ about SEXTANTE</source>
 %s
 
 Would you like to add the new layer to the TOC?</source>
-        <translation>만들어진 결과 셰이프파일:
+        <translation>만들어진 결과 쉐입 파일:
 %s
 %s
 
@@ -61726,7 +61648,7 @@ TOC에 새로운 레이어 추가를 원하십니까?</translation>
     <message>
         <source>Error loading output shapefile:
 %s</source>
-        <translation>결과 셰이프파일 불러오기 오류:
+        <translation>결과 쉐입 파일 불러오기 오류:
 %s</translation>
     </message>
     <message>
@@ -61735,7 +61657,7 @@ TOC에 새로운 레이어 추가를 원하십니까?</translation>
 %2
 
 Would you like to add the new layer to the TOC?</source>
-        <translation type="obsolete">다음 출력 shapefile이 작성됨:
+        <translation type="obsolete">다음 출력 쉐입 파일이 작성됨:
 %1
 %2
 
@@ -61744,7 +61666,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <source>Error loading output shapefile:
 %1</source>
-        <translation type="obsolete">출력 shapefile 불러오는 중 오류:
+        <translation type="obsolete">출력 쉐입 파일 불러오는 중 오류:
 %1</translation>
     </message>
     <message>
@@ -62892,7 +62814,7 @@ Run topology check again.</source>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="11"/>
         <source>&lt;h3&gt;Database connection&lt;/h3&gt;
 </source>
-        <translation>데이터베이스 연결</translation>
+        <translation>&lt;h3&gt;데이터베이스 연결&lt;/h3&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="13"/>
@@ -64631,7 +64553,7 @@ Click on one of the icons along the top of the composer window to select what ty
     <message>
         <location filename="../src/plugins/dxf2shp_converter/dxf2shpconverter.cpp" line="76"/>
         <source>Converts DXF files in Shapefile format</source>
-        <translation>DXF 파일을 Shapefile로 변환</translation>
+        <translation>DXF 파일을 쉐입 파일로 변환</translation>
     </message>
     <message>
         <location filename="../src/plugins/dxf2shp_converter/dxf2shpconverter.cpp" line="83"/>
@@ -64728,8 +64650,8 @@ For support send a mail to scala@itc.cnr.it
 </source>
         <translation>필드 설명: 
 * 입력 DXF 파일: 변환할 DXF 파일의 경로입니다. 
-* 출력 Shp 파일: 만들 shape 파일의 이름입니다. 
-* 출력 Shp 파일 형식: 출력 shape 파일 유형을 지정하십시오. 
+* 출력 Shp 파일: 만들 쉐입 파일의 이름입니다. 
+* 출력 Shp 파일 형식: 출력 쉐입 파일 유형을 지정하십시오. 
 * 내보내기 텍스트 확인란: 체크되어 있으면 추가적인 shp 점 레이어가 생성됩니다. 해당 레이어의 dbf는 dxf 파일에서 찾은 &quot;TEXT&quot; 필드와 문자열로 구성됩니다. 
 
 --- 
@@ -64762,7 +64684,7 @@ For support send a mail to scala@itc.cnr.it
     </message>
     <message>
         <source>Shapefile (*.shp)</source>
-        <translation type="obsolete">Shapefile (*.shp)</translation>
+        <translation type="obsolete">쉐입 파일 (*.shp)</translation>
     </message>
 </context>
 <context>
@@ -65714,7 +65636,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>Merge shapefiles to one</source>
-        <translation>여러 shape 파일을 하나로 결합</translation>
+        <translation>여러 쉐입 파일을 하나로 결합</translation>
     </message>
     <message>
         <source>fTools Information</source>
@@ -67840,7 +67762,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="29"/>
         <source>Break (topologically clean) polygons (imported from non topological format, like ShapeFile). Boundaries are broken on each point shared between 2 and more polygons where angles of segments are different</source>
-        <translation>(위상적으로 완벽한) 폴리곤(Shapefile 같은 위상 구조가없는 형식에서 가져온 것)을 분리합니다. 경계는 2 개 이상의 폴리곤에 공유되는 세그먼트의 앵글이 다른 점에서 분할됩니다</translation>
+        <translation>(위상적으로 완벽한) 폴리곤(쉐입 파일 같은 위상 구조가없는 형식에서 가져온 것)을 분리합니다. 경계는 2 개 이상의 폴리곤에 공유되는 세그먼트의 앵글이 다른 점에서 분할됩니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="30"/>
@@ -68772,7 +68694,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="197"/>
         <source>Export vector to Shapefile</source>
-        <translation>벡터를 Shapefile로 내보내기</translation>
+        <translation>벡터를 쉐입 파일로 내보내기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="198"/>
@@ -69331,7 +69253,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="308"/>
         <source>Output Shapefile</source>
-        <translation>Shapefile 출력</translation>
+        <translation>쉐입 파일 출력</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="309"/>
