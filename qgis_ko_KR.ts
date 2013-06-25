@@ -405,11 +405,11 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>&lt;warning&gt; There&apos;s a significant difference between estimated and real row count. Consider running &lt;a href=&quot;action:vacuumanalyze/run&quot;&gt;VACUUM ANALYZE&lt;/a&gt;.</source>
-        <translation>&lt;경고&gt; 추정치와 실제 행 수 사이의 차이가 꽤 큽니다. &lt;a href=&quot;action:vacuumanalyze/run&quot;&gt;VACUUM ANALYZE&lt;/a&gt; 수행을 권장합니다.</translation>
+        <translation>&lt;경고&gt; 추정치와 실제 행 수 사이의 차이가 꽤 큽니다. &lt;a href=&quot;action:vacuumanalyze/run&quot;&gt;VACUUM ANALYZE(빈공간 분석)&lt;/a&gt; 수행을 권장합니다.</translation>
     </message>
     <message>
         <source>&lt;warning&gt; No primary key defined for this table!</source>
-        <translation>&lt;경고&gt; 이 테이블에 프로아머리 키 없음!</translation>
+        <translation>&lt;경고&gt; 이 테이블에 기본 키 없음!</translation>
     </message>
     <message>
         <source>Scripts:</source>
@@ -9104,7 +9104,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Run &amp;Vacuum Analyze</source>
-        <translation>진공분석 실행((&amp;V)</translation>
+        <translation>빈공간 분석 실행((&amp;V)</translation>
     </message>
     <message>
         <source>Sorry</source>
@@ -9112,7 +9112,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Select a TABLE for vacuum analyze.</source>
-        <translation>진공 분석된 테이블을 선택합니다.</translation>
+        <translation>빈공간 분석할 테이블을 선택합니다.</translation>
     </message>
 </context>
 <context>
