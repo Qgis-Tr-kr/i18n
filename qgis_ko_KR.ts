@@ -39784,130 +39784,130 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="14"/>
         <source>Add Layer(s) from a Server</source>
-        <translation type="unfinished">서버에서 레이어를 추가</translation>
+        <translation>서버에서 레이어를 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="43"/>
         <source>Ready</source>
-        <translation type="unfinished">준비</translation>
+        <translation>준비</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="60"/>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="461"/>
         <source>Layers</source>
-        <translation type="unfinished">레이어</translation>
+        <translation>레이어</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="74"/>
         <source>C&amp;onnect</source>
-        <translation type="unfinished">연결(&amp;C)</translation>
+        <translation>연결(&amp;C)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="81"/>
         <source>&amp;New</source>
-        <translation type="unfinished">새로 만들기(&amp;N)</translation>
+        <translation>새로 만들기(&amp;N)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="91"/>
         <source>Edit</source>
-        <translation type="unfinished">편집</translation>
+        <translation>편집</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="101"/>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="121"/>
         <source>Load connections from file</source>
-        <translation type="unfinished">연결 정보를 파일에서 로드</translation>
+        <translation>연결 정보를 파일에서 로드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="124"/>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>로드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="131"/>
         <source>Save connections to file</source>
-        <translation type="unfinished">연결 정보를 파일에 저장</translation>
+        <translation>연결 정보를 파일에 저장</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="134"/>
         <source>Save</source>
-        <translation type="unfinished">저장</translation>
+        <translation>저장</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="141"/>
         <source>Adds a few example WMS servers</source>
-        <translation type="unfinished">WMS 서버 샘플 추가</translation>
+        <translation>WMS 서버 샘플 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="147"/>
         <source>Add default servers</source>
-        <translation type="unfinished">기본 서버 추가</translation>
+        <translation>기본 서버 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="169"/>
         <source>ID</source>
-        <translation type="unfinished">ID</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="174"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="179"/>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="525"/>
         <source>Title</source>
-        <translation type="unfinished">제목</translation>
+        <translation>제목</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="184"/>
         <source>Abstract</source>
-        <translation type="unfinished">요약</translation>
+        <translation>요약</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="198"/>
         <source>Time</source>
-        <translation type="unfinished">시간</translation>
+        <translation>시간</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="227"/>
         <source>Coordinate Reference System:</source>
-        <translation type="unfinished"></translation>
+        <translation>좌표계:</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="240"/>
         <source>Selected Coordinate Reference System</source>
-        <translation type="unfinished"></translation>
+        <translation>선택 좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="269"/>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="476"/>
         <source>Format</source>
-        <translation type="unfinished"></translation>
+        <translation>형식</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="289"/>
         <source>Options</source>
-        <translation type="unfinished">옵션</translation>
+        <translation>옵션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="295"/>
         <source>Layer name</source>
-        <translation type="unfinished">레이어 이름</translation>
+        <translation>레이어 이름</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="311"/>
         <source>Tile size</source>
-        <translation type="unfinished">타일 크기</translation>
+        <translation>타일 크기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="324"/>
         <source>Feature limit for GetFeatureInfo</source>
-        <translation type="unfinished">GetFeatureInfo를 위한 객체 한계</translation>
+        <translation>GetFeatureInfo를 위한 객체 한계</translation>
     </message>
     <message>
         <source>Coordinate Reference System</source>
@@ -39916,12 +39916,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="253"/>
         <source>Change ...</source>
-        <translation type="unfinished">변경...</translation>
+        <translation>변경...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="346"/>
         <source>Cache</source>
-        <translation type="unfinished">캐시</translation>
+        <translation>캐시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="359"/>
@@ -39935,87 +39935,96 @@ Prefer network: default value; load from the network if the cached entry is olde
 
 Always network: always load from network and do not check if the cache has a valid entry (similar to the &quot;Reload&quot; feature in browsers)
 </source>
-        <translation type="unfinished"></translation>
+        <translation>캐쉬 선호
+
+항상 캐쉬: 만료되었어도, 캐쉬로부터 로드
+
+캐쉬 선호: 가능하면 캐쉬로부터 로드, 그렇지 않으면 네트워크에서 로드. 이 경우에는 (만료되지는 않았지만) 오래된 항목들을 캐쉬로부터 불러들일 수 있음을 명심하세요
+
+네트워크 선호: 기본값; 캐쉬 엔트리가 네트워크 엔트리보다 오래된 경우에 네트워크로부터 로드
+
+항상 네트워크: 항상 네트워크로부터 로드하고 캐쉬가 유효한 엔트리를 가지고 있다면(브라우저의 다시 로드 기능과 유사) 체크하지 않음
+</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="379"/>
         <source>Layer Order</source>
-        <translation type="unfinished">레이어 순서</translation>
+        <translation>레이어 순서</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="385"/>
         <source>Move selected layer UP</source>
-        <translation type="unfinished">선택된 레이어를 위로</translation>
+        <translation>선택된 레이어를 위로</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="388"/>
         <source>Up</source>
-        <translation type="unfinished">위로</translation>
+        <translation>위로</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="395"/>
         <source>Move selected layer DOWN</source>
-        <translation type="unfinished">선택된 레이어를 아래로</translation>
+        <translation>선택된 레이어를 아래로</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="398"/>
         <source>Down</source>
-        <translation type="unfinished">아래로</translation>
+        <translation>아래로</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="422"/>
         <source>Layer</source>
-        <translation type="unfinished">레이어</translation>
+        <translation>레이어</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="427"/>
         <source>Style</source>
-        <translation type="unfinished">스타일</translation>
+        <translation>스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="436"/>
         <source>Tilesets</source>
-        <translation type="unfinished">타일셋</translation>
+        <translation>타일셋</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="466"/>
         <source>Styles</source>
-        <translation type="unfinished">스타일</translation>
+        <translation>스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="471"/>
         <source>Size</source>
-        <translation type="unfinished">크기</translation>
+        <translation>크기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="481"/>
         <source>CRS</source>
-        <translation type="unfinished">좌표계</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="490"/>
         <source>Server Search</source>
-        <translation type="unfinished">서버 검색</translation>
+        <translation>서버 검색</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="499"/>
         <source>Search</source>
-        <translation type="unfinished">검색</translation>
+        <translation>검색</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="530"/>
         <source>Description</source>
-        <translation type="unfinished">설명</translation>
+        <translation>설명</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="535"/>
         <source>URL</source>
-        <translation type="unfinished">URL</translation>
+        <translation>URL</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsowssourceselectbase.ui" line="543"/>
         <source>Add selected row to WMS list</source>
-        <translation type="unfinished">선택한 행을 WMS 목록에 추가</translation>
+        <translation>선택한 행을 WMS 목록에 추가</translation>
     </message>
 </context>
 <context>
@@ -40023,7 +40032,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/core/qgsofflineediting.cpp" line="79"/>
         <source>Could not open the spatialite database</source>
-        <translation>spatialite 데이터베이스를 열지 못했습니다.</translation>
+        <translation>spatialite 데이터베이스를 열지 못했음</translation>
     </message>
     <message>
         <source>Could not copy the template database to new location</source>
@@ -40033,28 +40042,30 @@ Always network: always load from network and do not check if the cache has a val
         <location filename="../src/core/qgsofflineediting.cpp" line="285"/>
         <source>Unable to initialize SpatialMetadata:
 </source>
-        <translation>공간 메타데이터를 초기화할 수 없습니다.</translation>
+        <translation>공간 메타데이터를 초기화할 수 없음:
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsofflineediting.cpp" line="320"/>
         <source>Could not create a new database
 </source>
-        <translation>새로운 데이터베이스를 만들 수 없습니다.</translation>
+        <translation>새로운 데이터베이스를 만들 수 없음
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsofflineediting.cpp" line="330"/>
         <source>Unable to activate FOREIGN_KEY constraints</source>
-        <translation>FOREIGN_KEY 제약 조건을 사용할 수 없습니다.</translation>
+        <translation>FOREIGN_KEY 제약 조건을 사용할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/core/qgsofflineediting.cpp" line="420"/>
         <source>Unknown data type %1</source>
-        <translation>알 수 없는 데이터 형식 %1입니다.</translation>
+        <translation>알 수 없는 데이터 형식 %1</translation>
     </message>
     <message>
         <location filename="../src/core/qgsofflineediting.cpp" line="451"/>
         <source>QGIS wkbType %1 not supported</source>
-        <translation>QGIS는 wkb 유형 %1을 지원하지 않습니다.</translation>
+        <translation>QGIS는 wkb 유형 %1을 지원하지 않음</translation>
     </message>
     <message>
         <source>%v / %m features copied</source>
@@ -40092,7 +40103,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/core/qgsofflineediting.cpp" line="800"/>
         <source>Could not open the spatialite logging database</source>
-        <translation>spatialite 로깅 데이터베이스를 열 수 없습니다.</translation>
+        <translation>spatialite 로깅 데이터베이스를 열 수 없음</translation>
     </message>
 </context>
 <context>
