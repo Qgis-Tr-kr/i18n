@@ -39659,12 +39659,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/core/qgsowsconnection.cpp" line="71"/>
         <source>WMS Password for %1</source>
-        <translation type="unfinished">%1의 WMS 암호</translation>
+        <translation>%1의 WMS 암호</translation>
     </message>
     <message>
         <location filename="../src/core/qgsowsconnection.cpp" line="71"/>
         <source>Password</source>
-        <translation type="unfinished">비밀번호</translation>
+        <translation>비밀번호</translation>
     </message>
 </context>
 <context>
@@ -39672,12 +39672,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/providers/ows/qgsowsdataitems.cpp" line="113"/>
         <source>Edit...</source>
-        <translation type="unfinished">편집...</translation>
+        <translation>편집...</translation>
     </message>
     <message>
         <location filename="../src/providers/ows/qgsowsdataitems.cpp" line="117"/>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
 </context>
 <context>
@@ -39685,101 +39685,102 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="72"/>
         <source>&amp;Add</source>
-        <translation type="unfinished">추가(&amp;A)</translation>
+        <translation>추가(&amp;A)</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="73"/>
         <source>Add selected layers to map</source>
-        <translation type="unfinished">선택된 레이어를 지도에 추가</translation>
+        <translation>선택된 레이어를 지도에 추가</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="82"/>
         <source>Always cache</source>
-        <translation type="unfinished"></translation>
+        <translation>항상 캐쉬</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="83"/>
         <source>Prefer cache</source>
-        <translation type="unfinished"></translation>
+        <translation>캐쉬 선호</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="84"/>
         <source>Prefer network</source>
-        <translation type="unfinished"></translation>
+        <translation>네트워크 선호</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="85"/>
         <source>Always network</source>
-        <translation type="unfinished"></translation>
+        <translation>항상 네트워크</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="284"/>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말로 %1 연결과 모든 연결된 설정을 제거하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="286"/>
         <source>Confirm Delete</source>
-        <translation type="unfinished">삭제 확인</translation>
+        <translation>삭제 확인</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="304"/>
         <source>Load connections</source>
-        <translation type="unfinished"></translation>
+        <translation>연결 정보 로드하기</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="305"/>
         <source>XML files (*.xml *XML)</source>
-        <translation type="unfinished"></translation>
+        <translation>XML 파일 (*.xml * XML)</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/qgsowssourceselect.cpp" line="434"/>
         <source>Coordinate Reference System (%n available)</source>
         <comment>crs count</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>좌표계 (%n 사용가능)</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="471"/>
         <source>Coordinate Reference System</source>
-        <translation type="unfinished">좌표계</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="570"/>
         <source>Could not understand the response:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>응답을 이해할 수 없음:;
+%1</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="621"/>
         <source>WMS proxies</source>
-        <translation type="unfinished">WMS 프록시</translation>
+        <translation>WMS 프록시</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="621"/>
         <source>Several WMS servers have been added to the server list. Note that if you access the internet via a web proxy, you will need to set the proxy settings in the QGIS options dialog.</source>
-        <translation type="unfinished">서버 목록에 WMS 서버가 추가되었습니다. Web 프록시를 통해 인터넷에 연결 하는 경우에는 QGIS 옵션 대화상자에서 프록시 설정을 해야하는 점에 주의하십시오.</translation>
+        <translation>서버 목록에 WMS 서버가 추가되었습니다. Web 프록시를 통해 인터넷에 연결 하는 경우에는 QGIS 옵션 대화상자에서 프록시 설정을 해야하는 점에 주의하십시오.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="702"/>
         <source>parse error at row %1, column %2: %3</source>
-        <translation type="unfinished">구문 분석 오류 줄 %1, 열 %2: %3</translation>
+        <translation>구문 분석 오류 줄 %1, 열 %2: %3</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="707"/>
         <source>network error: %1</source>
-        <translation type="unfinished">네트워크 오류: %1</translation>
+        <translation>네트워크 오류: %1</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="730"/>
         <source>The %1 connection already exists. Do you want to overwrite it?</source>
-        <translation type="unfinished">%1 연결이 이미 존재합니다. 덮어 쓰시겠습니까?</translation>
+        <translation>%1 연결이 이미 존재합니다. 덮어 쓰시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsowssourceselect.cpp" line="731"/>
         <source>Confirm Overwrite</source>
-        <translation type="unfinished">덮어쓰기 확인</translation>
+        <translation>덮어쓰기 확인</translation>
     </message>
 </context>
 <context>
