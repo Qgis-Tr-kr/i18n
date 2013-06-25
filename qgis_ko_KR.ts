@@ -34317,8 +34317,7 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="210"/>
         <source>Bold text
 (data defined only, overrides Style)</source>
-        <translation>굵은 텍스트
-(정의된 데이터만, 스타일 재정의)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="214"/>
@@ -34329,8 +34328,7 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="245"/>
         <source>Italic text
 (data defined only, overrides Style)</source>
-        <translation>이탤릭 텍스트
-(정의된 데이터만, 스타일 재정의)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelpropertydialogbase.ui" line="249"/>
@@ -34420,12 +34418,12 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="796"/>
         <source>[&lt;b&gt;family&lt;/b&gt;|&lt;b&gt;family[foundry]&lt;/b&gt;],&lt;br&gt;e.g. Helvetica or Helvetica [Cronyx]</source>
-        <translation>[&lt;b&gt;글꼴&lt;/b&gt;|&lt;b&gt;글꼴[제작]&lt;/b&gt;],&lt;br&gt;e.g. Helvetica 또는 Helvetica [Cronyx]</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="801"/>
         <source>[&lt;b&gt;font style name&lt;/b&gt;|&lt;b&gt;Ignore&lt;/b&gt;],&lt;br&gt;e.g. Bold Condensed or Light Italic</source>
-        <translation>[&lt;b&gt;글꼴 스타일 이름&lt;/b&gt;|&lt;b&gt;무시&lt;/b&gt;],&lt;br&gt;예.아주 굵게 또는 약간의 이탤릭</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="845"/>
@@ -34455,12 +34453,12 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="986"/>
         <source>In edit mode, layer&apos;s relevant labeling map tool is:&lt;br&gt;&amp;nbsp;&amp;nbsp;Defined attribute field -&amp;gt; &lt;i&gt;enabled&lt;/i&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;Defined expression -&amp;gt; &lt;i&gt;disabled&lt;/i&gt;</source>
-        <translation>편집모드에서, 레이어의 해당 라벨 맵 도구는 : &lt;br&gt;&amp;nbsp;&amp;nbsp;정의된 속성 필드 -&amp;gt; &lt;i&gt;활성화&lt;/i&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;정의된 표현식 -&amp;gt; &lt;i&gt;비활성화&lt;/i&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1009"/>
         <source>Value &amp;lt; 0 represents a scale closer than 1:1, e.g. -10 = 10:1&lt;br&gt;Value of 0 disables the specific limit.</source>
-        <translation>Value &amp;lt; 0 은 1:1 에 가까운 축척을 나타냅니다. 예) -10 = 10:1 &lt;br&gt;0값은 특정 제한을 비활성화합니다.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1025"/>
@@ -34867,7 +34865,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4211"/>
         <source>Quadrant</source>
-        <translation>위치</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4448"/>
@@ -34914,7 +34912,7 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5034"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5063"/>
         <source>Value &amp;lt; 0 represents a scale closer than 1:1, e.g. -10 = 10:1.&lt;br&gt;Value of 0 disables the specific limit.</source>
-        <translation>Value &amp;lt; 0 은 1:1 에 가까운 축척을 나타냅니다. 예) -10 = 10:1 &lt;br&gt;0값은 특정 제한을 비활성화합니다.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5105"/>
@@ -34971,7 +34969,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4980"/>
         <source>Scale-based visibility</source>
-        <translation>축척에 따른 보이기 설정</translation>
+        <translation>스케일에 따른 가시 설정</translation>
     </message>
     <message>
         <source>Enabled</source>
@@ -35000,7 +34998,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5535"/>
         <source>Suppress labeling of features smaller than</source>
-        <translation>다음 값보다 작은 경우 객체 라벨링 안함</translation>
+        <translation>객체가 더 작은 경우 라벨링 안하기</translation>
     </message>
     <message>
         <source>features don&apos;t act as obstacles for labels</source>
@@ -35065,7 +35063,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="403"/>
         <source>Sample background color</source>
-        <translation>샘플 배경색</translation>
+        <translation type="unfinished">샘플 배경색</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="490"/>
@@ -35083,7 +35081,7 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelingguibase.ui" line="538"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="541"/>
         <source>Shadow</source>
-        <translation>그림자</translation>
+        <translation type="unfinished">그림자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="562"/>
@@ -35095,7 +35093,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="681"/>
         <source>letter</source>
-        <translation>문자</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="987"/>
@@ -35124,8 +35122,7 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1186"/>
         <source>Bold text
 (data defined only, overrides Style)</source>
-        <translation>굵은 텍스트
-(정의된 데이터만, 스타일 재정의)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1190"/>
@@ -35136,8 +35133,7 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1228"/>
         <source>Italic text
 (data defined only, overrides Style)</source>
-        <translation>이탤릭 텍스트
-(정의된 데이터만, 스타일 재정의)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1232"/>
@@ -35152,7 +35148,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1379"/>
         <source>Multiple lines</source>
-        <translation>여러 줄</translation>
+        <translation type="unfinished">여러 줄</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1437"/>
@@ -35162,17 +35158,17 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1450"/>
         <source>Line height</source>
-        <translation>줄 높이</translation>
+        <translation type="unfinished">줄 높이</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1466"/>
         <source>Line height spacing for multi-line text</source>
-        <translation>멀티 라인 텍스트의 줄 높이 간격</translation>
+        <translation type="unfinished">다중행 텍스트의 줄 높이 간격</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1469"/>
         <source> line</source>
-        <translation> 줄</translation>
+        <translation type="unfinished">줄</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1494"/>
@@ -35205,7 +35201,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5548"/>
         <source>Discourage labels from covering features</source>
-        <translation>포함하는 객체에서 라벨 억제</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="820"/>
@@ -35277,7 +35273,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="930"/>
         <source>Type case</source>
-        <translation>대소문자 유형</translation>
+        <translation type="unfinished">형 유형</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="769"/>
@@ -35322,7 +35318,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1576"/>
         <source>Line direction symbol</source>
-        <translation>줄 방향 기호</translation>
+        <translation type="unfinished">줄 방향 기호</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1951"/>
@@ -35403,7 +35399,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3427"/>
         <source>Lowest label component</source>
-        <translation>가장 낮은 레이블 구성 요소</translation>
+        <translation type="unfinished">가장 낮은 레이블 구성 요소</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3450"/>
@@ -35443,7 +35439,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3976"/>
         <source>visible polygon</source>
-        <translation>보이는 다각형</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3992"/>
@@ -35504,7 +35500,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5194"/>
         <source>Labels will not show if larger than this on screen</source>
-        <translation>레이블이 이보다 큰 경우 화면에 표시되지 않습니다</translation>
+        <translation>레이블이 이것보다 큰 경우 화면에 표시되지 않습니다</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5162"/>
@@ -35515,7 +35511,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5159"/>
         <source>Labels will not show if smaller than this on screen</source>
-        <translation>레이블이 이보다 작은 경우 화면에 표시되지 않습니다</translation>
+        <translation>레이블이 이것보다 작은 경우 화면에 표시되지 않습니다</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3160"/>
@@ -35551,7 +35547,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2791"/>
         <source>Load symbol parameters</source>
-        <translation>심볼 매개변수 불러오기</translation>
+        <translation type="unfinished">심볼 매개변수 불러오기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2852"/>
@@ -35598,7 +35594,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2579"/>
         <source>Shape</source>
-        <translation>모양</translation>
+        <translation>도형</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="2861"/>
@@ -35642,7 +35638,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="4631"/>
         <source>Maximum angle between curved characters</source>
-        <translation>곡선 문자 사이의 최대 각도</translation>
+        <translation type="unfinished">곡선 문자 사이의 최대 각도</translation>
     </message>
     <message>
         <source>Above Right</source>
@@ -35705,7 +35701,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="5477"/>
         <source>Number of features sent to labeling engine, though not all may be labeled</source>
-        <translation>라벨 엔진에 보내질 객체의 수, 하지만 모두 표시되지 않을 수도 있습니다</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>X Coordinate</source>
@@ -42517,12 +42513,12 @@ SQL:%1
         <location filename="../src/providers/oracle/qgsoracledataitems.cpp" line="310"/>
         <location filename="../src/providers/oracle/qgsoracledataitems.cpp" line="314"/>
         <source>Delete layer</source>
-        <translation type="unfinished">레이어 제거</translation>
+        <translation>레이어 삭제</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracledataitems.cpp" line="314"/>
         <source>Layer deleted successfully.</source>
-        <translation type="unfinished">레이어 제거가 성공하였습니다.</translation>
+        <translation>레이어 삭제가 성공하였습니다.</translation>
     </message>
 </context>
 <context>
@@ -42530,42 +42526,42 @@ SQL:%1
     <message>
         <location filename="../src/providers/oracle/qgsoraclenewconnection.cpp" line="89"/>
         <source>Saving passwords</source>
-        <translation type="unfinished"></translation>
+        <translation>암호 저장</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclenewconnection.cpp" line="90"/>
         <source>WARNING: You have opted to save your password. It will be stored in plain text in your project files and in your home directory on Unix-like systems, or in your user profile on Windows. If you do not want this to happen, please press the Cancel button.
 </source>
-        <translation type="unfinished">경고 : 암호를 저장하도록 선택했습니다. 그것은 당신의 프로젝트 파일과 유닉스 계열 시스템에서 또는 윈도우에서 사용자 프로필의 홈 디렉토리에 일반 텍스트로 저장됩니다. 원하지 않으시면 취소 버튼을 눌러주십시오.
+        <translation>경고 : 암호를 저장하도록 선택했습니다. 그것은 당신의 프로젝트 파일과 유닉스 계열 시스템에서 또는 윈도우에서 사용자 프로필의 홈 디렉토리에 일반 텍스트로 저장됩니다. 원하지 않으시면 취소 버튼을 눌러주십시오.
 </translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclenewconnection.cpp" line="101"/>
         <source>Save connection</source>
-        <translation type="unfinished">연결 저장</translation>
+        <translation>연결 저장</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclenewconnection.cpp" line="102"/>
         <source>Should the existing connection %1 be overwritten?</source>
-        <translation type="unfinished">기존 연결 %1을 덮어 쓰시겠습니까?</translation>
+        <translation>기존 연결 %1을 덮어 쓰시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclenewconnection.cpp" line="146"/>
         <location filename="../src/providers/oracle/qgsoraclenewconnection.cpp" line="155"/>
         <source>Test connection</source>
-        <translation type="unfinished">연결 테스트</translation>
+        <translation>연결 테스트</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclenewconnection.cpp" line="147"/>
         <source>Connection to %1 was successful</source>
-        <translation type="unfinished"></translation>
+        <translation>%1에 연결하는 데 성공</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclenewconnection.cpp" line="156"/>
         <source>Connection failed - Check settings and try again.
 
 </source>
-        <translation type="unfinished">연결 실패 - 설정을 확인하고 다시 시도하십시오.
+        <translation>연결 실패 - 설정을 확인하고 다시 시도하십시오.
 
 </translation>
     </message>
@@ -42712,12 +42708,12 @@ SQL:%1
     <message>
         <location filename="../src/providers/oracle/qgsoracledataitems.cpp" line="363"/>
         <source>%1 as %2 in %3</source>
-        <translation type="unfinished">%1을 %3의 %2 같이</translation>
+        <translation>%1을 %3의 %2 같이</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracledataitems.cpp" line="390"/>
         <source>as geometryless table</source>
-        <translation type="unfinished">지오메트리 없는 테이블 처럼</translation>
+        <translation>지오메트리 없는 테이블 처럼</translation>
     </message>
 </context>
 <context>
@@ -43234,7 +43230,7 @@ Error: %2</source>
     <message>
         <location filename="../src/providers/oracle/qgsoracledataitems.cpp" line="429"/>
         <source>New Connection...</source>
-        <translation type="unfinished">새 연결...</translation>
+        <translation>새 연결...</translation>
     </message>
 </context>
 <context>
@@ -43407,12 +43403,12 @@ Error: %2</source>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="142"/>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="148"/>
         <source>Select...</source>
-        <translation type="unfinished">선택...</translation>
+        <translation>선택...</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="160"/>
         <source>Enter...</source>
-        <translation type="unfinished">입력...</translation>
+        <translation>입력...</translation>
     </message>
 </context>
 <context>
@@ -43420,76 +43416,76 @@ Error: %2</source>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="27"/>
         <source>Owner</source>
-        <translation type="unfinished">소유자</translation>
+        <translation>소유자</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="28"/>
         <source>Table</source>
-        <translation type="unfinished">테이블</translation>
+        <translation>테이블</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="29"/>
         <source>Type</source>
-        <translation type="unfinished">유형</translation>
+        <translation>유형</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="30"/>
         <source>Geometry column</source>
-        <translation type="unfinished">지오메트리 컬럼</translation>
+        <translation>지오메트리 열</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="31"/>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="32"/>
         <source>Primary key column</source>
-        <translation type="unfinished">기본 키 컬럼</translation>
+        <translation>주요 키 컬럼</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="33"/>
         <source>Select at id</source>
-        <translation type="unfinished">ID로 선택</translation>
+        <translation>ID로 선택</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="34"/>
         <source>Sql</source>
-        <translation type="unfinished">Sql</translation>
+        <translation>Sql</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="64"/>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="266"/>
         <source>Specify a geometry type</source>
-        <translation type="unfinished"></translation>
+        <translation>지오메트리 타입을 지정</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="68"/>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="274"/>
         <source>Enter a SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>SRID 입력</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="73"/>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="280"/>
         <source>Select a primary key</source>
-        <translation type="unfinished"></translation>
+        <translation>주요 키 선택</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="77"/>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="96"/>
         <source>Select...</source>
-        <translation type="unfinished">선택...</translation>
+        <translation>선택...</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="89"/>
         <source>Enter...</source>
-        <translation type="unfinished">입력...</translation>
+        <translation>입력...</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracletablemodel.cpp" line="108"/>
         <source>Disable &apos;Fast Access to Features at ID&apos; capability to force keeping the attribute table in memory (e.g. in case of expensive views).</source>
-        <translation type="unfinished">강제로 속성 테이블을 메모리에 보존하는 기능인 &apos;ID로 선택 통한 빠른 접근&apos;을 사용 않음 (예: 비용이 많이 드는 뷰의 경우).</translation>
+        <translation>강제로 속성 테이블을 메모리에 보존하는 기능인 &apos;ID로 선택 통한 빠른 접근&apos;을 사용 않음 (예: 비용이 많이 드는 뷰의 경우).</translation>
     </message>
 </context>
 <context>
@@ -43515,22 +43511,22 @@ Error: %2</source>
     <message>
         <location filename="../src/providers/postgres/qgspostgresdataitems.cpp" line="164"/>
         <source>Refresh</source>
-        <translation type="unfinished">새로고침</translation>
+        <translation>새로고침</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresdataitems.cpp" line="204"/>
         <source>Copying features...</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 복사중...</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresdataitems.cpp" line="204"/>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>중단</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresdataitems.cpp" line="205"/>
         <source>Import layer</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 가져오기</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresdataitems.cpp" line="216"/>
@@ -43547,21 +43543,21 @@ Error: %2</source>
         <location filename="../src/providers/postgres/qgspostgresdataitems.cpp" line="255"/>
         <location filename="../src/providers/postgres/qgspostgresdataitems.cpp" line="261"/>
         <source>Import to PostGIS database</source>
-        <translation>PostGIS 데이터베이스로 임포트</translation>
+        <translation>PostGIS 데이터베이스로 가져오기</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresdataitems.cpp" line="256"/>
         <source>Failed to import some layers!
 
 </source>
-        <translation>일부 레이어 불러오기 실패!
+        <translation>일부 레이어 가져오기 실패!
 
 </translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresdataitems.cpp" line="261"/>
         <source>Import was successful.</source>
-        <translation>임포트 성공함.</translation>
+        <translation>가져오기를 성공하였습니다.</translation>
     </message>
 </context>
 <context>
@@ -43605,22 +43601,22 @@ Error: %2</source>
     <message>
         <location filename="../src/ui/qgspalettedrendererwidgetbase.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>양식</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspalettedrendererwidgetbase.ui" line="28"/>
         <source>Band</source>
-        <translation type="unfinished">밴드</translation>
+        <translation>밴드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspalettedrendererwidgetbase.ui" line="47"/>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>값</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspalettedrendererwidgetbase.ui" line="52"/>
         <source>Color</source>
-        <translation type="unfinished">색상</translation>
+        <translation>색상</translation>
     </message>
 </context>
 <context>
@@ -43803,7 +43799,6 @@ Geoprocessing functions are only available for PostgreSQL/PostGIS Layers</source
     <message>
         <location filename="../src/providers/postgres/qgspgnewconnection.cpp" line="34"/>
         <source>prefer</source>
-        <translatorcomment>？？？</translatorcomment>
         <translation>선호</translation>
     </message>
     <message>
@@ -43842,7 +43837,7 @@ Geoprocessing functions are only available for PostgreSQL/PostGIS Layers</source
     <message>
         <location filename="../src/providers/postgres/qgspgnewconnection.cpp" line="191"/>
         <source>Connection to %1 was successful</source>
-        <translation>%1에 연결하는 데 성공했습니다.</translation>
+        <translation>%1에 연결 성공</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgnewconnection.cpp" line="200"/>
@@ -44299,7 +44294,7 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     <message>
         <location filename="../src/providers/postgres/qgspgsourceselect.cpp" line="148"/>
         <source>Enter...</source>
-        <translation type="unfinished">입력...</translation>
+        <translation>입력...</translation>
     </message>
 </context>
 <context>
@@ -44358,34 +44353,34 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     <message>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="31"/>
         <source>Column</source>
-        <translation type="unfinished">컬럼</translation>
+        <translation>열</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="32"/>
         <source>Data Type</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 유형</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="33"/>
         <source>Spatial Type</source>
-        <translation type="unfinished"></translation>
+        <translation>공간 유형</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="35"/>
         <source>Primary Key</source>
-        <translation type="unfinished"></translation>
+        <translation>주요 키</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="65"/>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="269"/>
         <source>Specify a geometry type</source>
-        <translation type="unfinished"></translation>
+        <translation>지오메트리 타입을 지정</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="69"/>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="277"/>
         <source>Enter a SRID</source>
-        <translation type="unfinished"></translation>
+        <translation>SRID 입력</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="87"/>
@@ -44395,7 +44390,7 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     <message>
         <location filename="../src/providers/postgres/qgspgtablemodel.cpp" line="284"/>
         <source>Select a primary key</source>
-        <translation type="unfinished"></translation>
+        <translation>주요 키 선택</translation>
     </message>
 </context>
 <context>
@@ -44414,7 +44409,7 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>QGIS Official Plugin Repository</source>
-        <translation type="unfinished"></translation>
+        <translation>QGIS 공식 플러그인 저장소</translation>
     </message>
     <message>
         <source>Failed to remove the directory:</source>
@@ -44422,7 +44417,7 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>Check permissions or remove it manually</source>
-        <translation>권한을 확인하거나 수동으로 삭제하십시오.</translation>
+        <translation>권한을 확인하거나 수동으로 삭제</translation>
     </message>
     <message>
         <source>Fetch Python Plugins...</source>
@@ -44434,7 +44429,7 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>Looking for new plugins...</source>
-        <translation>새로운 플러그인을 찾고 있습니다...</translation>
+        <translation>새로운 플러그인을 찾는 중...</translation>
     </message>
     <message>
         <source>QGIS Plugin Installer update</source>
@@ -44454,11 +44449,11 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>There is a new plugin available</source>
-        <translation>새로운 플러그인을 사용할 수 있습니다.</translation>
+        <translation>새로운 플러그인을 사용가능</translation>
     </message>
     <message>
         <source>There is a plugin update available</source>
-        <translation>업데이트된 플러그인이 사용 가능합니다.</translation>
+        <translation>업데이트된 플러그인이 사용가능</translation>
     </message>
     <message>
         <source>QGIS Python Plugin Installer</source>
@@ -44466,15 +44461,15 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>Uninstall (recommended)</source>
-        <translation type="unfinished"></translation>
+        <translation>삭제 (추천함)</translation>
     </message>
     <message>
         <source>I will uninstall it later</source>
-        <translation type="unfinished"></translation>
+        <translation>나중에 삭제함</translation>
     </message>
     <message>
         <source>Obsolete plugin:</source>
-        <translation type="unfinished"></translation>
+        <translation>오래된 플러그인:</translation>
     </message>
     <message>
         <source>QGIS has detected an obsolete plugin that masks its more recent version shipped with this copy of QGIS. This is likely due to files associated with a previous installation of QGIS. Do you want to remove the old plugin right now and unmask the more recent version?</source>
@@ -44486,30 +44481,30 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>Are you sure you want to downgrade the plugin to the latest available version? The installed one is newer!</source>
-        <translation type="unfinished">정말로 플러그인을 최근 사용 가능했던 버전으로 다운그레이드시겠습니까? 설치되어 있는 것이 최신버전 입니다!</translation>
+        <translation>정말로 플러그인을 최근 사용 가능했던 버전으로 다운그레이드시겠습니까? 설치되어 있는 것이 최신버전 입니다!</translation>
     </message>
     <message>
         <source>Plugin installation failed</source>
-        <translation type="unfinished">플러그인 설치에 실패했습니다.</translation>
+        <translation>플러그인 설치 실패</translation>
     </message>
     <message>
         <source>Plugin has disappeared</source>
-        <translation type="unfinished">플러그인이 소실되었습니다.</translation>
+        <translation>플러그인 소실</translation>
     </message>
     <message>
         <source>The plugin seems to have been installed but I don&apos;t know where. Probably the plugin package contained a wrong named directory.
 Please search the list of installed plugins. I&apos;m nearly sure you&apos;ll find the plugin there, but I just can&apos;t determine which of them it is. It also means that I won&apos;t be able to determine if this plugin is installed and inform you about available updates. However the plugin may work. Please contact the plugin author and submit this issue.</source>
-        <translation type="unfinished">이 플러그인은 아마 설치되어 있지만 어디에 있는지 알 수 없습니다. 아마 플러그인 패키지가 잘못된 이름의 디렉토리 이름을 포함합니다. 
+        <translation>이 플러그인은 아마 설치되어 있지만 어디에 있는지 알 수 없습니다. 아마 플러그인 패키지가 잘못된 이름의 디렉토리 이름을 포함합니다. 
 설치되어있는 플러그인 목록을 확인하십시오. 아마 거기에서 플러그인을 찾을 수 있겠지만 어느 것이 잘못된 이름을 포함하는 플러그인인지는 모릅니다. 그것은 또한 내가 이 플러그인이 설치되어 있는지 확인하고 사용 가능한 업데이트에 대해 알려드릴 수 없음을 의미합니다. 플러그인이 작업중일 수 있으니 플러그인 저자에게 연락하여 이 문제를 알려주십시오.</translation>
     </message>
     <message>
         <source>Plugin installed successfully</source>
-        <translation type="unfinished">
+        <translation>플러그인 설치 성공
       </translation>
     </message>
     <message>
         <source>Plugin reinstalled successfully</source>
-        <translation type="unfinished">플러그인이 다시 잘 설치되었습니다.</translation>
+        <translation>플러그인이 재설치 성공</translation>
     </message>
     <message>
         <source>Python plugin reinstalled.
@@ -44542,7 +44537,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Plugin uninstalled successfully</source>
-        <translation type="unfinished">플러그인이 잘 제거되었습니다.</translation>
+        <translation>플러그인이 제거 성공</translation>
     </message>
     <message>
         <source>Unable to add another repository with the same URL!</source>
