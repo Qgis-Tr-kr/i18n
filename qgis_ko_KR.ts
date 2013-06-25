@@ -345,7 +345,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Geometry:</source>
-        <translation>지오매트리:</translation>
+        <translation>지오메트리:</translation>
     </message>
     <message>
         <source>Dimension:</source>
@@ -1835,7 +1835,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmRegPoints.ui" line="171"/>
         <source>Apply random offset to point spacing</source>
-        <translation>점 간격을 랜덤으로 적용</translation>
+        <translation>점 간격을 무작위로 적용</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmRegPoints.ui" line="191"/>
@@ -5932,7 +5932,7 @@ JPEG, JPEG2000, MrSID, ECW와 같은 컬러 인덱스를 지원하지 않는 데
     </message>
     <message>
         <source>Geometry</source>
-        <translation>지오매트리</translation>
+        <translation>지오메트리</translation>
     </message>
     <message>
         <source>Please specify input vector layer</source>
@@ -9167,7 +9167,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Python version:</source>
-        <translation>Python 버전:</translation>
+        <translation>파이썬 버전:</translation>
     </message>
     <message>
         <source>QGIS version:</source>
@@ -9368,7 +9368,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Python Console: Save file</source>
-        <translation>Python 콘솔: 파일 저장</translation>
+        <translation>파이썬 콘솔: 파일 저장</translation>
     </message>
     <message>
         <source>Script was correctly saved.</source>
@@ -9396,7 +9396,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Python Console: Save File</source>
-        <translation>Python 콘솔: 파일 저장</translation>
+        <translation>파이썬 콘솔: 파일 저장</translation>
     </message>
     <message>
         <source>Hide/Show Toolbar</source>
@@ -9504,7 +9504,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Python Console - Command History</source>
-        <translation>Python 콘솔 - 명령 기록</translation>
+        <translation>파이썬 콘솔 - 명령 기록</translation>
     </message>
     <message>
         <source>Double click on item to execute</source>
@@ -9540,7 +9540,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Python Console</source>
-        <translation>Python 콘솔</translation>
+        <translation>파이썬 콘솔</translation>
     </message>
     <message>
         <source>To access Quantum GIS environment from this console
@@ -9906,7 +9906,7 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
     <message>
         <location filename="../src/python/qgspythonutilsimpl.cpp" line="220"/>
         <source>Python error</source>
-        <translation>Python 오류</translation>
+        <translation>파이썬 오류</translation>
     </message>
     <message>
         <source> km2</source>
@@ -10385,7 +10385,7 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
         <location filename="../src/python/qgspythonutilsimpl.cpp" line="120"/>
         <location filename="../src/python/qgspythonutilsimpl.cpp" line="128"/>
         <source>Python support will be disabled.</source>
-        <translation>Python에 대한 지원이 비활성화됩니다.</translation>
+        <translation>파이썬에 대한 지원이 비활성화됩니다.</translation>
     </message>
     <message>
         <location filename="../src/python/qgspythonutilsimpl.cpp" line="104"/>
@@ -10410,7 +10410,7 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
     <message>
         <location filename="../src/python/qgspythonutilsimpl.cpp" line="214"/>
         <source>Python version:</source>
-        <translation>Python 버전:</translation>
+        <translation>파이썬 버전:</translation>
     </message>
     <message>
         <location filename="../src/python/qgspythonutilsimpl.cpp" line="215"/>
@@ -10420,7 +10420,7 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
     <message>
         <location filename="../src/python/qgspythonutilsimpl.cpp" line="216"/>
         <source>Python path:</source>
-        <translation>Python 경로:</translation>
+        <translation>파이썬 경로:</translation>
     </message>
     <message>
         <location filename="../src/python/qgspythonutilsimpl.cpp" line="203"/>
@@ -10489,7 +10489,7 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
         <location filename="../src/app/qgspluginregistry.cpp" line="275"/>
         <location filename="../src/app/qgspluginregistry.cpp" line="413"/>
         <source>Python is not enabled in QGIS.</source>
-        <translation>Python은 QGIS에서 사용할 수 없습니다.</translation>
+        <translation>파이썬을 QGIS에서 사용할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgspluginregistry.cpp" line="275"/>
@@ -12249,22 +12249,22 @@ You are seeing this message most likely because you have no DISPLAY environment 
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3459"/>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3488"/>
         <source>Error executing query: %1</source>
-        <translation>쿼리를 실행하는 동안 오류 발생: %1</translation>
+        <translation>질의를 실행하는 동안 오류 발생: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3435"/>
         <source>Error executing the select query for related styles. The query was logged</source>
-        <translation>관련된 스타일에 대한 선택 쿼리를 실행하는 동안 오류가 발생했습니다.쿼리가 기록되었습니다</translation>
+        <translation>관련된 스타일에 대한 선택 질의를 실행하는 동안 오류가 발생했습니다.질의가 기록되었습니다</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3460"/>
         <source>Error executing the select query for unrelated styles. The query was logged</source>
-        <translation>관련없는 스타일에 대한 선택 쿼리를 실행하는 동안 오류가 발생했습니다.쿼리가 기록되었습니다</translation>
+        <translation>관련없는 스타일에 대한 선택 질의를 실행하는 동안 오류가 발생했습니다.질의가 기록되었습니다</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3489"/>
         <source>Error executing the select query. The query was logged</source>
-        <translation>선택 쿼리를 실행하는 동안 오류가 발생했습니다. 쿼리가 기록되었습니다</translation>
+        <translation>선택 질의를 실행하는 동안 오류가 발생했습니다. 질의가 기록되었습니다</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="3499"/>
@@ -14130,7 +14130,7 @@ Please contact the developers.
     </message>
     <message>
         <source>New python console (with history)</source>
-        <translation type="obsolete">히스토리를 지원하는 새로운 python 콘솔</translation>
+        <translation type="obsolete">히스토리를 지원하는 새로운 파이썬 콘솔</translation>
     </message>
     <message>
         <source>Add validation to capture tool</source>
@@ -15061,7 +15061,7 @@ This copy of QGIS writes debugging output.</source>
     </message>
     <message>
         <source>Allow creation of color ramps in vector color ramp combo box.</source>
-        <translation type="obsolete">벡터 컬러 램프 콤보 상자를 사용하여 컬러 램프를 만들 수 있게 되었습니다.</translation>
+        <translation type="obsolete">벡터 색상 램프 콤보 상자를 사용하여 색상 램프를 만들 수 있게 되었습니다.</translation>
     </message>
     <message>
         <source>Added &apos;style manager...&apos; button to symbol selector so that users will find the style manager more easily.</source>
@@ -15838,7 +15838,7 @@ Error: %1</source>
     </message>
     <message>
         <source>Python Console</source>
-        <translation type="obsolete">Python 콘솔</translation>
+        <translation type="obsolete">파이썬 콘솔</translation>
     </message>
     <message>
         <source>To perform a local histogram stretch, you need to have a raster layer selected.</source>
@@ -18834,12 +18834,12 @@ Database:%2</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgscategorizedsymbolrendererv2widget.cpp" line="617"/>
         <source>There are no available color ramps. You can add them in Style Manager.</source>
-        <translation>사용할 수 있는 컬러 램프가 없습니다. 스타일 관리자에서 추가할 수 있습니다.</translation>
+        <translation>사용할 수 있는 색상 램프가 없습니다. 스타일 관리자에서 추가할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgscategorizedsymbolrendererv2widget.cpp" line="619"/>
         <source>The selected color ramp is not available.</source>
-        <translation>선택된 컬러 램프를 사용할 수 없습니다.</translation>
+        <translation>선택된 색상 램프를 사용할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgscategorizedsymbolrendererv2widget.cpp" line="633"/>
@@ -18960,7 +18960,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgscolorrampcombobox.cpp" line="54"/>
         <source>New color ramp...</source>
-        <translation>새로운 컬러 램프...</translation>
+        <translation>새로운 색상 램프...</translation>
     </message>
 </context>
 <context>
@@ -20705,7 +20705,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="320"/>
         <source>Show feature count for each class of vector layer.</source>
-        <translation>벡터 레이어의 각 클래스 피쳐수를 보여줍니다.</translation>
+        <translation>벡터 레이어의 각 클래스 객체수를 보여줍니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="371"/>
@@ -30245,12 +30245,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/gui/symbology-ng/qgsgraduatedsymbolrendererv2widget.cpp" line="467"/>
         <source>There are no available color ramps. You can add them in Style Manager.</source>
-        <translation>사용할 수 있는 컬러 램프가 없습니다. 스타일 관리자에서 추가할 수 있습니다.</translation>
+        <translation>사용할 수 있는 색상 램프가 없습니다. 스타일 관리자에서 추가할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsgraduatedsymbolrendererv2widget.cpp" line="469"/>
         <source>The selected color ramp is not available.</source>
-        <translation>선택된 컬러 램프를 사용할 수 없습니다.</translation>
+        <translation>선택된 색상 램프를 사용할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsgraduatedsymbolrendererv2widget.cpp" line="492"/>
@@ -30284,7 +30284,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsgraduatedsymbolrendererv2widget.ui" line="90"/>
         <source>Color ramp</source>
-        <translation>컬러 램프</translation>
+        <translation>색상 램프</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsgraduatedsymbolrendererv2widget.ui" line="103"/>
@@ -44442,7 +44442,7 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>Fetch Python Plugins...</source>
-        <translation type="obsolete">Python 플러그인을 호출...</translation>
+        <translation type="obsolete">파이썬 플러그인을 호출...</translation>
     </message>
     <message>
         <source>Install more plugins from remote repositories</source>
@@ -44478,7 +44478,7 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>QGIS Python Plugin Installer</source>
-        <translation>QGIS Python 플러그인 설치관리자</translation>
+        <translation>QGIS 파이썬 플러그인 설치관리자</translation>
     </message>
     <message>
         <source>Uninstall (recommended)</source>
@@ -44538,11 +44538,11 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>The plugin depends on some components missing on your system. You need to install the following Python module in order to enable it:</source>
-        <translation type="unfinished">플러그인이 이 시스템에 설치되어 있지 않은 컴포넌트에 의존하고 있습니다. 이용하기 위해서는 다음의 Python 모듈을 설치 해야합니다:</translation>
+        <translation type="unfinished">플러그인이 이 시스템에 설치되어 있지 않은 컴포넌트에 의존하고 있습니다. 이용하기 위해서는 다음의 파이썬 모듈을 설치 해야합니다:</translation>
     </message>
     <message>
         <source>The plugin is broken. Python said:</source>
-        <translation type="unfinished">플러그인이 손상되었습니다. Python의 메시지:</translation>
+        <translation type="unfinished">플러그인이 손상되었습니다. 파이썬의 메시지:</translation>
     </message>
     <message>
         <source>Plugin uninstall failed</source>
@@ -44581,7 +44581,7 @@ You need to restart QGIS in order to reload it.</source>
     <name>QgsPluginInstallerDialog</name>
     <message>
         <source>QGIS Python Plugin Installer</source>
-        <translation type="obsolete">QGIS Python 플러그인 설치관리자</translation>
+        <translation type="obsolete">QGIS 파이썬 플러그인 설치관리자</translation>
     </message>
     <message>
         <source>Error reading repository:</source>
@@ -44670,7 +44670,7 @@ You need to restart QGIS in order to reload it.</source>
     <message>
         <source>The required Python module is not installed.
 For more information, please visit its homepage and Quantum GIS wiki.</source>
-        <translation type="obsolete">필요한 Python 모듈이 설치되어 있지 않습니다.
+        <translation type="obsolete">필요한 파이썬 모듈이 설치되어 있지 않습니다.
 자세한 정보는 플러그인의 홈페이지 또는 Quantum GIS wiki를 참조하십시오.</translation>
     </message>
     <message>
@@ -44783,7 +44783,7 @@ Please search the list of installed plugins. I&apos;m nearly sure you&apos;ll fi
     <message>
         <source>Python plugin installed.
 Now you need to enable it in Plugin Manager.</source>
-        <translation type="obsolete">Python 플러그인이 설치되었습니다. 
+        <translation type="obsolete">파이썬 플러그인이 설치되었습니다. 
 이제 플러그인 관리자에서 활성화할 수 있습니다.</translation>
     </message>
     <message>
@@ -44793,7 +44793,7 @@ Now you need to enable it in Plugin Manager.</source>
     <message>
         <source>Python plugin reinstalled.
 You need to restart Quantum GIS in order to reload it.</source>
-        <translation type="obsolete">Python 플러그인이 다시 설치되었습니다.
+        <translation type="obsolete">파이썬 플러그인이 다시 설치되었습니다.
 이것을 다시로드하기 위해 Quantum GIS를 재시작 해야합니다.</translation>
     </message>
     <message>
@@ -44802,11 +44802,11 @@ You need to restart Quantum GIS in order to reload it.</source>
     </message>
     <message>
         <source>The plugin depends on some components missing on your system. You need to install the following Python module in order to enable it:</source>
-        <translation type="obsolete">플러그인이 이 시스템에 설치되어 있지 않은 컴포넌트에 의존하고 있습니다. 이용하기 위해서는 다음의 Python 모듈을 설치 해야합니다:</translation>
+        <translation type="obsolete">플러그인이 이 시스템에 설치되어 있지 않은 컴포넌트에 의존하고 있습니다. 이용하기 위해서는 다음의 파이썬 모듈을 설치 해야합니다:</translation>
     </message>
     <message>
         <source>The plugin is broken. Python said:</source>
-        <translation type="obsolete">플러그인이 손상되었습니다. Python의 메시지:</translation>
+        <translation type="obsolete">플러그인이 손상되었습니다. 파이썬의 메시지:</translation>
     </message>
     <message>
         <source>Plugin uninstall failed</source>
@@ -44834,7 +44834,7 @@ You need to restart Quantum GIS in order to reload it.</source>
     </message>
     <message>
         <source>Python plugin uninstalled. Note that you may need to restart Quantum GIS in order to remove it completely.</source>
-        <translation type="obsolete">Python 플러그인이 제거되었습니다. 완전히 제거하기 위해서는 Quantum GIS를 다시 시작해야합니다.</translation>
+        <translation type="obsolete">파이썬 플러그인이 제거되었습니다. 완전히 제거하기 위해서는 Quantum GIS를 다시 시작해야합니다.</translation>
     </message>
     <message>
         <source>You are about to add several plugin repositories that are neither authorized nor supported by the Quantum GIS team. Plugin authors generally make efforts to ensure that their work is useful and safe, however, we can assume no responsibility for them.</source>
@@ -44853,7 +44853,7 @@ You need to restart Quantum GIS in order to reload it.</source>
     <name>QgsPluginInstallerDialogBase</name>
     <message>
         <source>QGIS Python Plugin Installer</source>
-        <translation type="obsolete">QGIS Python 플러그인 설치관리자</translation>
+        <translation type="obsolete">QGIS 파이썬 플러그인 설치관리자</translation>
     </message>
     <message>
         <source>Help</source>
@@ -45001,7 +45001,7 @@ You need to restart Quantum GIS in order to reload it.</source>
     </message>
     <message>
         <source>The plugins will be installed to ~/.qgis/python/plugins</source>
-        <translation type="obsolete">이 플러그인은 ~/.qgis/ python/plugins에 설치됩니다.</translation>
+        <translation type="obsolete">이 플러그인은 ~/.qgis/python/plugins에 설치됩니다.</translation>
     </message>
     <message>
         <source>Close the Installer window</source>
@@ -45195,7 +45195,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/pyplugin_installer/qgsplugininstallerinstallingbase.ui" line="14"/>
         <source>QGIS Python Plugin Installer</source>
-        <translation>QGIS Python 플러그인 설치관리자</translation>
+        <translation>QGIS 파이썬 플러그인 설치관리자</translation>
     </message>
     <message>
         <location filename="../python/pyplugin_installer/qgsplugininstallerinstallingbase.ui" line="38"/>
@@ -46267,7 +46267,7 @@ SQL: %2
     <name>QgsPostgresProvider</name>
     <message>
         <source>Unable to access relation</source>
-        <translation type="obsolete">릴레이션에 액세스할 수 없습니다.</translation>
+        <translation type="obsolete">관계에 액세스할 수 없습니다.</translation>
     </message>
     <message>
         <source>No suitable key column in table</source>
@@ -46315,7 +46315,7 @@ SQL: %2
 The error message from the database was:
 %2.
 SQL: %3</source>
-        <translation>%1 릴레이션에 접근할 수 없습니다.
+        <translation>%1 관계에 접근할 수 없습니다.
 데이터베이스에서 오류 메시지는 다음과 같음:
 %2.
 SQL: %3</translation>
@@ -46326,7 +46326,7 @@ SQL: %3</translation>
 The error message from the database was:
 %2.
 SQL: %3</source>
-        <translation>%1 릴레이션를 위한 테이블 권한을 알 수 없습니다.
+        <translation>%1 관계를 위한 테이블 권한을 알 수 없습니다.
 데이터베이스 오류 메시지는 다음과 같음:
 %2.
 SQL: %3</translation>
@@ -46422,12 +46422,12 @@ SQL: %3</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="949"/>
         <source>The custom query is not a select query.</source>
-        <translation>사용자 지정 쿼리가 선택 쿼리가 아닙니다. </translation>
+        <translation>사용자 지정 질의가 선택 질의가 아닙니다. </translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1078"/>
         <source>Primary key field &apos;%1&apos; for view not unique.</source>
-        <translation>뷰의 &apos;%1&apos; 프라이머리 키 필드가 고유하지 않습니다.</translation>
+        <translation>뷰의 &apos;%1&apos; 기본 키 필드가 고유하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="176"/>
@@ -46437,12 +46437,12 @@ SQL: %3</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="145"/>
         <source>PostgreSQL layer has no primary key.</source>
-        <translation>PostgreSQL 레이어에 프라이머리 키가 없습니다.</translation>
+        <translation>PostgreSQL 레이어에 기본 키가 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="204"/>
         <source>PostgreSQL layer has unknown primary key type.</source>
-        <translation>PostgreSQL 레이어가 알려지지 않은 프라이머리 키 유형을 가지고 있습니다.</translation>
+        <translation>PostgreSQL 레이어가 알려지지 않은 기본 키 유형을 가지고 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="806"/>
@@ -46452,7 +46452,7 @@ SQL: %3</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1055"/>
         <source>The table has no column suitable for use as a key. QGIS requires a primary key, a PostgreSQL oid column or a ctid for tables.</source>
-        <translation>이 테이블은 키로 사용할만한 적당한 컬럼이 없습니다. QGIS는 PostgreSQL의 oid 컬럼이나 테이블의 ctid와 같은 프라이머리 키를 필요로 합니다.</translation>
+        <translation>이 테이블은 키로 사용할만한 적당한 컬럼이 없습니다. QGIS는 PostgreSQL의 oid 컬럼이나 테이블의 ctid와 같은 기본 키를 필요로 합니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1083"/>
@@ -46467,7 +46467,7 @@ SQL: %3</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1093"/>
         <source>Unexpected relation type &apos;%1&apos;.</source>
-        <translation>예기치 않은 릴레이션 유형 &apos;%1&apos;.</translation>
+        <translation>예기치 않은 관계 유형 &apos;%1&apos;.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1146"/>
@@ -47209,7 +47209,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1040"/>
         <source>Color Ramp</source>
-        <translation>컬러 램프</translation>
+        <translation>색상 램프</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1233"/>
@@ -47348,7 +47348,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1945"/>
         <source>Python macros</source>
-        <translation>Python 매크로 </translation>
+        <translation>파이썬 매크로 </translation>
     </message>
     <message>
         <source>Avoid intersections of new polygons...</source>
@@ -49250,7 +49250,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Color Ramp</source>
-        <translation type="obsolete">컬러 램프</translation>
+        <translation type="obsolete">색상 램프</translation>
     </message>
     <message>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="1615"/>
@@ -52953,7 +52953,7 @@ enhancement</source>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="321"/>
         <source>GEOMETRY</source>
-        <translation>지오매트리</translation>
+        <translation>지오메트리</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialiteconnection.cpp" line="324"/>
@@ -53414,7 +53414,7 @@ but implies better performance thereafter.</source>
         <source>%n selected geometries</source>
         <comment>selected geometries</comment>
         <translation>
-            <numerusform>지오매트리 %n개 선택됨</numerusform>
+            <numerusform>지오메트리 %n개 선택됨</numerusform>
         </translation>
     </message>
     <message>
@@ -54722,7 +54722,7 @@ Updates to geometry values will be disabled, and query performance may be poor b
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="111"/>
         <source>You should select at least one symbol/color ramp.</source>
-        <translation>하나 이상의 기호 / 컬러 램프를 선택해야 합니다.</translation>
+        <translation>하나 이상의 기호 / 색상 램프를 선택해야 합니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="117"/>
@@ -54805,7 +54805,7 @@ Overwrite?</source>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="325"/>
         <source>Color ramp with name &apos;%1&apos; already exists.
 Overwrite?</source>
-        <translation>&apos;%1&apos;라는 컬러 램프는 이미 존재합니다.
+        <translation>&apos;%1&apos;라는 색상 램프는 이미 존재합니다.
 덮어 쓰시겠습니까?</translation>
     </message>
     <message>
@@ -54882,7 +54882,7 @@ Overwrite?</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="181"/>
         <source>Color ramp (%1)</source>
-        <translation>컬러 램프 (%1)</translation>
+        <translation>색상 램프 (%1)</translation>
     </message>
     <message>
         <source>Symbol name</source>
@@ -54926,7 +54926,7 @@ Overwrite?</source>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="420"/>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="443"/>
         <source>Random</source>
-        <translation>랜덤</translation>
+        <translation>무작위</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="194"/>
@@ -54975,12 +54975,12 @@ Overwrite?</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="422"/>
         <source>Color ramp type</source>
-        <translation>컬러 램프 유형</translation>
+        <translation>색상 램프 유형</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="423"/>
         <source>Please select color ramp type:</source>
-        <translation>컬러 램프 유형을 선택하십시오:</translation>
+        <translation>색상 램프 유형을 선택하십시오:</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="428"/>
@@ -55000,32 +55000,32 @@ Overwrite?</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="502"/>
         <source>Color Ramp Name</source>
-        <translation>컬러 램프 이름</translation>
+        <translation>색상 램프 이름</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="503"/>
         <source>Please enter a name for new color ramp:</source>
-        <translation>새로운 컬러 램프의 이름 입력:</translation>
+        <translation>새로운 색상 램프의 이름 입력:</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="513"/>
         <source>Save Color Ramp</source>
-        <translation>컬러 램프 저장</translation>
+        <translation>색상 램프 저장</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="514"/>
         <source>Cannot save color ramp without name. Enter a name.</source>
-        <translation>저장하려면 컬러 램프의 이름이 필요합니다. 이름을 입력해 주십시오.</translation>
+        <translation>저장하려면 색상 램프의 이름이 필요합니다. 이름을 입력해 주십시오.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="518"/>
         <source>Save color ramp</source>
-        <translation>컬러 램프 저장</translation>
+        <translation>색상 램프 저장</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="519"/>
         <source>Color ramp with name &apos;%1&apos; already exists. Overwrite?</source>
-        <translation>&apos;%1&apos;라는 컬러 램프는 이미 존재합니다.덮어 쓰시겠습니까?</translation>
+        <translation>&apos;%1&apos;라는 색상 램프는 이미 존재합니다.덮어 쓰시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="889"/>
@@ -55103,15 +55103,15 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Color ramp name</source>
-        <translation type="obsolete">컬러 램프 이름</translation>
+        <translation type="obsolete">색상 램프 이름</translation>
     </message>
     <message>
         <source>Please enter name for new color ramp:</source>
-        <translation type="obsolete">새로운 컬러 램프의 이름 입력:</translation>
+        <translation type="obsolete">새로운 색상 램프의 이름 입력:</translation>
     </message>
     <message>
         <source>new color ramp</source>
-        <translation type="obsolete">새로운 컬러 램프</translation>
+        <translation type="obsolete">새로운 색상 램프</translation>
     </message>
     <message>
         <source>Load styles</source>
@@ -55151,7 +55151,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/ui/qgsstylev2managerdialogbase.ui" line="231"/>
         <source>Color ramp</source>
-        <translation>컬러 램프</translation>
+        <translation>색상 램프</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsstylev2managerdialogbase.ui" line="287"/>
@@ -56250,7 +56250,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Randomize Colors</source>
-        <translation type="obsolete">랜덤 색상</translation>
+        <translation type="obsolete">무작위 색상</translation>
     </message>
     <message>
         <source>Reset Colors</source>
@@ -56415,7 +56415,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorgradientcolorrampv2dialogbase.ui" line="14"/>
         <source>Gradient color ramp</source>
-        <translation>그레디언드 컬러 램프</translation>
+        <translation>그레디언드 색상 램프</translation>
     </message>
     <message>
         <source>Change</source>
@@ -58112,7 +58112,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorrandomcolorrampv2dialogbase.ui" line="14"/>
         <source>Random color ramp</source>
-        <translation>랜덤 컬러 램프</translation>
+        <translation>무작위 색상  램프</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorrandomcolorrampv2dialogbase.ui" line="22"/>
@@ -62937,7 +62937,7 @@ You only need to request the list of layers by clicking the &lt;label&gt;Connect
         <translation type="unfinished">
 fTools의 목적은 많은 일반적인 벡터 기반 GIS 작업을 위해 추가 소프트웨어 또는 라이브러리 또는 복잡한 해결 방법을 이용하지 않고 원스톱 리소스를 제공하는 것입니다.
 
-fTools은 QGIS의 핵심 기능과 python 라이브러리만을 이용한 QuantumGIS 확장하도록 설계되어 있습니다. 급속히 기능이 증가하고 있는 공간 데이터 관리 및 분석 기능을 제공합니다. 또한 Dr. Horst Duester and Stefan Ziegler의 지오프로세싱 기능이 통합되어 GIS 기반의 조사와 분석을 보다 효율적으로 사용할 수 있습니다.
+fTools은 QGIS의 핵심 기능과 파이썬 라이브러리만을 이용해 QuantumGIS 확장하도록 설계되어 있습니다. 급속히 기능이 증가하고 있는 공간 데이터 관리 및 분석 기능을 제공합니다. 또한 Dr. Horst Duester and Stefan Ziegler의 지오프로세싱 기능이 통합되어 GIS 기반의 조사와 분석을 보다 효율적으로 사용할 수 있습니다.
 
 버그 보고와 조언을 주시면 fTools은 발전할 것입니다. 질문이 있으시면 carson.farmer@gmail.com으로 이메일을 주십시오.
 
@@ -67790,7 +67790,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="19"/>
         <source>Assign new value to column as result of operation on columns only if the result of query is TRUE</source>
-        <translation>쿼리 결과가 참인 경우에만 연산 결과를 속성 테이블의 컬럼의 새 값으로 할당합니다</translation>
+        <translation>질의 결과가 참인 경우에만 연산 결과를 속성 테이블의 컬럼의 새 값으로 할당합니다</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="20"/>
@@ -68919,7 +68919,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="231"/>
         <source>Hue Intensity Saturation (HIS) to Red Green Blue (RGB) raster color transform function</source>
-        <translation>색상, 명도, 채도(HIS)를 빨강, 녹색, 파랑(RGB) 래스터 컬러로 변환하는 기능</translation>
+        <translation>색상, 명도, 채도(HIS)를 빨강, 녹색, 파랑(RGB) 래스터 색상으로 변환하는 기능</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="232"/>
@@ -69516,7 +69516,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="345"/>
         <source>Red Green Blue (RGB) to Hue Intensity Saturation (HIS) raster color transformation function</source>
-        <translation>빨강, 녹색, 파랑(RGB)을 색상, 명도, 채도(HIS) 래스터 컬러로 변환하는 기능</translation>
+        <translation>빨강, 녹색, 파랑(RGB)을 색상, 명도, 채도(HIS) 래스터 색상으로 변환하는 기능</translation>
     </message>
     <message>
         <source>Region</source>
@@ -70173,7 +70173,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="543"/>
         <source>Skipping invalid second geometry of feature %1 in dangling line test.</source>
-        <translation>dangling 라인 테스트에서 %1 피처의 잘못된 두 번째 지오메트리를 무시하겠습니다.</translation>
+        <translation>dangling 라인 테스트에서 %1 객체의 잘못된 두 번째 지오메트리를 무시하겠습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/topology/topolTest.cpp" line="767"/>
