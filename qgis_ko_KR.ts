@@ -43306,12 +43306,12 @@ Error: %2</source>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="182"/>
         <source>Add Oracle Table(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Oracle 테이블 추가</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="185"/>
         <source>&amp;Add</source>
-        <translation type="unfinished">추가(&amp;A)</translation>
+        <translation>추가(&amp;A)</translation>
     </message>
     <message>
         <source>&amp;Build query</source>
@@ -43324,112 +43324,112 @@ Error: %2</source>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="188"/>
         <source>&amp;Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>필터 설정(&amp;S)</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="189"/>
         <source>Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>필터 설정</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="203"/>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="356"/>
         <source>Wildcard</source>
-        <translation type="unfinished">와일드카드</translation>
+        <translation>와일드카드</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="204"/>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="360"/>
         <source>RegExp</source>
-        <translation type="unfinished">정규식</translation>
+        <translation>정규식</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="206"/>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="368"/>
         <source>All</source>
-        <translation type="unfinished">모두</translation>
+        <translation>모두</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="207"/>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="372"/>
         <source>Owner</source>
-        <translation type="unfinished">소유자</translation>
+        <translation>소유자</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="208"/>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="376"/>
         <source>Table</source>
-        <translation type="unfinished">테이블</translation>
+        <translation>테이블</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="209"/>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="380"/>
         <source>Type</source>
-        <translation type="unfinished">유형</translation>
+        <translation>유형</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="210"/>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="384"/>
         <source>Geometry column</source>
-        <translation type="unfinished">지오메트리 컬럼</translation>
+        <translation>지오메트리 행</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="211"/>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="388"/>
         <source>Primary key column</source>
-        <translation type="unfinished">기본 키 컬럼</translation>
+        <translation>주요 키 컬럼</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="212"/>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="392"/>
         <source>SRID</source>
-        <translation type="unfinished">SRID</translation>
+        <translation>SRID</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="213"/>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="396"/>
         <source>Sql</source>
-        <translation type="unfinished">Sql</translation>
+        <translation>Sql</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="269"/>
         <source>Are you sure you want to remove the %1 connection and all associated settings?</source>
-        <translation type="unfinished"></translation>
+        <translation>정말로 %1 연결과 모든 연결된 설정을 제거하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="271"/>
         <source>Confirm Delete</source>
-        <translation type="unfinished">삭제 확인</translation>
+        <translation>삭제 확인</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="288"/>
         <source>Load connections</source>
-        <translation type="unfinished"></translation>
+        <translation>연결로드</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="289"/>
         <source>XML files (*.xml *XML)</source>
-        <translation type="unfinished"></translation>
+        <translation>XML 파일 (*.xml * XML)</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="466"/>
         <source>Select Table</source>
-        <translation type="unfinished"></translation>
+        <translation>테이블 선택</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="466"/>
         <source>You must select a table in order to add a layer.</source>
-        <translation type="unfinished">레이어를 추가하려면 테이블을 선택하십시오.</translation>
+        <translation>레이어를 추가하려면 테이블을 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="514"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>중지</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoraclesourceselect.cpp" line="538"/>
         <source>Connect</source>
-        <translation type="unfinished">연결</translation>
+        <translation>연결</translation>
     </message>
 </context>
 <context>
@@ -43940,23 +43940,23 @@ Extended error information:
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="196"/>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="281"/>
         <source>Restrict the displayed tables to those that are in the layer registries.</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 레지스트리에 있는 표시되는 테이블을 제한합니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="199"/>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="284"/>
         <source>Restricts the displayed tables to those that are found in the layer registries (geometry_columns, geography_columns, topology.layer). This can speed up the initial display of spatial tables.</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 레지스트리에서 찾아지는 테이블을 제한합니다.(geometry_columns, geography_columns, topology.layer) 이것은 공간 테이블의 초기 도시 속도를 향상 시킬 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="202"/>
         <source>Only look in the layer registries</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 레즈스트리에서만 검색</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="250"/>
         <source>Use estimated table statistics for the layer metadata.</source>
-        <translation>레이어 메타데이터에 추정 테이블 통계를 이용한다.</translation>
+        <translation>레이어 메타데이터에 추정 테이블 통계를 이용합니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="253"/>
@@ -43987,7 +43987,7 @@ Extended error information:
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="287"/>
         <source>Don&apos;t resolve type of unrestricted columns (GEOMETRY)</source>
-        <translation type="unfinished"></translation>
+        <translation>제한되지 않는 행의 유형을 결정하지 않음(GEOMETRY)</translation>
     </message>
     <message>
         <source>Allow geometryless tables</source>
@@ -44043,7 +44043,7 @@ Extended error information:
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="209"/>
         <source>Restrict the search to the public schema for spatial tables not in the geometry_columns table</source>
-        <translation>geometry_columns 테이블에 없는 공간정보 테이블의 public 스키마 검색을 제한합니다.</translation>
+        <translation>geometry_columns 테이블에 없는 공간정보 테이블의 public 스키마 검색을 제한</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="212"/>
@@ -44102,17 +44102,17 @@ Extended error information:
     <message>
         <location filename="../src/providers/postgres/qgspgsourceselect.cpp" line="169"/>
         <source>Add PostGIS Table(s)</source>
-        <translation type="unfinished">PostGIS 테이블 추가</translation>
+        <translation>PostGIS 테이블 추가</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgsourceselect.cpp" line="175"/>
         <source>&amp;Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>필터 설정(&amp;S)</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgsourceselect.cpp" line="176"/>
         <source>Set Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>필터 설정</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspgsourceselect.cpp" line="191"/>
@@ -44436,7 +44436,7 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>Couldn&apos;t open the local plugin directory</source>
-        <translation>로컬 플러그인 디렉토리를 열 수 없습니다.</translation>
+        <translation>로컬 플러그인 디렉토리를 열 수 없음</translation>
     </message>
     <message>
         <source>Nothing to remove! Plugin directory doesn&apos;t exist:</source>
@@ -44508,7 +44508,7 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>QGIS has detected an obsolete plugin that masks its more recent version shipped with this copy of QGIS. This is likely due to files associated with a previous installation of QGIS. Do you want to remove the old plugin right now and unmask the more recent version?</source>
-        <translation type="unfinished"></translation>
+        <translation>QGIS에서 좀 더 최신 버전을 숨기고 있는 오래된 플러그인을 발견하였습니다.이것은 이전 QGIS 설치시에 사용된 파일 때문일 것입니다. 오래된 플러그인을 지우고 최신 버전으로 사용하시겠습니까?</translation>
     </message>
     <message>
         <source>Error reading repository:</source>
@@ -44544,31 +44544,32 @@ Please search the list of installed plugins. I&apos;m nearly sure you&apos;ll fi
     <message>
         <source>Python plugin reinstalled.
 You need to restart QGIS in order to reload it.</source>
-        <translation type="unfinished"></translation>
+        <translation>파이썬 플러그인이 다시 설치되었습니다.
+이것을 다시로드하기 위해 Quantum GIS를 재시작 해야합니다.</translation>
     </message>
     <message>
         <source>The plugin is not compatible with this version of QGIS. It&apos;s designed for QGIS versions:</source>
-        <translation type="unfinished"></translation>
+        <translation>이 플러그인은 현 QGIS 버전과 호환되지 않습니다. 호환되는 QGIS 버전은:</translation>
     </message>
     <message>
         <source>The plugin depends on some components missing on your system. You need to install the following Python module in order to enable it:</source>
-        <translation type="unfinished">플러그인이 이 시스템에 설치되어 있지 않은 컴포넌트에 의존하고 있습니다. 이용하기 위해서는 다음의 파이썬 모듈을 설치 해야합니다:</translation>
+        <translation>플러그인이 이 시스템에 설치되어 있지 않은 컴포넌트에 의존하고 있습니다. 이용하기 위해서는 다음의 파이썬 모듈을 설치 해야합니다:</translation>
     </message>
     <message>
         <source>The plugin is broken. Python said:</source>
-        <translation type="unfinished">플러그인이 손상되었습니다. 파이썬의 메시지:</translation>
+        <translation>플러그인이 손상되었습니다. 파이썬의 메시지:</translation>
     </message>
     <message>
         <source>Plugin uninstall failed</source>
-        <translation type="unfinished">플러그인 제거 실패</translation>
+        <translation>플러그인 제거 실패</translation>
     </message>
     <message>
         <source>Are you sure you want to uninstall the following plugin?</source>
-        <translation type="unfinished">정말 다음의 플러그인을 제거하시겠습니까?</translation>
+        <translation>정말 다음의 플러그인을 제거하시겠습니까?</translation>
     </message>
     <message>
         <source>Warning: this plugin isn&apos;t available in any accessible repository!</source>
-        <translation type="unfinished">경고: 이 플러그인은 접근할 수 있는 어떤 저장소에서도 유효하지 않습니다!</translation>
+        <translation>경고: 이 플러그인은 접근할 수 있는 어떤 저장소에서도 유효하지 않습니다!</translation>
     </message>
     <message>
         <source>Plugin uninstalled successfully</source>
@@ -44576,19 +44577,19 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>Unable to add another repository with the same URL!</source>
-        <translation type="unfinished">다른 저장소를 동일한 URL로 등록할 수 없습니다!</translation>
+        <translation>다른 저장소를 동일한 URL로 등록할 수 없습니다!</translation>
     </message>
     <message>
         <source>This repository is blocked due to incompatibility with your QGIS version</source>
-        <translation type="unfinished"></translation>
+        <translation>이 저장소는 당신의 Quantum GIS 버전과 호환이 없기 때문에 차단됨</translation>
     </message>
     <message>
         <source>You can&apos;t remove the official QGIS Plugin Repository. You can disable it if needed.</source>
-        <translation type="unfinished"></translation>
+        <translation>공식적인 QGIS 플러그인 저장소를 제거할 수 없습니다. 필요시 불활성화할 수는 있습니다.</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the following repository?</source>
-        <translation type="unfinished">정말로 다음 저장소를 삭제하시겠습니까?</translation>
+        <translation>정말로 다음 저장소를 삭제하시겠습니까?</translation>
     </message>
 </context>
 <context>
@@ -45253,7 +45254,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsPluginInstallerPluginErrorDialog</name>
     <message>
         <source>no error message received</source>
-        <translation>오류 메시지가 없습니다.</translation>
+        <translation>오류 메시지 없음</translation>
     </message>
 </context>
 <context>
@@ -45301,7 +45302,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../python/pyplugin_installer/qgsplugininstallerrepositorybase.ui" line="78"/>
         <location filename="../python/pyplugin_installer/qgsplugininstallerrepositorybase.ui" line="81"/>
         <source>Enter the repository URL, beginning with &quot;http://&quot;</source>
-        <translation>&quot;http://&quot;로 시작하는 저장소의 URL을 입력하십시오.</translation>
+        <translation>&quot;http://&quot;로 시작하는 저장소의 URL을 입력</translation>
     </message>
     <message>
         <location filename="../python/pyplugin_installer/qgsplugininstallerrepositorybase.ui" line="100"/>
@@ -45911,7 +45912,7 @@ p, li { white-space: pre-wrap; }
         <source>The point displacement renderer only applies to (single) point layers. 
 &apos;%1&apos; is not a point layer and cannot be displayed by the point displacement renderer</source>
         <translation>점 이동 렌더러는 (단일) 점 레이어에만 적용할 수 있습니다.
-&apos;%1&apos;는 점 레이어가 아니기 때문에 점 이동 렌더러로 표시할 수 없습니다.</translation>
+&apos;%1&apos;는 점 레이어가 아니기 때문에 점 이동 렌더러로 표시할 수 없음</translation>
     </message>
 </context>
 <context>
@@ -45997,22 +45998,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1746"/>
         <source>Horizontal distance</source>
-        <translation type="unfinished">수평 거리</translation>
+        <translation>수평 거리</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1748"/>
         <source>Vertical distance</source>
-        <translation type="unfinished">수직 거리</translation>
+        <translation>수직 거리</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1750"/>
         <source>Horizontal displacement</source>
-        <translation type="unfinished">수평 변위</translation>
+        <translation>수평 변위</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="1752"/>
         <source>Vertical displacement</source>
-        <translation type="unfinished">수직 변위</translation>
+        <translation>수직 변위</translation>
     </message>
 </context>
 <context>
@@ -46263,18 +46264,18 @@ SQL: %2
     <message>
         <location filename="../src/providers/postgres/qgspostgresfeatureiterator.cpp" line="112"/>
         <source>feature %1 not found</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 %1이 발견되지 않음</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresfeatureiterator.cpp" line="112"/>
         <location filename="../src/providers/postgres/qgspostgresfeatureiterator.cpp" line="118"/>
         <source>PostGIS</source>
-        <translation type="unfinished">PostGIS</translation>
+        <translation>PostGIS</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresfeatureiterator.cpp" line="118"/>
         <source>found %1 features instead of just one.</source>
-        <translation type="unfinished"></translation>
+        <translation>한개 대신에 객체 %1이 발견되었습니다.</translation>
     </message>
 </context>
 <context>
