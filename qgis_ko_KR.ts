@@ -41068,7 +41068,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1674"/>
         <source>Fix problems with incorrectly filled polygons</source>
-        <translation>잘못된 폴라곤 채우기를 수정합니다.</translation>
+        <translation>잘못된 폴라곤 채우기를 수정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1940"/>
@@ -41123,42 +41123,42 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1509"/>
         <source>Ignore shapefile encoding declaration</source>
-        <translation type="unfinished"></translation>
+        <translation>Shape 파일 인코딩 선언을 무시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1512"/>
         <source>Disable OGR on-the-fly conversion from declared encoding to UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>선언된 인코딩을  UTF-8로 OGR 즉시 변환 비활성화</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1526"/>
         <source>Add Oracle layers with double click and select in extended mode</source>
-        <translation type="unfinished"></translation>
+        <translation>확장모드에서 더블 클릭아여  Oracle 레이어를 추가하고 선택</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3461"/>
         <source>Coordinate Reference System (CRS)</source>
-        <translation type="unfinished">좌표계</translation>
+        <translation>좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3486"/>
         <source>CRS for new layers</source>
-        <translation type="unfinished"></translation>
+        <translation>새 레이어를 위한 좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3549"/>
         <source>When a new layer is created, or when a layer is loaded that has no CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>새 레이어를 만들 때, 또는 좌표계가 없는 레이어가 로드되었을 때</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3575"/>
         <source>Default CRS for new projects</source>
-        <translation type="unfinished"></translation>
+        <translation>새 프로젝트를 위한 기본 좌표계</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3594"/>
         <source>Automatically enable &apos;on the fly&apos; reprojection if layers have different CRS</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어가 다른 좌표계를 가지고 있을 경우 즉시 재투영을 자동으로 활성화</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3676"/>
@@ -41223,7 +41223,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="807"/>
         <source>Warn when opening a project file saved with an older version of QGIS</source>
-        <translation>이전 버전의 QGIS에서 저장된 프로젝트 파일을 열 때 경고합니다.</translation>
+        <translation>이전 버전의 QGIS에서 저장된 프로젝트 파일을 열 때 경고</translation>
     </message>
     <message>
         <source>Default Map Appearance (overridden by project properties)</source>
@@ -41425,7 +41425,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1611"/>
         <source>Use render caching where possible to speed up redraws</source>
-        <translation>빠르게 다시 그리기 위해 가능한 경우 렌더링 캐시를 사용합니다.</translation>
+        <translation>빠르게 다시 그리기 위해 가능한 경우 렌더링 캐시를 사용</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1658"/>
@@ -41558,7 +41558,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3591"/>
         <source>Automatically enable &apos;on the fly&apos; reprojection if CRS of a new added layer differ from CRS of layer(s) already present. CRS of present layer(s) will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>새롭게 추가된 좌표계가 현재 레이어의 좌표계와 다르다면 즉시 재투영이 자동으로 활성화됩니다. 현재 레이어의 좌표계가 사용됩니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3611"/>
@@ -41619,7 +41619,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3859"/>
         <source>Clear</source>
-        <translation>클리어</translation>
+        <translation>초기화</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3775"/>
@@ -41658,145 +41658,145 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2438"/>
         <source>Identify</source>
-        <translation>객체 정보보기</translation>
+        <translation>정보 보기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="97"/>
         <location filename="../src/ui/qgsoptionsbase.ui" line="100"/>
         <location filename="../src/ui/qgsoptionsbase.ui" line="898"/>
         <source>System</source>
-        <translation type="unfinished"></translation>
+        <translation>시스템</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="109"/>
         <source>Data Sources</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 소스</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="112"/>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1234"/>
         <source>Data sources</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 소스</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="133"/>
         <source>Canvas &amp; Legend</source>
-        <translation type="unfinished"></translation>
+        <translation>캔버스와 범례</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="136"/>
         <source>Canvas and legend</source>
-        <translation type="unfinished"></translation>
+        <translation>캔버스와 범례</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="145"/>
         <source>Map Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 도구</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="488"/>
         <source>Timeout for timed messages or dialogs</source>
-        <translation type="unfinished"></translation>
+        <translation>메시지와 대화상자 요청시간</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="508"/>
         <source> s</source>
-        <translation type="unfinished"></translation>
+        <translation> s</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="571"/>
         <source>Bold group box titles</source>
-        <translation type="unfinished"></translation>
+        <translation>그룹 상자 제목을 굵게하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="591"/>
         <source>QGIS-styled group boxes</source>
-        <translation type="unfinished"></translation>
+        <translation>QGIS 스타일의 그룹 상자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="602"/>
         <source>Use live-updating color chooser dialogs</source>
-        <translation type="unfinished"></translation>
+        <translation>실시간 업데이트 색상 선택 대화상자 사용하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="629"/>
         <source>New</source>
-        <translation type="unfinished">새로 만들기</translation>
+        <translation>새로 만들기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="634"/>
         <source>Most recent</source>
-        <translation type="unfinished"></translation>
+        <translation>가장 최신</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="639"/>
         <source>Specific</source>
-        <translation type="unfinished"></translation>
+        <translation>상세</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="705"/>
         <source>Open project on launch</source>
-        <translation type="unfinished"></translation>
+        <translation>시작시 프로젝트 열기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="714"/>
         <source>Create new project from default project</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 프로젝트로부터 새 프로젝트 만들기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="739"/>
         <source>Set current project as default</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 프로젝트를 기본 프로젝트로 설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="746"/>
         <source>Reset default</source>
-        <translation type="unfinished"></translation>
+        <translation>기본값 재설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="770"/>
         <source>Template folder</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿 폴더</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="784"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>탐색</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="791"/>
         <source>Reset</source>
-        <translation type="unfinished">재설정</translation>
+        <translation>재설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="800"/>
         <source>Prompt to save project and data source changes when required</source>
-        <translation type="unfinished"></translation>
+        <translation>필요할 때 프로젝트와 데이터 소스의 변경 사항을 저장 하는지 확인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="816"/>
         <source>Enable macros</source>
-        <translation type="unfinished"></translation>
+        <translation>매크로 활성화</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="830"/>
         <source>Never</source>
-        <translation type="unfinished">항상 않음</translation>
+        <translation>안함</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="835"/>
         <source>Ask</source>
-        <translation type="unfinished"></translation>
+        <translation>요청</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="840"/>
         <source>For this session only</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 세션만</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="845"/>
         <source>Always (not recommended)</source>
-        <translation type="unfinished"></translation>
+        <translation>항상 (비추천)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="277"/>
@@ -41806,239 +41806,239 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="409"/>
         <source>Font</source>
-        <translation type="unfinished">글꼴</translation>
+        <translation>글꼴</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="422"/>
         <source>Qt default</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt 기본</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="929"/>
         <source>Environment</source>
-        <translation type="unfinished"></translation>
+        <translation>환경</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="969"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>적용</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="974"/>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1068"/>
         <source>Variable</source>
-        <translation type="unfinished"></translation>
+        <translation>변수</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="979"/>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1073"/>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>값</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1019"/>
         <source>Current environment variables (read-only - bold indicates modified at startup)</source>
-        <translation type="unfinished"></translation>
+        <translation>현 환경 변수 (읽기 전용 - 굵은 글씨는 시작시 수정되었음을 의미)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1081"/>
         <source>Show only QGIS-specific variables</source>
-        <translation type="unfinished"></translation>
+        <translation>QGIS 특화 변수만 보기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1091"/>
         <source>Use custom variables (restart required - include separators)</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 정의 변수 사용 (재시작 필요 - 구분자 포함)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1265"/>
         <source>Feature attributes and table</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 속성 및 테이블</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1406"/>
         <source>Data source handling</source>
-        <translation type="unfinished"></translation>
+        <translation>데이터 소스 처리</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1478"/>
         <source>Prompt for raster sublayers when opening</source>
-        <translation type="unfinished"></translation>
+        <translation>열때 래스터 내부 레이어를 위한 확인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1594"/>
         <source>Better graphics performance at the cost of loosing the possibility to cancel rendering and incremental feature drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>렌더링 작업과 증가하는 객체 그리기를 취소할 가능성을 줄여서 그래픽 성능을 향상</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1597"/>
         <source>Enable back buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>후위 버퍼 활성화</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1648"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; Set below 1000 to prevent display updates until all features have been rendered</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;참고:&lt;/b&gt; 모든 객체가 만들어질 때까지 화면 업데이트를 막기위해 1000 이하로 설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2008"/>
         <source>Debugging</source>
-        <translation type="unfinished"></translation>
+        <translation>디버깅</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2014"/>
         <source>Show these events in the Log Message panel (under Rendering tab)</source>
-        <translation type="unfinished"></translation>
+        <translation>로그 메시지 패널에 이벤트 보여주기 (렌더링 탭 아래)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2039"/>
         <source>Map canvas refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 캔버스 새로고침</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2078"/>
         <source>Map canvas &amp; legend</source>
-        <translation type="unfinished"></translation>
+        <translation>지도 캔버스와 범례</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2103"/>
         <source>Default map appearance (overridden by project properties)</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 지도 모양을 사용 (프로젝트 속성에서 덮어쓰기)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2207"/>
         <source>Layer legend</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 범례</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2288"/>
         <source>Capitalise layer names</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 이름을 대문자로</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2301"/>
         <source>Bold layer names</source>
-        <translation type="unfinished"></translation>
+        <translation>레이어 이름을 굵게</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2308"/>
         <source>Display classification attribute names</source>
-        <translation type="unfinished"></translation>
+        <translation>분류 속성 이름 표시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2315"/>
         <source>Bold group names</source>
-        <translation type="unfinished"></translation>
+        <translation>그룹 이름을 굵게</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2322"/>
         <source>Create raster icons (may be slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>래스터 아이콘 만들기 (느려질 가능성 있음)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2335"/>
         <source>Legend item styles</source>
-        <translation type="unfinished"></translation>
+        <translation>범례 항목 스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2354"/>
         <source>Overlay position</source>
-        <translation type="unfinished"></translation>
+        <translation>위치 덮어쓰기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2705"/>
         <source>Add predefined scale</source>
-        <translation type="unfinished"></translation>
+        <translation>미리 정의된 스케일 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2719"/>
         <source>Remove selected</source>
-        <translation type="unfinished"></translation>
+        <translation>선택 삭제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2733"/>
         <source>Insert default scales</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 스케일 삽입</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2760"/>
         <source>Import from file</source>
-        <translation type="unfinished">파일에서 가져오기</translation>
+        <translation>파일에서 가져오기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2774"/>
         <source>Export to file</source>
-        <translation type="unfinished">파일로 내보내기</translation>
+        <translation>파일로 내보내기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2848"/>
         <source>Feature creation</source>
-        <translation type="unfinished"></translation>
+        <translation>객체 만들기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3120"/>
         <source>Open snapping options in a dock window (QGIS restart required)</source>
-        <translation type="unfinished"></translation>
+        <translation>도킹 윈도우에 스냅 옵션 열기 (QGIS 재시작 필요)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3209"/>
         <source>Curve offset tool</source>
-        <translation type="unfinished"></translation>
+        <translation>곡선 상쇄 도구</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3218"/>
         <source>Miter limit</source>
-        <translation type="unfinished"></translation>
+        <translation>마이터 제한</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3225"/>
         <source>Join style</source>
-        <translation type="unfinished">이음새 스타일</translation>
+        <translation>이음새 스타일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3242"/>
         <source>Quadrant segments</source>
-        <translation type="unfinished"></translation>
+        <translation>사분면 세그먼트</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3346"/>
         <source>GDAL driver options</source>
-        <translation type="unfinished"></translation>
+        <translation>GDAL 드라이버 옵션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3398"/>
         <source>GDAL drivers</source>
-        <translation type="unfinished"></translation>
+        <translation>GDAL 드라이버</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3421"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3426"/>
         <source>ext</source>
-        <translation type="unfinished"></translation>
+        <translation>ext</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3431"/>
         <source>Flags</source>
-        <translation type="unfinished"></translation>
+        <translation>플래그</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3436"/>
         <source>Description</source>
-        <translation type="unfinished">설명</translation>
+        <translation>설명</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3368"/>
         <source>Edit Pyramids Options</source>
-        <translation type="unfinished"></translation>
+        <translation>피라미드 옵션 편집</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3388"/>
         <source>Edit Create Options</source>
-        <translation type="unfinished"></translation>
+        <translation>만들기 옵션 편집</translation>
     </message>
     <message>
         <source>Compatibility</source>
@@ -42051,42 +42051,42 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1777"/>
         <source>Single band gray</source>
-        <translation type="unfinished">단일 밴드 그레이</translation>
+        <translation>단일 밴드 그레이</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1809"/>
         <source>Multi band color (byte / band) </source>
-        <translation type="unfinished"></translation>
+        <translation>다중 밴드 색상 (byte / band) </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1841"/>
         <source>Multi band color (&gt; byte / band) </source>
-        <translation type="unfinished"></translation>
+        <translation>다중 밴드 색상 (&gt; byte / band) </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1880"/>
         <source>Limits (minimum/maximum)</source>
-        <translation type="unfinished"></translation>
+        <translation>제한 (최소/최대)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1912"/>
         <source>Cumulative pixel count cut limits</source>
-        <translation type="unfinished"></translation>
+        <translation>누적 픽셀 수 제한</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1926"/>
         <source>-</source>
-        <translation type="unfinished">-</translation>
+        <translation>-</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1969"/>
         <source>Standard deviation multiplier</source>
-        <translation type="unfinished"></translation>
+        <translation>표준 편차 승수</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2458"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; Specify the search radius as a percentage of the map width</source>
-        <translation>&lt;b&gt;참고:&lt;/b&gt; 검색 반경을 지도 폭에 대한 비율로 지정합니다.</translation>
+        <translation>&lt;b&gt;참고:&lt;/b&gt; 검색 반경을 지도 폭에 대한 비율로 지정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2471"/>
@@ -42106,7 +42106,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2694"/>
         <source>Predefined scales</source>
-        <translation type="unfinished"></translation>
+        <translation>미리 정의된 스케일</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2942"/>
@@ -42126,7 +42126,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3199"/>
         <source>Show markers only for selected features</source>
-        <translation>선택된 객체에만 마커를 표시합니다.</translation>
+        <translation>선택된 객체에만 마커를 표시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3136"/>
@@ -42141,7 +42141,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3807"/>
         <source>Default expiration period for WMS-C/WMTS tiles (hours)</source>
-        <translation type="unfinished"></translation>
+        <translation>WMS-C/WMTS 타일을 위한 기본 만료 기간 (hours)</translation>
     </message>
     <message>
         <source>Default Coordinate Reference System</source>
@@ -42159,7 +42159,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3686"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; Enabling / changing overide on local requires an application restart</source>
-        <translation>&lt;b&gt;참고:&lt;/b&gt; 로케일을 활성화 / 변경하려면 응용 프로그램을 다시 시작해야합니다.</translation>
+        <translation>&lt;b&gt;참고:&lt;/b&gt; 로케일을 활성화 / 변경하려면 응용 프로그램을 다시 시작해야함</translation>
     </message>
     <message>
         <source>Network &amp;Proxy</source>
@@ -42189,7 +42189,7 @@ Always network: always load from network and do not check if the cache has a val
         <location filename="../src/ui/qgsoptionsbase.ui" line="3914"/>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3928"/>
         <source>Leave this blank if no proxy username / password are required</source>
-        <translation>프록시 사용자 이름 / 암호가 필요하지 않은 경우는 비워두십시오.</translation>
+        <translation>프록시 사용자 이름 / 암호가 필요하지 않은 경우는 비워둠</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3921"/>
@@ -42235,7 +42235,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2871"/>
         <source>Suppress attributes pop-up windows after each created feature</source>
-        <translation>각각의 객체가 만들어진 후 속성 팝업이 표시되는 것을 방지합니다.</translation>
+        <translation>각각의 객체가 만들어진 후 속성 팝업이 표시되는 것을 방지</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3513"/>
