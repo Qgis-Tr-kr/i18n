@@ -46124,144 +46124,146 @@ The error message from the database was:
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="651"/>
         <source>Retrieval of postgis version failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PostGIS 버전 조회 실패</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="665"/>
         <source>Could not parse postgis version string &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>spatialite 버전 문자열인 &apos;%1&apos;을 파싱할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="761"/>
         <source>Connection error: %1 returned %2 [%3]</source>
-        <translation type="unfinished"></translation>
+        <translation>연결 오류: %1이(가) %2을(를) 반환함 [%3]</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="784"/>
         <source>Erroneous query: %1 returned %2 [%3]</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 있는 쿼리: %1이(가) %2을(를) 반환함 [%3]</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="797"/>
         <source>Query failed: %1
 Error: no result buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>쿼리 실패: %1
+오류: 결과 버퍼가 없음</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="801"/>
         <source>Not logged query failed: %1
 Error: no result buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>로그되지 않은 쿼리 실패: %1
+오류: 결과 버퍼가 없음</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="840"/>
         <source>Query: %1 returned %2 [%3]</source>
-        <translation type="unfinished"></translation>
+        <translation>쿼리: %1이(가) %2을(를) 반환함 [%3]</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="848"/>
         <source>%1 cursor states lost.
 SQL: %2
 Result: %3 (%4)</source>
-        <translation type="unfinished">%1 커서 상태가 손실되었습니다.
+        <translation>%1 커서 상태가 손실되었습니다.
 SQL: %2
 결과: %3 (%4)</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="860"/>
         <source>resetting bad connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 연결을 재설정 합니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="866"/>
         <source>retry after reset succeeded.</source>
-        <translation type="unfinished"></translation>
+        <translation>재설정이 성공한 후에 다시 시도합니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="871"/>
         <source>retry after reset failed again.</source>
-        <translation type="unfinished"></translation>
+        <translation>재설정을 다시 실패한 이후에 다시 시도합니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="877"/>
         <source>connection still bad after reset.</source>
-        <translation type="unfinished"></translation>
+        <translation>재설정 후에도 연결이 여전히 좋지 않습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="882"/>
         <source>bad connection, not retrying.</source>
-        <translation type="unfinished"></translation>
+        <translation>잘못된 연결, 다시 시도하지 않음.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1324"/>
         <source>Point</source>
-        <translation type="unfinished"></translation>
+        <translation>점</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1332"/>
         <source>Line</source>
-        <translation type="unfinished">선</translation>
+        <translation>선</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1340"/>
         <source>Polygon</source>
-        <translation type="unfinished"></translation>
+        <translation>폴리곤</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1347"/>
         <source>No Geometry</source>
-        <translation type="unfinished">지오메트리가 없음</translation>
+        <translation>지오메트리가 없음</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1362"/>
         <source>None</source>
-        <translation type="unfinished">없음</translation>
+        <translation>없음</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1364"/>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>지오메트리</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1366"/>
         <source>Geography</source>
-        <translation type="unfinished"></translation>
+        <translation>지오그래피</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1368"/>
         <source>TopoGeometry</source>
-        <translation type="unfinished"></translation>
+        <translation>토포지오그래피</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1524"/>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1534"/>
         <source>Query could not be canceled [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>쿼리가 취소될 수 없음 [%1]</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1524"/>
         <source>PQgetCancel failed</source>
-        <translation type="unfinished"></translation>
+        <translation>PQGetCancel 실패</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1328"/>
         <source>Multipoint</source>
-        <translation type="unfinished"></translation>
+        <translation>다중 점</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1336"/>
         <source>Multiline</source>
-        <translation type="unfinished"></translation>
+        <translation>다중 선</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1344"/>
         <source>Multipolygon</source>
-        <translation type="unfinished"></translation>
+        <translation>다중 폴리곤</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="1350"/>
         <source>Unknown Geometry</source>
-        <translation type="unfinished">알 수 없는 지오메트리</translation>
+        <translation>알 수 없는 지오메트리</translation>
     </message>
 </context>
 <context>
