@@ -40672,7 +40672,7 @@ Always network: always load from network and do not check if the cache has a val
         <location filename="../src/app/qgsoptions.cpp" line="693"/>
         <location filename="../src/app/qgsoptions.cpp" line="1156"/>
         <source>Cross</source>
-        <translation>크로스</translation>
+        <translation>교차</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="620"/>
@@ -40682,7 +40682,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="54"/>
         <source>None / Planimetric</source>
-        <translation type="unfinished"></translation>
+        <translation>없음 / 평면도</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="109"/>
@@ -40765,7 +40765,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="833"/>
         <source>Choose project file to open at launch</source>
-        <translation type="unfinished"></translation>
+        <translation>시작시 열 프로젝트 파일 선택</translation>
     </message>
     <message>
         <source>QGis files</source>
@@ -40774,53 +40774,53 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1410"/>
         <source>Overwrite</source>
-        <translation type="unfinished">덮어쓰기</translation>
+        <translation>덮어쓰기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1411"/>
         <source>If Undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>정의되지 않은 경우</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1412"/>
         <source>Unset</source>
-        <translation type="unfinished"></translation>
+        <translation>설정 안함</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1413"/>
         <source>Prepend</source>
-        <translation type="unfinished"></translation>
+        <translation>앞에 붙이기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1414"/>
         <source>Append</source>
-        <translation type="unfinished"></translation>
+        <translation>붙이기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1753"/>
         <source>Enter scale</source>
-        <translation type="unfinished"></translation>
+        <translation>스케일 입력 </translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1754"/>
         <source>Scale denominator</source>
-        <translation type="unfinished"></translation>
+        <translation>스케일 눈금</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1793"/>
         <source>Load scales</source>
-        <translation type="unfinished"></translation>
+        <translation>스케일 불러오기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1794"/>
         <location filename="../src/app/qgsoptions.cpp" line="1820"/>
         <source>XML files (*.xml *.XML)</source>
-        <translation type="unfinished">XML 파일 (*.xml * XML)</translation>
+        <translation>XML 파일 (*.xml * XML)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1819"/>
         <source>Save scales</source>
-        <translation type="unfinished"></translation>
+        <translation>스케일 저장 </translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1850"/>
@@ -40850,33 +40850,33 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="184"/>
         <source>not present</source>
-        <translation type="unfinished"></translation>
+        <translation>존재하지 않음</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="190"/>
         <source>System value: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>시스템 값: %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="311"/>
         <source>Show features visible on map</source>
-        <translation type="unfinished"></translation>
+        <translation>지도에 보이는 객체 표시</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="539"/>
         <location filename="../src/app/qgsoptions.cpp" line="540"/>
         <source>Cumulative pixel count cut</source>
-        <translation type="unfinished"></translation>
+        <translation>누적 픽셀 수에 따라 자르기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="541"/>
         <source>Minimum / maximum</source>
-        <translation type="unfinished"></translation>
+        <translation>최소 / 최대</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="542"/>
         <source>Mean +/- standard deviation</source>
-        <translation type="unfinished"></translation>
+        <translation>평균 +/- 표준편차</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="645"/>
@@ -40904,7 +40904,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="363"/>
         <source>All</source>
-        <translation type="unfinished">모두</translation>
+        <translation>모두</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="680"/>
@@ -40936,27 +40936,27 @@ Always network: always load from network and do not check if the cache has a val
         <location filename="../src/app/qgsoptions.cpp" line="776"/>
         <location filename="../src/app/qgsoptions.cpp" line="780"/>
         <source>Save default project</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 프로젝트 저장</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="765"/>
         <source>You must set a default project</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 프로젝트를 설정해야함</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="776"/>
         <source>Current project saved as default</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 프로젝트로 저장된 현재 프로젝트</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="780"/>
         <source>Error saving current project as default</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 프로젝트로 저장된 현재 프로젝트 저장 오류</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="796"/>
         <source>Choose a directory to store project template files</source>
-        <translation type="unfinished"></translation>
+        <translation>프로젝트 템플릿 파일을 저장할 디렉토리를 선택</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="559"/>
@@ -40966,17 +40966,17 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="835"/>
         <source>QGIS files</source>
-        <translation type="unfinished"></translation>
+        <translation>QGIS 파일</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1345"/>
         <source>Create Options - %1 Driver</source>
-        <translation type="unfinished"></translation>
+        <translation>옵션 만들기 - %1 드라이버</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1347"/>
         <source>Create Options - pyramids</source>
-        <translation type="unfinished"></translation>
+        <translation>옵션 만들기 - 피라미드</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1476"/>
