@@ -45321,22 +45321,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="142"/>
         <source>sort by name</source>
-        <translation type="unfinished"></translation>
+        <translation>이름으로 정렬</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="143"/>
         <source>sort by downloads</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 수로 정렬</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="144"/>
         <source>sort by vote</source>
-        <translation type="unfinished"></translation>
+        <translation>투표수로 정렬</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="145"/>
         <source>sort by status</source>
-        <translation type="unfinished"></translation>
+        <translation>상태로 정렬</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="278"/>
@@ -45347,197 +45347,197 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="515"/>
         <source>Only locally available</source>
         <comment>category: plugins that are only locally available</comment>
-        <translation type="unfinished"></translation>
+        <translation>로컬에서만 사용가능</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="516"/>
         <source>Reinstallable</source>
         <comment>category: plugins that are installed and available</comment>
-        <translation type="unfinished"></translation>
+        <translation>재설치 가능</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="517"/>
         <source>Upgradeable</source>
         <comment>category: plugins that are installed and there is a newer version available</comment>
-        <translation type="unfinished"></translation>
+        <translation>업그레이드 가능</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="518"/>
         <source>Downgradeable</source>
         <comment>category: plugins that are installed and there is an OLDER version available</comment>
-        <translation type="unfinished"></translation>
+        <translation>다운그레이드 가능</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="582"/>
         <source>This plugin is incompatible with this version of QGIS</source>
-        <translation type="unfinished"></translation>
+        <translation>이 플러그인은 현재 QGIS버전과 호환되지 않음</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="582"/>
         <source>Plugin designed for QGIS %1</source>
         <comment>compatible QGIS version(s)</comment>
-        <translation type="unfinished"></translation>
+        <translation>QGIS %1에 맞게 디자인된 플러그인</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="586"/>
         <source>This plugin requires a missing module</source>
-        <translation type="unfinished">플러그인에 필요한 모듈이 없습니다.</translation>
+        <translation>플러그인에 필요한 모듈이 없음</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="590"/>
         <source>This plugin is broken</source>
-        <translation type="unfinished">플러그인이 손상되었습니다.</translation>
+        <translation>손상된 플러그인</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="600"/>
         <source>There is a new version available</source>
-        <translation type="unfinished"></translation>
+        <translation>새 버전 사용가능</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="606"/>
         <source>This is a new plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>새 플러그인</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="612"/>
         <source>Installed version of this plugin is higher than any version found in repository</source>
-        <translation type="unfinished"></translation>
+        <translation>설치된 플러그인이 저장소에 있는 버전보다 상위버전임</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="620"/>
         <source>This plugin is experimental</source>
-        <translation type="unfinished"></translation>
+        <translation>실험적인 플러그인</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="648"/>
         <source>&lt;br/&gt;%1 rating vote(s)&lt;br/&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;br/&gt;%1의 투표율&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="652"/>
         <source>%1 downloads&lt;br/&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 다운로드 수&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="658"/>
         <source>Category</source>
-        <translation type="unfinished">카테고리</translation>
+        <translation>카테고리</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="662"/>
         <source>Tags</source>
-        <translation type="unfinished">태그</translation>
+        <translation>태그</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="666"/>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="670"/>
         <source>Author</source>
-        <translation type="unfinished">제작자</translation>
+        <translation>제작자</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="674"/>
         <source>More info</source>
-        <translation type="unfinished"></translation>
+        <translation>상세 정보</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="677"/>
         <source>homepage</source>
-        <translation type="unfinished"></translation>
+        <translation>홈페이지</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="681"/>
         <source>tracker</source>
-        <translation type="unfinished"></translation>
+        <translation>트래커</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="685"/>
         <source>code_ repository</source>
-        <translation type="unfinished"></translation>
+        <translation>코드 저장소</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="696"/>
         <source>Installed version: %1 (in %2)&lt;br/&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>부적합한 버전: %2의 %1&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="700"/>
         <source>Available version: %1 (in %2)&lt;br/&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>사용 가능한 버전: %2의 %1&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="706"/>
         <source>changelog:&lt;br/&gt;%1 &lt;br/&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>변경 로그:&lt;br/&gt;%1 &lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="718"/>
         <source>Upgrade plugin</source>
-        <translation type="unfinished">플러그인 업그레이드</translation>
+        <translation>플러그인 업그레이드</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="723"/>
         <source>Downgrade plugin</source>
-        <translation type="unfinished">플러그인 다운그레이드</translation>
+        <translation>플러그인 다운그레이드</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="727"/>
         <source>Install plugin</source>
-        <translation type="unfinished">플러그인 설치</translation>
+        <translation>플러그인 설치</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="732"/>
         <source>Reinstall plugin</source>
-        <translation type="unfinished">플러그인 다시 설치</translation>
+        <translation>플러그인 다시 설치</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="808"/>
         <source>Reload all repositories</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 저장소 다시 불러오기</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="809"/>
         <source>Only show plugins from selected repository</source>
-        <translation type="unfinished"></translation>
+        <translation>선택된 저장소로부터 플러그인만 표시</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="813"/>
         <source>Clear filter</source>
-        <translation type="unfinished"></translation>
+        <translation>필터 지우기</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="829"/>
         <source>connected</source>
-        <translation type="unfinished">연결됨</translation>
+        <translation>연결됨</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="831"/>
         <source>The repository is connected</source>
-        <translation type="unfinished"></translation>
+        <translation>저장소가 연결됨</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="835"/>
         <source>unavailable</source>
-        <translation type="unfinished">사용할 수 없습니다.</translation>
+        <translation>사용 불가</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="837"/>
         <source>The repository is enabled, but unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>이 저장소는 연결 가능하지만 사용할 수 없</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="842"/>
         <source>disabled</source>
-        <translation type="unfinished">비활성화</translation>
+        <translation>비활성화</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="846"/>
         <source>The repository is disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>이 저장소는 비활성 상태임</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="850"/>
         <source>The repository is blocked due to incompatibility with your QGIS version</source>
-        <translation type="unfinished"></translation>
+        <translation>이 저장소는 당신의 Quantum GIS 버전과 호환이 없기 때문에 차단됨</translation>
     </message>
     <message>
         <source>&amp;Select All</source>
@@ -45577,27 +45577,27 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="11"/>
         <source>&lt;h3&gt;Installed Plugins&lt;/h3&gt;&lt;p&gt;On the left you see the list of &lt;b&gt;installed plugins&lt;/b&gt; on your system. Both python and cpp plugins are listed. Some plugins come with your QGIS installation while most of them are made available via the plugin repositories.&lt;/p&gt;&lt;p&gt;You can temporarily enable or disable a plugin.To &lt;i&gt;enable&lt;/i&gt; or &lt;i&gt;disable&lt;/i&gt; a plugin, click its checkbox or doubleclick its name...&lt;/p&gt;&lt;p&gt;Plugins showing in &lt;span style=&apos;color:red&apos;&gt;red&lt;/span&gt; are not loaded because there is a problem. Consult the &apos;Invalid&apos; tab to see more details, or to reinstall or uninstall this plugin.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;설치된 플러그인&lt;/h3&gt;&lt;p&gt;당신의 시스템에 &lt;b&gt;설치된 플러그인&lt;/b&gt;의 목록을 왼편에서 볼 수 있습니다. 파이썬과 cpp 모두 조회 가능합니다. 대부분은 플러그인 저장소에서 사용가능하지만, 일부는  QGIS 설치시에 설치가 됩니다.&lt;/p&gt;&lt;p&gt;플러그인을 임시로 비활성화하거나 활성화 하는 것이 가능합니다. 플러그인을 &lt;i&gt;활성화&lt;/i&gt; 또는 &lt;i&gt;비활성화&lt;/i&gt; 하기 위해서는 체크박스를 클릭하거나 이름을 더블클릭합니다...&lt;/p&gt;&lt;p&gt;&lt;span style=&apos;color:red&apos;&gt;빨간색&lt;/span&gt;으로 보여지는 플러그인은 문제가 있는 것입니다. 좀 더 자세히 보기 위해 &apos;Invalid&apos;탭을 이용하거나 삭제 후 재설치 해보세요.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="32"/>
         <source>&lt;h3&gt;Upgradable plugins&lt;/h3&gt;&lt;p&gt;Here are &lt;b&gt;upgradeable plugins&lt;/b&gt;. It means more recent versions of installed plugins are available in the repositories.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;업그레이드 가능 플러그인&lt;/h3&gt;&lt;p&gt;여기에 &lt;b&gt;업그레이드 가능한 플러그인&lt;/b&gt;이 있습니다. 저장소에서 설치된 플러그인의 가장 최신 버전이 사용 가능합니다.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="43"/>
         <source>&lt;h3&gt;Get more plugins&lt;/h3&gt;&lt;p&gt;Here you see the list of all plugins available in the repositories, but which are &lt;b&gt;not yet installed&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Click on the name to see details.&lt;/p&gt;&lt;p&gt;You can change the sorting via the context menu (right click).&lt;/p&gt;&lt;p&gt;A plugin can be downloaded and installed by clicking on it&apos;s name, and then click the &apos;Install plugin&apos; button.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;플러그인 더 보기&lt;/h3&gt;&lt;p&gt;아직 &lt;b&gt;설치되지 않은&lt;/b&gt; 플러그인이지만 사용은 가능한 플러그인의 리스트를 볼 수 있습니다.&lt;/p&gt;&lt;p&gt;자세한 정보를 보기 위해서는 이름을 클릭하시면 됩니다.&lt;/p&gt;&lt;p&gt;컨택스트 메뉴에서 마우스 오른쪽 클릭으로 분류를 변경할 수 있습니다.&lt;/p&gt;&lt;p&gt;이름을 클릭하여 플러그인을 다운로드하고 설치할 수 있고, &apos;플러그인 설치&apos; 버튼을 클릭하여 설치도 가능합니다.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="64"/>
         <source>&lt;h3&gt;New plugins&lt;/h3&gt;&lt;p&gt;Here you see brand &lt;b&gt;new&lt;/b&gt; plugins which can be installed.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;새로운 플러그인&lt;/h3&gt;&lt;p&gt;설치 가능한 &lt;b&gt;새로운&lt;/b&gt; 플러그인을 볼 수 있습니다.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="75"/>
         <source>&lt;h3&gt;Invalid plugins&lt;/h3&gt;&lt;p&gt;Plugins in this list here are &lt;b&gt;broken or incompatible&lt;/b&gt; with your version of QGIS.&lt;/p&gt;&lt;p&gt;Click on an individual plugin; if possible QGIS shows you more information.&lt;/p&gt;&lt;p&gt;The main reasons to have invalid plugins is that this plugin is not build for this version of QGIS. Maybe you can download an other version from &lt;a href=&quot;http://plugins.qgis.org&quot;&gt;plugins.qgis.org&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Another common reason is that a python plugin needs some external python libraries (dependencies). You can install them yourself, depending on your operating system. After a correct install the plugin should work.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;부적합한 플러그인&lt;/h3&gt;&lt;p&gt;리스트에 있는 플러그인은 &lt;b&gt;깨졌거나&lt;/b&gt;현  QGIS 버전에 &lt;b&gt;호환이 안되는&lt;/b&gt; 플러그인 입니다.&lt;/p&gt;&lt;p&gt; 상세 정보를 보기위해서는 각각의 이름을 클릭하세요.&lt;/p&gt;&lt;p&gt;부적합한 플러그인의 가장 큰 이유는 QGIS와 버전이 맞지 않기 때문입니다. 다른 버전을 &lt;a href=&quot;http://plugins.qgis.org&quot;&gt;plugins.qgis.org&lt;/a&gt;에서 다운로드 할 수 있습니다.&lt;/p&gt;&lt;p&gt;다른 이유는 일부 파이썬 플러그인의 경우에 종속성이 있는 파이썬 라이브러리를 필요로 하기 때문입니다. 이런 경우 운영체제게 맞게 사용자가 직접 설치를 해야 합니다. 수정 후에 플러그인은 정상동작 할 것입니다.&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -45629,164 +45629,164 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="20"/>
         <source>Plugin Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>플러그인 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="109"/>
         <source>Installed</source>
-        <translation type="unfinished"></translation>
+        <translation>설치됨</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="112"/>
         <source>Installed plugins</source>
-        <translation type="unfinished"></translation>
+        <translation>설치된 플러그인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="124"/>
         <source>Get more</source>
-        <translation type="unfinished"></translation>
+        <translation>상세 정보</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="127"/>
         <source>Not installed plugins available for download</source>
-        <translation type="unfinished"></translation>
+        <translation>사용 가능하지만 설치되지 않은 플러그인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="139"/>
         <source>Upgradeable</source>
-        <translation type="unfinished"></translation>
+        <translation>업그레이드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="142"/>
         <source>Installed plugins with more recent version available for download</source>
-        <translation type="unfinished"></translation>
+        <translation>최선 버전이 다운로드 가능한 설치된 플러그인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="154"/>
         <source>New</source>
-        <translation type="unfinished">새로 만들기</translation>
+        <translation>새로 만들기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="157"/>
         <source>Not installed plugins seen for the first time</source>
-        <translation type="unfinished"></translation>
+        <translation>처음으로 발견된 설치되지 않은 플러그인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="169"/>
         <source>Invalid</source>
-        <translation type="unfinished"></translation>
+        <translation>사용불가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="172"/>
         <source>Broken and incompatible installed plugins</source>
-        <translation type="unfinished"></translation>
+        <translation>깨지거나 호환되지 않는 설치된 플러그인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="184"/>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="187"/>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="533"/>
         <source>Settings</source>
-        <translation type="unfinished">설정</translation>
+        <translation>설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="267"/>
         <source>Plugins</source>
-        <translation type="unfinished">플러그인</translation>
+        <translation>플러그인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="282"/>
         <source>Search</source>
-        <translation type="unfinished">검색</translation>
+        <translation>검색</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="308"/>
         <source>in:</source>
-        <translation type="unfinished"></translation>
+        <translation>찾을 영역:</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="315"/>
         <source>names</source>
-        <translation type="unfinished"></translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="322"/>
         <source>descriptions</source>
-        <translation type="unfinished"></translation>
+        <translation>설명</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="329"/>
         <source>tags</source>
-        <translation type="unfinished"></translation>
+        <translation>태그</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="336"/>
         <source>authors</source>
-        <translation type="unfinished"></translation>
+        <translation>제작자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="450"/>
         <source>Upgrade all upgradeable plugins</source>
-        <translation type="unfinished"></translation>
+        <translation>업그레이드 가능한 모든 플러그인을 업그레이드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="453"/>
         <source>Upgrade all</source>
-        <translation type="unfinished">모두 업데이트</translation>
+        <translation>모두 업그레이드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="476"/>
         <source>Uninstall the selected plugin</source>
-        <translation type="unfinished">선택한 플러그인 제거</translation>
+        <translation>선택한 플러그인 제거</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="479"/>
         <source>Uninstall plugin</source>
-        <translation type="unfinished">플러그인 제거</translation>
+        <translation>플러그인 제거</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="495"/>
         <source>Install, reinstall or upgrade the selected plugin</source>
-        <translation type="unfinished">선택된 플러그인을 설치, 재설치 또는 업데이트</translation>
+        <translation>선택된 플러그인을 설치, 재설치 또는 업그레이드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="498"/>
         <source>Reinstall plugin</source>
-        <translation type="unfinished">플러그인 다시 설치</translation>
+        <translation>플러그인 다시 설치</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="549"/>
         <source>Check for updates on startup</source>
-        <translation type="unfinished">시작시 업데이트 확인</translation>
+        <translation>시작시 업데이트 확인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="571"/>
         <source>every time QGIS starts</source>
-        <translation type="unfinished">QGIS가 시작될 때마다.</translation>
+        <translation>QGIS가 시작될 때마다</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="576"/>
         <source>once a day</source>
-        <translation type="unfinished">1 일 1 회</translation>
+        <translation>1 일 1 회</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="581"/>
         <source>every 3 days</source>
-        <translation type="unfinished">매 3 일마다</translation>
+        <translation>매 3 일마다</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="586"/>
         <source>every week</source>
-        <translation type="unfinished">매주</translation>
+        <translation>매주</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="591"/>
         <source>every 2 weeks</source>
-        <translation type="unfinished">2 주마다</translation>
+        <translation>2 주마다</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="596"/>
         <source>every month</source>
-        <translation type="unfinished">매월</translation>
+        <translation>매월</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="616"/>
@@ -45795,12 +45795,16 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Note:&lt;/span&gt; If this function is enabled, QGIS will inform you whenever a new plugin or plugin update is available. Otherwise, fetching repositories will be performed during opening of the Plugin Manager window.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Note:&lt;/span&gt;이 기능이 활성화 되면, QGIS는 새로운 플러그인 혹은 플러그인 업데이트가 가능할 때마다 알려줍니다. 그렇지 않으면, 플러그인 관리자 창이 열려 있는 동안에 저장소 패치가 실행됩니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="649"/>
         <source>Show also experimental plugins</source>
-        <translation type="unfinished"></translation>
+        <translation>실험적인 플러그인도 표시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="673"/>
@@ -45809,7 +45813,7 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Note:&lt;/span&gt; Experimental plugins are generally unsuitable for production use. These plugins are in early stages of development, and should be considered &apos;incomplete&apos; or &apos;proof of concept&apos; tools. QGIS does not recommend installing these plugins unless you intend to use them for testing purposes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
@@ -45818,70 +45822,71 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="712"/>
         <source>Plugin repositories</source>
-        <translation type="unfinished"></translation>
+        <translation>플러그인 저장소</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="741"/>
         <source>Status</source>
-        <translation type="unfinished">상태</translation>
+        <translation>상태</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="746"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="751"/>
         <source>URL</source>
-        <translation type="unfinished">URL</translation>
+        <translation>URL</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="777"/>
         <source>Reload repository contents
 (useful when you uploaded a plugin there)</source>
-        <translation type="unfinished"></translation>
+        <translation>저장소 컨텐츠를 다시 불러오기
+(사용자가 플러그인을 저장소에 올린 경우에 유용함)0</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="781"/>
         <source>Reload repository</source>
-        <translation type="unfinished"></translation>
+        <translation>저장소 다시 불러오기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="801"/>
         <source>Configure an additional plugin repository</source>
-        <translation type="unfinished"></translation>
+        <translation>추가 플러그인 저장소 구성</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="804"/>
         <source>Add a new plugin repository</source>
-        <translation type="unfinished">새로운 플러그인 저장소를 추가</translation>
+        <translation>새로운 플러그인 저장소를 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="807"/>
         <source>Add...</source>
-        <translation type="unfinished">추가...</translation>
+        <translation>추가...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="820"/>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="823"/>
         <source>Edit the selected repository</source>
-        <translation type="unfinished">선택한 저장소 편집</translation>
+        <translation>선택한 저장소 편집</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="826"/>
         <source>Edit...</source>
-        <translation type="unfinished">편집...</translation>
+        <translation>편집...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="833"/>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="836"/>
         <source>Remove the selected repository</source>
-        <translation type="unfinished">선택한 저장소를 제거</translation>
+        <translation>선택한 저장소를 제거</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="839"/>
         <source>Delete</source>
-        <translation type="unfinished">삭제</translation>
+        <translation>삭제</translation>
     </message>
 </context>
 <context>
