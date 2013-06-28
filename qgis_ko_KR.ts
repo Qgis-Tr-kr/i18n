@@ -64427,7 +64427,43 @@ To filter a layer before adding it to the map, either double click on its name o
 &lt;/a&gt;
 Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for searching in different column types and using 2 search modes: &lt;label&gt;Wildcard&lt;/label&gt; or &lt;label&gt;RegExp&lt;/label&gt;.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;SQL Anywhere 테이블 추가&lt;/h3&gt;
+이 대화 상자는 사용자가 SQL Anywhere 레이어(지오메트리가 있는 테이블)를 QGIS 지도 캔버스에 추가할 수 있게 해줍니다.
+&lt;p&gt;
+&lt;a href=&quot;#connect&quot;&gt;연결&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#add&quot;&gt;레이어 추가&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#filter&quot;&gt;레이어 필터링&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#search&quot;&gt;검색 옵션&lt;/a&gt;&lt;br/&gt;
+
+&lt;a href=&quot;#connect&quot;&gt;
+&lt;h4&gt;연결&lt;/h4&gt;
+&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;드롭 다운 상자에서 사용할 연결을 선택하고 &lt;label&gt;연결&lt;/label&gt;을 클릭합니다.
+&lt;li&gt;기존에 정의된 연결이 없는 경우 &lt;label&gt;새로 만들기&lt;/label&gt;버튼을 사용해 연결을 만듭니다.
+&lt;li&gt;선택한 연결을 수정하거나 삭제하려면 &lt;label&gt;수정&lt;/label&gt; 또는 &lt;label&gt;삭제&lt;/label&gt; 버튼을 각각 클릭합니다.
+&lt;/ul&gt;
+&lt;a name=&quot;add&quot;&gt;
+&lt;h4&gt;레이어 추가&lt;/h4&gt;
+&lt;/a&gt;
+레이어를 추가하려면 :
+&lt;ol&gt;
+&lt;li&gt;드롭 다운 상자에서 원하는 연결을 선택합니다.
+&lt;li&gt;&lt;label&gt;연결&lt;/label&gt;을 눌러, 데이터베이스에서 레이어 목록을 받아옵니다. 이 목록을 받아오는 방법에 영향을 주는 옵션은 새 연결 대화 상자의 도움말에 설명되어 있습니다.
+    
+&lt;li&gt;사용자가 추가를 원하는 레이어를 목록에서 찾아 클릭합니다.
+&lt;li&gt;Ctrl 키를 누른 채 레이어를 선택하면 어러 레이어를 선택할 수 있습니다.
+&lt;li&gt;&lt;label&gt;추가&lt;/label&gt;를 눌러 지도에 레이어(들)을 추가합니다.
+&lt;/ol&gt;
+&lt;a name=&quot;filter&quot;&gt;
+&lt;h4&gt;레이어 필터링&lt;/h4&gt;
+&lt;/a&gt;
+지도에 레이어를 추가하기 전에 필터링 하려면, 레이어 이름을 더블클릭 하거나 레이어를 선택하고 &lt;label&gt;질의 만들기&lt;/label&gt; 버튼을 클릭합니다. 이렇게 하면 질의 생성기가 열려, 사용자가 레코드 필터링에 사용할 SQL을 만들수 있게 해줍니다.
+
+&lt;a name=&quot;search&quot;&gt;
+&lt;h4&gt;검색 옵션&lt;/h4&gt;
+&lt;/a&gt;
+&lt;label&gt;검색 옵션&lt;/label&gt;을 체크하면 서로 다른 컬럼 유형에서 검색하거나, 두 검색 모드(&lt;label&gt;와일드 카드&lt;/label&gt; 혹은 &lt;label&gt;정규식&lt;/label&gt;)을 사용하기 위한 추가적인 옵션이 활성화 됩니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="701"/>
@@ -64445,7 +64481,19 @@ Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for
 
 See &lt;a href=&quot;http://gdal.org/ogr/ogr_formats.html&quot;&gt;OGR Vector formats&lt;/a&gt; for a list of supported formats and the available options.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;다른 이름으로 벡터 레이어 저장...&lt;/h3&gt;
+
+&lt;p&gt;이 대화상자는 GDAL/OGR을 이용한 다양한 벡터 데이터 형식을 저장할 수 있게 해줍니다.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;형식&lt;/label&gt;에서 대상 형식(OGR이 지원하는)을 선택할 수 있습니다. 
+&lt;li&gt;&lt;label&gt;새 이름으로 저장&lt;/label&gt;에서 대상 파일의 이름을 입력 하거나 &lt;label&gt;탐색&lt;/label&gt; 버튼을 이용해 파일을 선택할 수 있습니다.
+&lt;li&gt;&lt;label&gt;인코딩&lt;/label&gt; 목록에서 데이터가 어떤 인코딩으로 저장될 지 선택할 수 있습니다. 
+&lt;li&gt;&lt;label&gt;좌표계&lt;/label&gt;를 이용해 저장할 데이터가 재투영 될 좌표계를 선택할 수 있습니다.
+&lt;li&gt;OGR은 지원하는 여러가지 형식을 위한 다양한 옵션을 가지고 있습니다. &lt;label&gt;데이터소스&lt;/label&gt;를 사용하여 데이터소스 옵션 설정을 위한 필드를 추가하고 &lt;label&gt;레이어&lt;/label&gt;를 이용해 옵션을 만드십시오. 한 줄당 하나의 옵션을 입력합니다. (예: SQLite 드라이버를 이용하여 spatialite를 만드시려면 &lt;label&gt;데이터소스&lt;/label&gt;에 &lt;code&gt;SPATIALITE=yes&lt;/code&gt; 입력)
+&lt;/ul&gt;
+
+자원되는 포맷과 사용가능한 옵션을 보시려면 &lt;a href=&quot;http://gdal.org/ogr/ogr_formats.html&quot;&gt;OGR Vector formats&lt;/a&gt;을 참고하세요.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1223"/>
@@ -64503,7 +64551,57 @@ which are described and illustrated on &lt;a href=&quot;http://en.wikipedia.org/
 &lt;p&gt;Contact the author through aruntheguy at gmail dot com&lt;/p&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h1&gt;온도지도 플러그인 도움말&lt;/h1&gt;
+&lt;p&gt;온도지도 플러그인은 입력 점 벡터 레이어에서 밀도(온도) 레스터를 만들기 위해 
+Kernel Density 분석을 사용합니다. 밀도는 위치에 있는 점 수를 기준으로 계산되며,
+많은 점이 모여있으면 높은 값으로 해석됩니다. 온도지도는 &quot;핫스팟&quot;과 점들이
+모이는 것을 쉽게 알아볼 수 있게 해줍니다.&lt;/p&gt;
+
+&lt;h2&gt;대화상자 파라미터&lt;/h2&gt;
+
+&lt;h3&gt;입력 점 레이어&lt;/h3&gt;
+&lt;p&gt;입력은 항상 점 형태의 벡터 레이어입니다. 현재 캔버스에 로드 된 모든 점 벡터 레이어가 드롭 다운 목록에 표시됩니다. 드롭 다운 버튼을 클릭하고 원하는 레이어를 선택합니다.&lt;/p&gt;
+
+&lt;h3&gt;출력 래스터&lt;/h3&gt;
+&lt;p&gt;출력 래스터 파일의 위치와 이름은 출력 래스터 텍스트 상자 옆에있는 &lt;label&gt;...&lt;/label&gt; 버튼을 클릭하여 설정할 수 있습니다.&lt;br/&gt;
+&lt;b&gt;주의:&lt;/b&gt; 명시적으로 지정하지 않은 경우 출력 파일 포맷에 따라 확장자가 자동으로 추가됩니다.&lt;/p&gt;
+
+&lt;h3&gt;출력 형식&lt;/h3&gt;
+&lt;p&gt;드랍 다운 목록에서 모든 파일 생성 지원 GDAL 포맷을 사용할 수 있습니다. 사용자가 원하는 출력 포맷을 클릭하여 선택하십시오.&lt;br/&gt;
+&lt;b&gt;주의:&lt;/b&gt; GeoTiff 와 ERDAS Imagine .img 포맷을 권장합니다. 일부 포맷은 프로그램 출돌이 발생할 수 있습니다. 충돌이 해결 될 때까지 권장 포맷을 이용하시거나 사용자가 알고 있는 GDAL에서 완전히 잘 지원 되는 포맷을 사용하십시오.&lt;/p&gt;
+
+&lt;h3&gt;반지름 (벤드위스)&lt;/h3&gt;
+&lt;p&gt;온도지도의 검색 반지름(혹은 커널 벤드위스)를 미터 혹은 지도 단위로 설정하기 위해 사용됩니다. 반지름은 점의 영향력이 느껴질 점 주변의 거리를 설정합니다.
+큰 값은 많이 스무딩 된 결과를, 작은 값은 점 밀도의 미세한 디테일과 변화를 볼 수 있게 해 줍니다.&lt;/p&gt;
+
+&lt;h3&gt;고급 옵션&lt;/h3&gt;
+
+&lt;h4&gt;행과 열&lt;/h4&gt;
+&lt;p&gt;출력 래스터 파일의 크기를 변경하는 데 사용됩니다. 이 값은 &lt;b&gt;셀 크기 X&lt;/b&gt; 및 &lt;b&gt;셀 크기 Y&lt;/b&gt; 값과 연동됩니다.
+행 수나 열 수를 늘리면 셀 크기가 줄어들고 출력 파일의 크기가 커집니다. 행과 열의 값은 서로 연결되어 있어, 행 수를 두 배로 늘리면
+열 수도 자동적으로 두 배로 늘어나고 셀 크기가 절반으로 줄어듭니다. 하지만 출력 래스터의 지리적 영역은 그대로 유지됩니다!&lt;/p&gt;
+
+&lt;h4&gt;셀 크기 X와 Y&lt;/h4&gt;
+&lt;p&gt;출력 래스터의 각 픽셀의 지리적 크기를 지정 할 수 있습니다. 이 값을 변경하면 출력 래스터의 행과 열 수를 변경합니다.&lt;/p&gt;
+  
+&lt;h4&gt;커널 모양&lt;/h4&gt;
+&lt;p&gt;커널 모양은 점의 영향이 점으로부터의 거리가 증가함에 따라 감소되는 속도를 제어합니다. 다른 커널은 다른 비율로 붕괴하며, 
+triweight 커널은 Epanechnikov 커널 보다 가까운 점에 대해 가중치가 더 큰 특성을 제공합니다.
+따라서 triweight은 &quot;선명한&quot; 핫스팟이 생기고, Epanechnikov은 &quot;부드러운&quot; 한 스팟이 생깁니다. QGIS에서 사용가능한 몇 가지 표준 커널 함수가 
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Kernel_(statistics)#Kernel_functions_in_common_use&quot;&gt;Wikipedia&lt;/a&gt;에 그림과 함께 설명되어 있습니다.&lt;/p&gt;
+
+&lt;h4&gt;붕괴 비율&lt;/h4&gt;
+&lt;p&gt;삼각형 커널의 붕괴 비율은 버퍼 반지름의 가장자리 픽셀에 적용되는 영향의 양을 정의합니다. 0 값은 표준 삼각 커널을 반영하는데, 영향을 주는 점에서 부터의 거리가 지정된 반지름에 접근하면 영향력이 0으로 떨어짐을 나타냅니다. 반대로, 1 값은 점에서의 거리가 증가 해도 감쇠가 발생하지 않음을 나타냅니다.&lt;/p&gt;
+
+&lt;h4&gt;필드값에서 반지름 사용&lt;/h4&gt;
+&lt;p&gt;선택적으로, 지정된 필드의 값으로 입력 레이어의 각 점에 대한 커널 반경을 지정 할 수 있습니다.&lt;/p&gt;
+
+&lt;h4&gt;플드값에서 가중치 사용&lt;/h4&gt;
+&lt;p&gt;선택적으로, 속성에 담겨있는 가중치 값을 입력 레이어에 있는 다른 점들에 비해 가중치로 사용될 수 있습니다.&lt;/p&gt;
+
+&lt;h2&gt;상세 정보&lt;/h2&gt;
+&lt;p&gt;aruntheguy@gmail.com 으로 저작자에게 연락 바랍니다.&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="895"/>
@@ -64837,7 +64935,18 @@ Click on one of the icons along the top of the composer window to select what ty
 &lt;/p&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;출력 구성&lt;/h3&gt;
+
+&lt;p&gt;
+출력 구성은 페이지에 아이템을 배치하고, 이것들을 출력할 수 있게 합니다. 아이템에는 지도 캔버스, 스케일 바, 범례, 임의의 이미지 등이 포함됩니다.
+&lt;/p&gt;
+
+&lt;p&gt;
+어떤 아이템을 페이지에 넣을지 선택하기 위해 구성 윈도우 위쪽에 있는 아이콘 중 하나를 클릭하십시오. 지도 캔버스와 스케일 바 등 일부 항목의 크기는 페이지에서 클릭하고 드래그하여 설정할 수 있습니다. 다른 아이템들은 고정 크기를 가지고 있으나, 나중에 아이템을 선택하고 왼쪽 창에서 크기 필드를 조정하여 변경할 수 있습니다.
+
+&lt;/p&gt;
+
+</translation>
     </message>
 </context>
 <context>
