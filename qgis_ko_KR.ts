@@ -63090,43 +63090,43 @@ On this tab you can search for WMS servers. It is possible to enter a search-str
 To visualize the results, select an table entry, press the &lt;label&gt;Add selected row to WMS list&lt;/label&gt; button and change back to the &lt;label&gt;Servers&lt;/label&gt; tab.&lt;p&gt;
 You only need to request the list of layers by clicking the &lt;label&gt;Connect&lt;/label&gt; button.
 </source>
-        <translation type="unfinished">
-fTools의 목적은 많은 일반적인 벡터 기반 GIS 작업을 위해 추가 소프트웨어 또는 라이브러리 또는 복잡한 해결 방법을 이용하지 않고 원스톱 리소스를 제공하는 것입니다.
+        <translation>&lt;h3&gt;새로운 WMS 연결하기&lt;/h3&gt;
+WMS에 접근할 수 있는 URL을 알고, 그 서버에 서비스 가능한 연결을 가지고 있고, 그 서버가 데이터 전송 메커니즘에 따른 HTTP를 이해하고 있다면, WMS 레이어는 상당히 쉽게 추가될 수 있습니다.&lt;p&gt;
+QGIS는 현재  WMS 1.1, 1.1.1 과 1.3 서버를 이해할 수 있는  WMS 클라이언트로 행동할 수 있습니다.
+&lt;p&gt;
+&lt;a href=&quot;#serv&quot;&gt;서버&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#load&quot;&gt;WMS 레이어 불러오기&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#lay&quot;&gt;레이어 순서&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#search&quot;&gt;서버 검색&lt;/a&gt;&lt;br/&gt;
 
-fTools은 QGIS의 핵심 기능과 파이썬 라이브러리만을 이용해 QuantumGIS 확장하도록 설계되어 있습니다. 급속히 기능이 증가하고 있는 공간 데이터 관리 및 분석 기능을 제공합니다. 또한 Dr. Horst Duester and Stefan Ziegler의 지오프로세싱 기능이 통합되어 GIS 기반의 조사와 분석을 보다 효율적으로 사용할 수 있습니다.
+&lt;a name=&quot;serv&quot;&gt;
+&lt;h4&gt;서버&lt;/h4&gt;
+&lt;/a&gt;
+&lt;label&gt;서버 연결&lt;/label&gt; 섹션에서 새로운 WMS 서버를 정의하기 위해서는, &lt;label&gt;새로운 연결&lt;/label&gt;을 선택합니다. 그리고 연결을 희망하는 WMS 서버의 파라미터들을 입력합니다.&lt;p&gt;
+&lt;label&gt;기본 서버 추가&lt;/label&gt; 버튼을 클릭하여 몇 개의 서버를 추가할 수 있습니다. 사용자가 사용할 최소한 3개 이상의 WMS 서버를 추가해야 합니다.&lt;p&gt;
+새로운 WMS 서버 연결이 생성되면, 그 연결은 향후에 QGIS 세션을 위해 저장됩니다.
 
-버그 보고와 조언을 주시면 fTools은 발전할 것입니다. 질문이 있으시면 carson.farmer@gmail.com으로 이메일을 주십시오.
+&lt;a name=&quot;load&quot;&gt;
+&lt;h5&gt;WMS 레이어 불러오기&lt;/h5&gt;
+&lt;/a&gt;
+선택된 서버의 사용여부를 조회하기 위해 &lt;label&gt;연결&lt;/label&gt; 버튼을 선택합니다. 여기에는 이미지 인코딩, 레이어, 레이어 스타일과 투영법등이 있습니다.&lt;br/&gt;
+WMS 서버로부터 데이터를 다운로드 받는 동안에,WMS 플러그인 대화상자 왼편 아래쪽에 다운로드 진행상황이 보여집니다.&lt;p&gt;
+&lt;label&gt;이미지 인코딩&lt;/label&gt; 섹션은 클라이언트와 서버 모두에서 지원 가능한 포멧의 목록을 보여줍니다.&lt;br/&gt;
+사용자의 이미지 정확도 요구사항에 맞게 하나를 선택하십시오.&lt;p&gt;
+한번에 여러개의 레이어를 선택할 수 있고, 그것들은 WMS 서버에서 합쳐져서 바로 QGIS로 전송됩니다. &gt;&lt;p&gt;
+각각의 WMS 레이어는 WMS 서버의 가능여부에 따라 여러개의 좌표계에서 표현될 수 있습니다. 좌표계를 변경하기 위해서는 &lt;label&gt;변경...&lt;/label&gt;을 선택하세요
 
-LICENSING INFORMATION:
-fTools is copyright (C) 2009 Carson J. Q. Farmer
-Geoprocessing functions adapted from &apos;Geoprocessing Plugin&apos;
-(C) 2008 by Dr. Horst Duester, Stefan Ziegler
+&lt;a name=&quot;lay&quot;&gt;
+&lt;h4&gt;레이어 순서&lt;/h4&gt;
+&lt;/a&gt;
+이 탭에서 사용자는 불러온 WMS 레이어의 순서를 변경할 수 있습니다.
 
-licensed under the terms of GNU GPL 2
-This program is free software; you can redistribute it and / or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc. 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-
-fTools 개발자:
-Carson J. Q. Farmer
-Alexander Bruy
-** 만약 당신이 fTools 코드에 기여하셨는데 당신의 이름을 여기에 없다면 연락을 해주십시오. 당신의 이름을 추가해 드리겠습니다.
-
-감사의 말:
-다음 사람들은 (그들이 알고 있자가 않든) 아이디어, 도움말, 테스트, 코드와 방향제시로 프로젝트에 기여해 주었습니다. 감사합니다.
-Hawthorn Beyer
-Borys Jurgiel
-Tim Sutton
-Barry Rowlingson
-Horst Duester and Stefan Ziegler
-Paolo Cavallini
-Aaron Racicot
-Colin Robertson
-Agustin Lobo
-Jurgen E. Fischer
-QGis developer and user communities
-Folks on # qgis at freenode.net
-All those who have reported bugs / fixes / suggestions / comments / etc.
+&lt;a name=&quot;search&quot;&gt;
+&lt;h4&gt;서버 검색&lt;/h4&gt;
+&lt;/a&gt;
+이 탬에서 사용자는 WMS 서버를 검색할 수 있습니다. 텍스트 필드에 검색 문자열을 입력하고, &lt;label&gt;검색&lt;/label&gt; 버튼을 누르면 됩니다.&lt;p&gt;
+결과를 보기 위해서는, 테이블 엔트리를 선택하고, &lt;label&gt;선택된 열을 WMS 목록에 추가하기&lt;/label&gt; 버튼을 누르고, 변경하여 &lt;label&gt;서버&lt;/label&gt; 탭으로 돌아갑니다.&lt;p&gt;
+사용자는 &lt;label&gt;연결&lt;/label&gt; 버튼을 클릭하여 레이어 목록을 요청하기만 하면 됩니다.
 </translation>
     </message>
     <message>
