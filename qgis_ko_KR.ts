@@ -9506,7 +9506,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Import Sextante class</source>
-        <translation>육분의 클래스 가져오기</translation>
+        <translation>SEXTANTE 클래스 가져오기</translation>
     </message>
     <message>
         <source>Import PyQt.QtCore class</source>
@@ -60877,27 +60877,27 @@ Tried URL: %1</source>
     </message>
     <message>
         <source>&amp;SEXTANTE toolbox</source>
-        <translation>&amp;육분의 도구박스</translation>
+        <translation>&amp;SEXTANTE 도구박스</translation>
     </message>
     <message>
         <source>&amp;SEXTANTE modeler</source>
-        <translation>&amp;육분의 모델러</translation>
+        <translation>&amp;SEXTANTE 모델러</translation>
     </message>
     <message>
         <source>&amp;SEXTANTE history and log</source>
-        <translation>&amp;육분의 히스토리와 기록</translation>
+        <translation>&amp;SEXTANTE 히스토리와 기록</translation>
     </message>
     <message>
         <source>&amp;SEXTANTE options and configuration</source>
-        <translation>&amp;육분의 선택사항과 환경설정</translation>
+        <translation>&amp;SEXTANTE 선택사항과 환경설정</translation>
     </message>
     <message>
         <source>&amp;SEXTANTE results viewer</source>
-        <translation>&amp;육분의 결과 뷰어</translation>
+        <translation>&amp;SEXTANTE 결과 뷰어</translation>
     </message>
     <message>
         <source>&amp;SEXTANTE commander</source>
-        <translation>&amp;육분의 커맨더</translation>
+        <translation>&amp;SEXTANTE 커맨더</translation>
     </message>
 </context>
 <context>
@@ -61621,13 +61621,13 @@ SQL Anywhere 오류 코드: %2
     <message>
         <location filename="../python/plugins/sextante/ui/SextanteToolbox.ui" line="14"/>
         <source>SEXTANTE Toolbox</source>
-        <translation>육분의 도구박스</translation>
+        <translation>SEXTANTE 도구박스</translation>
     </message>
     <message>
         <location filename="../python/plugins/sextante/ui/SextanteToolbox.ui" line="27"/>
         <source>Click here to learn more
 about SEXTANTE</source>
-        <translation>육분의에 대한 자세한 사항은
+        <translation>SEXTANTE에 대한 자세한 사항은
 다음을 참조해 주십시오</translation>
     </message>
     <message>
@@ -64935,7 +64935,7 @@ The following options can be added
 &lt;p&gt;
 &lt;a href=&quot;#re&quot;&gt;요약&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#creating&quot;&gt;구분자로 분리된 텍스트 파일 만들기&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#csv&quot;&gt;구분자, 따옴표, 이스케이프 문자가 동작하는 방법/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#csv&quot;&gt;구분자, 따옴표, 이스케이프 문자가 동작하는 방법&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;#regexp&quot;&gt;정규 표현식 구분 기호가 작동하는 방법&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;#wkt&quot;&gt;WKT 텍스트를 해석하는 방법&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;#attributes&quot;&gt;구분자로 분리된 텍스트 파일 내의 속성&lt;/a&gt;&lt;br /&gt;
@@ -64973,13 +64973,14 @@ date, time, datetime 형식은 QGIS에서 문자열로 처리됩니다.
 각 타입은 예를 들어 &amp;quot;real(10.4)&amp;quot; 처럼 폭과 정밀도가 있을 수 있습니다.
 타입 리스트는 데이터 파일이 사용하는 구분자와 상관없이 할상 쉽표로 구분됩니다.
 유효한 포맷 파일의 예는 다음과 같습니다:
+at file would be:
 &lt;/p&gt;
 
 &lt;pre&gt;
 &amp;quot;integer&amp;quot;,&amp;quot;string&amp;quot;,&amp;quot;string(20)&amp;quot;,&amp;quot;real(20.4)&amp;quot;
 &lt;/pre&gt;
 
-&lt;h4&gt;&lt;a name=&quot;creating&quot;&gt;Creating a delimited text layer&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a name=&quot;creating&quot;&gt;구분자로 분리된 텍스트 파일 만들기&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Creating a delimited text layer involves choosing the data file, defining the format (how each record is to
 be split into fields), and defining the geometry is represented.  
 This is managed with the delimited text dialog as detailed below.  
@@ -65067,7 +65068,7 @@ extents will be reloaded.  This option should be selected if indexes are used an
 application will change the file. &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4&gt;&lt;a name=&quot;csv&quot;&gt;How the delimiter, quote, and escape characters work&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a name=&quot;csv&quot;&gt;구분자, 따옴표, 이스케이프 문자가 동작하는 방법&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Records are split into fields using three character sets: 
 delimiter characters, quote characters, and escape characters.  
 Other characters in the record are considered as data, split into
@@ -65094,7 +65095,7 @@ are escaped.&lt;/p&gt;
 &lt;/p&gt;
 
 
-&lt;h4&gt;&lt;a name=&quot;regexp&quot;&gt;How regular expression delimiters work&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a name=&quot;regexp&quot;&gt;정규 표현식 구분 기호가 작동하는 방법&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Regular expressions are mini-language used to represent character patterns.  There are many variations
 of regular expression syntax - QGIS uses the syntax provided by the &lt;a href=&quot;http://qt-project.org/doc/qt-4.8/qregexp.html&quot;&gt;QRegExp&lt;/a&gt; class of the &lt;a href=&quot;http://qt.digia.com&quot;&gt;Qt&lt;/a&gt; framework.&lt;/p&gt;
 &lt;p&gt;In a regular expression delimited file each line is treated as a record.  Each match of the regular expression in the line is treated as the end of a field.  
@@ -65116,7 +65117,7 @@ Lines less than 55 characters long will be discarded.
 &lt;/p&gt;
 
 
-&lt;h4&gt;&lt;a name=&quot;wkt&quot;&gt;How WKT text is interpreted&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a name=&quot;wkt&quot;&gt;WKT 텍스트를 해석하는 방법&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;
 The delimited text layer recognizes the following 
 &lt;a href=&quot;http://en.wikipedia.org/wiki/Well-known_text&quot;&gt;well known text&lt;/a&gt; types - 
@@ -65133,7 +65134,7 @@ In both cases the SRID is ignored.
 
 
 
-&lt;h4&gt;&lt;a name=&quot;attributes&quot;&gt;Attributes in delimited text files&lt;/a&gt;&lt;/h4&gt; 
+&lt;h4&gt;&lt;a name=&quot;attributes&quot;&gt;구분자로 분리된 텍스트 파일 내의 속성&lt;/a&gt;&lt;/h4&gt; 
 &lt;p&gt;Each record in the delimited text file is split into fields representing
 attributes of the record.  Usually the attribute names are taken from the first
 data record in the file.  However if this does not contain attribute names, then they will be named &lt;tt&gt;field_1&lt;/tt&gt;, &lt;tt&gt;field_2&lt;/tt&gt;, and so on.  
@@ -65158,7 +65159,7 @@ are interpreted.
 &lt;/p&gt;
 
 
-&lt;h4&gt;&lt;a name=&quot;example&quot;&gt;Example of a text file with X,Y point coordinates&lt;/a&gt;&lt;/h4&gt; 
+&lt;h4&gt;&lt;a name=&quot;example&quot;&gt;X, Y 점 좌표를 가진 텍스트 파일 예제&lt;/a&gt;&lt;/h4&gt; 
 &lt;pre&gt;
 X;Y;ELEV
 -300120;7689960;13
@@ -65172,7 +65173,7 @@ X;Y;ELEV
 &lt;li&gt;The x coordinates are contained in the X field.&lt;/li&gt;
 &lt;li&gt;The y coordinates are contained in the Y field.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;&lt;a name=&quot;wkt_example&quot;&gt;Example of a text file with WKT geometries&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a name=&quot;wkt_example&quot;&gt;WKT 지오메트리를 가진 텍스트 파일 예제&lt;/a&gt;&lt;/h4&gt;
 &lt;pre&gt;
 id|wkt
 1|POINT(172.0702250 -43.6031036)
@@ -65188,7 +65189,7 @@ id|wkt
   &lt;li&gt;Specifies each point using the WKT notation
 &lt;/ul&gt;
 
-&lt;h4&gt;&lt;a name=&quot;python&quot;&gt;Using delimited text layers in Python&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a name=&quot;python&quot;&gt;파이썬에서 구분자로 분리된 텍스트 파일 다루기&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Delimited text data sources can be creating from Python in a similar way to other vector layers.
 The pattern is:
 &lt;/p&gt;
