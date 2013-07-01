@@ -64930,7 +64930,305 @@ The following options can be added
 
 
 </source>
-        <translation type="unfinished">&lt;h3&gt;구분자로 분리된 텍스트 파일 레이어&lt;/h3&gt;
+        <translatorcomment>&lt;h3&gt;구분자로 분리된 텍스트 파일 레이어&lt;/h3&gt;
+구분자로 분리된 텍스트 파일을 읽고 표시
+&lt;p&gt;
+&lt;a href=&quot;#re&quot;&gt;요약&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#creating&quot;&gt;구분자로 분리된 텍스트 파일 만들기&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#csv&quot;&gt;구분자, 인용 문자, 이스케이프 문자가 동작하는 방법&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#regexp&quot;&gt;정규 표현식 구분 기호가 작동하는 방법&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#wkt&quot;&gt;WKT 텍스트를 해석하는 방법&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#attributes&quot;&gt;구분자로 분리된 텍스트 파일 내의 속성&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#example&quot;&gt;X, Y 점 좌표를 가진 텍스트 파일 예제&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#wkt_example&quot;&gt;WKT 지오메트리를 가진 텍스트 파일 예제&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#python&quot;&gt;파이썬에서 구분자로 분리된 텍스트 파일 다루기&lt;/a&gt;&lt;br/&gt;
+&lt;/p&gt;
+
+&lt;h4&gt;&lt;a name=&quot;re&quot;&gt;요약&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;
+&amp;quot;구분자로 분리된 텍스트 파일&amp;quot;는 각 줄당 하나씩의 레코드가 들어있고, 각 줄은 
+쉼표와 같은 구분자로 분리된 데이터를 담고 있습니다.
+이런 형식의 파일은 일반적으로 엑셀 등에서 내보내기 형식(예로 CSV 파일)으로 만들어 지거나 
+테이터베이스에서 만들어집니다.
+일반적으로 구분자로 분리된 텍스트 파일의 첫 줄에는 각 필드들의 이름이 담깁니다.
+&lt;/p&gt;
+&lt;p&gt;
+구분자로 분리된 텍스트 파일은 QGIS에 레이어로 로딩됩니다.
+각 레코드는 X, Y 좌표로 정의된 점이거나 WKT로 정의된 점, 선, 임의의 복잡한 폴리곤 등의 
+지도메트리로 공간적으로 표현될 수 있습니다. 
+파일은 속성만 있는 테이블로도 로드될 수 있고, 이런 테이블은 QGIS에서 다른 테이블과
+조인될 수 있습니다.
+&lt;/p&gt;
+&lt;p&gt;
+추가적으로 파일에 있는 지오메트리 정의는 텍스트, 정수, 실수 필드를 포함할 수 있습니다. 기본적으로 QGIS는
+비어있지 않은 필드 값을 기준으로 타입을 선택합니다. 만약 모두 정수로 해석 될 수 있다면 타입은 integer로 되고,
+실수로 해설될 수 있다면 타입은 double로 되고, 그렇지 않은 경우는 타입이 텍스트로 설정됩니다.
+&lt;/p&gt;
+&lt;p&gt;
+QGIS는 OGR CSV 드라이버와 호환되는 &amp;quot;csvt&amp;quot;파일 형식을 읽을 수 있습니다.
+이것은 데이터 파일과 쌍을 이루는 파일이지만, 파일 이름에 &amp;quot;t&amp;quot;가 추가되어 있습니다.  
+이 파일에는 각 필드의 타입 리스트가 있는 단 한 줄만 들어가야 합니다.
+가능한 형식은 &amp;quot;integer&amp;quot;, &amp;quot;real&amp;quot;, &amp;quot;string&amp;quot;, &amp;quot;date&amp;quot;, &amp;quot;time&amp;quot;, &amp;quot;datetime&amp;quot; 입니다. 
+date, time, datetime 형식은 QGIS에서 문자열로 처리됩니다.
+각 타입은 예를 들어 &amp;quot;real(10.4)&amp;quot; 처럼 폭과 정밀도가 있을 수 있습니다.
+타입 리스트는 데이터 파일이 사용하는 구분자와 상관없이 항상 쉽표로 구분됩니다.
+유효한 포맷 파일의 예는 다음과 같습니다:
+&lt;/p&gt;
+
+&lt;pre&gt;
+&amp;quot;integer&amp;quot;,&amp;quot;string&amp;quot;,&amp;quot;string(20)&amp;quot;,&amp;quot;real(20.4)&amp;quot;
+&lt;/pre&gt;
+
+&lt;h4&gt;&lt;a name=&quot;creating&quot;&gt;구분자로 분리된 텍스트 파일 만들기&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;
+구분자로 분리된 텍스트 파일을 만들 때는 데이터 파일을 선택하고, 형식을 정의(어떻게 각 레코드가 필드로 
+분리되는지)하고, 지오메트리 정의를 해야합니다.
+이는 구분자로 분리된 텍스트 레이어 대화상자에서 상세히 관리할 수 있습니다.
+이 대화상자는 파일의 시작 부분을 표시해서 형식 옵션이 적용되는 방법을 보여줍니다.
+&lt;/p&gt;
+&lt;h5&gt;데이터 파일 선택&lt;/h5&gt;
+&lt;p&gt;
+데이터 파일을 선택하기 위해서 &amp;quot;탐색...&amp;quot;버튼을 사용합니다. 파일이 선택되면
+레이어 이름은 자동적으로 파일 이름을 기반으로 정해집니다. 레이어 이름은 QGIS의 범례에서 데이터를 
+나타내는데 사용됩니다.
+&lt;/p&gt;
+&lt;p&gt;
+기본적으로 파일은 UTF-8 인코딩을 사용하는 것으로 가정됩니다. 
+그러나 다른 파일 인코딩도 선택할 수 있습니다. 예를 들어 &amp;quot;시스템&amp;quot;은 운영체제의 기본 인코딩을 사용합니다.
+만약 QGIS 프로젝트를 다른 사람에게 복사해줄 필요가 있다면 명시적인 인코딩을 사용하는 것이 안전합니다.
+&lt;/p&gt;
+&lt;h5&gt;파일 포맷 선택&lt;/h5&gt;
+&lt;p&gt;파일 포맷은 다음 중 하나일 수 있음
+&lt;ul&gt;
+    &lt;li&gt;CSV 파일 포맷.  이것은 스프래드쉬트에서 흔히 이용되는 형식으로, 각 필드는 쉼표에 의해 분리되고,
+    따옴표(&amp;quot;)가 문자열을 묶기 위해 사용됩니다. 따옴표로 묶인 필드 내에서는, 따옴표를
+	&amp;quot;&amp;quot;로 입력해야 합니다.&lt;/li&gt;
+    &lt;li&gt;구분자 선택됨.  각 레코드는 하나 이상의 구분자 문자를 이용해 필드로 분리됩니다.
+	인용 문자는 구분자를 포함한 필드를 위해 사용됩니다. 이스케이프 문자는 그 뒤의 문자를
+	일반 문자로 처리하기 위해 사용됩니다(예: 텍스트 필드의 구분자, 인용 문자, 줄넘김 문자).
+	구분자, 인용 문자, 이스케이프 문자의 사용은 &lt;a href=&quot;#csv&quot;&gt;여기&lt;/a&gt;에서 자세히 알 수 있습니다.&lt;/li&gt;
+	&lt;li&gt;정규식.  각 라인은 &amp;quot;정규식&amp;quot; 구분자를 이용해 필드로 분리됩니다.
+	정규식 사용법은 &lt;a href=&quot;#regexp&quot;&gt;여기&lt;/a&gt;에서 자세히 알 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;레코드와 필드 옵션&lt;/h5&gt;
+&lt;p&gt;다음 옵션은 데이터 파일에서 레코드와 필드를 선택하는데 영향을 줍니다.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;무시할 헤더 라인 수: 텍스트 파일의 시작위치부터 헤더 라인을 무시하는데 사용됨&lt;/li&gt;
+    &lt;li&gt;첫 레코드가 필드 이름을 가짐: 만약 선택되면 파일의 (무시되는 라인 이후)첫 줄은 데이터 레코드가 아닌 필드 이름으로 해석 됨&lt;/li&gt;
+    &lt;li&gt;필드 트림: 만약 선택되면 각 필드(인용 문자로 묶인 필드는 제외)의 앞, 뒤 공백은 제거됨&lt;/li&gt;
+    &lt;li&gt;빈 필드 무시: 만약 선택되면 (트림 후에) 빈 필드는 무시됨. 이것은 각 필드에 데이터가 
+	맞게 정렬되는데 영향을 주며 연속 구분기호를 단일 구분기호로 취급합니다. 
+	인용 문자로 묶인 필드는 무시되지 않습니다.&lt;/li&gt;
+    &lt;li&gt;소수점 기호로 쉼표 사용: 만약 선택되면 점 대신 쉼표를 정수부와 실수부 구분자로 사용합니다. 
+	예를 들면 &lt;tt&gt;-51,354&lt;/tt&gt;는 -51.354와 같습니다.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;지오메트리 정의&lt;/h5&gt;
+&lt;p&gt;지오메트리는 다음 중 하나로 정의될 수 있음&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;점 좌표쌍: 각 객체는 X, Y 좌표로 정의된 점으로 표현됩니다.&lt;/li&gt;
+    &lt;li&gt;Well known text (WKT) 지오메트리: 각 객체는 예를 들어 &lt;tt&gt;POINT(1.525622 51.20836)&lt;/tt&gt; 같은 
+	WKT로 정의됩니다. &lt;a href=&quot;#wkt&quot;&gt;well known text&lt;/a&gt;에서 자세한 정보를 확인하세요.
+    &lt;li&gt;지오메트리 없음(속성만 있는 테이블): 레코드들이 지도상에 표시되지 않고, 속성 테이블에만 
+	보여서 QGIS에서 다른 테이블과 조인되어 보일 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;점 좌표를 위해서는 다음과 같은 옵션이 있음:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;X 필드: X 좌표를 담고 있는 필드를 지정&lt;/li&gt;
+    &lt;li&gt;Y 필드: Y 좌표를 담고 있는 필드를 지정&lt;/li&gt;
+    &lt;li&gt;DMS 각도: 만약 선택되면 좌표는 도/분/초 혹은 도/분으로 표현됩니다.
+	QGIS는 도/분의 해석에 매우 관대합니다. 유효한 도분초 좌표는 옵션인 반구 접두사 혹은 접미사
+	(N, E 혹은 +는 양의 각도, S, W 혹은 -는 음의 각도)와 세 개의 숫자 필드를 포함합니다.
+	추가적인 숫자가 아닌 문자는 일반적으로 생략됩니다. 예를 들어 &lt;tt&gt;N41d54&amp;quot;01.54&amp;quot;&lt;/tt&gt;는 올바른 좌표입니다.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;WKT 지오메트리를 위해서는 다음과 같은 옵션이 있음:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;지오메트리 필드: WKT 정의를 포함하고 있는 필드&lt;/li&gt;
+    &lt;li&gt;지오메트리 타입: &amp;quot;감지&amp;quot;, &amp;quot;점&amp;quot;, &amp;quot;선&amp;quot;, &amp;quot;폴리곤&amp;quot; 중 하나.
+	QGIS 레이어는 단지 한 가지 지오메트리만 타입(점, 선, 폴리곤)만 표시할 수 있습니다.
+	이 옵션은 여러 지오메트르 타입이 포함된 텍스트 필드에서 어떤 지오메트리 타입을 표시할 지 선택합니다.
+	다른 지오메트리 타입을 포함하고 있는 필드는 삭제됩니다.
+	만약 &amp;quot;감지&amp;quot;가 선택되면 파일의 첫 번째 지오메트리의 타입이 사용됩니다.
+	&amp;quot;점&amp;quot;은 POINT와 MULTIPOINT WKT 타입을 포함하며, &amp;quot;선&amp;quot;은 LINESTRING 와 MULTLINESTRING WKT를 포함하고,
+	&amp;quot;폴리곤&amp;quot;은 POLYGON 와 MULTIPOLYGON WKT를 포함합니다.
+&lt;/ul&gt;
+&lt;h5&gt;레이어 설정&lt;/h5&gt;
+&lt;p&gt;레이어 설정은 QGIS가 레이어를 다루는 방법을 조정합니다. 사용 가능한 옵션은 다음과 같습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;공간 인덱스 사용. 공간 객체의 표시와 선택 성능 향상을 위해 공간 인덱스를 생성합니다.
+이 옵션은 파일이 몇 메가바이트 이상의 크기일때 유용합니다.&lt;/li&gt;
+&lt;li&gt;서브셋 인덱스 사용. 사용된 레코드 서브셋의 인덱스를 만듭니다(레이어 속성 대화상자에서 명시적인 서브셋 
+문자열 설정, 혹은 모든 지오메트리가 유효하지 않을 때 유효한 지오메트리인 암시적인 객체 서브셋).
+이 인덱스는 서브셋이 정의된 경우만 만들어 집니다.&lt;/li&gt;
+&lt;li&gt;파일 감시. 만약 이 옵션이 선택되면 QGIS는 파일이 다른 어플리케이션에 의해 변경되는지를 감시하고,
+파일이 변경된 경우 다시 읽습니다.  지도는 사용자가 리프레쉬 할 때까지 갱신되지 않지만, 인덱스와 범위는 
+다시 읽혀집니다.  이 옵션은 인덱스가 사용되고 있고 다른 어플리케이션이 파일을 변경할 가능성이 있을 때
+선택됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;&lt;a name=&quot;csv&quot;&gt;구분자, 인용 문자, 이스케이프 문자가 동작하는 방법&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;레코드는 세 개의 문자 세트(구분자, 인용 문자, 이스케이프 문자)를 이용해 필드로 분리됩니다.
+레코드에 있는 다른 문자들은 데이터로 간주되면, 구분자에 의해 필드로 분리된다.
+인용 문자는 쌍으로 들어가야 되고 그 사이의 문자열들이 하나의 테이터로 간주됩니다.
+이스케이프 문자는 뒤에 오는 문자를 데이터로 간주하게 합니다.
+&lt;/p&gt;
+&lt;p&gt;
+인용 문자와 이스케이프 문자는 구분자와 같을 수 없습니다. 만약 같다면 무시됩니다.
+이스케이프 문자는 인용 문자와 같을 수 있지만, 서로 다르게 동작합니다.&lt;/p&gt;
+&lt;p&gt;구분자는 각 필드의 끝을 표시하기 위해 사용됩니다. 만약 하나 이상의 구분자가 지정되면
+이 중 어떤 문자로도 필드의 끝을 표시할 수 있습니다. 인용 문자와 이스케이프 문자는
+구분자를 재정의해 일반 문자로 처리되게 할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;인용 문자는 인용문 필드의 시작과 끝을 표시하는데 사용됩니다. 인용문 필드는 구문자를 포함할 수 있고
+텍스트 파일에서 여러 줄로 이루어질 수 있습니다. 인용문은 같은 인용 문자로 시작하고 끝나야 합니다.
+인용 문자는 이스케이프 문자 없이 필드 내에 있을 수 없습니다.
+&lt;/p&gt;
+&lt;p&gt;인용 문자가 아닌 이스케이프 문자는 특수 문자들(개행 문자, 구분자, 인용문자)을 강제로 데이터로 취급하게 합니다.
+&lt;/p&gt;
+&lt;p&gt;인용 문자를 이스케이프 문자로 사용할 경우는 제약이 많습니다. 이것은 인용문 내에서 인용 문자를 쓸 수 있게만 해줄 수 있습니다.
+예륻 들어, &lt;tt&gt;&amp;quot;&lt;/tt&gt;가 인용 문자인 동시에 이스케이프 문자라면, &lt;tt&gt;&amp;quot;Smith&amp;quot;&amp;quot;s&amp;nbsp;Creek&amp;quot;&lt;/tt&gt; 라는 문자열은
+Smith&amp;quot;s&amp;nbsp;Creek 로 해석됩니다.
+&lt;/p&gt;
+
+
+&lt;h4&gt;&lt;a name=&quot;regexp&quot;&gt;정규 표현식 구분 기호가 작동하는 방법&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;정규식은 문자 패턴을 묘사하는데 사용하는 미니 랭귀지 입니다. 정규식의 구문에는 많은 변형판이 있습니다.
+QGIS는 &lt;a href=&quot;http://qt.digia.com&quot;&gt;Qt&lt;/a&gt; 프레임워크의 클래스인 &lt;a href=&quot;http://qt-project.org/doc/qt-4.8/qregexp.html&quot;&gt;QRegExp&lt;/a&gt;에서 제공되는 문법을 사용합니다.&lt;/p&gt;
+&lt;p&gt;정규식으로 구분되는 파일에서 각 라인은 한 개의 레코드로 취급됩니다. 라인에서 정규 표현식과 일치하는 각 부분은 필드의 끝으로 취급됩니다. 
+만약 정규식이 캡처 그룹(예: &lt;tt&gt;(cat|dog)&lt;/tt&gt;)을 포함한다면 이것들은 필드로 추출됩니다.
+이를 원하지 않는다면 비 캡처 그룹(예: &lt;tt&gt;(?:cat|dog)&lt;/tt&gt;)을 이용하십시오.
+&lt;/p&gt;
+&lt;p&gt;정규식이 라인의 시작 부분에 위치 한다면 다르게 처리됩니다(즉 패턴이 &lt;tt&gt;^&lt;/tt&gt;로 시작).
+이 경우 정규식은 각 라인에 매치됩니다. 만약 일치하지 않으면 잘못된 레코드로 간주되어 무시됩니다.
+식 내의 각 캡처 그룹은 필드로 취급됩니다. 캡춰 그룹이 조건을 벗어나면 정규식은 유효하지 않습니다.
+한 예로 이는 고정 폭 데이터 로딩을 (다소 직관적으로) 의미하는데 이용될 수 있습니다.
+예를 들어 다음 식&lt;/p&gt;
+&lt;pre&gt;
+^(.{5})(.{10})(.{20})(.{20})
+&lt;/pre&gt;
+&lt;p&gt;은 각 라인에서 5, 10, 20, 20 문자 길이의 4 필드로 추출됩니다.
+라인이 55 문자 이하라면 무시됩니다.
+&lt;/p&gt;
+
+
+&lt;h4&gt;&lt;a name=&quot;wkt&quot;&gt;WKT 텍스트를 해석하는 방법&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;
+구분자로 분리된 텍스트 레이어는 &lt;a href=&quot;http://en.wikipedia.org/wiki/Well-known_text&quot;&gt;well known text(WKT)&lt;/a&gt; 타입(&lt;tt&gt;POINT&lt;/tt&gt;, &lt;tt&gt;MULTIPOINT&lt;/tt&gt;, &lt;tt&gt;LINESTRING&lt;/tt&gt;, &lt;tt&gt;MULTILINESTRING&lt;/tt&gt;, &lt;tt&gt;POLYGON&lt;/tt&gt;, and &lt;tt&gt;MULTIPOLYGON&lt;/tt&gt;)을 인식합니다.
+이는 Z 좌표(예: &lt;tt&gt;POINT&amp;nbsp;Z&lt;/tt&gt;), measure (&lt;tt&gt;POINT&amp;nbsp;M&lt;/tt&gt;), 혹은 둘 다 (&lt;tt&gt;POINT&amp;nbsp;ZM&lt;/tt&gt;)를 가진 지오메트리도 허용합니다.
+&lt;/p&gt;
+&lt;p&gt;
+이는 또한 지오메트리에는 좌표계 ID(예: &lt;tt&gt;SRID=4326;POINT(175.3&amp;nbsp;41.2)&lt;/tt&gt;)가 앞에 붙는 PostGIS의 변형된 EWKT도 처리할 수 있으며, 
+Informix에서 사용되는 숫자 좌표계 아이디가 앞에 붙는 WKT(예: &lt;tt&gt;1 POINT(175.3&amp;nbsp;41.2)&lt;/tt&gt;)도 처리할 수 있습니다.
+이 두가지의 경우 모두 SRID는 무시됩니다.
+&lt;/p&gt;
+
+
+
+&lt;h4&gt;&lt;a name=&quot;attributes&quot;&gt;구분자로 분리된 텍스트 파일 내의 속성&lt;/a&gt;&lt;/h4&gt; 
+&lt;p&gt;구분자로 분리된 텍스트 파일 내의 각 레코드는 레코드의 속성을 나타내는 필드로 분리됩니다.
+일반적으로 파일의 첫 레코드에는 속성들의 이름이 들어 있습니다.
+만약 속성들 이름이 없다면, &lt;tt&gt;field_1&lt;/tt&gt;, &lt;tt&gt;field_2&lt;/tt&gt; 등으로 이름 붙여 집니다.
+또한, 만약 레코드가 첫 줄에서 정의된 것 보다 더 많은 필드를 가지고 있다면 이 필드들은 &lt;tt&gt;field_#&lt;/tt&gt;로 이름 붙여 집니다. 
+#은 필드 번호 입니다(레코드 마지막의 빈 필드는 무시됨을 주의하세요).
+QGIS는 텍스트 파일 내의 숫자로 된 이름, &lt;tt&gt;field_#&lt;/tt&gt;와 같은 이름, 중복된 이름을 덮어씁니다.
+&lt;/p&gt;
+&lt;p&gt;
+추가적으로 소스 파일에서 레코드 시작 위치로부터의 줄 수가 QGIS에서 명시적으로 객체의 단일 ID로 적용됩니다. 
+&lt;/p&gt;
+&lt;p&gt;
+각 속성은 문자열(텍스트), 정수, 실수 데이터 타입을 가집니다.
+데이터 타입은 필드의 내용에서 유추됩니다. 만약 비어 있지 않은 모든 값이
+유효한 정수라면 타입은 정수로 되고, 모두 실수라면 타입은 실수로, 그렇지 않다면
+타입은 문자열로 됩니다. 이것은 필드의 내용에 기반함에 주의하십시오 - 인용기호로 묶인
+필드는 해석되는 방법이 변경되지 않습니다.
+&lt;/p&gt;
+
+
+&lt;h4&gt;&lt;a name=&quot;example&quot;&gt;X, Y 점 좌표를 가진 텍스트 파일 예제&lt;/a&gt;&lt;/h4&gt; 
+&lt;pre&gt;
+X;Y;ELEV
+-300120;7689960;13
+-654360;7562040;52
+1640;7512840;3
+&lt;/pre&gt;
+&lt;p&gt;이 파일에서:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;;&lt;/b&gt;가 구분자로 사용되었습니다. 모든 문자는 필드를 구분하는데 사용할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;첫 열은 헤더 열 입니다. 여기에는 필드 이름인 X, Y와 ELEV가 들어 있습니다.&lt;/li&gt;
+&lt;li&gt;x 좌표값은 X 필드에 들어 있습니다.&lt;/li&gt;
+&lt;li&gt;y 좌표값은 Y 필드에 들어 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;a name=&quot;wkt_example&quot;&gt;WKT 지오메트리를 가진 텍스트 파일 예제&lt;/a&gt;&lt;/h4&gt;
+&lt;pre&gt;
+id|wkt
+1|POINT(172.0702250 -43.6031036)
+2|POINT(172.0702250 -43.6031036)
+3|POINT(172.1543206 -43.5731302)
+4|POINT(171.9282585 -43.5493308)
+5|POINT(171.8827359 -43.5875983)
+&lt;/pre&gt;
+&lt;p&gt;이 파일에서:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;헤더 열에 id와 wkt의 두 필드가 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;|&lt;/b&gt;가 구분자로 사용되었습니다.&lt;/li&gt;
+  &lt;li&gt;WKT 표기법을 사용하여 각 점을 지정합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;&lt;a name=&quot;python&quot;&gt;파이썬에서 구분자로 분리된 텍스트 파일 다루기&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;구분자로 분리된 텍스트 데이터 소스는 다른 벡터 레이어와 마찬가지로 파이썬에서 만들어 질 수 있습니다.
+패턴은 다음과 같습니다:
+&lt;/p&gt;
+&lt;pre&gt;
+from PyQt4.QtCore import QUrl, QString
+from qgis.core import QgsVectorLayer, QgsMapLayerRegistry
+
+# Define the data source
+filename=&quot;test.csv&quot;
+uri=QUrl.fromLocalFile(filename)
+uri.addQueryItem(&quot;type&quot;,&quot;csv&quot;)
+uri.addQueryItem(&quot;delimiter&quot;,&quot;|&quot;)
+uri.addQueryItem(&quot;wktField&quot;,&quot;wkt&quot;)
+# ... other delimited text parameters
+layer=QgsVectorLayer(QString(uri.toEncoded()),&quot;Test CSV layer&quot;,&quot;delimitedtext&quot;)
+# Add the layer to the map
+if layer.isValid():
+    QgsMapLayerRegistry.instance().addMapLayer( layer )
+&lt;/pre&gt;
+&lt;p&gt;이것을 위의 두번째 예제 파일을 읽는데 사용할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;구분자로 분리된 텍스트 레이어의 설정은 URI로 질의 항목을 추가해서 정의됩니다.
+다음 옵션들이 추가될 수 있습니다.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;tt&gt;encoding=..&lt;/tt&gt; 파일의 인코딩을 정의합니다. 기본값은&amp;quot;UTF-8&amp;quot;입니다.&lt;/li&gt;
+    &lt;li&gt;&lt;tt&gt;type=(csv|regexp|whitespace)&lt;/tt&gt; 구문자 유형을 정의합니다. 유효한 값은 csv, regexp, whitespace(이것은 정규식의 특별한 경우임)입니다.  기본값은  csv 입니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;delimiter=...&lt;/tt&gt; CSV 파일이나 정규식 파일에서 사용할 구분자를 정의합니다. 기본값은 CSV 파일에는 쉼표(,)이고, 정규식 파일에 대한 기본값은 없습니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;quote=..&lt;/tt&gt; (CSV 파일의 경우) 인용 부호로 사용될 문자를 정의합니다. 기본값은 &amp;quot;입니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;escape=..&lt;/tt&gt; (CSV 파일의 경우) 다음에 오는 특수기호를 무시하게 할 이스케이프 문자를 정의합니다. 기본값은 &amp;quot;입니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;skipLines=#&lt;/tt&gt; 파일 처음에서부터 무시할 즐 수를 정의합니다. 기본값은 0 입니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;useHeader=(yes|no)&lt;/tt&gt; 첫 데이터 레코드가 데이터 필드들의 이름을 담고 있는지를 정의합니다. 기본값은 yes 입니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;trimFields=(yes|no)&lt;/tt&gt; 인용문자 없는 필드에서 앞 뒤의 공백을 제거할지를 정의합니다. 기본값은 no 입니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;maxFields=#&lt;/tt&gt; 파일에서 최대 몇 개의 필드를 읽을 지 정의합니다.
+	   각 레코드의 추가적인 필드는 무시됩니다. 기본값은 0이고 이는 모든 필드를 읽음을 의미합니다.
+	   (이 옵션은 구분자로 분리된 텍스트 레이어 대화상자에는 없습니다)&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;skipEmptyFields=(yes|no)&lt;/tt&gt; 인용 기호로 둘러싸이지 않은 필드가 (trimFields 적용 후) 비어있으면 무시할지 정의합니다. 기본값은 no 입니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;decimalPoint=.&lt;/tt&gt; 어떤 문자가 소숫점 기호로 사용될지 지정합니다.  기본값은 점(마침표) 입니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;wktField=fieldname&lt;/tt&gt; WKT 지오메트리 정의를 포함하고 있는 필드의 이름이나 순번(1에서 시작함)을 지정합니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;xField=fieldname&lt;/tt&gt; X 좌표를 포함하고 있는 필드의 이름이나 순번(1에서 시작함)을 지정합니다. (wktField가 정의되지 않은 경우만 적용됨)&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;yField=fieldname&lt;/tt&gt; Y 좌표를 포함하고 있는 필드의 이름이나 순번(1에서 시작함)을 지정합니다. (wktField가 정의되지 않은 경우만 적용됨)&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;geomType=(auto|point|line|polygon|none)&lt;/tt&gt; WKT 필드의 지오메트리 타입을 지정하거나 속성만 있는 테이블을 읽기 위해 none을 지정합니다.  기본값은 auto 입니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;subset=expression&lt;/tt&gt; 레코드의 서브셋을 인식시키는데 사용할 식을 지정합니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;crs=...&lt;/tt&gt; 벡터 레이어가 사용할 좌표계를 지정합니다. 이것은 QgsCoordinateReferenceSystem.createFromString 
+	   에서 사용할 수 있는 형식(예: &amp;quot;EPSG:4167&amp;quot;))이어야 합니다. 
+	   만약 지정되지 않으면 (QGIS 좌표계 설정에 따라)레이어가 읽혀질 때 사용자에게 이 정보를 요구하기 위한 대화상자가 필요합니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;subsetIndex=(yes|no)&lt;/tt&gt; 파일 검색을 초기화 할 때 서브셋을 정의하기 위해 프로바이더가 인덱스를 만들지 지정합니다. 이 인덱스는 명시적으로 서브셋을 정의한 경우와 유효한 지오메트리로 정의된 암시적인 서브셋 모두에 적용됩니다. 기본적으로 서브셋 인덱스는 적용 가능한 경우 만들어집니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;spatialIndex=(yes|no)&lt;/tt&gt; 파일 검색을 초기화 할 때 공간 인덱스를 만들지 지정합니다. 기본적으로 공간 인덱스는 만들어지지 않습니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;watchFile=(yes|no)&lt;/tt&gt; 파일의 변경 모니터링을 위해 시스템 감시를 사용할지 지정합니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;quiet=(yes|no)&lt;/tt&gt; 레이어를 읽는 중 발생하는 오류(QGIS 로그에는 항상 기록됨)를 대화상자에 표시할지 지정합니다. 기본적으로 no 입니다. 이 옵션은 GUI에는 없습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+</translatorcomment>
+        <translation>&lt;h3&gt;구분자로 분리된 텍스트 파일 레이어&lt;/h3&gt;
 구분자로 분리된 텍스트 파일을 읽고 표시
 &lt;p&gt;
 &lt;a href=&quot;#re&quot;&gt;요약&lt;/a&gt;&lt;br/&gt;
@@ -64981,80 +65279,80 @@ at file would be:
 &lt;/pre&gt;
 
 &lt;h4&gt;&lt;a name=&quot;creating&quot;&gt;구분자로 분리된 텍스트 파일 만들기&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Creating a delimited text layer involves choosing the data file, defining the format (how each record is to
-be split into fields), and defining the geometry is represented.  
-This is managed with the delimited text dialog as detailed below.  
-The dialog box displays a sample from the beginning of the file which shows how the format
-options have been applied.
+&lt;p&gt;
+구분자로 분리된 텍스트 파일을 만들 때는 데이터 파일을 선택하고, 형식을 정의(어떻게 각 레코드가 필드로 
+분리되는지)하고, 지오메트리 정의를 해야합니다.
+이는 구분자로 분리된 텍스트 대화상자에서 상세히 관리할 수 있습니다.
+이 대화상자는 파일의 시작 부분을 표시해서 형식 옵션이 적용되는 방법을 보여줍니다.
 &lt;/p&gt;
-&lt;h5&gt;Choosing the data file&lt;/h5&gt;
-&lt;p&gt;Use the &amp;quot;Browse...&amp;quot; button to select the data file.  Once the file is selected the
-layer name will automatically be populated based on the file name.  The layer name is used to represent
-the data in the QGIS legend.  
+&lt;h5&gt;데이터 파일 선택&lt;/h5&gt;
+&lt;p&gt;
+데이터 파일을 선택하기 위해서 &amp;quot;탐색...&amp;quot;버튼을 사용합니다. 파일이 선택되면
+레이어 이름은 자동적으로 파일 이름을 기반으로 정해집니다. 레이어 이름은 QGIS의 범례에서 데이터를 
+나타내는데 사용됩니다.
 &lt;/p&gt;
 &lt;p&gt;
-By default files are assumed to be encoded as UTF-8.  However other file
-encodings can be selected.  For example &amp;quot;System&amp;quot; uses the default encoding for the operating system.  
-It is safer to use an explicit coding if the QGIS project needs to be portable.
+기본적으로 파일은 UTF-8 인코딩을 사용하는 것으로 가정됩니다. 
+그러나 다른 파일 인코딩도 선택할 수 있습니다. 예를 들어 &amp;quot;시스템&amp;quot;은 운영체제의 기본 인코딩을 사용합니다.
+만약 QGIS 프로젝트를 다른 곳으로 옮길 필요가 있다면 명시적인 인코딩을 사용하는 것이 안전합니다.
 &lt;/p&gt;
-&lt;h5&gt;Specifying the file format&lt;/h5&gt;
-&lt;p&gt;The file format can be one of
+&lt;h5&gt;파일 포맷 선택&lt;/h5&gt;
+&lt;p&gt;파일 포맷은 다음중 하나일 수 있음
 &lt;ul&gt;
-    &lt;li&gt;CSV file format.  This is a format commonly used by spreadsheets, in which fields are delimited
-    by a comma character, and quoted using a &amp;quot;(quote) character.  Within quoted fields, a quote
-    mark is entered as &amp;quot;&amp;quot;.&lt;/li&gt;
-    &lt;li&gt;Selected delimiters.  Each record is split into fields using one or more  delimiter character.
-    Quote characters are used for fields which may contain delimiters.  Escape characters may be used 
-    to treat the following character as a normal character (ie to include delimiter, quote, and 
-    new line characters in text fields).  The use of delimiter, quote, and escape characters is detailed &lt;a href=&quot;#csv&quot;&gt;below&lt;/a&gt;.
-    &lt;li&gt;Regular expression.  Each line is split into fields using a &amp;quot;regular expression&amp;quot; delimiter.
-    The use of regular expressions is details &lt;a href=&quot;#regexp&quot;&gt;below&lt;/a&gt;.
+    &lt;li&gt;CSV 파일 포맷.  이것은 스프래드쉬트에서 흔히 이용되는 형식으로, 각 필드는 쉼표에 의해 분리되고,
+    따옴표(&amp;quot;)가 문자열을 묶기 위해 사용됩니다. 따옴표로 묶인 필드 내에서는, 따옴표를
+	&amp;quot;&amp;quot;로 입력해야 합니다.&lt;/li&gt;
+    &lt;li&gt;구분자 선택됨.  각 레코드는 하나 이상의 구분자 문자를 이용해 필드로 분리됩니다.
+	따옴표 문자는 구분자를 포함한 필드를 위해 사용됩니다. 이스케이프 문자는 그 뒤의 문자를
+	일반 문자로 처리하기 위해 사용됩니다(예: 텍스트 필드의 구분자, 따옴표, 줄넘김 문자).
+	구분자, 따옴표, 이스케이프 문자의 사용은 &lt;a href=&quot;#csv&quot;&gt;다음&lt;/a&gt;에서 자세히 알 수 있습니다.&lt;/li&gt;
+	&lt;li&gt;정규식.  각 라인은 &amp;quot;정규식&amp;quot; 구분자를 이용해 필드로 분리됩니다.
+	정규식 사용법은 &lt;a href=&quot;#regexp&quot;&gt;다음&lt;/a&gt;에서 자세히 알 수 있습니다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5&gt;Record and field options&lt;/h5&gt;
-&lt;p&gt;The following options affect the selection of records and fields from the data file&lt;/p&gt;
+&lt;h5&gt;레코드와 필드 옵션&lt;/h5&gt;
+&lt;p&gt;다음 옵션은 데이터 파일에서 레코드와 필드를 선택하는데 영향을 줍니다.&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;Number of header lines to discard: used to ignore header lines at the beginning of the text file&lt;/li&gt;
-    &lt;li&gt;First record has fields names: if selected then the first record in the file (after the discarded lines) is interpreted as names of fields, rather than as a data record.&lt;/li&gt;
-    &lt;li&gt;Trim fields: if selected then leading and trailing whitespace characters will be removed from each field (except quoted fields). &lt;/li&gt;
-    &lt;li&gt;Discard empty fields: if selected then empty fields (after trimming) will be discard.  This 
-    affects the alignment of data into fields and is equivalent to treating consecutive delimiters as a 
-    single delimiter.  Quoted fields are never discarded.&lt;/li&gt;
-    &lt;li&gt;Decimal separator is comma: if selected then commas instead of points are used as the decimal separator in real numbers.  For
-    example &lt;tt&gt;-51,354&lt;/tt&gt; is equivalent to -51.354.
+    &lt;li&gt;무시할 헤더 라인 수: 텍스트 파일의 시작위치부터 헤더 라인을 무시하는데 사용됨&lt;/li&gt;
+    &lt;li&gt;첫 레코드가 필드 이름을 가짐: 만약 선택되면 파일의 (무시되는 라인 이후)첫 줄은 데이터 레코드가 아닌 필드 이름으로 해석 됨&lt;/li&gt;
+    &lt;li&gt;필드 트림: 만약 선택되면 각 필드(따옴표로 묶인 필드는 제외)의 앞, 뒤 공백은 제거됨&lt;/li&gt;
+    &lt;li&gt;빈 필드 무시: 만약 선택되면 (트림 후에) 빈 필드는 무시됨. 이것은 각 필드에 데이터가 
+	맞게 정렬되는데 영향을 주며 연속 구분기호를 단일 구분기호로 취급합니다. 
+	따옴표로 묶인 필드는 무시되지 않습니다.&lt;/li&gt;
+    &lt;li&gt;소수점 기호로 쉼표 사용: 만약 선택되면 점 대신 쉼표를 정수부와 실수부 구분자로 사용합니다. 
+	예를 들면 &lt;tt&gt;-51,354&lt;/tt&gt;는 -51.354와 같습니다.
     &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5&gt;Geometry definition&lt;/h5&gt;
-&lt;p&gt;The geometry is can be define as one of&lt;/p&gt;
+&lt;h5&gt;지오메트리 정의&lt;/h5&gt;
+&lt;p&gt;지오메트리는 다음 중 하나로 정의될 수 있음&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;Point coordinates: each feature is represented as a point defined by X and Y coordinates.&lt;/li&gt;
-    &lt;li&gt;Well known text (WKT) geometry: each feature is represented as a well known text string, for example
-    &lt;tt&gt;POINT(1.525622 51.20836)&lt;/tt&gt;.  See details of the &lt;a href=&quot;#wkt&quot;&gt;well known text&lt;/a&gt; format.
-    &lt;li&gt;No geometry (attribute only table): records will not be displayed on the map, but can be viewed
-    in the attribute table and joined to other layers in QGIS&lt;/li&gt;
+    &lt;li&gt;점 좌표쌍: 각 객체는 X, Y 좌표로 정의된 점으로 표현됩니다.&lt;/li&gt;
+    &lt;li&gt;Well known text (WKT) 지오메트리: 각 객체는 예를 들어 &lt;tt&gt;POINT(1.525622 51.20836)&lt;/tt&gt; 같은 
+	WKT로 정의됩니다. &lt;a href=&quot;#wkt&quot;&gt;well known text&lt;/a&gt;에서 자세한 정보를 확인하세요.
+    &lt;li&gt;지오메트리 없음(속성만 있는 테이블): 레코드들이 지도상에 표시되지 않고, 속성 테이블에만 
+	보여서 QGIS에서 다른 테이블과 조인되어 보일 수 있습니다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;For point coordinates the following options apply:&lt;/p&gt;
+&lt;p&gt;점 좌표를 위해서는 다음과 같은 옵션이 있음:&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;X field: specifies the field containing the X coordinate&lt;/li&gt;
-    &lt;li&gt;Y field: specifies the field containing the Y coordinate&lt;/li&gt;
-    &lt;li&gt;DMS angles: if selected coordinates are represented as degrees/minutes/seconds
-    or degrees/minutes.  QGIS is quite permissive in its interpretation of degrees/minutes/seconds.
-    A valid DMS coordinate will contain three numeric fields with an optional hemisphere prefix or suffix
-    (N, E, or + are positive, S, W, or - are negative).  Additional non numeric characters are 
-    generally discarded.  For example &lt;tt&gt;N41d54&apos;01.54&amp;quot;&lt;/tt&gt; is a valid coordinate.
+    &lt;li&gt;X 필드: X 좌표를 담고 있는 필드를 지정&lt;/li&gt;
+    &lt;li&gt;Y 필드: Y 좌표를 담고 있는 필드를 지정&lt;/li&gt;
+    &lt;li&gt;DMS 각도: 만약 선택되면 좌표는 도/분/초 혹은 도/분으로 표현됩니다.
+	QGIS는 도/분/의 해석에 매우 관대합니다. 유효한 도분초 좌표는 옵션인 반구 접두사 혹은 접미사
+	(N, E 혹은 +는 양의 각도, S, W 혹은 -는 음의 각도)와 세 개의 숫자 필드를 포함합니다.
+	추가적인 숫자가 아닌 문자는 일반적으로 생략됩니다. 예를 들어 &lt;tt&gt;N41d54&amp;quot;01.54&amp;quot;&lt;/tt&gt;는 올바른 좌표입니다.
     &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;For well known text geometry the following options apply:&lt;/p&gt;
+&lt;p&gt;WKT 지오메트리를 위해서는 다음과 같은 옵션이 있음:&lt;/p&gt;
 &lt;ul&gt;
-    &lt;li&gt;Geometry field: the field containing the well known text definition.&lt;/li&gt;
-    &lt;li&gt;Geometry type: one of &amp;quot;Detect&amp;quot; (detect), &amp;quot;Point&amp;quot;, &amp;quot;Line&amp;quot;, or &amp;quot;Polygon&amp;quot;.
-    QGIS layers can only display one type of geometry feature (point, line, or polygon). This option selects
-    which geometry type is displayed in text files containing multiple geometry types. Records containing
-   other geometry types are discarded.   
-    If &amp;quot;Detect&amp;quot; is selected then the type of the first geometry in the file will be used.
-    &amp;quot;Point&amp;quot; includes POINT and MULTIPOINT WKT types, &amp;quot;Line&amp;quot; includes LINESTRING and
-    MULTLINESTRING WKT types, and &amp;quot;Polygon&amp;quot; includes POLYGON and MULTIPOLYGON WKT types.
+    &lt;li&gt;지오메트리 필드: WKT 정의를 포함하고 있는 필드&lt;/li&gt;
+    &lt;li&gt;지오메트리 타입: &amp;quot;감지&amp;quot;, &amp;quot;점&amp;quot;, &amp;quot;선&amp;quot;, &amp;quot;폴리곤&amp;quot; 중 하나.
+	QGIS 레이어는 단지 한 가지 지오메트리만 타입(점, 선, 폴리곤)만 표시할 수 있습니다.
+	이 옵션은 여러 지오메트르 타입이 포함된 텍스트 필드에서 어떤 지오메트리 타입을 표시할 지 선택합니다.
+	다른 지오메트리 타입을 포함하고 있는 필드는 삭제됩니다.
+	만약 &amp;quot;감지&amp;quot;가 선택되면 파일의 첫 번째 지오메트리의 타입이 사용됩니다.
+	&amp;quot;점&amp;quot;은 POINT와 MULTIPOINT WKT 타입을 포함하며, &amp;quot;선&amp;quot;은 LINESTRING 와 MULTLINESTRING WKT를 포함하고,
+	&amp;quot;폴리곤&amp;quot;은 POLYGON 와 MULTIPOLYGON WKT를 포함합니다.
 &lt;/ul&gt;
-&lt;h5&gt;Layer settings&lt;/h5&gt;
+&lt;h5&gt;레이어 설정&lt;/h5&gt;
 &lt;p&gt;Layer settings control the way the layer is managed in QGIS.  The options available are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Use spatial index. Create a spatial index to improve the performance of displaying and selecting spatial objects.
@@ -65090,8 +65388,8 @@ are escaped.&lt;/p&gt;
 (that is, to stop it being treated as a new line, delimiter, or quote character).  
 &lt;/p&gt;
 &lt;p&gt;Escape characters that are also quote characters have much more limited effect.  They only apply within quotes and only escape themselves.  For example, if 
-&lt;tt&gt;&apos;&lt;/tt&gt; is a quote and escape character, then the string
-&lt;tt&gt;&apos;Smith&apos;&apos;s&amp;nbsp;Creek&apos;&lt;/tt&gt; will represent the value Smith&apos;s&amp;nbsp;Creek.
+&lt;tt&gt;&amp;quot;&lt;/tt&gt; is a quote and escape character, then the string
+&lt;tt&gt;&amp;quot;Smith&amp;quot;&amp;quot;s&amp;nbsp;Creek&amp;quot;&lt;/tt&gt; will represent the value Smith&amp;quot;s&amp;nbsp;Creek.
 &lt;/p&gt;
 
 
@@ -66537,7 +66835,20 @@ Returns the length of a string.
 &lt;!-- Show example of function.--&gt;
      length(&apos;HELLO&apos;) &amp;rarr; 5&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;length() 함수&lt;/h3&gt;
+문자열의 길이를 리턴합니다.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     length(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr;은 문자열.  길이를 측정할 문자열.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;용례&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     length(&apos;HELLO&apos;) &amp;rarr; 5&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1471"/>
@@ -66555,7 +66866,19 @@ Converts a string to upper case letters.
 &lt;!-- Show example of function.--&gt;
      upper(&apos;hello WOrld&apos;) &amp;rarr; &apos;HELLO WORLD&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;upper() 함수&lt;/h3&gt;
+문자열을 대문자로 바꾼다.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     upper(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; 는 문자열.  대문자로 변환할 문자열.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;용례&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     upper(&apos;hello WOrld&apos;) &amp;rarr; &apos;HELLO WORLD&apos;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="338"/>
