@@ -63288,31 +63288,31 @@ geometry types and don&apos;t offer to add others.
 
 &lt;li&gt; &lt;label&gt;포트&lt;/label&gt; 데이터베이스 서버에서 사용되는 IP 포트
 
-&lt;li&gt; &lt;label&gt;사용자이름&lt;/label&gt; Database user name.
-&lt;li&gt; &lt;label&gt;암호&lt;/label&gt; Database password.
+&lt;li&gt; &lt;label&gt;사용자이름&lt;/label&gt; 데이터베이스 사용자 이름.
+&lt;li&gt; &lt;label&gt;암호&lt;/label&gt; 데이터베이스 암호.
 
-&lt;li&gt; &lt;label&gt;Save Username&lt;/label&gt; Indicates whether to save the database user name in the connection configuration.
+&lt;li&gt; &lt;label&gt;사용자 이름 저장하기&lt;/label&gt; 연결 설정에서 데이터베이스 사용자 이름을 저장할지를 정합니다.
 
-&lt;li&gt; &lt;label&gt;Save Password&lt;/label&gt; Indicates whether to save the database password in the connection settings.  &lt;font color=&quot;red&quot;&gt;Passwords are saved in &lt;strong&gt;clear text&lt;/strong&gt; in the system configuration and in the project files!&lt;/font&gt;
+&lt;li&gt; &lt;label&gt;암호 저장하기&lt;/label&gt; 연결 설정에서 데이터베이스 암호를 저장할지를 정합니다.  &lt;font color=&quot;red&quot;&gt;암호는 시스템 설정과 프로젝트 파일의 &lt;strong&gt;클리어 텍스트&lt;/strong&gt; 에 저장됩니다!&lt;/font&gt;
 
-&lt;li&gt; &lt;label&gt;Only look in meta data table&lt;/label&gt; Restricts the displayed tables to those that are in the all_sdo_geom_metadata view. This can speed up the initial display of spatial tables.
+&lt;li&gt; &lt;label&gt;메타데이터 테이블만 보기&lt;/label&gt; all_sdo_geom_metadata 뷰의 표시되는 테이블을 제한합니다. 공간 테이블의 초기 도시 속도 향상에 도움을 줍니다.
 
-&lt;li&gt; &lt;label&gt;Only look for user&apos;s tables&lt;/label&gt; When searching for spatial tables restrict the search to tables that are owner by the user.
+&lt;li&gt; &lt;label&gt;사용자 테이블만 보기&lt;/label&gt; 공간 테이블을 검색할 때, 사용자 소유의 테이블 검색을 제한합니다.
 
-&lt;li&gt; &lt;label&gt;Also list tables with no geometry&lt;/label&gt;  Indicates that tables without geometry should also be listed by default.
+&lt;li&gt; &lt;label&gt;지오메트리 없는 테이블 리스트도 조회하기&lt;/label&gt;  지오메트리 없는 테이블의 리스트도 기본으로 조회됩니다.
 
-&lt;li&gt; &lt;label&gt;Use estimated table statistics for the layer metadata&lt;/label&gt; When
-the layer is setup various metadata is required for the Oracle table. This
-includes information such as the table row count, geometry type and spatial
-extents of the data in the geometry column. If the table contains a large
-number of rows determining this metadata is time consuming. By activating this
-option the following fast table metadata operations are done: Row count is
-determined from all_tables.num_rows. Table extents are always determined with
-the SDO_TUNE.EXTENTS_OF function even if a layer filter is applied. The table
-geometry is determined from the first 100 non-null geometry rows in the table.
+&lt;li&gt; &lt;label&gt;레이어 메타데이터를 위해 추정된 테이블 통계를 사용합니다.&lt;/label&gt;
+레이어가 설정될 때, Oracle 테이블은 다양한 메타데이터를 필요로 합니다.
+이 것은 지오메트리 행의 테이블 열 수, 지오메트리 유형과 데이터의 공간 확장과 같은 정보를 포함합니다.
+테이블이 많은 수의 열을 가지고 있으면, 메타데이터를 결정하는 것은 많은 시간을 필요로 합니다.
+이 기능을 활성화 하기 위해, 다음의 빠른 테이블 메타데이터 동작이 수행됩니다.
+열 수는 all_sdo_geom_metadata로 부터 결정됩니다.
+테이블 확장은 레이터 필터가 적용되어 있더라도 항상  SDO_TUNE.EXTENTS_OF 기능과 함께 결정됩니다.
+테이블 지오메트리는 테이블의 non-null geometry rows에 있는 첫 100 열로부터 결정됩니다.
 
-&lt;li&gt; &lt;label&gt;Only existing geometry types&lt;/label&gt; Only list the existing
-geometry types and don&apos;t offer to add others.
+
+&lt;li&gt; &lt;label&gt;존재하는 지오메트리 유형만&lt;/label&gt; 존재하는 지오메트리의 리스트만 조회하고,,
+다른 것을 추가하는 기능은 제공하지 않습니다.
 
 &lt;/ul&gt;</translation>
     </message>
@@ -63342,7 +63342,20 @@ Pressing the &lt;label&gt;Calculate&lt;/label&gt; button will run the shortest p
 &lt;h5&gt;Note&lt;/h5&gt;
 &lt;p&gt;In order to bind the start and stop points of the route to the road network Road graph selects the nearest point or arc of the graph. In fact it can bind to any part of the road network. Nevertheless, their route and its characteristics do not take into account the distance from the starting point to the road network and of the road network to the stopping point.&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;h3&gt;Finding shortest path&lt;/h3&gt;
+&lt;p&gt;Road graph is a C++ plugin for QGIS, that calculates the shortest path between two points on any line layer and plots this path over the road network. Before using the plugin to configure it. This can be done in the menu &lt;label&gt;Plugins &amp;rarr; Road graph &amp;rarr; Settings&lt;/label&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;#howto&quot;&gt;How to&lt;/a&gt;&lt;br/&gt;
+&lt;/p&gt;
+
+&lt;a name=&quot;howto&quot;&gt;
+&lt;h4&gt;How to&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;You can select start and end points with the select buttons next to the fields.
+Pressing the &lt;label&gt;Calculate&lt;/label&gt; button will run the shortest path calculation using the optimization criterion selected in the &lt;label&gt;Criterion&lt;/label&gt; combobox. The &lt;label&gt;Export&lt;/label&gt; button allow you to export a calculated path to a new vector layer, and the button &lt;label&gt;Clear&lt;/label&gt; will erase all fields and remove the points and calculated path from map canvas.&lt;/p&gt;
+
+&lt;h5&gt;Note&lt;/h5&gt;
+&lt;p&gt;In order to bind the start and stop points of the route to the road network Road graph selects the nearest point or arc of the graph. In fact it can bind to any part of the road network. Nevertheless, their route and its characteristics do not take into account the distance from the starting point to the road network and of the road network to the stopping point.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="23"/>
