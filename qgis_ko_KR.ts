@@ -46128,7 +46128,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="214"/>
         <source>undefined return value from encoding setting</source>
-        <translation>인코딩 설정에서 정의되지 않은 리턴 값</translation>
+        <translation>인코딩 설정에서 정의되지 않은 반환 값</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresconn.cpp" line="224"/>
@@ -66706,7 +66706,7 @@ date에서 주 수를 추출 하거나,
 &lt;br&gt;
 &lt;code&gt;Interval&lt;/code&gt; - Interval 임. 몇 주인지 확인할 Interval.
 
-&lt;h4&gt;용례&lt;/h4&gt;
+&lt;h4&gt;예제&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;week(&apos;2012-05-12&apos;) &amp;rarr; 19&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;week(tointerval(&apos;3 weeks&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
@@ -66764,7 +66764,7 @@ return a result.
 &lt;i&gt;  THEN result&lt;/i&gt; - If &lt;i&gt;condition&lt;/i&gt; evaluates to True then &lt;i&gt;result&lt;/i&gt; is evaluated and returned. &lt;br&gt;
 &lt;i&gt;  ELSE result&lt;/i&gt; - If none of the above conditions evaluated to True then &lt;i&gt;result&lt;/i&gt; is evaluated and returned. &lt;br&gt;
 
-&lt;h4&gt;용례&lt;/h4&gt;
+&lt;h4&gt;예제&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
 &lt;pre&gt;
     CASE
@@ -66803,7 +66803,7 @@ Returns a substring that contains the &lt;i&gt;n&lt;/i&gt; rightmost characters 
 &lt;br&gt;
 &lt;code&gt;length&lt;/code&gt; - is int. The number of characters from the right to return.
 
-&lt;h4&gt;용례&lt;/h4&gt;
+&lt;h4&gt;예제&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;right(&apos;Hello World&apos;,5) &amp;rarr; &apos;World&apos;&lt;/code&gt;&lt;br&gt;
 
@@ -66816,7 +66816,7 @@ Returns a substring that contains the &lt;i&gt;n&lt;/i&gt; rightmost characters 
 This group contains functions for manipulating colors
 </source>
         <translation>
-&lt;h3&gt;Color Group&lt;/h3&gt;
+&lt;h3&gt;색상 그룹&lt;/h3&gt;
 이 그룹은 색상을 조작하기 위한 함수를 포함함</translation>
     </message>
     <message>
@@ -66836,7 +66836,7 @@ Returns the length of a string.
      length(&apos;HELLO&apos;) &amp;rarr; 5&lt;/p&gt;
 </source>
         <translation>&lt;h3&gt;length() 함수&lt;/h3&gt;
-문자열의 길이를 리턴합니다.
+문자열의 길이를 반환합니다.
 
 &lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
      length(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
@@ -66845,7 +66845,7 @@ Returns the length of a string.
 &lt;!-- List args for functions here--&gt;
 &lt;i&gt;  string&lt;/i&gt; &amp;rarr;은 문자열.  길이를 측정할 문자열.&lt;/p&gt;
 
-&lt;p&gt;&lt;h4&gt;용례&lt;/h4&gt;
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
      length(&apos;HELLO&apos;) &amp;rarr; 5&lt;/p&gt;
 </translation>
@@ -66867,7 +66867,7 @@ Converts a string to upper case letters.
      upper(&apos;hello WOrld&apos;) &amp;rarr; &apos;HELLO WORLD&apos;&lt;/p&gt;
 </source>
         <translation>&lt;h3&gt;upper() 함수&lt;/h3&gt;
-문자열을 대문자로 바꾼다.
+문자열을 대문자로 바꿉니다.
 
 &lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
      upper(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
@@ -66876,7 +66876,7 @@ Converts a string to upper case letters.
 &lt;!-- List args for functions here--&gt;
 &lt;i&gt;  string&lt;/i&gt; &amp;rarr; 는 문자열.  대문자로 변환할 문자열.&lt;/p&gt;
 
-&lt;p&gt;&lt;h4&gt;용례&lt;/h4&gt;
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
      upper(&apos;hello WOrld&apos;) &amp;rarr; &apos;HELLO WORLD&apos;&lt;/p&gt;</translation>
     </message>
@@ -66898,7 +66898,22 @@ Returns a substring that contains the &lt;i&gt;n&lt;/i&gt; leftmost characters o
 &lt;code&gt;left(&apos;Hello World&apos;,5) &amp;rarr; &apos;Hello&apos;&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;left() 함수&lt;/h3&gt;
+문자열의 제일 왼쪽부터 &lt;i&gt;n&lt;/i&gt; 글자 잘라낸 문자열을 반환한다.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;left(string, length)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - string 임.  원본 문자열.
+&lt;br&gt;
+&lt;code&gt;length&lt;/code&gt; - int 임.  왼쪽부터 반환할 문자 수.
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;left(&apos;Hello World&apos;,5) &amp;rarr; &apos;Hello&apos;&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="667"/>
@@ -66918,7 +66933,21 @@ Returns a string with the supplied regular expression replaced.
 &lt;!-- Show example of function.--&gt;
      regexp_replace(&apos;QGIS SHOULD ROCK&apos;,&apos;&amp;#92;&amp;#92;sSHOULD&amp;#92;&amp;#92;s&apos;,&apos; DOES &apos;) &amp;rarr; &apos;QGIS DOES ROCK&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;regexp_replace() 함수&lt;/h3&gt;
+정규식을 적용해서 교체된 문자열을 반환.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     regexp_replace(&lt;i&gt;string,regex,after&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; string 임.  시작 문자열.&lt;br&gt;
+&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; string 임.  교체에 사용할 정규식. 이스케이프를 위한 역슬레시 문자는 두번 들어가야 함(예: 공백 문자에 대응하려면 &quot;&amp;#92;&amp;#92;s&quot;).&lt;br&gt;
+&lt;i&gt;  after&lt;/i&gt; &amp;rarr; string 임.  정규식에 해당할때 대체할 문자열. &amp;#92;&amp;#92;1, &amp;#92;&amp;#92;2 등을 사용하여 대체 문자열 대신 캡춰 그룹을 사용할 수 있음&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     regexp_replace(&apos;QGIS SHOULD ROCK&apos;,&apos;&amp;#92;&amp;#92;sSHOULD&amp;#92;&amp;#92;s&apos;,&apos; DOES &apos;) &amp;rarr; &apos;QGIS DOES ROCK&apos;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="200"/>
@@ -66935,7 +66964,19 @@ Note: This function is only available in some contexts and will be 0 otherwise.
 
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$scale 함수&lt;/h3&gt;
+지도 캔버스의 현재 축척을 반환.
+&lt;br&gt;
+주의: 이 함수는 일부 맥락상에서만 유효함, 유효하지 않으면 0을 반환.
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;$scale&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;$scale &amp;rarr; 10000&lt;/code&gt;&lt;br&gt;
+
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1503"/>
@@ -66956,7 +66997,22 @@ Returns a string representation of a color based on its red, green, and blue com
 &lt;!-- Show example of function.--&gt;
      color_rgb(255,127,0) &amp;rarr; &apos;#ff7f00&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>
+&lt;h3&gt;color_rgb() 함수&lt;/h3&gt;
+적색, 녹색, 청색을 조합한 색을 표현하는 문자열을 반환
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     color_rgb(&lt;i&gt;red, green, blue&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  red&lt;/i&gt; &amp;rarr; 적색 값으로 0에서 255 사이 정수임.&lt;br&gt;
+&lt;i&gt;  green&lt;/i&gt; &amp;rarr; 녹색 값으로 0에서 255 사이 정수임.&lt;br&gt;
+&lt;i&gt;  blue&lt;/i&gt; &amp;rarr; 청색 값으로 0에서 255 사이 정수임.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_rgb(255,127,0) &amp;rarr; &apos;#ff7f00&apos;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="987"/>
@@ -66973,7 +67029,19 @@ None
 &lt;pre&gt;$numpages &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$numpages 함수&lt;/h3&gt;
+구성에 있는 페이지 수를 반환.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$numpages&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+없음
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$numpages &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="167"/>
@@ -66994,7 +67062,22 @@ This function takes two arguments.
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;rand(1, 10) &amp;rarr; 8&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;rand() 함수&lt;/h3&gt;
+최소값과 최대값 (포함된) 범위의 임의의 정수를 반환.
+&lt;br&gt;
+이 함수는 2개의 인자를 가짐
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;rand(min, max)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;min&lt;/code&gt; - 무작위 수가 가질 수 있는 가장 작은 정수.&lt;br&gt;
+&lt;code&gt;max&lt;/code&gt; - 무작위 수가 가질 수 있는 가장 큰 정수.
+&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;rand(1, 10) &amp;rarr; 8&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1308"/>
@@ -67011,7 +67094,18 @@ None
 &lt;pre&gt;$rownum &amp;rarr; 4711&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$rownum 함수&lt;/h3&gt;
+현재 열의 번호를 반환.
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$rownum&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+없음
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$rownum &amp;rarr; 4711&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="651"/>
@@ -67031,7 +67125,22 @@ arguments to determine the quadrant of the result
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      atan2(1.0, 1.732) &amp;rarr; 0.523611477769969&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;atan2() 함수&lt;/h3&gt;
+결과의 사분면을 결정하기 위해 두 인자의 부호를 이용해 y/x의 아크탄젠트 값을 반환
+
+
+
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     atan2(&lt;i&gt;real&lt;/i&gt;, &lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; y 좌표 차이&lt;br&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; x 좌표 차이&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+     atan2(1.0, 1.732) &amp;rarr; 0.523611477769969&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="384"/>
@@ -67048,7 +67157,19 @@ Returns sinus of an angle.
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      sin(1.571) &amp;rarr; 0.999999682931835&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;sin() 함수&lt;/h3&gt;
+각의 싸인 값을 반환.
+
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     sin(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; 라디안 단위 각도.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
+     sin(1.571) &amp;rarr; 0.999999682931835&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="456"/>
@@ -67072,7 +67193,26 @@ Restricts an input value to a specified range.
      
      
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;clamp() 함수&lt;/h3&gt;
+지정된 범위로 입력 값을 제한.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     clamp(&lt;i&gt;minimum&lt;/i&gt;,&lt;i&gt;input&lt;/i&gt;,&lt;i&gt;maximum&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  minimum&lt;/i&gt; &amp;rarr; &lt;i&gt;input&lt;/i&gt;이 허용되는 최소값.&lt;br&gt;
+&lt;i&gt;  input&lt;/i&gt; &amp;rarr; &lt;i&gt;minimum&lt;/i&gt;과 &lt;i&gt;maximum&lt;/i&gt; 범위에 의해 제한될 값.&lt;br&gt;
+&lt;i&gt;  maximum&lt;/i&gt; &amp;rarr; &lt;i&gt;input&lt;/i&gt;이 허용되는 최대 값.&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     clamp(1,5,10) &amp;rarr; 5 (&lt;i&gt;input&lt;/i&gt;이 1과 10 사이이므로 바뀌지 않은 값이 반환됨)&lt;br&gt;
+     clamp(1,0,10) &amp;rarr; 1 (&lt;i&gt;input&lt;/i&gt;이 최소값보다 작으므로 1이 반환됨)&lt;br&gt;
+     clamp(1,11,10) &amp;rarr; 10 (&lt;i&gt;input&lt;/i&gt;이 최대값보다 큼으로 10이 반환됨)&lt;br&gt;
+     
+     
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1424"/>
@@ -67096,7 +67236,25 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 &lt;code&gt;month(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 4.033...&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;month() 함수&lt;/h3&gt;
+date에서 달 부분을 추출 하거나, &lt;code&gt;Interval&lt;/code&gt;에서 몇 달인지를 계산
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;month(date)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;month(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - date 혹은 datetime 임. 다를 추출할 날짜
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - Interval 임. 달 수를 반환할 기간.
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;month(&apos;2012-05-12&apos;) &amp;rarr; 05&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;month(tointerval(&apos;3 months&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;month(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 4.033...&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="783"/>
@@ -67113,7 +67271,19 @@ None
 &lt;pre&gt;$area &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$area 함수&lt;/h3&gt;
+현재 객체의 면적을 반환.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$area&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+없음
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$area &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1383"/>
@@ -67137,7 +67307,25 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 &lt;code&gt;day(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 730&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;day() 함수&lt;/h3&gt;
+날짜에서 일을 추출 하거나, &lt;code&gt;Interval&lt;/code&gt;에서 몇 일인지 계산
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;day(date)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;day(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - date 혹은 datetime 임. 일을 추출할 날짜.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - Interval 임. 몇 일인지 반환할 기간.
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;day(&apos;2012-05-12&apos;) &amp;rarr; 12&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;day(tointerval(&apos;3 days&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;day(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 730&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1457"/>
@@ -67155,7 +67343,20 @@ Converts a string to real number. Nothing changed if a value cannot be converted
 &lt;!-- Show example of function.--&gt;
      toreal(&apos;123.45&apos;) &amp;rarr; 123.45&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;toreal 함수&lt;/h3&gt;
+문자열을 실수로 변환. 만약 실수로 해석할 수 없으면(예: &apos;123.56asd&apos;은 잘못된 값) 변경하지 않음. 만약 정밀도가 변환 결과보다 작을 경우 숫자는 반올림 됨
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     toreal(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; string 임.  실수로 변환할 문자열.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     toreal(&apos;123.45&apos;) &amp;rarr; 123.45&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="796"/>
@@ -67172,7 +67373,19 @@ Convert a string into Qt data type.
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;todate(&apos;2012-05-04&apos;) &amp;rarr; 2012-05-04&lt;/code&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;todate() 함수&lt;/h3&gt;
+문자열을 Qt date 타입으로 변환.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;todate(&apos;string&apos;)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - Qt date 형식의 string 임.
+&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;todate(&apos;2012-05-04&apos;) &amp;rarr; 2012-05-04&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1485"/>
@@ -67194,7 +67407,22 @@ using the fill character.
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;lpad(&apos;Hello&apos;, 10, &apos;x&apos;) &amp;rarr; &apos;Helloxxxxx&apos;&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;lpad() 함수&lt;/h3&gt;
+채움 문자를 이용해 주어진 폭만큼 채운 문자열을 반환.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;lpad(string, length, fill)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - string 임. 원본 문자열.
+&lt;br&gt;
+&lt;code&gt;length&lt;/code&gt; - int 임. 새로운 문자열의 길이.
+&lt;br&gt;
+&lt;code&gt;fill&lt;/code&gt; - char 임. 남은 공백을 채울 문자열. 
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;lpad(&apos;Hello&apos;, 10, &apos;x&apos;) &amp;rarr; &apos;Helloxxxxx&apos;&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="213"/>
@@ -67211,7 +67439,18 @@ Returns arcuscosinus of a value in radians.
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      acos(0.5) &amp;rarr; 1.0471975511966&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;acos() 함수&lt;/h3&gt;
+라디안으로 아크코싸인 값을 반환
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     acos(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; 각의 코싸인 값.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+     acos(0.5) &amp;rarr; 1.0471975511966&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="712"/>
@@ -67232,14 +67471,31 @@ This function takes two arguments.
 &lt;code&gt;log(2, 32) &amp;rarr; 5&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;log(0.5, 32) &amp;rarr; -5&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;log() 함수&lt;/h3&gt;
+주어진 값과 밑수로 계산한 로그값을 반환
+&lt;br&gt;
+이 함수는 두 개의 인자가 필요함..
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;log(base, value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;base&lt;/code&gt; - 어떤 양의 수.&lt;br&gt;
+&lt;code&gt;value&lt;/code&gt; - 어떤 양의 수.
+&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;log(2, 32) &amp;rarr; 5&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;log(0.5, 32) &amp;rarr; -5&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="709"/>
         <source>&lt;h3&gt;Geometry Group&lt;/h3&gt;
 This group contains functions that operate on geometry objects e.g length, area.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;지오메트리 그룹&lt;/h3&gt;
+이 그룹에는 지오메트리에 적용될 수 있는 함수(예: length, area)를 포함하고 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="51"/>
@@ -67256,7 +67512,19 @@ None
 &lt;pre&gt;$page &amp;rarr; 2&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$page 함수&lt;/h3&gt;
+구성의 현재 페이지 번호.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$page&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+None
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$page &amp;rarr; 2&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1020"/>
@@ -67278,7 +67546,24 @@ Returns -1 if the expression isn&apos;t found.
      strpos(&apos;HELLO WORLD&apos;,&apos;WORLD&apos;) &amp;rarr; 6&lt;br&gt;
      strpos(&apos;HELLO WORLD&apos;,&apos;GOODBYE&apos;) &amp;rarr; -1&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;strpos() 함수&lt;/h3&gt;
+문자열에서 정규식에 맞는 위치의 인덱스를 반환.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+     strpos(&lt;i&gt;haystack&lt;/i&gt;, &lt;i&gt;needle&lt;/i&gt;)
+&lt;br&gt;&lt;br&gt;
+찾지 못하면 -1을 반환.
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  haystack&lt;/i&gt; &amp;rarr; string 임.  검색될 문자열.&lt;br&gt;
+&lt;i&gt;  needle&lt;/i&gt; &amp;rarr; number 임.  찾을 정규식.&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     strpos(&apos;HELLO WORLD&apos;,&apos;WORLD&apos;) &amp;rarr; 6&lt;br&gt;
+     strpos(&apos;HELLO WORLD&apos;,&apos;GOODBYE&apos;) &amp;rarr; -1&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="400"/>
@@ -67298,7 +67583,21 @@ This function takes one argument.
 &lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;ln() 함수&lt;/h3&gt;
+입력된 식의 자연로그값을 반환.
+&lt;br&gt;
+이 함수는 한 개의 인자를 필요로 함.
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;ln(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; -어떤 양의 수.
+&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;ln(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;ln(2.7182818284590452354) &amp;rarr; 1&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1197"/>
@@ -67315,7 +67614,19 @@ Returns exponential of an value.
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      exp(1.0) &amp;rarr; 2.71828182845905&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;exp() 함수&lt;/h3&gt;
+값의 지수를 반환.
+
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     exp(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; number.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+     exp(1.0) &amp;rarr; 2.71828182845905&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="824"/>
@@ -67334,7 +67645,21 @@ Returns the portion of a string which matches a supplied regular expression.
 &lt;!-- Show example of function.--&gt;
      regexp_substr(&apos;abc123&apos;,&apos;(&amp;#92;&amp;#92;d+)&apos;) &amp;rarr; &apos;123&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;regexp_substr() 함수&lt;/h3&gt;
+제공된 정규식에 맞는 문자열을 잘라 반환.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     regexp_substr(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; string 임.  입력 문자열.&lt;br&gt;
+&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; string 임.  적용할 정규식. 이스케이프를 위해서 역슬래시 두개를 사용해야 함(예: 공백문자와 일치시키기 위해  &quot;&amp;#92;&amp;#92;s&quot;)&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     regexp_substr(&apos;abc123&apos;,&apos;(&amp;#92;&amp;#92;d+)&apos;) &amp;rarr; &apos;123&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1348"/>
@@ -67357,7 +67682,24 @@ using the fill character.
 &lt;code&gt;rpad(&apos;Hello&apos;, 10, &apos;x&apos;) &amp;rarr; &apos;xxxxxHello&apos;&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;rpad() 함수&lt;/h3&gt;
+채움 문자를 이용해 주어진 폭만큼을 채운 문자열을 반환.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;rpad(string, width, fill)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - string 임. 입력 문자열.
+&lt;br&gt;
+&lt;code&gt;width&lt;/code&gt; - int 임. 새로운 문자열의 길이.
+&lt;br&gt;
+&lt;code&gt;fill&lt;/code&gt; -  char 임. 남은 공간을 채울 문자. 
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;rpad(&apos;Hello&apos;, 10, &apos;x&apos;) &amp;rarr; &apos;xxxxxHello&apos;&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="370"/>
@@ -67375,7 +67717,20 @@ Converts a number to string.
 &lt;!-- Show example of function.--&gt;
      tostring(123) &amp;rarr; &apos;123&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;tostring 함수&lt;/h3&gt;
+숫자를 문자열로 변환.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     tostring(&lt;i&gt;number&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;number&lt;/i&gt; &amp;rarr; integer 혹은 real 임.  문자열로 변환할 숫자.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     tostring(123) &amp;rarr; &apos;123&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1287"/>
@@ -67400,7 +67755,27 @@ use &lt;code&gt;round(decimal)&lt;/code&gt; to round to the nearest integer&lt;b
 
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;round() 함수&lt;/h3&gt;
+숫자의 소수점 자리에서 반올림.
+&lt;br&gt;
+이 함수는 필요에 따라 한개 혹은 두개의 인자를 가질 수 있음.
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;round(decimal,places)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;round(decimal)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;decimal&lt;/code&gt; - decimal 임. 반올림할 십진 숫자.
+&lt;br&gt;
+&lt;code&gt;places&lt;/code&gt; -  int 임. 반올림할 소수점 위치. 음수일 수 있음.
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;round(1234.567, 2 ) &amp;rarr; 1234.57&lt;/code&gt;&lt;br&gt;
+가장 가까운 정수로 반올림 하기 위해 &lt;code&gt;round(decimal)&lt;/code&gt;사용&lt;br&gt;
+&lt;code&gt;round(1234.567) &amp;rarr; 1235&lt;/code&gt;&lt;br&gt;
+
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="416"/>
@@ -67417,7 +67792,19 @@ None
 &lt;pre&gt;$now &amp;rarr; 2012-07-22T13:24:57&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$now 함수&lt;/h3&gt;
+현재 날짜와 시간을 반환
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$now&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+None
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$now &amp;rarr; 2012-07-22T13:24:57&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="226"/>
@@ -67450,14 +67837,43 @@ accelerating as the input values approach the domain maximum. Smaller exponents 
      
      
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;scale_exp() 함수&lt;/h3&gt;
+지수 곡선을 사용하여 출력 범위에 입력 범위에서 지정된 값을 변환합니다. 이 함수는 지정된 출력 범위의 입력 혹은 출력값을 에이징 할 수 있습니다.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     scale_exp(&lt;i&gt;val&lt;/i&gt;,&lt;i&gt;domain_min&lt;/i&gt;,&lt;i&gt;domain_max&lt;/i&gt;,&lt;i&gt;range_min&lt;/i&gt;,&lt;i&gt;range_max&lt;/i&gt;,&lt;i&gt;exponent&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  val&lt;/i&gt; &amp;rarr; is a value in the input domain. The function will return a corresponding scaled value in the output range.&lt;br&gt;
+&lt;i&gt;  domain_min, domain_max&lt;/i&gt; &amp;rarr; specify the input domain, the smallest and largest values the input &lt;i&gt;val&lt;/i&gt; should take.&lt;br&gt;
+&lt;i&gt;  range_min, range_max&lt;/i&gt; &amp;rarr; specify the output range, the smallest and largest values which should be output by the function.&lt;br&gt;
+&lt;i&gt;  exponent&lt;/i&gt; &amp;rarr; a positive value (greater than 0), which dictates the way input values are mapped to the output range. Large exponents will cause the output values to &apos;ease in&apos;, starting slowly before
+accelerating as the input values approach the domain maximum. Smaller exponents (less than 1) will cause output values to &apos;ease out&apos;, where the mapping starts quickly but slows as it approaches the domain maximum.&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;b&gt;Easing in, using an exponent of 2:&lt;/b&gt;&lt;br&gt;
+     scale_exp(5,0,10,0,100,2) &amp;rarr; 25&lt;br&gt;
+     scale_exp(7.5,0,10,0,100,2) &amp;rarr; 56.25&lt;br&gt;
+     scale_exp(9.5,0,10,0,100,2) &amp;rarr; 90.25&lt;br&gt;               
+     &lt;br&gt;
+&lt;b&gt;Easing out, using an exponent of 0.5:&lt;/b&gt;&lt;br&gt;          
+     scale_exp(3,0,10,0,100,0.5) &amp;rarr; 54.772&lt;br&gt;
+     scale_exp(6,0,10,0,100,0.5) &amp;rarr; 77.459&lt;br&gt;
+     scale_exp(9,0,10,0,100,0.5) &amp;rarr; 94.868&lt;br&gt;          
+     
+     
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1259"/>
         <source>&lt;h3&gt;Date and Time Group&lt;/h3&gt;
 This group contains functions for handling date and time data.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;날짜와 시간 그룹&lt;/h3&gt;
+이 그룹에는 날짜와 시간을 다루는 함수가 포함됩니다.
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="76"/>
@@ -67474,7 +67890,19 @@ None
 &lt;pre&gt;$id &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$id 함수&lt;/h3&gt;
+현재 선택된 객체의 아이디 반환.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$id&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+없음
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$id &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1133"/>
@@ -67491,7 +67919,19 @@ None
 &lt;pre&gt;$perimeter &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$perimeter 함수&lt;/h3&gt;
+현재 객체의 둘레 길이.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$perimeter&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+없음
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$perimeter &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="152"/>
@@ -67510,7 +67950,21 @@ Returns true if any part of a string matches the supplied regular expression.
 &lt;!-- Show example of function.--&gt;
      regexp_match(&apos;QGIS ROCKS&apos;,&apos;&amp;#92;&amp;#92;sROCKS&apos;) &amp;rarr; 1&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;regexp_match() 함수&lt;/h3&gt;
+만약 문자열의 일부가 주어진 정규식에 맞다면 true 반환.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     regexp_match(&lt;i&gt;string,regex&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; string 임.  정규식에 의해 테스트될 문자열.&lt;br&gt;
+&lt;i&gt;  regex&lt;/i&gt; &amp;rarr; string 임.  테스트에 사용할 정규식. 이스케이프를 위해서는 역슬레시 두개 필요(예: 공백문자 일치 위해 &quot;&amp;#92;&amp;#92;s&quot;).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     regexp_match(&apos;QGIS ROCKS&apos;,&apos;&amp;#92;&amp;#92;sROCKS&apos;) &amp;rarr; 1&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1274"/>
@@ -67527,7 +67981,19 @@ Converts a string to a interval type.  Can be used to take days, hours, month, e
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;todatetime(&apos;2012-05-05 12:00:00&apos;) - tointerval(&apos;1 day 2 hours&apos;) &amp;rarr; 2012-05-04T10:00:00&lt;/code&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;tointerval() function&lt;/h3&gt;
+문자열을 기간 타입으로 변환. 날짜에서 추출한 일자, 시간, 달 등에 사용할 수 있음. 
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;tointerval(&apos;string&apos;)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - string 임. {n} days {n} hours {n} months 형식
+&lt;br&gt;
+
+&lt;h4&gt;예&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;todatetime(&apos;2012-05-05 12:00:00&apos;) - tointerval(&apos;1 day 2 hours&apos;) &amp;rarr; 2012-05-04T10:00:00&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="293"/>
@@ -67552,7 +68018,26 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 &lt;code&gt;hour(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 17520&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;hour() 함수&lt;/h3&gt;
+datetime 혹은 time에서 시간을 추출하거나, &lt;code&gt;Interval&lt;/code&gt;의 시간 수를 반환
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;hour(datetime)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;hour(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - datetime 혹은 time 임. 시간을 추출할 날짜.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - Interval 임. 시간을 반환할 기간.
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;hour(&apos;2012-07-22T13:24:57&apos;) &amp;rarr; 13&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;hour(tointerval(&apos;3 hours&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;hour(age(&apos;2012-07-22T13:00:00&apos;,&apos;2012-07-22T10:00:00&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;hour(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 17520&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="875"/>
@@ -67573,7 +68058,23 @@ Returns a string representation of a color based on its hue, saturation, lightne
 &lt;!-- Show example of function.--&gt;
      color_hsla(100,50,70,200) &amp;rarr; &apos;166,217,140,200&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;color_hsla() 함수&lt;/h3&gt;
+색상, 채도, 명도와 알파(투명도)를 기반으로 한 색을 문자열로 표현해 반환.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     color_hsla(&lt;i&gt;hue, saturation, lightness, alpha&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; 색상환에서의 각도, 0에서 360 사이의 정수.&lt;br&gt;
+&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; 채도의 퍼센트. 0에서 100 사이의 정수.&lt;br&gt;
+&lt;i&gt;  lightness&lt;/i&gt; &amp;rarr; 명도의 퍼센트. 0에서 100 사이의 정수.&lt;br&gt;
+&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; 알파 요소의 값. 0(완전 투명)에서 255(불투명).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_hsla(100,50,70,200) &amp;rarr; &apos;166,217,140,200&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1213"/>
@@ -67589,14 +68090,27 @@ None
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;pre&gt;$pi &amp;rarr; 3.14159265358979&lt;/pre&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$pi 상수&lt;/h3&gt;
+원주율 값을 반환한다.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$pi&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+None
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$pi &amp;rarr; 3.14159265358979&lt;/pre&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="397"/>
         <source>&lt;h3&gt;Record Group&lt;/h3&gt;
 This group contains functions that operate on record identifiers.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;레코드 그룹&lt;/h3&gt;
+이 그룹은 레코드 식별에 사용하는 함수들이 포함되어 있습니다.
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="443"/>
@@ -67613,7 +68127,19 @@ Convert a string into Qt time type.
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;totime(&apos;12:30:01&apos;) &amp;rarr; 12:30:01&lt;/code&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;totime() 함수&lt;/h3&gt;
+문자열을 Qt 시간 형식으로 변환.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;totime(&apos;string&apos;)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - Qt time 형식의 문자열.
+&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;totime(&apos;12:30:01&apos;) &amp;rarr; 12:30:01&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="767"/>
@@ -67633,14 +68159,30 @@ Returns a string with the the supplied string replaced.
 &lt;!-- Show example of function.--&gt;
      replace(&apos;QGIS SHOULD ROCK&apos;,&apos;SHOULD&apos;,&apos;DOES&apos;) &amp;rarr; &apos;QGIS DOES ROCK&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;replace() 함수&lt;/h3&gt;
+제공되는 문자열로 대체된 문자열을 반환한다.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     replace(&lt;i&gt;string,before,after&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; string 임.  시작 문자열.&lt;br&gt;
+&lt;i&gt;  before&lt;/i&gt; &amp;rarr; string 임.  대체될 문자열.&lt;br&gt;
+&lt;i&gt;  after&lt;/i&gt; &amp;rarr; string 임.  &lt;i&gt;before&lt;/i&gt;를 대체할 문자열&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     replace(&apos;QGIS SHOULD ROCK&apos;,&apos;SHOULD&apos;,&apos;DOES&apos;) &amp;rarr; &apos;QGIS DOES ROCK&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="968"/>
         <source>&lt;h3&gt;Conditionals Group&lt;/h3&gt;
 This group contains functions to handle conditional checks in expressions.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;조건문 그룹&lt;/h3&gt;
+이 그룹에는 식 안에서 조건 검사를 처리하는 함수들이 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="942"/>
@@ -67657,7 +68199,19 @@ abs(&lt;i&gt;value&lt;/i&gt;)&lt;br&gt;
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;code&gt;abs(-2) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;abs() 함수&lt;/h3&gt;
+숫자의 절대값을 반환합니다.&lt;br&gt;
+
+
+&lt;h4&gt;문법&lt;/h4&gt;
+abs(&lt;i&gt;value&lt;/i&gt;)&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - 숫자.&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;code&gt;abs(-2) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1334"/>
@@ -67675,7 +68229,21 @@ Returns the largest value in a set of values.
 &lt;!-- Show example of function.--&gt;
      max(2,10.2,5.5) &amp;rarr; 10.2
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;max() 함수&lt;/h3&gt;
+값들 중 가장 큰 값을 반환합니다.
+
+
+&lt;h4&gt;문법&lt;/h4&gt;
+     max(&lt;i&gt;value&lt;i&gt;[,&lt;i&gt;value&lt;/i&gt;...])
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; 숫자.&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     max(2,10.2,5.5) &amp;rarr; 10.2
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1038"/>
@@ -67697,7 +68265,24 @@ Returns a string representation of a color based on its cyan, magenta, yellow an
 &lt;!-- Show example of function.--&gt;
      color_cmyk(100,50,0,10) &amp;rarr; &apos;#0073e6&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>
+&lt;h3&gt;color_cmyk() 함수&lt;/h3&gt;
+시안, 마젠타, 노랑, 검정의 요소를 기반으로 한 색을 문자로 표현하여 반환합니다.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     color_cmyk(&lt;i&gt;cyan, magenta, yellow, black&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  cyan&lt;/i&gt; &amp;rarr;색상의 시안 요소, 0에서 100까지의 퍼센트를 정수로 가짐.&lt;br&gt;
+&lt;i&gt;  magenta&lt;/i&gt; &amp;rarr; 색상의 마젠타 요소, 0에서 100까지의 퍼센트를 정수로 가짐.&lt;br&gt;
+&lt;i&gt;  yellow&lt;/i&gt; &amp;rarr; 색상의 황색 요소, 0에서 100까지의 퍼센트를 정수로 가짐.&lt;br&gt;
+&lt;i&gt;  black&lt;/i&gt; &amp;rarr; 색상의 흑색 요소, 0에서 100까지의 퍼센트를 정수로 가짐.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_cmyk(100,50,0,10) &amp;rarr; &apos;#0073e6&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="696"/>
@@ -67714,7 +68299,18 @@ Returns square root of a value
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      sqrt(9) &amp;rarr; 3&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;sqrt() 함수&lt;/h3&gt;
+값의 제곱근을 반환합니다.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     sqrt(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; 숫자.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+     sqrt(9) &amp;rarr; 3&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1056"/>
@@ -67739,14 +68335,34 @@ The color ramps available vary between QGIS installations.  This function
 may not give the expected results if you move your Quantum project.
 &lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>
+&lt;h3&gt;ramp_color() 함수&lt;/h3&gt;
+색상 램프에서 색상을 나타내는 문자열을 반환합니다.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     ramp_color(&lt;i&gt;ramp_name,value&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  ramp_name&lt;/i&gt; &amp;rarr; 문자열로 된 색상 램프의 이름, 예를 들어 &apos;Spectral&apos;.&lt;br&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; 색상을 선택하기 위한 색상 램프상의 위치, 0에서 1 사이의 실수.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     ramp_color(&apos;Spectral&apos;,0.3) &amp;rarr; &apos;#fdbe73&apos;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;주의:&lt;/h4&gt;
+사용하능한 색상 램프는 QGIS 설치본에 따라 다양합니다. 
+사용자가 QGIS 프로젝트를 다른 곳에서 부를 경우 예측하지 않은 결과가 나올 수 있습니다.
+&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="971"/>
         <source>&lt;h3&gt;Conditions Group&lt;/h3&gt;
 This group contains functions that operate on condition.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;조건 그룹&lt;/h3&gt;
+이 그룹은 조건에 따라 작동하는 기능들을 포함하고 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1520"/>
@@ -67769,7 +68385,25 @@ Returns a string representation of a color based on its cyan, magenta, yellow, b
 &lt;!-- Show example of function.--&gt;
      color_cmyka(100,50,0,10,200) &amp;rarr; &apos;0,115,230,200&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>
+&lt;h3&gt;color_cmyka() 함수&lt;/h3&gt;
+시안, 마젠타, 황색, 흑색과 알파(투명도)로 구성되는 색을 문자열로 반환합니다.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     color_cmyka(&lt;i&gt;cyan, magenta, yellow, black, alpha&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  cyan&lt;/i&gt; &amp;rarr; 색상의 시안 요소, 0에서 100 사이의 퍼센트 값인 정수.&lt;br&gt;
+&lt;i&gt;  magenta&lt;/i&gt; &amp;rarr; 색상의 마젠타 요소, 0에서 100 사이의 퍼센트 값인 정수.&lt;br&gt;
+&lt;i&gt;  yellow&lt;/i&gt; &amp;rarr; 색상의 황색 요소, 0에서 100 사이의 퍼센트 값인 정수.&lt;br&gt;
+&lt;i&gt;  black&lt;/i&gt; &amp;rarr; 색상의 흑색 요소, 0에서 100 사이의 퍼센트 값인 정수.&lt;br&gt;
+&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; 색상의 알파 요소, 0(완전 투명)에서 255(불투명) 사이의 정수값&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_cmyka(100,50,0,10,200) &amp;rarr; &apos;0,115,230,200&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1091"/>
@@ -67790,7 +68424,22 @@ to.
 &lt;code&gt;format_number(10000000.332,2) &amp;rarr; 10,000,000.33&lt;/code&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;format_number() 함수&lt;/h3&gt;
+언어설정에 따라 천단위로 구분되어 포매팅 된 숫자를 반환합니다.
+또한 주어진 자리에서 숫자를 자릅니다.
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;format_number(number,places)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;number&lt;/code&gt; - 숫자 임. 포매팅 할 숫자.
+&lt;br&gt;
+&lt;code&gt;places&lt;/code&gt; - int 임. 문자열을 잘라낼 소수점 자리수
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;format_number(10000000.332,2) &amp;rarr; 10,000,000.33&lt;/code&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1239"/>
@@ -67814,7 +68463,25 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 &lt;code&gt;year(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 1.9986..&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;year() 함수&lt;/h3&gt;
+날짜에서 년도 부분을 추출, 혹은 &lt;code&gt;Interval&lt;/code&gt;에서 몇 년인지 계산
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;year(date)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;year(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - date 혹은 datetime 임. 연도를 추출할 날짜.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - Interval 임. 몇 년인지를 반환할 기간.
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;year(&apos;2012-05-12&apos;) &amp;rarr; 2012&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;year(tointerval(&apos;3 Years&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;year(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 1.9986..&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1553"/>
@@ -67846,7 +68513,33 @@ return a result.
     END
 &lt;/pre&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;CASE 식&lt;/h3&gt;
+여러 개의 식을 평가하고 결과를 반환하는 데 사용할 수있는 조건 식입니다.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;
+     CASE
+        WHEN &lt;i&gt;condition&lt;/i&gt; THEN &lt;i&gt;result&lt;/i&gt;
+        [ ...n ]
+        [ ELSE &lt;i&gt;result&lt;/i&gt; ]
+     END
+&lt;/pre&gt;
+[ ] 표시는 옵션인 요소임
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  WHEN condition&lt;/i&gt; - 평가할 조건식. &lt;br&gt;
+&lt;i&gt;  THEN result&lt;/i&gt; - 만약 &lt;i&gt;condition&lt;/i&gt;의 평가가 참이면 &lt;i&gt;result&lt;/i&gt;가 평가되어 반환됨. &lt;br&gt;
+&lt;i&gt;  ELSE result&lt;/i&gt; - 만약 위의 조건이 참으로 평가되지 않으면 &lt;i&gt;result&lt;/i&gt;가 평가되어 반환됨. &lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;pre&gt;
+    CASE
+        WHEN &lt;i&gt;&quot;column&quot; IS NULL&lt;/i&gt; THEN &lt;i&gt;&apos;None&apos;&lt;/i&gt;
+    END
+&lt;/pre&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="26"/>
@@ -67867,7 +68560,22 @@ This function takes two arguments.
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;randf(1, 10) &amp;rarr; 4.59258286403147&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;randf() 함수&lt;/h3&gt;
+최소값과 최대값(포함됨) 사이의 무작위 float 값을 반환합니다.
+&lt;br&gt;
+이 함수는 두 개의 인자가 필요합니다.
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;randf(min, max)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;min&lt;/code&gt; - 무작위 값으로 기대할 수 있는 최소의 float 값.&lt;br&gt;
+&lt;code&gt;max&lt;/code&gt; - 무작위 값으로 기대할 수 있는 최대의 float 값.
+&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;randf(1, 10) &amp;rarr; 4.59258286403147&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1000"/>
@@ -67891,7 +68599,26 @@ Transforms a given value from an input domain to an output range using linear in
      
      
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;scale_linear() 함수&lt;/h3&gt;
+주어진 값을 입력 영역에서 출력 범위로 선형 보간을 통해 변환합니다.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     scale_linear(&lt;i&gt;val&lt;/i&gt;,&lt;i&gt;domain_min&lt;/i&gt;,&lt;i&gt;domain_max&lt;/i&gt;,&lt;i&gt;range_min&lt;/i&gt;,&lt;i&gt;range_max&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  val&lt;/i&gt; &amp;rarr; 입력 영역 내의 값. 함수가 출력 범위에 맞게 스케일해 반환함.&lt;br&gt;
+&lt;i&gt;  domain_min, domain_max&lt;/i&gt; &amp;rarr; 입력 영역을 지정, 최소값과 최대값 사이에 입력인자 &lt;i&gt;val&lt;/i&gt;이 있어야 함.&lt;br&gt;
+&lt;i&gt;  range_min, range_max&lt;/i&gt; &amp;rarr; 출력 범위를 지정, 함수에 의해 반환될 수 있는 최대값과 최소값.&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     scale_linear(5,0,10,0,100) &amp;rarr; 50&lt;br&gt;
+     scale_linear(0.2,0,1,0,360) &amp;rarr; 72 &lt;i&gt;(eg, scaling a value between 0 and 1 to an angle between 0 and 360)&lt;/i&gt;&lt;br&gt;
+     scale_linear(1500,1000,10000,9,20) &amp;rarr; 10.22 &lt;i&gt;(eg, scaling a population which varies between 1000 and 10000 to a font size between 9 and 20)&lt;/i&gt;&lt;br&gt;
+     
+     
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1539"/>
@@ -67909,7 +68636,20 @@ Removes all leading and trailing whitespace (spaces, tabs, etc) from a string.
 &lt;!-- Show example of function.--&gt;
      trim(&apos;   hello world    &apos;) &amp;rarr; &apos;hello world&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;trim() 함수&lt;/h3&gt;
+문자열 앞 뒤의 공백문자(공백, 탭 등)을 모두 제거합니다.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     trim(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; is string. The string to trim.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     trim(&apos;   hello world    &apos;) &amp;rarr; &apos;hello world&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="118"/>
@@ -67934,7 +68674,26 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 &lt;code&gt;minute(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 1051200&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;minute() 함수&lt;/h3&gt;
+datetime 혹은 time에서 분을 추출하거나, &lt;code&gt;Interval&lt;/code&gt; 내의 분 수를 반환
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;minute(datetime)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;minute(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - datetime 혹은 time 임. 분을 추출할 날짜.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - Interval 임. 분을 반환할 기간.
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;minute(&apos;2012-07-22T13:24:57&apos;) &amp;rarr; 24&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;minute(tointerval(&apos;3 minutes&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;minute(age(&apos;2012-07-22T00:20:00&apos;,&apos;2012-07-22T00:00:00&apos;)) &amp;rarr; 20&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;minute(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 1051200&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="909"/>
@@ -67971,7 +68730,37 @@ use &lt;code&gt;day&lt;/code&gt; to extract number of days&lt;br&gt;
 &lt;code&gt;day(age(&apos;2012-05-12&apos;,&apos;2012-05-2&apos;)) &amp;rarr; 10&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;age() 함수&lt;/h3&gt;
+두 날짜간의 차이를 반환합니다.
+&lt;br&gt;&lt;br&gt;
+차이는 &lt;code&gt;Interval&lt;/code&gt;로 반환되며 유용한 정보를 추출하기 위해서 다음 함수 중 하나를 사용해야 합니다:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;year&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;month&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;week&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;day&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;hour&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;minute&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;second&lt;/code&gt;
+&lt;/ul&gt;
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;age(string,string)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;age(datetime,datetime)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;age(string,datetime)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;age(datetime,string)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - string 임. 날짜 형식의 문자열.
+&lt;br&gt;
+&lt;code&gt;datetime&lt;/code&gt; -  date 혹은 datetime 임.
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;age(&apos;2012-05-12&apos;,&apos;2012-05-2&apos;) &amp;rarr; Interval&lt;/code&gt;&lt;br&gt;
+use &lt;code&gt;day&lt;/code&gt; to extract number of days&lt;br&gt;
+&lt;code&gt;day(age(&apos;2012-05-12&apos;,&apos;2012-05-2&apos;)) &amp;rarr; 10&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1367"/>
@@ -67991,14 +68780,31 @@ This function takes one argument.
 &lt;code&gt;log10(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;log10(100) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;log10() 함수&lt;/h3&gt;
+10을 밑으로 한 로그 값을 반환합니다.
+&lt;br&gt;
+이 함수는 한 개의 인자를 받습니다.
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;log10(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - 어떤 양수.
+&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;log10(1) &amp;rarr; 0&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;log10(100) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="270"/>
         <source>&lt;h3&gt;Conversions Group&lt;/h3&gt;
 This group contains functions to convert on data type to another e.g string to integer, integer to string.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;변환 그룹&lt;/h3&gt;
+이 그룹에는 데이터 타입에서 다른 데이터 타입으로 변환하는 함수들이 포함되어 있습니다. 예를 들어 문자열을 정수로 바꾸기, 정수를 문자열로 바꾸기.
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="729"/>
@@ -68014,7 +68820,18 @@ Retrieves a y coordinate of the current feature
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;pre&gt;yat(1) &amp;rarr; 5&lt;/pre&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;yat 함수&lt;/h3&gt;
+현재 객체의 Y 좌표를 추출
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;yat(i)&lt;/code&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;i&lt;code&gt; - int 임. 선의 점 인덱스(0에서 시작함, 음수인 경우 마지막 인덱스가 적용됨)
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;yat(1) &amp;rarr; 5&lt;/pre&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="754"/>
@@ -68031,14 +68848,27 @@ Returns cosinus of an angle.
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      cos(1.571) &amp;rarr; 0.000796326710733263&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;cos() 함수&lt;/h3&gt;
+각의 코싸인 값을 반환.
+
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     cos(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; 라디안 단위 각도.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
+     cos(1.571) &amp;rarr; 0.000796326710733263&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="906"/>
         <source>&lt;h3&gt;Operators Group&lt;/h3&gt;
 This group contains operators e.g + - * 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;연산자 그룹&lt;/h3&gt;
+연산자 그룹은 +, -, * 같은 연산자를 포함하고 있음</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="314"/>
@@ -68048,7 +68878,12 @@ Contains a list of fields from the layer.  Sample values can also be accessed vi
 Select the field name from the list then right-click to access context menu with options to load sample values from the selected field.
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;필드와 값&lt;/h3&gt;
+레이어의 필드 리스트를 포함하고 있습니다. 오른쪽 클릭으로 샘플 값에 접근할 수 있습니다.
+&lt;br&gt;&lt;br&gt;
+리스트에서 필드 이름을 선택하고 오른쪽 클릭하여 선택한 필드의 샘플 값을 가진 컨텍스트 메뉴를 호출할 수 있습니다.
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="255"/>
@@ -68067,7 +68902,21 @@ Rounds a number downwards.
 &lt;code&gt;floor(4.9) &amp;rarr; 4&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;floor(-4.9) &amp;rarr; -5&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;floor() 함수&lt;/h3&gt;
+소수점 이하를 절사한다.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;floor(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - 숫자.
+&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;floor(4.9) &amp;rarr; 4&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;floor(-4.9) &amp;rarr; -5&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1176"/>
@@ -68092,7 +68941,26 @@ from a &lt;code&gt;Interval&lt;/code&gt;
 &lt;code&gt;second(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 63072000&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;second() 함수&lt;/h3&gt;
+datetime 혹은 time에서 초를 추출하거나, &lt;code&gt;Interval&lt;/code&gt; 내의 초 수를 반환
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;second(datetime)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;second(Interval)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;date&lt;/code&gt; - datetime 혹은 time 임. 초를 추출할 날짜.
+&lt;br&gt;
+&lt;code&gt;Interval&lt;/code&gt; - Interval 임. 초를 반환할 기간.
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;second(&apos;2012-07-22T13:24:57&apos;) &amp;rarr; 57&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;second(tointerval(&apos;3 seconds&apos;)) &amp;rarr; 3&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;second(age(&apos;2012-07-22T00:20:00&apos;,&apos;2012-07-22T00:00:00&apos;)) &amp;rarr; 1200&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;second(age(&apos;2012-01-01&apos;,&apos;2010-01-01&apos;)) &amp;rarr; 63072000&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1321"/>
@@ -68109,7 +68977,18 @@ Returns arcustanget of a value in radians.
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      atan(0.5) &amp;rarr; 0.463647609000806&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;atan() 함수&lt;/h3&gt;
+라디안으로 아크탄젠트 값을 반환
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     atan(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; 각의 탄젠트 값.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+     atan(0.5) &amp;rarr; 0.463647609000806&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1262"/>
@@ -68125,7 +69004,18 @@ None
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;pre&gt;$length &amp;rarr; 42.4711&lt;/pre&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$length 함수&lt;/h3&gt;
+현재 객체의 길이를 반환
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$length&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+없음
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$length &amp;rarr; 42.4711&lt;/pre&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="11"/>
@@ -68144,7 +69034,20 @@ capital letter).
 &lt;!-- Show example of function.--&gt;
      upper(&apos;hello WOrld&apos;) &amp;rarr; &apos;Hello World&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;title() 함수&lt;/h3&gt;
+모든 단어를 타이틀 표시법으로 변환(모든 단어의 첫글자는 대문자로, 나머지는 소문자로)
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     title(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; string 임. 타이틀 표시법으로 전환할 문자열.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     upper(&apos;hello WOrld&apos;) &amp;rarr; &apos;Hello World&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="184"/>
@@ -68164,7 +69067,22 @@ Return a part of a string
 &lt;!-- Show example of function.--&gt;
      substr(&apos;HELLO WORLD&apos;,3,5) &amp;rarr; &apos;LLO W&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;substr() 함수&lt;/h3&gt;
+문자열의 일부분을 반환
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     substr(&lt;i&gt;string,startpos,length&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; string 임.  원본 문자열.&lt;br&gt;
+&lt;i&gt;  startpos&lt;/i&gt; &amp;rarr; number 임.  추출을 시작할 위치.&lt;br&gt;
+&lt;i&gt;  length&lt;/i&gt; &amp;rarr; number 임.  추출할 길이.&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     substr(&apos;HELLO WORLD&apos;,3,5) &amp;rarr; &apos;LLO W&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="429"/>
@@ -68182,7 +69100,20 @@ Format a string using supplied arguments.
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;format(&apos;This %1 a %2&apos;,&apos;is&apos;, &apos;test&apos;) &amp;rarr; This is a test&lt;/code&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;format() 함수&lt;/h3&gt;
+주어진 인자를 이용하여 문자열을 조합한다.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;format(&apos;string&apos;, arg, [arg...n])&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - string 임.  Qt QString 위치지시자 형태의 문자열.  %1, %2, 등을 위치지시자로 사용. 위치지시자는 대체됨. 
+&lt;br&gt;
+&lt;code&gt;arg [arg...n]&lt;/code&gt; - 어떤 타입이라도 됨.  몇 개의 인자. 
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;format(&apos;This %1 a %2&apos;,&apos;is&apos;, &apos;test&apos;) &amp;rarr; This is a test&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1120"/>
@@ -68199,7 +69130,19 @@ None
 &lt;pre&gt;$y &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$y 함수&lt;/h3&gt;
+현재 객채의 y 좌표를 반환
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$y&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+없음
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$y &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="320"/>
@@ -68221,7 +69164,24 @@ Returns a string representation of a color based on its red, green, blue, and al
 &lt;!-- Show example of function.--&gt;
      color_rgba(255,127,0,200) &amp;rarr; &apos;255,127,0,200&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>
+&lt;h3&gt;color_rgba() 함수&lt;/h3&gt;
+시안, 마젠타, 노랑, 검정의 요소를 기반으로 한 색을 문자로 표현하여 반환합니다.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     color_rgba(&lt;i&gt;red, green, blue, alpha&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  red&lt;/i&gt; &amp;rarr; 색상의 적색 요소, 0에서 255까지의 정수를 값으로 가짐.&lt;br&gt;
+&lt;i&gt;  green&lt;/i&gt; &amp;rarr; 색상의 녹색 요소, 0에서 255까지의 정수를 값으로 가짐.&lt;br&gt;
+&lt;i&gt;  blue&lt;/i&gt; &amp;rarr; 색상의 청색 요소, 0에서 255까지의 정수를 값으로 가짐.&lt;br&gt;
+&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; 색상의 알파(투명도) 요소, 0(완전 투명)에서 255(불투명)까지의 정수를 값으로 가짐.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_rgba(255,127,0,200) &amp;rarr; &apos;255,127,0,200&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="683"/>
@@ -68238,7 +69198,19 @@ None
 &lt;pre&gt;$x &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$x 함수&lt;/h3&gt;
+현재 객체의 y 좌표를 반환
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$x&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+없음
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$x &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1108"/>
@@ -68254,7 +69226,18 @@ Retrieves a x coordinate of the current feature
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;pre&gt;xat(1) &amp;rarr; 5&lt;/pre&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;xat 함수&lt;/h3&gt;
+현재 객체의 X 좌표를 추출
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;xat(i)&lt;/code&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;i&lt;code&gt; - int 임. 선사의 점의 인덱스(인덱스는 0에서 시작, 음수이면 마지막 인덱스가 적용)
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;xat(1) &amp;rarr; 5&lt;/pre&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="809"/>
@@ -68273,7 +69256,21 @@ Rounds a number upwards.
 &lt;code&gt;ceil(4.9) &amp;rarr; 5&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;ceil(-4.9) &amp;rarr; -4&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;ceil() 함수&lt;/h3&gt;
+숫자를 올림하여 정수로 만들어 반환.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;ceil(value)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;value&lt;/code&gt; - 숫자.
+&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;ceil(4.9) &amp;rarr; 5&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;ceil(-4.9) &amp;rarr; -4&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="859"/>
@@ -68293,14 +69290,30 @@ Returns a string representation of a color based on its hue, saturation, and val
 &lt;!-- Show example of function.--&gt;
      color_hsv(40,100,100) &amp;rarr; &apos;#ffaa00&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;color_hsv() 함수&lt;/h3&gt;
+색상, 채도, value를 기반으로 한 색을 문자로 표현해 반환
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     color_hsv(&lt;i&gt;hue, saturation, value&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; 색상환에서의 각도, 0에서 360 사이의 정수.&lt;br&gt;
+&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; 채도의 퍼센트. 0에서 100 사이의 정수.&lt;br&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; 색상의 퍼센트 값. 0에서 100 사이의 정수.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_hsv(40,100,100) &amp;rarr; &apos;#ffaa00&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="43"/>
         <source>&lt;h3&gt;Math Group&lt;/h3&gt;
 This group contains math functions e.g square root, sin and cos
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;수학 그룹&lt;/h3&gt;
+이 그룹에는 수학 함수들이 포함됨. 예: 제곱근, sin, cos</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="892"/>
@@ -68318,7 +69331,21 @@ Returns the smallest value in a set of values.
 &lt;!-- Show example of function.--&gt;
      min(20.5,10,6.2) &amp;rarr; 6.2
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;min() 함수&lt;/h3&gt;
+값들 중 가장 작은 값을 반환합니다.
+
+
+&lt;h4&gt;문법&lt;/h4&gt;
+     min(&lt;i&gt;value&lt;i&gt;[,&lt;i&gt;value&lt;/i&gt;...])
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; 숫자.&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     min(20.5,10,6.2) &amp;rarr; 6.2
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="64"/>
@@ -68334,7 +69361,18 @@ Converts a string to lower case letters.
 &lt;p&gt;&lt;h4&gt;  Example&lt;/h4&gt;
      lower(&apos;HELLO World&apos;) &amp;rarr; &apos;hello world&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;lower() 함수&lt;/h3&gt;
+문자열을 소문자로 변환함
+
+&lt;p&gt;&lt;h4&gt;  문법&lt;/h4&gt;
+     lower(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;  인자&lt;/h4&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; string 임.  소문자로 변환할 문자열.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;  예제&lt;/h4&gt;
+     lower(&apos;HELLO World&apos;) &amp;rarr; &apos;hello world&apos;&lt;/p&gt;
+수</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="741"/>
@@ -68351,14 +69389,28 @@ None
 &lt;pre&gt;$numfeatures &amp;rarr; 42&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$numfeatures 함수&lt;/h3&gt;
+아틀라스 생성시에, 커버리지 레이어 안의 모든 객체수를 반환
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$numfeatures&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+없음
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$numfeatures &amp;rarr; 42&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1210"/>
         <source>&lt;h3&gt;String Group&lt;/h3&gt;
 This group contains functions that operate on strings e.g replace, convert to upper case.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;문자열 그룹&lt;/h3&gt;
+이 그룹에는 문자열을 처리하는 함수들이 포함되어 있음. 예: 문자열 대체, 대문자 변환.
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1225"/>
@@ -68376,7 +69428,20 @@ Concatenates several strings to one.
 &lt;!-- Show example of function.--&gt;
      concat(&apos;a&apos;,&apos;b&apos;,&apos;c&apos;,&apos;d&apos;,&apos;e&apos;) &amp;rarr; &apos;abcde&apos;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;concat() 함수&lt;/h3&gt;
+여러 개의 문자열을 하나로 병합
+
+&lt;h4&gt;문법&lt;/h4&gt;
+     concat(&lt;i&gt;string&lt;i&gt;[,&lt;i&gt;string&lt;/i&gt;...])
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; string 임.  합칠 문자열 들.&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     concat(&apos;a&apos;,&apos;b&apos;,&apos;c&apos;,&apos;d&apos;,&apos;e&apos;) &amp;rarr; &apos;abcde&apos;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="839"/>
@@ -68400,7 +69465,27 @@ This function can take any number of arguments.
  else the value of &quot;fallbackField&quot; or the string &apos;ERROR&apos; if both are NULL&lt;/code&gt;&lt;br&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;coalesce() 함수&lt;/h3&gt;
+식 리스트에서 첫 번째 널이 아닌 값을 반환
+&lt;br&gt;
+이 함수는 인자를 몇개라도 받을 수 있음
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;coalesce(expression1, expression2 ...)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;expression&lt;/code&gt; - 유효한 식 혹은 값, 유형 상관 없음.
+&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;coalesce(NULL, 2) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;coalesce(NULL, 2, 3) &amp;rarr; 2&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;coalesce(7, NULL, 3*2) &amp;rarr; 7&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;code&gt;coalesce(&quot;fieldA&quot;, &quot;fallbackField&quot;, &apos;ERROR&apos;) &amp;rarr; value of fieldA if it is non-NULL
+ else the value of &quot;fallbackField&quot; or the string &apos;ERROR&apos; if both are NULL&lt;/code&gt;&lt;br&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1160"/>
@@ -68420,7 +69505,22 @@ Returns a string representation of a color based on its hue, saturation, and lig
 &lt;!-- Show example of function.--&gt;
      color_hsl(100,50,70) &amp;rarr; &apos;#a6d98c&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;color_hsl() 함수&lt;/h3&gt;
+색상, 채도, 명도를 기반으로 한 색을 문자열로 표현해 반환.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     color_hsl(&lt;i&gt;hue, saturation, lightness&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; 색상환에서의 각도, 0에서 360 사이의 정수.&lt;br&gt;
+&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; 채도의 퍼센트. 0에서 100 사이의 정수.&lt;br&gt;
+&lt;i&gt;  lightness&lt;/i&gt; &amp;rarr; 명도의 퍼센트. 0에서 100 사이의 정수.&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_hsl(100,50,70) &amp;rarr; &apos;#a6d98c&apos;&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="955"/>
@@ -68437,7 +69537,18 @@ Returns arcussinus of a value in radians.
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      asin(1.0) &amp;rarr; 1.5707963267949&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;asin() 함수&lt;/h3&gt;
+라디안으로 아크싸인 값을 반환
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     asin(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; 각의 싸인 값.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+     asin(1.0) &amp;rarr; 1.5707963267949&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="974"/>
@@ -68454,7 +69565,19 @@ Convert a string into Qt data time type.
 &lt;h4&gt;Example&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;todatetime(&apos;2012-05-04 12:50:00&apos;) &amp;rarr; 2012-05-04T12:50:00&lt;/code&gt;&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;todatetime() 함수&lt;/h3&gt;
+문자열을 Qt  data time 형식으로 변환.
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;todatetime(&apos;string&apos;)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - Qt date time 형식의 string 임.
+&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;todatetime(&apos;2012-05-04 12:50:00&apos;) &amp;rarr; 2012-05-04T12:50:00&lt;/code&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1146"/>
@@ -68472,7 +69595,20 @@ Converts a string to integer number. Nothing changed if a value cannot be conver
 &lt;!-- Show example of function.--&gt;
      toint(&apos;123&apos;) &amp;rarr; 123&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;toint 함수&lt;/h3&gt;
+문자열을 정수로 변환. 정수로 변환될 수 없는 값(예: &apos;123asd&apos;)인 경우 아무것도 변경되지 않음.
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     toint(&lt;i&gt;string&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  string&lt;/i&gt; &amp;rarr; string 임.  정수로 변환할 문자열.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     toint(&apos;123&apos;) &amp;rarr; 123&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="476"/>
@@ -68651,7 +69787,181 @@ Format a date type or string into a custom string format. Uses Qt data time form
 &lt;!-- Show example of function.--&gt;
 &lt;code&gt;format_date(&apos;2012-05-15&apos;,&apos;dd.mm.yyyy&apos;) &amp;rarr; 15.05.2012&lt;/code&gt;&lt;br&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;format_date() 함수&lt;/h3&gt;
+날짜 혹은 문자열 형식을 일반 문자열 형식으로 포매팅합니다. Qt data time 형식 문자열을 사용합니다. 다음을 참조하세요. &lt;a href=&apos;http://qt-project.org/doc/qt-4.8/qdatetime.html#toString&apos;&gt;QDateTime::toString&lt;/a&gt;
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;code&gt;format_date(&apos;string&apos;, &apos;format_string&apos;)&lt;/code&gt;&lt;br&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+&lt;code&gt;string&lt;/code&gt; - string 임. Date/Time/DateTime 문자열.
+&lt;br&gt;
+&lt;code&gt;format_string&lt;/code&gt; - string 임. 문자열로 포매팅할 때 사용할 문자열 템플릿.
+
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Expression&lt;/th&gt;
+
+        &lt;th&gt;Output&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;d&lt;/td&gt;
+
+      &lt;td&gt;the day as number without a leading zero (1 to 31)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;dd&lt;/td&gt;
+
+      &lt;td&gt;the day as number with a leading zero (01 to 31)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;ddd&lt;/td&gt;
+
+      &lt;td&gt;the abbreviated localized day name (e.g. &apos;Mon&apos; to &apos;Sun&apos;). Uses &lt;a href=
+      &quot;qdate.html#shortDayName&quot;&gt;QDate::shortDayName&lt;/a&gt;().&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;dddd&lt;/td&gt;
+
+      &lt;td&gt;the long localized day name (e.g. &apos;Monday&apos; to &apos;Sunday&apos;). Uses &lt;a href=
+      &quot;qdate.html#longDayName&quot;&gt;QDate::longDayName&lt;/a&gt;().&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;M&lt;/td&gt;
+
+      &lt;td&gt;the month as number without a leading zero (1-12)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;MM&lt;/td&gt;
+
+      &lt;td&gt;the month as number with a leading zero (01-12)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;MMM&lt;/td&gt;
+
+      &lt;td&gt;the abbreviated localized month name (e.g. &apos;Jan&apos; to &apos;Dec&apos;). Uses &lt;a href=
+      &quot;qdate.html#shortMonthName&quot;&gt;QDate::shortMonthName&lt;/a&gt;().&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;MMMM&lt;/td&gt;
+
+      &lt;td&gt;the long localized month name (e.g. &apos;January&apos; to &apos;December&apos;). Uses &lt;a href=
+      &quot;qdate.html#longMonthName&quot;&gt;QDate::longMonthName&lt;/a&gt;().&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;yy&lt;/td&gt;
+
+      &lt;td&gt;the year as two digit number (00-99)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;yyyy&lt;/td&gt;
+
+      &lt;td&gt;the year as four digit number&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+  &lt;p&gt;These expressions may be used for the time part of the format string:&lt;/p&gt;
+
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Expression&lt;/th&gt;
+
+        &lt;th&gt;Output&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;h&lt;/td&gt;
+
+      &lt;td&gt;the hour without a leading zero (0 to 23 or 1 to 12 if AM/PM display)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;hh&lt;/td&gt;
+
+      &lt;td&gt;the hour with a leading zero (00 to 23 or 01 to 12 if AM/PM display)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;H&lt;/td&gt;
+
+      &lt;td&gt;the hour without a leading zero (0 to 23, even with AM/PM display)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;HH&lt;/td&gt;
+
+      &lt;td&gt;the hour with a leading zero (00 to 23, even with AM/PM display)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;m&lt;/td&gt;
+
+      &lt;td&gt;the minute without a leading zero (0 to 59)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;mm&lt;/td&gt;
+
+      &lt;td&gt;the minute with a leading zero (00 to 59)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;s&lt;/td&gt;
+
+      &lt;td&gt;the second without a leading zero (0 to 59)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;ss&lt;/td&gt;
+
+      &lt;td&gt;the second with a leading zero (00 to 59)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;z&lt;/td&gt;
+
+      &lt;td&gt;the milliseconds without leading zeroes (0 to 999)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;zzz&lt;/td&gt;
+
+      &lt;td&gt;the milliseconds with leading zeroes (000 to 999)&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;AP or A&lt;/td&gt;
+
+      &lt;td&gt;interpret as an AM/PM time. &lt;i&gt;AP&lt;/i&gt; must be either &quot;AM&quot; or &quot;PM&quot;.&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr valign=&quot;top&quot;&gt;
+      &lt;td&gt;ap or a&lt;/td&gt;
+
+      &lt;td&gt;Interpret as an AM/PM time. &lt;i&gt;ap&lt;/i&gt; must be either &quot;am&quot; or &quot;pm&quot;.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+
+&lt;br&gt;
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+&lt;code&gt;format_date(&apos;2012-05-15&apos;,&apos;dd.mm.yyyy&apos;) &amp;rarr; 15.05.2012&lt;/code&gt;&lt;br&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="139"/>
@@ -68668,7 +69978,19 @@ Returns tangent of an angle.
 &lt;p&gt;&lt;h4&gt;Example&lt;/h4&gt;
      tan(1.0) &amp;rarr; 1.5574077246549&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;tan() 함수&lt;/h3&gt;
+각의 탄젠트 값을 반환.
+
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     tan(&lt;i&gt;real&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;i&gt;real&lt;/i&gt; &amp;rarr; 라디안 단위 각도.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+     tan(1.0) &amp;rarr; 1.5574077246549&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="46"/>
@@ -68677,7 +69999,11 @@ Double click to add field name to expression string.
 &lt;br&gt;&lt;br&gt;
 Right-Click on field name to open context menu sample value loading options.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;필드&lt;/h3&gt;
+식 문자열에 필드 이름을 추가하기위해 더블클릭 합니다.
+&lt;br&gt;&lt;br&gt;
+필드 이름에서 오른쪽 클릭하면 샘플 값을 가진 컨텍스트 메뉴를 호출할 수 있습니다.
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1444"/>
@@ -68694,7 +70020,19 @@ None
 &lt;pre&gt;$feature &amp;rarr; 2&lt;/pre&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;$feature 함수&lt;/h3&gt;
+아틀라스 생성시에, 커버리지 레이어 위에 올려진 현재 객체 갯수를 반환
+
+&lt;h4&gt;문법&lt;/h4&gt;
+&lt;pre&gt;$feature&lt;/pre&gt;
+
+&lt;h4&gt;인자&lt;/h4&gt;
+없음
+
+&lt;h4&gt;예제&lt;/h4&gt;
+&lt;pre&gt;$feature &amp;rarr; 2&lt;/pre&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="1403"/>
@@ -68715,7 +70053,23 @@ Returns a string representation of a color based on its hue, saturation, value a
 &lt;!-- Show example of function.--&gt;
      color_hsva(40,100,100,200) &amp;rarr; &apos;255,170,0,200&apos;&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;color_hsva() 함수&lt;/h3&gt;
+색상, 채도, value, 알파(투명도)를 기반으로 한 색을 문자로 표현해 반환
+
+&lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
+     color_hsva(&lt;i&gt;hue, saturation, value, alpha&lt;/i&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
+&lt;!-- List args for functions here--&gt;
+&lt;i&gt;  hue&lt;/i&gt; &amp;rarr; 색상환에서의 각도, 0에서 360 사이의 정수.&lt;br&gt;
+&lt;i&gt;  saturation&lt;/i&gt; &amp;rarr; 채도의 퍼센트. 0에서 100 사이의 정수.&lt;br&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; 색상의 퍼센트 값. 0에서 100 사이의 정수.&lt;br&gt;
+&lt;i&gt;  alpha&lt;/i&gt; &amp;rarr; 알파 요소의 값. 0(완전 투명)에서 255(불투명).&lt;br&gt;
+
+&lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
+&lt;!-- Show example of function.--&gt;
+     color_hsva(40,100,100,200) &amp;rarr; &apos;255,170,0,200&apos;&lt;/p&gt;
+</translation>
     </message>
 </context>
 <context>
