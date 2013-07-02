@@ -64252,7 +64252,8 @@ Detailed description how to proceed with vector data is described in chapter 5 &
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="853"/>
         <source>&lt;h3&gt;Style Manager&lt;/h3&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;스타일 관리자&lt;/h3&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1349"/>
