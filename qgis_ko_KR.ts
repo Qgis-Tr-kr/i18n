@@ -63276,20 +63276,20 @@ geometry types and don&apos;t offer to add others.
 
 &lt;/ul&gt;
 </source>
-        <translation type="unfinished">&lt;h3&gt;Create a New Oracle Connection&lt;/h3&gt;
-This dialog allows you to define the settings for a connection to a Oracle database.
+        <translation type="unfinished">&lt;h3&gt;새 Oracle 연결 생성하기&lt;/h3&gt;
+이 대화상자는 Oracle 데이터베이스에 연결을 위한 설정을 정의하게 합니다.
 &lt;p&gt;
 &lt;ul&gt;
-&lt;li&gt; &lt;label&gt;Name&lt;/label&gt; A name to identify the connection settings.
+&lt;li&gt; &lt;label&gt;이름&lt;/label&gt; 연결 설정을 확인하기 위한 이름.
 
-&lt;li&gt; &lt;label&gt;Database&lt;/label&gt; SID or SERVICE_NAME of the Oracle instance.
+&lt;li&gt; &lt;label&gt;데이터베이스&lt;/label&gt; Oracle 인스턴스의 SID 또는 SERVICE_NAME.
 
-&lt;li&gt; &lt;label&gt;Host&lt;/label&gt; Name or IP address of the computer hosting the database server
+&lt;li&gt; &lt;label&gt;호스트&lt;/label&gt; 데이터베이스 서버를 호스팅하는 컴퓨터의 이름 또는 IP 주소
 
-&lt;li&gt; &lt;label&gt;Port&lt;/label&gt; IP port used by the database server
+&lt;li&gt; &lt;label&gt;포트&lt;/label&gt; 데이터베이스 서버에서 사용되는 IP 포트
 
-&lt;li&gt; &lt;label&gt;Username&lt;/label&gt; Database user name.
-&lt;li&gt; &lt;label&gt;Password&lt;/label&gt; Database password.
+&lt;li&gt; &lt;label&gt;사용자이름&lt;/label&gt; Database user name.
+&lt;li&gt; &lt;label&gt;암호&lt;/label&gt; Database password.
 
 &lt;li&gt; &lt;label&gt;Save Username&lt;/label&gt; Indicates whether to save the database user name in the connection configuration.
 
