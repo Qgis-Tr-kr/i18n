@@ -63276,7 +63276,7 @@ geometry types and don&apos;t offer to add others.
 
 &lt;/ul&gt;
 </source>
-        <translation type="unfinished">&lt;h3&gt;새 Oracle 연결 생성하기&lt;/h3&gt;
+        <translation>&lt;h3&gt;새 Oracle 연결 생성하기&lt;/h3&gt;
 이 대화상자는 Oracle 데이터베이스에 연결을 위한 설정을 정의하게 합니다.
 &lt;p&gt;
 &lt;ul&gt;
@@ -63342,8 +63342,8 @@ Pressing the &lt;label&gt;Calculate&lt;/label&gt; button will run the shortest p
 &lt;h5&gt;Note&lt;/h5&gt;
 &lt;p&gt;In order to bind the start and stop points of the route to the road network Road graph selects the nearest point or arc of the graph. In fact it can bind to any part of the road network. Nevertheless, their route and its characteristics do not take into account the distance from the starting point to the road network and of the road network to the stopping point.&lt;/p&gt;
 </source>
-        <translation type="unfinished">&lt;h3&gt;Finding shortest path&lt;/h3&gt;
-&lt;p&gt;Road graph is a C++ plugin for QGIS, that calculates the shortest path between two points on any line layer and plots this path over the road network. Before using the plugin to configure it. This can be done in the menu &lt;label&gt;Plugins &amp;rarr; Road graph &amp;rarr; Settings&lt;/label&gt;&lt;/p&gt;
+        <translation>&lt;h3&gt;최단 거리 찾기&lt;/h3&gt;
+&lt;p&gt;로드 그래프는  QGIS를 위한 C++ 플러그인으로서, 선 레이어의 두 점사이의 최던 거리를 계산해주고, 로드 네트워크에 대한 이 길을 구성합니다. 플러그인을 사용하기 전에 설정합니다. 이 기능은 메뉴 &lt;label&gt;플러그인 &amp;rarr; 로드 그래프 &amp;rarr; 설정&lt;/label&gt;에 있습니다.&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&quot;#howto&quot;&gt;How to&lt;/a&gt;&lt;br/&gt;
 &lt;/p&gt;
@@ -63351,11 +63351,11 @@ Pressing the &lt;label&gt;Calculate&lt;/label&gt; button will run the shortest p
 &lt;a name=&quot;howto&quot;&gt;
 &lt;h4&gt;How to&lt;/h4&gt;
 &lt;/a&gt;
-&lt;p&gt;You can select start and end points with the select buttons next to the fields.
-Pressing the &lt;label&gt;Calculate&lt;/label&gt; button will run the shortest path calculation using the optimization criterion selected in the &lt;label&gt;Criterion&lt;/label&gt; combobox. The &lt;label&gt;Export&lt;/label&gt; button allow you to export a calculated path to a new vector layer, and the button &lt;label&gt;Clear&lt;/label&gt; will erase all fields and remove the points and calculated path from map canvas.&lt;/p&gt;
+&lt;p&gt;사용자는 필드 옆에 있는 선택 버튼으로 시작점과 종료점을 선택할 수 있습니다.
+Pressing the &lt;label&gt;계산&lt;/label&gt; 버튼을 누르면 &lt;label&gt;기준&lt;/label&gt; 콤보박스에서 선택된 최적 기준을 이용하여 최단 거리 계산을 수행합니다. &lt;label&gt;내보내기&lt;/label&gt; 버튼으로 계산된 거리를 새 벡터 레이어로 내보내고, &lt;label&gt;클리어&lt;/label&gt; 버튼으로 모든 필드를 지우고, 지도 캔버스의 점들과 계산된 거리를 삭제합니다.&lt;/p&gt;
 
-&lt;h5&gt;Note&lt;/h5&gt;
-&lt;p&gt;In order to bind the start and stop points of the route to the road network Road graph selects the nearest point or arc of the graph. In fact it can bind to any part of the road network. Nevertheless, their route and its characteristics do not take into account the distance from the starting point to the road network and of the road network to the stopping point.&lt;/p&gt;</translation>
+&lt;h5&gt;메모&lt;/h5&gt;
+&lt;p&gt;루트의 시작점과 끝점을 로드 네트워크에 묶기 위해, 로드 그래프는 그래프 원희 가장 가까운 점을 선택합니다. 사실살, 로드 네트워크의 어떤 부분도 묶일 수 있습니다. 그럼에도 불구하고, 루트와 성격은 시작점부터 로드 네트워크까지 그리고 로드네트워크부터 끝점까지의 거를 고려하지 않습니다.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="23"/>
@@ -63396,7 +63396,43 @@ To filter a layer before adding it to the map, double click on its name or use &
 &lt;/a&gt;
 Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for searching in different column types and using 2 search modes: &lt;label&gt;Wildcard&lt;/label&gt; or &lt;label&gt;RegExp&lt;/label&gt;.
 </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;h3&gt;Add PostGIS Tables&lt;/h3&gt;
+This dialog allows you to add PostGIS layers (tables with a geometry column) to the QGIS map canvas.
+&lt;p&gt;
+&lt;a href=&quot;#connect&quot;&gt;Connections&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#add&quot;&gt;Adding Layers&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#filter&quot;&gt;Filtering a Layer&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#search&quot;&gt;Search options&lt;/a&gt;&lt;br/&gt;
+
+&lt;a href=&quot;#connect&quot;&gt;
+&lt;h4&gt;Connections&lt;/h4&gt;
+&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Choose the connection to use from the drop-down box and click &lt;label&gt;Connect&lt;/label&gt;.
+&lt;li&gt;If there are no connections, use the &lt;label&gt;New&lt;/label&gt; button to create a connection.
+&lt;li&gt;To modify a connection, click the &lt;label&gt;Edit&lt;/label&gt; button.
+&lt;/ul&gt;
+&lt;a name=&quot;add&quot;&gt;
+&lt;h4&gt;Adding Layers&lt;/h4&gt;
+&lt;/a&gt;
+To add a layer:
+&lt;ol&gt;
+&lt;li&gt;Choose the desired connection from the drop-down box.
+&lt;li&gt;Click &lt;label&gt;Connect&lt;/label&gt;.
+&lt;li&gt;Find the layer you want to add in the list and click on it to select it.
+&lt;li&gt;You can select additional layers by holding down the Ctrl key and clicking.
+&lt;li&gt;Click &lt;label&gt;Add&lt;/label&gt; to add the layer(s) to the map.
+&lt;/ol&gt;
+&lt;a name=&quot;filter&quot;&gt;
+&lt;h4&gt;Filtering a Layer&lt;/h4&gt;
+&lt;/a&gt;
+To filter a layer before adding it to the map, double click on its name or use &lt;label&gt;Build query&lt;/label&gt; button. This will open the Query Builder, allowing you to build up a SQL statement to use in filtering the records.
+
+&lt;a name=&quot;search&quot;&gt;
+&lt;h4&gt;Search options&lt;/h4&gt;
+&lt;/a&gt;
+Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for searching in different column types and using 2 search modes: &lt;label&gt;Wildcard&lt;/label&gt; or &lt;label&gt;RegExp&lt;/label&gt;.
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="256"/>
