@@ -63396,42 +63396,42 @@ To filter a layer before adding it to the map, double click on its name or use &
 &lt;/a&gt;
 Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for searching in different column types and using 2 search modes: &lt;label&gt;Wildcard&lt;/label&gt; or &lt;label&gt;RegExp&lt;/label&gt;.
 </source>
-        <translation type="unfinished">&lt;h3&gt;Add PostGIS Tables&lt;/h3&gt;
-This dialog allows you to add PostGIS layers (tables with a geometry column) to the QGIS map canvas.
+        <translation type="unfinished">&lt;h3&gt;PostGIS 테이블 추가하기&lt;/h3&gt;
+이 대화상자는 사용자가  PostGIS 레이어(지오메트리 행이 있는 테이블)를 .QGIS 지도 캔번스에 추가하게 해줍니다.
 &lt;p&gt;
-&lt;a href=&quot;#connect&quot;&gt;Connections&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#add&quot;&gt;Adding Layers&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#filter&quot;&gt;Filtering a Layer&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#search&quot;&gt;Search options&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#connect&quot;&gt;연결&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#add&quot;&gt;레이어 추가&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#filter&quot;&gt;레이어 필터&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#search&quot;&gt;검색 옵션&lt;/a&gt;&lt;br/&gt;
 
 &lt;a href=&quot;#connect&quot;&gt;
-&lt;h4&gt;Connections&lt;/h4&gt;
+&lt;h4&gt;연결&lt;/h4&gt;
 &lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;Choose the connection to use from the drop-down box and click &lt;label&gt;Connect&lt;/label&gt;.
-&lt;li&gt;If there are no connections, use the &lt;label&gt;New&lt;/label&gt; button to create a connection.
-&lt;li&gt;To modify a connection, click the &lt;label&gt;Edit&lt;/label&gt; button.
+&lt;li&gt;드랍다운 상자에서 사용할 연결을 선택하고 &lt;label&gt;연결&lt;/label&gt;을 클릭하세요.
+&lt;li&gt;원하는 연결이 없으면, 새로운 연결을 만들기 위해 &lt;label&gt;새로 만들기&lt;/label&gt; 버튼을 클릭하세요.
+&lt;li&gt;연결을 수정하기 위해서는 &lt;label&gt;편집&lt;/label&gt; 버튼을 클릭하세요.
 &lt;/ul&gt;
 &lt;a name=&quot;add&quot;&gt;
-&lt;h4&gt;Adding Layers&lt;/h4&gt;
+&lt;h4&gt;레이어 추가&lt;/h4&gt;
 &lt;/a&gt;
-To add a layer:
+레이어 추가하기:
 &lt;ol&gt;
-&lt;li&gt;Choose the desired connection from the drop-down box.
-&lt;li&gt;Click &lt;label&gt;Connect&lt;/label&gt;.
-&lt;li&gt;Find the layer you want to add in the list and click on it to select it.
-&lt;li&gt;You can select additional layers by holding down the Ctrl key and clicking.
-&lt;li&gt;Click &lt;label&gt;Add&lt;/label&gt; to add the layer(s) to the map.
+&lt;li&gt;드랍다운 상자에서 원하는 연결을 선택하세요..
+&lt;li&gt;&lt;label&gt;연결&lt;/label&gt;을 클릭하세요.
+&lt;li&gt;목록에서 추가를 원하는 레이어를 찾고 선택하기 위해 클릭하세요.
+&lt;li&gt;컨트롤(Ctrl) 키를 누른채로 클릭을 하여 추가적으로 레이어를 선택할 수 있습니다.
+&lt;li&gt;지도에 레이어를 추가하기 위해 &lt;label&gt;추가&lt;/label&gt;를 클릭하세요.
 &lt;/ol&gt;
 &lt;a name=&quot;filter&quot;&gt;
-&lt;h4&gt;Filtering a Layer&lt;/h4&gt;
+&lt;h4&gt;레이어 필터&lt;/h4&gt;
 &lt;/a&gt;
-To filter a layer before adding it to the map, double click on its name or use &lt;label&gt;Build query&lt;/label&gt; button. This will open the Query Builder, allowing you to build up a SQL statement to use in filtering the records.
+지도에 추가하기 전에 레이어를 필터하기 위해, 이름을 더블클릭하거나, &lt;label&gt;쿼리 만들기&lt;/label&gt; 버튼을 클릭하세요. 기록들을 필터링 하기 위해 SQL 구문을 작성할 수 있는 쿼리 빌더가 오픈됩니다.
 
 &lt;a name=&quot;search&quot;&gt;
-&lt;h4&gt;Search options&lt;/h4&gt;
+&lt;h4&gt;검색 옵션&lt;/h4&gt;
 &lt;/a&gt;
-Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for searching in different column types and using 2 search modes: &lt;label&gt;Wildcard&lt;/label&gt; or &lt;label&gt;RegExp&lt;/label&gt;.
+&lt;label&gt;검색 옵션&lt;/label&gt;을 체크하여 다른 행 유형에서 검색하고 2 가지의 검색모드 &lt;label&gt;Wildcard&lt;/label&gt; 또는 &lt;label&gt;RegExp&lt;/label&gt;를 사용할 추가 옵션기능을 사용할 수 있습니다.
 </translation>
     </message>
     <message>
