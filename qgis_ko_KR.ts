@@ -63141,7 +63141,15 @@ You may also tick an &lt;label&gt;Open feature form, if a single feature is iden
 Identifiable layers can be set in the Project Properties dialog &lt;label&gt;Settings &gt; Project Properties &gt; Identifiable layers&lt;/label&gt; where all the layers names are listed, their type (vector, raster, etc.) and ability to be identified.
 &lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;객체 확인&lt;/h3&gt;
+&lt;p&gt;
+결과 대화상자는 검색 허용치안에서 확인된 모든 객체를 보여줍니다. 결과를 상세히 보기 위해서는 각 객체의 왼편에 있는 객체 정보를 확대하면 됩니다. 
+&lt;/p&gt;
+&lt;p&gt;
+검색 범위는 옵션 대화상자에서 설정할 수 있습니다. &lt;label&gt;설정 &gt; 옵션 &gt; 지도 도구&lt;/label&gt;, 지도 넓이의 비율에 따라 섹션을 확인합니다. 이 섹션에서 사용자는 확인 모드를 &lt;label&gt;현재 레이어로&lt;/label&gt;, &lt;label&gt;위 아래로, 처음에 멈춤&lt;/label&gt;, &lt;label&gt;위 아래로&lt;/label&gt;설정할 수 있습니다. &lt;br&gt;
+사용자는 또한 &lt;label&gt;객체 폼 열기(단일 객체가 확인된다면)&lt;/label&gt; 옵션을 체크할 수 있다.&lt;br&gt;
+확인 가능한 레이어들은 프로젝트 속성 대화상자에서 설정될 수 있습니다.&lt;label&gt;설정 &gt; 프로젝트 속성 &gt; 확인가능한 레이어&lt;/label&gt; 여기서 모든 레이어들의 이름의 목록과 타입(벡터, 래스터 등)과 능력이 확인 가능합니다.
+&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1594"/>
@@ -63168,7 +63176,28 @@ In this section you can see the list of attributes. To delete one of them, click
 &lt;p&gt;
 Click on &lt;label&gt;OK&lt;/label&gt; to create the layer and close the dialog.  Clicking &lt;label&gt;Apply&lt;/label&gt; also creates the layer, but keeps the dialog open, thereby allowing you to create more similar layers. &lt;label&gt;Cancel&lt;/label&gt; will close the layer without further changes.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;새로운 SpatiaLite 레이어 만들기&lt;/h3&gt;
+사용자는 편집을 위해 새로운 SpatiaLite 데이터베이스와(또는) 빈 SpatiaLite 레이어 생성을 위해 대화 상자를 사용할 수 있습니다.아래의 대화 상자 입력 설명을 참고하세요.
+&lt;h4&gt;데이터베이스&lt;/h4&gt;
+드랍다운 리스트에서 데이터베이스를 선택하세요. 해당 리스트는 사용자가 저장한 SpatiaLite 연결로부터 생성됩니다. 저장된 연결이 없거나 새로운 데이터베이스를 생성하고 싶으면, 드랍다운 리스트의 오른쪽에 있는 버튼을 클릭하세요.
+&lt;h4&gt;레이어 이름&lt;/h4&gt;
+생성할 레이어를 위한 이름을 입력하세요. 한 단어로 되어야 합니다. 이름에 밑줄표시를 사용해도 됩니다.
+&lt;h4&gt;지오메트리 행&lt;/h4&gt;
+기본으로 하거나, 기본지오메트리 행을 위한 이름을 입력하세요.
+&lt;h4&gt;유형&lt;/h4&gt;
+생성할 레이어의 유형을 선택하세요. 
+&lt;h4&gt;EPSG SRID&lt;/h4&gt;
+공간 참조  ID(SRID)를 위해 EPSG 숫자를 입력하세요. 기본적으로 WGS 84의 SRID가 기입되어 있습니다. 필요한 경우 레이어의 좌표계를 변경하기 위해 &lt;label&gt;SRID 찾기&lt;/label&gt; 버튼을 클릭하세요. SRID는 사용자의 SpatiaLite 데이터베이스의  spatial_ref_sys 안에 존재해야 합니다. 이름과  SRID를 부분적으로 매치하여 SRID를 검색할 수 있습니다.
+&lt;h4&gt;자동 증가 주요 키 생성&lt;/h4&gt;
+이 체크박스를 클릭하여 새 레이어에 주요키를 추가합니다. 이 키 필드는 레이어의 속성 테이블에 객체를 추가할 때 값을 입력하지 않아도 되도록 자동 증가 될 것입니다. 
+&lt;h4&gt;새 속성&lt;/h4&gt;
+속성의 이름과 유형을 정한 후에 &lt;label&gt;속성 목록에 추가&lt;/label&gt; 버튼을 클릭하여 원하는 속성을 추가합니다. 오직 실수, 정수와 문자열 속성만 지원됩니다.&lt;br/&gt;
+넓이와 정확도는  SpatiaLite 데이터베이스에서 무관하기 때문에 이것들을 따로 지정할 필요는 없습니다. 
+&lt;h4&gt;속성 목록&lt;/h4&gt;
+속성 목록을 열람할 수 있습니다. 목록 중 하나를 지우기 위해서는 &lt;label&gt;선택된 속성 삭제&lt;/label&gt; 버튼을 선택하고 클릭하면 됩니다.
+
+&lt;p&gt;
+레이어를 생성하고 대화상자를 닫기 위해서는 &lt;label&gt;OK&lt;/label&gt; 를 클릭합니다. &lt;label&gt;적용&lt;/label&gt;을 클릭하여 레이어를 생성할 수 있는데, 이 경우 대화상자를 연채로 레이어를 생성하여 좀 더 유사한 레이어를 생성하게 해줍니다. &lt;label&gt;취소&lt;/label&gt;는 더 이상 변경 없이 레이어를 닫게 합니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1277"/>
@@ -63240,7 +63269,9 @@ geometry types and don&apos;t offer to add others.
         <source>&lt;h3&gt;GPS Plugin&lt;/h3&gt;
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;GPS 플러그인&lt;/h3&gt;
+
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="60"/>
@@ -63306,7 +63337,8 @@ Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="256"/>
         <source>&lt;h3&gt;Identify&lt;/h3&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;확인하기&lt;/h3&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="293"/>
