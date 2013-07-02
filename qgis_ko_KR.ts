@@ -63396,7 +63396,7 @@ To filter a layer before adding it to the map, double click on its name or use &
 &lt;/a&gt;
 Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for searching in different column types and using 2 search modes: &lt;label&gt;Wildcard&lt;/label&gt; or &lt;label&gt;RegExp&lt;/label&gt;.
 </source>
-        <translation type="unfinished">&lt;h3&gt;PostGIS 테이블 추가하기&lt;/h3&gt;
+        <translation>&lt;h3&gt;PostGIS 테이블 추가하기&lt;/h3&gt;
 이 대화상자는 사용자가  PostGIS 레이어(지오메트리 행이 있는 테이블)를 .QGIS 지도 캔번스에 추가하게 해줍니다.
 &lt;p&gt;
 &lt;a href=&quot;#connect&quot;&gt;연결&lt;/a&gt;&lt;br/&gt;
@@ -63582,7 +63582,144 @@ The Diagram tab allows you to add a graphic overlay to a vector layer. To activa
 The current implementation of diagrams provides support for pie- and bar charts and for linear scaling
 of the diagram size according to a classification attribute.
 </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;h3&gt;벡터 레이어 속성&lt;/h3&gt;
+벡터 레이어 설정과 속성This dialog allows you to work with vector layer settings and properties. There are seven tabs:
+&lt;p&gt;
+&lt;a href=&quot;#symbology&quot;&gt;심볼&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#labels&quot;&gt;라벨&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#attributes&quot;&gt;속성&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#general&quot;&gt;일반&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#metadata&quot;&gt;메타데이터&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#actions&quot;&gt;액션&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#diagram&quot;&gt;다이어그램 오버레이&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;symbology&quot;&gt;
+&lt;h4&gt;기호&lt;/h4&gt;
+&lt;/a&gt;
+레이어를 위한 심볼을 변경하기 위해서는 간단하게 범례 엔트리와 벡터를 더블클릭하면 됩니다.&lt;label&gt;레이어 속성&lt;/label&gt; 대화상자가 나타납니다.&lt;p&gt;
+Within this dialog you can style your vector layer. Depending on the selected rendering option you have the possibility to also classify your map features.
+
+&lt;h5&gt;Legend type&lt;/h5&gt;
+QGIS supports a number of symbology renderers to control how vector features are displayed. Currently the following renderers are available:
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;Single symbol&lt;/label&gt; - a single style is applied to every object in the layer.
+&lt;li&gt;&lt;label&gt;Graduated symbol&lt;/label&gt; - objects within the layer are displayed with different symbols classified by the values of a particular field.
+&lt;li&gt;&lt;label&gt;Continuous color&lt;/label&gt; - objects within the layer are displayed with a spread of colors classified by the numerical values within a specified field.
+&lt;li&gt;&lt;label&gt;Unique value&lt;/label&gt; - objects are classified by the unique values within a specified field with each value having a different symbol.
+&lt;/ul&gt;
+
+&lt;h5&gt;New symbology&lt;/h5&gt;
+Click &lt;label&gt;New symbology&lt;/label&gt; button to use new symbology implementation for the layer.
+
+&lt;h5&gt;Vector transparency&lt;/h5&gt;
+QGIS allows to set a transparency for every vector layer. This can be done with the slider &lt;label&gt;Transparency&lt;/label&gt;. This is very useful for overlaying several vector layers.
+
+&lt;h5&gt;Saving styles&lt;/h5&gt;
+Once you have styled your layer you also could save your layer-style to a separate file (with *.qml ending). To do this, use the button &lt;label&gt;Save Style...&lt;/label&gt;. No need to say that &lt;label&gt;Load Style...&lt;/label&gt; loads your saved layer-style-file.&lt;br/&gt;
+If you wish to always use a particular style whenever the layer is loaded, use the &lt;label&gt;Save As Default&lt;/label&gt; button to make your style the default. Also, if you make changes to the style that you are not happy with, use the &lt;label&gt;Restore Default Style&lt;/label&gt; button to revert to your default style.
+
+&lt;a name=&quot;labels&quot;&gt;
+&lt;h4&gt;Labels&lt;/h4&gt;
+&lt;/a&gt;
+The Labels tab allows you to enable labeling features and control a number of options related to fonts, placement, style, alignment and buffering.&lt;br/&gt;
+Check the &lt;label&gt;Display labels&lt;/label&gt; check box to enable labeling.
+
+&lt;h5&gt;Basic Label options&lt;/h5&gt;
+Choose the field to label with.&lt;p&gt;
+Select the use the &lt;label&gt;Font&lt;/label&gt; and  &lt;label&gt;Color&lt;/label&gt; buttons to set the font and color. You can also change the angle and the placement of the text-label.&lt;p&gt;
+If have labels extending over several lines, check &lt;label&gt;Multiline labels?&lt;/label&gt;. QGIS will check for a true line return in your label field and insert the line breaks accordingly. A true line return is a single character &amp;#92;n, (not two separate characters, like a backslash &amp;#92; followed by the character n).
+
+&lt;h5&gt;Placement&lt;/h5&gt;
+Change the label placement by selecting one of the radio buttons in the &lt;label&gt;Placement&lt;/label&gt; group.
+
+&lt;h5&gt;Font size units&lt;/h5&gt;
+The &lt;label&gt;Font size units&lt;/label&gt; allows you to select between &lt;label&gt;Points&lt;/label&gt; or &lt;label&gt;Map units&lt;/label&gt;.
+
+&lt;h5&gt;Buffer labels&lt;/h5&gt;
+To buffer the labels means putting a backdrop around them to make them stand out better. To buffer the lakes labels:
+&lt;ol&gt;
+&lt;li&gt;Click the &lt;label&gt;Buffer Labels&lt;/label&gt; check box to enable buffering.
+&lt;li&gt;Choose a size for the buffer using the spin box.
+&lt;li&gt;Choose a color by clicking on &lt;label&gt;Color&lt;/label&gt; and choosing your favorite from the color selector. You can also set some transparency for the buffer if you prefer.
+&lt;li&gt;Click &lt;label&gt;Apply&lt;/label&gt; to see if you like the changes.
+&lt;/ol&gt;
+Notice you can also specify the buffer size in map 
+units if that works out better for you.
+
+&lt;h5&gt;Data defined placement, properties, buffer, position&lt;/h5&gt;
+The remaining entries inside the &lt;label&gt;Label&lt;/label&gt; tab allow you control the appearance of the labels using attributes stored in the layer. The entries beginning with &lt;label&gt;Data defined&lt;/label&gt; allow you to set all the parameters for the labels using fields in the layer.
+
+
+&lt;a name=&quot;attributes&quot;&gt;
+&lt;h4&gt;Attributes&lt;/h4&gt;
+&lt;/a&gt;
+Within the &lt;label&gt;Attributes&lt;/label&gt; tab the attributes of the selected data set can be manipulated. The buttons &lt;label&gt;New Column&lt;/label&gt; and &lt;label&gt;Delete Column&lt;/label&gt; can be used, when the data set is in editing mode. The OGR library supports to add new columns, but not to remove them, if you have a GDAL version &gt;= 1.6 installed. Otherwise only columns from PostGIS layers can be edited.&lt;p&gt;
+The &lt;label&gt;Toggle editing mode&lt;/label&gt; button toggles this mode.&lt;p&gt;
+Within the Attributes tab you also find an edit widget column. This column can be used to define values or a range of values that are allowed to be added to the specific attribute table column. If you click on the &lt;label&gt;edit widget&lt;/label&gt; button, a dialog opens, where you can define different widgets. These widgets are:&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;Line edit&lt;/label&gt; an edit field which allows to enter simple text (or restrict to numbers for numeric attributes).
+&lt;li&gt;&lt;label&gt;Classification&lt;/label&gt; Displays a combo box with the values used for classification, if you have chosen &lt;label&gt;unique value&lt;/label&gt; as legend type in the symbology tab of the properties dialog.
+&lt;li&gt;&lt;label&gt;Range&lt;/label&gt; Allows to set numeric values from a specific range. The edit widget can be either a slider or a spin box.
+&lt;li&gt;&lt;label&gt;Unique value&lt;/label&gt; The user can select one of the values already used in the attribute table. If &lt;label&gt;editable&lt;/label&gt; is activated, a line edit is shown with auto completion support, but additional values are possible, otherwise a combo box is used.
+&lt;li&gt;&lt;label&gt;File name&lt;/label&gt; Simplifies the selection by adding a file chooser dialog.
+&lt;li&gt;&lt;label&gt;Value map&lt;/label&gt; a combo box with predefined items. The value is stored in the attribute, the description is shown in the combo box. You can define values manually or load them from a layer or a csv file.
+&lt;li&gt;&lt;label&gt;Enumeration&lt;/label&gt; Opens a combo box with values that can be used within the columns type. This is currently only supported by the Postgres provider.
+&lt;li&gt;&lt;label&gt;Immutable&lt;/label&gt; The immutable attribute column is read-only. The user is not able to modify the content.
+&lt;li&gt;&lt;label&gt;Hidden&lt;/label&gt; A hidden attribute column is invisible to the user.
+&lt;li&gt;&lt;label&gt;Checkbox&lt;/label&gt; A check box is shown.  The value representing the state of the check box in the attribute has to be entered.
+&lt;li&gt;&lt;label&gt;Text edit&lt;/label&gt; A text edit field is shown, that allows entering multiline text.
+&lt;/ul&gt;
+
+&lt;a name=&quot;general&quot;&gt;
+&lt;h4&gt;General&lt;/h4&gt;
+&lt;/a&gt;
+The General tab allows you to change the display name, set scale dependent rendering options, create a spatial index of the vector file (only for OGR supported formats and PostGIS) and view or change the projection of the specific vector layer.&lt;p&gt;
+You can also set a provider specific filter expressions using the &lt;label&gt;Query Builder&lt;/label&gt;.
+
+&lt;h5&gt;Subset&lt;/h5&gt;
+The &lt;label&gt;Query Builder&lt;/label&gt; button allows you to limit the features of a layer to a subset matching an provider specific filter expression.
+
+&lt;a name=&quot;metadata&quot;&gt;
+&lt;h4&gt;Metadata&lt;/h4&gt;
+&lt;/a&gt;
+The &lt;label&gt;Metadata&lt;/label&gt; tab contains information about the layer, including specifics about the type and location, number of features, feature type, and the editing capabilities. The Layer Spatial Reference System section, providing projection information, is displayed on this tab. This is a quick way to get information about the layer.
+
+&lt;a name=&quot;actions&quot;&gt;
+&lt;h4&gt;Actions&lt;/h4&gt;
+&lt;/a&gt;
+QGIS provides the ability to perform an action based on the attributes of a feature. This can be used to perform any number of actions, for example, running a program with arguments built from the attributes of a feature or passing parameters to a web reporting tool. &lt;br/&gt;
+Actions are useful when you frequently want to run an external application or view a web page based on one or more values in your vector layer.&lt;p&gt;
+
+The new implementation of actions uses the QGIS expression engine to do evaluations. Each expression is evaluated and replaced by its result at runtime.&lt;p&gt;
+An expression must be enclosed between &lt;code&gt;[%&lt;/code&gt; and &lt;code&gt;%]&lt;/code&gt; - the GUI has some buttons which do that for you automatically. 
+The &lt;label&gt;Insert expression...&lt;/label&gt; button launches the &lt;label&gt;Expression builder&lt;/label&gt; which allows to write an expression easily, the &lt;label&gt;Insert field&lt;/label&gt; button inserts into the action a placeholder like &lt;code&gt;[% &quot;fieldname&quot; %]&lt;/code&gt; where fieldname is the name of the field selected in the field dropdown list.&lt;p&gt;
+
+See the User Guide for further information.
+
+&lt;h5&gt;Using Actions&lt;/h5&gt;
+Actions can be invoked from the &lt;label&gt;Identify Results&lt;/label&gt; dialog or using the &lt;label&gt;Run feature action&lt;/label&gt; tool on the toolbar.&lt;p&gt;
+
+Each action adds a little set of custom expressions to the default set available in the &lt;label&gt;Expression builder&lt;/label&gt;.&lt;br/&gt;
+While running actions from the &lt;label&gt;Identify Results&lt;/label&gt; dialog the custom expression &lt;code&gt;$currfield&lt;/code&gt; will be replaced with the value of the selected field in the dialog, using the &lt;label&gt;Run feature action&lt;/label&gt; tool the following custom expressions are available (instead of $currfield):
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;$clickx&lt;/code&gt; returns the x coordinate of the click position on the canvas&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$clicky&lt;/code&gt; returns the y coordinate of the click position on the canvas&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$layerid&lt;/code&gt; returns the ID of the selected layer in the legend&lt;/li&gt;
+&lt;/ul&gt;
+
+Note: the &lt;label&gt;Run feature action&lt;/label&gt; tool executes the actions on all the matching features, where as &lt;label&gt;Identify Results&lt;/label&gt; allows you to select which specific feature to run action on.&lt;p&gt;
+
+
+&lt;h5&gt;Action Examples&lt;/h5&gt;
+You can add some example actions by clicking on the &lt;label&gt;Add default actions&lt;/label&gt; button.
+
+
+&lt;a name=&quot;diagram&quot;&gt;
+&lt;h4&gt;Diagram Overlay&lt;/h4&gt;
+&lt;/a&gt;
+The Diagram tab allows you to add a graphic overlay to a vector layer. To activate this feature, open the &lt;label&gt;Plugin Manager&lt;/label&gt; and select the &lt;label&gt;Diagram Overlay&lt;/label&gt; plugin. After this, there is a new tab in the vector &lt;label&gt;Layer Properties&lt;/label&gt; dialog where the settings for diagrams may be entered.&lt;p&gt;
+The current implementation of diagrams provides support for pie- and bar charts and for linear scaling
+of the diagram size according to a classification attribute.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="470"/>
