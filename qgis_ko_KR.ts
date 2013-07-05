@@ -6,7 +6,7 @@
     <message>
         <location filename="../python/console/console_compile_apis.ui" line="32"/>
         <source>Generating prepared API file (please wait)...</source>
-        <translation>준비된 API 파일 생성중(기다려 주세요)...</translation>
+        <translation>준비된 API 파일 생성(시간 걸림)...</translation>
     </message>
 </context>
 <context>
@@ -63153,8 +63153,8 @@ To visualize the results, select an table entry, press the &lt;label&gt;Add sele
 You only need to request the list of layers by clicking the &lt;label&gt;Connect&lt;/label&gt; button.
 </source>
         <translation>&lt;h3&gt;새로운 WMS 연결하기&lt;/h3&gt;
-WMS에 접근할 수 있는 URL을 알고, 그 서버에 연결 가능하고, 그 서버가 HTTP를 이용한 데이터 전송 메커니즘에 지원한다면, WMS 레이어는 상당히 쉽게 추가될 수 있습니다.&lt;p&gt;
-현재 QGIS는 WMS 1.1, 1.1.1, 1.3 을 지원하는 서버의  WMS 클라이언트로 사용할 수 있습니다.
+WMS에 접근할 수 있는 URL을 알고, 그 서버에 서비스 가능한 연결을 가지고 있고, 그 서버가 데이터 전송 메커니즘에 따른 HTTP를 이해하고 있다면, WMS 레이어는 상당히 쉽게 추가될 수 있습니다.&lt;p&gt;
+QGIS는 현재  WMS 1.1, 1.1.1 과 1.3 서버를 이해할 수 있는  WMS 클라이언트로 행동할 수 있습니다.
 &lt;p&gt;
 &lt;a href=&quot;#serv&quot;&gt;서버&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#load&quot;&gt;WMS 레이어 불러오기&lt;/a&gt;&lt;br/&gt;
@@ -63171,7 +63171,7 @@ WMS에 접근할 수 있는 URL을 알고, 그 서버에 연결 가능하고, �
 &lt;a name=&quot;load&quot;&gt;
 &lt;h5&gt;WMS 레이어 불러오기&lt;/h5&gt;
 &lt;/a&gt;
-선택된 서버의에서 기능리스트(capabilities)를 받기 위해 &lt;label&gt;연결&lt;/label&gt; 버튼을 선택합니다. 여기에는 이미지 인코딩, 레이어, 레이어 스타일과 투영법등이 들어 있습니다.&lt;br/&gt;
+선택된 서버의 사용여부를 조회하기 위해 &lt;label&gt;연결&lt;/label&gt; 버튼을 선택합니다. 여기에는 이미지 인코딩, 레이어, 레이어 스타일과 투영법등이 있습니다.&lt;br/&gt;
 WMS 서버로부터 데이터를 다운로드 받는 동안에,WMS 플러그인 대화상자 왼편 아래쪽에 다운로드 진행상황이 보여집니다.&lt;p&gt;
 &lt;label&gt;이미지 인코딩&lt;/label&gt; 섹션은 클라이언트와 서버 모두에서 지원 가능한 포멧의 목록을 보여줍니다.&lt;br/&gt;
 사용자의 이미지 정확도 요구사항에 맞게 하나를 선택하십시오.&lt;p&gt;
@@ -63186,7 +63186,7 @@ WMS 서버로부터 데이터를 다운로드 받는 동안에,WMS 플러그인 
 &lt;a name=&quot;search&quot;&gt;
 &lt;h4&gt;서버 검색&lt;/h4&gt;
 &lt;/a&gt;
-이 탭에서 사용자는 WMS 서버를 검색할 수 있습니다. 텍스트 필드에 검색 문자열을 입력하고, &lt;label&gt;검색&lt;/label&gt; 버튼을 누르면 됩니다.&lt;p&gt;
+이 탬에서 사용자는 WMS 서버를 검색할 수 있습니다. 텍스트 필드에 검색 문자열을 입력하고, &lt;label&gt;검색&lt;/label&gt; 버튼을 누르면 됩니다.&lt;p&gt;
 결과를 보기 위해서는, 테이블 엔트리를 선택하고, &lt;label&gt;선택된 열을 WMS 목록에 추가하기&lt;/label&gt; 버튼을 누르고, 변경하여 &lt;label&gt;서버&lt;/label&gt; 탭으로 돌아갑니다.&lt;p&gt;
 사용자는 &lt;label&gt;연결&lt;/label&gt; 버튼을 클릭하여 레이어 목록을 요청하기만 하면 됩니다.
 </translation>
@@ -63205,12 +63205,12 @@ Identifiable layers can be set in the Project Properties dialog &lt;label&gt;Set
 </source>
         <translation>&lt;h3&gt;객체 확인&lt;/h3&gt;
 &lt;p&gt;
-결과 대화상자는 검색 허용치안에서 확인된 모든 객체를 보여줍니다. 결과를 상세히 보기 위해서는 각 객체의 왼편에 있는 객체 정보를 펼쳐보면 됩니다. 
+결과 대화상자는 검색 허용치안에서 확인된 모든 객체를 보여줍니다. 결과를 상세히 보기 위해서는 각 객체의 왼편에 있는 객체 정보를 확대하면 됩니다. 
 &lt;/p&gt;
 &lt;p&gt;
-검색 범위는 옵션 대화상자에서 설정할 수 있습니다. &lt;label&gt;설정 &gt; 옵션 &gt; 지도 도구&lt;/label&gt;, 지도 넓이의 비율에 따라 섹션을 확인합니다. 이 섹션에서 사용자는 확인 모드를 &lt;label&gt;현재 레이어&lt;/label&gt;, &lt;label&gt;위에서부터 찾아 처음에 멈춤&lt;/label&gt;, &lt;label&gt;위에서 아래까지&lt;/label&gt;로 설정할 수 있습니다. &lt;br&gt;
-사용자는 또한 &lt;label&gt;객체 폼 열기(단일 객체가 확인된다면)&lt;/label&gt; 옵션을 체크할 수 있습니다.&lt;br&gt;
-확인 가능한 레이어들은 프로젝트 속성 대화상자에서 설정될 수 있습니다.&lt;label&gt;설정 &gt; 프로젝트 속성 &gt; 확인가능한 레이어&lt;/label&gt; 여기서 모든 레이어들 이름 목록과, 각 레이어의 타입(벡터, 래스터 등)과 객체 확인 가능여부를 확인 가능합니다.
+검색 범위는 옵션 대화상자에서 설정할 수 있습니다. &lt;label&gt;설정 &gt; 옵션 &gt; 지도 도구&lt;/label&gt;, 지도 넓이의 비율에 따라 섹션을 확인합니다. 이 섹션에서 사용자는 확인 모드를 &lt;label&gt;현재 레이어로&lt;/label&gt;, &lt;label&gt;위 아래로, 처음에 멈춤&lt;/label&gt;, &lt;label&gt;위 아래로&lt;/label&gt;설정할 수 있습니다. &lt;br&gt;
+사용자는 또한 &lt;label&gt;객체 폼 열기(단일 객체가 확인된다면)&lt;/label&gt; 옵션을 체크할 수 있다.&lt;br&gt;
+확인 가능한 레이어들은 프로젝트 속성 대화상자에서 설정될 수 있습니다.&lt;label&gt;설정 &gt; 프로젝트 속성 &gt; 확인가능한 레이어&lt;/label&gt; 여기서 모든 레이어들의 이름의 목록과 타입(벡터, 래스터 등)과 능력이 확인 가능합니다.
 &lt;/p&gt;</translation>
     </message>
     <message>
@@ -63239,19 +63239,19 @@ In this section you can see the list of attributes. To delete one of them, click
 Click on &lt;label&gt;OK&lt;/label&gt; to create the layer and close the dialog.  Clicking &lt;label&gt;Apply&lt;/label&gt; also creates the layer, but keeps the dialog open, thereby allowing you to create more similar layers. &lt;label&gt;Cancel&lt;/label&gt; will close the layer without further changes.
 </source>
         <translation>&lt;h3&gt;새로운 SpatiaLite 레이어 만들기&lt;/h3&gt;
-사용자는 편집을 위해 새로운 SpatiaLite 데이터베이스와(또는) 빈 SpatiaLite 레이어 생성을 위해 대화 상자를 사용할 수 있습니다. 아래의 대화 상자 입력 설명을 참고하세요.
+사용자는 편집을 위해 새로운 SpatiaLite 데이터베이스와(또는) 빈 SpatiaLite 레이어 생성을 위해 대화 상자를 사용할 수 있습니다.아래의 대화 상자 입력 설명을 참고하세요.
 &lt;h4&gt;데이터베이스&lt;/h4&gt;
 드랍다운 리스트에서 데이터베이스를 선택하세요. 해당 리스트는 사용자가 저장한 SpatiaLite 연결로부터 생성됩니다. 저장된 연결이 없거나 새로운 데이터베이스를 생성하고 싶으면, 드랍다운 리스트의 오른쪽에 있는 버튼을 클릭하세요.
 &lt;h4&gt;레이어 이름&lt;/h4&gt;
 생성할 레이어를 위한 이름을 입력하세요. 한 단어로 되어야 합니다. 이름에 밑줄표시를 사용해도 됩니다.
-&lt;h4&gt;지오메트리 컬럼&lt;/h4&gt;
-기본으로 하거나, 기본지오메트리 컬럼을 위한 이름을 입력하세요.
+&lt;h4&gt;지오메트리 행&lt;/h4&gt;
+기본으로 하거나, 기본지오메트리 행을 위한 이름을 입력하세요.
 &lt;h4&gt;유형&lt;/h4&gt;
 생성할 레이어의 유형을 선택하세요. 
 &lt;h4&gt;EPSG SRID&lt;/h4&gt;
-공간 참조  ID(SRID)를 위해 EPSG 번호를 입력하세요. 기본적으로 WGS 84의 SRID가 기입되어 있습니다. 필요한 경우 레이어의 좌표계를 변경하기 위해 &lt;label&gt;SRID 찾기&lt;/label&gt; 버튼을 클릭하세요. SRID는 사용자의 SpatiaLite 데이터베이스의  spatial_ref_sys 안에 존재해야 합니다. 이름과  SRID를 부분적으로 매치하여 SRID를 검색할 수 있습니다.
-&lt;h4&gt;자동 증가 기본키 생성&lt;/h4&gt;
-이 체크박스를 클릭하여 새 레이어에 기본키를 추가합니다. 이 키 필드는 레이어의 속성 테이블에 객체를 추가할 때 값을 입력하지 않아도 되도록 자동 증가 될 것입니다. 
+공간 참조  ID(SRID)를 위해 EPSG 숫자를 입력하세요. 기본적으로 WGS 84의 SRID가 기입되어 있습니다. 필요한 경우 레이어의 좌표계를 변경하기 위해 &lt;label&gt;SRID 찾기&lt;/label&gt; 버튼을 클릭하세요. SRID는 사용자의 SpatiaLite 데이터베이스의  spatial_ref_sys 안에 존재해야 합니다. 이름과  SRID를 부분적으로 매치하여 SRID를 검색할 수 있습니다.
+&lt;h4&gt;자동 증가 주요 키 생성&lt;/h4&gt;
+이 체크박스를 클릭하여 새 레이어에 주요키를 추가합니다. 이 키 필드는 레이어의 속성 테이블에 객체를 추가할 때 값을 입력하지 않아도 되도록 자동 증가 될 것입니다. 
 &lt;h4&gt;새 속성&lt;/h4&gt;
 속성의 이름과 유형을 정한 후에 &lt;label&gt;속성 목록에 추가&lt;/label&gt; 버튼을 클릭하여 원하는 속성을 추가합니다. 오직 실수, 정수와 문자열 속성만 지원됩니다.&lt;br/&gt;
 넓이와 정확도는  SpatiaLite 데이터베이스에서 무관하기 때문에 이것들을 따로 지정할 필요는 없습니다. 
@@ -63259,7 +63259,7 @@ Click on &lt;label&gt;OK&lt;/label&gt; to create the layer and close the dialog.
 속성 목록을 열람할 수 있습니다. 목록 중 하나를 지우기 위해서는 &lt;label&gt;선택된 속성 삭제&lt;/label&gt; 버튼을 선택하고 클릭하면 됩니다.
 
 &lt;p&gt;
-레이어를 생성하고 대화상자를 닫기 위해서는 &lt;label&gt;OK&lt;/label&gt; 를 클릭합니다. &lt;label&gt;적용&lt;/label&gt;을 클릭하여 레이어를 생성할 수 있는데, 이 경우 대화상자를 연채로 레이어를 생성하여 값을 약간만 수정하여 비슷한 레이어를 더 생산할 수도 있습니다.. &lt;label&gt;취소&lt;/label&gt;는 더 이상 변경 없이 레이어를 닫게 합니다.</translation>
+레이어를 생성하고 대화상자를 닫기 위해서는 &lt;label&gt;OK&lt;/label&gt; 를 클릭합니다. &lt;label&gt;적용&lt;/label&gt;을 클릭하여 레이어를 생성할 수 있는데, 이 경우 대화상자를 연채로 레이어를 생성하여 좀 더 유사한 레이어를 생성하게 해줍니다. &lt;label&gt;취소&lt;/label&gt;는 더 이상 변경 없이 레이어를 닫게 합니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1277"/>
@@ -63282,19 +63282,19 @@ Defining a custom CRS in QGIS requires a good understanding of the Proj.4 projec
 </source>
         <translation>&lt;h3&gt;사용자 정의 좌표계&lt;/h3&gt;
 QGIS가 사용자가 원하는 좌표계를 제공하지 않는다면, 사용자 정의 좌표계를 만들 수 있습니다. &lt;p&gt;
-좌표계를 정의하기 위해서는, &lt;label&gt;편집&lt;/label&gt;(맥OS 등의 경우) 또는 &lt;label&gt;설정&lt;/label&gt; (KDE, 윈도우의 경우) 메뉴로 부터 &lt;label&gt;사용자 정의 좌표계&lt;/label&gt;를 선택 합니다. 사용자 정의 좌표계는 QGIS의 사용자 데이터베이스에 저장됩니다. 또한 이 데이터베이스에는 사용자의 지리적 북마크 및 다른 사용자 정의 데이터가 들어갑니다.
+좌표계를 정의하기 위해서는, &lt;label&gt;편집&lt;/label&gt; (Gnome, OSX) 또는 &lt;label&gt;설정&lt;/label&gt; (KDE, Windows) 메뉴로 부터 &lt;label&gt;사용자 정의 좌표계&lt;/label&gt;를 선택 합니다. 사용자 정의 좌표계는 QGIS의 사용자 데이터베이스에 저장됩니다. 게다가 해당 데이터베이스는 또한 사용자의 공간 북마크 및 다른 사용자 정의 데이터를 포함하고 있습니다. 
 
 &lt;h4&gt;정의하기&lt;/h4&gt;
 새 좌표계를 생성하기 위해서는 &lt;label&gt;새로 만들기&lt;/label&gt; 버튼을 클릭하고 입력합니다:
 &lt;ul&gt;
 &lt;li&gt;기술적인 이름
 &lt;li&gt;좌표계 파라미터
-&lt;/ul&gt; 
+&lt;/ul&gt;
 나중에 &lt;label&gt;저장&lt;/label&gt;버튼을 클릭하여 사용자의 좌표계를 저장할 수 있습니다.
 &lt;p&gt;
 파라미터들은 새로운 좌표계를 표현하기 위해 +proj=-block로 시작되어야함을 명심해야 합니다.
 &lt;p&gt;
-QGIS에서 사용자 정의 좌표계를 만들기 위해서는 Proj.4 투영 라이브러리에 대한 이해가 필요합니다. 처음이신 분은,&lt;a href=&quot;ftp://ftp.remotesensing.org/proj/OF90-284.pdf&quot;&gt;Cartographic Projection Procedures for the UNIX Environment&lt;/a&gt; - 사용자 매뉴얼(Gerald I. Evenden, U.S. Geological Survey Open-File Report 90-284, 1990)을 참고하세요. 이 매뉴얼에는 &lt;i&gt;proj.4&lt;/i&gt; 와 관련된 명령어 활용법들이 설명되어 있습니다. &lt;i&gt;proj.4&lt;/i&gt;와 함께 사용되는 지도제작 파라미터들은 사용자 매뉴얼에도 설명되어 있고, QGIS에도 똑같이 사용되고 있습니다.</translation>
+QGIS에서 사용자 정의 좌표계를 만들기 위해서는 Proj.4 투영 라이브러리에 대한 이해가 필요합니다. 시작하기 위해,&lt;a href=&quot;ftp://ftp.remotesensing.org/proj/OF90-284.pdf&quot;&gt;Cartographic Projection Procedures for the UNIX Environment&lt;/a&gt; - 사용자 매뉴얼(Gerald I. Evenden, U.S. Geological Survey Open-File Report 90-284, 1990)을 참고하세요. 이 매뉴얼에는 &lt;i&gt;proj.4&lt;/i&gt; 와 관련된 명령어 활용법들이 설명되어 있습니다. &lt;i&gt;proj.4&lt;/i&gt;와 함께 사용되는 지도제작 파라미터들은 사용자 매뉴얼에도 설명되어 있고, QGIS에도 똑같이 사용되고 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="855"/>
@@ -63365,12 +63365,12 @@ geometry types and don&apos;t offer to add others.
 
 &lt;li&gt; &lt;label&gt;레이어 메타데이터를 위해 추정된 테이블 통계를 사용합니다.&lt;/label&gt;
 레이어가 설정될 때, Oracle 테이블은 다양한 메타데이터를 필요로 합니다.
-이 것은 지오메트리 커럼의 테이블 행 수, 지오메트리 유형과 데이터의 공간 범위와 같은 정보를 포함합니다.
-테이블이 많은 수의 행을 가지고 있으면, 메타데이터를 결정하는 데 많은 시간이 필요합니다.
+이 것은 지오메트리 행의 테이블 열 수, 지오메트리 유형과 데이터의 공간 확장과 같은 정보를 포함합니다.
+테이블이 많은 수의 열을 가지고 있으면, 메타데이터를 결정하는 것은 많은 시간을 필요로 합니다.
 이 기능을 활성화 하기 위해, 다음의 빠른 테이블 메타데이터 동작이 수행됩니다.
-행 수는 all_sdo_geom_metadata로 부터 결정됩니다.
-테이블 범위는 레이터 필터가 적용되어 있더라도 항상  SDO_TUNE.EXTENTS_OF 기능과 함께 결정됩니다.
-테이블 지오메트리는 지오메트리 컬럼이 비어 있지 않은 첫 100 행으로부터 결정됩니다.
+열 수는 all_sdo_geom_metadata로 부터 결정됩니다.
+테이블 확장은 레이터 필터가 적용되어 있더라도 항상  SDO_TUNE.EXTENTS_OF 기능과 함께 결정됩니다.
+테이블 지오메트리는 테이블의 non-null geometry rows에 있는 첫 100 열로부터 결정됩니다.
 
 
 &lt;li&gt; &lt;label&gt;존재하는 지오메트리 유형만&lt;/label&gt; 존재하는 지오메트리의 리스트만 조회하고,,
@@ -63404,20 +63404,20 @@ Pressing the &lt;label&gt;Calculate&lt;/label&gt; button will run the shortest p
 &lt;h5&gt;Note&lt;/h5&gt;
 &lt;p&gt;In order to bind the start and stop points of the route to the road network Road graph selects the nearest point or arc of the graph. In fact it can bind to any part of the road network. Nevertheless, their route and its characteristics do not take into account the distance from the starting point to the road network and of the road network to the stopping point.&lt;/p&gt;
 </source>
-        <translation>&lt;h3&gt;최단 경로 찾기&lt;/h3&gt;
-&lt;p&gt;로드 그래프는  QGIS를 위한 C++ 플러그인으로서, 선 레이어의 두 점사이의 최던 경로를 계산해주고, 로드 네트워크 상에서 경로를 출력합니다. 이 플러그인은 사용하기 전에 설정이 필요합니다. 이 기능은 메뉴 &lt;label&gt;플러그인 &amp;rarr; 로드 그래프 &amp;rarr; 설정&lt;/label&gt;에 있습니다.&lt;/p&gt;
+        <translation>&lt;h3&gt;최단 거리 찾기&lt;/h3&gt;
+&lt;p&gt;로드 그래프는  QGIS를 위한 C++ 플러그인으로서, 선 레이어의 두 점사이의 최던 거리를 계산해주고, 로드 네트워크에 대한 이 길을 구성합니다. 플러그인을 사용하기 전에 설정합니다. 이 기능은 메뉴 &lt;label&gt;플러그인 &amp;rarr; 로드 그래프 &amp;rarr; 설정&lt;/label&gt;에 있습니다.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&quot;#howto&quot;&gt;사용법&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#howto&quot;&gt;How to&lt;/a&gt;&lt;br/&gt;
 &lt;/p&gt;
 
 &lt;a name=&quot;howto&quot;&gt;
-&lt;h4&gt;사용법&lt;/h4&gt;
+&lt;h4&gt;How to&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;사용자는 필드 옆에 있는 선택 버튼으로 시작점과 종료점을 선택할 수 있습니다.
-&lt;label&gt;계산&lt;/label&gt; 버튼을 누르면 &lt;label&gt;기준&lt;/label&gt; 콤보박스에서 선택된 최적 기준을 이용하여 최단 거리 계산을 수행합니다. &lt;label&gt;내보내기&lt;/label&gt; 버튼으로 계산된 경로를 새 벡터 레이어로 내보내고, &lt;label&gt;클리어&lt;/label&gt; 버튼으로 모든 필드를 지우고, 지도 캔버스의 점들과 계산된 경로를 삭제합니다.&lt;/p&gt;
+Pressing the &lt;label&gt;계산&lt;/label&gt; 버튼을 누르면 &lt;label&gt;기준&lt;/label&gt; 콤보박스에서 선택된 최적 기준을 이용하여 최단 거리 계산을 수행합니다. &lt;label&gt;내보내기&lt;/label&gt; 버튼으로 계산된 거리를 새 벡터 레이어로 내보내고, &lt;label&gt;클리어&lt;/label&gt; 버튼으로 모든 필드를 지우고, 지도 캔버스의 점들과 계산된 거리를 삭제합니다.&lt;/p&gt;
 
-&lt;h5&gt;주의&lt;/h5&gt;
-&lt;p&gt;루트의 시작점과 끝점을 로드 네트워크상의 경로로 묶기 위해, 로드 그래프는 그래프상에서 가장 가까운 점 혹은 선을 선택합니다. 사실상, 로드 네트워크의 어떤 부분도 묶일 수 있습니다. 그럼에도 불구하고, 경로와 특성은 시작점부터 로드 네트워크까지 그리고 로드네트워크부터 끝점까지의 거리를 고려하지 않습니다.&lt;/p&gt;</translation>
+&lt;h5&gt;메모&lt;/h5&gt;
+&lt;p&gt;루트의 시작점과 끝점을 로드 네트워크에 묶기 위해, 로드 그래프는 그래프 원희 가장 가까운 점을 선택합니다. 사실살, 로드 네트워크의 어떤 부분도 묶일 수 있습니다. 그럼에도 불구하고, 루트와 성격은 시작점부터 로드 네트워크까지 그리고 로드네트워크부터 끝점까지의 거를 고려하지 않습니다.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="23"/>
@@ -63482,18 +63482,18 @@ Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for
 &lt;li&gt;드랍다운 상자에서 원하는 연결을 선택하세요..
 &lt;li&gt;&lt;label&gt;연결&lt;/label&gt;을 클릭하세요.
 &lt;li&gt;목록에서 추가를 원하는 레이어를 찾고 선택하기 위해 클릭하세요.
-&lt;li&gt;컨트롤(Ctrl) 키를 누른채로 클릭을 하여 여러 개의 레이어를 선택할 수 있습니다.
+&lt;li&gt;컨트롤(Ctrl) 키를 누른채로 클릭을 하여 추가적으로 레이어를 선택할 수 있습니다.
 &lt;li&gt;지도에 레이어를 추가하기 위해 &lt;label&gt;추가&lt;/label&gt;를 클릭하세요.
 &lt;/ol&gt;
 &lt;a name=&quot;filter&quot;&gt;
 &lt;h4&gt;레이어 필터&lt;/h4&gt;
 &lt;/a&gt;
-지도에 추가하기 전에 레이어를 필터하려면, 이름을 더블클릭하거나, &lt;label&gt;질의 작성&lt;/label&gt; 버튼을 클릭하세요. 레코드를 필터링 하기 위해 SQL 구문을 작성할 수 있는 질의 생성기가 열립니다.
+지도에 추가하기 전에 레이어를 필터하기 위해, 이름을 더블클릭하거나, &lt;label&gt;쿼리 만들기&lt;/label&gt; 버튼을 클릭하세요. 기록들을 필터링 하기 위해 SQL 구문을 작성할 수 있는 쿼리 빌더가 오픈됩니다.
 
 &lt;a name=&quot;search&quot;&gt;
 &lt;h4&gt;검색 옵션&lt;/h4&gt;
 &lt;/a&gt;
-&lt;label&gt;검색 옵션&lt;/label&gt;을 체크하시면 추가적인 옵션을 사용가능하게 됩니다. 여기에는 서로 다른 컬럼 형식에 대한 검색과 두 가지 검색 모드(&lt;label&gt;와일드카드&lt;/label&gt; 또는 &lt;label&gt;정규식&lt;/label&gt;)가 있습니다.
+&lt;label&gt;검색 옵션&lt;/label&gt;을 체크하여 다른 행 유형에서 검색하고 2 가지의 검색모드 &lt;label&gt;Wildcard&lt;/label&gt; 또는 &lt;label&gt;RegExp&lt;/label&gt;를 사용할 추가 옵션기능을 사용할 수 있습니다.
 </translation>
     </message>
     <message>
@@ -63661,61 +63661,61 @@ of the diagram size according to a classification attribute.
 레이어를 위한 심볼을 변경하기 위해서는 간단하게 범례 엔트리와 벡터를 더블클릭하면 됩니다.&lt;label&gt;레이어 속성&lt;/label&gt; 대화상자가 나타납니다.&lt;p&gt;
 이 대화상자에서 사용자는 사용자의 벡터 레이어를 꾸밀 수 있습니다. 선택된 렌더링 옵션에 따라, 사용자는 사용자 지도 객체도 분류할 수 있습니다.
 
-&lt;h5&gt;범례 유Legend type&lt;/h5&gt;
-QGIS supports a number of symbology renderers to control how vector features are displayed. Currently the following renderers are available:
+&lt;h5&gt;범례 유형&lt;/h5&gt;
+QGIS는 백터 객체가 표출되는 방법을 조절하는 다양한 심볼 렌더러를 지원합니다:
 &lt;ul&gt;
-&lt;li&gt;&lt;label&gt;Single symbol&lt;/label&gt; - a single style is applied to every object in the layer.
-&lt;li&gt;&lt;label&gt;Graduated symbol&lt;/label&gt; - objects within the layer are displayed with different symbols classified by the values of a particular field.
-&lt;li&gt;&lt;label&gt;Continuous color&lt;/label&gt; - objects within the layer are displayed with a spread of colors classified by the numerical values within a specified field.
-&lt;li&gt;&lt;label&gt;Unique value&lt;/label&gt; - objects are classified by the unique values within a specified field with each value having a different symbol.
+&lt;li&gt;&lt;label&gt;단일 심볼&lt;/label&gt; - 단일 스타일이 레이어의 모든 객체에 적용됩니다.
+&lt;li&gt;&lt;label&gt;등급별 심볼&lt;/label&gt; - 레이어의 객체들은 특정 필드 값에 의해 분류된 다른 심볼과 함께 표출 됩니다.
+&lt;li&gt;&lt;label&gt;연속 색상&lt;/label&gt; - 레이어의 객체들은 특정 필드에 있는 수치값들에 의해 분류된 색상의 분포와 함께 표출됩니다.
+&lt;li&gt;&lt;label&gt;유일 값&lt;/label&gt; - 객체들은 다른 심볼을 가지고 있는 각각의 값들과 함께 특정 필드의 유일값에 의해 분류됩니다.
 &lt;/ul&gt;
 
-&lt;h5&gt;New symbology&lt;/h5&gt;
-Click &lt;label&gt;New symbology&lt;/label&gt; button to use new symbology implementation for the layer.
+&lt;h5&gt;새 심볼 만들기&lt;/h5&gt;
+레이어를 위해 새 심볼 이행을 사용하기 위해 &lt;label&gt;새 심볼 만들기&lt;/label&gt; 버튼을 클릭하세요.
 
-&lt;h5&gt;Vector transparency&lt;/h5&gt;
-QGIS allows to set a transparency for every vector layer. This can be done with the slider &lt;label&gt;Transparency&lt;/label&gt;. This is very useful for overlaying several vector layers.
+&lt;h5&gt;벡터 투명도&lt;/h5&gt;
+QGIS는 모든 벡터 레이어의 투명도를 조절할 수 있습니다. &lt;label&gt;투명도&lt;/label&gt; 슬라이더를 이용하면 됩니다. 이 기능은 여러 벡터 레이러를 오버레이할 때 매우 유용합니다.
 
-&lt;h5&gt;Saving styles&lt;/h5&gt;
-Once you have styled your layer you also could save your layer-style to a separate file (with *.qml ending). To do this, use the button &lt;label&gt;Save Style...&lt;/label&gt;. No need to say that &lt;label&gt;Load Style...&lt;/label&gt; loads your saved layer-style-file.&lt;br/&gt;
-If you wish to always use a particular style whenever the layer is loaded, use the &lt;label&gt;Save As Default&lt;/label&gt; button to make your style the default. Also, if you make changes to the style that you are not happy with, use the &lt;label&gt;Restore Default Style&lt;/label&gt; button to revert to your default style.
+&lt;h5&gt;스타일 저장&lt;/h5&gt;
+사용자의 레이어 스타일 작업을 했다면, 레이어 스타일을 별도의 파일 ( *.qml 확장자)로 저장이 가능합니다. 이 기능의 사용을 위해서, &lt;label&gt;스타일 저장...&lt;/label&gt;버튼을 클릭하세요. &lt;label&gt;스타일 불러오기...&lt;/label&gt;는 사용자가 저장한 레이어 스타일 파일을 불러옵니다.&lt;br/&gt;
+레이어를 불러올 때는 언제나 특별한 스타일을 항상 사용하길 원한다면, 사용자의 기본 스타일로 만들기 위해, &lt;label&gt;기본으로 저장&lt;/label&gt; 버튼을 이용하면 됩니다. 또한, 스타일을 변경하고 싶으면, 사용자의 기본 스타일로 되돌리기 위해, &lt;label&gt;기본 스타일 회귀&lt;/label&gt; 버튼을 이용하면 됩니다.
 
 &lt;a name=&quot;labels&quot;&gt;
-&lt;h4&gt;Labels&lt;/h4&gt;
+&lt;h4&gt;라벨&lt;/h4&gt;
 &lt;/a&gt;
-The Labels tab allows you to enable labeling features and control a number of options related to fonts, placement, style, alignment and buffering.&lt;br/&gt;
-Check the &lt;label&gt;Display labels&lt;/label&gt; check box to enable labeling.
+라벨 탭은 사용자가 객체 라벨링을 가능하게 하고, 폰트, 배치, 스타일, 벼열과 버퍼링과 같은 많은 옵션을 조절하게 해줍니다.&lt;br/&gt;
+라벨링을 하기 위해 &lt;label&gt;라벨 표시&lt;/label&gt; 체크 박스를 체크합니다.
 
-&lt;h5&gt;Basic Label options&lt;/h5&gt;
-Choose the field to label with.&lt;p&gt;
-Select the use the &lt;label&gt;Font&lt;/label&gt; and  &lt;label&gt;Color&lt;/label&gt; buttons to set the font and color. You can also change the angle and the placement of the text-label.&lt;p&gt;
-If have labels extending over several lines, check &lt;label&gt;Multiline labels?&lt;/label&gt;. QGIS will check for a true line return in your label field and insert the line breaks accordingly. A true line return is a single character &amp;#92;n, (not two separate characters, like a backslash &amp;#92; followed by the character n).
+&lt;h5&gt;기본 라벨 옵션&lt;/h5&gt;
+라벨을 할 필드를 선택하세요.&lt;p&gt;
+폰트와 색상을 조정하기 위해 &lt;label&gt;폰트&lt;/label&gt; 와 &lt;label&gt;색상&lt;/label&gt; 버튼 사용을 선택하세요. 텍스트 라벨의 각도와 배치를 변경할 수도 있습니다.&lt;p&gt;
+라벨을 여러 선 위로 확장하기 위해서는, &lt;label&gt;다중 선 라벨?&lt;/label&gt;을 확인하세요. QGIS 는 사용자 라벨 필드의 진선 회귀를 확인하고 그에 맞춰 선 끊김을 삽입합니다. 진선 회귀는 단일 캐릭터 &amp;#92;n 입니다, (두 개의 별도의 캐릭터가 아닙니다. 역 슬래쉬와 같고 &amp;#92; n이 뒤에 붙습니다..).
 
-&lt;h5&gt;Placement&lt;/h5&gt;
-Change the label placement by selecting one of the radio buttons in the &lt;label&gt;Placement&lt;/label&gt; group.
+&lt;h5&gt;배치&lt;/h5&gt;
+&lt;label&gt;배치&lt;/label&gt; 그룹에서 라디오 버튼 중 하나를 선택하여 라벨 배치를 변경합니다.
 
-&lt;h5&gt;Font size units&lt;/h5&gt;
-The &lt;label&gt;Font size units&lt;/label&gt; allows you to select between &lt;label&gt;Points&lt;/label&gt; or &lt;label&gt;Map units&lt;/label&gt;.
+&lt;h5&gt;폰트 사이즈 유닛&lt;/h5&gt;
+&lt;label&gt;폰트 사이즈 유닛&lt;/label&gt;은 사용자가 &lt;label&gt;점&lt;/label&gt; 또는 &lt;label&gt;지도 유닛&lt;/label&gt;사이를 선택하게 해줍니다.
 
-&lt;h5&gt;Buffer labels&lt;/h5&gt;
-To buffer the labels means putting a backdrop around them to make them stand out better. To buffer the lakes labels:
+&lt;h5&gt;라벨 버퍼&lt;/h5&gt;
+라벨을 버퍼하는 것은 라벨 주변의 배경을 넣어 좀 더 두드러기게 하는 것을 의미합니다. 호수 라벨을 버퍼하기 위해:
 &lt;ol&gt;
-&lt;li&gt;Click the &lt;label&gt;Buffer Labels&lt;/label&gt; check box to enable buffering.
-&lt;li&gt;Choose a size for the buffer using the spin box.
-&lt;li&gt;Choose a color by clicking on &lt;label&gt;Color&lt;/label&gt; and choosing your favorite from the color selector. You can also set some transparency for the buffer if you prefer.
-&lt;li&gt;Click &lt;label&gt;Apply&lt;/label&gt; to see if you like the changes.
+&lt;li&gt;버퍼링을 가능하게 하기 위해 &lt;label&gt;라벨 버퍼&lt;/label&gt; 체크 상자를 클릭합니다.
+&lt;li&gt;스핀 상자를 사용하여 버퍼 사이즈를 선택합니다.
+&lt;li&gt;&lt;label&gt;색상&lt;/label&gt;을 클릭하고 색생 선택표에서 선호하는 색을 선택하여 색상을 선택합니다. 또한 원한다면 약간의 투명도도 조절할 수 있습니다.
+&lt;li&gt;변경한 내용이 괜찮은지 확인하기 위해서는 &lt;label&gt;적용하기&lt;/label&gt;를 클릭합니다.
 &lt;/ol&gt;
-Notice you can also specify the buffer size in map 
-units if that works out better for you.
+지도에서 버퍼 사이즈를 명시할 수 있습니다.
+유닛, 사용자에게 좋게 동작한다면
 
-&lt;h5&gt;Data defined placement, properties, buffer, position&lt;/h5&gt;
-The remaining entries inside the &lt;label&gt;Label&lt;/label&gt; tab allow you control the appearance of the labels using attributes stored in the layer. The entries beginning with &lt;label&gt;Data defined&lt;/label&gt; allow you to set all the parameters for the labels using fields in the layer.
+&lt;h5&gt;배치, 속성, 버퍼, 위치가 정의된 데이터&lt;/h5&gt;
+&lt;label&gt;라벨&lt;/label&gt; 탭안에 있는 나머지 엔트리는 사용자가 레이어에 저장된 속성을 사용하여 라벨의 외형을 조절할 수 있게 해줍니다. 엔트리는 &lt;label&gt;정의된 데이터&lt;/label&gt;로 시작하는 엔트리는 사용자가 레이어에 있는 필드를 사용하여 라벨의 모든 파라미터들을 조정하도록 해줍니다.
 
 
 &lt;a name=&quot;attributes&quot;&gt;
-&lt;h4&gt;Attributes&lt;/h4&gt;
+&lt;h4&gt;속성&lt;/h4&gt;
 &lt;/a&gt;
-Within the &lt;label&gt;Attributes&lt;/label&gt; tab the attributes of the selected data set can be manipulated. The buttons &lt;label&gt;New Column&lt;/label&gt; and &lt;label&gt;Delete Column&lt;/label&gt; can be used, when the data set is in editing mode. The OGR library supports to add new columns, but not to remove them, if you have a GDAL version &gt;= 1.6 installed. Otherwise only columns from PostGIS layers can be edited.&lt;p&gt;
+&lt;label&gt;속성&lt;/label&gt; 탭안에 있는 선택된 데이터의 속성은 조종될 수 있습니다.The buttons &lt;label&gt;New Column&lt;/label&gt; and &lt;label&gt;Delete Column&lt;/label&gt; can be used, when the data set is in editing mode. The OGR library supports to add new columns, but not to remove them, if you have a GDAL version &gt;= 1.6 installed. Otherwise only columns from PostGIS layers can be edited.&lt;p&gt;
 The &lt;label&gt;Toggle editing mode&lt;/label&gt; button toggles this mode.&lt;p&gt;
 Within the Attributes tab you also find an edit widget column. This column can be used to define values or a range of values that are allowed to be added to the specific attribute table column. If you click on the &lt;label&gt;edit widget&lt;/label&gt; button, a dialog opens, where you can define different widgets. These widgets are:&lt;br/&gt;
 &lt;ul&gt;
@@ -63834,7 +63834,7 @@ are sometimes limited (e.g. for shape files) or behave diffently.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1343"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="547"/>
         <source>&lt;h3&gt;Field Calculator&lt;/h3&gt;
 The field calculator allows you to update fields with expressions.
 
@@ -63895,68 +63895,10 @@ The field calculator allows you to update fields with expressions.
 &lt;tr&gt;&lt;td&gt;-&lt;tt&gt;a&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;negative value of &lt;tt&gt;a&lt;/tt&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 </source>
-        <translation>&lt;h3&gt;필드 계산기&lt;/h3&gt;
-필드 계산기는 식을 이용해 필드를 업데이트 할 수 있게 해줍니다.
-
-&lt;h4&gt;지원되는 연산자&lt;/h4&gt;
-
-&lt;table border=1&gt;
-&lt;tr&gt;
-  &lt;th&gt;연산자&lt;/th&gt;
-  &lt;th&gt;설명&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-  &lt;td&gt;
-    &lt;tt&gt;column_name&lt;/tt&gt;&lt;br&gt;
-    &lt;tt&gt;&quot;column_name&quot;&lt;/tt&gt;
-  &lt;/td&gt;
-  &lt;td&gt;&lt;tt&gt;column_name&lt;/tt&gt; 필드의 값&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&apos;&lt;tt&gt;string&lt;/tt&gt;&apos;&lt;/td&gt;&lt;td&gt;문자열 값&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;tt&gt;number&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;숫자&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;NULL&lt;/td&gt;&lt;td&gt;null value&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;exp(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt;의 제곱에 대한 파워 오일러 수 e&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;ln(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt;의 자연대수 (i.e. base e)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;log10(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt;의 상용로그&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;log(&lt;tt&gt;a&lt;/tt&gt;,&lt;tt&gt;b&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt;의 자연로그 &lt;tt&gt;b&lt;/tt&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;sqrt(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;제곱근&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;sin(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt;의 사인&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;cos(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;&lt;tt&gt;b&lt;/tt&gt;의 코사인&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;tan(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt;의 탄젠트&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;asin(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt;의 역 사인&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;acos(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt;의 역 코사인&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;atan(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt;의 역 탄젠트&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;to int(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;문자열 &lt;tt&gt;a&lt;/tt&gt;를 숫자로 변환&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;to real(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;문자열 &lt;tt&gt;a&lt;/tt&gt;를 실수로 변환&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;to string(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;숫자 &lt;tt&gt;a&lt;/tt&gt;를 문자열로 변환&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;lower(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;문자열 &lt;tt&gt;a&lt;/tt&gt;를 소문자로 변환&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;upper(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;문자열 &lt;tt&gt;a&lt;/tt&gt;를 대문자로 변환&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;length(&lt;tt&gt;a&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;문자열 &lt;tt&gt;a&lt;/tt&gt;의 길이&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;atan2(&lt;tt&gt;y&lt;/tt&gt;,&lt;tt&gt;x&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;두 인자의 부호를 사용하여 결과 분위를 결정하기위한 &lt;tt&gt;y&lt;/tt&gt;/&lt;tt&gt;x&lt;/tt&gt; 의 역 탄젠트&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;replace(&lt;tt&gt;a&lt;/tt&gt;,&lt;tt&gt;replacethis&lt;/tt&gt;,&lt;tt&gt;withthat&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;문자열 &lt;tt&gt;a&lt;/tt&gt;에서 &lt;tt&gt;withthat&lt;/tt&gt;로 &lt;tt&gt;replacethis&lt;/tt&gt;를 치환&lt;/td&gt;&lt;/td&gt;
-&lt;tr&gt;&lt;td&gt;regexp_replace(&lt;tt&gt;a&lt;/tt&gt;,&lt;tt&gt;replacethis&lt;/tt&gt;,&lt;tt&gt;withthat&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;문자열 &lt;tt&gt;a&lt;/tt&gt;에서 &lt;tt&gt;withthat&lt;/tt&gt;로 정규식 &lt;tt&gt;replacethis&lt;/tt&gt;를 치환&lt;/td&gt;&lt;/td&gt;
-&lt;tr&gt;&lt;td&gt;substr(&lt;tt&gt;a&lt;/tt&gt;,&lt;tt&gt;from&lt;/tt&gt;,&lt;tt&gt;len&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;&lt;tt&gt;from&lt;/tt&gt;부터 시작하여 문자열 &lt;tt&gt;a&lt;/tt&gt;의 &lt;tt&gt;len&lt;/tt&gt; 문자를 추출(첫번째 문자 인덱스는 1 임)&lt;/td&gt;&lt;/td&gt;
-&lt;tr&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt; || &lt;tt&gt;b&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;문자열 &lt;tt&gt;a&lt;/tt&gt; 와 &lt;tt&gt;b&lt;/tt&gt;를 결합&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;$rownum&lt;/td&gt;&lt;td&gt;현재 열 번호&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;$area&lt;/td&gt;&lt;td&gt;폴리곤의 면적&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;$perimeter&lt;/td&gt;&lt;td&gt;폴리곤의 둘레&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;$length&lt;/td&gt;&lt;td&gt;라인의 면적&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;$id&lt;/td&gt;&lt;td&gt;피쳐 id&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;$x&lt;/td&gt;&lt;td&gt;x 좌표&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;$y&lt;/td&gt;&lt;td&gt;y 좌표&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;xat(&lt;tt&gt;n&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;한개 라인의 &lt;tt&gt;n&lt;/tt&gt;번째 x 좌표 (0부터 시작; 음수 값은 마지막 인덱스 방향으로 적용)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;yat(&lt;tt&gt;n&lt;/tt&gt;)&lt;/td&gt;&lt;td&gt;한개 라인의 &lt;tt&gt;n&lt;/tt&gt;번째 y 좌표 (0부터 시작; 음수 값은 마지막 인덱스 방향으로 적용)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt; ^ &lt;tt&gt;b&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt;의  &lt;tt&gt;b&lt;/tt&gt; 승&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt; * &lt;tt&gt;b&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt; 곱하기 &lt;tt&gt;b&lt;/tt&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt; / &lt;tt&gt;b&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt; 나누기 &lt;tt&gt;b&lt;/tt&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt; + &lt;tt&gt;b&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt; 더하기 &lt;tt&gt;b&lt;/tt&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt; - &lt;tt&gt;b&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt; 빼기 &lt;tt&gt;b&lt;/tt&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;+&lt;tt&gt;a&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;양의 부호&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;-&lt;tt&gt;a&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;&lt;tt&gt;a&lt;/tt&gt;의 음수&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1420"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="719"/>
         <source>&lt;h3&gt;Manage and install Plugins&lt;/h3&gt;
 
 &lt;p&gt;
@@ -64043,106 +63985,24 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 
 &lt;/p&gt;
 </source>
-        <translation>&lt;h3&gt;플러그인 관리 및 설치하기&lt;/h3&gt;
-
-&lt;p&gt;
-플러그인 관리 및 설치하기.
-&lt;/p&gt;
-
-
-&lt;a href=&quot;#installedtab&quot;&gt;설치 탭&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#getmoretab&quot;&gt;플러그인 더 보기 탭&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#newtab&quot;&gt;신규 탭&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#upgradabletab&quot;&gt;업그레이드 탭&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#invalidtab&quot;&gt;무효 탭&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#settingstab&quot;&gt;세팅 탭&lt;/a&gt;&lt;br/&gt;
-
-&lt;a name=&quot;installedtab&quot;&gt;
-&lt;h4&gt;설치 탭&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p&gt;
-이 탭은 당신의 시스템에 현재 설치되어 있는 플러그인의 목록을 보여준다.
-pythoon과 C++ 플러그인 모두 나열된다.
-&lt;/p&gt;
-&lt;p&gt;
-이름 앞의 체크박스를 클릭하여 활성화 또는 비활성화할수 있다.&lt;br/&gt;
-아이템을 선택하면 상세 패널에 플러그인 정보가 보인다.
-&lt;/p&gt;
-&lt;p&gt;
-부가 메뉴(오른쪽 클릭)를 통해 이름, 다운로드수, 투표수, 상태에 따라 정렬이 가능하다.
-&lt;/p&gt;
-
-
-&lt;a name=&quot;getmoretab&quot;&gt;
-&lt;h4&gt;플러그인 더 보기 탭&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p&gt;
-원격 저장소로부터 사용가능한 플러그인의 목록을 보여준다.
-내용이 시작할 때 한번 다운로드 되지만, 세팅 메뉴에서 변경할 수 있다.
-&lt;/p&gt;
-&lt;p&gt;
-아이템을 선택하면 상세 패널에 플러그인 정보가 보인다.
-&lt;/p&gt;
-
-&lt;a name=&quot;newtab&quot;&gt;
-&lt;h4&gt;신규 탭&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p&gt;
-이 탭은 새로운 플러그인이 나왔을 때 단 한번만 보여진다.
-&lt;/p&gt;
-
-&lt;a name=&quot;upgradabletab&quot;&gt;
-&lt;h4&gt;업그레이드 탭&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p&gt;
-이 탭은 설치한 플러그인이 원격 저장소로부터 업그레이드 되는 경우에만 사용한다.
-&lt;/p&gt;
-
-&lt;a name=&quot;Invalid tab&quot;&gt;
-&lt;h4&gt;무효 탭&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p&gt;
-이 탭은 플러그인이 유효하지 않은 경우에만 도움이 된다. 플러그인을 불러오는 중에 오류가 생긴 경우이다.
-&lt;/p&gt;
-
-&lt;a name=&quot;settingstab&quot;&gt;
-&lt;h4&gt;세팅 탭&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p&gt;
-이 탭에서 플러그인 관리자의 세팅을 변경할 수 있다.
-&lt;/p&gt;
-&lt;p&gt;
-이 탭에서는 QGIS가 사용 가능한 저장소로부터 얼마나 자주 최신 및 업데이트된 목록을 받아올지 설정할 수 있다.
-&lt;/p&gt;
-&lt;p&gt;
-&apos;실험적인 플러그인 보여주기&apos;를 선택하여 저작자에 의해 &apos;실험적&apos;이라고 고려되는 모든 플러그인이 목록에 보여진다. 
-&lt;table border=1 width=&apos;95%&apos; align=&apos;center&apos;&gt;&lt;tr&gt;&lt;td&gt;
-주의: 실험적인 플러그인은 일반적으로 사용되는 제품에 적합하지 않는다. 이런 플러그인은 초기 개발단계이고, &quot;미완성&quot; 또는 &quot;개념 검증&quot;으로 고려되어야 한다. QGIS 개발팀은 당신이 테스트 목적으로 사용하려는 경우에도 이런 플러그인 설치를 권장하지 않는다.
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
-&lt;/p&gt;
-</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1305"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1209"/>
         <source>&lt;h3&gt;New OGR Database Connection Dialog&lt;/h3&gt;
 </source>
-        <translation>&lt;h3&gt;새로운 OGR 데이터베이스 연결 대화상자&lt;/h3&gt;
-</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="722"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="715"/>
         <source>&lt;h3&gt; North Arrow Plugin&lt;/h3&gt;
 Displays a north arrow overlayed onto the map.
 &lt;p&gt;
 At present there is only one style available. You can adjust the angle of the arrow or let QGIS set the direction automatically. If you choose to let QGIS determine the direction, it makes its best guess as to how the arrow should be oriented. For placement of the arrow you have four options, corresponding to the four corners of the map canvas.</source>
-        <translation>&lt;h3&gt; 방위표 플러그인&lt;/h3&gt;
-지도위에 방위표를 보여줌.
-&lt;p&gt;
-현재로는 한가지 스타일만 가능하다. 화살표의 각을 조절하거나 QGIS가 자동으로 방향을 조절하도록 조정할 수 있다. QGIS가 방향을 결정하도록 선택하면, 화살표가 올바른 방향을 가르치도록 최선을 다한다. 화살표의 배치에 대해 맵 캔버스의 각 코너에 따라 4개 옵션이 있다.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="306"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="154"/>
         <source>&lt;h3&gt;Export a QGIS Project to MapServer Map File&lt;/h3&gt;
 &lt;p&gt;
 This tool allows you to export a saved QGIS project file to a MapServer map. Only the &lt;b&gt;Map file&lt;/b&gt; and &lt;b&gt;QGIS project file&lt;/b&gt; inputs are required.
@@ -64176,41 +64036,10 @@ These values are written to the map file in the appropriate spots to set things 
   &lt;dt&gt;&lt;label&gt;Footer&lt;/label&gt;&lt;/dt&gt;
   &lt;dd&gt;Full path to the MapServer footer file to be used with the map file.&lt;/dd&gt;
 </source>
-        <translation>&lt;h3&gt;QGIS 프로젝트를 MapServer 맵 파일로 내보내기&lt;/h3&gt;
-&lt;p&gt;
-이 툴은 저장한 QGIS 프로젝트 파일을 MapServer 맵으로 내보낸다. &lt;b&gt;Map 파일&lt;/b&gt;과 &lt;b&gt;QGIS 프로젝트 파일&lt;/b&gt; 입력이 요구된다.
-&lt;/p&gt;
-&lt;label&gt;현재 프로젝트 사용하기&lt;/label&gt; 체크박스를 선택하거나 내보내려는 QGIS 프로젝트 파일(.qgs)의 전체 경로를 입력해라. 오른쪽에 QGIS 프로젝트 파일을 불러오기위한 버튼을 사용할 수 있다.
-
-&lt;h4&gt;Map 파일&lt;/h4&gt;
-
-&lt;label&gt;Map 파일&lt;/label&gt; 생성될 파일명을 입력하세요. 파일을 생성할 디렉토리를 지정하기 위해 오른쪽의 버튼을 사용할 수 있다.
-
-&lt;h4&gt;Map&lt;/h4&gt;
-이 값들은 출력물 이미지의 사이즈, 단위, 타입같은 것들을 세팅하기 위해 적절한 지점상의 맵 파일에 쓰여진다.
-&lt;dl&gt;
-  &lt;dt&gt;&lt;label&gt;이름&lt;/label&gt;&lt;/dt&gt;
-  &lt;dd&gt;맵에 대한 이름. 이 이름은 MapServer에 의해 생성 된 모든 이미지에 붙일 수 있습니다.&lt;/dd&gt;
-  &lt;dt&gt;&lt;label&gt;폭&lt;/label&gt;&lt;/dt&gt;
-  &lt;dd&gt;출력물 이미지의 픽셀 폭.&lt;/dd&gt;
-  &lt;dt&gt;&lt;label&gt;높이&lt;/label&gt;&lt;/dt&gt;
-  &lt;dd&gt;출력물 이미지의 픽셀 높이.&lt;/dd&gt;
-  &lt;dt&gt;&lt;label&gt;단위&lt;/label&gt;&lt;/dt&gt;
-  &lt;dd&gt;출력물에 사용되는 측정 단위.&lt;/dd&gt;
-  &lt;dt&gt;&lt;label&gt;이미지 타입&lt;/label&gt;&lt;/dt&gt;
-  &lt;dd&gt;MapServer에 의해 생성되는 출력물 이미지의 형식&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;h4&gt;경로&lt;/h4&gt;
-&lt;dl&gt;
-  &lt;dt&gt;&lt;label&gt;템플릿&lt;/label&gt;&lt;/dt&gt;
-  &lt;dd&gt;맵 파일과 함께 사용되는 MapServer 템플릿 파일의 전체 경로.&lt;/dd&gt;
-  &lt;dt&gt;&lt;label&gt;머릿말&lt;/label&gt;&lt;/dt&gt;
-  &lt;dd&gt;맵 파일과 함께 사용되는 MapServer 머릿말 파일의 전체 경로.&lt;/dd&gt;
-  &lt;dt&gt;&lt;label&gt;꼬리말&lt;/label&gt;&lt;/dt&gt;
-  &lt;dd&gt;맵 파일과 함께 사용되는 MapServer 꼬리말 파일의 전체 경로.&lt;/dd&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1286"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1294"/>
         <source>&lt;h3&gt;Scale bar Plugin&lt;/h3&gt;
 Draws a scale bar on the map.
 &lt;p&gt;
@@ -64230,27 +64059,10 @@ To add a scale bar:
 &lt;li&gt;Click &lt;label&gt;OK&lt;/label&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 </source>
-        <translation>&lt;h3&gt;스케일 막대 플러그인&lt;/h3&gt;
-맵상에 스케일 막대를 그림.
-&lt;p&gt;
-스타일과 배치뿐만 아니라 막대의 라벨링을 조절할수 있습니다.
-QGIS는 맵 프레임에 동일한 단위의 스케일 표시 만을 지원합니다. 그래서
-만일 레이어의 단위가 미터라면, 피트 단위로 스케일 막대를 생성할 수 없습니다.
-또한 10진 도를 사용한다면 미터 단위로 거리를 표시하는 스케일 막대를 생성할 수 없습니다.&lt;/p&gt; &lt;p&gt;
-스케일 막대 추가하기:
-&lt;ol&gt;
-&lt;li&gt;&lt;label&gt;배치&lt;/label&gt; 드롭다운 목록에서 배치를 선택.&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;스케일 막대 스타일&lt;/label&gt; 목록에서 스타일을 선택.&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;막대의 색상&lt;/label&gt;을 위해 색상 선택 또는 기본으로 검정색을 사용.&lt;/li&gt;
-&lt;li&gt;막대의 크기 및 &lt;label&gt;막대의 크기&lt;/label&gt; 라벨 지정.&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;스케일 막대 활성화&lt;/label&gt; 체크박스가 선택된다.&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;자동으로 크기의 숫자를 반올림 스냅&lt;/label&gt;로 선택적으로 캔버스의 크기가 변경되었을때 자동으로 반올림 수로 스냅하기위해 선택.&lt;/li&gt;
-&lt;li&gt;클릭 &lt;label&gt;OK&lt;/label&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1307"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="668"/>
         <source>&lt;h3&gt;Create a New PostgreSQL Connection&lt;/h3&gt;
 This dialog allows you to define the settings for a connection to a PostgreSQL database.
 &lt;p&gt;
@@ -64284,42 +64096,10 @@ This dialog allows you to define the settings for a connection to a PostgreSQL d
 
 &lt;/ul&gt;
 </source>
-        <translation>&lt;h3&gt;새로운 PostgreSQL 연결 생성하기&lt;/h3&gt;
-이 대화상자는 PostgreSQL 데이터베이스 연결을 위한 세팅을 정의한다.
-&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt; &lt;label&gt;이름&lt;/label&gt; 연결 세팅을 구분하기위한 이름.
-
-&lt;li&gt; &lt;label&gt;서비스&lt;/label&gt; &lt;a href=&quot;http://www.postgresql.org/docs/current/static/libpq-pgservice.html&quot;&gt;연결 서비스 파일에 나열된 서비스의 이름&lt;/a&gt;.
-
-&lt;li&gt; &lt;label&gt;호스트&lt;/label&gt; 데이터베이스 서버로 호스팅하는 컴퓨터의 이름 또는 IP 주소 (로컬 연결 또는 서비스일 경우는 빈칸으로 남겨두세요).
-
-&lt;li&gt; &lt;label&gt;포트&lt;/label&gt; 데이터베이스 서버에서 사용되는IP 포트 ( 로컬 연결 또는 기본 포트 5432로 사용하는 경우는 빈칸으로 남겨두세요).
-
-&lt;li&gt; &lt;label&gt;데이터베이스&lt;/label&gt; 데이터베이스의 이름 (기본 데이터베이스일 경우는 빈칸으로 남겨두세요).
-
-&lt;li&gt; &lt;label&gt;SSL 모드&lt;/label&gt; 연결의 &lt;a href=&quot;http://www.postgresql.org/docs/9.0/static/libpq-ssl.html#LIBPQ-SSL-SSLMODE-STATEMENTS&quot;&gt;SSL 모드&lt;/a&gt;
-
-&lt;li&gt; &lt;label&gt;사용자이름&lt;/label&gt; 데이터베이스 사용자 이름.
-&lt;li&gt; &lt;label&gt;비밀번호&lt;/label&gt; 데이터베이스 비밀번호.
-
-&lt;li&gt; &lt;label&gt;사용자이름 저장&lt;/label&gt; 연결 환경설정에서 데이터베이스 사용자 이름을 저장하는 경우 표시.
-
-&lt;li&gt; &lt;label&gt;비밀번호 저장&lt;/label&gt; 연결 세팅에서 데이터베이스 비밀번호를 저장하는 경우 표시. &lt;font color=&quot;red&quot;&gt;비밀번호는 프로젝트 파일의 시스템 환경설정에 &lt;strong&gt;텍스트&lt;/strong&gt;로 저장됨!&lt;/font&gt;
-
-&lt;li&gt; &lt;label&gt;지오메트리 컬럼 테이블만 조회&lt;/label&gt; &quot;나열된&quot; 지오메트리 컬럼이 사용되는 경우만 표시. - 지오메트리 컬럼에 대해 모든 테이블을 스캔에 반대임.
-
-&lt;li&gt; &lt;label&gt;&apos;public&apos; 스키마에서만 조회&lt;/label&gt;는 &apos;public&apos; 스키마의 테이블만 고려된다. - 모든 접근가능한 테이블에 반대임.
-
-&lt;li&gt; &lt;label&gt;또한 지오메트리를 가지지 않는 테이블 나열&lt;/label&gt;은  지오메트리를 가지지 않는 테이블을 기본으로 나열 함.
-
-&lt;li&gt; &lt;label&gt;추정 테이블 메타데이터 사용&lt;/label&gt; 레이어를 초기화할때, 다양한 쿼리는 데이터베이스 테이블에 저장되어있는 도형의 특징을 설치하는 데 필요할수도 있다. 이 옵션이 체크될때, 전체테이블이 아니라 이 쿼리는 행의 유일한 샘플을 검사하고 테이블 통계를 사용한다.  이것은 큰 데이터 집합 작업 속도를 수 있으나 레이어의 부정확한 특징이 도출될수도 있다.(특히. 필터 레이터의 &lt;font color=&quot;red&quot;&gt;피쳐 갯수&lt;/font&gt; 정확히 결정되지 않는다.).
-
-&lt;/ul&gt;
-</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="889"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="107"/>
         <source>&lt;h3&gt;Measure Tools&lt;/h3&gt;
 There are two measure tools: length and area. With them, you can measure both distances and areas on the map canvas. Currently the tools provide results in metric units only. A single right mouse click stops the measuring, while two right mouse clicks starts measuring anew.
 &lt;h4&gt;Measuring Lengths&lt;/h4&gt;
@@ -64327,16 +64107,10 @@ To measure lengths, select the tool and click along the path you want to measure
 &lt;h4&gt;Measuring Areas&lt;/h4&gt;
 To measure areas, select the tool and click to create the area. The total area is dynamically displayed as you click.
 </source>
-        <translation>&lt;h3&gt;측정 도구&lt;/h3&gt;
-거리, 면적 두개의 측정도구가 있다. 맵 캔버스에서 거리 및 면적을 측정할 수 있다. 현재 이툴은 미터 단위로만 결과를 제공한다. 마우스 오른쪽 버튼을 한번 클릭하면 측정을 멈춘며 마우스 오른쪽 버튼을 두번 클릭하면 새롭게 측정을 시작한다.
-&lt;h4&gt;길이 측정&lt;/h4&gt;
-길이를 측정하기 위해 도구를 선택하고 측정하고자 하는 패스를 따라 클릭한다. 각각의 세그먼트의 길이가 패스에 대한 전체 길이와 함께 표시된다.
-&lt;h4&gt;면적 측정&lt;/h4&gt;
-면적을 측정하기 위해 도구를 선택하고 면적을 생성하기 위해 클릭한다. 전체 면적은 클릭할때 동적으로 표시된다.
-</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="622"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1313"/>
         <source>&lt;h3&gt;Copyright Label Plugin&lt;/h3&gt;
 Draws a copyright label with information.&lt;br/&gt;
 You can add any random text to the map not only a copyright label.
@@ -64369,41 +64143,10 @@ This plugin supports basic HTML markup tags for formatting text. For example:
 &lt;/li&gt;
 &lt;/ul&gt;
 </source>
-        <translation>&lt;h3&gt;저작권 라벨 플러그인&lt;/h3&gt;
-정보를 가진 저작권 라벨을 그립니다.&lt;br/&gt;
-저작권 라벨뿐만아니라 임의의 텍스트를 추가할수도 있습니다.
-&lt;p&gt;
-&lt;a href=&quot;#howto&quot;&gt;방법&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#text&quot;&gt;텍스트 포맷팅&lt;/a&gt;&lt;br/&gt;
-
-&lt;a name=&quot;howto&quot;&gt;
-&lt;h4&gt;방법&lt;/h4&gt;
-&lt;/a&gt;
-&lt;ol&gt;
-&lt;li&gt;플러그인이 불러졌는지 확인하세요.
-&lt;li&gt;Click on &lt;label&gt;프로그인 &gt; 꾸미기 &gt; 저작권 라벨&lt;/label&gt;을 클릭하거나 &lt;label&gt;저작권 라벨&lt;/label&gt; 툴바의 버튼을 사용하세요.
-&lt;li&gt;맵상에 위치할 텍스틑 입력하세요. HTML 을 사용해도 됩니다.
-&lt;li&gt;드롭다운 박스의 &lt;label&gt;위치 하단 오른쪽&lt;/label&gt;으로부터 라벨의 위치를 선택하세요.
-&lt;li&gt;&lt;label&gt;저작권 라벨 체크박스 사용하기&lt;/label&gt;가 체크되었는지 확인하세요.
-&lt;li&gt;클릭 &lt;label&gt;OK&lt;/label&gt;.
-&lt;/ol&gt;
-&lt;a name=&quot;text&quot;&gt;
-&lt;h4&gt; 텍스트 포맷팅 &lt;/h4&gt;
-&lt;/a&gt;
-이 플러그인은 텍스트 포맷에 대해 기본의 HTML 마크업 태그를 지원합니다. 예를 들면:
-
-&lt;ul&gt;
-&lt;li&gt;&amp;lt;B&amp;gt;&lt;b&gt; 굵은 텍스트 &lt;/b&gt;&amp;lt;/B&amp;gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;lt;I&amp;gt;&lt;i&gt; 기울기 &lt;/i&gt;&amp;lt;/I&amp;gt;
-&lt;/li&gt;
-&lt;li&gt;&amp;lt;U&amp;gt;&lt;u&gt; 텍스트 밑줄 &lt;/u&gt;&amp;lt;/U&amp;gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/core/qgscontexthelp_texts.cpp" line="1217"/>
+        <location filename="../src/core/qgscontexthelp_texts.cpp" line="187"/>
         <source>&lt;h3&gt;Python Plugin Installer&lt;/h3&gt;
 Downloads and installs plugins from remote repositories.
 &lt;br/&gt;&lt;br/&gt;
@@ -64473,74 +64216,7 @@ In addition, you may specify the type of plugins that are displayed by the Plugi
 Note: Experimental plugins are generally unsuitable for production use. These plugins are in the early stages of development, and should be considered &quot;incomplete&quot; or &quot;proof of concept&quot; tools. The QGIS development team does not recommend installing these plugins unless you intend to use them for testing purposes.
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 </source>
-        <translation>&lt;h3&gt;파이썬 플러그인 설치&lt;/h3&gt;
-원격 저장소로부터 플러그인을 내려받고 설치하세요.
-&lt;br/&gt;&lt;br/&gt;
-&lt;a href=&quot;#pltab&quot;&gt;플러그인 탭&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#retab&quot;&gt;저장소 탭&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#optab&quot;&gt;옵션 탭&lt;/a&gt;&lt;br/&gt;
-
-&lt;a name=&quot;pltab&quot;&gt;
-&lt;h4&gt;플러그인 탭&lt;/h4&gt;
-&lt;/a&gt;
-
-&lt;p align=&apos;justify&apos;&gt;
-&lt;label&gt;플러그인&lt;/label&gt; 탭은 모든 로컬에 설치된 모든 파이썬 플러그인 뿐만아니라 원격 저장소에 가용한 플러그인의 목록을 포함합니다. 각 플러그인은 다음중 어디라도 존재할수 있습니다:
-&lt;dl&gt;
-&lt;dt&gt;설치되지 않음&lt;/dt&gt;&lt;dd&gt; 플러그인이 저장소에 가용함을 의미하지만 아직 설치되지 않았음을 의미합니다. 설치하기위해, 목록에서 플러그인을 선택하고 &lt;label&gt;플러그인 설치하기&lt;/label&gt; 버튼을 클릭하세요.&lt;/dd&gt;
-&lt;dt&gt;신규&lt;/dt&gt;&lt;dd&gt; 플러그인이 저장소에 새롭게 가용함을 의미합니다.&lt;/dd&gt;
-&lt;dt&gt;설치됨&lt;/dt&gt;&lt;dd&gt;플러그인이 이미 설치된것을 표시합니다. 임의의 저장소에서 가용하다면, &lt;label&gt;플러그인 재설치하기&lt;/label&gt; 버튼이 활성화 될것 입니다. 가용한 버젼이 설치된 버젼보다 오래되었다면 &lt;label&gt;플러그인 다운그레이드&lt;/label&gt; 버튼이 대신 나타날 것입니다.&lt;/dd&gt;
-&lt;dt&gt;업그레이드&lt;/dt&gt;&lt;dd&gt; 플러그인이 설치되었으나 업데이트 버젼이 가용함을 의미합니다. 이런 경우에 &lt;label&gt;플러그인 업그레이드&lt;/label&gt; 버튼이 활성화 될것 입니다.&lt;/dd&gt;
-&lt;dt&gt;무효함&lt;/dt&gt;&lt;dd&gt; 플러그인이 설치는 되었으나 가용하지 않거나 깨진것을 의미합니다. 이유는 플러그인 서술 필드에 설명될 것입니다.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/p&gt;
-
-플러그인을 설치하기 위해, 목록에서 선택하고 &lt;label&gt;플러그인 설치하기&lt;/label&gt; 버튼을 클릭하세요. 이 플러그인은 자신의 디렉토리에 설치됩니다.:
-&lt;table border=1&gt;
-&lt;tr&gt;&lt;th&gt;운영체계&lt;/th&gt;&lt;th&gt;시스템 플러그인&lt;/th&gt;&lt;th&gt;사용자에 의해 설치된 플러그인&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;리눅스 and other 유닉스&lt;/td&gt;&lt;td&gt;./share/qgis/python/plugins&lt;/td&gt;&lt;td rowspan=2&gt;$HOME/qgis/python/plugins&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Mac OS X&lt;/td&gt;&lt;td&gt;./Contents/MacOS/share/qgis/python/plugins&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Windows&lt;/td&gt;&lt;td&gt;(QGIS install directory)&amp;#92;python&amp;#92;plugins&lt;/td&gt;&lt;td&gt;%USERPROFILE%&amp;#92;.qgis&amp;#92;python&amp;#92;plugins&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-&lt;br/&gt;
-
-&lt;p align=&apos;justify&apos;&gt;
-설치가 성공적이라면, 확인 메시지가 나타나고 사용할 준비가 된것입니다..
-&lt;/p&gt;
-
-&lt;p align=&apos;justify&apos;&gt;
-설치가 실패라면 실패의 이유가 경고 대화상자에 표시될 것입니다. 종종 에러는 연결의 문제이거나 파이선 모듈을 잃어린 결과입니다. 전자의 경우 다시 설치를 시도하기전에 기다릴 필요가 있으며, 후자의 경우에 플러그인을 사용하기위해 운영체계에 적절한 읽어버린 모듈을 설치해야 합니다.리눅스의 경우 모든 필요한 모듈은 패키지 관리자를 통해 가용해야 합니다. 윈도우의 경우 모듈 제작 홈페이지를 방문하세요. 프록시를 사용한다면, &lt;label&gt;프록시&lt;/label&gt; 탭에서 &lt;label&gt;편집&lt;/label&gt; &gt; &lt;label&gt;옵션&lt;/label&gt; (Gnome, OSX) 또는 &lt;label&gt;세팅&lt;/label&gt; &gt; &lt;label&gt;옵션&lt;/label&gt; (KDE, Windows) 환경구성을 할 필요가 있습니다..&lt;/p&gt;
-
-&lt;p align=&apos;justify&apos;&gt;
-&lt;label&gt;프러그인 삭제하기&lt;/label&gt; 버튼은 선택한 플러그인이 설치되고 핵심 플러그인이 아닐때만 활성화 됩니다. 핵심 플러그인에 업데이트를 설치했다면, &lt;label&gt;플러그인 삭제하기&lt;/label&gt;로 업데이트를 삭제하고 QGIS에 포함 된 버전으로 되돌린다. 그러나 이 기본 버전은 그러나 제거 할 수 없습니다.&lt;/p&gt;
-
-&lt;a name=&quot;retab&quot;&gt;
-&lt;h4&gt;저장소 탭&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p align=&apos;justify&apos;&gt;
-두번째 탭인 &lt;label&gt;저장소&lt;/label&gt;는 플러그인 설치자를 통해 가용한 플러그인 저장소의 목록을 포함합니다. 기본으로, QGIS 공식 저장소만이 가능합니다. 중앙 QGIS 공헌 저장소 및 other external repositories by clicking the &lt;label&gt;제3자 파티 저장소 추가하기&lt;/label&gt; 버튼을 클릭하여 다른 외부 저장소를 포함한 몇몇 사용자-공헌 저장소를 추가할 수 있습니다. 추가된 저장소는 QGIS 개발팀이 유지하지 않는 많은 쓸모있는 플러그인을 가지고 있습니다. 그런 경우에 플러그인에 대한 어떤 책임을 지지 않습니다. 수동으로 저장소 목록을 추가, 삭제, 편집등 관리할수도 있습니다. 일시적으로 사용할수 없는 특정 저장소는 &lt;label&gt;편집...&lt;/label&gt; 버튼을 클릭하여 관리하는게 가능합니다.&lt;/p&gt;
-
-&lt;a name=&quot;optab&quot;&gt;
-&lt;h4&gt;옵션 탭&lt;/h4&gt;
-&lt;/a&gt;
-&lt;p align=&apos;justify&apos;&gt;
-The &lt;label&gt;옵션&lt;/label&gt; 탭은 플러그인 설치자의 세팅을 조정할 수 있는 곳입니다. &lt;label&gt;기동시 업데이트에 대해 x 체크&lt;/label&gt; 체크박스는 업데이트와 뉴스를 자동으로 보이게 합니다. 기본으로, 이 피쳐가 활성화된 다면 모든 저장소가 표시되고 프로그램이 시작될때마다 업데이트가 체크됩니다.  체킹 업데이트 주기는 드롭 다운 메뉴를 사용해 조절될 수 있습으며 한달에 한번으로 조절될 수도 있습니다. 설치된 플러그인중 하나가 가용하다면 공지가 상태 바에 나타납니다. 체크박스가 비활성화된다면 업데이트 및 뉴스 찾기가 플러그인 설치자가 메뉴에서 수동으로 실행될때 수행됩니다.&lt;/p&gt;
-
-
-&lt;p align=&apos;justify&apos;&gt;
-업데이트를 자동으로 체크를 시도할때 일부 인터넷 연결이 문제가 생깁니다. 이 경우 QGIS 전체 세션동안 &lt;i&gt;새로운 플러그인 찾기...&lt;/i&gt; 표시가 상태바에 보입니다. 그리고 끝낼때 프로그램 충돌을 일으킬 수도 있습니다. 이경우에 체크박스를 비활성화하세요.&lt;/p&gt;
-
-추가로 플러그인 설치자에 의해 표시되는 플러그인 타입을 특정할수도 있습니다. &lt;i&gt;허용된 플러그인&lt;/i&gt; 조건에서 아래와 같이 하고자하는것을 특정할수 있습니다.
-&lt;ul&gt;
-&lt;li&gt; 공식 저장소의 플러그만 보여주기&lt;/li&gt;
-&lt;li&gt; 실험적으로 지정된것을 제외한 모든 플러그인 보여주기,&lt;/li&gt;
-&lt;li&gt; 또는 실험적으로 지정된 것을 포함하여 모든 플러그인 보여주기.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;br/&gt;
-&lt;table border=1 width=&apos;95%&apos; align=&apos;center&apos;&gt;&lt;tr&gt;&lt;td&gt;
-주의: 실험적인 플러그인은 일반적으로 사용되는 제품에 적합하지 않는다. 이런 플러그인은 초기 개발단계이고, &quot;미완성&quot; 또는 &quot;개념 검증&quot;으로 고려되어야 한다. QGIS 개발팀은 당신이 테스트 목적으로 사용하려는 경우를 에도 이런 플러그인 설치를 권장하지 않습니다.
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="607"/>
