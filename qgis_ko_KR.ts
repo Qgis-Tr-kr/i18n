@@ -63355,7 +63355,7 @@ geometry types and don&apos;t offer to add others.
 
 &lt;li&gt; &lt;label&gt;사용자 이름 저장하기&lt;/label&gt; 연결 설정에서 데이터베이스 사용자 이름을 저장할지를 정합니다.
 
-&lt;li&gt; &lt;label&gt;암호 저장하기&lt;/label&gt; 연결 설정에서 데이터베이스 암호를 저장할지를 정합니다.  &lt;font color=&quot;red&quot;&gt;암호는 시스템 설정과 프로젝트 파일의 &lt;strong&gt;클리어 텍스트&lt;/strong&gt; 에 저장됩니다!&lt;/font&gt;
+&lt;li&gt; &lt;label&gt;암호 저장하기&lt;/label&gt; 연결 설정에서 데이터베이스 암호를 저장할지를 정합니다.  &lt;font color=&quot;red&quot;&gt;암호는 시스템 설정과 프로젝트 파일의 &lt;strong&gt;Clear Text&lt;/strong&gt; 에 저장됩니다!&lt;/font&gt;
 
 &lt;li&gt; &lt;label&gt;메타데이터 테이블만 보기&lt;/label&gt; all_sdo_geom_metadata 뷰의 표시되는 테이블을 제한합니다. 공간 테이블의 초기 도시 속도 향상에 도움을 줍니다.
 
@@ -64061,15 +64061,15 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 &lt;h4&gt;설치 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
-이 탭은 당신의 시스템에 현재 설치되어 있는 플러그인의 목록을 보여준다.
-pythoon과 C++ 플러그인 모두 나열된다.
+이 탭은 사용자의 시스템에 현재 설치되어 있는 플러그인의 목록을 보여줍니다.
+pythoon과 C++ 플러그인 모두 나열됩니다.
 &lt;/p&gt;
 &lt;p&gt;
-이름 앞의 체크박스를 클릭하여 활성화 또는 비활성화할수 있다.&lt;br/&gt;
-아이템을 선택하면 상세 패널에 플러그인 정보가 보인다.
+이름 앞의 체크박스를 클릭하여 활성화 또는 비활성화할수 있습니다.&lt;br/&gt;
+아이템을 선택하면 상세 패널에 플러그인 정보가 보입니다.
 &lt;/p&gt;
 &lt;p&gt;
-부가 메뉴(오른쪽 클릭)를 통해 이름, 다운로드수, 투표수, 상태에 따라 정렬이 가능하다.
+부가 메뉴(오른쪽 클릭)를 통해 이름, 다운로드수, 투표수, 상태에 따라 정렬이 가능합니다.
 &lt;/p&gt;
 
 
@@ -64077,47 +64077,47 @@ pythoon과 C++ 플러그인 모두 나열된다.
 &lt;h4&gt;플러그인 더 보기 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
-원격 저장소로부터 사용가능한 플러그인의 목록을 보여준다.
-내용이 시작할 때 한번 다운로드 되지만, 세팅 메뉴에서 변경할 수 있다.
+원격 저장소로부터 사용가능한 플러그인의 목록을 보여줍니다.
+내용이 시작할 때 한번 다운로드 되지만, 세팅 메뉴에서 변경할 수 있습니다.
 &lt;/p&gt;
 &lt;p&gt;
-아이템을 선택하면 상세 패널에 플러그인 정보가 보인다.
+아이템을 선택하면 상세 패널에 플러그인 정보가 보입니다.
 &lt;/p&gt;
 
 &lt;a name=&quot;newtab&quot;&gt;
 &lt;h4&gt;신규 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
-이 탭은 새로운 플러그인이 나왔을 때 단 한번만 보여진다.
+이 탭은 새로운 플러그인이 나왔을 때 단 한번만 보여집니다.
 &lt;/p&gt;
 
 &lt;a name=&quot;upgradabletab&quot;&gt;
 &lt;h4&gt;업그레이드 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
-이 탭은 설치한 플러그인이 원격 저장소로부터 업그레이드 되는 경우에만 사용한다.
+이 탭은 설치한 플러그인이 원격 저장소로부터 업그레이드 되는 경우에만 사용합니다.
 &lt;/p&gt;
 
 &lt;a name=&quot;Invalid tab&quot;&gt;
 &lt;h4&gt;무효 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
-이 탭은 플러그인이 유효하지 않은 경우에만 도움이 된다. 플러그인을 불러오는 중에 오류가 생긴 경우이다.
+이 탭은 플러그인이 유효하지 않은 경우에만 도움이 됩니다. 플러그인을 불러오는 중에 오류가 생긴 경우입니다.
 &lt;/p&gt;
 
 &lt;a name=&quot;settingstab&quot;&gt;
 &lt;h4&gt;세팅 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
-이 탭에서 플러그인 관리자의 세팅을 변경할 수 있다.
+이 탭에서 플러그인 관리자의 설정을 변경할 수 있습니다.
 &lt;/p&gt;
 &lt;p&gt;
-이 탭에서는 QGIS가 사용 가능한 저장소로부터 얼마나 자주 최신 및 업데이트된 목록을 받아올지 설정할 수 있다.
+이 탭에서는 QGIS가 사용 가능한 저장소로부터 얼마나 자주 최신 및 업데이트된 목록을 받아올지 설정할 수 있습니다.
 &lt;/p&gt;
 &lt;p&gt;
-&apos;실험적인 플러그인 보여주기&apos;를 선택하여 저작자에 의해 &apos;실험적&apos;이라고 고려되는 모든 플러그인이 목록에 보여진다. 
+&apos;실험적인 플러그인 보여주기&apos;를 선택하여 저작자에 의해 &apos;실험적&apos;이라고 고려되는 모든 플러그인이 목록에 보여집니다. 
 &lt;table border=1 width=&apos;95%&apos; align=&apos;center&apos;&gt;&lt;tr&gt;&lt;td&gt;
-주의: 실험적인 플러그인은 일반적으로 사용되는 제품에 적합하지 않는다. 이런 플러그인은 초기 개발단계이고, &quot;미완성&quot; 또는 &quot;개념 검증&quot;으로 고려되어야 한다. QGIS 개발팀은 당신이 테스트 목적으로 사용하려는 경우에도 이런 플러그인 설치를 권장하지 않는다.
+주의: 실험적인 플러그인은 범용 제품을 사용하려는 이들에게는 적합하지 않습니다. 이런 플러그인은 초기 개발단계이고, &quot;미완성&quot; 또는 &quot;개념 검증&quot;으로 고려되어야 합니다. QGIS 개발팀은 당신이 테스트 목적으로 사용하려는 경우에도 이런 플러그인 설치를 권장하지 않습니다.
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;/p&gt;
@@ -64136,10 +64136,10 @@ pythoon과 C++ 플러그인 모두 나열된다.
 Displays a north arrow overlayed onto the map.
 &lt;p&gt;
 At present there is only one style available. You can adjust the angle of the arrow or let QGIS set the direction automatically. If you choose to let QGIS determine the direction, it makes its best guess as to how the arrow should be oriented. For placement of the arrow you have four options, corresponding to the four corners of the map canvas.</source>
-        <translation>&lt;h3&gt; 방위표 플러그인&lt;/h3&gt;
-지도위에 방위표를 보여줌.
+        <translation>&lt;h3&gt;방위표 플러그인&lt;/h3&gt;
+지도위에 방위표를 보여줍니다.
 &lt;p&gt;
-현재로는 한가지 스타일만 가능하다. 화살표의 각을 조절하거나 QGIS가 자동으로 방향을 조절하도록 조정할 수 있다. QGIS가 방향을 결정하도록 선택하면, 화살표가 올바른 방향을 가르치도록 최선을 다한다. 화살표의 배치에 대해 맵 캔버스의 각 코너에 따라 4개 옵션이 있다.</translation>
+현재로는 한가지 스타일만 가능합니다. 화살표의 각을 조절하거나 QGIS가 자동으로 방향을 조절하도록 조정할 수 있습니다. QGIS가 방향을 결정하도록 선택하면, 화살표가 올바른 방향을 가르치도록 최선을 다합니다. 화살표의 배치에 대해 맵 캔버스의 각 코너에 따라 4개 옵션이 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="306"/>
@@ -64176,18 +64176,18 @@ These values are written to the map file in the appropriate spots to set things 
   &lt;dt&gt;&lt;label&gt;Footer&lt;/label&gt;&lt;/dt&gt;
   &lt;dd&gt;Full path to the MapServer footer file to be used with the map file.&lt;/dd&gt;
 </source>
-        <translation>&lt;h3&gt;QGIS 프로젝트를 MapServer 맵 파일로 내보내기&lt;/h3&gt;
+        <translation>&lt;h3&gt;QGIS 프로젝트를 MapServer 지도 파일로 내보내기&lt;/h3&gt;
 &lt;p&gt;
-이 툴은 저장한 QGIS 프로젝트 파일을 MapServer 맵으로 내보낸다. &lt;b&gt;Map 파일&lt;/b&gt;과 &lt;b&gt;QGIS 프로젝트 파일&lt;/b&gt; 입력이 요구된다.
+이 툴은 저장된 QGIS 프로젝트 파일을 MapServer 맵으로 내보냅니다. &lt;b&gt;Map 파일&lt;/b&gt;과 &lt;b&gt;QGIS 프로젝트 파일&lt;/b&gt; 이 필요합니다.
 &lt;/p&gt;
-&lt;label&gt;현재 프로젝트 사용하기&lt;/label&gt; 체크박스를 선택하거나 내보내려는 QGIS 프로젝트 파일(.qgs)의 전체 경로를 입력해라. 오른쪽에 QGIS 프로젝트 파일을 불러오기위한 버튼을 사용할 수 있다.
+&lt;label&gt;현재 프로젝트 사용하기&lt;/label&gt; 체크박스를 선택하거나 내보내려는 QGIS 프로젝트 파일(.qgs)의 전체 경로를 입력하십시오. 오른쪽에 있는 QGIS 프로젝트 파일을 불러오기 버튼을 사용할 수도 있습니다.
 
-&lt;h4&gt;Map 파일&lt;/h4&gt;
+&lt;h4&gt;지도 파일&lt;/h4&gt;
 
-&lt;label&gt;Map 파일&lt;/label&gt; 생성될 파일명을 입력하세요. 파일을 생성할 디렉토리를 지정하기 위해 오른쪽의 버튼을 사용할 수 있다.
+&lt;label&gt;지도 파일&lt;/label&gt; 생성될 파일명을 입력하세요. 파일을 생성할 디렉토리를 지정하기 위해 오른쪽의 버튼을 사용할 수 있습니다.
 
-&lt;h4&gt;Map&lt;/h4&gt;
-이 값들은 출력물 이미지의 사이즈, 단위, 타입같은 것들을 세팅하기 위해 적절한 지점상의 맵 파일에 쓰여진다.
+&lt;h4&gt;지도&lt;/h4&gt;
+이 값들은 출력물 이미지의 사이즈, 단위, 이미지 유형 같은 것들을 설정하기 위해 지도 파일의 적절한 위치에 쓰여집니다.
 &lt;dl&gt;
   &lt;dt&gt;&lt;label&gt;이름&lt;/label&gt;&lt;/dt&gt;
   &lt;dd&gt;맵에 대한 이름. 이 이름은 MapServer에 의해 생성 된 모든 이미지에 붙일 수 있습니다.&lt;/dd&gt;
@@ -64197,7 +64197,7 @@ These values are written to the map file in the appropriate spots to set things 
   &lt;dd&gt;출력물 이미지의 픽셀 높이.&lt;/dd&gt;
   &lt;dt&gt;&lt;label&gt;단위&lt;/label&gt;&lt;/dt&gt;
   &lt;dd&gt;출력물에 사용되는 측정 단위.&lt;/dd&gt;
-  &lt;dt&gt;&lt;label&gt;이미지 타입&lt;/label&gt;&lt;/dt&gt;
+  &lt;dt&gt;&lt;label&gt;이미지 유형&lt;/label&gt;&lt;/dt&gt;
   &lt;dd&gt;MapServer에 의해 생성되는 출력물 이미지의 형식&lt;/dd&gt;
 &lt;/dl&gt;
 &lt;h4&gt;경로&lt;/h4&gt;
@@ -64230,22 +64230,22 @@ To add a scale bar:
 &lt;li&gt;Click &lt;label&gt;OK&lt;/label&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 </source>
-        <translation>&lt;h3&gt;스케일 막대 플러그인&lt;/h3&gt;
-맵상에 스케일 막대를 그림.
+        <translation>&lt;h3&gt;스케일바 플러그인&lt;/h3&gt;
+지도상에 스케일바를 그립니다.
 &lt;p&gt;
-스타일과 배치뿐만 아니라 막대의 라벨링을 조절할수 있습니다.
-QGIS는 맵 프레임에 동일한 단위의 스케일 표시 만을 지원합니다. 그래서
-만일 레이어의 단위가 미터라면, 피트 단위로 스케일 막대를 생성할 수 없습니다.
-또한 10진 도를 사용한다면 미터 단위로 거리를 표시하는 스케일 막대를 생성할 수 없습니다.&lt;/p&gt; &lt;p&gt;
-스케일 막대 추가하기:
+사용자가 스타일과 배치뿐만 아니라 막대의 라벨 표시를 조절할 수 있습니다.
+QGIS는 맵 프레임과 동일한 단위의 스케일 표시 만을 지원합니다. 그래서
+만일 레이어의 단위가 미터라면, 피트 단위로 스케일바를 생성할 수 없습니다.
+또한 10진 도를 사용한다면 미터 단위로 거리를 표시하는 스케일바를 생성할 수 없습니다.&lt;/p&gt; &lt;p&gt;
+스케일바 추가하기:
 &lt;ol&gt;
 &lt;li&gt;&lt;label&gt;배치&lt;/label&gt; 드롭다운 목록에서 배치를 선택.&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;스케일 막대 스타일&lt;/label&gt; 목록에서 스타일을 선택.&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;막대의 색상&lt;/label&gt;을 위해 색상 선택 또는 기본으로 검정색을 사용.&lt;/li&gt;
-&lt;li&gt;막대의 크기 및 &lt;label&gt;막대의 크기&lt;/label&gt; 라벨 지정.&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;스케일 막대 활성화&lt;/label&gt; 체크박스가 선택된다.&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;자동으로 크기의 숫자를 반올림 스냅&lt;/label&gt;로 선택적으로 캔버스의 크기가 변경되었을때 자동으로 반올림 수로 스냅하기위해 선택.&lt;/li&gt;
-&lt;li&gt;클릭 &lt;label&gt;OK&lt;/label&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;스케일바 스타일&lt;/label&gt; 목록에서 스타일을 선택.&lt;/li&gt;
+&lt;li&gt;바의 색 설정을 위해 &lt;label&gt;바의 색상&lt;/label&gt; 선택 또는 기본으로 검정색을 사용.&lt;/li&gt;
+&lt;li&gt;바의 크기 및 라벨 지정을 위해 &lt;label&gt;바 크기&lt;/label&gt; 사용.&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;스케일 막대 활성화&lt;/label&gt; 체크박스가 선택되었는지 확인.&lt;/li&gt;
+&lt;li&gt;선택적으로 &lt;label&gt;크기조정시 자동으로 반올림값에 스냅&lt;/label&gt;을 선택하여 캔버스의 크기가 변경되었을때 자동으로 반올림값에 맞추기.&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;확인&lt;/label&gt; 클릭.&lt;/li&gt;
 &lt;/ol&gt;
 </translation>
     </message>
