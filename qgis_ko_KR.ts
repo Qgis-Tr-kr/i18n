@@ -63659,9 +63659,9 @@ of the diagram size according to a classification attribute.
 &lt;h4&gt;기호&lt;/h4&gt;
 &lt;/a&gt;
 레이어를 위한 심볼을 변경하기 위해서는 간단하게 범례 엔트리와 벡터를 더블클릭하면 됩니다.&lt;label&gt;레이어 속성&lt;/label&gt; 대화상자가 나타납니다.&lt;p&gt;
-Within this dialog you can style your vector layer. Depending on the selected rendering option you have the possibility to also classify your map features.
+이 대화상자에서 사용자는 사용자의 벡터 레이어를 꾸밀 수 있습니다. 선택된 렌더링 옵션에 따라, 사용자는 사용자 지도 객체도 분류할 수 있습니다.
 
-&lt;h5&gt;Legend type&lt;/h5&gt;
+&lt;h5&gt;범례 유Legend type&lt;/h5&gt;
 QGIS supports a number of symbology renderers to control how vector features are displayed. Currently the following renderers are available:
 &lt;ul&gt;
 &lt;li&gt;&lt;label&gt;Single symbol&lt;/label&gt; - a single style is applied to every object in the layer.
