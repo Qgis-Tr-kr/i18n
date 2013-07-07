@@ -64892,7 +64892,12 @@ QGIS supports vector data in a number of formats, including those supported by t
 QGIS supports PostGIS layers in a PostgreSQL database and SpatiaLite layers. Support for additional data types (eg. delimited text) is provided by additional data provider plugins. A list of OGR supported vector formats can be found in Appendix A.1 of the User Guide.&lt;/p&gt;
 Detailed description how to proceed with vector data is described in chapter 5 &apos;Working with Vector Data&apos;.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt; 오픈 벡터 레이어 대화 상자 &lt;/h3&gt;
+
+오픈 벡터 레이어 대화 상자가 QGIS지도보기로 벡터 데이터를 추가하는 데 사용됩니다. 벡터 데이터는 점, 선 및 폴리곤의 지오메트리(밀폐 공간)를 사용하여 설명되는 공간 데이터입니다. &lt;/p&gt;
+QGIS는 ESRI shape 파일과 MapInfo의 MIF(교환 포맷) 및 MapInfo의 TAB (기본 형식)등은 물론, OGR 라이브러리 데이터 공급자 플러그인에서 지원하는 포맷을 포함해서 다양한 형태의 포맷을 지원합니다.&lt;/p&gt;
+QGIS는 PostgreSQL 데이터베이스의 PostGIS 레이어와 SpatiaLite 레이어를 지원합니다. 추가 데이터 유형(예 : 구분 된 텍스트)에 대한 지원은 추가 데이터 공급자 플러그인에 의해 제공됩니다. OGR 지원 벡터 형식의 목록은 설명서의 부록 A.1에서 찾을 수 있습니다. &lt;/P&gt;
+벡터 데이터와 함께 작업하는 방법에 대한 자세한 설명은 &apos;벡터 데이터 작업&apos; 제 5 장에 설명되어 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="853"/>
