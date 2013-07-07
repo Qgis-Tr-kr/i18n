@@ -64686,7 +64686,40 @@ The Coordinate Reference System (CRS) tab allows you to set the projection for t
 &lt;/a&gt;
 On this tab you can choose on which layers the identify tool will work.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;프로젝트 속성&lt;/h3&gt;
+이 대화 상자에서 &lt;label&gt;프로젝트&lt;/label&gt;와 관련된 속성의 수를 설정할 수 있습니다. 프로젝트는 레이어와 해당 설정의 저장 세트뿐만 아니라 디스크에서 프로젝트를 복원하는 데 필요한 정보입니다. &lt;p&gt;
+
+&lt;a href=&quot;#general&quot;&gt;일반 탭&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#crs&quot;&gt;좌표 참조 시스템 (CRS) 탭&lt;/a&gt; &lt;br/&gt;
+&lt;a href=&quot;#layers&quot;&gt;식별가능 레이어 탭&lt;/a&gt;를 &lt;br/&gt;
+
+&lt;a name=&quot;general&quot;&gt;
+&lt;h4&gt;일반 탭&lt;/ h4&gt;
+&lt;a/&gt;
+&lt;table border=1&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;프로젝트의 제목&lt;/label&gt;&lt;/td&gt;&lt;td&gt;프로젝트 설명입니다. 이 제목은 QGIS 창의 제목 표시 줄에 표시됩니다.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;색상 선택&lt;/label&gt;&lt;/td&gt;&lt;td&gt;선택한 객체를 이 색상을 사용하여 지도에 표시합니다. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;배경 색상&lt;/label&gt;&lt;/td&gt;&lt;td&gt;지도 캔버스의 색상입니다.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;경로 저장&lt;/label&gt;&lt;/td&gt;&lt;td&gt; 절대 혹은 상대 경로 저장.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;레이어 단위&lt;/label&gt; &lt;/td&gt; &lt;td&gt; 프로젝트의 레이어에 적절한 단위를 선택합니다. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;정밀도&lt;/label&gt;&lt;/td&gt;&lt;td&gt; 상태 표시 줄에 정밀도 표시를 설정하려면 수동 설정을 사용합니다. 마우스가 지도 캔버스를 이동할 때, 좌표는 업데이트 되고 선택된 정밀도를 사용하여 상태 표시 줄에 표시됩니다. 지도 단위에 따라 자동적으로(기본값) 결과가 표시됩니다.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;디지털화&lt;/label&gt;&lt;/td&gt;&lt;td&gt;&lt;label&gt;토폴로지 편집&lt;/label&gt;옵션은 편집 하면서 및 롤리곤 형태가 기본 경계를 유지 가능하도록 설정합니다. 공유된 경계의 접점을 편집하면 두 경계를 갱신할 것입니다.&lt;p&gt;
+공통 경계의 모든 모서리의 디지털화를 방지하려면 &lt;label&gt;새로운 폴리곤의 중첩 피하기&lt;/label&gt;를 선택합니다. 대화창에 새로운 폴리곤이 조정될 적절한 레이어들이 표시됩니다. 새로운 폴리곤을 그리기 위해 기존의 폴리곤 위에 중첩시키면 자동적으로 잘려집니다.&lt;p&gt;
+&lt;label&gt;스냅 옵션&lt;/label&gt;을 사용해 당신은 픽셀 조정값과 지도 단위와 스내핑 모드를 설정할 수 있습니다. :  (모든 레이어 개별적으로 ) &lt;label&gt;to vertex&lt;/label&gt;, &lt;label&gt;to segment&lt;/label&gt;, &lt;label&gt;to vertex and segment&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;a name=&quot;crs&quot;&gt;
+&lt;h4&gt; 좌표 참조 시스템 (CRS) 탭 &lt;/ h4&gt;
+&lt;/&gt;
+좌표 참조 시스템 (CRS) 탭을 사용하면 현재 프로젝트의 투영도를 설정하고 즉시 변환에 사용하도록 할 수 있습니다. CRS &apos;즉시&apos; 변환을 설치하고 사용하기 위해 저장된 프로젝트가 필요한 것은 아닙니다.
+CRS &apos;즉시&apos; 변환을 사용하려면 &lt;label&gt;CRS &apos;즉시&apos; 변환 사용&lt;/label&gt; 체크박스를 클릭합니다. 그런 후 &apos;지리 투영 좌표 시스템&apos;의 목록에서 프로젝트(지도 캔버스)에 대한 투영도를 선택합니다.
+&lt;p&gt;좌표계 이름, EPSG 코드 혹은 QGIS ID를 입력하고 &lt;label&gt;찾기&lt;/label&gt;버튼을 클릭하여 좌표계를 찾을 수 있습니다.
+&lt;p&gt;최근에 사용 된 좌표 시스템의 목록은 빠른 사용을 위해 바닥에서 찾을 수 있습니다.
+
+&lt;a name=&quot;layers&quot;&gt;
+&lt;h4&gt; 식별가능 레이어 탭 &lt;/ h4&gt;
+&lt;/a&gt;
+이 탭을 통해 식별 도구가 작동되는 레이어를 선택할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1345"/>
