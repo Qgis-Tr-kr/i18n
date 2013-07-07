@@ -64727,7 +64727,9 @@ CRS &apos;즉시&apos; 변환을 사용하려면 &lt;label&gt;CRS &apos;즉시&a
 To define a new connection, click on &lt;label&gt;New&lt;/label&gt; button and use the file browser to point to your SpatiaLite database, which is a file with a &lt;i&gt;.sqlite&lt;/i&gt; extension.&lt;p&gt;
 The connections you define will be remembered for further use and available to choose from the drop down menu.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt; SpatiaLite 테이블 추가&lt;/h3&gt;
+새 연결을 정의하려면 &lt;label&gt;새 연결&lt;/label&gt;버튼을 클릭하고 당신의 SpatiaLite 데이터베이스를 가리 키도록 파일 브라우저를 사용합니다.(&lt;i&gt;.sqlite가 &lt;/i&gt; 확장자.) &lt;P&gt;  
+당신이 정의하는 연결은 이후 사용을 위해 기억하고 드롭 다운 메뉴에서 선택할 수 있게 됩니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="114"/>
