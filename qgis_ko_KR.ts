@@ -64596,7 +64596,58 @@ The &lt;label&gt;Field Calculator&lt;/label&gt; button in the attribute table al
 The results can be written to a new attribute column or it can be used to update values in an already existing column.&lt;br&gt;
 The vector layer needs to be in editing mode, before you can click on the &lt;label&gt;Field calculator&lt;/label&gt; icon to open the dialog.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt; 속성 테이블 &lt;/h3&gt;
+속성 테이블은 선택한 레이어의 객체들을 표시합니다. 테이블의 각 행은 여러 열에서와 같이 그 특성을 가진 하나의 맵 객체를 나타냅니다. 테이블의 객체들을 검색, 선택, 이동 또는 심지어 편집까지 할 수 있습니다. 기본적으로 속성 테이블은 별도의 창입니다. 당신이 그것을 더 이상 열어 볼 수없는 경우, 그것은 대부분의 QGIS 메인 창 아래에 숨겨져 있습니다. 당신은 &lt;label&gt;독 창에서 속성 테이블 열기&lt;/label&gt;에 있는 &lt;label&gt; 설정&gt; 옵션&gt; 일반 &lt;/label&gt;을 메뉴를 이용해 도킹 창을 만들 수 있습니다&lt;P&gt;
+
+선택한 레이어 객체의 총 개수, 필터된 객체와 선택된 객체들은 윈도우 헤더에 인쇄되어 있습니다. &lt;P&gt;
+&lt;P&gt;
+&lt;a href=&quot;#Selecting&quot;&gt;선택&lt;a/&gt;&lt;br/&gt;
+&lt;a href=&quot;#Sorting&quot;&gt;정렬&lt;/a&gt;를 &lt;br/&gt;
+&lt;a href=&quot;#Filtering&quot;&gt;필터&lt;/a&gt;를 &lt;br/&gt; 
+&lt;a href=&quot;#E​​diting&quot;&gt;편집&lt;/a&gt;를 &lt;br/&gt;
+&lt;a href=&quot;#FieldCalc&quot;&gt;필드 계산기&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;Selecting&quot;&gt;
+&lt;h4&gt;선택&lt;/h4&gt;
+&lt;/a&gt;
+행의 왼쪽에있는 번호를 클릭하여 행을 선택할 수 있습니다. 다음 행은 마우스 버튼을 누른 채 선택 영역의 다른 쪽 끝으로 마우스를 이동하여 선택할 수 있습니다. 여러 개의 비 연속적인 행은 &lt;label&gt;Ctrl&lt;/label&gt; 키를 눌러서 선택할 수 있습니다.&lt;br&gt;
+연속적인 선택은 &lt;label&gt;Shift&lt;/label&gt; 키를 누른 행의 왼쪽에있는 여러 행 머리글을 클릭하여 선택하실 수 있습니다. 현재 커서의 위치와 클릭 된 행 사이의 모든 행이 선택됩니다.
+
+&lt;a name=&quot;Sorting&quot;&gt;
+&lt;h4&gt;정렬&lt;/h4&gt;
+&lt;/a&gt;
+각 열은 해당 열 헤더를 클릭하여 정렬 할 수 있습니다. 작은 화살표는 정렬 순서(아래쪽으로 향하게은 위에서 아래로 행의 값을 오름차순으로 위쪽을 가리키는, 위에서 아래 행의 값을 의미 내림차순 의미)를 나타냅니다. &lt;br&gt;
+&lt;label&gt;최상위로선택&lt;/label&gt; 버튼을 활성화 해서 행을 표시하는 버튼에 관계없이 선택된 행이 언제나 제일 위에 있게 합니다.
+
+&lt;a name=&quot;Filtering&quot;&gt;
+&lt;h4&gt;필터링&lt;/h4&gt;
+&lt;/&gt;
+단지 데이터의 부분을 탐색하려면 왼쪽 아래에있는 필터 버튼을 사용할 수 있습니다. 다음 옵션들을 사용할 수 있습니다.
+&lt;h5&gt;모든 객체보기&lt;/h5&gt;
+레이어의 모든 객체들을 보여줍니다.
+&lt;h5&gt;선택한 객체보기&lt;/h5&gt;
+현재 선택되어있는 모든 객체들을 보여줍니다.
+&lt;h5&gt;지도에 보이는 모든 객체 보기&lt;h5&gt;
+현재 보이는 지도영역과 스케일을 계산해서 캔버스에서 볼 수있는 모든 객체를 보여줍니다.
+&lt;h5&gt;편집되었거나 새로 추가된 객체보기&lt;/h5&gt;
+편집되었거나 새로 추가된 객체를 보여줍니다. 이 모드에서는 커밋되지 않은 변경 기능이 표시됩니다.그러므로 커밋하기 전에 변경 사항을 검토하는 것이 좋은 필터입니다. 삭제 기능은 이 모드에서 표시되지 않는 것을 유의하십시오.
+&lt;h5&gt;열 필터&lt;/h5&gt;
+속성값으로 간단하게 필터링 할 수 있습니다. 속성에 텍스트가 포함되어 있으면, 그것은 또한 하위 문자열을 찾습니다. &lt;b&gt;man&lt;/b&gt;을 검색하면&lt;b&gt;woman&lt;/b&gt;을 따라서도 보여줍니다. 필터 텍스트를 변경 한 후, Enter 키를 누르거나 &lt;label&gt;적용&lt;/label&gt;을 클릭합니다. 또한 &lt;label&gt;대소 문자 구분&lt;/label&gt;을 체크박스를 눌러 전환 할 수 있습니다. 그래서 당신의 필터는 &lt;b&gt;Night&lt;/b&gt;를 &lt;b&gt;night&lt;/b&gt;로 검색했을 때도 찾을 수 있습니다.
+&lt;h5&gt;고급 필터&lt;/h5&gt;
+더 복잡한 검색의 경우,이 모드는 SQL 구문과 유사한 강력한 표현식 작성기를 제공합니다. 구문에 대한 자세한 내용은 표현식 작성기의 포함된 도움말을 참조하십시오.
+
+&lt;a name=&quot;Editing&quot;&gt;
+&lt;h4&gt;편집&lt;/h4&gt;
+&lt;a/&gt;
+값을 편집하기위해서는 먼저 레이어를 편집 모드로 전환해야 합니다. &lt;label&gt;편집 모드 전환&lt;/label&gt; (연필) 버튼을 누르거나 &lt;label&gt;Ctrl 키 + E&lt;/label&gt;를 눌러 편집모드로 전환합니다. 이 후에  더블클릭을 하거나 커서를 올려놓고 &lt;label&gt;Spece&lt;/label&gt;-키를 사용하면 편집할 수 있습니다. &lt;label&gt;벡터 레이어 속성&gt; 필드 &lt;/label&gt; 메뉴를 이용하여 위젯을 사용자 정의해 필드 편집에 사용할 수 있습니다
+
+&lt;a name=&quot;FieldCalc&quot;&gt;
+&lt;h4&gt;필드 계산기&lt;/h4&gt;
+&lt;a/&gt;
+속성 테이블에있는 &lt;label&gt;필드 계산기&lt;/label&gt; 버튼을 사용해서 기존 속성 값이나 정의된 함수, 예를 들면  길이 또는 형상 객체의 면적을 계산을 수행 할 수 있습니다. &lt;br&gt;
+결과는 새로운 속성 컬럼에 쓸 수도 있고, 기존의 열에서 값을 업데이트하는 데 사용할 수 있습니다. &lt;br&gt;
+&lt;label&gt;필드 계산기&lt;/label&gt;아이콘을 눌러 대화 상자를 열기 전에 벡터 레이어는 편집 모드에 있어야합니다.
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="258"/>
