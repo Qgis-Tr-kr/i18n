@@ -64773,7 +64773,44 @@ To delete a bookmark from the Bookmarks dialog, click on it then click the &lt;l
 To update the extent of a bookmark, click on it then click the &lt;label&gt;Update&lt;/label&gt; button. Confirm your choice by clicking &lt;label&gt;OK&lt;/label&gt; or cancel the update by clicking &lt;label&gt;Cancel&lt;/label&gt;.
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt; 공간 북마크 &lt;/h3&gt;
+공간 북마크는 지리적 위치를 &quot;북마크&quot;하고 나중에 사용할 수 있습니다.
+&lt;P&gt;
+&lt;a href=&quot;#creating&quot;&gt;북마크 만들기&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#working&quot;&gt;북마크 작업&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#zooming&quot;&gt;북마크로 확대&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#deleting&quot;&gt;북마크 삭제&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#updating&quot;&gt;북마크 업데이트&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;creating&quot;&gt;
+&lt;h4&gt;북마크 만들기&lt;/h4&gt;
+&lt;/a&gt;
+북마크를 만들려면 :
+&lt;ol&gt;
+&lt;li&gt;관심 영역을 확대하거나 그곳으로 이동합니다.
+&lt;li&gt;&lt;label&gt;새 북마크&lt;/label&gt;를 클릭하거나 Ctrl-B를 입력합니다
+&lt;li&gt;북마크(최대 255 자)에 대한 설명이 포함 된 이름을 입력합니다.
+&lt;li&gt;&lt;label&gt;OK&lt;/label&gt;를 클릭해 북마크를 추가하거나 &lt;label&gt;취소&lt;/label&gt;를 클릭해 북마크를 추가하지 않고 종료할 수 있습니다.
+&lt;/ol&gt;
+같은 이름을 가진 여러 북마크를 가질 수 있습니다.
+&lt;a name=&quot;working&quot;&gt;
+&lt;h4&gt;북마크 작업&lt;/h4&gt;
+&lt;a/&gt;
+북마크를 사용하거나 관리하려면 &lt;label&gt;북마크 보기&lt;/label&gt; 버튼을 클릭하거나,&lt;label&gt;보기&lt;/label&gt; 메뉴에서 &lt;label&gt;북마크 보기&lt;label&gt;를 선택합니다. 북마크 대화 상자에서 확대 또는 북마크를 삭제할 수 있습니다. 북마크 이름이나 좌표는 편집 할 수 없습니다.
+&lt;a name=&quot;zooming&quot;&gt;
+&lt;h5&gt;북마크로 확대&lt;/h5&gt;
+&lt;a/&gt;
+지리 공간 북마크 대화 상자에서, 원하는 북마크를 클릭하여 선택하고 &lt;/label&gt;..로 확대&lt;label&gt; 버튼을 클릭합니다.
+&lt;p&gt;
+당신은 또한 두 번 클릭하여 북마크로 확대 할 수 있습니다.
+&lt;a name=&quot;deleting&quot;&gt;
+&lt;h5&gt;북마크 삭제&lt;/h5&gt;
+&lt;/&gt;
+북마크 대화 상자에서 북마크를 삭제하려면 북마크를 선택한 후 &lt;label&gt;삭제&lt;/label&gt; 버튼을 클릭합니다. &lt;label&gt;확인&lt;/label&gt;을 클릭하여 선택 사항을 확인하거나 &lt;label&gt;취소&lt;/label&gt;를 클릭하여 삭제를 취소 할 수 있습니다.
+&lt;a name=&quot;updating&quot;&gt;
+&lt;h5&gt;북마크 업데이트&lt;/h5&gt; 
+&lt;a/&gt;
+북마크의 지도영역을 업데이트하려면  북마크를 선택한 후 &lt;label&gt;업데이트&lt;/label&gt; 버튼을 클릭합니다. &lt;label&gt;확인&lt;/label&gt;을 클릭하여 선택 사항을 확인하거나 &lt;label&gt;취소&lt;/label&gt;를 클릭하여 업데이트를 취소 할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="516"/>
