@@ -63644,7 +63644,7 @@ The Diagram tab allows you to add a graphic overlay to a vector layer. To activa
 The current implementation of diagrams provides support for pie- and bar charts and for linear scaling
 of the diagram size according to a classification attribute.
 </source>
-        <translation type="unfinished">&lt;h3&gt;벡터 레이어 속성&lt;/h3&gt;
+        <translation>&lt;h3&gt;벡터 레이어 속성&lt;/h3&gt;
 벡터 레이어 설정과 속성This dialog allows you to work with vector layer settings and properties. There are seven tabs:
 &lt;p&gt;
 &lt;a href=&quot;#symbology&quot;&gt;심볼&lt;/a&gt;&lt;br/&gt;
@@ -63659,129 +63659,129 @@ of the diagram size according to a classification attribute.
 &lt;h4&gt;기호&lt;/h4&gt;
 &lt;/a&gt;
 레이어를 위한 심볼을 변경하기 위해서는 간단하게 범례 엔트리와 벡터를 더블클릭하면 됩니다.&lt;label&gt;레이어 속성&lt;/label&gt; 대화상자가 나타납니다.&lt;p&gt;
-Within this dialog you can style your vector layer. Depending on the selected rendering option you have the possibility to also classify your map features.
+이 대화상자에서 사용자는 사용자의 벡터 레이어를 꾸밀 수 있습니다. 선택된 렌더링 옵션에 따라, 사용자는 사용자 지도 객체도 분류할 수 있습니다.
 
-&lt;h5&gt;Legend type&lt;/h5&gt;
-QGIS supports a number of symbology renderers to control how vector features are displayed. Currently the following renderers are available:
+&lt;h5&gt;범례 유형&lt;/h5&gt;
+QGIS는 백터 객체가 표출되는 방법을 조절하는 다양한 심볼 렌더러를 지원합니다:
 &lt;ul&gt;
-&lt;li&gt;&lt;label&gt;Single symbol&lt;/label&gt; - a single style is applied to every object in the layer.
-&lt;li&gt;&lt;label&gt;Graduated symbol&lt;/label&gt; - objects within the layer are displayed with different symbols classified by the values of a particular field.
-&lt;li&gt;&lt;label&gt;Continuous color&lt;/label&gt; - objects within the layer are displayed with a spread of colors classified by the numerical values within a specified field.
-&lt;li&gt;&lt;label&gt;Unique value&lt;/label&gt; - objects are classified by the unique values within a specified field with each value having a different symbol.
+&lt;li&gt;&lt;label&gt;단일 심볼&lt;/label&gt; - 단일 스타일이 레이어의 모든 객체에 적용됩니다.
+&lt;li&gt;&lt;label&gt;등급별 심볼&lt;/label&gt; - 레이어의 객체들은 특정 필드 값에 의해 분류된 다른 심볼과 함께 표출 됩니다.
+&lt;li&gt;&lt;label&gt;연속 색상&lt;/label&gt; - 레이어의 객체들은 특정 필드에 있는 수치값들에 의해 분류된 색상의 분포와 함께 표출됩니다.
+&lt;li&gt;&lt;label&gt;고유값&lt;/label&gt; - 객체들은 다른 심볼을 가지고 있는 각각의 값들과 함께 특정 필드의 유일값에 의해 분류됩니다.
 &lt;/ul&gt;
 
-&lt;h5&gt;New symbology&lt;/h5&gt;
-Click &lt;label&gt;New symbology&lt;/label&gt; button to use new symbology implementation for the layer.
+&lt;h5&gt;새 심볼 만들기&lt;/h5&gt;
+레이어를 위해 새 심볼 이행을 사용하기 위해 &lt;label&gt;새 심볼 만들기&lt;/label&gt; 버튼을 클릭하세요.
 
-&lt;h5&gt;Vector transparency&lt;/h5&gt;
-QGIS allows to set a transparency for every vector layer. This can be done with the slider &lt;label&gt;Transparency&lt;/label&gt;. This is very useful for overlaying several vector layers.
+&lt;h5&gt;벡터 투명도&lt;/h5&gt;
+QGIS는 모든 벡터 레이어의 투명도를 조절할 수 있습니다. &lt;label&gt;투명도&lt;/label&gt; 슬라이더를 이용하면 됩니다. 이 기능은 여러 벡터 레이러를 오버레이할 때 매우 유용합니다.
 
-&lt;h5&gt;Saving styles&lt;/h5&gt;
-Once you have styled your layer you also could save your layer-style to a separate file (with *.qml ending). To do this, use the button &lt;label&gt;Save Style...&lt;/label&gt;. No need to say that &lt;label&gt;Load Style...&lt;/label&gt; loads your saved layer-style-file.&lt;br/&gt;
-If you wish to always use a particular style whenever the layer is loaded, use the &lt;label&gt;Save As Default&lt;/label&gt; button to make your style the default. Also, if you make changes to the style that you are not happy with, use the &lt;label&gt;Restore Default Style&lt;/label&gt; button to revert to your default style.
+&lt;h5&gt;스타일 저장&lt;/h5&gt;
+사용자의 레이어 스타일 작업을 했다면, 레이어 스타일을 별도의 파일 ( *.qml 확장자)로 저장이 가능합니다. 이 기능의 사용을 위해서, &lt;label&gt;스타일 저장...&lt;/label&gt;버튼을 클릭하세요. &lt;label&gt;스타일 불러오기...&lt;/label&gt;는 사용자가 저장한 레이어 스타일 파일을 불러옵니다.&lt;br/&gt;
+레이어를 불러올 때는 언제나 특별한 스타일을 항상 사용하길 원한다면, 사용자의 기본 스타일로 만들기 위해, &lt;label&gt;기본으로 저장&lt;/label&gt; 버튼을 이용하면 됩니다. 또한, 스타일을 변경하고 싶으면, 사용자의 기본 스타일로 되돌리기 위해, &lt;label&gt;기본 스타일 회귀&lt;/label&gt; 버튼을 이용하면 됩니다.
 
 &lt;a name=&quot;labels&quot;&gt;
-&lt;h4&gt;Labels&lt;/h4&gt;
+&lt;h4&gt;라벨&lt;/h4&gt;
 &lt;/a&gt;
-The Labels tab allows you to enable labeling features and control a number of options related to fonts, placement, style, alignment and buffering.&lt;br/&gt;
-Check the &lt;label&gt;Display labels&lt;/label&gt; check box to enable labeling.
+라벨 탭은 사용자가 객체 라벨링을 가능하게 하고, 폰트, 배치, 스타일, 벼열과 버퍼링과 같은 많은 옵션을 조절하게 해줍니다.&lt;br/&gt;
+라벨링을 하기 위해 &lt;label&gt;라벨 표시&lt;/label&gt; 체크 박스를 체크합니다.
 
-&lt;h5&gt;Basic Label options&lt;/h5&gt;
-Choose the field to label with.&lt;p&gt;
-Select the use the &lt;label&gt;Font&lt;/label&gt; and  &lt;label&gt;Color&lt;/label&gt; buttons to set the font and color. You can also change the angle and the placement of the text-label.&lt;p&gt;
-If have labels extending over several lines, check &lt;label&gt;Multiline labels?&lt;/label&gt;. QGIS will check for a true line return in your label field and insert the line breaks accordingly. A true line return is a single character &amp;#92;n, (not two separate characters, like a backslash &amp;#92; followed by the character n).
+&lt;h5&gt;기본 라벨 옵션&lt;/h5&gt;
+라벨을 할 필드를 선택하세요.&lt;p&gt;
+폰트와 색상을 조정하기 위해 &lt;label&gt;폰트&lt;/label&gt; 와 &lt;label&gt;색상&lt;/label&gt; 버튼 사용을 선택하세요. 텍스트 라벨의 각도와 배치를 변경할 수도 있습니다.&lt;p&gt;
+라벨을 여러 선 위로 확장하기 위해서는, &lt;label&gt;다중 선 라벨?&lt;/label&gt;을 확인하세요. QGIS 는 사용자 라벨 필드의 진선 회귀를 확인하고 그에 맞춰 선 끊김을 삽입합니다. 진선 회귀는 단일 캐릭터 &amp;#92;n 입니다, (두 개의 별도의 캐릭터가 아닙니다. 역 슬래쉬와 같고 &amp;#92; n이 뒤에 붙습니다..).
 
-&lt;h5&gt;Placement&lt;/h5&gt;
-Change the label placement by selecting one of the radio buttons in the &lt;label&gt;Placement&lt;/label&gt; group.
+&lt;h5&gt;배치&lt;/h5&gt;
+&lt;label&gt;배치&lt;/label&gt; 그룹에서 라디오 버튼 중 하나를 선택하여 라벨 배치를 변경합니다.
 
-&lt;h5&gt;Font size units&lt;/h5&gt;
-The &lt;label&gt;Font size units&lt;/label&gt; allows you to select between &lt;label&gt;Points&lt;/label&gt; or &lt;label&gt;Map units&lt;/label&gt;.
+&lt;h5&gt;폰트 사이즈 유닛&lt;/h5&gt;
+&lt;label&gt;폰트 사이즈 유닛&lt;/label&gt;은 사용자가 &lt;label&gt;점&lt;/label&gt; 또는 &lt;label&gt;지도 유닛&lt;/label&gt;사이를 선택하게 해줍니다.
 
-&lt;h5&gt;Buffer labels&lt;/h5&gt;
-To buffer the labels means putting a backdrop around them to make them stand out better. To buffer the lakes labels:
+&lt;h5&gt;라벨 버퍼&lt;/h5&gt;
+라벨을 버퍼하는 것은 라벨 주변의 배경을 넣어 좀 더 두드러기게 하는 것을 의미합니다. 호수 라벨을 버퍼하기 위해:
 &lt;ol&gt;
-&lt;li&gt;Click the &lt;label&gt;Buffer Labels&lt;/label&gt; check box to enable buffering.
-&lt;li&gt;Choose a size for the buffer using the spin box.
-&lt;li&gt;Choose a color by clicking on &lt;label&gt;Color&lt;/label&gt; and choosing your favorite from the color selector. You can also set some transparency for the buffer if you prefer.
-&lt;li&gt;Click &lt;label&gt;Apply&lt;/label&gt; to see if you like the changes.
+&lt;li&gt;버퍼링을 가능하게 하기 위해 &lt;label&gt;라벨 버퍼&lt;/label&gt; 체크 상자를 클릭합니다.
+&lt;li&gt;스핀 상자를 사용하여 버퍼 사이즈를 선택합니다.
+&lt;li&gt;&lt;label&gt;색상&lt;/label&gt;을 클릭하고 색생 선택표에서 선호하는 색을 선택하여 색상을 선택합니다. 또한 원한다면 약간의 투명도도 조절할 수 있습니다.
+&lt;li&gt;변경한 내용이 괜찮은지 확인하기 위해서는 &lt;label&gt;적용하기&lt;/label&gt;를 클릭합니다.
 &lt;/ol&gt;
-Notice you can also specify the buffer size in map 
-units if that works out better for you.
+지도에서 버퍼 사이즈를 명시할 수 있습니다.
+유닛, 사용자에게 좋게 동작한다면
 
-&lt;h5&gt;Data defined placement, properties, buffer, position&lt;/h5&gt;
-The remaining entries inside the &lt;label&gt;Label&lt;/label&gt; tab allow you control the appearance of the labels using attributes stored in the layer. The entries beginning with &lt;label&gt;Data defined&lt;/label&gt; allow you to set all the parameters for the labels using fields in the layer.
+&lt;h5&gt;배치, 속성, 버퍼, 위치가 정의된 데이터&lt;/h5&gt;
+&lt;label&gt;라벨&lt;/label&gt; 탭안에 있는 나머지 엔트리는 사용자가 레이어에 저장된 속성을 사용하여 라벨의 외형을 조절할 수 있게 해줍니다. 엔트리는 &lt;label&gt;정의된 데이터&lt;/label&gt;로 시작하는 엔트리는 사용자가 레이어에 있는 필드를 사용하여 라벨의 모든 파라미터들을 조정하도록 해줍니다.
 
 
 &lt;a name=&quot;attributes&quot;&gt;
-&lt;h4&gt;Attributes&lt;/h4&gt;
+&lt;h4&gt;속성&lt;/h4&gt;
 &lt;/a&gt;
-Within the &lt;label&gt;Attributes&lt;/label&gt; tab the attributes of the selected data set can be manipulated. The buttons &lt;label&gt;New Column&lt;/label&gt; and &lt;label&gt;Delete Column&lt;/label&gt; can be used, when the data set is in editing mode. The OGR library supports to add new columns, but not to remove them, if you have a GDAL version &gt;= 1.6 installed. Otherwise only columns from PostGIS layers can be edited.&lt;p&gt;
-The &lt;label&gt;Toggle editing mode&lt;/label&gt; button toggles this mode.&lt;p&gt;
-Within the Attributes tab you also find an edit widget column. This column can be used to define values or a range of values that are allowed to be added to the specific attribute table column. If you click on the &lt;label&gt;edit widget&lt;/label&gt; button, a dialog opens, where you can define different widgets. These widgets are:&lt;br/&gt;
+&lt;label&gt;속성&lt;/label&gt; 탭안에 있는 선택된 데이터의 속성은 조종될 수 있습니다. 데이터 세트가 편집 모드일 때, &lt;label&gt;새로운 행&lt;/label&gt; 과 &lt;label&gt;행 삭제&lt;/label&gt; 버튼을 사용할 수 있습니다. 설치된 GDAL 버전이 1.6보다 상위버전이라면, OGR 라이브러리는 삭제가 아니라 새로운 행을 추가하는 것을 지원합니다. 그렇지 않으면, PostGIS 레이어에서는 오직 행만 편집이 가능합니다.&lt;p&gt;
+&lt;label&gt;편집 모드 토글&lt;/label&gt; 버튼은 이 모드를 토글합니다.&lt;p&gt;
+속성 탭에 위젯 행 편집 기능이 있습니다. 이 행은 값이나 특정 속성 테이블 행에 추가되는 값의 범위를 정의하는데 사용될 수 있습니다. &lt;label&gt;위젯 편집&lt;/label&gt; 버튼을 클릭하면, 다른 위젯을 정의할 수 있는 대화상자가 열립니다. 이 위젯들은:&lt;br/&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;label&gt;Line edit&lt;/label&gt; an edit field which allows to enter simple text (or restrict to numbers for numeric attributes).
-&lt;li&gt;&lt;label&gt;Classification&lt;/label&gt; Displays a combo box with the values used for classification, if you have chosen &lt;label&gt;unique value&lt;/label&gt; as legend type in the symbology tab of the properties dialog.
-&lt;li&gt;&lt;label&gt;Range&lt;/label&gt; Allows to set numeric values from a specific range. The edit widget can be either a slider or a spin box.
-&lt;li&gt;&lt;label&gt;Unique value&lt;/label&gt; The user can select one of the values already used in the attribute table. If &lt;label&gt;editable&lt;/label&gt; is activated, a line edit is shown with auto completion support, but additional values are possible, otherwise a combo box is used.
-&lt;li&gt;&lt;label&gt;File name&lt;/label&gt; Simplifies the selection by adding a file chooser dialog.
-&lt;li&gt;&lt;label&gt;Value map&lt;/label&gt; a combo box with predefined items. The value is stored in the attribute, the description is shown in the combo box. You can define values manually or load them from a layer or a csv file.
-&lt;li&gt;&lt;label&gt;Enumeration&lt;/label&gt; Opens a combo box with values that can be used within the columns type. This is currently only supported by the Postgres provider.
-&lt;li&gt;&lt;label&gt;Immutable&lt;/label&gt; The immutable attribute column is read-only. The user is not able to modify the content.
-&lt;li&gt;&lt;label&gt;Hidden&lt;/label&gt; A hidden attribute column is invisible to the user.
-&lt;li&gt;&lt;label&gt;Checkbox&lt;/label&gt; A check box is shown.  The value representing the state of the check box in the attribute has to be entered.
-&lt;li&gt;&lt;label&gt;Text edit&lt;/label&gt; A text edit field is shown, that allows entering multiline text.
+&lt;li&gt;&lt;label&gt;선 편집&lt;/label&gt; 간단한 텍스트를 입력하는 것 (또는 수치 속성의 숫자를 제한하는 것)을 가능케 하는 편집 필드.
+&lt;li&gt;&lt;label&gt;분류&lt;/label&gt; 속성 대화상자의 심볼 탭의 범례 유형으로서, &lt;label&gt;고유값&lt;/label&gt;을 선택한다면, 분류에 사용되는 값과 함께 콤보 상자를 표시합니다.
+&lt;li&gt;&lt;label&gt;범위&lt;/label&gt; 특정한 범위의 수치 값을 조정할 수 있습니다. 편집 위젯은 스핀 상자나 스파이더 형태일 것입니다.
+&lt;li&gt;&lt;label&gt;고유값&lt;/label&gt; 속성 테이블에서 이미 사용된 값 중 하나를 선택할 수 있습니다. &lt;label&gt;편집가능&lt;/label&gt; 기능이 활성화 되면, 선 편집이 자동 완성 지원과 함께 보여지지만, 추가로 값의 추가가 가능하고, 그렇지 않으면 콤보 상자가 사용됩니다.
+&lt;li&gt;&lt;label&gt;파일명&lt;/label&gt; 파일 추가 대화상자에 의해 선택이 간단합니다.
+&lt;li&gt;&lt;label&gt;값 지도&lt;/label&gt; 기 정의된 항목들이 콤보박스에 보여집니다.. 값은 속성에 정의되어 있고, 설명이 콤보박스에 보여집니다. 값을 수동으로 정의할 수 있고, 레이어나 csv 파일에서 불러들일 수 있습니다.
+&lt;li&gt;&lt;label&gt;열거&lt;/label&gt; 행 유형에서 사용될 수 있는 값들의 콤보 박스를 엽니다. 이 기능은 현재 Postgres 제공자에 의해서만 지원됩니다.
+&lt;li&gt;&lt;label&gt;불변&lt;/label&gt; 불변 속성 행은 읽기 전용입니다. 사용자는 해당 컨텐츠의 수정을 할 수 없습니다.
+&lt;li&gt;&lt;label&gt;숨기기&lt;/label&gt; 숨겨진 속성 행은 사용자에게 보여지지 않습니다.
+&lt;li&gt;&lt;label&gt;체크박스&lt;/label&gt; 체크 박스가 보여집니다. 속성의 체크 박스의 상태를 보여주는 값이 입력되어야 합니다.
+&lt;li&gt;&lt;label&gt;텍스트 편집&lt;/label&gt; 텍스트 편집 필드가 보여지고, 다중 선 텍스트 입력이 가능합니다.
 &lt;/ul&gt;
 
 &lt;a name=&quot;general&quot;&gt;
-&lt;h4&gt;General&lt;/h4&gt;
+&lt;h4&gt;일반&lt;/h4&gt;
 &lt;/a&gt;
-The General tab allows you to change the display name, set scale dependent rendering options, create a spatial index of the vector file (only for OGR supported formats and PostGIS) and view or change the projection of the specific vector layer.&lt;p&gt;
-You can also set a provider specific filter expressions using the &lt;label&gt;Query Builder&lt;/label&gt;.
+일반 탭에서 사용자는 표시명을 변경할 수 있고, 규모 종속 렌더링 옵션을 조절할 수 있고, 벡터 파일(OGR 지원 포멧과  PostGIS만)의 공간 인덱스를 생성할 수 있고, 특정 벡터 레이어의 투영을 보거나 변경할 수 있습니다.&lt;p&gt;
+사용자는 또한 &lt;label&gt;쿼리 생성기&lt;/label&gt;를 사용하여 프로바이더 상세 필터 표현식을 조정할 수 있습니다.
 
-&lt;h5&gt;Subset&lt;/h5&gt;
-The &lt;label&gt;Query Builder&lt;/label&gt; button allows you to limit the features of a layer to a subset matching an provider specific filter expression.
+&lt;h5&gt;부분집합&lt;/h5&gt;
+&lt;label&gt;쿼리 생성기&lt;/label&gt; 버튼은 특정 필터 표현 프로바이더와 맞는 부분집합에 레이어의 객체를 제한합니다.
 
 &lt;a name=&quot;metadata&quot;&gt;
-&lt;h4&gt;Metadata&lt;/h4&gt;
+&lt;h4&gt;메타데이터&lt;/h4&gt;
 &lt;/a&gt;
-The &lt;label&gt;Metadata&lt;/label&gt; tab contains information about the layer, including specifics about the type and location, number of features, feature type, and the editing capabilities. The Layer Spatial Reference System section, providing projection information, is displayed on this tab. This is a quick way to get information about the layer.
+&lt;label&gt;메타데이터&lt;/label&gt; 탭에는 유형과 지역의 레부 정보, 객체 수, 객체 유형과 편집 가능성등을 포함하는 레이어 정보가 있습니다. 투영범 정보를 제공하는 레이어 공간 참조 시스템 섹션이 해당 탭에 표시됩니다. 레이어 정보를 획득하는 빠른 방법입니다..
 
 &lt;a name=&quot;actions&quot;&gt;
-&lt;h4&gt;Actions&lt;/h4&gt;
+&lt;h4&gt;액션&lt;/h4&gt;
 &lt;/a&gt;
-QGIS provides the ability to perform an action based on the attributes of a feature. This can be used to perform any number of actions, for example, running a program with arguments built from the attributes of a feature or passing parameters to a web reporting tool. &lt;br/&gt;
-Actions are useful when you frequently want to run an external application or view a web page based on one or more values in your vector layer.&lt;p&gt;
+QGIS는 객체의 속성에 기반한 액션을 수행하는 기능을 제공합니다. 모든 액션들, 예를 들면, 객체의 속성으로부터 만들어진 인수들을 가진 프로그램을 돌리거나 파라미터들을 웹 보고 도구에 보내는 것등을 수행하는데 사용될 수 있습니다. &lt;br/&gt;
+액션은 사용자가 자주 외부 애플리케이션을 실행하거나 사용자의 벡터 레이어에 있는 하나 이상의 값들에 기반한 웹 페이지를 볼 때 매우 유용합니다.&lt;p&gt;
 
-The new implementation of actions uses the QGIS expression engine to do evaluations. Each expression is evaluated and replaced by its result at runtime.&lt;p&gt;
-An expression must be enclosed between &lt;code&gt;[%&lt;/code&gt; and &lt;code&gt;%]&lt;/code&gt; - the GUI has some buttons which do that for you automatically. 
-The &lt;label&gt;Insert expression...&lt;/label&gt; button launches the &lt;label&gt;Expression builder&lt;/label&gt; which allows to write an expression easily, the &lt;label&gt;Insert field&lt;/label&gt; button inserts into the action a placeholder like &lt;code&gt;[% &quot;fieldname&quot; %]&lt;/code&gt; where fieldname is the name of the field selected in the field dropdown list.&lt;p&gt;
+액션의 새로운 수행은 평가를 하는데 QGIS 표현식 엔진을 사용합니다. 각각의 표현식은 실행 시간의 결과에 의해 평가되거나 대체됩니다.&lt;p&gt;
+표현식은 &lt;code&gt;[%&lt;/code&gt; 와 &lt;code&gt;%]&lt;/code&gt; 사이에 둘러싸여 있어야 합니다.- GUI는 사용자를 위해 자동으로 하게 해주는 몇 개의 버튼이 있습니다. 
+&lt;label&gt;표현식 삽입...&lt;/label&gt; 버튼은 표현식을 쉽게 쓸 수 있게 해주는 &lt;label&gt;표현식 생성기&lt;/label&gt; 를 시작하게 하고, &lt;label&gt;필드 삽입&lt;/label&gt; 버튼은 필드명이 필드 드랍다운 목록에서 선택된 필드 이름의 &lt;code&gt;[% &quot;필드명&quot; %]&lt;/code&gt;과 같은 플레이스홀더 액션을 삽입합니다.&lt;p&gt;
 
-See the User Guide for further information.
+상세 정보를 위해 사용자 가이드를 봅니다.
 
-&lt;h5&gt;Using Actions&lt;/h5&gt;
-Actions can be invoked from the &lt;label&gt;Identify Results&lt;/label&gt; dialog or using the &lt;label&gt;Run feature action&lt;/label&gt; tool on the toolbar.&lt;p&gt;
+&lt;h5&gt;액션 사용&lt;/h5&gt;
+도구상자의 &lt;label&gt;결과 확인&lt;/label&gt; 대화상자 또는 &lt;label&gt;객체 액션 실행&lt;/label&gt; 도구로 부터 적용될 수 있습니다.&lt;p&gt;
 
-Each action adds a little set of custom expressions to the default set available in the &lt;label&gt;Expression builder&lt;/label&gt;.&lt;br/&gt;
-While running actions from the &lt;label&gt;Identify Results&lt;/label&gt; dialog the custom expression &lt;code&gt;$currfield&lt;/code&gt; will be replaced with the value of the selected field in the dialog, using the &lt;label&gt;Run feature action&lt;/label&gt; tool the following custom expressions are available (instead of $currfield):
+각각의 액션은 사용자 정의 표현식의 소집합을 &lt;label&gt;표현식 만들기&lt;/label&gt;에서 가능한 기본 집합에 추가합니다.&lt;br/&gt;
+While running actions from the &lt;label&gt;결과 확인&lt;/label&gt; 대화상자로붙 액션을 실행하는 동안, ,사용자 정의 표현식 &lt;code&gt;$currfield&lt;/code&gt; 는 &lt;label&gt;객체 액션 실행&lt;/label&gt; 도구를 사용하여 대화상자에서 선택된 필드의 값으로 대체됩니다. 다음의 사용자 정의 표현식이 가능합니다($currfield 대신에):
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;$clickx&lt;/code&gt; returns the x coordinate of the click position on the canvas&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;$clicky&lt;/code&gt; returns the y coordinate of the click position on the canvas&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;$layerid&lt;/code&gt; returns the ID of the selected layer in the legend&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$clickx&lt;/code&gt; 은 캔버스의 클릭 위치의 x 좌표를 반환합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$clicky&lt;/code&gt; 은 캔버스의 클릭 위치의 y 좌표를 반환합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$layerid&lt;/code&gt; 범례의 선택된 레이어의 ID를 반환합니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-Note: the &lt;label&gt;Run feature action&lt;/label&gt; tool executes the actions on all the matching features, where as &lt;label&gt;Identify Results&lt;/label&gt; allows you to select which specific feature to run action on.&lt;p&gt;
+안내: &lt;label&gt;결과 확인&lt;/label&gt;은 사용자가 선택한 상세 객체만 수행을 하게 하는 반면에, &lt;label&gt;객체 액션 실행&lt;/label&gt; 도구는 모든 적합한 객체의 액션을 수행합니다. 
 
 
-&lt;h5&gt;Action Examples&lt;/h5&gt;
-You can add some example actions by clicking on the &lt;label&gt;Add default actions&lt;/label&gt; button.
+&lt;h5&gt;액션 예제Action Examples&lt;/h5&gt;
+사용자는 &lt;label&gt;기본 액션 추가&lt;/label&gt; 버튼을 클릭하여, 예제 액션을 추가할 수 있습니다.
 
 
 &lt;a name=&quot;diagram&quot;&gt;
-&lt;h4&gt;Diagram Overlay&lt;/h4&gt;
+&lt;h4&gt;대화상자 중첩&lt;/h4&gt;
 &lt;/a&gt;
-The Diagram tab allows you to add a graphic overlay to a vector layer. To activate this feature, open the &lt;label&gt;Plugin Manager&lt;/label&gt; and select the &lt;label&gt;Diagram Overlay&lt;/label&gt; plugin. After this, there is a new tab in the vector &lt;label&gt;Layer Properties&lt;/label&gt; dialog where the settings for diagrams may be entered.&lt;p&gt;
-The current implementation of diagrams provides support for pie- and bar charts and for linear scaling
-of the diagram size according to a classification attribute.</translation>
+대화상자 탭에서 사용자는 그래픽 오버레이를 벡터 레이어에 추가할 수 있습니다. 이 기능을 활성화 하기 위해서는, &lt;label&gt;플러그인 관리자&lt;/label&gt; 를 열고 &lt;label&gt;대화상자 중첩&lt;/label&gt; 플러그인을 선택합니다.그 후에, 대화상자의 설정을 입력할 수 있는 벡터 &lt;label&gt;레이어 속성&lt;/label&gt; 대화상자에 새로운 탭이 나타납니다.&lt;p&gt;
+대화상자의 현재 수행은 파이, 막대 차트, 선형 스케일링을 지원합니다. 
+분류 속성에 따라 대화상자 크기의.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="470"/>
@@ -63831,7 +63831,52 @@ are sometimes limited (e.g. for shape files) or behave diffently.
 &lt;/tr&gt;
 &lt;/table&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;h3&gt;Query Builder&lt;/h3&gt;
+The query builder allows you to create provider specific filter expressions.
+
+These are usually evaluated much faster than the generic QGIS expressions, but
+are sometimes limited (e.g. for shape files) or behave diffently.
+
+&lt;h4&gt;Providers&lt;/h4&gt;
+
+&lt;table border=1&gt;
+&lt;tr&gt;
+  &lt;th&gt;Provider&lt;/th&gt;
+  &lt;th&gt;Documentation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;OGR&lt;/td&gt;
+  &lt;td&gt;where clauses depending on the
+    &lt;a href=&quot;http://www.gdal.org/ogr/ogr_formats.html&quot;&gt;format&lt;/a&gt; (eg.
+    &lt;a href=&quot;http://www.gdal.org/ogr/ogr_sql.html&quot;&gt;OGR SQL&lt;/a&gt;
+    for shape files)
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;PostgreSQL/PostGIS&lt;/td&gt;
+  &lt;td&gt;where clauses using
+    &lt;a href=&quot;http://www.postgresql.org/docs/&quot;&gt;PostgreSQL&lt;/a&gt; and
+    &lt;a href=&quot;http://postgis.net/documentation&quot;&gt;PostGIS&lt;/a&gt; 
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;SpatiaLite&lt;/td&gt;
+  &lt;td&gt;where clauses using
+    &lt;a href=&quot;http://www.sqlite.org/lang_select.html&quot;&gt;SQLite&lt;/a&gt; and
+    &lt;a href=&quot;http://www.gaia-gis.it/gaia-sins/spatialite-sql-4.1.0.html&quot;&gt;SpatiaLite&lt;/a&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Oracle Spatial/Locator&lt;/td&gt;
+  &lt;td&gt;where clauses using
+    &lt;a href=&quot;http://docs.oracle.com/cd/B28359_01/appdev.111/b28400/sdo_index_query.htm#autoId9&quot;&gt;Oracle Spatial/Locator&lt;/a&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td colspan=2&gt;...&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1343"/>
