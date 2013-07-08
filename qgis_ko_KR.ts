@@ -64890,7 +64890,31 @@ To update the extent of a bookmark, click on it then click the &lt;label&gt;Upda
 &lt;h5&gt;Default settings&lt;/h5&gt;
 &lt;p&gt;If the attribute table of your linear layer does not contain the required fields or fields contain unexpected values, the plugin will use default values. You can set them in the default tab &lt;label&gt;Default settings&lt;/label&gt;.&lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Road graph 플러그인 설정&lt;/h3&gt;
+&lt;p&gt;Road graph는 QGIS 용 C++ 플러그인입니다. 이를 통해 두 점의 가장 빠른 길을 찾을 수 있습니다.즉, 두 개의 모든 선형 레이어에 점 플롯 도로 네트워크를 통해이 경로 사이의 최단 경로를 계산합니다. &lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;#creating&quot;&gt;플러그인 단위&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#topologyTolerance&quot;&gt;토폴로지 허용&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#layerSettings&quot;&gt;전송 레이어 설정&lt;/a&gt;&lt;br/&gt;
+&lt;/p&gt;
+&lt;a name=&quot;creating&quot;&gt;
+&lt;h4&gt;플러그인 단위&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;당신은 경로의 계산 된 거리와 시간의 단위를 조정할 수 있습니다. &lt;label&gt; 거리 단위 &lt;/label&gt;과 &lt;label&gt; 시간 단위&lt;/label&gt; 단위를 선택할 수 있습니다.&lt;/p&gt;
+&lt;a name=&quot;topologyTolerance&quot;&gt;
+&lt;h4&gt;토폴로지 허용&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;&lt;label&gt;토폴로지 허용&lt;/label&gt; - 프로젝트 단위의 거리. 두 지점의 거리가 짧은 위상 오차로 떨어지면, 그들은 정점으로 간주됩니다. 0보다 큰 위상 오차 값은 플러그인의 속도를 느리게 합니다,하지만 당신은 비 이상 데이터 소스를 사용할 수 있습니다.&lt;/p&gt;
+&lt;h5&gt;주의&lt;/h5&gt;
+&lt;p&gt;Road graph 플러그인은 두 도로가 하나의 공통 노드를 가질 경우 연결된 것으로 간주합니다. 노드는 고유하게 하나의 좌표로 식별됩니다. 그러나 디지털화 하는 과정에서 오류가 발생할 수 있습니다. 네트워크가 하나의 좌표 참조 시스템에서 다른 시스템으로 변환 할 때 오류가 가끔 발생합니다. 아마도 이 경우는 Road graph 플러그인은 도로를 끊어진 것으로 고려할 수 있습니다. 이 경우 위상 오차는 0보다 큰 값으로 설정해야합니다..&lt;/p&gt;
+&lt;a name=&quot;LayerSettings&quot;&gt;
+&lt;h4&gt;전송 레이어 설정&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;&lt;label&gt;레이어&lt;/label&gt; - 기로로의 데이터 레이어&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;필드의 방향&lt;/label&gt; - 이 필드의 값은 Road graph 플러그인이 레이어 객체를 해석하는 방법을 나타냅니다. &lt;label&gt;전진 값&lt;/label&gt; - 운동의 방향은 객체의 점의 순서를 따릅니다.&lt;label&gt;후진 값&lt;/label&gt; - 운동의 방향은 객체의 점의 역순으로 따릅니다.&lt;label&gt;양방향 값&lt;/label&gt; - 둘다 가능합니다.&lt;/p&gt;
+&lt;p&gt;속도 필드&lt;/p&gt; - 도로에서 기록된 속도를 포함하는 필드.&lt;/p&gt;
+&lt;h5&gt;기본 설정&lt;/h5&gt;
+&lt;p&gt;선형 레이어의 속성 테이블에 필요한 필드 또는 필드에 예기치 않은 값을 포함 포함되지 않은 경우, 플러그인은 기본값을 사용합니다. 당신은 기본 탭에서 설정할 수 있습니다. &lt;label&gt;기본 설정&lt;/label&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="75"/>
@@ -64926,7 +64950,24 @@ SQL Anywhere database.
 
 &lt;/ul&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;새 SQL Anywhere 연결 만들기&lt;/h3&gt;
+이 대화상자는 SQL Anywhere 데이터베이스 연결 설정을 할 수 있도록 해 줍니다.
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;label&gt;이름&lt;/label&gt; 연결설정 이름
+&lt;li&gt; &lt;label&gt;호스트&lt;/label&gt; 데이터 베이스 연결을 맺을 서버의 이름이나 IP 주소 (로컬 연결은 공란).
+&lt;li&gt; &lt;label&gt;포트&lt;/label&gt; 데이터베이스가 사용하는 IP 포트 (로컬 연결이나 기본 포트 2638을 쓸 경우 공란).
+&lt;li&gt; &lt;label&gt;서버&lt;/label&gt; 데이터베이스 서버 이름 (leave blank for default server on host).
+&lt;li&gt; &lt;label&gt;데이터베이스&lt;/label&gt; 데이터베이스 이름 (서버에 데이터베이스가 있는 경우 공란).
+&lt;li&gt; &lt;label&gt;연결 파라메타&lt;/label&gt; 추가 매개 변수는 연결 문자열 (세미콜론 으로 잘려진 목록)에 추가 할 수 있습니다. 사용할 수있는 연결 매개 변수의 목록과 설명은 SQL Anywhere 설명서를 참조하십시오.
+&lt;li&gt; &lt;label&gt;사용자 이름&lt;/label&gt; 데이터베이스 사용자 이름.
+&lt;li&gt; &lt;label&gt;비밀번호&lt;/label&gt; 데이터베이스 비밀번호.
+&lt;li&gt; &lt;label&gt;사용자 이름 저장&lt;/label&gt; 연결 구성에서 데이터베이스 사용자 이름을 저장할지 여부를 나타냅니다.
+&lt;li&gt; &lt;label&gt;비밀번호 저장&lt;/label&gt; 연결 설정에서 데이터베이스 암​​호를 저장할지 여부를 나타냅니다. &lt;em&gt;비밀번호는 &lt;strong&gt;일반 평문&lt;/string&gt;으로 시스템 구성에 저장됩니다!&lt;/em&gt;
+&lt;li&gt; &lt;label&gt;간단한 암호화&lt;/label&gt; 간단한 암호화를 이용해 DB 연결의 보안성을 높일수 있습니다.
+&lt;li&gt; &lt;label&gt;테이블 메타데이타 측정&lt;/label&gt; 레이어를 초기화 할 때, 다양한 쿼리는 데이터베이스 테이블에 저장된 지오메트리의 특성을 지오메트리데 필요합니다. 이 옵션필요합니다면 이러한 쿼리는 행보다는 전체 테이블의 표본을 검사합니다. 이런 경우 크게 레이이런 경우 속도를 높일 수 있지만, 불일치 유형을 포함하는 레이어의 잘못된 특성을 초래할 수 있습니다
+&lt;li&gt; &lt;label&gt;다른 사용자의 테이블 검색하기&lt;/label&gt; 레이어 목록은 데이터베이스에 저장된 모든 레이어에서 채워 져야함을 나타냅니다. 선택 해제 한 경우 (기본값), 연결된 사용자가 소유 한 테이블에 저장된 레이어 만이 표시됩니다. 
+&lt;/ul&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="659"/>
@@ -65122,173 +65163,159 @@ that will be automatically deleted after running.&lt;/li&gt;
 &lt;/p&gt;
 </source>
         <translation>&lt;style&gt;
-	#toolbarConsole td{
-		background: #f6f6f6;
-	}
+#toolbarConsole td{
+background: #f6f6f6;
+}
 &lt;/style&gt;
-&lt;h3&gt;QGIS용 Python 콘솔&lt;/h3&gt;
+&lt;h3&gt;QGIS용 파이썬 콘솔&lt;/h3&gt;
 &lt;a href=&quot;#console&quot;&gt;콘솔&lt;/a&gt;&lt;br&gt;
 &lt;a href=&quot;#editor&quot;&gt;편집기&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;#settings&quot;&gt;환경설정&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;a href=&quot;#settings&quot;&gt;설정&lt;/a&gt;&lt;br&gt;&lt;br&gt;
 &lt;table&gt;
-	&lt;tr&gt;
-		&lt;td&gt;
-			&lt;p align=&apos;justify&apos;&gt;
-				QGIS용 Python콘솔은 python 명령어를 실행할 수 있는 대화형쉘입니다. 
-				python 편집기를 포함하고 있으며, 이를 통해 당신의 python 스크립트를 수정및 저잘할 수 있습니다. 
-				이 두가지 툴은 PyQScintilla2 패키를 통 만들어졌습니다.&lt;br&gt;
-				The console is split in two main panes, top and bottom one 
-				resizable by using the horizontal splitter. Output area pane is a widget read-only which 
-				shows the commands output. You can drag and drop or copy and paste text into input area and 
-				execute code snippets from the output pane by selecting some text and clicking on the 
-				&lt;label&gt;Enter selected&lt;/label&gt; command from the context menu. 
-				No matter if selected text contains the interpreter prompt (&gt;&gt;&gt;, ...). Input area pane is the interactive 
-				python shell for input commands.&lt;br&gt;To access to the python file editor use the 
-				&lt;label&gt;Show editor&lt;/label&gt; button 
-				from the toolbar. The editor allows to edit and save python file and it offers basic functionality 
-				for managing your code (comment and 
-				uncomment code, check syntax, share the code via codepad.org and much more).
-			&lt;/p&gt;
-		&lt;/td&gt;
-	&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align=&apos;justify&apos;&gt;
+QGIS 파이썬 콘솔은 파이썬 명령어를 실행할 수 있는 대화형 쉘입니다.
+또한 당신이 파이썬 스크립트를 편집하고 저장할 수있는 파이썬 파일 편집기가 있습니다.
+콘솔과 편집기 모두 PyQScintilla2 패키지를 기반으로합니다. &lt;br&gt;
+콘솔은 상하로 분할되어 있고, 상하 모두 가로 나누기를 사용하여 크기 조정이 가능합니다.  출력 영역은 명령 출력을  보여주는  읽기 전용 위젯입니다
+입력 공간에서 당신은 드래그앤 드롭, 복사 및 붙여넣기 등을 실행할 수 있고, 컨텍스트 메뉴에서 &lt;label&gt;선택 입력&lt;/label&gt;에서 명령어를 선택하고 일부를 선택해서  출력 패널에서 코드 스니펫을 실행할 수 있습니다.
+선택한 텍스트가 해석 프롬프트 (&gt;&gt;&gt;, ...)를 포함하고 있어도 개의치 마십시오. 입력 영역 패널은 입력 명령어를 실행하는 대화형 파이썬 셀입니다.&lt;br&gt; 파이썬 파일 편집기를 사용하기 위해서는 &lt;label&gt;편집기 보기&lt;/label&gt; 버튼을 툴바에서 사용가능합니다.  편집기는 파이썬 파일을 수정하고 저장할 수 있으며 당신의 코드를 관리하기 위한 기본적인 파이썬 기능을 제공합니다. ( 주석처리, 비주석처리, 구문확인, codepad.org 에 코드 공유하기 이외 더 많은).
+&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/table&gt;
 &lt;a name=&quot;console&quot;&gt;
-&lt;h4&gt;Console&lt;/h4&gt;
+&lt;h4&gt;콘솔&lt;/h4&gt;
 &lt;/a&gt;
-&lt;b&gt;&lt;i&gt;Main features:&lt;/i&gt;&lt;/b&gt;
+&lt;b&gt;&lt;i&gt;주요기능:&lt;/i&gt;&lt;/b&gt;
 &lt;table&gt;
-	&lt;tr&gt;
-		&lt;td&gt;
-			&lt;ul&gt;
-			&lt;li&gt;Code completion, highlighting syntax and calltips for the following APIs:
-				&lt;ol&gt;
-				&lt;li&gt;Python&lt;/li&gt;
-				&lt;li&gt;PyQGIS&lt;/li&gt;
-				&lt;li&gt;PyQt4&lt;/li&gt;
-				&lt;li&gt;QScintilla2&lt;/li&gt;
-				&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
-				&lt;/ol&gt;
-			&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;&lt;label&gt;Ctrl+Alt+Space&lt;/label&gt; to view the auto-completion list.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;&lt;label&gt;Ctrl+Shift+Space&lt;/label&gt; to view the command history list.&lt;/li&gt;
-			&lt;br&gt;
-                        &lt;li&gt;Execute code snippets with the &lt;label&gt;Enter selected&lt;/label&gt; command from output pane.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;Open QGIS API documentation by typing &lt;label&gt;_api&lt;/label&gt;.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;Open PyQGIS Cookbook by typing &lt;label&gt;_pyqgis&lt;/label&gt;.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;Save and clear the command history accessing from context menu of input pane. 
-			The history will be saved into the file ~/.qgis2/console_history.txt&lt;/li&gt;
-			&lt;br&gt;
-			&lt;/ul&gt;
-		&lt;/td&gt;
-		&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/consoleHelp.png&quot; /&gt;&lt;/td&gt;
-	&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;코드 완성, 구문강조 및 다음 API들의 콜팁:
+&lt;ol&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;PyQGIS&lt;/li&gt;
+&lt;li&gt;PyQt4&lt;/li&gt;
+&lt;li&gt;QScintilla2&lt;/li&gt;
+&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt; 자동완성 리스트를 보려면 &lt;label&gt;Ctrl+Alt+Space&lt;/label&gt;.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt; 명령어 이력을 보려면 &lt;label&gt;Ctrl+Shift+Space&lt;/label&gt;.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;출력 패널에서 &lt;label&gt;선택입력&lt;/label&gt; 명령어를 사용해 코드 스니팻 실행.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;_api&lt;/label&gt; 입력해서 QGIS API 문서 열기.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;_pyqgis&lt;/label&gt; 입력해서 PyQGIS Cookbook 열기.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;입력 패널의 컨텍스트 메뉴에서 저장하고 명령어 이력 지우기.
+이력은 ~/.qgis2/console_history.txt 로 저장됩니다.&lt;/li&gt;
+&lt;br&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/consoleHelp.png&quot; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/table&gt;
-&lt;b&gt;&lt;i&gt;Toolbar:&lt;/i&gt;&lt;/b&gt;
-	&lt;table width=&quot;100%&quot; id=&apos;toolbarConsole&apos;&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClearConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td colspan=&quot;2&quot;&gt;Clear python console&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClassConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSextanteConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td&gt;Import Sextante class&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;/td&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtCoreConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td&gt;Import PyQt4.QtCore class&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;/td&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtGuiConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td&gt;Tool to import PyQt4.QtGui class&lt;/td&gt;
-		&lt;/tr&gt;
-                &lt;tr&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconRunConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td colspan=&quot;2&quot;&gt;Run command (like Enter key pressed)&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSettingsConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td colspan=&quot;2&quot;&gt;Settings&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconHelpConsole.png&quot; /&gt;&lt;/td&gt;
-			&lt;td colspan=&quot;2&quot;&gt;Help&lt;/td&gt;
-		&lt;/tr&gt;
+&lt;b&gt;&lt;i&gt;툴바:&lt;/i&gt;&lt;/b&gt;
+&lt;table width=&quot;100%&quot; id=&apos;toolbarConsole&apos;&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClearConsole.png&quot; /&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;파이썬 콘솔 지우기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconClassConsole.png&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSextanteConsole.png&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;Sextante class 가져오기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtCoreConsole.png&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;PyQt4.QtCore class 가져오기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconQtGuiConsole.png&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;PyQt4.QtGui class 가져오기 툴&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconRunConsole.png&quot; /&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;명령어 실행 (엔터키 치듯이)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconSettingsConsole.png&quot; /&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;설정&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;qrc:/images/themes/default/console/iconHelpConsole.png&quot; /&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;도움말&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/table&gt;
 &lt;a name=&quot;editor&quot;&gt;
-&lt;h4&gt;Editor&lt;/h4&gt;
+&lt;h4&gt;편집기&lt;/h4&gt;
 &lt;/a&gt;
-&lt;b&gt;&lt;i&gt;Main features:&lt;/i&gt;&lt;/b&gt;
+&lt;b&gt;&lt;i&gt;주요 기능들:&lt;/i&gt;&lt;/b&gt;
 &lt;table&gt;
-	&lt;tr&gt;
-		&lt;td&gt;
-			&lt;img src=&quot;qrc:/images/themes/default/console/editorHelp.png&quot; /&gt;
-			&lt;img src=&quot;qrc:/images/themes/default/console/classBrowserHelp.png&quot; /&gt;
-		&lt;/td&gt;
-		&lt;td&gt;
-			&lt;ul&gt;
-			&lt;li&gt;Code completion, highlighting syntax and calltips for the following APIs:
-				&lt;ol&gt;
-				&lt;li&gt;Python&lt;/li&gt;
-				&lt;li&gt;PyQGIS&lt;/li&gt;
-				&lt;li&gt;PyQt4&lt;/li&gt;
-				&lt;li&gt;QScintilla2&lt;/li&gt;
-				&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
-				&lt;/ol&gt;
-			&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;&lt;label&gt;Ctrl+Space&lt;/label&gt; to view the auto-completion list.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;Sharing code snippets via codepad.org.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;&lt;label&gt;Ctrl+4&lt;/label&gt; Syntax check.&lt;/li&gt; 
-			&lt;br&gt;
-			&lt;li&gt;Object inspector: a class and function browser.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;Go to an object definition with a mouse click. (from Object inspector)&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;Execute code snippets with the &lt;label&gt;Enter selected&lt;/label&gt; command.&lt;/li&gt;
-			&lt;br&gt;
-			&lt;li&gt;Execute the whole script with the &lt;label&gt;Run script&lt;/label&gt; command 
-			(this creates a byte-compiled file with the extension .pyc)&lt;/li&gt;
-			&lt;br&gt;
-			&lt;/ul&gt;
-		&lt;/td&gt;
-	&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src=&quot;qrc:/images/themes/default/console/editorHelp.png&quot; /&gt;
+&lt;img src=&quot;qrc:/images/themes/default/console/classBrowserHelp.png&quot; /&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;코드 완성, 구문강조 및 다음 API들 콜팁:
+&lt;ol&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;PyQGIS&lt;/li&gt;
+&lt;li&gt;PyQt4&lt;/li&gt;
+&lt;li&gt;QScintilla2&lt;/li&gt;
+&lt;li&gt;osgeo-gdal-ogr&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;자동완성기능은 &lt;label&gt;Ctrl+Space&lt;/label&gt;.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;codepad.org에 코드 스니펫 공유하기.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;구문 점검은 &lt;label&gt;Ctrl+4&lt;/label&gt;.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;객체 검사기: 클래스와 함수 탐색기.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;마우스 클릭해서 객체 정의하기. (객체 검사기 기능)&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;선택 입력&lt;/label&gt; 명령어로 코드 스니펫 실행하기.&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;label&gt;Run script&lt;/label&gt; 명령어로 전체 스크립트 실행하기
+(이경우 .pyc 확장자의 바이트 컴파일 된 파일이 만들어집니다.)&lt;/li&gt;
+&lt;br&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/table&gt;
 &lt;a name=&quot;settings&quot;&gt;
-&lt;h4&gt;Settings&lt;/h4&gt;
+&lt;h4&gt;설정&lt;/h4&gt;
 &lt;/a&gt;
-&lt;b&gt;&lt;i&gt;Further settings for python console:&lt;/i&gt;&lt;/b&gt;
+&lt;b&gt;&lt;i&gt;파이선 콘솔 설정을 위한 한단계 더:&lt;/i&gt;&lt;/b&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;label&gt;Autocompletion:&lt;/label&gt; If checked the code completion is enabled. You can get autocompletion
-from current document, from installed APIs and both from APIs and current document&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;자동완성기능:&lt;/label&gt; 자동완성 기능이 체크되어 있으면 현재 작업문서, 설치된 API, 등에서 자동 완성 기능이 제공됩니다.&lt;/li&gt;
 &lt;br&gt;
-&lt;li&gt;&lt;label&gt;Autocompletion threshold:&lt;/label&gt; Sets the threshold to display the autocompletion list (in chars typed)&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;자동완성 임계값:&lt;/label&gt; 자동완성 리스트에 보여질 자동완성 임계치를 설정합니다.(캐릭터 타입)&lt;/li&gt;
 &lt;br&gt;
-&lt;li&gt;&lt;label&gt;Automatic parentheses insertion:&lt;/label&gt; If checked enables the autoclosing for bracket&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;자동 괄호 삽입:&lt;/label&gt; 체크되어 있으면 자동으로 괄호를 닫습니다.&lt;/li&gt;
 &lt;br&gt;
-&lt;li&gt;&lt;label&gt;Auto-save script before running:&lt;/label&gt; Allows you to save automatically the
-script to be executed in order to avoid to save it after any modification.
-This action will store a temporary file into the temporary system directory 
-that will be automatically deleted after running.&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;실행전 자동 저장:&lt;/label&gt;저장한 뒤에 어떤 수정이 있을 때를 대비해서 실행될 스크립트를 자동으로 저장합니다. 이 액션은 임시 파일을 임시 디렉토리에 만든뒤에 실행후 삭제 합니다.&lt;/li&gt;
 &lt;br&gt;
-&lt;li&gt;&lt;label&gt;Using preloaded APIs file:&lt;/label&gt; You can choose whether use the preload APIs file or load some APIs files saved on your system.&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;미리 로딩된 API들의 파일을 사용하기:&lt;/label&gt;미리 로딩된 API들의 파일을 사용할 지 시스템에 저장된 몇몇 API들의 파일들을 사용할지 선택할 수 있습니다.&lt;/li&gt;
 &lt;br&gt;
-&lt;li&gt;&lt;label&gt;Using prepared APIs file:&lt;/label&gt; If checked the *.pap file will be used for code completion. To generate a prepared APIs file you have to load least an *.api file and then compile it by clicking on &lt;label&gt;Compile Apis...&lt;/label&gt; button.&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;준비된 API들 파일 사용하기:&lt;/label&gt; 코드완성을 위해서는 *.pap 파일이 선택되어 있어야 합니다. 준비된 API들 파일을 만들기 위해서는 적어도 한 개의 *.api 파일이 있어야 하며 &lt;label&gt;Api들 컴파일하기...&lt;/label&gt; 버튼을 눌러 컴파일 합니다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p style=&apos;border: 1px solid; background:#f6f6f6;&apos; align=&apos;justify&apos;&gt;
-	&lt;b&gt;Note:&lt;/b&gt; To save the state of console&apos;s widgets you have to close the Python Console 
-	from the close button. This allows you to save the geometry to be restored to the next start.
-&lt;/p&gt;
-</translation>
+&lt;b&gt;주의:&lt;/b&gt; 콘솔의 상태를 저장하기 위해서는 닫기 버튼을 눌러 파이썬 콘솔을 닫아야 합니다. 그러면 지오메트리를 저장해 다음 시작때  사용할 수 있도록 해 줍니다.
+&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1520"/>
@@ -65366,7 +65393,79 @@ Informs you about active system locale. To change it tick &lt;label&gt;Override 
 &lt;/a&gt;
 Tick &lt;label&gt;Use proxy for web access&lt;/label&gt; to define host, port, user, and password.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;옵션&lt;/h3&gt;
+이 대화상자에서 8가지 QGIS 기본 옵션을 선택할 수 있습니다. 탭은 8가지 입니다 :
+&lt;p&gt;
+&lt;a href=&quot;#general&quot;&gt;일반&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#ren&quot;&gt;렌더링 및 SVG&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#map&quot;&gt;지도 도구&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#over&quot;&gt;배치&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#digit&quot;&gt;디지탈화&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#crs&quot;&gt;CRS&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#loc&quot;&gt;로케일&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#net&quot;&gt;네트워크 및 프록시&lt;/a&gt;&lt;br/&gt;
+&lt;a name=&quot;general&quot;&gt;
+&lt;h4&gt;일반&lt;/h4&gt;
+&lt;/a&gt;
+이 탭에서 열기, 저장 기본 지도 형태, 당신의 선호 아이콘과 테마 및 많은 다른 것들등의 프로젝트의 일반설정을 할 수 있습니다
+&lt;a name=&quot;ren&quot;&gt;
+&lt;h4&gt;렌더링 및  SVG&lt;/h4&gt;
+&lt;/a&gt;
+이 탭에서 지도레이어의 일반적인 렌더링 옵션을 설정할 수 있습니다.
+기본적으로 QGIS는 지도 캔버스를 새로 고쳐야 할 때마다, 모든 보이는 레이어를 렌더링 합니다. 지도캔버스가 새로고침할때마다 발생하는 이벤트는 다음과 같습니다 :
+&lt;ul&gt;
+&lt;li&gt;레이어를 추가할 떄
+&lt;li&gt;이동 하고 확대할 때
+&lt;li&gt;QGIS 창 크기가 바뀔때
+&lt;li&gt;레이어들 중 한 레이어의 외양이 바뀔 때
+&lt;/ul&gt;
+QGIS의 렌더링 순서를 바꾸는 방법은 여러가지가 있습니다:
+&lt;p&gt;
+항상 새로운 레이어를 그리지 않고 로딩하기 옵션을 사용할 수 있습니다.
+&lt;br&gt;
+이렇게 하면 지도위에 레이어는 올려지지만, 기본적으로 범례의 보이기 옵션은 꺼진 상태로 체크되어 있게 됩니다. 이렇게 설정하기 위해서는  &lt;label&gt;기본적으로 새로운 레이어를 지도상에 보여주기&lt;/label&gt; 체크박스의 체크를 꺼두면 됩니다.&lt;p&gt;
+객체가 지도위에 그려진 상태로 지도를 보여주도록 갱신하는 옵션을 설정할 수 있습니다.
+&lt;br&gt;
+기본적으로 QGIS는 모든 레이어 객체가 다 렌더링되기 전까지는 어떤 어떤 객체도 보여주지 않습니다. 데이터 스토어에서 객체를 읽을 때 마다 화면을 업데이트 하기 위해서는 &lt;label&gt;화면을 업데이트 하기전에 그릴 객체 개수&lt;/label&gt;를 적절한 값으로 결정해 주십시오. 값을 0으로 하시면 화면을 갱신하는 동안 아무 객체도 보여지지 않습니다(기본입니다). 값을 너무 낮게 잡으면 지도 캔버스가 지속적으로 객체를 읽으면서 갱신되므로 성능에 나쁜 영향을 미칩니다. 적정한 값은 500으로 시작하는 것이 좋습니다.
+&lt;a name=&quot;map&quot;&gt;
+&lt;h4&gt;지도 도구&lt;/h4&gt;
+&lt;/a&gt;
+&lt;h5&gt;객체 확인&lt;/h5&gt;
+&lt;label&gt;모드&lt;/label&gt; 설정은 어떤 레이어가 &lt;label&gt;객체확인&lt;/label&gt; 도구 에서 보여질지를 결정합니다. &lt;label&gt;현재 레이어&lt;/label&gt; 옵션을 &lt;label&gt;위에서 아래까지 모두&lt;/label&gt;로 모드를 바꿔 &lt;label&gt;객체확인&lt;/label&gt; 도구를 사용하면, 측정 가능한 모든 레이어의 속성값을 확인할 수 있습니다.
+&lt;h5&gt;측정 도구&lt;/h5&gt;
+여기서 타원체의 거리계산, 단위측정, 고무밴드의 선호색상등을 설정할 수 있습니다.
+&lt;h5&gt;이동 및 확대&lt;/h5&gt;
+마우스휠과 줌 정도를 설정할 수 있습니다
+&lt;a name=&quot;over&quot;&gt;
+&lt;h4&gt;배치&lt;/h4&gt;
+&lt;/a&gt;
+레이블 배치 알고리즘을 정의합니다. 다음에서 고를 수 있습니다.&lt;label&gt;중점 (가장빠름)&lt;/label&gt;, &lt;label&gt;체인 (빠름)&lt;/label&gt;, &lt;label&gt;팝뮤직 금지 체인 (느림)&lt;/label&gt;, &lt;label&gt;팝뮤직 금지 (느림)&lt;/label&gt; 그리고 &lt;label&gt;팝뮤직 체인 (매우 느림)&lt;/label&gt;. 
+&lt;a name=&quot;digit&quot;&gt;
+&lt;h4&gt;디지탈화&lt;/h4&gt;
+&lt;/a&gt;
+&lt;h5&gt;고무밴드&lt;/h5&gt;
+&lt;label&gt;디지탈화&lt;/label&gt; 탭에서 선 넓이와 색을 디지타이징하는 설정을 할 수 있습니다.
+&lt;h5&gt;자석기능&lt;/h5&gt;
+여기서 일반적인, 프로젝트 자석기능의 픽셀 범위를 설정할 수 있습니다.&lt;p&gt;
+&lt;label&gt;꼭지점까지&lt;/label&gt;, &lt;label&gt;선분까지&lt;/label&gt; 또는 &lt;label&gt;꼭지점과 선분까지&lt;/label&gt;(기본값) 등의 옵션을  선택할 수 있습니다. 또, 기본 자석기능의 범위를 정의할 수 있고 꼭지점 편집을 위한 반경검색을 정의할 수 있습니다. 자석기능의 범위는 지도의 단위 및 픽셀로 설정가능합니다. 픽셀을 선택하는 게 더 용이한데, 확대 축소 이후에도 자석기능의 범위가 변하지 않기 때문입니다.&lt;p&gt;
+&lt;label&gt;설정&lt;/label&gt; (혹은 &lt;label&gt;파일&lt;/label&gt;) &gt; &lt;label&gt;프로젝트 속성...&lt;/label&gt; 메뉴에서 레이어 기반의 자석기능 범위를 정의할 수 있습니다. In the &lt;label&gt;일반&lt;/label&gt;탭,  &lt;label&gt;디지탈화&lt;/label&gt; 섹션에서 &lt;label&gt;자석기능 옵션...&lt;/label&gt;을 클릭해서 활성화 시키고 자석모드를 조정하고 레이어 기반의 자석범위를 조정합니다.
+&lt;h5&gt;꼭지점 마커&lt;/h5&gt;
+마커의 스타일을  &lt;label&gt;반투명원&lt;/label&gt;, &lt;label&gt;십자표&lt;/label&gt; or &lt;label&gt;없음&lt;/label&gt; 등으로 설정할 수 있으며 크기또한 설정가능합니다;선택된 객체만 보이도록 설정하는 것도 가능합니다.
+&lt;h5&gt;속성값 입력&lt;/h5&gt;
+기본적으로, 새 객체를 디지탈화 한 후에, QGIS는 객체에 대해 속성값을 입력할지 물어봅니다. &lt;label&gt;객체 생성후 속성값 입력하지 않기&lt;/label&gt; 기능을 통해 나중에 입력할 수 있습니다.
+&lt;a name=&quot;crs&quot;&gt;
+&lt;h4&gt;CRS&lt;/h4&gt;
+&lt;/a&gt;
+QGIS는 더 이상 지도의 첫번째 레이어의 좌표계 시스템을 따라 CRS 값을 결정하지 않습니다. QGIS 세션을 CRS가 없는 레이어들과 시작할때 CRS값을 확인하고 정의할 필요가 있습니다. 이것은 이 탭에서 세계 전체적으로 그러할 것입니다.&lt;p&gt;
+기본 글로발 CRS는 &lt;i&gt;proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs&lt;/i&gt;로써 QGIS에 미리 정의되어 있지만 물론 변경될 수 있습니다, 그리고 새롭게 정의된 값은 뒤따르는 QGIS 세션을 위해 저장됩니다. 
+&lt;a name=&quot;lov&quot;&gt;
+&lt;h4&gt;로케일&lt;/h4&gt;
+&lt;/a&gt;
+시스템 로케일에 대해 알려줍니다. 바꾸려면 &lt;label&gt;시스템 로케일 덮어쓰기&lt;/label&gt;를 이용해 값을 바꾸고 QGIS를 껐다 켭니다.
+&lt;a name=&quot;net&quot;&gt;
+&lt;h4&gt;네트워크 및 프록시&lt;/h4&gt;
+&lt;/a&gt;
+&lt;label&gt;웹접근을 위한 프록시 사용&lt;/label&gt;기능을 통해 호스트, 포트, 사용자, 및 비밀번호를 설정합니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1211"/>
