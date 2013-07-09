@@ -425,7 +425,7 @@ This is probably a result of incorrect PostGIS upgrade.</source>
         <source>&lt;warning&gt; This user doesn&apos;t have privileges to read contents of geometry_columns table!
 This table is essential for many GIS applications for enumeration of tables.</source>
         <translation>&lt;경고&gt; 사용자가 geometry_columns 테이블 읽기 권한 없음!
-이 테이블은 여러 GIS 프로그램에서 테이블 열거를 위해 필수적임.</translation>
+이 테이블은 여러 GIS 프로그램에서 테이블 구분을 위해 필수적임.</translation>
     </message>
     <message>
         <source>Length</source>
@@ -1156,7 +1156,7 @@ columns</source>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="80"/>
         <source>Delete column</source>
-        <translation>커럼 삭제</translation>
+        <translation>컬럼 삭제</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgTableProperties.ui" line="90"/>
@@ -2025,7 +2025,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmVisual.ui" line="17"/>
         <source>List Unique Values</source>
-        <translation>고유값 목록</translation>
+        <translation>고유값 목록 보기</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmVisual.ui" line="42"/>
@@ -2752,7 +2752,7 @@ Alexander Bruy
 ** 만약 당신이 fTools 코드에 기여하셨는데 당신의 이름을 여기에 없다면 연락을 해주십시오. 당신의 이름을 추가해 드리겠습니다.
 
 감사의 말:
-다음 사람들은 (그들이 알고 있자가 않든) 아이디어, 도움말, 테스트, 코드와 방향제시로 프로젝트에 기여해 주었습니다. 감사합니다.
+다음 사람들은 (그들은 모를수도 있지만) 아이디어, 도움말, 테스트, 코드와 방향제시로 프로젝트에 기여해 주었습니다. 감사합니다.
 Hawthorn Beyer
 Borys Jurgiel
 Tim Sutton
@@ -3524,7 +3524,7 @@ geometry column - column with unique integer values</source>
     </message>
     <message>
         <source>Delete column</source>
-        <translation type="obsolete">컬럼 제거</translation>
+        <translation type="obsolete">컬럼 삭제</translation>
     </message>
     <message>
         <source>Constraints</source>
@@ -6754,7 +6754,7 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/qgisapp.ui" line="63"/>
         <source>Print Composers</source>
-        <translation>프린트 구성</translation>
+        <translation>인쇄 구성</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="68"/>
@@ -6940,7 +6940,7 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/qgisapp.ui" line="539"/>
         <source>&amp;New Print Composer</source>
-        <translation>새 프린트 구성기(&amp;N)</translation>
+        <translation>새 인쇄 구성(&amp;N)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="542"/>
@@ -7251,7 +7251,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2072"/>
         <source>Select features using an expression</source>
-        <translation>식을 이용하여 객체 선택하기</translation>
+        <translation>표현식을 이용하여 객체 선택하기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2077"/>
@@ -7486,7 +7486,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="916"/>
         <source>Identify Features</source>
-        <translation>객체 정보표시</translation>
+        <translation>객체 확인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="919"/>
@@ -8635,7 +8635,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Identify feature</source>
-        <translation type="obsolete">객체 정보표시</translation>
+        <translation type="obsolete">객체 확인</translation>
     </message>
     <message>
         <source>Move feature</source>
@@ -9707,7 +9707,7 @@ qgis.utils.iface 객체(QgisInterface 클래스의 인스턴스)를 이용하십
     </message>
     <message>
         <source>Expression error: %1</source>
-        <translation type="obsolete">계산 오류: %1</translation>
+        <translation type="obsolete">표현식 오류: %1</translation>
     </message>
     <message>
         <source>Geometry is 0</source>
@@ -10842,17 +10842,17 @@ Error(%2): %3</source>
     </message>
     <message>
         <source>Diagram Overlay</source>
-        <translation type="obsolete">다이어그램 오버레이</translation>
+        <translation type="obsolete">도표 중첩</translation>
     </message>
     <message>
         <location filename="../src/plugins/diagram_overlay/qgsdiagramoverlayplugin.cpp" line="29"/>
         <source>Diagram Overlay (Legacy)</source>
-        <translation>다이어그램 오버레이(레거시)</translation>
+        <translation>도표 중첩 (레거시)</translation>
     </message>
     <message>
         <location filename="../src/plugins/diagram_overlay/qgsdiagramoverlayplugin.cpp" line="30"/>
         <source>A plugin for placing diagrams on vector layers</source>
-        <translation>벡터 레이어에 다이어그램을 표시하는 플러그인</translation>
+        <translation>벡터 레이어에 도표를 표시하는 플러그인</translation>
     </message>
     <message>
         <location filename="../src/plugins/diagram_overlay/qgsdiagramoverlayplugin.cpp" line="32"/>
@@ -11939,7 +11939,7 @@ You are seeing this message most likely because you have no DISPLAY environment 
         <location filename="../src/core/qgsexpression.cpp" line="668"/>
         <location filename="../src/core/qgsexpression.cpp" line="682"/>
         <source>Invalid regular expression &apos;%1&apos;: %2</source>
-        <translation>잘못된 정규 표현식 &apos;%1&apos; %2</translation>
+        <translation>잘못된 정규식 &apos;%1&apos; %2</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression.cpp" line="949"/>
@@ -13556,7 +13556,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Identify Features</source>
-        <translation type="obsolete">객체 정보 표시</translation>
+        <translation type="obsolete">객체 확인</translation>
     </message>
     <message>
         <source>Click on features to identify them</source>
@@ -13956,7 +13956,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Choice between mm and map units for new symbology. Scaling to use new symbology in print composer as well</source>
-        <translation type="obsolete">새로운 심볼로지에서는 단위를 mm 혹은 지도 단위 중에서 선택 가능합니다. 또한 프린트 구성도 새로운 심볼로지의 배율을 사용할 수 있습니다.</translation>
+        <translation type="obsolete">새로운 심볼로지에서는 단위를 mm 혹은 지도 단위 중에서 선택 가능합니다. 또한 인쇄 구성도 새로운 심볼로지의 배율을 사용할 수 있습니다.</translation>
     </message>
     <message>
         <source>SVG fill symbol layer for polygon textures</source>
@@ -13996,7 +13996,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Added possibility to place a set of default composer templates in pkgDataPath/composer_templates</source>
-        <translation type="obsolete">pkgDataPath/composer_templates에 기본 작성기 템플릿 세트를 저장하는 기능을 추가</translation>
+        <translation type="obsolete">pkgDataPath/composer_templates에 기본 구성 템플릿 셋을 저장하는 기능을 추가</translation>
     </message>
     <message>
         <source>Gradient color ramps now support multiple stops - for adding intermediate colors</source>
@@ -14020,7 +14020,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Export legend groups and layers with legendinterface and use this information to display groups in the composer legend.</source>
-        <translation type="obsolete">범례 그룹과 레이어 범례 인터페이스 내보낼 수 있습니다. 이 정보를 작성기 범례로 표시 사용할 수 있습니다.</translation>
+        <translation type="obsolete">범례 그룹과 레이어 범례 인터페이스 내보낼 수 있습니다. 이 정보를 구성 범례로 표시 사용할 수 있습니다.</translation>
     </message>
     <message>
         <source>Show selected feature count in status bar </source>
@@ -14028,7 +14028,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Query option added to layer menu to subset vector layers</source>
-        <translation type="obsolete">레이어 메뉴에 하위 벡터 레이어에 대한 검색 옵션을 추가했습니다.</translation>
+        <translation type="obsolete">레이어 메뉴에 서브셋 벡터 레이어에 대한 검색 옵션을 추가했습니다.</translation>
     </message>
     <message>
         <source>Option to label only selected features (on the &apos;old&apos; labelling tool)</source>
@@ -14036,7 +14036,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Load/save queries created in the query builder.</source>
-        <translation type="obsolete">질의 빌더에서 만든 질의를 로드/저장하는 기능을 추가했습니다.</translation>
+        <translation type="obsolete">질의 생성기에서 만든 질의를 읽기/저장하는 기능을 추가했습니다.</translation>
     </message>
     <message>
         <source>Manual adding of categories in symbology-ng.</source>
@@ -14084,11 +14084,11 @@ Please contact the developers.
     </message>
     <message>
         <source>Map composer can add attribute tables in layouts. It is possibile to show only visible features in composer table or all features</source>
-        <translation type="obsolete">지도 구성에서 속성 테이블을 레이아웃에 추가할 수 있습니다. 이 기능으로 구성 테이블에 표시된 객체만 표시하거나, 또는 모든 모든 리처를 표시할 수 있습니다.</translation>
+        <translation type="obsolete">지도 구성에서 속성 테이블을 레이아웃에 추가할 수 있습니다. 이 기능으로 구성 테이블에 표시된 객체만 표시하거나, 모든 객체를 표시할 수 있습니다.</translation>
     </message>
     <message>
         <source>Identify tool attribute form now non-modal in view mode (since r12796)</source>
-        <translation type="obsolete">객체 정보 표시 도구 표시가 비 모달 모드로 바뀌었습니다. (r12796 이상)</translation>
+        <translation type="obsolete">객체 확인 도구 표시가 비 모달 모드로 바뀌었습니다. (r12796 이상)</translation>
     </message>
     <message>
         <source>Identified features&apos; highlight disappear when window is deactivate or closed and reappears when reactivated.</source>
@@ -14691,7 +14691,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Print Composers</source>
-        <translation type="obsolete">프린트 콤포저</translation>
+        <translation type="obsolete">인쇄 구성</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -15075,7 +15075,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Symbology labels and diagrams</source>
-        <translation type="obsolete">심볼 로지 라벨과 다이어그램</translation>
+        <translation type="obsolete">심볼로지 라벨과 도표</translation>
     </message>
     <message>
         <source>New symbology now used by default!</source>
@@ -15083,7 +15083,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Diagram system that uses the same smart placement system as labeling-ng</source>
-        <translation type="obsolete">다이어그램 시스템에 차세대 라벨링과 같은 스마트 배치 시스템을 사용하고 있습니다.</translation>
+        <translation type="obsolete">도표 시스템에 차세대 라벨링과 같은 스마트 배치 시스템을 사용하고 있습니다.</translation>
     </message>
     <message>
         <source>Export and import of styles (symbology-ng).</source>
@@ -15247,15 +15247,15 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Add support for NULL values in value maps (comboboxes).</source>
-        <translation type="obsolete">밸류 맵에서 널 값을 위한 지원이 추가되었습니다(콤보 상자 등).</translation>
+        <translation type="obsolete">값 맵에서 널 값을 위한 지원이 추가되었습니다(콤보 상자 등).</translation>
     </message>
     <message>
         <source>Use layer names instead of ids in drop down list when loading value maps from layers.</source>
-        <translation type="obsolete">레이어에서 밸류 맵 로딩시 드롭 다운 목록에서 id 대신 레이어 이름이 사용됩니다.</translation>
+        <translation type="obsolete">레이어에서 값 맵 로딩시 드롭 다운 목록에서 id 대신 레이어 이름이 사용됩니다.</translation>
     </message>
     <message>
         <source>Support feature form expression fields: line edits on the form which name prefix &quot;expr_&quot; are evaluated. Their value is interpreted as field calculator string and replaced with the calculated value.</source>
-        <translation type="obsolete">객체 폼 계산 지원: 객체 양식 필드의 행 편집에서 &quot;expr_&quot;로 시작하는 이름은 식으로 계산됩니다. 값은 필드 계산자로 해석되어 계산된 값으로 대체됩니다.</translation>
+        <translation type="obsolete">객체 폼 계산 지원: 객체 양식 필드의 행 편집에서 &quot;expr_&quot;로 시작하는 이름은 표현식으로 계산됩니다. 값은 필드 계산자로 해석되어 계산된 값으로 대체됩니다.</translation>
     </message>
     <message>
         <source>Support searching for NULL in attribute table.</source>
@@ -15347,7 +15347,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Undo/Redo support for the print composer</source>
-        <translation type="obsolete">프린트 콤포저에서 실행취소/재실행이 지원됩니다.</translation>
+        <translation type="obsolete">인쇄 구성에서 실행취소/재실행이 지원됩니다.</translation>
     </message>
     <message>
         <source>Select vector layers to add...</source>
@@ -15603,7 +15603,7 @@ Error: %1</source>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4805"/>
         <source>Create unique print composer title</source>
-        <translation>유일한 출력 구성 제목 생성</translation>
+        <translation>유일한 인쇄 구성 제목 생성</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4808"/>
@@ -15897,7 +15897,7 @@ Ignore errors?</source>
     </message>
     <message>
         <source>&amp;New Print Composer</source>
-        <translation type="obsolete">새 프린트 구성(&amp;N)</translation>
+        <translation type="obsolete">새 인쇄 구성(&amp;N)</translation>
     </message>
     <message>
         <source>Ctrl+P</source>
@@ -15906,7 +15906,7 @@ Ignore errors?</source>
     </message>
     <message>
         <source>New Print Composer</source>
-        <translation type="obsolete">새 프린트 구성</translation>
+        <translation type="obsolete">새 인쇄 구성</translation>
     </message>
     <message>
         <source>Composer manager...</source>
@@ -16204,7 +16204,7 @@ This copy of QGIS has been built without SpatiaLite support.</source>
     </message>
     <message>
         <source>Run actions</source>
-        <translation type="obsolete">작업 수행</translation>
+        <translation type="obsolete">액션 수행</translation>
     </message>
     <message>
         <location filename="../src/app/qgisappinterface.cpp" line="570"/>
@@ -16674,12 +16674,12 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/app/composer/qgsatlascompositionwidget.cpp" line="259"/>
         <source>Expression based filename</source>
-        <translation>식 기반 파일 이름</translation>
+        <translation>표현식 기반 파일 이름</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgsatlascompositionwidget.cpp" line="393"/>
         <source>Expression based filter</source>
-        <translation>식 기반 필터</translation>
+        <translation>표현식 기반 필터</translation>
     </message>
 </context>
 <context>
@@ -16784,7 +16784,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/ui/qgsatlascompositionwidgetbase.ui" line="365"/>
         <source>Output filename expression</source>
-        <translation>출력 파일이름 공식</translation>
+        <translation>출력 파일이름 표현식</translation>
     </message>
 </context>
 <context>
@@ -16798,7 +16798,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/app/qgsattributeactiondialog.cpp" line="178"/>
         <source>Insert expression</source>
-        <translation>식 삽입</translation>
+        <translation>표현식 삽입</translation>
     </message>
     <message>
         <location filename="../src/app/qgsattributeactiondialog.cpp" line="229"/>
@@ -16828,7 +16828,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/app/qgsattributeactiondialog.cpp" line="340"/>
         <source>Selected field&apos;s value (Identify features tool)</source>
-        <translation>선택된 필드 값 (객체 속성보기 툴)</translation>
+        <translation>선택된 필드 값 (객체 확인 툴)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsattributeactiondialog.cpp" line="341"/>
@@ -16937,7 +16937,7 @@ SVG 검색 경로:	%7
     </message>
     <message>
         <source>This list contains all actions that have been defined for the current layer. Add actions by entering the details in the controls below and then pressing the Insert action button. Actions can be edited here by double clicking on the item.</source>
-        <translation type="obsolete">현재 레이어에 정의된 작업 목록입니다. 액션을 추가하려면 아래의 컨트롤에서 세부 사항을 결정하고 삽입 버튼을 누릅니다. 작업을 더블 클릭하여 편집할 수 있습니다.</translation>
+        <translation type="obsolete">현재 레이어에 정의된 액션 목록입니다. 액션을 추가하려면 아래의 컨트롤에서 세부 사항을 결정하고 삽입 버튼을 누릅니다. 액션을 더블 클릭하여 편집할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributeactiondialogbase.ui" line="95"/>
@@ -17007,7 +17007,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/ui/qgsattributeactiondialogbase.ui" line="353"/>
         <source>Enter the action here. This can be any program, script or command that is available on your system. When the action is invoked any set of characters within [% and %] will be evaluated as expression and replaced by its result. Double quote marks group text into single arguments to the program, script or command. Double quotes will be ignored if prefixed with a backslash</source>
-        <translation>여기에 액션을 입력하십시오. 이것은 모든 프로그램, 스크립트 또는 사용자의 시스템에서 사용할 수있는 명령이 될 수 있습니다. [%와 %] 사이의 문자의 집합을 호출하면 식으로 취급하고 그 결과로 대체됩니다. 쌍따옴표로 묶인 텍스트는 프로그램이나 스크립트, 명령 등에 하나의 인자로 전달됩니다. 역슬래시가 앞에 있는 쌍따옴표는 무시됨</translation>
+        <translation>여기에 액션을 입력하십시오. 이것은 모든 프로그램, 스크립트 또는 사용자의 시스템에서 사용할 수있는 명령이 될 수 있습니다. [%와 %] 사이의 문자의 집합을 호출하면 표현식으로 취급하고 그 결과로 대체됩니다. 쌍따옴표로 묶인 텍스트는 프로그램이나 스크립트, 명령 등에 하나의 인자로 전달됩니다. 역슬래시가 앞에 있는 쌍따옴표는 무시됨</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributeactiondialogbase.ui" line="311"/>
@@ -17027,12 +17027,12 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/ui/qgsattributeactiondialogbase.ui" line="370"/>
         <source>Inserts an expression into the action</source>
-        <translation>액션에 식 추가</translation>
+        <translation>액션에 표현식 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributeactiondialogbase.ui" line="373"/>
         <source>Insert expression...</source>
-        <translation>식 삽입...</translation>
+        <translation>표현식 삽입...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributeactiondialogbase.ui" line="409"/>
@@ -17362,7 +17362,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/app/qgsattributetabledialog.cpp" line="274"/>
         <source>Expression based filter</source>
-        <translation>식 기반 필터</translation>
+        <translation>표현식 기반 필터</translation>
     </message>
     <message>
         <location filename="../src/app/qgsattributetabledialog.cpp" line="476"/>
@@ -17523,7 +17523,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="145"/>
         <source>Select features using an expression</source>
-        <translation>식을 이용해 객체 선택</translation>
+        <translation>표현식을 이용해 객체 선택</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="345"/>
@@ -17574,7 +17574,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="548"/>
         <source>Use the Expression Builder to define the filter</source>
-        <translation>필터 정의를 위해 식 생성기 이용</translation>
+        <translation>필터 정의를 위해 표현식 생성기 이용</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="551"/>
@@ -17692,7 +17692,7 @@ SVG 검색 경로:	%7
     </message>
     <message>
         <source>Delete column</source>
-        <translation type="obsolete">열 제거</translation>
+        <translation type="obsolete">컬럼 삭제</translation>
     </message>
     <message>
         <source>Open field calculator</source>
@@ -17720,7 +17720,7 @@ SVG 검색 경로:	%7
     </message>
     <message>
         <source>Opens the search query builder</source>
-        <translation type="obsolete">검색 질의 빌더 열기</translation>
+        <translation type="obsolete">검색 질의 생성기 열기</translation>
     </message>
     <message>
         <source>Advanced search</source>
@@ -17782,7 +17782,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/app/qgsattributetypedialog.cpp" line="170"/>
         <source>Edit filter expression</source>
-        <translation>필터 식 편집</translation>
+        <translation>필터 표현식 편집</translation>
     </message>
     <message>
         <location filename="../src/app/qgsattributetypedialog.cpp" line="195"/>
@@ -17820,7 +17820,7 @@ Error was:%2</source>
     <message>
         <location filename="../src/app/qgsattributetypedialog.cpp" line="589"/>
         <source>Enumeration is not available for this attribute</source>
-        <translation>이 속성은 열거형을 사용할 수 없음</translation>
+        <translation>이 속성은 열거값을 사용할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/app/qgsattributetypedialog.cpp" line="603"/>
@@ -17851,7 +17851,7 @@ Error was:%2</source>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="46"/>
         <source>Unique values</source>
-        <translation>고유 값</translation>
+        <translation>고유값</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="51"/>
@@ -17861,12 +17861,12 @@ Error was:%2</source>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="56"/>
         <source>Value map</source>
-        <translation>밸류 맵</translation>
+        <translation>값 맵</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="61"/>
         <source>Enumeration</source>
-        <translation>열거형</translation>
+        <translation>열거값</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="66"/>
@@ -17936,7 +17936,7 @@ Error was:%2</source>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="195"/>
         <source>Allows one to set numeric values from a specified range. The edit widget can be either a slider or a spin box.</source>
-        <translation>지정된 범위에서 수치를 설정할 수 있다. 이 편집 위젯은 슬라이더나 스핀 상자에 있을 수 있다.</translation>
+        <translation>지정된 범위에서 수치를 설정할 수 있습니다. 이 편집 위젯은 슬라이더나 스핀 상자에 있을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="210"/>
@@ -17991,7 +17991,7 @@ Error was:%2</source>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="756"/>
         <source>Filter expression</source>
-        <translation>필터 식</translation>
+        <translation>필터 표현식</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="769"/>
@@ -18105,7 +18105,7 @@ Error was:%2</source>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="492"/>
         <source>An immutable attribute is read-only - the user is not able to modify the contents.</source>
-        <translation>변경할 수 없는 속성은 읽기 전용 - 사용자가 내용을 편집할 수 없습니다.</translation>
+        <translation>블변값 속성은 읽기 전용 - 사용자가 내용을 편집할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="519"/>
@@ -19182,17 +19182,17 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1455"/>
         <source>Duplicating composer...</source>
-        <translation>조판기 복사하기...</translation>
+        <translation>구성 복사하기...</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1467"/>
         <source>Duplicate Composer</source>
-        <translation>조판기 복사</translation>
+        <translation>구성 복사</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1468"/>
         <source>Composer duplication failed.</source>
-        <translation>조판기 복사 실패.</translation>
+        <translation>구성 복사 실패.</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1487"/>
@@ -19202,7 +19202,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1489"/>
         <source>Composer templates</source>
-        <translation>조판기 템플릿</translation>
+        <translation>구성 템플릿</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2130"/>
@@ -19223,7 +19223,7 @@ Please try a lower resolution or a smaller papersize</source>
         <location filename="../src/app/composer/qgscomposer.cpp" line="179"/>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1843"/>
         <source>Composer</source>
-        <translation>조판기</translation>
+        <translation>구성</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="712"/>
@@ -19235,17 +19235,17 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1561"/>
         <source>Composer error</source>
-        <translation>조판기 오류</translation>
+        <translation>구성 오류</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1561"/>
         <source>Error, could not create new composer</source>
-        <translation>오류, 새로운 조판기를 생성할 수 없습니다</translation>
+        <translation>오류, 새로운 구성을 생성할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1578"/>
         <source>Loading template into composer...</source>
-        <translation>조판기 안에 템플릿 불러오기...</translation>
+        <translation>구성에 템플릿 불러오기...</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="2115"/>
@@ -19562,7 +19562,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="51"/>
         <source>Composer</source>
-        <translation>조판기</translation>
+        <translation>구성</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="76"/>
@@ -19572,12 +19572,12 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="91"/>
         <source>Composer Item Actions</source>
-        <translation>조판기 항목 액션</translation>
+        <translation>구성 항목 액션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="106"/>
         <source>Composer Items</source>
-        <translation>조판기 항목</translation>
+        <translation>구성 항목</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="135"/>
@@ -19776,22 +19776,22 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="529"/>
         <source>Composer Manager</source>
-        <translation>조판기 관리자</translation>
+        <translation>구성 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="532"/>
         <source>Composer manager</source>
-        <translation>조판기 관리자</translation>
+        <translation>구성 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="537"/>
         <source>&amp;New Composer</source>
-        <translation>새로운 조판기(&amp;N)</translation>
+        <translation>새 구성(&amp;N)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="540"/>
         <source>New composer</source>
-        <translation>새로운 조판기</translation>
+        <translation>새 구성</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="543"/>
@@ -19816,12 +19816,12 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="559"/>
         <source>&amp;Duplicate Composer</source>
-        <translation>조판기 복제 (&amp;D)</translation>
+        <translation>구성 복제 (&amp;D)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="562"/>
         <source>Duplicate composer</source>
-        <translation>조판기 복제</translation>
+        <translation>구성 복제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="567"/>
@@ -20303,7 +20303,7 @@ Please try a lower resolution or a smaller papersize</source>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="152"/>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="158"/>
         <source>Insert expression</source>
-        <translation>식 삽입</translation>
+        <translation>표현식 삽입</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlabelwidget.cpp" line="169"/>
@@ -20350,7 +20350,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="92"/>
         <source>Insert an expression</source>
-        <translation>식 삽입</translation>
+        <translation>표현식 삽입</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlabelwidgetbase.ui" line="122"/>
@@ -20952,7 +20952,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="84"/>
         <source>Empty composer</source>
-        <translation>조판기 비우기</translation>
+        <translation>구성 비우기</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="85"/>
@@ -20979,17 +20979,17 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="174"/>
         <source>Composer error</source>
-        <translation>조판기 오류</translation>
+        <translation>구성 오류</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="174"/>
         <source>Error, could not create composer</source>
-        <translation>오류 조판기를 생성할 수 없음</translation>
+        <translation>오류 구성을 생성할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="189"/>
         <source>Loading template into composer...</source>
-        <translation>조판기 안에 템플릿 불러오기...</translation>
+        <translation>구성에 템플릿 불러오기...</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="222"/>
@@ -21004,7 +21004,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="240"/>
         <source>Composer templates</source>
-        <translation>조판기 템플릿</translation>
+        <translation>구성 템플릿</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="265"/>
@@ -21019,32 +21019,32 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="280"/>
         <source>Remove composer</source>
-        <translation>조판기 제거</translation>
+        <translation>구성 제거</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="280"/>
         <source>Do you really want to remove the map composer &apos;%1&apos;?</source>
-        <translation>정말 이 지도 조판기 &apos;%1&apos;를 삭제하시겠습니까?</translation>
+        <translation>정말 이 지도 구성 &apos;%1&apos;를 삭제하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="386"/>
         <source> copy</source>
-        <translation>복사</translation>
+        <translation> 복사</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="393"/>
         <source>Duplicating composer...</source>
-        <translation>조판기 복제하기...</translation>
+        <translation>구성 복제하기...</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="414"/>
         <source>Duplicate Composer</source>
-        <translation>조판기 복제</translation>
+        <translation>구성 복제</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="415"/>
         <source>Composer duplication failed.</source>
-        <translation>조판기 복제 실패.</translation>
+        <translation>구성 복제 실패.</translation>
     </message>
     <message>
         <source>Change title</source>
@@ -21060,12 +21060,12 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="20"/>
         <source>Composer manager</source>
-        <translation>조판기 관리자</translation>
+        <translation>구성 관리자</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="35"/>
         <source>New from template</source>
-        <translation>템플릿 이용해서 새로만들기</translation>
+        <translation>템플릿 이용해서 새로 만들기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposermanagerbase.ui" line="50"/>
@@ -21104,7 +21104,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/core/composer/qgscomposermap.cpp" line="287"/>
         <source>Map will be printed here</source>
-        <translation>여기에 지도를 인쇄 예정</translation>
+        <translation>여기에 지도 인쇄 예정</translation>
     </message>
 </context>
 <context>
@@ -21159,7 +21159,7 @@ Please try a lower resolution or a smaller papersize</source>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="74"/>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="343"/>
         <source>No frame</source>
-        <translation>프레임없음</translation>
+        <translation>프레임 없음</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermapwidget.cpp" line="75"/>
@@ -22533,7 +22533,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/gui/qgscomposerview.cpp" line="199"/>
         <source>Picture added</source>
-        <translation>픽처가 추가됨</translation>
+        <translation>그림이 추가됨</translation>
     </message>
     <message>
         <location filename="../src/gui/qgscomposerview.cpp" line="242"/>
@@ -23391,7 +23391,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Placement</source>
-        <translation type="obsolete">위치(&amp;P)</translation>
+        <translation type="obsolete">배치(&amp;P)</translation>
     </message>
     <message>
         <source>Bottom Left</source>
@@ -24010,7 +24010,7 @@ and current file is [%3]</source>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="238"/>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="490"/>
         <source>expression</source>
-        <translation>식</translation>
+        <translation>표현식</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="238"/>
@@ -24041,7 +24041,7 @@ and current file is [%3]</source>
     <message>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="285"/>
         <source>Expression</source>
-        <translation>식</translation>
+        <translation>표현식</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsdatadefinedbutton.cpp" line="298"/>
@@ -24200,7 +24200,7 @@ and current file is [%3]</source>
     <message>
         <location filename="../src/ui/qgsdatadefinedsymboldialogbase.ui" line="87"/>
         <source>Expression</source>
-        <translation>식</translation>
+        <translation>표현식</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdatadefinedsymboldialogbase.ui" line="92"/>
@@ -24420,7 +24420,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdecorationcopyrightdialog.ui" line="56"/>
         <source>&amp;Placement</source>
-        <translation>위치(&amp;P)</translation>
+        <translation>배치(&amp;P)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdecorationcopyrightdialog.ui" line="67"/>
@@ -24678,7 +24678,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdecorationnortharrowdialog.ui" line="104"/>
         <source>Placement on screen</source>
-        <translation>화면상 위치</translation>
+        <translation>화면상 배치</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdecorationnortharrowdialog.ui" line="108"/>
@@ -24829,7 +24829,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdecorationscalebardialog.ui" line="31"/>
         <source>Placement</source>
-        <translation>위치</translation>
+        <translation>배치</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdecorationscalebardialog.ui" line="48"/>
@@ -25250,7 +25250,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/providers/delimitedtext/qgsdelimitedtextprovider.cpp" line="980"/>
         <source>Invalid subset string %1 for %2</source>
-        <translation>%2에 대한 %1은 무효한 하위 문자열</translation>
+        <translation>%2에 대한 %1은 잘못된 서브셋 문자열</translation>
     </message>
     <message>
         <location filename="../src/providers/delimitedtext/qgsdelimitedtextprovider.cpp" line="1054"/>
@@ -25283,7 +25283,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/providers/delimitedtext/qgsdelimitedtextsourceselect.cpp" line="139"/>
         <source>Invalid regular expression</source>
-        <translation>무효한 정규식</translation>
+        <translation>잘못된 정규식</translation>
     </message>
     <message>
         <location filename="../src/providers/delimitedtext/qgsdelimitedtextsourceselect.cpp" line="139"/>
@@ -25293,7 +25293,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/providers/delimitedtext/qgsdelimitedtextsourceselect.cpp" line="146"/>
         <source>Invalid delimited text file</source>
-        <translation>무효한 구분 텍스트 파일</translation>
+        <translation>잘못된 구분자로 분리된 텍스트 파일</translation>
     </message>
     <message>
         <location filename="../src/providers/delimitedtext/qgsdelimitedtextsourceselect.cpp" line="146"/>
@@ -25338,7 +25338,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/providers/delimitedtext/qgsdelimitedtextsourceselect.cpp" line="695"/>
         <source>^.. expression needs capture groups</source>
-        <translation>^.. 표현식은 캡쳐 그룹 필요</translation>
+        <translation>^.. 표현식은 캡쳐 그룹이 필요</translation>
     </message>
     <message>
         <location filename="../src/providers/delimitedtext/qgsdelimitedtextsourceselect.cpp" line="706"/>
@@ -25625,12 +25625,12 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="601"/>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="604"/>
         <source>Use an index to improve performance of subset filters (set in layer properties)</source>
-        <translation>하위 필터의 성능(레이어의 속성에서 설정)을 개선하기 위해 인덱스 사용</translation>
+        <translation>서브셋 필터의 성능(레이어의 속성에서 설정)을 개선하기 위해 인덱스 사용</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="607"/>
         <source>Use subset index</source>
-        <translation>하위 인덱스 사용</translation>
+        <translation>서브셋 인덱스 사용</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="614"/>
@@ -25806,7 +25806,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="1014"/>
         <source>Expression</source>
-        <translation>식</translation>
+        <translation>표현식</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdelimitedtextsourceselectbase.ui" line="1036"/>
@@ -26030,7 +26030,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="107"/>
         <source>Text diagram</source>
-        <translation>텍스트 다이어그램</translation>
+        <translation>텍스트 도표</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="109"/>
@@ -26087,12 +26087,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="301"/>
         <source>Unknown diagram type.</source>
-        <translation>알 수 없는 다이어그램 타입.</translation>
+        <translation>알 수 없는 도표 타입.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="302"/>
         <source>The diagram type &apos;%1&apos; is unknown. A default type is selected for you.</source>
-        <translation>다이어그램 유형 &apos;%1&apos;은 모름. 기본 유형을 선택하세요.</translation>
+        <translation>도표 유형 &apos;%1&apos;은 모름. 기본 유형을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="339"/>
@@ -26112,7 +26112,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="494"/>
         <source>Diagrams: No attributes added.</source>
-        <translation>다이어그램: 속성이 추가되지 않음.</translation>
+        <translation>도표: 속성이 추가되지 않음.</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="527"/>
@@ -26137,7 +26137,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdiagramproperties.cpp" line="495"/>
         <source>You did not add any attributes to this diagram layer. Please specify the attributes to visualize on the diagrams or disable diagrams.</source>
-        <translation>이 다이어그램 레이어에 임의의 속성을 추가하지 않았습니다. 다이어그램에 시각화하거나 다이어그램을 비활성화하려면 속성을 지정하십시오.</translation>
+        <translation>이 도표 레이어에 추가된 속성이 없습니다. 도표로 시각화할 속성을 선택하거나 도표를 비활성화 하십시오.</translation>
     </message>
 </context>
 <context>
@@ -26210,12 +26210,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="251"/>
         <source>Only show diagrams with a size inside the specified range.</source>
-        <translation>특정 범위 내의 사이즈인 다이어그램 만 보입니다.</translation>
+        <translation>특정 범위 내의 크기인 도표만 보입니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="254"/>
         <source>Hide diagrams with a size outside the specified range.</source>
-        <translation>특정 범위 밖의 사이즈로 다이어그램 숨깁니다.</translation>
+        <translation>특정 범위 밖의 크기인 도표를 숨깁니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="257"/>
@@ -26279,12 +26279,12 @@ Leave empty to automatically apply the maximum value.</source>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="471"/>
         <source>Will scale diagrams with a size smaller than the minimum size to the minimum size</source>
-        <translation>최소 크기, 최소 크기보다 작은 크기 도표를 조절</translation>
+        <translation>최소 크기보다 작은 크기 도표를 최소 크기로 조절</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="474"/>
         <source>Increase size of small diagrams</source>
-        <translation>작은 다이어그램의 크기 키우기</translation>
+        <translation>작은 도표의 크기 키우기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="483"/>
@@ -26329,7 +26329,7 @@ Leave empty to automatically apply the maximum value.</source>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="659"/>
         <source>Automated placement settings</source>
-        <translation>자동 위치 세팅</translation>
+        <translation>자동 배치 세팅</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="667"/>
@@ -26339,7 +26339,7 @@ Leave empty to automatically apply the maximum value.</source>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="679"/>
         <source>Label placement</source>
-        <translation>라벨 위치</translation>
+        <translation>라벨 배치</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdiagrampropertiesbase.ui" line="714"/>
@@ -26543,7 +26543,7 @@ Leave empty to automatically apply the maximum value.</source>
     <message>
         <location filename="../src/gui/attributetable/qgsdualview.cpp" line="296"/>
         <source>Expression based preview</source>
-        <translation>식 기반 라벨</translation>
+        <translation>표현식 기반 라벨</translation>
     </message>
     <message>
         <location filename="../src/gui/attributetable/qgsdualview.cpp" line="316"/>
@@ -26601,7 +26601,7 @@ Parser error:
     <message>
         <location filename="../src/ui/qgsdualviewbase.ui" line="113"/>
         <source>Expression</source>
-        <translation>식</translation>
+        <translation>표현식</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdualviewbase.ui" line="118"/>
@@ -26847,7 +26847,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionbuilderdialogbase.ui" line="14"/>
         <source>Expression string builder</source>
-        <translation>식 문자열 생성기</translation>
+        <translation>표현식 문자열 생성기</translation>
     </message>
 </context>
 <context>
@@ -26963,17 +26963,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="348"/>
         <source>More info on expression error</source>
-        <translation>표현 오류에 대한 추가 정보</translation>
+        <translation>표현식 오류에 대한 추가 정보</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="375"/>
         <source>Load top 10 unique values</source>
-        <translation>상위 10개의 유일 값 부르기</translation>
+        <translation>상위 10개의 고유값 부르기</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsexpressionbuilderwidget.cpp" line="376"/>
         <source>Load all unique values</source>
-        <translation>모든 유일 값 부르기</translation>
+        <translation>모든 고유값 부르기</translation>
     </message>
     <message>
         <source>This help file does not exist for your language:&lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;p&gt;If you would like to create it, contact the QGIS development team</source>
@@ -27009,7 +27009,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="204"/>
         <source>Load all unique values</source>
-        <translation>모든 유일 값 부르기</translation>
+        <translation>모든 고유값 부르기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="211"/>
@@ -27080,7 +27080,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionbuilder.ui" line="463"/>
         <source>Expression</source>
-        <translation>식</translation>
+        <translation>표현식</translation>
     </message>
 </context>
 <context>
@@ -27088,7 +27088,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsexpressionselectiondialogbase.ui" line="14"/>
         <source>Select By Expression</source>
-        <translation>표현식별 선택</translation>
+        <translation>표현식으로 선택</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsexpressionselectiondialogbase.ui" line="33"/>
@@ -27182,7 +27182,7 @@ p, li { white-space: pre-wrap; }
         <source>
  The expression is invalid see (more info) for details</source>
         <translation>
- 식이 잘못되었습니다. 추가정보를 확인하세요</translation>
+ 표현식이 잘못되었습니다. 추가정보를 확인하세요</translation>
     </message>
     <message>
         <source>An error occured while evaluating the calculation string.</source>
@@ -27350,7 +27350,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Field calculator expression</source>
-        <translation type="obsolete">필드 계산</translation>
+        <translation type="obsolete">필드 계산 표현식</translation>
     </message>
 </context>
 <context>
@@ -27393,7 +27393,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="300"/>
         <source>Edit widget</source>
-        <translation>위젯 편집</translation>
+        <translation>편집 위젯</translation>
     </message>
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="303"/>
@@ -27430,12 +27430,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="748"/>
         <source>Unique values</source>
-        <translation>고유 값</translation>
+        <translation>고유값</translation>
     </message>
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="749"/>
         <source>Unique values editable</source>
-        <translation>고유 값을 편집 가능</translation>
+        <translation>고유값을 편집 가능</translation>
     </message>
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="750"/>
@@ -27445,7 +27445,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="751"/>
         <source>Value map</source>
-        <translation>가치 맵</translation>
+        <translation>값 맵</translation>
     </message>
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="752"/>
@@ -27475,7 +27475,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="757"/>
         <source>Immutable</source>
-        <translation>상수값</translation>
+        <translation>불변값</translation>
     </message>
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="758"/>
@@ -27564,7 +27564,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsfieldspropertiesbase.ui" line="56"/>
         <source>Delete column</source>
-        <translation>컬럼 제거</translation>
+        <translation>컬럼 삭제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsfieldspropertiesbase.ui" line="66"/>
@@ -33457,7 +33457,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <name>QgsIdentifyResults</name>
     <message>
         <source>Identify Results</source>
-        <translation type="obsolete">정보보기 결과</translation>
+        <translation type="obsolete">객체확인 결과</translation>
     </message>
     <message>
         <source>Feature</source>
@@ -33537,7 +33537,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgsidentifyresultsbase.ui" line="14"/>
         <source>Identify Results</source>
-        <translation>정보보기 결과</translation>
+        <translation>객체확인 결과</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsidentifyresultsbase.ui" line="43"/>
@@ -33561,7 +33561,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgsidentifyresultsbase.ui" line="71"/>
         <source>New results will be expanded by default.</source>
-        <translation>새로운 결과는 ​​기본적으로 확장됩니다.</translation>
+        <translation>새로운 결과는 기본적으로 확장됩니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsidentifyresultsbase.ui" line="88"/>
@@ -33579,7 +33579,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="271"/>
         <source>Identify Results</source>
-        <translation>정보보기 결과</translation>
+        <translation>객체 확인 결과</translation>
     </message>
     <message>
         <location filename="../src/app/qgsidentifyresultsdialog.cpp" line="279"/>
@@ -34179,7 +34179,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabeldialogbase.ui" line="501"/>
         <source>Data defined placement</source>
-        <translation>데이터에 따른 위치</translation>
+        <translation>데이터에 따른 배치</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabeldialogbase.ui" line="548"/>
@@ -34276,7 +34276,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgslabelpropertydialog.cpp" line="85"/>
         <source>Expression result</source>
-        <translation>계산식 결과</translation>
+        <translation>표현식 결과</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelpropertydialog.cpp" line="125"/>
@@ -34504,8 +34504,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="986"/>
         <source>In edit mode, layer&apos;s relevant labeling map tool is:&lt;br&gt;&amp;nbsp;&amp;nbsp;Defined attribute field -&amp;gt; &lt;i&gt;enabled&lt;/i&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;Defined expression -&amp;gt; &lt;i&gt;disabled&lt;/i&gt;</source>
-        <translatorcomment>편집 모드에서, 레이어의 해당 라벨 맵 툴은 다음과 같음:&lt;br&gt;&amp;nbsp;&amp;nbsp;속성 필드 정의됨 -&amp;gt; &lt;i&gt;사용가능&lt;/i&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;식 정의됨 -&amp;gt; &lt;i&gt;사용불가&lt;/i&gt;</translatorcomment>
-        <translation>In edit mode, layer&apos;s relevant labeling map tool is:&lt;br&gt;&amp;nbsp;&amp;nbsp;Defined attribute field -&amp;gt; &lt;i&gt;enabled&lt;/i&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;Defined expression -&amp;gt; &lt;i&gt;disabled&lt;/i&gt;</translation>
+        <translation>편집 모드에서, 레이어의 해당 라벨 맵 툴은 다음과 같음:&lt;br&gt;&amp;nbsp;&amp;nbsp;속성 필드 정의됨 -&amp;gt; &lt;i&gt;사용가능&lt;/i&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;정의된 표현식 -&amp;gt; &lt;i&gt;사용불가&lt;/i&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1009"/>
@@ -34545,7 +34544,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1178"/>
         <source>Expression based label</source>
-        <translation>수식 기반 라벨</translation>
+        <translation>표현식 기반 라벨</translation>
     </message>
     <message>
         <location filename="../src/app/qgslabelinggui.cpp" line="1287"/>
@@ -34669,7 +34668,7 @@ This may be a problem in your network connection or at the WMS server.</source>
         <location filename="../src/ui/qgslabelingguibase.ui" line="1726"/>
         <location filename="../src/ui/qgslabelingguibase.ui" line="3654"/>
         <source>Placement</source>
-        <translation>표시위치</translation>
+        <translation>배치</translation>
     </message>
     <message>
         <source>around point</source>
@@ -35095,7 +35094,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Expression</source>
-        <translation type="obsolete">식</translation>
+        <translation type="obsolete">표현식</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="289"/>
@@ -35357,12 +35356,12 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="81"/>
         <source>Edit expression</source>
-        <translation>수식 편집</translation>
+        <translation>표현식 편집</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="114"/>
         <source>Automated placement settings (apply to all layers)</source>
-        <translation>자동 위치 설정 (모든 레이어에 적용)</translation>
+        <translation>자동 배치 설정 (모든 레이어에 적용)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgslabelingguibase.ui" line="171"/>
@@ -37006,17 +37005,17 @@ not displayed</source>
     </message>
     <message>
         <source>To identify features, you must choose an active layer by clicking on its name in the legend</source>
-        <translation type="obsolete">클릭하여 객체 정보를 표시하려면, 범례에 있는 레이어 이름을 클릭하여 활성 레이어를 선택하십시오.</translation>
+        <translation type="obsolete">클릭하여 객체 확인을 하시려면, 범례에 있는 레이어 이름을 클릭하여 활성 레이어를 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="138"/>
         <source>Identifying on %1...</source>
-        <translation>%1 객체 정보...</translation>
+        <translation>%1 객체 확인...</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="151"/>
         <source>Identifying done.</source>
-        <translation>정보보기 종료.</translation>
+        <translation>객체 확인 종료.</translation>
     </message>
     <message>
         <source>No features at this position found.</source>
@@ -37077,7 +37076,7 @@ not displayed</source>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="107"/>
         <source>No active layer. To identify features, you must choose an active layer.</source>
-        <translation>활성화된 레이어가 없습니다. 객체의 정보를 보려면, 활성화된 레이어를 선택해야 합니다.</translation>
+        <translation>활성화된 레이어가 없습니다. 객체 확인을 하시려면, 활성화된 레이어를 선택해야 합니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmaptoolidentify.cpp" line="266"/>
@@ -37670,7 +37669,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="709"/>
         <source>Placement</source>
-        <translation>위치</translation>
+        <translation>배치</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgssymbollayerv2widget.cpp" line="710"/>
@@ -39402,7 +39401,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Placement on screen</source>
-        <translation type="obsolete">화면상 위치</translation>
+        <translation type="obsolete">화면상 배치</translation>
     </message>
     <message>
         <source>Preview of north arrow</source>
@@ -41371,7 +41370,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2444"/>
         <source>Open identify results in a dock window (QGIS restart required)</source>
-        <translation>정보보기 결과를 연결된 창에 표시합니다. (QGIS 재시작 필요)</translation>
+        <translation>객체 확인 결과를 도킹된 창에 표시 (QGIS 재시작 필요)</translation>
     </message>
     <message>
         <source>Open snapping options  in a dock window (QGIS restart required)</source>
@@ -41741,7 +41740,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2438"/>
         <source>Identify</source>
-        <translation>정보 보기</translation>
+        <translation>객체 확인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="97"/>
@@ -42174,7 +42173,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2471"/>
         <source>Search radius for identifying features and displaying map tips</source>
-        <translation>객체 정보보기와 지도 팁 보기에 대한 검색 반경</translation>
+        <translation>객체 확인과 지도 팁 보기에 대한 검색 반경</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2494"/>
@@ -47077,12 +47076,12 @@ Proceed?</source>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1007"/>
         <source>Select print composer</source>
-        <translation>프린트 구성기 선택</translation>
+        <translation>프린트 구성 선택</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1007"/>
         <source>Composer Title</source>
-        <translation>구성기 제목 </translation>
+        <translation>구성 제목 </translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1029"/>
@@ -47480,7 +47479,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1744"/>
         <source>Exclude composers</source>
-        <translation>구성기 제외 </translation>
+        <translation>구성 제외 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1812"/>
@@ -47567,7 +47566,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="109"/>
         <source>Identify layers</source>
-        <translation>레이어 정보보</translation>
+        <translation>레이어 확인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="121"/>
@@ -47899,7 +47898,7 @@ The data provider said:
     <message>
         <location filename="../src/gui/qgsquerybuilder.cpp" line="225"/>
         <source>The subset string could not be set</source>
-        <translation>하위 문자열을 설정할 수 없음</translation>
+        <translation>서브셋 문자열을 설정할 수 없음</translation>
     </message>
 </context>
 <context>
@@ -48061,7 +48060,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsquerybuilderbase.ui" line="260"/>
         <source>Provider specific filter expression</source>
-        <translation>프로바이더 별 필터 구문</translation>
+        <translation>프로바이더 별 필터 표현식</translation>
     </message>
     <message>
         <source>SQL where clause</source>
@@ -48142,12 +48141,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsrastercalcdialog.cpp" line="243"/>
         <source>Expression valid</source>
-        <translation>계산식이 유효함</translation>
+        <translation>표현식이 유효함</translation>
     </message>
     <message>
         <location filename="../src/app/qgsrastercalcdialog.cpp" line="252"/>
         <source>Expression invalid</source>
-        <translation>계산식이 잘못되었음</translation>
+        <translation>표현식이 잘못되었음</translation>
     </message>
 </context>
 <context>
@@ -48335,14 +48334,14 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsrastercalcdialogbase.ui" line="381"/>
         <source>Raster calculator expression</source>
-        <translation>래스터 연산 식</translation>
+        <translation>래스터 연산 표현식</translation>
     </message>
 </context>
 <context>
     <name>QgsRasterDataProvider</name>
     <message>
         <source>Identify</source>
-        <translation type="obsolete">정보 표시</translation>
+        <translation type="obsolete">정보 확인</translation>
     </message>
     <message>
         <source>Build Pyramids</source>
@@ -48727,7 +48726,7 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <location filename="../src/core/raster/qgsrasterinterface.cpp" line="551"/>
         <source>Identify</source>
-        <translation>정보 표시</translation>
+        <translation>정보 확인</translation>
     </message>
     <message>
         <location filename="../src/core/raster/qgsrasterinterface.cpp" line="566"/>
@@ -51288,7 +51287,7 @@ standard deviation ×</source>
         <location filename="../src/gui/symbology-ng/qgsrulebasedrendererv2widget.cpp" line="543"/>
         <source>Filter expression parsing error:
 </source>
-        <translation>필터식 구문분석 오류:
+        <translation>필터 표현식 구문분석 오류:
 </translation>
     </message>
     <message>
@@ -53305,7 +53304,7 @@ SQL: %1</translation>
     </message>
     <message>
         <source>&amp;Build Query</source>
-        <translation type="obsolete">질의 만들기(&amp;B)</translation>
+        <translation type="obsolete">질의 작성(&amp;B)</translation>
     </message>
     <message>
         <location filename="../src/providers/spatialite/qgsspatialitesourceselect.cpp" line="64"/>
@@ -53896,7 +53895,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="273"/>
         <source>Select one FID to identify geometry of feature</source>
-        <translation>객체의 지오메트리을 확인하기 위해 1 개의 FID를 선택</translation>
+        <translation>객체의 지오메트리를 확인하기 위해 1 개의 FID를 선택</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="310"/>
@@ -53964,7 +53963,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Select item to identify geometry of feature</source>
-        <translation type="obsolete">객체의 형상 정보를 표시할 항목을 선택하십시오.</translation>
+        <translation type="obsolete">객체의 지오메트리 정보를 확인할 항목을 선택하십시오.</translation>
     </message>
     <message>
         <location filename="../src/plugins/spatialquery/qgsspatialquerydialogbase.ui" line="350"/>
@@ -54693,14 +54692,14 @@ p, li { white-space: pre-wrap; }
         <source>The source relation %1 has no column suitable for use as a unique key.
 
 Quantum GIS requires that the relation has an integer column no larger than 32 bits containing unique values. </source>
-        <translation type="obsolete">%1 소스 관계는 고유 키에 적합한 컬럼이 없습니다.
+        <translation type="obsolete">원본 관계(릴레이션) %1는 고유 키에 적합한 컬럼이 없습니다.
 
-Quantum GIS는 32bit 이하의 정수를 관계의 고유 값으로 가질 필요가 있습니다.</translation>
+Quantum GIS는 32bit 이하의 정수를 관계의 고유값으로 요구합니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="221"/>
         <source>Error loading attributes</source>
-        <translation>속성로드 오류</translation>
+        <translation>속성 읽기 오류</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="248"/>
@@ -54727,9 +54726,9 @@ Quantum GIS는 32bit 이하의 정수를 관계의 고유 값으로 가질 필�
         <source>The source relation %1 has no column suitable for use as a unique key.
 
 QGIS requires that the relation has an integer column no larger than 32 bits containing unique values. </source>
-        <translation>%1 소스 관계는 고유 키에 적합한 컬럼이 없습니다.
+        <translation>원본 관계(릴레이션) %1는 고유 키에 적합한 컬럼이 없습니다.
 
-Quantum GIS는 32bit 이하의 정수를 관계의 고유 값으로 가질 필요가 있습니다.</translation>
+Quantum GIS는 32bit 이하의 정수를 관계의 고유값으로 요구합니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/sqlanywhere/qgssqlanywhereprovider.cpp" line="284"/>
@@ -55994,7 +55993,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>In the print composer tool bar you can find two buttons for moving elements. The left one (a selection cursor with the hand symbol) selects and moves elements in the layout. After selecting the element with this tool you can also move them around with the arrow keys. For accurate positioning use the &lt;strong&gt;Position and Size&lt;/strong&gt; dialogue, which can be found in the tab &lt;strong&gt;Item &amp;rarr; General Options &amp;rarr; Position and Size&lt;/strong&gt;. For easier positioning you can also set specific anchor points of the element within this dialogue. The other move tool (the globe icon combined with the hand icon) allows one to move the map content within a map frame.</source>
-        <translation type="obsolete">프린트 콤포저 도구 모음에는 요소 이동을 위한 2 개의 버튼이 있습니다. 왼쪽 것(손 기호와 선택 커서)이 레이아웃에서 요소 선택 및 이동을 합니다. 요소를 선택한 후 화살표 키를 사용하여 그들을 이동시킬 수 있습니다. 정확한 위치를 지정하려는 경우 &lt;strong&gt; 항목 &amp;rarr; 일반 옵션 &amp;rarr; 위치 및 크기 &lt;/strong&gt; 탭 &lt;strong&gt; 위치와 크기 &lt;/strong&gt; 대화상자를 이용하시기 바랍니다. 이 대화상자에서 간단한 위치 결정을 위한 기준점을 요소에 지정할 수 있습니다. 또 다른 이동 도구(손과 지구본 아이콘)는 지도 내용을 지도 프레임으로 이동합니다.</translation>
+        <translation type="obsolete">인쇄 구성 도구 모음에는 요소 이동을 위한 2 개의 버튼이 있습니다. 왼쪽 것(손 기호와 선택 커서)이 레이아웃에서 요소 선택 및 이동을 합니다. 요소를 선택한 후 화살표 키를 사용하여 그들을 이동시킬 수 있습니다. 정확한 위치를 지정하려는 경우 &lt;strong&gt; 항목 &amp;rarr; 일반 옵션 &amp;rarr; 위치 및 크기 &lt;/strong&gt; 탭 &lt;strong&gt; 위치와 크기 &lt;/strong&gt; 대화상자를 이용하시기 바랍니다. 이 대화상자에서 간단한 위치 결정을 위한 기준점을 요소에 지정할 수 있습니다. 또 다른 이동 도구(손과 지구본 아이콘)는 지도 내용을 지도 프레임으로 이동합니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="105"/>
@@ -56038,12 +56037,12 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="94"/>
         <source>In the print composer tool bar you can find two buttons for moving elements. The left one (right arrow icon) selects and moves elements in the layout. After selecting the element with this tool you can also move them around with the arrow keys. For accurate positioning use the &lt;strong&gt;Position and Size&lt;/strong&gt; dialogue, which can be found in the tab &lt;strong&gt;Item Properties -&gt; General Options -&gt; Position and Size&lt;/strong&gt;. The other move tool (map canvas icon with right arrow) allows one to move the map content within a map frame.</source>
-        <translation>출력 구성 도구 바에 객체를 이동시키기 위한 두 개의 버튼이 있습니다. 왼쪽 버튼(오른쪽 화살표 아이콘)은 래이아웃에서 객체를 선택하고 이동시킵니다. 이 툴을 사용해 객체 선택 후에 화살표 키를 이용해 주변으로 이동시킬 수 있습니다. 위치를 정확히 지정하시려면 &lt;strong&gt;위치 및 크기&lt;/strong&gt; 대화상자를 이용하십시오. 이것은 &lt;strong&gt;아이템 속성 -&gt; 일반 옵션 -&gt; 위치 및 크기&lt;/strong&gt;에 있습니다. 또 다른 이동  도구 (오른쪽 화살표가 있는 지도 캔버스 아이콘)은 맵 프래임으로 지도 컨텐츠를 이동시킬 수 있습니다.</translation>
+        <translation>인쇄 구성 도구 바에 객체를 이동시키기 위한 두 개의 버튼이 있습니다. 왼쪽 버튼(오른쪽 화살표 아이콘)은 래이아웃에서 객체를 선택하고 이동시킵니다. 이 툴을 사용해 객체 선택 후에 화살표 키를 이용해 주변으로 이동시킬 수 있습니다. 위치를 정확히 지정하시려면 &lt;strong&gt;위치 및 크기&lt;/strong&gt; 대화상자를 이용하십시오. 이것은 &lt;strong&gt;아이템 속성 -&gt; 일반 옵션 -&gt; 위치 및 크기&lt;/strong&gt;에 있습니다. 또 다른 이동  도구 (오른쪽 화살표가 있는 지도 캔버스 아이콘)은 맵 프래임으로 지도 컨텐츠를 이동시킬 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="117"/>
         <source>You can rotate a map by setting its rotation value in the &lt;strong&gt;Item Properties -&gt; Map&lt;/strong&gt; section. To place a north arrow in your layout you can use the &lt;strong&gt;Add Image&lt;/strong&gt; tool. After the selection and placement of the north arrow in the layout you can link it with a specific map frame by activating the &lt;strong&gt;Sync with map&lt;/strong&gt; checkbox and selecting a map frame. Whenever you change the rotation value of a linked map, the north arrow will now automatically adjust its rotation.</source>
-        <translation>&lt;strong&gt;아이템 속성 -&gt; 지도&lt;/strong&gt; 섹션의 값을 설정하시면 지도를 회전시킬 수 있습니다. 레이아웃에 방위표를 위치시키려면 &lt;strong&gt;이미지 추가&lt;/strong&gt; 툴을 이용하시면 됩니다. 레이아웃에서 방위표를 선택하고 위치를 정한 후, 이를 &lt;strong&gt;지도와 싱크&lt;/strong&gt; 체크박스를 활성화 시키고 지도 프레임을 선택해 지도 프레임과 연결시킬 수 있습니다. 이렇게 하시면 사용자가 연결된 지도의 회전 값을 변경할 때마다, 방위표가 자동으로 회전됩니다.</translation>
+        <translation>&lt;strong&gt;아이템 속성 -&gt; 지도&lt;/strong&gt; 섹션의 값을 설정하시면 지도를 회전시킬 수 있습니다. 레이아웃에 방위표를 배치시키려면 &lt;strong&gt;이미지 추가&lt;/strong&gt; 툴을 이용하시면 됩니다. 레이아웃에서 방위표를 선택하고 위치를 정한 후, 이를 &lt;strong&gt;지도와 싱크&lt;/strong&gt; 체크박스를 활성화 시키고 지도 프레임을 선택해 지도 프레임과 연결시킬 수 있습니다. 이렇게 하시면 사용자가 연결된 지도의 회전 값을 변경할 때마다, 방위표가 자동으로 회전됩니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="129"/>
@@ -56053,7 +56052,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="130"/>
         <source>If you want to place a text label as a placeholder for the current scale, linked to a map frame, you need to place a scalebar and set the style to &apos;Numeric&apos;. You also need to select the map frame, if there is more than one.</source>
-        <translation>만약 텍스트 라벨을 지도 프레임에 링크된 현재 스케일에 대한 자리 맞추개로 위치시키고 싶은 경우, 스케일바를 위치시키고 스타일을 &apos;숫자&apos;로 설정할 필요가 있습니다. 지도가 여러 개 있는 경우 지도도 선택 해야합니다.</translation>
+        <translation>만약 텍스트 라벨을 지도 프레임에 링크된 현재 스케일에 대한 위치지시자로 위치시키고 싶은 경우, 스케일바를 위치시키고 스타일을 &apos;숫자&apos;로 설정할 필요가 있습니다. 지도가 여러 개 있는 경우 지도도 선택 해야합니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="137"/>
@@ -57272,7 +57271,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>edit widget</source>
-        <translation type="obsolete">위젯 편집</translation>
+        <translation type="obsolete">편집 위젯</translation>
     </message>
     <message>
         <source>alias</source>
@@ -57303,12 +57302,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="318"/>
         <source>Insert expression</source>
-        <translation>식 삽입</translation>
+        <translation>표현식 삽입</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="352"/>
         <source>This button opens the query builder and allows you to create a subset of features to display on the map canvas rather than displaying all features in the layer</source>
-        <translation>이 버튼은 질의 빌더를 열어 맵 캔버스 상에 레이어의 모든 객체를 디스플레이 하는 대신 디스플레이 할 객체의 서브셋을 만들 수 있게 함</translation>
+        <translation>이 버튼은 질의 생성기를 열어 맵 캔버스 상에 레이어의 모든 객체를 디스플레이 하는 대신 디스플레이 할 객체의 서브셋을 만들 수 있게 함</translation>
     </message>
     <message>
         <location filename="../src/app/qgsvectorlayerproperties.cpp" line="355"/>
@@ -57321,11 +57320,11 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Unique values</source>
-        <translation type="obsolete">고유 값</translation>
+        <translation type="obsolete">고유값</translation>
     </message>
     <message>
         <source>Unique values editable</source>
-        <translation type="obsolete">고유 값을 편집 가능</translation>
+        <translation type="obsolete">고유값 편집 가능</translation>
     </message>
     <message>
         <source>Classification</source>
@@ -57333,7 +57332,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Value map</source>
-        <translation type="obsolete">가치 맵</translation>
+        <translation type="obsolete">값 맵</translation>
     </message>
     <message>
         <source>Edit range</source>
@@ -57386,7 +57385,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Text diagram</source>
-        <translation type="obsolete">텍스트 다이어그램</translation>
+        <translation type="obsolete">텍스트 도표</translation>
     </message>
     <message>
         <source>Pie chart</source>
@@ -57599,7 +57598,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Edit widget</source>
-        <translation type="obsolete">위젯 편집</translation>
+        <translation type="obsolete">편집 위젯</translation>
     </message>
     <message>
         <source>Alias</source>
@@ -57611,7 +57610,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Immutable</source>
-        <translation type="obsolete">상수값</translation>
+        <translation type="obsolete">불변값</translation>
     </message>
     <message>
         <source>Layer comment: %1</source>
@@ -57686,11 +57685,11 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Use this control to set which field is placed at the top level of the Identify Results dialog box.</source>
-        <translation type="obsolete">객체 정보 표시 대화상자의 맨 위에 오는 필드를 설정하는 컨트롤입니다.</translation>
+        <translation type="obsolete">객체 확인 결과 대화상자의 맨 위에 오는 필드를 설정하는 컨트롤입니다.</translation>
     </message>
     <message>
         <source>Display field for the Identify Results dialog box</source>
-        <translation type="obsolete">객체 정보 표시 대화상자의 필드를 표시</translation>
+        <translation type="obsolete">객체 확인 결과 대화상자를 위한 필드를 표시</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="101"/>
@@ -57708,7 +57707,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>This sets the display field for the Identify Results dialog box</source>
-        <translation type="obsolete">객체 정보 표시 대화상자의 표시 필드를 설정</translation>
+        <translation type="obsolete">객체 확인 결과 대화상자를 위한 필드를 표시</translation>
     </message>
     <message>
         <source>Display field</source>
@@ -57794,7 +57793,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="611"/>
         <source>Feature subset</source>
-        <translation>객체 부분 집합</translation>
+        <translation>객체 서브셋</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="937"/>
@@ -57804,12 +57803,12 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="957"/>
         <source>Inserts an expression into the action</source>
-        <translation>식을 액션에 추가</translation>
+        <translation>표현식을 액션에 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="960"/>
         <source>Insert expression...</source>
-        <translation>식 삽입...</translation>
+        <translation>표현식 삽입...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="986"/>
@@ -57948,7 +57947,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1633"/>
         <source>Restore Default Style</source>
-        <translation>기본 스타일 다시 부르기</translation>
+        <translation>기본 스타일 다시 불러오기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1619"/>
@@ -57998,15 +57997,15 @@ Should the existing classes be deleted before classification?</source>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="188"/>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="1250"/>
         <source>Diagrams</source>
-        <translation>다이어그램</translation>
+        <translation>도표</translation>
     </message>
     <message>
         <source>Display diagrams</source>
-        <translation type="obsolete">다이어그램 보기</translation>
+        <translation type="obsolete">도표 보기</translation>
     </message>
     <message>
         <source>Diagram type</source>
-        <translation type="obsolete">다이어그램 유형</translation>
+        <translation type="obsolete">도표 유형</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -58175,7 +58174,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Delete column</source>
-        <translation type="obsolete">컬럼 제거</translation>
+        <translation type="obsolete">컬럼 삭제</translation>
     </message>
     <message>
         <source>Ctrl+X</source>
@@ -59985,7 +59984,7 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3673"/>
         <source>Identify Formats</source>
-        <translation>객체 정보 표시 포맷</translation>
+        <translation>객체 확인 포맷</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3681"/>
@@ -60228,7 +60227,7 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3425"/>
         <source>Can Identify</source>
-        <translation>객체 검색 가능</translation>
+        <translation>객체 확인 가능</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="3433"/>
@@ -60331,7 +60330,7 @@ Response was:
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="4325"/>
         <source>identify request redirected.</source>
-        <translation>객체정보조회 요청이 리다이렉션 되었습니다.</translation>
+        <translation>객체 확인 요청이 리다이렉션 되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/wms/qgswmsprovider.cpp" line="1564"/>
@@ -60738,7 +60737,7 @@ Tried URL: %1</source>
     <message>
         <location filename="../src/plugins/roadgraph/settingsdlg.cpp" line="34"/>
         <source>Road graph plugin settings</source>
-        <translation>도로 그래프 플러그인 설정</translation>
+        <translation>Road graph 플러그인 설정</translation>
     </message>
     <message>
         <location filename="../src/plugins/roadgraph/settingsdlg.cpp" line="38"/>
@@ -60876,7 +60875,7 @@ Tried URL: %1</source>
     <name>RoadGraphPlugin</name>
     <message>
         <source>Road graph settings</source>
-        <translation type="obsolete">도로 그래프 설정</translation>
+        <translation type="obsolete">Road graph 설정</translation>
     </message>
     <message>
         <source>Show road&apos;s direction</source>
@@ -60894,7 +60893,7 @@ Tried URL: %1</source>
     <message>
         <location filename="../src/plugins/roadgraph/roadgraphplugin.cpp" line="108"/>
         <source>Road graph plugin settings</source>
-        <translation>도로 그래프 플러그인 설정</translation>
+        <translation>Road graph 플러그인 설정</translation>
     </message>
     <message>
         <source>Roads direction viewer</source>
@@ -60902,21 +60901,21 @@ Tried URL: %1</source>
     </message>
     <message>
         <source>About Road graph plugin</source>
-        <translation type="obsolete">도로 그래프 플러그인 정보</translation>
+        <translation type="obsolete">Road graph 플러그인 정보</translation>
     </message>
     <message>
         <location filename="../src/plugins/roadgraph/roadgraphplugin.cpp" line="115"/>
         <location filename="../src/plugins/roadgraph/roadgraphplugin.cpp" line="130"/>
         <source>Road graph</source>
-        <translation>도로 그래프</translation>
+        <translation>Road graph</translation>
     </message>
     <message>
         <source>About RoadGraph</source>
-        <translation type="obsolete">도로 그래프 정보</translation>
+        <translation type="obsolete">Road graph 정보</translation>
     </message>
     <message>
         <source>Find shortest path on road&apos;s graph</source>
-        <translation type="obsolete">도로 그래프에서 최단 경로 찾기</translation>
+        <translation type="obsolete">Road graph에서 최단 경로 찾기</translation>
     </message>
     <message>
         <source>&lt;b&gt;Developers:&lt;/b&gt;</source>
@@ -61258,7 +61257,7 @@ SQL Anywhere 오류 코드: %1
     </message>
     <message>
         <source>The subset string could not be set</source>
-        <translation type="obsolete">하위 문자열을 설정할 수 없음</translation>
+        <translation type="obsolete">서브셋 문자열을 설정할 수 없음</translation>
     </message>
 </context>
 <context>
@@ -61270,7 +61269,7 @@ SQL Anywhere 오류 코드: %1
     </message>
     <message>
         <source>&amp;Build Query</source>
-        <translation type="obsolete">질의 만들기(&amp;B)</translation>
+        <translation type="obsolete">질의 작성(&amp;B)</translation>
     </message>
     <message>
         <location filename="../src/plugins/sqlanywhere/sasourceselect.cpp" line="65"/>
@@ -62018,15 +62017,15 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>List unique values</source>
-        <translation>고유 값 목록</translation>
+        <translation>고유값 목록 보기</translation>
     </message>
     <message>
         <source>Unique values</source>
-        <translation>고유 값</translation>
+        <translation>고유값</translation>
     </message>
     <message>
         <source>Total unique values</source>
-        <translation>총 고유 값</translation>
+        <translation>총 고유값</translation>
     </message>
     <message>
         <source>Basics statistics</source>
@@ -62327,7 +62326,7 @@ Would you like to add the new layer to the TOC?</source>
     <message>
         <location filename="../src/ui/symbollayer/widget_markerline.ui" line="35"/>
         <source>Marker placement</source>
-        <translation>마커 위치</translation>
+        <translation>마커 배치</translation>
     </message>
     <message>
         <location filename="../src/ui/symbollayer/widget_markerline.ui" line="43"/>
@@ -63152,7 +63151,7 @@ On this tab you can search for WMS servers. It is possible to enter a search-str
 To visualize the results, select an table entry, press the &lt;label&gt;Add selected row to WMS list&lt;/label&gt; button and change back to the &lt;label&gt;Servers&lt;/label&gt; tab.&lt;p&gt;
 You only need to request the list of layers by clicking the &lt;label&gt;Connect&lt;/label&gt; button.
 </source>
-        <translation>&lt;h3&gt;새로운 WMS 연결하기&lt;/h3&gt;
+        <translation>&lt;h3&gt;새로운 WMS 연결 만들기&lt;/h3&gt;
 WMS에 접근할 수 있는 URL을 알고, 그 서버에 연결 가능하고, 그 서버가 HTTP를 이용한 데이터 전송 메커니즘에 지원한다면, WMS 레이어는 상당히 쉽게 추가될 수 있습니다.&lt;p&gt;
 현재 QGIS는 WMS 1.1, 1.1.1, 1.3 을 지원하는 서버의  WMS 클라이언트로 사용할 수 있습니다.
 &lt;p&gt;
@@ -63249,17 +63248,17 @@ Click on &lt;label&gt;OK&lt;/label&gt; to create the layer and close the dialog.
 &lt;h4&gt;유형&lt;/h4&gt;
 생성할 레이어의 유형을 선택하세요. 
 &lt;h4&gt;EPSG SRID&lt;/h4&gt;
-공간 참조  ID(SRID)를 위해 EPSG 번호를 입력하세요. 기본적으로 WGS 84의 SRID가 기입되어 있습니다. 필요한 경우 레이어의 좌표계를 변경하기 위해 &lt;label&gt;SRID 찾기&lt;/label&gt; 버튼을 클릭하세요. SRID는 사용자의 SpatiaLite 데이터베이스의  spatial_ref_sys 안에 존재해야 합니다. 이름과  SRID를 부분적으로 매치하여 SRID를 검색할 수 있습니다.
+공간 참조 ID(SRID)를 위해 EPSG 번호를 입력하세요. 기본적으로 WGS 84의 SRID가 기입되어 있습니다. 필요한 경우 레이어의 좌표계를 변경하기 위해 &lt;label&gt;SRID 찾기&lt;/label&gt; 버튼을 클릭하세요. SRID는 사용자의 SpatiaLite 데이터베이스의  spatial_ref_sys 안에 존재해야 합니다. 이름과  SRID를 부분적으로 매치하여 SRID를 검색할 수 있습니다.
 &lt;h4&gt;자동 증가 기본키 생성&lt;/h4&gt;
 이 체크박스를 클릭하여 새 레이어에 기본키를 추가합니다. 이 키 필드는 레이어의 속성 테이블에 객체를 추가할 때 값을 입력하지 않아도 되도록 자동 증가 될 것입니다. 
 &lt;h4&gt;새 속성&lt;/h4&gt;
 속성의 이름과 유형을 정한 후에 &lt;label&gt;속성 목록에 추가&lt;/label&gt; 버튼을 클릭하여 원하는 속성을 추가합니다. 오직 실수, 정수와 문자열 속성만 지원됩니다.&lt;br/&gt;
-넓이와 정확도는  SpatiaLite 데이터베이스에서 무관하기 때문에 이것들을 따로 지정할 필요는 없습니다. 
+넓이와 정확도는 SpatiaLite 데이터베이스에서 무관하기 때문에 이것들을 따로 지정할 필요는 없습니다. 
 &lt;h4&gt;속성 목록&lt;/h4&gt;
 속성 목록을 열람할 수 있습니다. 목록 중 하나를 지우기 위해서는 &lt;label&gt;선택된 속성 삭제&lt;/label&gt; 버튼을 선택하고 클릭하면 됩니다.
 
 &lt;p&gt;
-레이어를 생성하고 대화상자를 닫기 위해서는 &lt;label&gt;OK&lt;/label&gt; 를 클릭합니다. &lt;label&gt;적용&lt;/label&gt;을 클릭하여 레이어를 생성할 수 있는데, 이 경우 대화상자를 연채로 레이어를 생성하여 값을 약간만 수정하여 비슷한 레이어를 더 생산할 수도 있습니다.. &lt;label&gt;취소&lt;/label&gt;는 더 이상 변경 없이 레이어를 닫게 합니다.</translation>
+레이어를 생성하고 대화상자를 닫기 위해서는 &lt;label&gt;OK&lt;/label&gt; 를 클릭합니다. &lt;label&gt;적용&lt;/label&gt;을 클릭하여 레이어를 생성할 수 있는데, 이 경우 대화상자를 연 채로 레이어를 생성하여 값을 약간만 수정하여 비슷한 레이어를 더 생산할 수도 있습니다. &lt;label&gt;취소&lt;/label&gt;는 더 이상 변경 없이 레이어를 닫게 합니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1277"/>
@@ -63280,19 +63279,19 @@ system.
 &lt;p&gt;
 Defining a custom CRS in QGIS requires a good understanding of the Proj.4 projection library. To begin, refer to the &lt;a href=&quot;ftp://ftp.remotesensing.org/proj/OF90-284.pdf&quot;&gt;Cartographic Projection Procedures for the UNIX Environment&lt;/a&gt; - A User&apos;s Manual by Gerald I. Evenden, U.S. Geological Survey Open-File Report 90-284, 1990. This manual describes the use of the &lt;i&gt;proj.4&lt;/i&gt; and related command line utilities. The cartographic parameters used with &lt;i&gt;proj.4&lt;/i&gt; are described in the user manual, and are the same as those used by QGIS.
 </source>
-        <translation>&lt;h3&gt;사용자 정의 좌표계&lt;/h3&gt;
+        <translation>&lt;h3&gt;사용자 정의 좌표계 정의&lt;/h3&gt;
 QGIS가 사용자가 원하는 좌표계를 제공하지 않는다면, 사용자 정의 좌표계를 만들 수 있습니다. &lt;p&gt;
 좌표계를 정의하기 위해서는, &lt;label&gt;편집&lt;/label&gt;(맥OS 등의 경우) 또는 &lt;label&gt;설정&lt;/label&gt; (KDE, 윈도우의 경우) 메뉴로 부터 &lt;label&gt;사용자 정의 좌표계&lt;/label&gt;를 선택 합니다. 사용자 정의 좌표계는 QGIS의 사용자 데이터베이스에 저장됩니다. 또한 이 데이터베이스에는 사용자의 지리적 북마크 및 다른 사용자 정의 데이터가 들어갑니다.
 
 &lt;h4&gt;정의하기&lt;/h4&gt;
 새 좌표계를 생성하기 위해서는 &lt;label&gt;새로 만들기&lt;/label&gt; 버튼을 클릭하고 입력합니다:
 &lt;ul&gt;
-&lt;li&gt;기술적인 이름
+&lt;li&gt;서술적인 이름
 &lt;li&gt;좌표계 파라미터
 &lt;/ul&gt; 
 나중에 &lt;label&gt;저장&lt;/label&gt;버튼을 클릭하여 사용자의 좌표계를 저장할 수 있습니다.
 &lt;p&gt;
-파라미터들은 새로운 좌표계를 표현하기 위해 +proj=-block로 시작되어야함을 명심해야 합니다.
+파라미터들이 새로운 좌표계를 표현하기 위해 +proj= 블록으로 시작되어야 함을 명심해야 합니다.
 &lt;p&gt;
 QGIS에서 사용자 정의 좌표계를 만들기 위해서는 Proj.4 투영 라이브러리에 대한 이해가 필요합니다. 처음이신 분은,&lt;a href=&quot;ftp://ftp.remotesensing.org/proj/OF90-284.pdf&quot;&gt;Cartographic Projection Procedures for the UNIX Environment&lt;/a&gt; - 사용자 매뉴얼(Gerald I. Evenden, U.S. Geological Survey Open-File Report 90-284, 1990)을 참고하세요. 이 매뉴얼에는 &lt;i&gt;proj.4&lt;/i&gt; 와 관련된 명령어 활용법들이 설명되어 있습니다. &lt;i&gt;proj.4&lt;/i&gt;와 함께 사용되는 지도제작 파라미터들은 사용자 매뉴얼에도 설명되어 있고, QGIS에도 똑같이 사용되고 있습니다.</translation>
     </message>
@@ -63339,10 +63338,10 @@ geometry types and don&apos;t offer to add others.
 &lt;/ul&gt;
 </source>
         <translation>&lt;h3&gt;새 Oracle 연결 생성하기&lt;/h3&gt;
-이 대화상자는 Oracle 데이터베이스에 연결을 위한 설정을 정의하게 합니다.
+이 대화상자는 Oracle 데이터베이스 연결을 설정할 수 있게 해 줍니다.
 &lt;p&gt;
 &lt;ul&gt;
-&lt;li&gt; &lt;label&gt;이름&lt;/label&gt; 연결 설정을 확인하기 위한 이름.
+&lt;li&gt; &lt;label&gt;이름&lt;/label&gt; 각 연결을 식별하기 위한 이름.
 
 &lt;li&gt; &lt;label&gt;데이터베이스&lt;/label&gt; Oracle 인스턴스의 SID 또는 SERVICE_NAME.
 
@@ -63355,25 +63354,25 @@ geometry types and don&apos;t offer to add others.
 
 &lt;li&gt; &lt;label&gt;사용자 이름 저장하기&lt;/label&gt; 연결 설정에서 데이터베이스 사용자 이름을 저장할지를 정합니다.
 
-&lt;li&gt; &lt;label&gt;암호 저장하기&lt;/label&gt; 연결 설정에서 데이터베이스 암호를 저장할지를 정합니다.  &lt;font color=&quot;red&quot;&gt;암호는 시스템 설정과 프로젝트 파일의 &lt;strong&gt;Clear Text&lt;/strong&gt; 에 저장됩니다!&lt;/font&gt;
+&lt;li&gt; &lt;label&gt;암호 저장하기&lt;/label&gt; 연결 설정에서 데이터베이스 암호를 저장할지를 정합니다.  &lt;font color=&quot;red&quot;&gt;암호는 시스템 설정과 프로젝트 파일에 &lt;strong&gt;암호화 되지 않고&lt;/strong&gt; 저장됩니다!&lt;/font&gt;
 
-&lt;li&gt; &lt;label&gt;메타데이터 테이블만 보기&lt;/label&gt; all_sdo_geom_metadata 뷰의 표시되는 테이블을 제한합니다. 공간 테이블의 초기 도시 속도 향상에 도움을 줍니다.
+&lt;li&gt; &lt;label&gt;메타데이터 테이블만 보기&lt;/label&gt; all_sdo_geom_metadata 뷰에 있는 테이블만 표시되도록 제한합니다. 공간 테이블의 초기 도시 속도 향상에 도움을 줍니다.
 
-&lt;li&gt; &lt;label&gt;사용자 테이블만 보기&lt;/label&gt; 공간 테이블을 검색할 때, 사용자 소유의 테이블 검색을 제한합니다.
+&lt;li&gt; &lt;label&gt;사용자 테이블만 보기&lt;/label&gt; 공간 테이블을 검색할 때, 사용자 소유의 테이블만 검색되도록 제한합니다.
 
-&lt;li&gt; &lt;label&gt;지오메트리 없는 테이블 리스트도 조회하기&lt;/label&gt;  지오메트리 없는 테이블의 리스트도 기본으로 조회됩니다.
+&lt;li&gt; &lt;label&gt;지오메트리 없는 테이블 리스트도 조회하기&lt;/label&gt; 지오메트리 없는 테이블의 리스트도 기본적으로 조회됩니다.
 
 &lt;li&gt; &lt;label&gt;레이어 메타데이터를 위해 추정된 테이블 통계를 사용합니다.&lt;/label&gt;
 레이어가 설정될 때, Oracle 테이블은 다양한 메타데이터를 필요로 합니다.
 이 것은 지오메트리 커럼의 테이블 행 수, 지오메트리 유형과 데이터의 공간 범위와 같은 정보를 포함합니다.
 테이블이 많은 수의 행을 가지고 있으면, 메타데이터를 결정하는 데 많은 시간이 필요합니다.
-이 기능을 활성화 하기 위해, 다음의 빠른 테이블 메타데이터 동작이 수행됩니다.
-행 수는 all_sdo_geom_metadata로 부터 결정됩니다.
-테이블 범위는 레이터 필터가 적용되어 있더라도 항상  SDO_TUNE.EXTENTS_OF 기능과 함께 결정됩니다.
-테이블 지오메트리는 지오메트리 컬럼이 비어 있지 않은 첫 100 행으로부터 결정됩니다.
+이 기능을 활성화 하면, 다음과 같은 빠른 테이블 메타데이터 동작이 수행됩니다:
+행 수는 all_tables.num_rows 부터 결정됨.
+테이블 범위는 레이터 필터가 적용되어 있더라도 항상  SDO_TUNE.EXTENTS_OF 함수로 결정됨.
+테이블 지오메트리 셩식은 지오메트리 컬럼이 비어 있지 않은 첫 100 행으로부터 결정됨.
 
 
-&lt;li&gt; &lt;label&gt;존재하는 지오메트리 유형만&lt;/label&gt; 존재하는 지오메트리의 리스트만 조회하고,,
+&lt;li&gt; &lt;label&gt;존재하는 지오메트리 유형만&lt;/label&gt; 존재하는 지오메트리 형식의 리스트만 보여주고,
 다른 것을 추가하는 기능은 제공하지 않습니다.
 
 &lt;/ul&gt;</translation>
@@ -63405,7 +63404,7 @@ Pressing the &lt;label&gt;Calculate&lt;/label&gt; button will run the shortest p
 &lt;p&gt;In order to bind the start and stop points of the route to the road network Road graph selects the nearest point or arc of the graph. In fact it can bind to any part of the road network. Nevertheless, their route and its characteristics do not take into account the distance from the starting point to the road network and of the road network to the stopping point.&lt;/p&gt;
 </source>
         <translation>&lt;h3&gt;최단 경로 찾기&lt;/h3&gt;
-&lt;p&gt;로드 그래프는  QGIS를 위한 C++ 플러그인으로서, 선 레이어의 두 점사이의 최던 경로를 계산해주고, 로드 네트워크 상에서 경로를 출력합니다. 이 플러그인은 사용하기 전에 설정이 필요합니다. 이 기능은 메뉴 &lt;label&gt;플러그인 &amp;rarr; 로드 그래프 &amp;rarr; 설정&lt;/label&gt;에 있습니다.&lt;/p&gt;
+&lt;p&gt;Road graph는 QGIS를 위한 C++ 플러그인으로서, 선 레이어의 두 점사이의 최던 경로를 계산해주고, 로드 네트워크 상에서 경로를 출력합니다. 이 플러그인은 사용하기 전에 설정이 필요합니다. 이 기능은 메뉴 &lt;label&gt;플러그인 &amp;rarr; Road graph &amp;rarr; 설정&lt;/label&gt;에 있습니다.&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&quot;#howto&quot;&gt;사용법&lt;/a&gt;&lt;br/&gt;
 &lt;/p&gt;
@@ -63417,7 +63416,7 @@ Pressing the &lt;label&gt;Calculate&lt;/label&gt; button will run the shortest p
 &lt;label&gt;계산&lt;/label&gt; 버튼을 누르면 &lt;label&gt;기준&lt;/label&gt; 콤보박스에서 선택된 최적 기준을 이용하여 최단 거리 계산을 수행합니다. &lt;label&gt;내보내기&lt;/label&gt; 버튼으로 계산된 경로를 새 벡터 레이어로 내보내고, &lt;label&gt;클리어&lt;/label&gt; 버튼으로 모든 필드를 지우고, 지도 캔버스의 점들과 계산된 경로를 삭제합니다.&lt;/p&gt;
 
 &lt;h5&gt;주의&lt;/h5&gt;
-&lt;p&gt;루트의 시작점과 끝점을 로드 네트워크상의 경로로 묶기 위해, 로드 그래프는 그래프상에서 가장 가까운 점 혹은 선을 선택합니다. 사실상, 로드 네트워크의 어떤 부분도 묶일 수 있습니다. 그럼에도 불구하고, 경로와 특성은 시작점부터 로드 네트워크까지 그리고 로드네트워크부터 끝점까지의 거리를 고려하지 않습니다.&lt;/p&gt;</translation>
+&lt;p&gt;경로의 시작점과 끝점을 로드 네트워크상의 경로로 묶기 위해, Road graph는 그래프상에서 가장 가까운 점 혹은 선을 선택합니다. 사실상, 로드 네트워크의 어떤 부분도 묶일 수 있습니다. 그럼에도 불구하고, 경로와 특성은 시작점부터 로드 네트워크까지 그리고 로드네트워크부터 끝점까지의 거리를 고려하지 않습니다.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="23"/>
@@ -63459,7 +63458,7 @@ To filter a layer before adding it to the map, double click on its name or use &
 Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for searching in different column types and using 2 search modes: &lt;label&gt;Wildcard&lt;/label&gt; or &lt;label&gt;RegExp&lt;/label&gt;.
 </source>
         <translation>&lt;h3&gt;PostGIS 테이블 추가하기&lt;/h3&gt;
-이 대화상자는 사용자가  PostGIS 레이어(지오메트리 행이 있는 테이블)를 .QGIS 지도 캔번스에 추가하게 해줍니다.
+이 대화상자는 사용자가  PostGIS 레이어(지오메트리 컬럼이 있는 테이블)를 .QGIS 지도 캔버스에 추가하게 해줍니다.
 &lt;p&gt;
 &lt;a href=&quot;#connect&quot;&gt;연결&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#add&quot;&gt;레이어 추가&lt;/a&gt;&lt;br/&gt;
@@ -63493,14 +63492,14 @@ Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for
 &lt;a name=&quot;search&quot;&gt;
 &lt;h4&gt;검색 옵션&lt;/h4&gt;
 &lt;/a&gt;
-&lt;label&gt;검색 옵션&lt;/label&gt;을 체크하시면 추가적인 옵션을 사용가능하게 됩니다. 여기에는 서로 다른 컬럼 형식에 대한 검색과 두 가지 검색 모드(&lt;label&gt;와일드카드&lt;/label&gt; 또는 &lt;label&gt;정규식&lt;/label&gt;)가 있습니다.
+&lt;label&gt;검색 옵션&lt;/label&gt;을 체크하시면 추가적인 옵션을 사용가능하게 됩니다. 여기에는 서로 다른 컬럼 형식에 대한 검색과 두 가지 검색 모드(&lt;label&gt;와일드카드&lt;/label&gt; 또는 &lt;label&gt;정규식&lt;/label&gt;)이 있습니다.
 </translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="256"/>
         <source>&lt;h3&gt;Identify&lt;/h3&gt;
 </source>
-        <translation>&lt;h3&gt;확인하기&lt;/h3&gt;
+        <translation>&lt;h3&gt;정보 확인&lt;/h3&gt;
 </translation>
     </message>
     <message>
@@ -63645,7 +63644,7 @@ The current implementation of diagrams provides support for pie- and bar charts 
 of the diagram size according to a classification attribute.
 </source>
         <translation>&lt;h3&gt;벡터 레이어 속성&lt;/h3&gt;
-벡터 레이어 설정과 속성This dialog allows you to work with vector layer settings and properties. There are seven tabs:
+이 대화상자는 사용자가 백터 레이어 설정과 속성을 이용해 작업할 수 있게 해줍니다. 여기에는 다음과 같은 탭이 있습니다:
 &lt;p&gt;
 &lt;a href=&quot;#symbology&quot;&gt;심볼&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#labels&quot;&gt;라벨&lt;/a&gt;&lt;br/&gt;
@@ -63653,135 +63652,133 @@ of the diagram size according to a classification attribute.
 &lt;a href=&quot;#general&quot;&gt;일반&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#metadata&quot;&gt;메타데이터&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#actions&quot;&gt;액션&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#diagram&quot;&gt;다이어그램 오버레이&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#diagram&quot;&gt;도표 중첩&lt;/a&gt;&lt;br/&gt;
 
 &lt;a name=&quot;symbology&quot;&gt;
 &lt;h4&gt;기호&lt;/h4&gt;
 &lt;/a&gt;
-레이어를 위한 심볼을 변경하기 위해서는 간단하게 범례 엔트리와 벡터를 더블클릭하면 됩니다.&lt;label&gt;레이어 속성&lt;/label&gt; 대화상자가 나타납니다.&lt;p&gt;
-이 대화상자에서 사용자는 사용자의 벡터 레이어를 꾸밀 수 있습니다. 선택된 렌더링 옵션에 따라, 사용자는 사용자 지도 객체도 분류할 수 있습니다.
+레이어의 심볼을 변경하기 위해, 간단히 범례 항목을 더블클릭하면 벡터 &lt;label&gt;레이어 속성&lt;/label&gt; 대화상자가 나타납니다.&lt;p&gt;
+이 대화상자에서 사용자는 벡터 레이어의 스타일을 설정할 수 있습니다. 선택된 렌더링 옵션에 따라서는 지도 객체를 분류할 수도 있습니다.
 
 &lt;h5&gt;범례 유형&lt;/h5&gt;
-QGIS는 백터 객체가 표출되는 방법을 조절하는 다양한 심볼 렌더러를 지원합니다:
+QGIS는 백터 객체가 어떻게 표출될지 조절하는 다수의 심볼 렌더러를 지원합니다:
 &lt;ul&gt;
-&lt;li&gt;&lt;label&gt;단일 심볼&lt;/label&gt; - 단일 스타일이 레이어의 모든 객체에 적용됩니다.
-&lt;li&gt;&lt;label&gt;등급별 심볼&lt;/label&gt; - 레이어의 객체들은 특정 필드 값에 의해 분류된 다른 심볼과 함께 표출 됩니다.
-&lt;li&gt;&lt;label&gt;연속 색상&lt;/label&gt; - 레이어의 객체들은 특정 필드에 있는 수치값들에 의해 분류된 색상의 분포와 함께 표출됩니다.
-&lt;li&gt;&lt;label&gt;고유값&lt;/label&gt; - 객체들은 다른 심볼을 가지고 있는 각각의 값들과 함께 특정 필드의 유일값에 의해 분류됩니다.
+&lt;li&gt;&lt;label&gt;단일 심볼&lt;/label&gt; - 한 가지 스타일이 레이어의 모든 객체에 적용됩니다.
+&lt;li&gt;&lt;label&gt;등급별 심볼&lt;/label&gt; - 레이어의 객체들은 특정 필드 값에 의해 분류된 서로 다른 심볼로 표출 됩니다.
+&lt;li&gt;&lt;label&gt;연속 색상&lt;/label&gt; - 레이어의 객체들은 특정 필드 값에 의해 연속적인 색상으로 표출됩니다.
+&lt;li&gt;&lt;label&gt;고유값&lt;/label&gt; - 객체들은 특정 필드의 유일값에 의해 분류되어 각각의 값이 다른 심볼을 가지게 됩니다.
 &lt;/ul&gt;
 
-&lt;h5&gt;새 심볼 만들기&lt;/h5&gt;
-레이어를 위해 새 심볼 이행을 사용하기 위해 &lt;label&gt;새 심볼 만들기&lt;/label&gt; 버튼을 클릭하세요.
+&lt;h5&gt;새로운 심볼로지&lt;/h5&gt;
+레이어에 새로 구현된 심볼로지를 사용하시려면 &lt;label&gt;새로운 심볼로지&lt;/label&gt; 버튼을 클릭하세요.
 
 &lt;h5&gt;벡터 투명도&lt;/h5&gt;
-QGIS는 모든 벡터 레이어의 투명도를 조절할 수 있습니다. &lt;label&gt;투명도&lt;/label&gt; 슬라이더를 이용하면 됩니다. 이 기능은 여러 벡터 레이러를 오버레이할 때 매우 유용합니다.
+QGIS는 모든 벡터 레이어의 투명도를 조절할 수 있습니다. &lt;label&gt;투명도&lt;/label&gt; 슬라이더를 이용하면 됩니다. 이 기능은 여러 벡터 레이러를 겹칠 때 매우 유용합니다.
 
 &lt;h5&gt;스타일 저장&lt;/h5&gt;
-사용자의 레이어 스타일 작업을 했다면, 레이어 스타일을 별도의 파일 ( *.qml 확장자)로 저장이 가능합니다. 이 기능의 사용을 위해서, &lt;label&gt;스타일 저장...&lt;/label&gt;버튼을 클릭하세요. &lt;label&gt;스타일 불러오기...&lt;/label&gt;는 사용자가 저장한 레이어 스타일 파일을 불러옵니다.&lt;br/&gt;
-레이어를 불러올 때는 언제나 특별한 스타일을 항상 사용하길 원한다면, 사용자의 기본 스타일로 만들기 위해, &lt;label&gt;기본으로 저장&lt;/label&gt; 버튼을 이용하면 됩니다. 또한, 스타일을 변경하고 싶으면, 사용자의 기본 스타일로 되돌리기 위해, &lt;label&gt;기본 스타일 회귀&lt;/label&gt; 버튼을 이용하면 됩니다.
+사용자가 레이어 스타일 작업을 했다면, 레이어 스타일을 별도의 파일( *.qml 확장자)로 저장이 가능합니다. 이 기능을 사용하시려면 &lt;label&gt;스타일 저장...&lt;/label&gt;버튼을 클릭하세요. &lt;label&gt;스타일 불러오기...&lt;/label&gt;는 사용자가 저장한 레이어 스타일 파일을 불러옵니다.&lt;br/&gt;
+레이어를 불러올 때 언제나 특별한 스타일을 항상 사용하길 원한다면, 사용자의 기본 스타일로 만들기 위해, &lt;label&gt;기본 스타일로 저장&lt;/label&gt; 버튼을 이용하면 됩니다. 또, 변경한 스타일이 마음에 들지 않는다면, 기본 스타일로 돌리기 위해 &lt;label&gt;기본 스타일 다시 불러오기&lt;/label&gt; 버튼을 사용하면 됩니다.
 
 &lt;a name=&quot;labels&quot;&gt;
 &lt;h4&gt;라벨&lt;/h4&gt;
 &lt;/a&gt;
-라벨 탭은 사용자가 객체 라벨링을 가능하게 하고, 폰트, 배치, 스타일, 벼열과 버퍼링과 같은 많은 옵션을 조절하게 해줍니다.&lt;br/&gt;
+라벨 탭은 사용자가 객체 라벨링을 가능하게 하고 글꼴, 배치, 스타일, 정렬, 테두리와 같은 많은 옵션을 조절하게 해줍니다.&lt;br/&gt;
 라벨링을 하기 위해 &lt;label&gt;라벨 표시&lt;/label&gt; 체크 박스를 체크합니다.
 
 &lt;h5&gt;기본 라벨 옵션&lt;/h5&gt;
-라벨을 할 필드를 선택하세요.&lt;p&gt;
-폰트와 색상을 조정하기 위해 &lt;label&gt;폰트&lt;/label&gt; 와 &lt;label&gt;색상&lt;/label&gt; 버튼 사용을 선택하세요. 텍스트 라벨의 각도와 배치를 변경할 수도 있습니다.&lt;p&gt;
-라벨을 여러 선 위로 확장하기 위해서는, &lt;label&gt;다중 선 라벨?&lt;/label&gt;을 확인하세요. QGIS 는 사용자 라벨 필드의 진선 회귀를 확인하고 그에 맞춰 선 끊김을 삽입합니다. 진선 회귀는 단일 캐릭터 &amp;#92;n 입니다, (두 개의 별도의 캐릭터가 아닙니다. 역 슬래쉬와 같고 &amp;#92; n이 뒤에 붙습니다..).
+라벨을 표시할 필드를 선택하세요.&lt;p&gt;
+폰트와 색상을 조정하기 위해 &lt;label&gt;글꼴&lt;/label&gt;과 &lt;label&gt;색상&lt;/label&gt; 버튼 사용하세요. 텍스트 라벨의 각도와 배치를 변경할 수도 있습니다.&lt;p&gt;
+라벨을 여러 줄로 표시하기 위해서는, &lt;label&gt;다중행 라벨?&lt;/label&gt;에 체크하세요. QGIS 는 레벨 필드에서 개행문자를 확인하고, 여기에 줄넘김을 적절히 삽입합니다. 개행문자는 단일 문자 &amp;#92;n 입니다, (두 개의 별도의 문자가 아닙니다. 역 슬래쉬 &amp;#92; 뒤에 n이 붙습니다..).
 
 &lt;h5&gt;배치&lt;/h5&gt;
 &lt;label&gt;배치&lt;/label&gt; 그룹에서 라디오 버튼 중 하나를 선택하여 라벨 배치를 변경합니다.
 
-&lt;h5&gt;폰트 사이즈 유닛&lt;/h5&gt;
-&lt;label&gt;폰트 사이즈 유닛&lt;/label&gt;은 사용자가 &lt;label&gt;점&lt;/label&gt; 또는 &lt;label&gt;지도 유닛&lt;/label&gt;사이를 선택하게 해줍니다.
+&lt;h5&gt;폰트 크기 단위&lt;/h5&gt;
+사용자가 &lt;label&gt;폰트 크기 단위&lt;/label&gt;로 &lt;label&gt;포인트&lt;/label&gt; 또는 &lt;label&gt;지도 단위&lt;/label&gt;중 하나를 선택할 수 있습니다.
 
-&lt;h5&gt;라벨 버퍼&lt;/h5&gt;
-라벨을 버퍼하는 것은 라벨 주변의 배경을 넣어 좀 더 두드러기게 하는 것을 의미합니다. 호수 라벨을 버퍼하기 위해:
+&lt;h5&gt;라벨 테두리&lt;/h5&gt;
+라벨 테두리는 라벨 주변에 배경을 넣어 좀 더 두드러지게 하는 것을 의미합니다. 라벨 테두리를 만들기 위해:
 &lt;ol&gt;
-&lt;li&gt;버퍼링을 가능하게 하기 위해 &lt;label&gt;라벨 버퍼&lt;/label&gt; 체크 상자를 클릭합니다.
-&lt;li&gt;스핀 상자를 사용하여 버퍼 사이즈를 선택합니다.
-&lt;li&gt;&lt;label&gt;색상&lt;/label&gt;을 클릭하고 색생 선택표에서 선호하는 색을 선택하여 색상을 선택합니다. 또한 원한다면 약간의 투명도도 조절할 수 있습니다.
-&lt;li&gt;변경한 내용이 괜찮은지 확인하기 위해서는 &lt;label&gt;적용하기&lt;/label&gt;를 클릭합니다.
+&lt;li&gt;&lt;label&gt;라벨 테두리&lt;/label&gt; 체크 상자를 클릭하여 테두리를 활성화 합니다.
+&lt;li&gt;스핀 상자를 사용하여 테두리 크기를 선택합니다.
+&lt;li&gt;&lt;label&gt;색상&lt;/label&gt;을 클릭하고 색상 선택표에서 원하는 색을 선택합니다. 또 필요하면 투명도도 약간 조절해 줍니다.
+&lt;li&gt;변경한 내용이 괜찮은지 확인하기 위해서는 &lt;label&gt;적용&lt;/label&gt;을 클릭합니다.
 &lt;/ol&gt;
-지도에서 버퍼 사이즈를 명시할 수 있습니다.
-유닛, 사용자에게 좋게 동작한다면
+사용자에게 더 잘 맞는다면 지도단위로 테두리 크기를 설정할 수도 있습니다.
 
-&lt;h5&gt;배치, 속성, 버퍼, 위치가 정의된 데이터&lt;/h5&gt;
-&lt;label&gt;라벨&lt;/label&gt; 탭안에 있는 나머지 엔트리는 사용자가 레이어에 저장된 속성을 사용하여 라벨의 외형을 조절할 수 있게 해줍니다. 엔트리는 &lt;label&gt;정의된 데이터&lt;/label&gt;로 시작하는 엔트리는 사용자가 레이어에 있는 필드를 사용하여 라벨의 모든 파라미터들을 조정하도록 해줍니다.
+&lt;h5&gt;데이터에 의한 배치, 속성, 테두리, 위치 설정&lt;/h5&gt;
+&lt;label&gt;라벨&lt;/label&gt; 탭안에 있는 나머지 요소들은 사용자가 레이어에 저장된 속성을 사용하여 라벨의 외형을 조절할 수 있게 해줍니다. 엔트리는 &lt;label&gt;데이터에 따른&lt;/label&gt;으로 시작하는 항목은 사용자가 레이어에 있는 필드를 사용하여 라벨의 모든 파라미터들을 조정하도록 해줍니다.
 
 
 &lt;a name=&quot;attributes&quot;&gt;
 &lt;h4&gt;속성&lt;/h4&gt;
 &lt;/a&gt;
-&lt;label&gt;속성&lt;/label&gt; 탭안에 있는 선택된 데이터의 속성은 조종될 수 있습니다. 데이터 세트가 편집 모드일 때, &lt;label&gt;새로운 행&lt;/label&gt; 과 &lt;label&gt;행 삭제&lt;/label&gt; 버튼을 사용할 수 있습니다. 설치된 GDAL 버전이 1.6보다 상위버전이라면, OGR 라이브러리는 삭제가 아니라 새로운 행을 추가하는 것을 지원합니다. 그렇지 않으면, PostGIS 레이어에서는 오직 행만 편집이 가능합니다.&lt;p&gt;
-&lt;label&gt;편집 모드 토글&lt;/label&gt; 버튼은 이 모드를 토글합니다.&lt;p&gt;
-속성 탭에 위젯 행 편집 기능이 있습니다. 이 행은 값이나 특정 속성 테이블 행에 추가되는 값의 범위를 정의하는데 사용될 수 있습니다. &lt;label&gt;위젯 편집&lt;/label&gt; 버튼을 클릭하면, 다른 위젯을 정의할 수 있는 대화상자가 열립니다. 이 위젯들은:&lt;br/&gt;
+&lt;label&gt;속성&lt;/label&gt; 탭 안에서 선택된 데이터 셋의 속성을 조정할 수있습니다. 데이터 셋이 편집모드일 때, &lt;label&gt;새 컬럼&lt;/label&gt;과 &lt;label&gt;컬럼 삭제&lt;/label&gt; 버튼을 사용할 수 있습니다. 설치된 GDAL 버전이 1.6보다 상위버전이라면, OGR 라이브러리는 컬럼 추가는 허용하지만 삭제는 허용하지 않습니다. 그렇지 않으면, PostGIS 레이어에 있는 컬럼만 편집 가능합니다.&lt;p&gt;
+&lt;label&gt;편집 모드 전환&lt;/label&gt; 버튼은 편집 모드를 켜지거나 꺼진 상태로 전환합니다.&lt;p&gt;
+속성 탭에는 편집 위젯 컬럼도 있습니다. 이 컬럼은 속성 테이블 컬럼에 추가될 수 있는 값이나 값의 범위를 정의하는데 사용할 수 있습니다. &lt;label&gt;편집 위젯&lt;/label&gt; 버튼을 클릭하면, 다른 위젯을 정의할 수 있는 대화상자가 열립니다. 이 위젯들은:&lt;br/&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;label&gt;선 편집&lt;/label&gt; 간단한 텍스트를 입력하는 것 (또는 수치 속성의 숫자를 제한하는 것)을 가능케 하는 편집 필드.
+&lt;li&gt;&lt;label&gt;행 편집&lt;/label&gt; 간단한 텍스트를 입력하는 것 (또는 수치 속성의 숫자를 제한하는 것)을 가능케 하는 편집 필드.
 &lt;li&gt;&lt;label&gt;분류&lt;/label&gt; 속성 대화상자의 심볼 탭의 범례 유형으로서, &lt;label&gt;고유값&lt;/label&gt;을 선택한다면, 분류에 사용되는 값과 함께 콤보 상자를 표시합니다.
-&lt;li&gt;&lt;label&gt;범위&lt;/label&gt; 특정한 범위의 수치 값을 조정할 수 있습니다. 편집 위젯은 스핀 상자나 스파이더 형태일 것입니다.
-&lt;li&gt;&lt;label&gt;고유값&lt;/label&gt; 속성 테이블에서 이미 사용된 값 중 하나를 선택할 수 있습니다. &lt;label&gt;편집가능&lt;/label&gt; 기능이 활성화 되면, 선 편집이 자동 완성 지원과 함께 보여지지만, 추가로 값의 추가가 가능하고, 그렇지 않으면 콤보 상자가 사용됩니다.
-&lt;li&gt;&lt;label&gt;파일명&lt;/label&gt; 파일 추가 대화상자에 의해 선택이 간단합니다.
-&lt;li&gt;&lt;label&gt;값 지도&lt;/label&gt; 기 정의된 항목들이 콤보박스에 보여집니다.. 값은 속성에 정의되어 있고, 설명이 콤보박스에 보여집니다. 값을 수동으로 정의할 수 있고, 레이어나 csv 파일에서 불러들일 수 있습니다.
-&lt;li&gt;&lt;label&gt;열거&lt;/label&gt; 행 유형에서 사용될 수 있는 값들의 콤보 박스를 엽니다. 이 기능은 현재 Postgres 제공자에 의해서만 지원됩니다.
-&lt;li&gt;&lt;label&gt;불변&lt;/label&gt; 불변 속성 행은 읽기 전용입니다. 사용자는 해당 컨텐츠의 수정을 할 수 없습니다.
+&lt;li&gt;&lt;label&gt;범위&lt;/label&gt; 특정한 범위의 수치 값을 조정할 수 있습니다. 편집 위젯은 스핀 상자나 슬라이더 형태일 것입니다.
+&lt;li&gt;&lt;label&gt;고유값&lt;/label&gt; 속성 테이블에서 이미 사용된 값 중 하나를 선택할 수 있습니다. &lt;label&gt;편집가능&lt;/label&gt; 기능이 활성화 되면, 행 편집이 자동 완성 기능과 함께 제공되 값의 추가도 가능해지고, 활성화 되지 않으면 콤보 상자로 사용됩니다.
+&lt;li&gt;&lt;label&gt;파일명&lt;/label&gt; 추가적인 파일 선택 대화상자로 간단히 선택할 수 있습니다..
+&lt;li&gt;&lt;label&gt;값 맵&lt;/label&gt; 기 정의된 항목들이 콤보박스에 보여집니다. 값은 속성에 정의되어 있고, 설명이 콤보박스에 보여집니다. 값을 수동으로 정의할 수도 있고, 레이어나 csv 파일에서 불러들일 수도 있습니다.
+&lt;li&gt;&lt;label&gt;열거값&lt;/label&gt; 행 유형따라 사용될 수 있는 값들이 있는 콤보 박스를 엽니다. 이 기능은 현재 Postgres 프로바이더만 지원됩니다.
+&lt;li&gt;&lt;label&gt;불변값&lt;/label&gt; 불변값 속성 행은 읽기 전용입니다. 사용자는 해당 컨텐츠의 수정을 할 수 없습니다.
 &lt;li&gt;&lt;label&gt;숨기기&lt;/label&gt; 숨겨진 속성 행은 사용자에게 보여지지 않습니다.
-&lt;li&gt;&lt;label&gt;체크박스&lt;/label&gt; 체크 박스가 보여집니다. 속성의 체크 박스의 상태를 보여주는 값이 입력되어야 합니다.
-&lt;li&gt;&lt;label&gt;텍스트 편집&lt;/label&gt; 텍스트 편집 필드가 보여지고, 다중 선 텍스트 입력이 가능합니다.
+&lt;li&gt;&lt;label&gt;체크박스&lt;/label&gt; 체크 박스가 보여집니다. 속성에 체크 박스의 상태를 나타내는 값이 입력됩니다.
+&lt;li&gt;&lt;label&gt;텍스트 편집&lt;/label&gt; 텍스트 편집 필드가 보여지고, 다중행 문자열 입력이 가능합니다.
 &lt;/ul&gt;
 
 &lt;a name=&quot;general&quot;&gt;
 &lt;h4&gt;일반&lt;/h4&gt;
 &lt;/a&gt;
-일반 탭에서 사용자는 표시명을 변경할 수 있고, 규모 종속 렌더링 옵션을 조절할 수 있고, 벡터 파일(OGR 지원 포멧과  PostGIS만)의 공간 인덱스를 생성할 수 있고, 특정 벡터 레이어의 투영을 보거나 변경할 수 있습니다.&lt;p&gt;
-사용자는 또한 &lt;label&gt;쿼리 생성기&lt;/label&gt;를 사용하여 프로바이더 상세 필터 표현식을 조정할 수 있습니다.
+일반 탭에서 사용자는 표시명을 변경할 수 있고, 스케일에 따른 렌더링 옵션을 조절할 수 있고, 벡터 파일(OGR 지원 포멧과  PostGIS만)의 공간 인덱스를 생성할 수 있고, 특정 벡터 레이어의 투영을 보거나 변경할 수 있습니다.&lt;p&gt;
+사용자는 또한 &lt;label&gt;질의 생성기&lt;/label&gt;를 사용하여 프로바이더 상세 필터 표현식을 조정할 수 있습니다.
 
-&lt;h5&gt;부분집합&lt;/h5&gt;
-&lt;label&gt;쿼리 생성기&lt;/label&gt; 버튼은 특정 필터 표현 프로바이더와 맞는 부분집합에 레이어의 객체를 제한합니다.
+&lt;h5&gt;서브셋&lt;/h5&gt;
+&lt;label&gt;쿼리 생성기&lt;/label&gt; 버튼은 프로바이더 별 필터 식에 해당되는 서브셋으로 레이어의 객체를 제한할 수 있게 합니다.
 
 &lt;a name=&quot;metadata&quot;&gt;
 &lt;h4&gt;메타데이터&lt;/h4&gt;
 &lt;/a&gt;
-&lt;label&gt;메타데이터&lt;/label&gt; 탭에는 유형과 지역의 레부 정보, 객체 수, 객체 유형과 편집 가능성등을 포함하는 레이어 정보가 있습니다. 투영범 정보를 제공하는 레이어 공간 참조 시스템 섹션이 해당 탭에 표시됩니다. 레이어 정보를 획득하는 빠른 방법입니다..
+&lt;label&gt;메타데이터&lt;/label&gt; 탭은 유형과 위치, 객체 수, 편집 가능성 등의 레이어에 대한 정보를 담고 있습니다. 프로젝션 정보를 제공하는 레이어 투영법 섹션이 이 탭에 표시됩니다. 이 탭에서 레이어에 대한 정보를 빨리 볼 수 있습니다. 
 
 &lt;a name=&quot;actions&quot;&gt;
 &lt;h4&gt;액션&lt;/h4&gt;
 &lt;/a&gt;
-QGIS는 객체의 속성에 기반한 액션을 수행하는 기능을 제공합니다. 모든 액션들, 예를 들면, 객체의 속성으로부터 만들어진 인수들을 가진 프로그램을 돌리거나 파라미터들을 웹 보고 도구에 보내는 것등을 수행하는데 사용될 수 있습니다. &lt;br/&gt;
+QGIS는 객체의 속성에 기반한 액션을 수행하는 기능을 제공합니다. 모든 액션들, 예를 들면, 객체의 속성으로부터 만들어진 인수들을 가진 프로그램을 돌리거나 파라미터들을 웹 보고 도구에 보내는 것 등을 수행하는데 사용될 수 있습니다. &lt;br/&gt;
 액션은 사용자가 자주 외부 애플리케이션을 실행하거나 사용자의 벡터 레이어에 있는 하나 이상의 값들에 기반한 웹 페이지를 볼 때 매우 유용합니다.&lt;p&gt;
 
-액션의 새로운 수행은 평가를 하는데 QGIS 표현식 엔진을 사용합니다. 각각의 표현식은 실행 시간의 결과에 의해 평가되거나 대체됩니다.&lt;p&gt;
-표현식은 &lt;code&gt;[%&lt;/code&gt; 와 &lt;code&gt;%]&lt;/code&gt; 사이에 둘러싸여 있어야 합니다.- GUI는 사용자를 위해 자동으로 하게 해주는 몇 개의 버튼이 있습니다. 
-&lt;label&gt;표현식 삽입...&lt;/label&gt; 버튼은 표현식을 쉽게 쓸 수 있게 해주는 &lt;label&gt;표현식 생성기&lt;/label&gt; 를 시작하게 하고, &lt;label&gt;필드 삽입&lt;/label&gt; 버튼은 필드명이 필드 드랍다운 목록에서 선택된 필드 이름의 &lt;code&gt;[% &quot;필드명&quot; %]&lt;/code&gt;과 같은 플레이스홀더 액션을 삽입합니다.&lt;p&gt;
+새로 구현된 액션은 계산에 QGIS 표현식 엔진을 사용합니다. 각각의 표현식은 런타임 결과에 의해 계산되고 대체됩니다.&lt;p&gt;
+표현식은 &lt;code&gt;[%&lt;/code&gt; 와 &lt;code&gt;%]&lt;/code&gt; 사이에 둘러싸여 있어야 합니다.- GUI에 사용자를 위해 자동으로 이를 해주는 몇 개의 버튼이 있습니다. 
+&lt;label&gt;표현식 삽입...&lt;/label&gt; 버튼은 표현식을 쉽게 쓸 수 있게 해주는 &lt;label&gt;표현식 생성기&lt;/label&gt; 를 시작하게 하고, &lt;label&gt;필드 삽입&lt;/label&gt; 버튼은 필드명이 필드 드랍다운 목록에서 선택된 필드 이름의 &lt;code&gt;[% &quot;필드명&quot; %]&lt;/code&gt;과 같은 위치지시자 액션을 삽입합니다.&lt;p&gt;
 
-상세 정보를 위해 사용자 가이드를 봅니다.
+상세 정보가 필요하시면 사용자 가이드를 보십시오.
 
 &lt;h5&gt;액션 사용&lt;/h5&gt;
-도구상자의 &lt;label&gt;결과 확인&lt;/label&gt; 대화상자 또는 &lt;label&gt;객체 액션 실행&lt;/label&gt; 도구로 부터 적용될 수 있습니다.&lt;p&gt;
+액션은 도구상자의 &lt;label&gt;객체확인 결과&lt;/label&gt; 대화상자 또는 툴바의 &lt;label&gt;객체 액션 실행&lt;/label&gt; 도구로 부터 호출할 수 있습니다.&lt;p&gt;
 
-각각의 액션은 사용자 정의 표현식의 소집합을 &lt;label&gt;표현식 만들기&lt;/label&gt;에서 가능한 기본 집합에 추가합니다.&lt;br/&gt;
-While running actions from the &lt;label&gt;결과 확인&lt;/label&gt; 대화상자로붙 액션을 실행하는 동안, ,사용자 정의 표현식 &lt;code&gt;$currfield&lt;/code&gt; 는 &lt;label&gt;객체 액션 실행&lt;/label&gt; 도구를 사용하여 대화상자에서 선택된 필드의 값으로 대체됩니다. 다음의 사용자 정의 표현식이 가능합니다($currfield 대신에):
+각각의 액션은 사용자 정의 표현식의 소집합을 &lt;label&gt;표현식 생성기&lt;/label&gt;에 있는 기본 집합에 추가합니다.&lt;br/&gt;
+&lt;label&gt;객체확인 결과&lt;/label&gt; 대화상자로부터 액션을 실행하는 동안, ,사용자 정의 표현식 &lt;code&gt;$currfield&lt;/code&gt;는 &lt;label&gt;객체 액션 실행&lt;/label&gt; 도구를 사용하여 대화상자에서 선택된 필드의 값으로 대체됩니다. 다음의 사용자 정의 표현식을 ($currfield 대신에) 사용할 수 있습니다:
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;$clickx&lt;/code&gt; 은 캔버스의 클릭 위치의 x 좌표를 반환합니다.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;$clicky&lt;/code&gt; 은 캔버스의 클릭 위치의 y 좌표를 반환합니다.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;$layerid&lt;/code&gt; 범례의 선택된 레이어의 ID를 반환합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$clickx&lt;/code&gt; 은 캔버스 클릭 위치의 x 좌표를 반환합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$clicky&lt;/code&gt; 은 캔버스 클릭 위치의 y 좌표를 반환합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$layerid&lt;/code&gt; 범례에서 선택된 레이어의 ID를 반환합니다.&lt;/li&gt;
 &lt;/ul&gt;
 
-안내: &lt;label&gt;결과 확인&lt;/label&gt;은 사용자가 선택한 상세 객체만 수행을 하게 하는 반면에, &lt;label&gt;객체 액션 실행&lt;/label&gt; 도구는 모든 적합한 객체의 액션을 수행합니다. 
+주의: &lt;label&gt;객체확인 결과&lt;/label&gt;는 사용자가 선택한 객체만 액션을 수행을 하게 하는 반면에, &lt;label&gt;객체 액션 실행&lt;/label&gt; 도구는 해당되는 모든 객체에 액션을 수행합니다. 
 
 
-&lt;h5&gt;액션 예제Action Examples&lt;/h5&gt;
+&lt;h5&gt;액션 예제&lt;/h5&gt;
 사용자는 &lt;label&gt;기본 액션 추가&lt;/label&gt; 버튼을 클릭하여, 예제 액션을 추가할 수 있습니다.
 
 
 &lt;a name=&quot;diagram&quot;&gt;
-&lt;h4&gt;대화상자 중첩&lt;/h4&gt;
+&lt;h4&gt;도표 중첩&lt;/h4&gt;
 &lt;/a&gt;
-대화상자 탭에서 사용자는 그래픽 오버레이를 벡터 레이어에 추가할 수 있습니다. 이 기능을 활성화 하기 위해서는, &lt;label&gt;플러그인 관리자&lt;/label&gt; 를 열고 &lt;label&gt;대화상자 중첩&lt;/label&gt; 플러그인을 선택합니다.그 후에, 대화상자의 설정을 입력할 수 있는 벡터 &lt;label&gt;레이어 속성&lt;/label&gt; 대화상자에 새로운 탭이 나타납니다.&lt;p&gt;
-대화상자의 현재 수행은 파이, 막대 차트, 선형 스케일링을 지원합니다. 
-분류 속성에 따라 대화상자 크기의.</translation>
+도표 탭에서 사용자는 그래픽 오버레이를 벡터 레이어에 추가할 수 있습니다. 이 기능을 활성화 하기 위해서는, &lt;label&gt;플러그인 관리자&lt;/label&gt; 를 열고 &lt;label&gt;도표 중첩&lt;/label&gt; 플러그인을 선택합니다.그 후에, 도표 설정을 입력할 수 있는 새로운 탭이 벡터 &lt;label&gt;레이어 속성&lt;/label&gt; 대화상자에 나타납니다.&lt;p&gt;
+현재 구현된 도표는 파이 및 막대 그래프와 분류된 속성값에 따른 도표 크기에 대한 선형 스케일링을 지원합니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="470"/>
@@ -64416,7 +64413,7 @@ This plugin supports basic HTML markup tags for formatting text. For example:
 </source>
         <translation>&lt;h3&gt;저작권 라벨 플러그인&lt;/h3&gt;
 정보를 가진 저작권 라벨을 그립니다.&lt;br/&gt;
-저작권 라벨뿐만아니라 임의의 텍스트를 추가할수도 있습니다.
+저작권 라벨뿐만아니라 임의의 텍스트를 추가할 수도 있습니다.
 &lt;p&gt;
 &lt;a href=&quot;#howto&quot;&gt;방법&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#text&quot;&gt;텍스트 포맷팅&lt;/a&gt;&lt;br/&gt;
@@ -64764,7 +64761,7 @@ CRS &apos;즉시&apos; 변환을 사용하려면 &lt;label&gt;CRS &apos;즉시&a
 &lt;a name=&quot;layers&quot;&gt;
 &lt;h4&gt; 식별가능 레이어 탭 &lt;/ h4&gt;
 &lt;/a&gt;
-이 탭을 통해 식별 도구가 작동되는 레이어를 선택할 수 있습니다.</translation>
+이 탭을 통해 객체 확인 도구가 작동되는 레이어를 선택할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1345"/>
@@ -65466,7 +65463,7 @@ Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for
 &lt;a name=&quot;filter&quot;&gt;
 &lt;h4&gt;레이어 필터링&lt;/h4&gt;
 &lt;/a&gt;
-지도에 레이어를 추가하기 전에 필터링 하려면, 레이어 이름을 더블클릭 하거나 레이어를 선택하고 &lt;label&gt;질의 만들기&lt;/label&gt; 버튼을 클릭합니다. 이렇게 하면 질의 생성기가 열려, 사용자가 레코드 필터링에 사용할 SQL을 만들수 있게 해줍니다.
+지도에 레이어를 추가하기 전에 필터링 하려면, 레이어 이름을 더블클릭 하거나 레이어를 선택하고 &lt;label&gt;질의 작성&lt;/label&gt; 버튼을 클릭합니다. 이렇게 하면 질의 생성기가 열려, 사용자가 레코드 필터링에 사용할 SQL을 만들수 있게 해줍니다.
 
 &lt;a name=&quot;search&quot;&gt;
 &lt;h4&gt;검색 옵션&lt;/h4&gt;
@@ -66213,7 +66210,7 @@ if layer.isValid():
        &lt;li&gt;&lt;tt&gt;xField=fieldname&lt;/tt&gt; X 좌표를 포함하고 있는 필드의 이름이나 순번(1에서 시작함)을 지정합니다. (wktField가 정의되지 않은 경우만 적용됨)&lt;/li&gt;
        &lt;li&gt;&lt;tt&gt;yField=fieldname&lt;/tt&gt; Y 좌표를 포함하고 있는 필드의 이름이나 순번(1에서 시작함)을 지정합니다. (wktField가 정의되지 않은 경우만 적용됨)&lt;/li&gt;
        &lt;li&gt;&lt;tt&gt;geomType=(auto|point|line|polygon|none)&lt;/tt&gt; WKT 필드의 지오메트리 타입을 지정하거나 속성만 있는 테이블을 읽기 위해 none을 지정합니다.  기본값은 auto 입니다.&lt;/li&gt;
-       &lt;li&gt;&lt;tt&gt;subset=expression&lt;/tt&gt; 레코드의 서브셋을 인식시키는데 사용할 식을 지정합니다.&lt;/li&gt;
+       &lt;li&gt;&lt;tt&gt;subset=expression&lt;/tt&gt; 레코드의 서브셋을 인식시키는데 사용할 표현식을 지정합니다.&lt;/li&gt;
        &lt;li&gt;&lt;tt&gt;crs=...&lt;/tt&gt; 벡터 레이어가 사용할 좌표계를 지정합니다. 이것은 QgsCoordinateReferenceSystem.createFromString 
 	   에서 사용할 수 있는 형식(예: &amp;quot;EPSG:4167&amp;quot;))이어야 합니다. 
 	   만약 지정되지 않으면 (QGIS 좌표계 설정에 따라)레이어가 읽혀질 때 사용자에게 이 정보를 요구하기 위한 대화상자가 필요합니다.&lt;/li&gt;
@@ -66240,10 +66237,10 @@ Click on one of the icons along the top of the composer window to select what ty
 &lt;/p&gt;
 
 </source>
-        <translation>&lt;h3&gt;출력 구성&lt;/h3&gt;
+        <translation>&lt;h3&gt;인쇄 구성&lt;/h3&gt;
 
 &lt;p&gt;
-출력 구성은 페이지에 아이템을 배치하고, 이것들을 출력할 수 있게 합니다. 아이템에는 지도 캔버스, 스케일 바, 범례, 임의의 이미지 등이 포함됩니다.
+인쇄 구성은 페이지에 아이템을 배치하고, 이것들을 인쇄할 수 있게 합니다. 아이템에는 지도 캔버스, 스케일 바, 범례, 임의의 이미지 등이 포함됩니다.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -67174,7 +67171,7 @@ Plugin will not be enabled.</source>
     </message>
     <message>
         <source>List unique values</source>
-        <translation>고유 값 목록</translation>
+        <translation>고유값 목록 보기</translation>
     </message>
     <message>
         <source>Nearest neighbour analysis</source>
@@ -68211,7 +68208,7 @@ actually inserted, ie. when building queries.
 &lt;/p&gt;
 </source>
         <translation>&lt;h3&gt;필드&lt;/h3&gt;
-식 문자열에 필드 이름을 추가하기위해 더블클릭 합니다.
+표현식 문자열에 필드 이름을 추가하기위해 더블클릭 합니다.
 &lt;br&gt;&lt;br&gt;
 필드 이름에서 오른쪽 클릭하면 샘플 값을 가진 컨텍스트 메뉴를 호출할 수 있습니다.
 
@@ -68905,7 +68902,7 @@ Returns a string with the the supplied string replaced.
 This group contains functions to handle conditional checks in expressions.
 </source>
         <translation>&lt;h3&gt;조건문 그룹&lt;/h3&gt;
-이 그룹에는 식 안에서 조건 검사를 처리하는 함수들이 있습니다.</translation>
+이 그룹에는 표현식 안에서 조건 검사를 처리하는 함수들이 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression_texts.cpp" line="942"/>
@@ -69237,7 +69234,7 @@ return a result.
 &lt;/pre&gt;
 </source>
         <translation>&lt;h3&gt;CASE 식&lt;/h3&gt;
-여러 개의 식을 평가하고 결과를 반환하는 데 사용할 수있는 조건 식입니다.
+여러 개의 표현식을 평가하고 결과를 반환하는 데 사용할 수있는 조건 식입니다.
 
 &lt;h4&gt;문법&lt;/h4&gt;
 &lt;pre&gt;
@@ -70189,7 +70186,7 @@ This function can take any number of arguments.
 
 </source>
         <translation>&lt;h3&gt;coalesce() 함수&lt;/h3&gt;
-식 리스트에서 첫 번째 널이 아닌 값을 반환
+표현식 리스트에서 첫 번째 널이 아닌 값을 반환
 &lt;br&gt;
 이 함수는 인자를 몇개라도 받을 수 있음
 
@@ -70197,7 +70194,7 @@ This function can take any number of arguments.
 &lt;code&gt;coalesce(expression1, expression2 ...)&lt;/code&gt;&lt;br&gt;
 
 &lt;h4&gt;인자&lt;/h4&gt;
-&lt;code&gt;expression&lt;/code&gt; - 유효한 식 혹은 값, 유형 상관 없음.
+&lt;code&gt;expression&lt;/code&gt; - 유효한 표현식 혹은 값, 유형 상관 없음.
 &lt;br&gt;
 
 &lt;h4&gt;예제&lt;/h4&gt;
@@ -70723,7 +70720,7 @@ Double click to add field name to expression string.
 Right-Click on field name to open context menu sample value loading options.
 </source>
         <translation>&lt;h3&gt;필드&lt;/h3&gt;
-식 문자열에 필드 이름을 추가하기위해 더블클릭 합니다.
+표현식 문자열에 필드 이름을 추가하기위해 더블클릭 합니다.
 &lt;br&gt;&lt;br&gt;
 필드 이름에서 오른쪽 클릭하면 샘플 값을 가진 컨텍스트 메뉴를 호출할 수 있습니다.
 </translation>
@@ -72614,7 +72611,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="342"/>
         <source>Recode categorical raster using reclassification rules</source>
-        <translation>재분류 규칙을 이용하여 분류한 ​​래스터를 다시 코딩</translation>
+        <translation>재분류 규칙을 이용하여 분류한 래스터를 다시 코딩</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="343"/>
@@ -73393,7 +73390,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     </message>
     <message>
         <source>Number of unique values:</source>
-        <translation>독특한 값의 갯수:</translation>
+        <translation>고유값의 갯수:</translation>
     </message>
     <message>
         <source>Range:</source>
