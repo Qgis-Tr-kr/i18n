@@ -942,7 +942,7 @@ Query:
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="81"/>
         <source>Update options</source>
-        <translation>설정 업데이트</translation>
+        <translation>설정 갱신</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgImportVector.ui" line="93"/>
@@ -1970,12 +1970,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmVectorGrid.ui" line="41"/>
         <source>Update extents from layer</source>
-        <translation>레이어 범위로 영역 업데이트</translation>
+        <translation>레이어 범위로 영역 갱신</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmVectorGrid.ui" line="54"/>
         <source>Update extents from canvas</source>
-        <translation>캔버스 범위로 영역 업데이트</translation>
+        <translation>캔버스 범위로 영역 갱신</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmVectorGrid.ui" line="169"/>
@@ -2319,7 +2319,7 @@ Following field names are longer than 10 characters:
     </message>
     <message>
         <source>Layer CRS information will be updated to the selected CRS.</source>
-        <translation>레이어 좌표계 정보가 선택된 좌표계로 업데이트됩니다.</translation>
+        <translation>레이어 좌표계 정보가 선택된 좌표계로 갱신됩니다.</translation>
     </message>
     <message>
         <source>Created output shapefiles in folder:
@@ -6032,7 +6032,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Layer &apos;{0}&apos; updated</source>
-        <translation>레이어 &apos;{0}&apos; 업데이트 됨</translation>
+        <translation>레이어 &apos;{0}&apos; 갱신 됨</translation>
     </message>
     <message>
         <source>Simplify geometries</source>
@@ -6127,7 +6127,7 @@ Would you like to add the new layer to the TOC?</source>
     </message>
     <message>
         <source>Layer &apos;%1&apos; updated</source>
-        <translation type="obsolete">레이어 &apos;%1&apos; 업데이트 됨</translation>
+        <translation type="obsolete">레이어 &apos;%1&apos; 갱신 됨</translation>
     </message>
     <message>
         <source>Error writing output shapefile.</source>
@@ -6422,12 +6422,12 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/plugins/heatmap/heatmap.cpp" line="163"/>
         <source>Raster update error</source>
-        <translation>래스터 업데이트 오류</translation>
+        <translation>래스터 갱신 오류</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmap.cpp" line="163"/>
         <source>Could not open the created raster for updating. The heatmap was not generated.</source>
-        <translation>업데이트 할 래스터를 열지 못했습니다. 온도지도가 생성되지 않았습니다.</translation>
+        <translation>갱신 할 래스터를 열지 못했습니다. 온도지도가 생성되지 않았습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/heatmap/heatmap.cpp" line="206"/>
@@ -6809,7 +6809,7 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/qgisapp.ui" line="111"/>
         <source>&amp;Decorations</source>
-        <translation>장식(&amp;D)</translation>
+        <translation>꾸미기(&amp;D)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="226"/>
@@ -6849,7 +6849,7 @@ GEOS 공간 연산 오류: 하나 이상의 객체의 지오메트리가 잘못�
     <message>
         <location filename="../src/ui/qgisapp.ui" line="318"/>
         <source>Advanced Digitizing</source>
-        <translation>고급	디지타이징</translation>
+        <translation>고급 디지타이징</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="343"/>
@@ -7432,7 +7432,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="793"/>
         <source>Snapping Options...</source>
-        <translation>스냅 옵션...</translation>
+        <translation>맞추기 옵션...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="805"/>
@@ -8663,7 +8663,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Snapping ON. Hold Ctrl to disable it.</source>
-        <translation type="obsolete">스냅이 켜져있음. 무시하려면 Ctrl 누른채로.</translation>
+        <translation type="obsolete">맞추기가 켜져있음. 무시하려면 Ctrl 누른채로.</translation>
     </message>
     <message>
         <source>Hide OSM Edit History</source>
@@ -9003,7 +9003,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Node update failed.</source>
-        <translation type="obsolete">노드 업데이트 실패.</translation>
+        <translation type="obsolete">노드 갱신 실패.</translation>
     </message>
     <message>
         <source>Node deletion failed.</source>
@@ -9015,7 +9015,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Way update failed.</source>
-        <translation type="obsolete">도로 업데이트 실패.</translation>
+        <translation type="obsolete">도로 갱신 실패.</translation>
     </message>
     <message>
         <source>Way deletion failed.</source>
@@ -9027,7 +9027,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Relation update failed.</source>
-        <translation type="obsolete">관계 업데이트 실패.</translation>
+        <translation type="obsolete">관계 갱신 실패.</translation>
     </message>
     <message>
         <source>Relation deletion failed.</source>
@@ -9791,11 +9791,11 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
     </message>
     <message>
         <source>CopyrightLabel</source>
-        <translation type="obsolete">카피라이트 라벨</translation>
+        <translation type="obsolete">저작권 라벨</translation>
     </message>
     <message>
         <source>Draws copyright information</source>
-        <translation type="obsolete">카피라이트 정보 출력</translation>
+        <translation type="obsolete">저작권 정보 출력</translation>
     </message>
     <message>
         <location filename="../src/plugins/coordinate_capture/coordinatecapture.cpp" line="54"/>
@@ -9860,7 +9860,7 @@ GRASS 설치 경로(GISBASE)를 지정하시겠습니까?</translation>
     </message>
     <message>
         <source>Displays a north arrow overlayed onto the map</source>
-        <translation type="obsolete">지도에 북쪽 방향 화살표를 표시</translation>
+        <translation type="obsolete">지도에 방위표를 표시</translation>
     </message>
     <message>
         <source>ScaleBar</source>
@@ -11411,7 +11411,7 @@ You are seeing this message most likely because you have no DISPLAY environment 
     <message>
         <location filename="../src/core/symbology-ng/qgssymbollayerv2registry.cpp" line="33"/>
         <source>Line decoration</source>
-        <translation>선 장식</translation>
+        <translation>선 꾸미기</translation>
     </message>
     <message>
         <location filename="../src/core/symbology-ng/qgssymbollayerv2registry.cpp" line="36"/>
@@ -13778,7 +13778,7 @@ Please contact the developers.
     <message>
         <location filename="../src/app/qgisapp.cpp" line="1527"/>
         <source>Shows the map coordinates at the current cursor position. The display is continuously updated as the mouse is moved. It also allows editing to set the canvas center to a given position. The format is lat,lon or east,north</source>
-        <translation>커시 위치의 지도상 좌표를 보여줍니다. 마우스가 움직일때마다 지속적으로 값이 변경됩니다. 또한 변경하시면 캔버스 중앙의 좌표값을 바꿀 수 있습니다. 형식은 경/위도 혹은 동/북 임</translation>
+        <translation>커시 위치의 지도상 좌표를 보여줍니다. 마우스가 움직일때마다 지속적으로 값이 갱신됩니다. 또한 변경하시면 캔버스 중앙의 좌표값을 바꿀 수 있습니다. 형식은 경/위도 혹은 동/북 임</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="1531"/>
@@ -14128,7 +14128,7 @@ Please contact the developers.
     </message>
     <message>
         <source>API Updates</source>
-        <translation type="obsolete">API 업데이트되었습니다.</translation>
+        <translation type="obsolete">API 갱신되었습니다.</translation>
     </message>
     <message>
         <source>QgsDataProvider &amp;amp; QgsMapLayer: add dataChanged() signal, so that a provider can signal that the datasource changed</source>
@@ -14416,11 +14416,11 @@ Please contact the developers.
     </message>
     <message>
         <source>Snapping Options...</source>
-        <translation type="obsolete">스냅 옵션...</translation>
+        <translation type="obsolete">맞추기 옵션...</translation>
     </message>
     <message>
         <source>Manage the background snapping options</source>
-        <translation type="obsolete">배경 스냅 옵션 관리</translation>
+        <translation type="obsolete">배경 맞추기 옵션 관리</translation>
     </message>
     <message>
         <source>, hold ctrl to add/subtract current selection</source>
@@ -14762,7 +14762,7 @@ Always ignore these errors?</source>
     </message>
     <message>
         <source>Shows the map coordinates at the current cursor position. The display is continuously updated as the mouse is moved. It also allows editing to set the canvas center to a given position.</source>
-        <translation type="obsolete">커서 위치의 지도 좌표를 표시합니다. 마우스가 움직일 때마다 업데이트됩니다. 또한 지정한 위치를 중심으로 지도 영역을 변경할 수 있습니다.</translation>
+        <translation type="obsolete">커서 위치의 지도 좌표를 표시합니다. 마우스가 움직일 때마다 갱신됩니다. 또한 지정한 위치를 중심으로 지도 영역을 변경할 수 있습니다.</translation>
     </message>
     <message>
         <source>Current map coordinate (formatted as x,y)</source>
@@ -14883,7 +14883,7 @@ This copy of QGIS writes debugging output.</source>
     </message>
     <message>
         <source>Update srs.db to include grid reference.</source>
-        <translation type="obsolete">그리드 참조를 추가하도록 srs.db를 업데이트하였습니다.</translation>
+        <translation type="obsolete">그리드 참조를 추가하도록 srs.db를 갱신하였습니다.</translation>
     </message>
     <message>
         <source>Added a native (C++) raster calculator implementation which can deal with large rasters efficiently.</source>
@@ -15151,7 +15151,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>User interface updates</source>
-        <translation type="obsolete">사용자 인터페이스 업데이트</translation>
+        <translation type="obsolete">사용자 인터페이스 갱신</translation>
     </message>
     <message>
         <source>Allow managing missing layers in a list.</source>
@@ -15235,7 +15235,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Feature form updates</source>
-        <translation type="obsolete">객체 양식 업데이트</translation>
+        <translation type="obsolete">객체 양식 갱신</translation>
     </message>
     <message>
         <source>Make NULL value string representation configurable.</source>
@@ -15243,7 +15243,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Fix feature updates in feature form from attribute table.</source>
-        <translation type="obsolete">속성 테이블에서 객체 양식의 객체 업데이트가 수정되었습니다.</translation>
+        <translation type="obsolete">속성 테이블에서 객체 양식의 객체 갱신이 수정되었습니다.</translation>
     </message>
     <message>
         <source>Add support for NULL values in value maps (comboboxes).</source>
@@ -15255,7 +15255,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Support feature form expression fields: line edits on the form which name prefix &quot;expr_&quot; are evaluated. Their value is interpreted as field calculator string and replaced with the calculated value.</source>
-        <translation type="obsolete">객체 폼 계산 지원: 객체 양식 필드의 행 편집에서 &quot;expr_&quot;로 시작하는 이름은 표현식으로 계산됩니다. 값은 필드 계산자로 해석되어 계산된 값으로 대체됩니다.</translation>
+        <translation type="obsolete">객체 폼 계산 지원: 객체 양식 필드의 행 편집에서 &quot;expr_&quot;로 시작하는 이름은 표현식으로 계산됩니다. 값은 필드 계산기 문자열로 해석되어 계산된 값으로 대체됩니다.</translation>
     </message>
     <message>
         <source>Support searching for NULL in attribute table.</source>
@@ -15267,7 +15267,7 @@ QWT 버전: %1.</translation>
     </message>
     <message>
         <source>Improved interactive attribute editing in table (adding/deleting features, attribute update).</source>
-        <translation type="obsolete">테이블의 대화형 속성 편집 기능이 향상되었습니다. (객체 추가/삭제 , 속성 갱신)</translation>
+        <translation type="obsolete">테이블의 대화형 속성 편집 기능이 향상되었습니다. (객체 추가/삭제, 속성 갱신)</translation>
     </message>
     <message>
         <source>Allow adding of geometryless features.</source>
@@ -16122,7 +16122,7 @@ Errors: %2
     <message>
         <location filename="../src/app/qgisapp.cpp" line="8710"/>
         <source>&lt;p&gt;This project file was saved by an older version of QGIS. When saving this project file, QGIS will update it to the latest version, possibly rendering it useless for older versions of QGIS.&lt;p&gt;Even though QGIS developers try to maintain backwards compatibility, some of the information from the old project file might be lost. To improve the quality of QGIS, we appreciate if you file a bug report at %3. Be sure to include the old project file, and state the version of QGIS you used to discover the error.&lt;p&gt;To remove this warning when opening an older project file, uncheck the box &apos;%5&apos; in the %4 menu.&lt;p&gt;Version of the project file: %1&lt;br&gt;Current version of QGIS: %2</source>
-        <translation>&lt;p&gt;이 프로젝트 파일은 다른 이전 버전 QGIS에서 저장되었고 이 프로젝트가 저장될 때 QGIS 프로젝트 파일을 최신 버전으로 저장됩니다. 이 경우 이전 버전의 QGIS에서 사용할 수 없는 표현이 업데이트됩니다.&lt;p&gt;QGIS 개발자는 하위 호환성을 유지하려고 노력하지만 이전 프로젝트의 일부 정보가 손실될 것입니다. QGIS의 품질을 향상시키기 위해 %3에 버그 보고서를 해 주실 수 있으면 감사하겠습니다. 이 경우 이전 프로젝트 파일과 오류를 발견한 QGIS 버전을 포함하는 것을 잊지 마십시오.&lt;p&gt;이전 프로젝트 파일을 열 때마다이 경고가 표시되는 것을 중지 하기 위해서는 %4 메뉴의 &apos;%5&apos; 체크를 취소하십시오.&lt;p&gt;프로젝트 파일 버전: %1&lt;br&gt;QGIS 버전: %2</translation>
+        <translation>&lt;p&gt;이 프로젝트 파일은 다른 이전 버전 QGIS에서 저장되었고 이 프로젝트가 저장될 때 QGIS 프로젝트 파일을 최신 버전으로 저장됩니다. 이 경우 이전 버전의 QGIS에서 사용할 수 없는 표현이 갱신됩니다.&lt;p&gt;QGIS 개발자는 하위 호환성을 유지하려고 노력하지만 이전 프로젝트의 일부 정보가 손실될 것입니다. QGIS의 품질을 향상시키기 위해 %3에 버그 보고서를 해 주실 수 있으면 감사하겠습니다. 이 경우 이전 프로젝트 파일과 오류를 발견한 QGIS 버전을 포함하는 것을 잊지 마십시오.&lt;p&gt;이전 프로젝트 파일을 열 때마다이 경고가 표시되는 것을 중지 하기 위해서는 %4 메뉴의 &apos;%5&apos; 체크를 취소하십시오.&lt;p&gt;프로젝트 파일 버전: %1&lt;br&gt;QGIS 버전: %2</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="4692"/>
@@ -16914,12 +16914,12 @@ SVG 검색 경로:	%7
     </message>
     <message>
         <source>Update action</source>
-        <translation type="obsolete">액션 업데이트</translation>
+        <translation type="obsolete">액션 갱신</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributeactiondialogbase.ui" line="449"/>
         <source>Update the selected action</source>
-        <translation>선택된 액션을 업데이트</translation>
+        <translation>선택된 액션을 갱신</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributeactiondialogbase.ui" line="412"/>
@@ -17047,7 +17047,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/ui/qgsattributeactiondialogbase.ui" line="452"/>
         <source>Update selected action</source>
-        <translation>선택된 액션 업데이트</translation>
+        <translation>선택된 액션 갱신</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributeactiondialogbase.ui" line="209"/>
@@ -20613,7 +20613,7 @@ Please try a lower resolution or a smaller papersize</source>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="825"/>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="856"/>
         <source>Legend updated</source>
-        <translation>범례가 변경됨</translation>
+        <translation>범례가 갱신됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerlegendwidget.cpp" line="845"/>
@@ -20649,22 +20649,22 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="147"/>
         <source>Update legend. User defined labels are preserved.</source>
-        <translation>범례가 변경되었습니다. 사용자 정의된 라벨이 보존되었습니다.</translation>
+        <translation>범례를 갱신함. 사용자 정의 라벨이 보존됨.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="150"/>
         <source>Update item</source>
-        <translation>항목이 변경됨</translation>
+        <translation>항목 갱신</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="163"/>
         <source>Update whole legend. Layers are added/removed according to main application legend. User defined labels will be deleted.</source>
-        <translation>전체 범례가 변경되었습니다. 주요 어플리케이션에 따라 레이어가 추가/삭제됩니다. 사용자가 정의한 라벨은 삭제됩니다.</translation>
+        <translation>전체 범례 갱신. 주요 어플리케이션 범례에 따라 레이어가 추가/삭제됩니다. 사용자가 정의한 라벨은 삭제됩니다.</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="166"/>
         <source>Update all</source>
-        <translation>모두 변경됨</translation>
+        <translation>모두 갱신</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="255"/>
@@ -20875,7 +20875,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="358"/>
         <source>Auto Update</source>
-        <translation>자동 업데이트</translation>
+        <translation>자동 갱신</translation>
     </message>
     <message>
         <source>v</source>
@@ -20919,7 +20919,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Update</source>
-        <translation type="obsolete">업데이트</translation>
+        <translation type="obsolete">갱신</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="133"/>
@@ -21630,7 +21630,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscomposermapwidgetbase.ui" line="102"/>
         <source>Update preview</source>
-        <translation>미리보기 변경하기</translation>
+        <translation>미리보기 갱신</translation>
     </message>
 </context>
 <context>
@@ -21826,19 +21826,19 @@ Please try a lower resolution or a smaller papersize</source>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="422"/>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="426"/>
         <source>Line Ticks Middle</source>
-        <translation>선 틱 중앙으로</translation>
+        <translation>선 눈금 중앙으로</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="41"/>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="430"/>
         <source>Line Ticks Down</source>
-        <translation>선 틱 아래로</translation>
+        <translation>선 눈금 아래로</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="42"/>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="434"/>
         <source>Line Ticks Up</source>
-        <translation>선 틱 위로</translation>
+        <translation>선 눈금 위로</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="43"/>
@@ -21935,7 +21935,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="364"/>
         <source>Scalebar stroke color changed</source>
-        <translation>스케일바 스트로크 색상이 변경됨</translation>
+        <translation>스케일바 선 색상이 변경됨</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposerscalebarwidget.cpp" line="381"/>
@@ -22083,12 +22083,12 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscomposerscalebarwidgetbase.ui" line="413"/>
         <source>Fill color...</source>
-        <translation>색상 채우기...</translation>
+        <translation>채우기 색상...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerscalebarwidgetbase.ui" line="420"/>
         <source>Stroke color...</source>
-        <translation>스트로크 색상...</translation>
+        <translation>선 색상...</translation>
     </message>
     <message>
         <source>Height </source>
@@ -22311,7 +22311,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="262"/>
         <source>Table grid stroke</source>
-        <translation>테이블 격자 스트로크</translation>
+        <translation>테이블 격자 선</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposertablewidget.cpp" line="329"/>
@@ -23015,7 +23015,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscompositionwidgetbase.ui" line="415"/>
         <source>Snap to alignments</source>
-        <translation>정렬 스냅 </translation>
+        <translation>정렬에 맞추기 </translation>
     </message>
     <message>
         <location filename="../src/ui/qgscompositionwidgetbase.ui" line="436"/>
@@ -23089,12 +23089,12 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>Snapping</source>
-        <translation type="obsolete">스냅</translation>
+        <translation type="obsolete">맞추기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscompositionwidgetbase.ui" line="265"/>
         <source>Snap to grid</source>
-        <translation>그리드에 스냅</translation>
+        <translation>그리드에 맞추기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscompositionwidgetbase.ui" line="249"/>
@@ -23364,7 +23364,7 @@ failed with error: %3
     </message>
     <message>
         <source>&amp;Decorations</source>
-        <translation type="obsolete">장식(&amp;D)</translation>
+        <translation type="obsolete">꾸미기(&amp;D)</translation>
     </message>
 </context>
 <context>
@@ -23488,7 +23488,7 @@ p, li { white-space: pre-wrap; }
         <source>You can download a more complete set of cpt-city gradients by installing the &quot;Color Ramp Manager&quot; plugin (you must enable Experimental plugins in the plugin manager).
 
 </source>
-        <translation>&quot;색상 램프 관리자&quot; 플러그인을 설치(플러그인 관리자의 실험 플러그인이 가능해야 함 )하여 cpt-city 그래디언트의 더욱 완전한 세트를 내려받을수 있습니다.</translation>
+        <translation>&quot;색상 램프 관리자&quot; 플러그인을 설치(플러그인 관리자의 실험적인 플러그인을 활성화 함)하여 cpt-city 그래디언트의 더욱 완전한 세트를 내려받을수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgscptcitycolorrampv2dialog.cpp" line="293"/>
@@ -23512,7 +23512,7 @@ and current file is [%3]</source>
 
 설치하려면 아래 두가지 방법이 있습니다.:
 
-1) &quot;색상 램프 관리자&quot; 파이썬 플러그인(플러그인 관리자의 실험 플러그인이 가능해야 함 )을 설치하고  최신 cpt-city 패키지를 내려받으세요.
+1) &quot;색상 램프 관리자&quot; 파이썬 플러그인(플러그인 관리자의 실험적인 플러그인을 활성화 함)을 설치하고  최신 cpt-city 패키지를 내려받으세요.
 전체 cpt-city 판 또는 QGIS용으로 선택해 설치할수 있습니다.
 
 2) 전체 판(svg 형식의 경우)을 내려받고 QGIS의 세팅 디렉토리[%1]에 압축을 푸세요.
@@ -24573,7 +24573,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdecorationgriddialog.ui" line="274"/>
         <source>Update Interval / Offset from</source>
-        <translation>간격 / 오프셋으로 업데이트</translation>
+        <translation>간격 / 오프셋 갱신</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdecorationgriddialog.ui" line="280"/>
@@ -24650,7 +24650,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdecorationnortharrow.cpp" line="190"/>
         <source>North arrow pixmap not found</source>
-        <translation>방위 기호 이미지를 찾을 수 없음</translation>
+        <translation>방위표 이미지를 찾을 수 없음</translation>
     </message>
 </context>
 <context>
@@ -24703,7 +24703,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdecorationnortharrowdialog.ui" line="131"/>
         <source>Enable North Arrow</source>
-        <translation>방위 기호 사용</translation>
+        <translation>방위표 사용</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdecorationnortharrowdialog.ui" line="147"/>
@@ -24741,12 +24741,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsdecorationscalebar.cpp" line="58"/>
         <source>Tick Down</source>
-        <translation>틱 다운</translation>
+        <translation>눈금을 아래로</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdecorationscalebar.cpp" line="58"/>
         <source>Tick Up</source>
-        <translation>틱 업</translation>
+        <translation>눈금을 위로</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdecorationscalebar.cpp" line="59"/>
@@ -24864,12 +24864,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdecorationscalebardialog.ui" line="97"/>
         <source>Tick Down</source>
-        <translation>틱 다운</translation>
+        <translation>눈금을 위로</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdecorationscalebardialog.ui" line="102"/>
         <source>Tick Up</source>
-        <translation>틱 업</translation>
+        <translation>눈금을 아래로</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsdecorationscalebardialog.ui" line="107"/>
@@ -24903,7 +24903,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsdecorationscalebardialog.ui" line="181"/>
         <source>Automatically snap to round number on resize</source>
-        <translation>크기변경시 자동으로 반올림값에 스냅</translation>
+        <translation>크기변경시 자동으로 반올림값에 맞추기</translation>
     </message>
     <message>
         <location filename="../src/app/qgsdecorationscalebardialog.cpp" line="35"/>
@@ -25255,7 +25255,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/providers/delimitedtext/qgsdelimitedtextprovider.cpp" line="1054"/>
         <source>The file has been updated by another application - reloading</source>
-        <translation>이 파일은 다른 응용프로그램에 의해 업데이트 되었음 - 다시부르기</translation>
+        <translation>이 파일은 다른 응용프로그램에 의해 갱신 되었음 - 다시부르기</translation>
     </message>
 </context>
 <context>
@@ -26714,22 +26714,22 @@ Parser error:
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="42"/>
         <source>Chain (fast)</source>
-        <translation>체인(고속)</translation>
+        <translation>Chain (빠름)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="47"/>
         <source>Popmusic Tabu</source>
-        <translation>대중 음악 금기</translation>
+        <translation>Popmusic Tabu</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="52"/>
         <source>Popmusic Chain</source>
-        <translation>대중 음악 체인</translation>
+        <translation>Popmusic Chain</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="57"/>
         <source>Popmusic Tabu Chain</source>
-        <translation>대중 음악 금기 체인</translation>
+        <translation>Popmusic Tabu Chain</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsengineconfigdialog.ui" line="62"/>
@@ -27204,12 +27204,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsfieldcalculatorbase.ui" line="135"/>
         <source>Update existing field</source>
-        <translation>기존의 필드를 업데이트</translation>
+        <translation>기존의 필드를 갱신</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsfieldcalculatorbase.ui" line="20"/>
         <source>Only update selected features</source>
-        <translation>선택되어 있는 피처에만 업데이트</translation>
+        <translation>선택되어 있는 객체만 갱신</translation>
     </message>
     <message>
         <source>New field</source>
@@ -27350,7 +27350,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Field calculator expression</source>
-        <translation type="obsolete">필드 계산 표현식</translation>
+        <translation type="obsolete">필드 계산기 표현식</translation>
     </message>
 </context>
 <context>
@@ -27803,7 +27803,7 @@ MyForms.py 은 PYTHONPATH 에 등록되어 있어야 한다, .qgis/python, 또�
     <message>
         <location filename="../src/plugins/gps_importer/qgsgpsdevicedialogbase.ui" line="73"/>
         <source>Update</source>
-        <translation>업데이트</translation>
+        <translation>갱신</translation>
     </message>
     <message>
         <location filename="../src/plugins/gps_importer/qgsgpsdevicedialogbase.ui" line="155"/>
@@ -30416,12 +30416,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassattributesbase.ui" line="185"/>
         <source>Update</source>
-        <translation>업데이트</translation>
+        <translation>갱신</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassattributesbase.ui" line="182"/>
         <source>Update database record</source>
-        <translation>데이터베이스 레코드 업데이트</translation>
+        <translation>데이터베이스 레코드 갱신</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassattributesbase.ui" line="213"/>
@@ -30646,7 +30646,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="241"/>
         <source>Cannot open vector for update.</source>
-        <translation>업데이트를 위한 벡터를 열 수 없습니다.</translation>
+        <translation>갱신을 위해 벡터를 열 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassedit.cpp" line="699"/>
@@ -30846,7 +30846,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrasseditbase.ui" line="162"/>
         <source>Snapping in screen pixels</source>
-        <translation>화면 픽셀 스냅</translation>
+        <translation>화면 픽셀에 맞추기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrasseditbase.ui" line="213"/>
@@ -32654,7 +32654,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/grass/qgsgrassplugin.cpp" line="597"/>
         <source>Cannot open vector for update.</source>
-        <translation>업데이트를 위한 벡터를 열 수 없습니다.</translation>
+        <translation>갱신을 위해 벡터를 열 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/qgsgrassplugin.cpp" line="641"/>
@@ -35895,7 +35895,7 @@ This may be a problem in your network connection or at the WMS server.</source>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="880"/>
         <source>&amp;Update Drawing Order</source>
-        <translation>그리기 순서 업데이트(&amp;U)</translation>
+        <translation>그리기 순서 갱신(&amp;U)</translation>
     </message>
     <message>
         <location filename="../src/app/legend/qgslegend.cpp" line="1997"/>
@@ -36365,7 +36365,7 @@ not displayed</source>
     <message>
         <location filename="../src/gui/qgsmapcanvas.cpp" line="449"/>
         <source>Canvas refresh: %1 ms</source>
-        <translation>Canvas refresh: %1 ms</translation>
+        <translation>캔버스 새로고침: %1 ms</translation>
     </message>
     <message>
         <location filename="../src/gui/qgsmapcanvas.cpp" line="453"/>
@@ -36434,7 +36434,7 @@ not displayed</source>
     <message>
         <location filename="../src/plugins/georeferencer/qgsmapcoordsdialogbase.ui" line="61"/>
         <source>Snap to background layers</source>
-        <translation>백그라운드 레이어에 스냅</translation>
+        <translation>백그라운드 레이어에 맞추기</translation>
     </message>
 </context>
 <context>
@@ -36469,12 +36469,12 @@ not displayed</source>
     <message>
         <location filename="../src/core/qgsmaplayer.cpp" line="1078"/>
         <source>The style %1 was updated in the database.</source>
-        <translation>스타일 %1이 데이터베이스에 업데이트되었습니다.</translation>
+        <translation>스타일 %1이 데이터베이스에 갱신되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgsmaplayer.cpp" line="1083"/>
         <source>The style %1 could not be updated in the database.</source>
-        <translation>스타일 %1을 데이터베이스에 업데이트 실패했습니다.</translation>
+        <translation>스타일 %1을 데이터베이스에 갱신 실패했습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgsmaplayer.cpp" line="1089"/>
@@ -37402,12 +37402,12 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmaptoolvertexedit.cpp" line="46"/>
         <source>Snap tolerance</source>
-        <translation>스냅 허용치</translation>
+        <translation>맞추기 허용치</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmaptoolvertexedit.cpp" line="47"/>
         <source>Could not snap segment. Have you set the tolerance in Settings &gt; Snapping Options?</source>
-        <translation>세그먼트를 스냅할 수 없습니다. 설정 &gt; 스냅 옵션 메뉴에서 허용치를 설정했습니까?</translation>
+        <translation>세그먼트에 맞추기 할 수 없습니다. 설정 &gt; 맞추기 옵션 메뉴에서 허용치를 설정하셨습니까?</translation>
     </message>
     <message>
         <source>Don&apos;t show this message again</source>
@@ -37415,11 +37415,11 @@ not displayed</source>
     </message>
     <message>
         <source>Could not snap segment.</source>
-        <translation type="obsolete">세그먼트에 스냅할 수 없습니다.</translation>
+        <translation type="obsolete">세그먼트에 맞추기 할 수 없습니다.</translation>
     </message>
     <message>
         <source>Have you set the tolerance in Settings &gt; Project Properties &gt; General?</source>
-        <translation type="obsolete">설정&gt;프로젝트 속성&gt;일반 정보 메뉴에서 스냅 허용치을 설정 했습니까?</translation>
+        <translation type="obsolete">설정&gt;프로젝트 속성&gt;일반 정보 메뉴에서 맞추기 허용치를 설정 했습니까?</translation>
     </message>
 </context>
 <context>
@@ -38141,7 +38141,7 @@ http://my.host.com/cgi-bin/mapserv.exe</translation>
     <message>
         <location filename="../src/ui/qgsmssqlnewconnectionbase.ui" line="221"/>
         <source>Also list tables with no geometry</source>
-        <translation>지오메트리가 없는 테이블 목록도 표시</translation>
+        <translation>지오메트리가 없는 테이블 목록도 보기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsmssqlnewconnectionbase.ui" line="228"/>
@@ -39166,7 +39166,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Remove selected attribute</source>
-        <translation type="obsolete">선택 속성을 제거</translation>
+        <translation type="obsolete">선택 속성 제거</translation>
     </message>
 </context>
 <context>
@@ -39339,19 +39339,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;North Arrow</source>
-        <translation type="obsolete">방위 기호(&amp;N)</translation>
+        <translation type="obsolete">방위표(&amp;N)</translation>
     </message>
     <message>
         <source>Creates a north arrow that is displayed on the map canvas</source>
-        <translation type="obsolete">지도 캔버스에 표시되는 방위 기호를 생성</translation>
+        <translation type="obsolete">지도 캔버스에 표시되는 방위표를 생성</translation>
     </message>
     <message>
         <source>&amp;Decorations</source>
-        <translation type="obsolete">데코레이션(&amp;D)</translation>
+        <translation type="obsolete">꾸미기(&amp;D)</translation>
     </message>
     <message>
         <source>North arrow pixmap not found</source>
-        <translation type="obsolete">방위 기호 이미지를 찾을 수 없습니다.</translation>
+        <translation type="obsolete">방위표 이미지를 찾을 수 없습니다.</translation>
     </message>
 </context>
 <context>
@@ -39365,7 +39365,7 @@ p, li { white-space: pre-wrap; }
     <name>QgsNorthArrowPluginGuiBase</name>
     <message>
         <source>North Arrow Plugin</source>
-        <translation type="obsolete">방위 기호 플러그인</translation>
+        <translation type="obsolete">방위표 플러그인</translation>
     </message>
     <message>
         <source>Angle</source>
@@ -39381,7 +39381,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Enable North Arrow</source>
-        <translation type="obsolete">방위 기호 사용</translation>
+        <translation type="obsolete">방위표 사용</translation>
     </message>
     <message>
         <source>Top Left</source>
@@ -39405,7 +39405,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Preview of north arrow</source>
-        <translation type="obsolete">방위 기호 미리보기</translation>
+        <translation type="obsolete">방위표 미리보기</translation>
     </message>
 </context>
 <context>
@@ -40175,11 +40175,11 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>%v / %m feature updates</source>
-        <translation type="obsolete">%v / %m 객체 업데이트됨</translation>
+        <translation type="obsolete">%v / %m 객체 갱신됨</translation>
     </message>
     <message>
         <source>%v / %m feature geometry updates</source>
-        <translation type="obsolete">%v / %m 객체 지오메트리 업데이트됨</translation>
+        <translation type="obsolete">%v / %m 객체 지오메트리 갱신됨</translation>
     </message>
     <message>
         <location filename="../src/core/qgsofflineediting.cpp" line="788"/>
@@ -40260,12 +40260,12 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/plugins/offline_editing/offline_editing_plugin.cpp" line="180"/>
         <source>%v / %m feature updates</source>
-        <translation>%v / %m 객체 업데이트됨</translation>
+        <translation>%v / %m 객체 갱신됨</translation>
     </message>
     <message>
         <location filename="../src/plugins/offline_editing/offline_editing_plugin.cpp" line="183"/>
         <source>%v / %m feature geometry updates</source>
-        <translation>%v / %m 객체 지오메트리 업데이트됨</translation>
+        <translation>%v / %m 객체 지오메트리 갱신됨</translation>
     </message>
 </context>
 <context>
@@ -40473,7 +40473,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1074"/>
         <source>Feature %1 for attribute update not found.</source>
-        <translation>속성 업데이트에 대한 객체 %1이 발견되지 않았습니다.</translation>
+        <translation>속성 갱신할 객체 %1이 발견되지 않았습니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1087"/>
@@ -41092,17 +41092,17 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="720"/>
         <source>Popmusic tabu chain (slow)</source>
-        <translation>팝뮤직 타부 체인 (느림)</translation>
+        <translation>Popmusic tabu chain (느림)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="721"/>
         <source>Popmusic tabu (slow)</source>
-        <translation>팝뮤직 타부 (느림)</translation>
+        <translation>Popmusic tabu (느림)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="722"/>
         <source>Popmusic chain (very slow)</source>
-        <translation>팝뮤직 체인 (아주 느림)</translation>
+        <translation>Popmusic chain (아주 느림)</translation>
     </message>
 </context>
 <context>
@@ -41115,7 +41115,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1633"/>
         <source>Map display will be updated (drawn) after this many features have been read from the data source</source>
-        <translation>지도보기는 데이터 소스에서 다음 수의 객체를 읽은 후 업데이트 (그리기)됨</translation>
+        <translation>지도보기는 데이터 소스에서 다음 수의 객체를 읽은 후 갱신 (그리기)됨</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="653"/>
@@ -41200,7 +41200,7 @@ Always network: always load from network and do not check if the cache has a val
         <location filename="../src/ui/qgsoptionsbase.ui" line="196"/>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3642"/>
         <source>Locale</source>
-        <translation>언어선택</translation>
+        <translation>언어설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1509"/>
@@ -41274,7 +41274,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2990"/>
         <source>Snapping</source>
-        <translation>스냅</translation>
+        <translation>맞추기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2678"/>
@@ -41374,7 +41374,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Open snapping options  in a dock window (QGIS restart required)</source>
-        <translation type="obsolete">도킹 윈도우에 스냅 옵션 열기 (QGIS 재시작 필요)</translation>
+        <translation type="obsolete">도킹 윈도우에 맞추기 옵션 열기 (QGIS 재시작 필요)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1271"/>
@@ -41960,7 +41960,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1648"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; Set below 1000 to prevent display updates until all features have been rendered</source>
-        <translation>&lt;b&gt;참고:&lt;/b&gt; 모든 객체가 만들어질 때까지 화면 업데이트를 막기위해 1000 이하로 설정</translation>
+        <translation>&lt;b&gt;참고:&lt;/b&gt; 모든 객체가 만들어질 때까지 화면 갱신을 막기위해 1000 이하로 설정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2008"/>
@@ -42060,7 +42060,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3120"/>
         <source>Open snapping options in a dock window (QGIS restart required)</source>
-        <translation>도킹 윈도우에 스냅 옵션 열기 (QGIS 재시작 필요)</translation>
+        <translation>도킹 윈도우에 맞추기 옵션 열기 (QGIS 재시작 필요)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3209"/>
@@ -42198,7 +42198,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2996"/>
         <source>Default snap mode</source>
-        <translation>기본 스냅 모드</translation>
+        <translation>기본 맞추기 모드</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3130"/>
@@ -42307,7 +42307,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3013"/>
         <source>Default snapping tolerance</source>
-        <translation>기본 스냅 허용치</translation>
+        <translation>기본 맞추기 허용치</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3030"/>
@@ -43131,7 +43131,7 @@ SQL: %2</translation>
         <location filename="../src/providers/oracle/qgsoracleprovider.cpp" line="1638"/>
         <location filename="../src/providers/oracle/qgsoracleprovider.cpp" line="1870"/>
         <source>Update of feature %1 failed</source>
-        <translation>객체 %1 업데이트 실패</translation>
+        <translation>객체 %1 갱신 실패</translation>
     </message>
     <message>
         <location filename="../src/providers/oracle/qgsoracleprovider.cpp" line="1671"/>
@@ -43226,7 +43226,7 @@ SQL: %3</translation>
         <source>Could not update metadata for %1.%2.
 SQL:%1
 Error: %2</source>
-        <translation>%1.%2에 대한 메타데이터 업데이트를 할 수 없습니다.
+        <translation>%1.%2에 대한 메타데이터 갱신 할 수 없습니다.
 SQL:%1
 오류: %2</translation>
     </message>
@@ -44033,7 +44033,7 @@ Extended error information:
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="202"/>
         <source>Only look in the layer registries</source>
-        <translation>레이어 레즈스트리에서만 검색</translation>
+        <translation>레이어 레지스트리에서만 찾기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="250"/>
@@ -44135,12 +44135,12 @@ Extended error information:
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="215"/>
         <source>Only look in the &apos;public&apos; schema</source>
-        <translation>&apos;public&apos; 스키마에서만 검색</translation>
+        <translation>&apos;public&apos; 스키마에서만 찾기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="271"/>
         <source>Also list tables with no geometry</source>
-        <translation>지오메트리가 없는 테이블도 목록화</translation>
+        <translation>지오메트리가 없는 테이블 목록도 보기</translation>
     </message>
 </context>
 <context>
@@ -44546,15 +44546,15 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>Looking for new plugins...</source>
-        <translation>새로운 플러그인을 찾는 중...</translation>
+        <translation>새로운 플러그인 찾기...</translation>
     </message>
     <message>
         <source>QGIS Plugin Installer update</source>
-        <translation type="obsolete">QGIS 플러그인 설치관리자 업데이트</translation>
+        <translation type="obsolete">QGIS 플러그인 설치관리자 갱신</translation>
     </message>
     <message>
         <source>The Plugin Installer has been updated. Please restart QGIS prior to using it</source>
-        <translation type="obsolete">플러그인 설치관리자가 업데이트되었습니다. 이용하기 위해서는 QGIS를 다시 시작하십시오.</translation>
+        <translation type="obsolete">플러그인 설치관리자가 갱신되었습니다. 이용하기 위해서는 QGIS를 다시 시작하십시오.</translation>
     </message>
     <message>
         <source>QGIS Plugin Conflict:</source>
@@ -44570,7 +44570,7 @@ PostGIS 지오메트리를 가진 테이블에 당신이 SELECT 권한이 있는
     </message>
     <message>
         <source>There is a plugin update available</source>
-        <translation>업데이트된 플러그인이 사용가능</translation>
+        <translation>갱신된 플러그인이 사용가능</translation>
     </message>
     <message>
         <source>QGIS Python Plugin Installer</source>
@@ -44679,7 +44679,7 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>You can&apos;t remove the official QGIS Plugin Repository. You can disable it if needed.</source>
-        <translation>공식적인 QGIS 플러그인 저장소를 제거할 수 없습니다. 필요시 불활성화할 수는 있습니다.</translation>
+        <translation>공식적인 QGIS 플러그인 저장소를 제거할 수 없습니다. 필요시 비활성화할 수는 있습니다.</translation>
     </message>
     <message>
         <source>Are you sure you want to remove the following repository?</source>
@@ -44710,15 +44710,15 @@ You need to restart QGIS in order to reload it.</source>
     </message>
     <message>
         <source>This repository is connected</source>
-        <translation type="obsolete">이 저장소는 연결되었습니다.</translation>
+        <translation type="obsolete">이 저장소는 연결됨</translation>
     </message>
     <message>
         <source>unavailable</source>
-        <translation type="obsolete">사용할 수 없습니다.</translation>
+        <translation type="obsolete">사용할 수 없음</translation>
     </message>
     <message>
         <source>This repository is enabled, but unavailable</source>
-        <translation type="obsolete">이 저장소는 연결 가능하지만 사용할 수 없습니다.</translation>
+        <translation type="obsolete">이 저장소는 연결 가능하지만 사용할 수 없음</translation>
     </message>
     <message>
         <source>disabled</source>
@@ -44800,7 +44800,7 @@ Here is the error message:</source>
     </message>
     <message>
         <source>new!</source>
-        <translation type="obsolete">최신!</translation>
+        <translation type="obsolete">신규!</translation>
     </message>
     <message>
         <source>invalid</source>
@@ -45170,7 +45170,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Allowed plugins</source>
-        <translation type="obsolete">허용되는 플러그인</translation>
+        <translation type="obsolete">허용된 플러그인</translation>
     </message>
     <message>
         <source>Only show plugins from the official repository</source>
@@ -45178,11 +45178,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Show all plugins except those marked as experimental</source>
-        <translation type="obsolete">만료된 마크가 붙어 있지 않은 모든 플러그인을 표시</translation>
+        <translation type="obsolete">실험적인으로 표시되지 않은 모든 플러그인을 표시</translation>
     </message>
     <message>
         <source>Show all plugins, even those marked as experimental</source>
-        <translation type="obsolete">만료된 마크가 붙어있는 플러그인도 포함하여 모든 플러그인을 표시</translation>
+        <translation type="obsolete">실험적인으로 표시된 플러그인도 포함하여 모든 플러그인을 표시</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -45707,7 +45707,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="43"/>
         <source>&lt;h3&gt;Get more plugins&lt;/h3&gt;&lt;p&gt;Here you see the list of all plugins available in the repositories, but which are &lt;b&gt;not yet installed&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Click on the name to see details.&lt;/p&gt;&lt;p&gt;You can change the sorting via the context menu (right click).&lt;/p&gt;&lt;p&gt;A plugin can be downloaded and installed by clicking on it&apos;s name, and then click the &apos;Install plugin&apos; button.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;플러그인 더 보기&lt;/h3&gt;&lt;p&gt;아직 &lt;b&gt;설치되지 않은&lt;/b&gt; 플러그인이지만 사용은 가능한 플러그인의 리스트를 볼 수 있습니다.&lt;/p&gt;&lt;p&gt;자세한 정보를 보기 위해서는 이름을 클릭하시면 됩니다.&lt;/p&gt;&lt;p&gt;컨택스트 메뉴에서 마우스 오른쪽 클릭으로 분류를 변경할 수 있습니다.&lt;/p&gt;&lt;p&gt;이름을 클릭하여 플러그인을 다운로드하고 설치할 수 있고, &apos;플러그인 설치&apos; 버튼을 클릭하여 설치도 가능합니다.&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;플러그인 더 보기&lt;/h3&gt;&lt;p&gt;저장소에 있지만 아직 &lt;b&gt;설치되지 않은&lt;/b&gt; 모든 플러그인의 리스트를 볼 수 있습니다.&lt;/p&gt;&lt;p&gt;자세한 정보를 보기 위해서는 이름을 클릭하시면 됩니다.&lt;/p&gt;&lt;p&gt;컨텍스트 메뉴에서 마우스 오른쪽 클릭으로 분류를 변경할 수 있습니다.&lt;/p&gt;&lt;p&gt;이름을 클릭하여 플러그인을 다운로드하고 설치할 수 있고, &apos;플러그인 설치&apos; 버튼을 클릭하여 설치도 가능합니다.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="64"/>
@@ -45764,7 +45764,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="124"/>
         <source>Get more</source>
-        <translation>상세 정보</translation>
+        <translation>플러그인 더 보기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="127"/>
@@ -45779,12 +45779,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="142"/>
         <source>Installed plugins with more recent version available for download</source>
-        <translation>최선 버전이 다운로드 가능한 설치된 플러그인</translation>
+        <translation>최선 버전 다운로드 가능한 이미 설치된 플러그인</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="154"/>
         <source>New</source>
-        <translation>새로 만들기</translation>
+        <translation>신규</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="157"/>
@@ -47228,7 +47228,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Service Capabilitities</source>
-        <translation type="obsolete">서비스 기능</translation>
+        <translation type="obsolete">서비스 Capabilities</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1344"/>
@@ -47258,7 +47258,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1313"/>
         <source>Service capabilitities</source>
-        <translation>서비스 기능</translation>
+        <translation>서비스 Capabilities</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1393"/>
@@ -47287,7 +47287,7 @@ Proceed?</source>
     </message>
     <message>
         <source>WMS Capabilitities</source>
-        <translation type="obsolete">WMS 케이퍼빌리티</translation>
+        <translation type="obsolete">WMS Capabilities</translation>
     </message>
     <message>
         <source>Advertised Extent</source>
@@ -47406,7 +47406,7 @@ Proceed?</source>
     </message>
     <message>
         <source>WFS Capabilitities</source>
-        <translation type="obsolete">WFS 캐이퍼빌리티</translation>
+        <translation type="obsolete">WFS Capabilities</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1833"/>
@@ -47438,7 +47438,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1452"/>
         <source>WMS capabilitities</source>
-        <translation>WMS 케이퍼빌리티</translation>
+        <translation>WMS Capabilities</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1468"/>
@@ -47484,12 +47484,12 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1812"/>
         <source>WFS capabilitities</source>
-        <translation>WFS 캐이퍼빌리티</translation>
+        <translation>WFS Capabilities</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1838"/>
         <source>Update</source>
-        <translation>업데이트</translation>
+        <translation>갱신</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1843"/>
@@ -47524,7 +47524,7 @@ Proceed?</source>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="112"/>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="822"/>
         <source>Identifiable layers</source>
-        <translation>정보 검색 가능 레이어</translation>
+        <translation>확인 가능 레이어</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="859"/>
@@ -47674,7 +47674,7 @@ Proceed?</source>
     </message>
     <message>
         <source>Snapping options...</source>
-        <translation type="obsolete">스냅 옵션...</translation>
+        <translation type="obsolete">맞추기 옵션...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="390"/>
@@ -52078,11 +52078,11 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Tick Down</source>
-        <translation type="obsolete">틱 다운</translation>
+        <translation type="obsolete">눈금을 위로</translation>
     </message>
     <message>
         <source>Tick Up</source>
-        <translation type="obsolete">틱 업</translation>
+        <translation type="obsolete">눈금을 아래로</translation>
     </message>
     <message>
         <source>Bar</source>
@@ -52102,7 +52102,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>&amp;Decorations</source>
-        <translation type="obsolete">데코래이션(&amp;D)</translation>
+        <translation type="obsolete">꾸미기(&amp;D)</translation>
     </message>
     <message>
         <source> feet/miles</source>
@@ -52165,11 +52165,11 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Tick Down</source>
-        <translation type="obsolete">틱 다운</translation>
+        <translation type="obsolete">눈금을 위로</translation>
     </message>
     <message>
         <source>Tick Up</source>
-        <translation type="obsolete">틱 업</translation>
+        <translation type="obsolete">눈금을 아래로</translation>
     </message>
     <message>
         <source>Box</source>
@@ -52189,7 +52189,7 @@ standard deviation ×</source>
     </message>
     <message>
         <source>Automatically snap to round number on resize</source>
-        <translation type="obsolete">크기조정시 자동으로 반올림값에 스냅</translation>
+        <translation type="obsolete">크기조정시 자동으로 반올림값에 맞추기</translation>
     </message>
 </context>
 <context>
@@ -53012,29 +53012,29 @@ enhancement</source>
     <name>QgsSnappingDialog</name>
     <message>
         <source>Snapping Options</source>
-        <translation type="obsolete">스냅 옵션</translation>
+        <translation type="obsolete">맞추기 옵션</translation>
     </message>
     <message>
         <location filename="../src/app/qgssnappingdialog.cpp" line="60"/>
         <source>Snapping and Digitizing Options</source>
-        <translation>스냅과 디지타이징 옵션</translation>
+        <translation>맞추기와 디지타이징 옵션</translation>
     </message>
     <message>
         <location filename="../src/app/qgssnappingdialog.cpp" line="164"/>
         <location filename="../src/app/qgssnappingdialog.cpp" line="258"/>
         <source>to vertex</source>
-        <translation>버텍스에</translation>
+        <translation>버텍스에 맞춤</translation>
     </message>
     <message>
         <location filename="../src/app/qgssnappingdialog.cpp" line="168"/>
         <location filename="../src/app/qgssnappingdialog.cpp" line="259"/>
         <source>to segment</source>
-        <translation>세그먼트에</translation>
+        <translation>세그먼트에 맞춤</translation>
     </message>
     <message>
         <location filename="../src/app/qgssnappingdialog.cpp" line="260"/>
         <source>to vertex and segment</source>
-        <translation>버텍스와 세그먼트에</translation>
+        <translation>버텍스와 세그먼트에 맞춤</translation>
     </message>
     <message>
         <location filename="../src/app/qgssnappingdialog.cpp" line="274"/>
@@ -53052,7 +53052,7 @@ enhancement</source>
     <message>
         <location filename="../src/ui/qgssnappingdialogbase.ui" line="14"/>
         <source>Snapping options</source>
-        <translation>스냅 옵션</translation>
+        <translation>맞추기 옵션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgssnappingdialogbase.ui" line="72"/>
@@ -53092,7 +53092,7 @@ enhancement</source>
     <message>
         <location filename="../src/ui/qgssnappingdialogbase.ui" line="85"/>
         <source>Enable snapping on intersection</source>
-        <translation>교차선에서 스내핑 활성화 </translation>
+        <translation>교차선에서 맞추기 활성화 </translation>
     </message>
 </context>
 <context>
@@ -54848,7 +54848,7 @@ Quantum GIS는 32bit 이하의 정수를 관계의 고유값으로 요구합니�
 Updates to geometry values will be disabled, and query performance may be poor because spatial indexes will not be utilized. To improve performance, consider creating a spatial index on a new (possibly computed) column containing a planar projection of these geometries. For help, refer to the descriptions of the ST_SRID(INT) and ST_Transform(INT) methods in the SQL Anywhere documentation.</source>
         <translation>컬럼 %1 (%2)이 라운드 어스 좌표계 (SRID = %3). %4에 속하는 지오메트리를 포함합니다. 
 
-지오메트리 값 업데이트가 금지되었으며 공간 인덱스가 적용되지 않기에 검색 성능이 좋지 않을 것입니다. 성능을 향상시키기 위해서는 지오메트리의 평면 프로젝션을 포함하는 새 컬럼에 공간인덱스를 만들면 좋습니다. 도움이 필요하시면 SQL Anywhere 문서의 ST_SRID(INT)와 ST_Transform(INT) 메소드에 대한 설명을 참조하십시오.</translation>
+지오메트리 값 캐이퍼빌리티이 금지되었으며 공간 인덱스가 적용되지 않기에 검색 성능이 좋지 않을 것입니다. 성능을 향상시키기 위해서는 지오메트리의 평면 프로젝션을 포함하는 새 컬럼에 공간인덱스를 만들면 좋습니다. 도움이 필요하시면 SQL Anywhere 문서의 ST_SRID(INT)와 ST_Transform(INT) 메소드에 대한 설명을 참조하십시오.</translation>
     </message>
 </context>
 <context>
@@ -56012,7 +56012,7 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>You can rotate a map by setting its rotation value in the &lt;strong&gt;Item tab &amp;rarr; Map&lt;/strong&gt; section. To place a north arrow in your layout you can use the &lt;strong&gt;Add Image&lt;/strong&gt; tool, the button with the little camera icon. QGIS comes with a selection of north arrows. After the placement of the north arrow in the layout you can link it with a specific map frame by activating the &lt;strong&gt;Sync with map&lt;/strong&gt; checkbox and selecting a map frame. Whenever you change the rotation value of a linked map, the north arrow will now automatically adjust its rotation.</source>
-        <translation type="obsolete">&lt;strong&gt; 항목 탭 &amp;rarr; 지도 &lt;/strong&gt; 섹션의 기울기 값을 사용하여 지도를 회전할 수 있습니다. 방위 화살표를 레이아웃에 배치하기 위하여 작은 카메라 아이콘 버튼인 &lt;strong&gt;이미지 추가&lt;/strong&gt; 도구를 사용할 수 있습니다. QGIS에서 방위 화살표를 선택하면됩니다. 방위 화살표를 레이아웃에 넣어 &lt;strong&gt;지도와 연동&lt;/strong&gt; 체크를 활성화하고 지도 프레임을 선택하면 됩니다. 관련 지도의 기울기 값을 변경하면 방위 화살표는 자동으로 기울기가 조정됩니다.</translation>
+        <translation type="obsolete">&lt;strong&gt; 항목 탭 &amp;rarr; 지도 &lt;/strong&gt; 섹션의 기울기 값을 사용하여 지도를 회전할 수 있습니다. 방위표를 레이아웃에 배치하기 위하여 작은 카메라 아이콘 버튼인 &lt;strong&gt;이미지 추가&lt;/strong&gt; 도구를 사용할 수 있습니다. QGIS에서 방위표를 선택하면됩니다. 방위표를 레이아웃에 넣어 &lt;strong&gt;지도와 연동&lt;/strong&gt; 체크를 활성화하고 지도 프레임을 선택하면 됩니다. 관련 지도의 기울기 값을 변경하면 방위표는 자동으로 기울기가 조정됩니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="42"/>
@@ -56102,7 +56102,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="166"/>
         <source>Auto-enable on the fly projection</source>
-        <translation>실시간 좌표계변환 자동 활성화</translation>
+        <translation>실시간 좌표계 변환 자동 활성화</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="167"/>
@@ -56870,7 +56870,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Editing capabilities of this layer: %1</source>
-        <translation type="obsolete">이 레이어의 편집 능력: %1</translation>
+        <translation type="obsolete">이 레이어의 편집 Capabilities: %1</translation>
     </message>
     <message>
         <source>Extents:</source>
@@ -56955,7 +56955,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/core/qgsvectorlayer.cpp" line="3639"/>
         <source>Editing capabilities of this layer</source>
-        <translation>이 레이어의 편집 가능</translation>
+        <translation>이 레이어의 편집 Capabilities</translation>
     </message>
     <message>
         <location filename="../src/core/qgsvectorlayer.cpp" line="3648"/>
@@ -57634,7 +57634,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Editing capabilities of this layer: %1</source>
-        <translation type="obsolete">이 레이어의 편집 능력: %1</translation>
+        <translation type="obsolete">이 레이어의 편집 Capabilities: %1</translation>
     </message>
     <message>
         <source>xMin,yMin %1,%2: xMax,yMax %3,%4</source>
@@ -58046,7 +58046,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Update Extents</source>
-        <translation type="obsolete">영역 업데이트</translation>
+        <translation type="obsolete">범위 갱신</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorlayerpropertiesbase.ui" line="477"/>
@@ -61508,7 +61508,7 @@ SQL Anywhere 오류 코드: %2
     <message>
         <location filename="../src/plugins/oracle_raster/qgsselectgeorasterbase.ui" line="160"/>
         <source>Update</source>
-        <translation>업데이트</translation>
+        <translation>갱신</translation>
     </message>
     <message>
         <location filename="../src/plugins/oracle_raster/qgsselectgeorasterbase.ui" line="183"/>
@@ -63209,7 +63209,7 @@ Identifiable layers can be set in the Project Properties dialog &lt;label&gt;Set
 &lt;p&gt;
 검색 범위는 옵션 대화상자에서 설정할 수 있습니다. &lt;label&gt;설정 &gt; 옵션 &gt; 지도 도구&lt;/label&gt;, 지도 넓이의 비율에 따라 섹션을 확인합니다. 이 섹션에서 사용자는 확인 모드를 &lt;label&gt;현재 레이어&lt;/label&gt;, &lt;label&gt;위에서부터 찾아 처음에 멈춤&lt;/label&gt;, &lt;label&gt;위에서 아래까지&lt;/label&gt;로 설정할 수 있습니다. &lt;br&gt;
 사용자는 또한 &lt;label&gt;객체 폼 열기(단일 객체가 확인된다면)&lt;/label&gt; 옵션을 체크할 수 있습니다.&lt;br&gt;
-확인 가능한 레이어들은 프로젝트 속성 대화상자에서 설정될 수 있습니다.&lt;label&gt;설정 &gt; 프로젝트 속성 &gt; 확인가능한 레이어&lt;/label&gt; 여기서 모든 레이어들 이름 목록과, 각 레이어의 타입(벡터, 래스터 등)과 객체 확인 가능여부를 확인 가능합니다.
+확인 가능한 레이어들은 프로젝트 속성 대화상자에서 설정될 수 있습니다.&lt;label&gt;설정 &gt; 프로젝트 속성 &gt; 확인 가능 레이어&lt;/label&gt; 여기서 모든 레이어들 이름 목록과, 각 레이어의 타입(벡터, 래스터 등)과 객체 확인 가능여부를 확인 가능합니다.
 &lt;/p&gt;</translation>
     </message>
     <message>
@@ -63255,7 +63255,7 @@ Click on &lt;label&gt;OK&lt;/label&gt; to create the layer and close the dialog.
 속성의 이름과 유형을 정한 후에 &lt;label&gt;속성 목록에 추가&lt;/label&gt; 버튼을 클릭하여 원하는 속성을 추가합니다. 오직 실수, 정수와 문자열 속성만 지원됩니다.&lt;br/&gt;
 넓이와 정확도는 SpatiaLite 데이터베이스에서 무관하기 때문에 이것들을 따로 지정할 필요는 없습니다. 
 &lt;h4&gt;속성 목록&lt;/h4&gt;
-속성 목록을 열람할 수 있습니다. 목록 중 하나를 지우기 위해서는 &lt;label&gt;선택된 속성 삭제&lt;/label&gt; 버튼을 선택하고 클릭하면 됩니다.
+속성 목록을 열람할 수 있습니다. 목록 중 하나를 지우기 위해서는 &lt;label&gt;선택 속성 제거&lt;/label&gt; 버튼을 선택하고 클릭하면 됩니다.
 
 &lt;p&gt;
 레이어를 생성하고 대화상자를 닫기 위해서는 &lt;label&gt;OK&lt;/label&gt; 를 클릭합니다. &lt;label&gt;적용&lt;/label&gt;을 클릭하여 레이어를 생성할 수 있는데, 이 경우 대화상자를 연 채로 레이어를 생성하여 값을 약간만 수정하여 비슷한 레이어를 더 생산할 수도 있습니다. &lt;label&gt;취소&lt;/label&gt;는 더 이상 변경 없이 레이어를 닫게 합니다.</translation>
@@ -63360,7 +63360,7 @@ geometry types and don&apos;t offer to add others.
 
 &lt;li&gt; &lt;label&gt;사용자 테이블만 보기&lt;/label&gt; 공간 테이블을 검색할 때, 사용자 소유의 테이블만 검색되도록 제한합니다.
 
-&lt;li&gt; &lt;label&gt;지오메트리 없는 테이블 리스트도 조회하기&lt;/label&gt; 지오메트리 없는 테이블의 리스트도 기본적으로 조회됩니다.
+&lt;li&gt; &lt;label&gt;지오메트리가 없는 테이블 목록도 보기&lt;/label&gt; 지오메트리 없는 테이블의 리스트도 기본적으로 조회됩니다.
 
 &lt;li&gt; &lt;label&gt;레이어 메타데이터를 위해 추정된 테이블 통계를 사용합니다.&lt;/label&gt;
 레이어가 설정될 때, Oracle 테이블은 다양한 메타데이터를 필요로 합니다.
@@ -63828,44 +63828,43 @@ are sometimes limited (e.g. for shape files) or behave diffently.
 &lt;/tr&gt;
 &lt;/table&gt;
 </source>
-        <translation type="unfinished">&lt;h3&gt;Query Builder&lt;/h3&gt;
-The query builder allows you to create provider specific filter expressions.
+        <translation>&lt;h3&gt;질의 생성기&lt;/h3&gt;
+질의 생성기는 사용자가 프로바이더에 맞는 필터 표현식을 만들수 있게 해줍니다.
 
-These are usually evaluated much faster than the generic QGIS expressions, but
-are sometimes limited (e.g. for shape files) or behave diffently.
-
-&lt;h4&gt;Providers&lt;/h4&gt;
+이것은 보통 일반적인 QGIS 표현식보다 춸씬 빠르게 동작하지만, 
+때로는 제한이 있거나 (예: 쉡입 파일의 경우) 다르게 동작할 수 있습니다.
+&lt;h4&gt;프로바이더&lt;/h4&gt;
 
 &lt;table border=1&gt;
 &lt;tr&gt;
-  &lt;th&gt;Provider&lt;/th&gt;
-  &lt;th&gt;Documentation&lt;/th&gt;
+  &lt;th&gt;프로바이더&lt;/th&gt;
+  &lt;th&gt;참고문서&lt;/th&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;OGR&lt;/td&gt;
-  &lt;td&gt;where clauses depending on the
-    &lt;a href=&quot;http://www.gdal.org/ogr/ogr_formats.html&quot;&gt;format&lt;/a&gt; (eg.
+  &lt;td&gt;where 절이 다음을 따름. 
+    &lt;a href=&quot;http://www.gdal.org/ogr/ogr_formats.html&quot;&gt;format&lt;/a&gt; (예: 쉐입 파일을 위한 
     &lt;a href=&quot;http://www.gdal.org/ogr/ogr_sql.html&quot;&gt;OGR SQL&lt;/a&gt;
-    for shape files)
+    )
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;PostgreSQL/PostGIS&lt;/td&gt;
-  &lt;td&gt;where clauses using
-    &lt;a href=&quot;http://www.postgresql.org/docs/&quot;&gt;PostgreSQL&lt;/a&gt; and
+  &lt;td&gt;where 절이 다음을 사용. 
+    &lt;a href=&quot;http://www.postgresql.org/docs/&quot;&gt;PostgreSQL&lt;/a&gt;과
     &lt;a href=&quot;http://postgis.net/documentation&quot;&gt;PostGIS&lt;/a&gt; 
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;SpatiaLite&lt;/td&gt;
-  &lt;td&gt;where clauses using
-    &lt;a href=&quot;http://www.sqlite.org/lang_select.html&quot;&gt;SQLite&lt;/a&gt; and
+  &lt;td&gt;where 절이 다음을 사용. 
+    &lt;a href=&quot;http://www.sqlite.org/lang_select.html&quot;&gt;SQLite&lt;/a&gt;과
     &lt;a href=&quot;http://www.gaia-gis.it/gaia-sins/spatialite-sql-4.1.0.html&quot;&gt;SpatiaLite&lt;/a&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;td&gt;Oracle Spatial/Locator&lt;/td&gt;
-  &lt;td&gt;where clauses using
+  &lt;td&gt;where 절이 다음을 사용.
     &lt;a href=&quot;http://docs.oracle.com/cd/B28359_01/appdev.111/b28400/sdo_index_query.htm#autoId9&quot;&gt;Oracle Spatial/Locator&lt;/a&gt;
   &lt;/td&gt;
 &lt;/tr&gt;
@@ -63938,7 +63937,7 @@ The field calculator allows you to update fields with expressions.
 &lt;/table&gt;
 </source>
         <translation>&lt;h3&gt;필드 계산기&lt;/h3&gt;
-필드 계산기는 식을 이용해 필드를 업데이트 할 수 있게 해줍니다.
+필드 계산기는 식을 이용해 필드를 갱신 할 수 있게 해줍니다.
 
 &lt;h4&gt;지원되는 연산자&lt;/h4&gt;
 
@@ -64096,8 +64095,8 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 &lt;a href=&quot;#getmoretab&quot;&gt;플러그인 더 보기 탭&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#newtab&quot;&gt;신규 탭&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#upgradabletab&quot;&gt;업그레이드 탭&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#invalidtab&quot;&gt;무효 탭&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#settingstab&quot;&gt;세팅 탭&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#invalidtab&quot;&gt;사용불가 탭&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#settingstab&quot;&gt;설정 탭&lt;/a&gt;&lt;br/&gt;
 
 &lt;a name=&quot;installedtab&quot;&gt;
 &lt;h4&gt;설치 탭&lt;/h4&gt;
@@ -64141,14 +64140,14 @@ pythoon과 C++ 플러그인 모두 나열됩니다.
 &lt;/p&gt;
 
 &lt;a name=&quot;Invalid tab&quot;&gt;
-&lt;h4&gt;무효 탭&lt;/h4&gt;
+&lt;h4&gt;사용불가 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
 이 탭은 플러그인이 유효하지 않은 경우에만 도움이 됩니다. 플러그인을 불러오는 중에 오류가 생긴 경우입니다.
 &lt;/p&gt;
 
 &lt;a name=&quot;settingstab&quot;&gt;
-&lt;h4&gt;세팅 탭&lt;/h4&gt;
+&lt;h4&gt;설정 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
 이 탭에서 플러그인 관리자의 설정을 변경할 수 있습니다.
@@ -64278,14 +64277,14 @@ To add a scale bar:
 사용자가 스타일과 배치뿐만 아니라 막대의 라벨 표시를 조절할 수 있습니다.
 QGIS는 맵 프레임과 동일한 단위의 스케일 표시 만을 지원합니다. 그래서
 만일 레이어의 단위가 미터라면, 피트 단위로 스케일바를 생성할 수 없습니다.
-또한 10진 도를 사용한다면 미터 단위로 거리를 표시하는 스케일바를 생성할 수 없습니다.&lt;/p&gt; &lt;p&gt;
+또한 10진 도단위를 사용한다면 미터 단위로 거리를 표시하는 스케일바를 생성할 수 없습니다.&lt;/p&gt; &lt;p&gt;
 스케일바 추가하기:
 &lt;ol&gt;
 &lt;li&gt;&lt;label&gt;배치&lt;/label&gt; 드롭다운 목록에서 배치를 선택.&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;스케일바 스타일&lt;/label&gt; 목록에서 스타일을 선택.&lt;/li&gt;
 &lt;li&gt;바의 색 설정을 위해 &lt;label&gt;바의 색상&lt;/label&gt; 선택 또는 기본으로 검정색을 사용.&lt;/li&gt;
 &lt;li&gt;바의 크기 및 라벨 지정을 위해 &lt;label&gt;바 크기&lt;/label&gt; 사용.&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;스케일 막대 활성화&lt;/label&gt; 체크박스가 선택되었는지 확인.&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;스케일바 활성화&lt;/label&gt; 체크박스가 선택되었는지 확인.&lt;/li&gt;
 &lt;li&gt;선택적으로 &lt;label&gt;크기조정시 자동으로 반올림값에 스냅&lt;/label&gt;을 선택하여 캔버스의 크기가 변경되었을때 자동으로 반올림값에 맞추기.&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;확인&lt;/label&gt; 클릭.&lt;/li&gt;
 &lt;/ol&gt;
@@ -64327,18 +64326,18 @@ This dialog allows you to define the settings for a connection to a PostgreSQL d
 &lt;/ul&gt;
 </source>
         <translation>&lt;h3&gt;새로운 PostgreSQL 연결 생성하기&lt;/h3&gt;
-이 대화상자는 PostgreSQL 데이터베이스 연결을 위한 세팅을 정의한다.
+이 대화상자는 PostgreSQL 데이터베이스 연결을 위한 설정을 정의합니다.
 &lt;p&gt;
 &lt;ul&gt;
-&lt;li&gt; &lt;label&gt;이름&lt;/label&gt; 연결 세팅을 구분하기위한 이름.
+&lt;li&gt; &lt;label&gt;이름&lt;/label&gt; 연결 설정을 구분하기위한 이름.
 
-&lt;li&gt; &lt;label&gt;서비스&lt;/label&gt; &lt;a href=&quot;http://www.postgresql.org/docs/current/static/libpq-pgservice.html&quot;&gt;연결 서비스 파일에 나열된 서비스의 이름&lt;/a&gt;.
+&lt;li&gt; &lt;label&gt;서비스&lt;/label&gt; &lt;a href=&quot;http://www.postgresql.org/docs/current/static/libpq-pgservice.html&quot;&gt;연결 서비스 파일&lt;/a&gt;에 나열된 서비스 이름.
 
-&lt;li&gt; &lt;label&gt;호스트&lt;/label&gt; 데이터베이스 서버로 호스팅하는 컴퓨터의 이름 또는 IP 주소 (로컬 연결 또는 서비스일 경우는 빈칸으로 남겨두세요).
+&lt;li&gt; &lt;label&gt;호스트&lt;/label&gt; 데이터베이스 서버를 호스팅하는 컴퓨터의 이름 또는 IP 주소 (로컬 연결 또는 서비스일 경우는 비워두세요).
 
-&lt;li&gt; &lt;label&gt;포트&lt;/label&gt; 데이터베이스 서버에서 사용되는IP 포트 ( 로컬 연결 또는 기본 포트 5432로 사용하는 경우는 빈칸으로 남겨두세요).
+&lt;li&gt; &lt;label&gt;포트&lt;/label&gt; 데이터베이스 서버에서 사용되는IP 포트 ( 로컬 연결 또는 기본 포트 5432로 사용하는 경우는 비워두세요).
 
-&lt;li&gt; &lt;label&gt;데이터베이스&lt;/label&gt; 데이터베이스의 이름 (기본 데이터베이스일 경우는 빈칸으로 남겨두세요).
+&lt;li&gt; &lt;label&gt;데이터베이스&lt;/label&gt; 데이터베이스의 이름 (기본 데이터베이스일 경우는 비워두세요).
 
 &lt;li&gt; &lt;label&gt;SSL 모드&lt;/label&gt; 연결의 &lt;a href=&quot;http://www.postgresql.org/docs/9.0/static/libpq-ssl.html#LIBPQ-SSL-SSLMODE-STATEMENTS&quot;&gt;SSL 모드&lt;/a&gt;
 
@@ -64347,15 +64346,15 @@ This dialog allows you to define the settings for a connection to a PostgreSQL d
 
 &lt;li&gt; &lt;label&gt;사용자이름 저장&lt;/label&gt; 연결 환경설정에서 데이터베이스 사용자 이름을 저장하는 경우 표시.
 
-&lt;li&gt; &lt;label&gt;비밀번호 저장&lt;/label&gt; 연결 세팅에서 데이터베이스 비밀번호를 저장하는 경우 표시. &lt;font color=&quot;red&quot;&gt;비밀번호는 프로젝트 파일의 시스템 환경설정에 &lt;strong&gt;텍스트&lt;/strong&gt;로 저장됨!&lt;/font&gt;
+&lt;li&gt; &lt;label&gt;비밀번호 저장&lt;/label&gt; 연결 설정에 데이터베이스 비밀번호를 저장하는 경우 체크. &lt;font color=&quot;red&quot;&gt;비밀번호는 프로젝트 파일과 시스템 환경설정에 &lt;strong&gt;암호화 되지 않은 텍스트&lt;/strong&gt;로 저장됨!&lt;/font&gt;
 
-&lt;li&gt; &lt;label&gt;지오메트리 컬럼 테이블만 조회&lt;/label&gt; &quot;나열된&quot; 지오메트리 컬럼이 사용되는 경우만 표시. - 지오메트리 컬럼에 대해 모든 테이블을 스캔에 반대임.
+&lt;li&gt; &lt;label&gt;geometry_columns 테이블에서만 찾기&lt;/label&gt; 지오메트리 컬럼이 사용되는 것으로 &quot;목록화된&quot; 경우만 표시. - 지오메트리 컬럼을 모든 테이블에서 검색의 반대 기능임.
 
-&lt;li&gt; &lt;label&gt;&apos;public&apos; 스키마에서만 조회&lt;/label&gt;는 &apos;public&apos; 스키마의 테이블만 고려된다. - 모든 접근가능한 테이블에 반대임.
+&lt;li&gt; &lt;label&gt;&apos;public&apos; 스키마에서만 찾기&lt;/label&gt;는 &apos;public&apos; 스키마의 테이블만 고려됨. - 모든 접근가능한 테이블의 반대 기능임.
 
-&lt;li&gt; &lt;label&gt;또한 지오메트리를 가지지 않는 테이블 나열&lt;/label&gt;은  지오메트리를 가지지 않는 테이블을 기본으로 나열 함.
+&lt;li&gt; &lt;label&gt;지오메트리가 없는 테이블 목록도 보기&lt;/label&gt;은  지오메트리를 가지지 않는 테이블도 기본적으로 나열 함.
 
-&lt;li&gt; &lt;label&gt;추정 테이블 메타데이터 사용&lt;/label&gt; 레이어를 초기화할때, 다양한 쿼리는 데이터베이스 테이블에 저장되어있는 도형의 특징을 설치하는 데 필요할수도 있다. 이 옵션이 체크될때, 전체테이블이 아니라 이 쿼리는 행의 유일한 샘플을 검사하고 테이블 통계를 사용한다.  이것은 큰 데이터 집합 작업 속도를 수 있으나 레이어의 부정확한 특징이 도출될수도 있다.(특히. 필터 레이터의 &lt;font color=&quot;red&quot;&gt;피쳐 갯수&lt;/font&gt; 정확히 결정되지 않는다.).
+&lt;li&gt; &lt;label&gt;추정된 테이블 메타데이터 사용&lt;/label&gt; 레이어를 초기화할때, 여러가지 쿼리가 데이터베이스 테이블에 저장되어 있는 도형의 특성을 만드는 것이 필요할 수도 있습니다. 이 옵션이 선택되면, 질의는 전체 테이블이 아니라, 몇 행의 샘플로 테이블 통계를 생성합니다. 이렇게 하면 큰 데이터셋에서의 동작속도를 극단적으로 빨리할 수 있으나, 레이어의 특성을 잘못 판단하는 원인이 될 수 있습니다(예: 필터링된 레이어의 &lt;font color=&quot;red&quot;&gt;객체 수&lt;/font&gt;가 정확히 측정되지 않음).
 
 &lt;/ul&gt;
 </translation>
@@ -64370,11 +64369,11 @@ To measure lengths, select the tool and click along the path you want to measure
 To measure areas, select the tool and click to create the area. The total area is dynamically displayed as you click.
 </source>
         <translation>&lt;h3&gt;측정 도구&lt;/h3&gt;
-거리, 면적 두개의 측정도구가 있다. 맵 캔버스에서 거리 및 면적을 측정할 수 있다. 현재 이툴은 미터 단위로만 결과를 제공한다. 마우스 오른쪽 버튼을 한번 클릭하면 측정을 멈춘며 마우스 오른쪽 버튼을 두번 클릭하면 새롭게 측정을 시작한다.
+거리와 면적을 위한 두 측정도구가 있습니다. 이를 이용해 지도 캔버스에서 거리 및 면적을 측정할 수 있습니다. 현재 이 툴은 미터 단위로만 결과를 제공합니다. 마우스 오른쪽 버튼을 한번 클릭하면 측정을 멈추며 마우스 오른쪽 버튼을 두번 클릭하면 새롭게 측정을 시작합니다.
 &lt;h4&gt;길이 측정&lt;/h4&gt;
-길이를 측정하기 위해 도구를 선택하고 측정하고자 하는 패스를 따라 클릭한다. 각각의 세그먼트의 길이가 패스에 대한 전체 길이와 함께 표시된다.
+길이를 측정하려면, 이 도구를 선택하고 측정하고자 하는 경로를 따라 클릭합니다. 각각의 세그먼트의 길이가 경로 전체 길이와 함께 표시됩니다.
 &lt;h4&gt;면적 측정&lt;/h4&gt;
-면적을 측정하기 위해 도구를 선택하고 면적을 생성하기 위해 클릭한다. 전체 면적은 클릭할때 동적으로 표시된다.
+면적을 측정하려면, 이 도구를 선택하고 면을 만들 수 있게 클릭합니다. 전체 면적은 클릭할 때마다 동적으로 표시됩니다.
 </translation>
     </message>
     <message>
@@ -64412,34 +64411,34 @@ This plugin supports basic HTML markup tags for formatting text. For example:
 &lt;/ul&gt;
 </source>
         <translation>&lt;h3&gt;저작권 라벨 플러그인&lt;/h3&gt;
-정보를 가진 저작권 라벨을 그립니다.&lt;br/&gt;
+저작권 정보를 가진 저작권 라벨을 그립니다.&lt;br/&gt;
 저작권 라벨뿐만아니라 임의의 텍스트를 추가할 수도 있습니다.
 &lt;p&gt;
-&lt;a href=&quot;#howto&quot;&gt;방법&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#howto&quot;&gt;사용 방법&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#text&quot;&gt;텍스트 포맷팅&lt;/a&gt;&lt;br/&gt;
 
 &lt;a name=&quot;howto&quot;&gt;
-&lt;h4&gt;방법&lt;/h4&gt;
+&lt;h4&gt;사용 방법&lt;/h4&gt;
 &lt;/a&gt;
 &lt;ol&gt;
-&lt;li&gt;플러그인이 불러졌는지 확인하세요.
-&lt;li&gt;Click on &lt;label&gt;프로그인 &gt; 꾸미기 &gt; 저작권 라벨&lt;/label&gt;을 클릭하거나 &lt;label&gt;저작권 라벨&lt;/label&gt; 툴바의 버튼을 사용하세요.
-&lt;li&gt;맵상에 위치할 텍스틑 입력하세요. HTML 을 사용해도 됩니다.
-&lt;li&gt;드롭다운 박스의 &lt;label&gt;위치 하단 오른쪽&lt;/label&gt;으로부터 라벨의 위치를 선택하세요.
-&lt;li&gt;&lt;label&gt;저작권 라벨 체크박스 사용하기&lt;/label&gt;가 체크되었는지 확인하세요.
-&lt;li&gt;클릭 &lt;label&gt;OK&lt;/label&gt;.
+&lt;li&gt;플러그인이 불려졌는지 확인하세요.
+&lt;li&gt; &lt;label&gt;플러그인 &gt; 꾸미기 &gt; 저작권 라벨&lt;/label&gt;을 클릭하거나, 툴바의 &lt;label&gt;저작권 라벨&lt;/label&gt; 버튼을 사용하세요.
+&lt;li&gt;지도상에 위치할 텍스트를 입력하세요. HTML을 사용해도 됩니다.
+&lt;li&gt;&lt;label&gt;배치&lt;/label&gt; 드롭다운 박스에서 라벨의 배치를 선택하세요.
+&lt;li&gt;&lt;label&gt;저작권 라벨 사용 체크박스&lt;/label&gt;가 체크되었는지 확인하세요.
+&lt;li&gt;&lt;label&gt;확인&lt;/label&gt; 클릭.
 &lt;/ol&gt;
 &lt;a name=&quot;text&quot;&gt;
 &lt;h4&gt; 텍스트 포맷팅 &lt;/h4&gt;
 &lt;/a&gt;
-이 플러그인은 텍스트 포맷에 대해 기본의 HTML 마크업 태그를 지원합니다. 예를 들면:
+이 플러그인은 텍스트 포맷에 기본 HTML 마크업 태그를 지원합니다. 예를 들면:
 
 &lt;ul&gt;
 &lt;li&gt;&amp;lt;B&amp;gt;&lt;b&gt; 굵은 텍스트 &lt;/b&gt;&amp;lt;/B&amp;gt;
 &lt;/li&gt;
-&lt;li&gt;&amp;lt;I&amp;gt;&lt;i&gt; 기울기 &lt;/i&gt;&amp;lt;/I&amp;gt;
+&lt;li&gt;&amp;lt;I&amp;gt;&lt;i&gt; 기울이기 &lt;/i&gt;&amp;lt;/I&amp;gt;
 &lt;/li&gt;
-&lt;li&gt;&amp;lt;U&amp;gt;&lt;u&gt; 텍스트 밑줄 &lt;/u&gt;&amp;lt;/U&amp;gt;
+&lt;li&gt;&amp;lt;U&amp;gt;&lt;u&gt; 밑줄 텍스트 &lt;/u&gt;&amp;lt;/U&amp;gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </translation>
@@ -64515,8 +64514,8 @@ In addition, you may specify the type of plugins that are displayed by the Plugi
 Note: Experimental plugins are generally unsuitable for production use. These plugins are in the early stages of development, and should be considered &quot;incomplete&quot; or &quot;proof of concept&quot; tools. The QGIS development team does not recommend installing these plugins unless you intend to use them for testing purposes.
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 </source>
-        <translation>&lt;h3&gt;파이썬 플러그인 설치&lt;/h3&gt;
-원격 저장소로부터 플러그인을 내려받고 설치하세요.
+        <translation>&lt;h3&gt;파이썬 플러그인 설치관리자&lt;/h3&gt;
+원격 저장소로부터 플러그인을 내려받고 설치하십시오.
 &lt;br/&gt;&lt;br/&gt;
 &lt;a href=&quot;#pltab&quot;&gt;플러그인 탭&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#retab&quot;&gt;저장소 탭&lt;/a&gt;&lt;br/&gt;
@@ -64527,61 +64526,60 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 &lt;/a&gt;
 
 &lt;p align=&apos;justify&apos;&gt;
-&lt;label&gt;플러그인&lt;/label&gt; 탭은 모든 로컬에 설치된 모든 파이썬 플러그인 뿐만아니라 원격 저장소에 가용한 플러그인의 목록을 포함합니다. 각 플러그인은 다음중 어디라도 존재할수 있습니다:
+&lt;label&gt;플러그인&lt;/label&gt; 탭은 모든 로컬에 설치된 모든 파이썬 플러그인 뿐만아니라 원격 저장소에 있는 플러그인의 목록을 포함합니다. 각 플러그인은 다음중 어디라도 있을 수 있습니다:
 &lt;dl&gt;
-&lt;dt&gt;설치되지 않음&lt;/dt&gt;&lt;dd&gt; 플러그인이 저장소에 가용함을 의미하지만 아직 설치되지 않았음을 의미합니다. 설치하기위해, 목록에서 플러그인을 선택하고 &lt;label&gt;플러그인 설치하기&lt;/label&gt; 버튼을 클릭하세요.&lt;/dd&gt;
-&lt;dt&gt;신규&lt;/dt&gt;&lt;dd&gt; 플러그인이 저장소에 새롭게 가용함을 의미합니다.&lt;/dd&gt;
-&lt;dt&gt;설치됨&lt;/dt&gt;&lt;dd&gt;플러그인이 이미 설치된것을 표시합니다. 임의의 저장소에서 가용하다면, &lt;label&gt;플러그인 재설치하기&lt;/label&gt; 버튼이 활성화 될것 입니다. 가용한 버젼이 설치된 버젼보다 오래되었다면 &lt;label&gt;플러그인 다운그레이드&lt;/label&gt; 버튼이 대신 나타날 것입니다.&lt;/dd&gt;
-&lt;dt&gt;업그레이드&lt;/dt&gt;&lt;dd&gt; 플러그인이 설치되었으나 업데이트 버젼이 가용함을 의미합니다. 이런 경우에 &lt;label&gt;플러그인 업그레이드&lt;/label&gt; 버튼이 활성화 될것 입니다.&lt;/dd&gt;
-&lt;dt&gt;무효함&lt;/dt&gt;&lt;dd&gt; 플러그인이 설치는 되었으나 가용하지 않거나 깨진것을 의미합니다. 이유는 플러그인 서술 필드에 설명될 것입니다.&lt;/dd&gt;
+&lt;dt&gt;설치되지 않음&lt;/dt&gt;&lt;dd&gt; 플러그인이 저장소는에 있지만 아직 설치되지 않았음을 의미합니다. 설치하시려면, 목록에서 플러그인을 선택하고 &lt;label&gt;플러그인 설치하기&lt;/label&gt; 버튼을 클릭하십시오.&lt;/dd&gt;
+&lt;dt&gt;신규&lt;/dt&gt;&lt;dd&gt; 플러그인이 저장소에 새로 나왔음을 의미합니다.&lt;/dd&gt;
+&lt;dt&gt;설치됨&lt;/dt&gt;&lt;dd&gt; 플러그인이 이미 설치된것을 표시합니다. 어떤 저장소에서 가용하다면, &lt;label&gt;플러그인 재설치하기&lt;/label&gt; 버튼이 활성화 될것 입니다. 가용한 버젼이 설치된 버젼보다 오래되었다면 &lt;label&gt;플러그인 다운그레이드&lt;/label&gt; 버튼이 대신 나타날 것입니다.&lt;/dd&gt;
+&lt;dt&gt;업그레이드 가능&lt;/dt&gt;&lt;dd&gt; 플러그인이 설치되었으나 업데이트된 버전이 가용함을 의미합니다. 이런 경우에 &lt;label&gt;플러그인 업그레이드&lt;/label&gt; 버튼이 활성화될 것입니다.&lt;/dd&gt;
+&lt;dt&gt;사용불가&lt;/dt&gt;&lt;dd&gt; 플러그인이 설치는 되었으나 가용하지 않거나 깨진것을 의미합니다. 이유는 플러그인 서술 필드에 설명될 것입니다.&lt;/dd&gt;
 &lt;/dl&gt;
 &lt;/p&gt;
 
-플러그인을 설치하기 위해, 목록에서 선택하고 &lt;label&gt;플러그인 설치하기&lt;/label&gt; 버튼을 클릭하세요. 이 플러그인은 자신의 디렉토리에 설치됩니다.:
+플러그인을 설치시려면, 목록에서 플러그인을 선택하고 &lt;label&gt;플러그인 설치하기&lt;/label&gt; 버튼을 클릭하세요. 이 플러그인은 다음의 사용자 디렉토리에 설치됩니다:
 &lt;table border=1&gt;
 &lt;tr&gt;&lt;th&gt;운영체계&lt;/th&gt;&lt;th&gt;시스템 플러그인&lt;/th&gt;&lt;th&gt;사용자에 의해 설치된 플러그인&lt;/th&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;리눅스 and other 유닉스&lt;/td&gt;&lt;td&gt;./share/qgis/python/plugins&lt;/td&gt;&lt;td rowspan=2&gt;$HOME/qgis/python/plugins&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Mac OS X&lt;/td&gt;&lt;td&gt;./Contents/MacOS/share/qgis/python/plugins&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Windows&lt;/td&gt;&lt;td&gt;(QGIS install directory)&amp;#92;python&amp;#92;plugins&lt;/td&gt;&lt;td&gt;%USERPROFILE%&amp;#92;.qgis&amp;#92;python&amp;#92;plugins&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;리눅스 혹은 다른 유닉스&lt;/td&gt;&lt;td&gt;./share/qgis/python/plugins&lt;/td&gt;&lt;td rowspan=2&gt;$HOME/qgis/python/plugins&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;맥 OS X&lt;/td&gt;&lt;td&gt;./Contents/MacOS/share/qgis/python/plugins&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;윈도우&lt;/td&gt;&lt;td&gt;(QGIS install directory)&amp;#92;python&amp;#92;plugins&lt;/td&gt;&lt;td&gt;%USERPROFILE%&amp;#92;.qgis&amp;#92;python&amp;#92;plugins&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;
 &lt;br/&gt;
 
 &lt;p align=&apos;justify&apos;&gt;
-설치가 성공적이라면, 확인 메시지가 나타나고 사용할 준비가 된것입니다..
+설치가 성공했다면, 확인 메시지가 나타나고 사용할 준비가 된것입니다..
 &lt;/p&gt;
 
 &lt;p align=&apos;justify&apos;&gt;
-설치가 실패라면 실패의 이유가 경고 대화상자에 표시될 것입니다. 종종 에러는 연결의 문제이거나 파이선 모듈을 잃어린 결과입니다. 전자의 경우 다시 설치를 시도하기전에 기다릴 필요가 있으며, 후자의 경우에 플러그인을 사용하기위해 운영체계에 적절한 읽어버린 모듈을 설치해야 합니다.리눅스의 경우 모든 필요한 모듈은 패키지 관리자를 통해 가용해야 합니다. 윈도우의 경우 모듈 제작 홈페이지를 방문하세요. 프록시를 사용한다면, &lt;label&gt;프록시&lt;/label&gt; 탭에서 &lt;label&gt;편집&lt;/label&gt; &gt; &lt;label&gt;옵션&lt;/label&gt; (Gnome, OSX) 또는 &lt;label&gt;세팅&lt;/label&gt; &gt; &lt;label&gt;옵션&lt;/label&gt; (KDE, Windows) 환경구성을 할 필요가 있습니다..&lt;/p&gt;
+설치가 실패했다면 실패의 이유가 경고 대화상자에 표시될 것입니다. 종종 에러는 연결 문제 때문이거나 파이선 모듈이 없어져서 발생합니다. 전자의 경우라면 다시 설치를 시도하기전에 기다릴 필요가 있으며, 후자의 경우라면 플러그인을 사용하기 위해 없어진 모듈을 운영체제에 적절히 설치해야 합니다. 리눅스의 경우 모든 필요한 모듈은 패키지 관리자를 통해 가용해야 합니다. 윈도우의 경우 모듈의 홈페이지를 방문하세요. 프록시를 사용한다면, &lt;label&gt;프록시&lt;/label&gt; 탭에서 &lt;label&gt;편집&lt;/label&gt; &gt; &lt;label&gt;옵션&lt;/label&gt; (Gnome, OSX) 또는 &lt;label&gt;세팅&lt;/label&gt; &gt; &lt;label&gt;옵션&lt;/label&gt; (KDE, Windows)에서 환경구성을 할 필요가 있습니다..&lt;/p&gt;
 
 &lt;p align=&apos;justify&apos;&gt;
-&lt;label&gt;프러그인 삭제하기&lt;/label&gt; 버튼은 선택한 플러그인이 설치되고 핵심 플러그인이 아닐때만 활성화 됩니다. 핵심 플러그인에 업데이트를 설치했다면, &lt;label&gt;플러그인 삭제하기&lt;/label&gt;로 업데이트를 삭제하고 QGIS에 포함 된 버전으로 되돌린다. 그러나 이 기본 버전은 그러나 제거 할 수 없습니다.&lt;/p&gt;
+&lt;label&gt;플러그인 삭제하기&lt;/label&gt; 버튼은 선택한 플러그인이 설치되었고 핵심 플러그인이 아닐 때만 활성화 됩니다. 핵심 플러그인에 업데이트를 설치했다면, &lt;label&gt;플러그인 삭제하기&lt;/label&gt;로 업데이트를 삭제하고 QGIS에 포함되었던 버전으로 되돌릴 수 있습니다. 그러나 기본 버전은 제거 할 수 없습니다.&lt;/p&gt;
 
 &lt;a name=&quot;retab&quot;&gt;
 &lt;h4&gt;저장소 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p align=&apos;justify&apos;&gt;
-두번째 탭인 &lt;label&gt;저장소&lt;/label&gt;는 플러그인 설치자를 통해 가용한 플러그인 저장소의 목록을 포함합니다. 기본으로, QGIS 공식 저장소만이 가능합니다. 중앙 QGIS 공헌 저장소 및 other external repositories by clicking the &lt;label&gt;제3자 파티 저장소 추가하기&lt;/label&gt; 버튼을 클릭하여 다른 외부 저장소를 포함한 몇몇 사용자-공헌 저장소를 추가할 수 있습니다. 추가된 저장소는 QGIS 개발팀이 유지하지 않는 많은 쓸모있는 플러그인을 가지고 있습니다. 그런 경우에 플러그인에 대한 어떤 책임을 지지 않습니다. 수동으로 저장소 목록을 추가, 삭제, 편집등 관리할수도 있습니다. 일시적으로 사용할수 없는 특정 저장소는 &lt;label&gt;편집...&lt;/label&gt; 버튼을 클릭하여 관리하는게 가능합니다.&lt;/p&gt;
+두 번째 탭인 &lt;label&gt;저장소&lt;/label&gt;는 플러그인 설치관리자를 통해 사용할 수 있는 플러그인 저장소의 목록을 포함합니다. 기본으로, QGIS 공식 저장소만 사용할 수 있습니다. 중앙 QGIS 공헌 저장소 및 다른 외부 저장소를 &lt;label&gt;타사 저장소 추가&lt;/label&gt; 버튼을 클릭하여 추가할 수 있습니다. 추가된 저장소에는 QGIS 개발팀이 유지하지 않는 많은 쓸모있는 플러그인이 있습니다. 이 경우 QGIS 개발팀은 플러그인에 대한 어떤 책임도 지지 않습니다. 수동으로 저장소 목록을 추가, 삭제, 편집 등 관리할 수도 있습니다. &lt;label&gt;편집...&lt;/label&gt; 버튼을 눌러 특정 저장소를 일시적으로 사용할수 없게 할 수 있습니다.&lt;/p&gt;
 
 &lt;a name=&quot;optab&quot;&gt;
 &lt;h4&gt;옵션 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p align=&apos;justify&apos;&gt;
-The &lt;label&gt;옵션&lt;/label&gt; 탭은 플러그인 설치자의 세팅을 조정할 수 있는 곳입니다. &lt;label&gt;기동시 업데이트에 대해 x 체크&lt;/label&gt; 체크박스는 업데이트와 뉴스를 자동으로 보이게 합니다. 기본으로, 이 피쳐가 활성화된 다면 모든 저장소가 표시되고 프로그램이 시작될때마다 업데이트가 체크됩니다.  체킹 업데이트 주기는 드롭 다운 메뉴를 사용해 조절될 수 있습으며 한달에 한번으로 조절될 수도 있습니다. 설치된 플러그인중 하나가 가용하다면 공지가 상태 바에 나타납니다. 체크박스가 비활성화된다면 업데이트 및 뉴스 찾기가 플러그인 설치자가 메뉴에서 수동으로 실행될때 수행됩니다.&lt;/p&gt;
-
+&lt;label&gt;옵션&lt;/label&gt; 탭은 플러그인 설치괄지자의 설정을 조정할 수 있는 곳입니다. &lt;label&gt;시작시 업데이트 확인에 x 체크하면&lt;/label&gt; 체크박스는 업데이트와 뉴스를 자동으로 보이게 합니다. 기본으로, 이 기능이 활성화되면 &lt;label&gt;저장소&lt;/label&gt;탭에 보여지고 활성화 된 모든 저장소가 표시되고, 프로그램이 시작될때마다 업데이트가 확인됩니다. 업데이트 확인 주기는 드롭 다운 메뉴를 사용해 조절할 수 있으며, 하루 한번에서 한달에 한번으로 조절할 수 있습니다. 새로운 플러그인이나 설치된 플러그인에 대한 업데이트가 있다면 상태 표시줄에 소식이 보이게 됩니다. 만약 이 체크 박스가 선택되지 않았다면 업데이트 및 신규에 대한 검색은 메뉴를 이용해 플러그인 설치 관리자를 수동으로 띠울 때만 수행됩니다.&lt;/p&gt;
 
 &lt;p align=&apos;justify&apos;&gt;
-업데이트를 자동으로 체크를 시도할때 일부 인터넷 연결이 문제가 생깁니다. 이 경우 QGIS 전체 세션동안 &lt;i&gt;새로운 플러그인 찾기...&lt;/i&gt; 표시가 상태바에 보입니다. 그리고 끝낼때 프로그램 충돌을 일으킬 수도 있습니다. 이경우에 체크박스를 비활성화하세요.&lt;/p&gt;
+업데이트를 자동으로 확인할 때 인터넷 연결이 문제될 수 있습니다. 이 경우 QGIS 전체 세션동안 &lt;i&gt;새로운 플러그인 찾기...&lt;/i&gt; 표시가 상태바에 보입니다. 그리고 끝낼때 프로그램 충돌을 일으킬 수도 있습니다. 이 경우에 체크박스를 비활성화하십시오.&lt;/p&gt;
 
-추가로 플러그인 설치자에 의해 표시되는 플러그인 타입을 특정할수도 있습니다. &lt;i&gt;허용된 플러그인&lt;/i&gt; 조건에서 아래와 같이 하고자하는것을 특정할수 있습니다.
+추가적으로 플러그인 설치관리자에 의해 표시될 플러그인 타입을 설정할 수도 있습니다. &lt;i&gt;허용된 플러그인&lt;/i&gt;에서 다음과 같이 원하는 것을 설정할 수 있습니다:
 &lt;ul&gt;
 &lt;li&gt; 공식 저장소의 플러그만 보여주기&lt;/li&gt;
-&lt;li&gt; 실험적으로 지정된것을 제외한 모든 플러그인 보여주기,&lt;/li&gt;
-&lt;li&gt; 또는 실험적으로 지정된 것을 포함하여 모든 플러그인 보여주기.&lt;/li&gt;
+&lt;li&gt; 실험적인 것으로 지정된 것을 제외한 모든 플러그인 보여주기,&lt;/li&gt;
+&lt;li&gt; 또는 실험적인 것으로 지정된 것을 포함하여 모든 플러그인 보여주기.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;br/&gt;
 &lt;table border=1 width=&apos;95%&apos; align=&apos;center&apos;&gt;&lt;tr&gt;&lt;td&gt;
-주의: 실험적인 플러그인은 일반적으로 사용되는 제품에 적합하지 않는다. 이런 플러그인은 초기 개발단계이고, &quot;미완성&quot; 또는 &quot;개념 검증&quot;으로 고려되어야 한다. QGIS 개발팀은 당신이 테스트 목적으로 사용하려는 경우를 에도 이런 플러그인 설치를 권장하지 않습니다.
+주의: 실험적인 플러그인은 일반적으로 사용되는 제품에 적합하지 않습니다. 이런 플러그인은 초기 개발단계이고, &quot;미완성&quot; 또는 &quot;개념 검증&quot;으로 고려되어야 합니다. QGIS 개발팀은 사용자가 테스트 목적으로 사용하려는 경우에도 이런 플러그인 설치를 권장하지 않습니다.
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</translation>
     </message>
     <message>
@@ -64638,57 +64636,57 @@ The &lt;label&gt;Field Calculator&lt;/label&gt; button in the attribute table al
 The results can be written to a new attribute column or it can be used to update values in an already existing column.&lt;br&gt;
 The vector layer needs to be in editing mode, before you can click on the &lt;label&gt;Field calculator&lt;/label&gt; icon to open the dialog.
 </source>
-        <translation>&lt;h3&gt; 속성 테이블 &lt;/h3&gt;
-속성 테이블은 선택한 레이어의 객체들을 표시합니다. 테이블의 각 행은 여러 열에서와 같이 그 특성을 가진 하나의 맵 객체를 나타냅니다. 테이블의 객체들을 검색, 선택, 이동 또는 심지어 편집까지 할 수 있습니다. 기본적으로 속성 테이블은 별도의 창입니다. 당신이 그것을 더 이상 열어 볼 수없는 경우, 그것은 대부분의 QGIS 메인 창 아래에 숨겨져 있습니다. 당신은 &lt;label&gt;독 창에서 속성 테이블 열기&lt;/label&gt;에 있는 &lt;label&gt; 설정&gt; 옵션&gt; 일반 &lt;/label&gt;을 메뉴를 이용해 도킹 창을 만들 수 있습니다&lt;P&gt;
+        <translation>&lt;h3&gt; 속성 테이블&lt;/h3&gt;
+속성 테이블은 선택한 레이어의 객체들을 표시합니다. 테이블의 각 행은 여러 컬럼에서 속성을 볼 수 있는, 하나의 지도 객체를 나타냅니다. 테이블에 있는 객체들은 검색, 선택, 이동, 심지어 편집까지 할 수 있습니다. 기본적으로 속성 테이블은 독립된 창을 가집니다. 사용자가 이 창을 열었음에도 보이지 않는다면, 대부분 QGIS 메인 창 아래에 숨겨져 있는 경우입니다. 사용자가 &lt;label&gt; 설정 &gt; 옵션 &gt; 일반&lt;/label&gt;에 있는 &lt;label&gt;도킹 윈도우에 속성 테이블 열기&lt;/label&gt;를 체크하면, 도킹된 창으로 만들 수 있습니다.&lt;p&gt;
 
-선택한 레이어 객체의 총 개수, 필터된 객체와 선택된 객체들은 윈도우 헤더에 인쇄되어 있습니다. &lt;P&gt;
-&lt;P&gt;
+선택한 레이어 객체의 총 개수, 필터된 객체와 선택된 객체들은 윈도우 헤더에 보입니다. &lt;p&gt;
+&lt;p&gt;
 &lt;a href=&quot;#Selecting&quot;&gt;선택&lt;a/&gt;&lt;br/&gt;
-&lt;a href=&quot;#Sorting&quot;&gt;정렬&lt;/a&gt;를 &lt;br/&gt;
-&lt;a href=&quot;#Filtering&quot;&gt;필터&lt;/a&gt;를 &lt;br/&gt; 
-&lt;a href=&quot;#E​​diting&quot;&gt;편집&lt;/a&gt;를 &lt;br/&gt;
+&lt;a href=&quot;#Sorting&quot;&gt;정렬&lt;/a&gt; &lt;br/&gt;
+&lt;a href=&quot;#Filtering&quot;&gt;필터링&lt;/a&gt; &lt;br/&gt; 
+&lt;a href=&quot;#E​​diting&quot;&gt;편집&lt;/a&gt; &lt;br/&gt;
 &lt;a href=&quot;#FieldCalc&quot;&gt;필드 계산기&lt;/a&gt;&lt;br/&gt;
 
 &lt;a name=&quot;Selecting&quot;&gt;
 &lt;h4&gt;선택&lt;/h4&gt;
 &lt;/a&gt;
-행의 왼쪽에있는 번호를 클릭하여 행을 선택할 수 있습니다. 다음 행은 마우스 버튼을 누른 채 선택 영역의 다른 쪽 끝으로 마우스를 이동하여 선택할 수 있습니다. 여러 개의 비 연속적인 행은 &lt;label&gt;Ctrl&lt;/label&gt; 키를 눌러서 선택할 수 있습니다.&lt;br&gt;
+행의 왼쪽에 있는 번호를 클릭하여 행을 선택할 수 있습니다. 연속된 행은 마우스 버튼을 누른 채, 선택 영역의 다른 쪽 끝으로 마우스를 이동하여 선택할 수 있습니다. 여러 개의 비 연속적인 행은 &lt;label&gt;Ctrl&lt;/label&gt; 키를 눌러서 선택할 수 있습니다.&lt;br&gt;
 연속적인 선택은 &lt;label&gt;Shift&lt;/label&gt; 키를 누른 행의 왼쪽에있는 여러 행 머리글을 클릭하여 선택하실 수 있습니다. 현재 커서의 위치와 클릭 된 행 사이의 모든 행이 선택됩니다.
 
 &lt;a name=&quot;Sorting&quot;&gt;
 &lt;h4&gt;정렬&lt;/h4&gt;
 &lt;/a&gt;
-각 열은 해당 열 헤더를 클릭하여 정렬 할 수 있습니다. 작은 화살표는 정렬 순서(아래쪽으로 향하게은 위에서 아래로 행의 값을 오름차순으로 위쪽을 가리키는, 위에서 아래 행의 값을 의미 내림차순 의미)를 나타냅니다. &lt;br&gt;
-&lt;label&gt;최상위로선택&lt;/label&gt; 버튼을 활성화 해서 행을 표시하는 버튼에 관계없이 선택된 행이 언제나 제일 위에 있게 합니다.
+각 컬럼은 해당 컬럼 헤더를 클릭하여 정렬 할 수 있습니다. 작은 화살표는 정렬 순서(아래쪽으로 향하면 위에서 아래로 행의 값을 오름차순으로, 위쪽을 향하면 위에서 아래로 행의 값을 내림차순 의미)를 나타냅니다. &lt;br&gt;
+&lt;label&gt;선택을 제일 위로&lt;/label&gt; 버튼을 활성화 해서 정렬에 상관 없이, 선택된 행을 항상 위에 표시할 수 있습니다.
 
 &lt;a name=&quot;Filtering&quot;&gt;
 &lt;h4&gt;필터링&lt;/h4&gt;
 &lt;/&gt;
-단지 데이터의 부분을 탐색하려면 왼쪽 아래에있는 필터 버튼을 사용할 수 있습니다. 다음 옵션들을 사용할 수 있습니다.
-&lt;h5&gt;모든 객체보기&lt;/h5&gt;
+단지 데이터의 일부만을 탐색하려면, 왼쪽 아래에 있는 필터 버튼을 사용할 수 있습니다. 다음 옵션들이 사용 가능합니다.
+&lt;h5&gt;모든 객체 보이기&lt;/h5&gt;
 레이어의 모든 객체들을 보여줍니다.
-&lt;h5&gt;선택한 객체보기&lt;/h5&gt;
-현재 선택되어있는 모든 객체들을 보여줍니다.
-&lt;h5&gt;지도에 보이는 모든 객체 보기&lt;h5&gt;
-현재 보이는 지도영역과 스케일을 계산해서 캔버스에서 볼 수있는 모든 객체를 보여줍니다.
-&lt;h5&gt;편집되었거나 새로 추가된 객체보기&lt;/h5&gt;
-편집되었거나 새로 추가된 객체를 보여줍니다. 이 모드에서는 커밋되지 않은 변경 기능이 표시됩니다.그러므로 커밋하기 전에 변경 사항을 검토하는 것이 좋은 필터입니다. 삭제 기능은 이 모드에서 표시되지 않는 것을 유의하십시오.
-&lt;h5&gt;열 필터&lt;/h5&gt;
-속성값으로 간단하게 필터링 할 수 있습니다. 속성에 텍스트가 포함되어 있으면, 그것은 또한 하위 문자열을 찾습니다. &lt;b&gt;man&lt;/b&gt;을 검색하면&lt;b&gt;woman&lt;/b&gt;을 따라서도 보여줍니다. 필터 텍스트를 변경 한 후, Enter 키를 누르거나 &lt;label&gt;적용&lt;/label&gt;을 클릭합니다. 또한 &lt;label&gt;대소 문자 구분&lt;/label&gt;을 체크박스를 눌러 전환 할 수 있습니다. 그래서 당신의 필터는 &lt;b&gt;Night&lt;/b&gt;를 &lt;b&gt;night&lt;/b&gt;로 검색했을 때도 찾을 수 있습니다.
+&lt;h5&gt;선택된 객체 표시&lt;/h5&gt;
+현재 선택되어 있는 모든 객체들을 보여줍니다.
+&lt;h5&gt;지도에 보이는 객체 표시&lt;h5&gt;
+현재 보이는 지도영역과 스케일을 계산해서 캔버스에서 볼 수 있는 모든 객체를 보여줍니다.
+&lt;h5&gt;수정되거나 새로만든 객체 보이기&lt;/h5&gt;
+편집되었거나 새로 추가된 객체를 보여줍니다. 이 모드에서는 커밋되지 않은 변경된 객체가 보이고, 이는 커밋하기 전에 변경 사항을 검토할 수 있는 좋은 필터입니다. 삭제된 객체는 이 모드에서 표시되지 않음을 주의하십시오.
+&lt;h5&gt;컬럼 필터&lt;/h5&gt;
+속성값으로 할 수 있는 간단한 필터입니다. 속성에 문자열이 포함되어 있으면, 부분 문자열도 찾습니다. &lt;b&gt;man&lt;/b&gt;을 검색하면&lt;b&gt;woman&lt;/b&gt;이 포함된 레코드도 보여줍니다. 필터 문자열을 변경한 후, Enter 키를 누르거나 &lt;label&gt;적용&lt;/label&gt;을 클릭합니다. 또한 &lt;label&gt;대소문자 구분&lt;/label&gt; 체크박스를 눌러 전환할 수 있습니다. 이렇게 하면 당신의 필터는 &lt;b&gt;Night&lt;/b&gt;를 &lt;b&gt;night&lt;/b&gt;로 검색했을 때도 찾을 수 있습니다.
 &lt;h5&gt;고급 필터&lt;/h5&gt;
-더 복잡한 검색의 경우,이 모드는 SQL 구문과 유사한 강력한 표현식 작성기를 제공합니다. 구문에 대한 자세한 내용은 표현식 작성기의 포함된 도움말을 참조하십시오.
+더 복잡한 검색의 경우,이 모드는 SQL 구문과 유사한 강력한 표현식 작성기를 제공합니다. 구문에 대한 자세한 내용은 표현식 작성기에 포함된 도움말을 참고하십시오.
 
 &lt;a name=&quot;Editing&quot;&gt;
 &lt;h4&gt;편집&lt;/h4&gt;
 &lt;a/&gt;
-값을 편집하기위해서는 먼저 레이어를 편집 모드로 전환해야 합니다. &lt;label&gt;편집 모드 전환&lt;/label&gt; (연필) 버튼을 누르거나 &lt;label&gt;Ctrl 키 + E&lt;/label&gt;를 눌러 편집모드로 전환합니다. 이 후에  더블클릭을 하거나 커서를 올려놓고 &lt;label&gt;Spece&lt;/label&gt;-키를 사용하면 편집할 수 있습니다. &lt;label&gt;벡터 레이어 속성&gt; 필드 &lt;/label&gt; 메뉴를 이용하여 위젯을 사용자 정의해 필드 편집에 사용할 수 있습니다
+값을 편집하기 위해서는 먼저 레이어를 편집 모드로 전환해야 합니다. &lt;label&gt;편집 모드 전환&lt;/label&gt; (연필) 버튼을 누르거나 &lt;label&gt;Ctrl 키 + E&lt;/label&gt;를 눌러 편집모드로 전환합니다. 편집하려는 값을 더블클릭 하거나, 커서를 올려놓고 &lt;label&gt;Spece&lt;/label&gt;-키를 사용하면 편집할 수 있습니다. &lt;label&gt;벡터 레이어 속성 &gt; 필드&lt;/label&gt;의 필드 편집용 위젯을 편집할 수 있습니다.
 
 &lt;a name=&quot;FieldCalc&quot;&gt;
 &lt;h4&gt;필드 계산기&lt;/h4&gt;
 &lt;a/&gt;
-속성 테이블에있는 &lt;label&gt;필드 계산기&lt;/label&gt; 버튼을 사용해서 기존 속성 값이나 정의된 함수, 예를 들면  길이 또는 형상 객체의 면적을 계산을 수행 할 수 있습니다. &lt;br&gt;
-결과는 새로운 속성 컬럼에 쓸 수도 있고, 기존의 열에서 값을 업데이트하는 데 사용할 수 있습니다. &lt;br&gt;
-&lt;label&gt;필드 계산기&lt;/label&gt;아이콘을 눌러 대화 상자를 열기 전에 벡터 레이어는 편집 모드에 있어야합니다.
+속성 테이블에 있는 &lt;label&gt;필드 계산기&lt;/label&gt; 버튼을 사용해서 기존 속성 값이나 정의된 함수(예를 들어 객체의 길이 또는 면적 계산을 위한)에 기반한 계산을 수행할 수 있습니다. &lt;br&gt;
+결과는 새로운 속성 컬럼에 쓸 수도 있고, 기존 컬럼의 값을 업데이트하는 데 사용할 수도 있습니다. &lt;br&gt;
+&lt;label&gt;필드 계산기&lt;/label&gt;아이콘을 눌러 대화 상자를 열기 전에 벡터 레이어가 편집 모드에 있어야합니다.
 </translation>
     </message>
     <message>
@@ -64729,37 +64727,37 @@ The Coordinate Reference System (CRS) tab allows you to set the projection for t
 On this tab you can choose on which layers the identify tool will work.
 </source>
         <translation>&lt;h3&gt;프로젝트 속성&lt;/h3&gt;
-이 대화 상자에서 &lt;label&gt;프로젝트&lt;/label&gt;와 관련된 속성의 수를 설정할 수 있습니다. 프로젝트는 레이어와 해당 설정의 저장 세트뿐만 아니라 디스크에서 프로젝트를 복원하는 데 필요한 정보입니다. &lt;p&gt;
+이 대화 상자에서 &lt;label&gt;프로젝트&lt;/label&gt;와 관련된 몇 가지 속성을 설정할 수 있습니다. 프로젝트는 레이어와 해당 설정의 저장 세트이며, 디스크에서 프로젝트를 복원하는 데 필요한 정보입니다. &lt;p&gt;
 
 &lt;a href=&quot;#general&quot;&gt;일반 탭&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#crs&quot;&gt;좌표 참조 시스템 (CRS) 탭&lt;/a&gt; &lt;br/&gt;
-&lt;a href=&quot;#layers&quot;&gt;식별가능 레이어 탭&lt;/a&gt;를 &lt;br/&gt;
+&lt;a href=&quot;#crs&quot;&gt;좌표계 탭&lt;/a&gt; &lt;br/&gt;
+&lt;a href=&quot;#layers&quot;&gt;확인 가능 레이어 탭&lt;/a&gt;를 &lt;br/&gt;
 
 &lt;a name=&quot;general&quot;&gt;
-&lt;h4&gt;일반 탭&lt;/ h4&gt;
+&lt;h4&gt;일반 탭&lt;/h4&gt;
 &lt;a/&gt;
 &lt;table border=1&gt;
-&lt;tr&gt;&lt;td&gt;&lt;label&gt;프로젝트의 제목&lt;/label&gt;&lt;/td&gt;&lt;td&gt;프로젝트 설명입니다. 이 제목은 QGIS 창의 제목 표시 줄에 표시됩니다.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;label&gt;색상 선택&lt;/label&gt;&lt;/td&gt;&lt;td&gt;선택한 객체를 이 색상을 사용하여 지도에 표시합니다. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;프로젝트의 제목&lt;/label&gt;&lt;/td&gt;&lt;td&gt;프로젝트의 서술적인 제목입니다. 이 제목은 QGIS 창의 제목 표시줄에 표시됩니다.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;선택 색상&lt;/label&gt;&lt;/td&gt;&lt;td&gt;선택한 객체를 이 색상을 사용하여 지도에 표시합니다. &lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;label&gt;배경 색상&lt;/label&gt;&lt;/td&gt;&lt;td&gt;지도 캔버스의 색상입니다.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;label&gt;경로 저장&lt;/label&gt;&lt;/td&gt;&lt;td&gt; 절대 혹은 상대 경로 저장.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;저장 경로&lt;/label&gt;&lt;/td&gt;&lt;td&gt; 절대 혹은 상대 경로 저장할 수 있습니다.&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;label&gt;레이어 단위&lt;/label&gt; &lt;/td&gt; &lt;td&gt; 프로젝트의 레이어에 적절한 단위를 선택합니다. &lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;label&gt;정밀도&lt;/label&gt;&lt;/td&gt;&lt;td&gt; 상태 표시 줄에 정밀도 표시를 설정하려면 수동 설정을 사용합니다. 마우스가 지도 캔버스를 이동할 때, 좌표는 업데이트 되고 선택된 정밀도를 사용하여 상태 표시 줄에 표시됩니다. 지도 단위에 따라 자동적으로(기본값) 결과가 표시됩니다.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;label&gt;디지털화&lt;/label&gt;&lt;/td&gt;&lt;td&gt;&lt;label&gt;토폴로지 편집&lt;/label&gt;옵션은 편집 하면서 및 롤리곤 형태가 기본 경계를 유지 가능하도록 설정합니다. 공유된 경계의 접점을 편집하면 두 경계를 갱신할 것입니다.&lt;p&gt;
-공통 경계의 모든 모서리의 디지털화를 방지하려면 &lt;label&gt;새로운 폴리곤의 중첩 피하기&lt;/label&gt;를 선택합니다. 대화창에 새로운 폴리곤이 조정될 적절한 레이어들이 표시됩니다. 새로운 폴리곤을 그리기 위해 기존의 폴리곤 위에 중첩시키면 자동적으로 잘려집니다.&lt;p&gt;
-&lt;label&gt;스냅 옵션&lt;/label&gt;을 사용해 당신은 픽셀 조정값과 지도 단위와 스내핑 모드를 설정할 수 있습니다. :  (모든 레이어 개별적으로 ) &lt;label&gt;to vertex&lt;/label&gt;, &lt;label&gt;to segment&lt;/label&gt;, &lt;label&gt;to vertex and segment&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;정밀도&lt;/label&gt;&lt;/td&gt;&lt;td&gt; 상태 표시줄의 정밀도 표시 설정에 수동 설정을 사용합니다. 마우스가 지도 캔버스 위에서 이동할 때, 좌표가 갱신 되어 선택된 정밀도를 사용하여 상태 표시줄에 표시됩니다. 지도 단위에 따라 자동적으로(기본값) 결과가 표시됩니다.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;label&gt;디지타이징&lt;/label&gt;&lt;/td&gt;&lt;td&gt;&lt;label&gt;토폴로지 편집 활성화&lt;/label&gt;옵션은 편집 하면서 및 롤리곤 형태가 기본 경계를 유지 가능하도록 설정합니다. 공유된 경계의 접점을 편집하면 두 경계를 갱신할 것입니다.&lt;p&gt;
+공유 경계상의 모든 정점들이 디지타이징 되는 것을 피하려면 &lt;label&gt;새 폴리곤의 교차 금지&lt;/label&gt;를 선택합니다. 대화창에 새로운 폴리곤이 조정될 적절한 레이어들이 표시됩니다. 새로운 폴리곤을 그리기 위해 기존의 폴리곤 위에 중첩시키면 자동적으로 잘려집니다.&lt;p&gt;
+&lt;label&gt;맞추기 옵션&lt;/label&gt;을 사용해 사용자는 픽셀 혹은 지도 단위로 맞추기 허용값과 맞추기 모드를 설정할 수 있습니다:  (모든 레이어 마다 개별적으로) &lt;label&gt;버텍스에 맞춤&lt;/label&gt;, &lt;label&gt;세그먼트에 맞춤&lt;/label&gt;, &lt;label&gt;버텍스와 세그먼트에 맞춤&lt;/label&gt;&lt;/td&gt;&lt;/tr&gt;
 
 &lt;/table&gt;
 &lt;a name=&quot;crs&quot;&gt;
-&lt;h4&gt; 좌표 참조 시스템 (CRS) 탭 &lt;/ h4&gt;
-&lt;/&gt;
-좌표 참조 시스템 (CRS) 탭을 사용하면 현재 프로젝트의 투영도를 설정하고 즉시 변환에 사용하도록 할 수 있습니다. CRS &apos;즉시&apos; 변환을 설치하고 사용하기 위해 저장된 프로젝트가 필요한 것은 아닙니다.
-CRS &apos;즉시&apos; 변환을 사용하려면 &lt;label&gt;CRS &apos;즉시&apos; 변환 사용&lt;/label&gt; 체크박스를 클릭합니다. 그런 후 &apos;지리 투영 좌표 시스템&apos;의 목록에서 프로젝트(지도 캔버스)에 대한 투영도를 선택합니다.
+&lt;h4&gt; 좌표계 탭 &lt;/h4&gt;
+&lt;/a&gt;
+좌표계 탭을 사용하면 현재 프로젝트의 투영법을 설정하고 실시간 좌표계 변환을 사용하도록 할 수 있습니다. &apos;실시간&apos; 좌표계 변환을 설정후에 프로젝트를 저장할 필요는 없습니다.
+&apos;실시간&apos; 좌표계 변환을 사용하려면 &lt;label&gt;&apos;실시간&apos; 좌표계 변환 사용&lt;/label&gt; 체크박스를 클릭합니다. 그런 후 프로젝트(지도 캔버스)를 위한 좌표계를 경위도 혹은 직각좌표계 리스트에서 선택하십시오.
 &lt;p&gt;좌표계 이름, EPSG 코드 혹은 QGIS ID를 입력하고 &lt;label&gt;찾기&lt;/label&gt;버튼을 클릭하여 좌표계를 찾을 수 있습니다.
-&lt;p&gt;최근에 사용 된 좌표 시스템의 목록은 빠른 사용을 위해 바닥에서 찾을 수 있습니다.
+&lt;p&gt;최근에 사용된 좌표계의 목록은 빠른 사용을 위해 대화상자 하단에서 찾을 수 있습니다.
 
 &lt;a name=&quot;layers&quot;&gt;
-&lt;h4&gt; 식별가능 레이어 탭 &lt;/ h4&gt;
+&lt;h4&gt; 확인 가능 레이어 탭 &lt;/h4&gt;
 &lt;/a&gt;
 이 탭을 통해 객체 확인 도구가 작동되는 레이어를 선택할 수 있습니다.</translation>
     </message>
@@ -64770,8 +64768,8 @@ To define a new connection, click on &lt;label&gt;New&lt;/label&gt; button and u
 The connections you define will be remembered for further use and available to choose from the drop down menu.
 </source>
         <translation>&lt;h3&gt; SpatiaLite 테이블 추가&lt;/h3&gt;
-새 연결을 정의하려면 &lt;label&gt;새 연결&lt;/label&gt;버튼을 클릭하고 당신의 SpatiaLite 데이터베이스를 가리 키도록 파일 브라우저를 사용합니다.(&lt;i&gt;.sqlite가 &lt;/i&gt; 확장자.) &lt;P&gt;  
-당신이 정의하는 연결은 이후 사용을 위해 기억하고 드롭 다운 메뉴에서 선택할 수 있게 됩니다.</translation>
+새 연결을 정의하려면 &lt;label&gt;새 연결&lt;/label&gt;버튼을 클릭하고 사용자의 SpatiaLite 데이터베이스를 가르키도록 파일 브라우저를 사용합니다.(&lt;i&gt;.sqlite가 &lt;/i&gt; 확장자) &lt;p&gt;  
+사용자가 정의하는 연결은 이후 사용을 위해 기억되고 드롭 다운 메뉴에서 선택할 수 있게 됩니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="114"/>
@@ -64815,14 +64813,14 @@ To delete a bookmark from the Bookmarks dialog, click on it then click the &lt;l
 To update the extent of a bookmark, click on it then click the &lt;label&gt;Update&lt;/label&gt; button. Confirm your choice by clicking &lt;label&gt;OK&lt;/label&gt; or cancel the update by clicking &lt;label&gt;Cancel&lt;/label&gt;.
 
 </source>
-        <translation>&lt;h3&gt; 공간 북마크 &lt;/h3&gt;
-공간 북마크는 지리적 위치를 &quot;북마크&quot;하고 나중에 사용할 수 있습니다.
+        <translation>&lt;h3&gt;지리적 북마크&lt;/h3&gt;
+지리적 북마크는 지리적 위치를 &quot;북마크&quot;하고 나중에 사용할 수 있게 해줍니다.
 &lt;P&gt;
 &lt;a href=&quot;#creating&quot;&gt;북마크 만들기&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#working&quot;&gt;북마크 작업&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#working&quot;&gt;북마크와 함께 작업&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#zooming&quot;&gt;북마크로 확대&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#deleting&quot;&gt;북마크 삭제&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#updating&quot;&gt;북마크 업데이트&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#updating&quot;&gt;북마크 갱신&lt;/a&gt;&lt;br/&gt;
 
 &lt;a name=&quot;creating&quot;&gt;
 &lt;h4&gt;북마크 만들기&lt;/h4&gt;
@@ -64831,28 +64829,28 @@ To update the extent of a bookmark, click on it then click the &lt;label&gt;Upda
 &lt;ol&gt;
 &lt;li&gt;관심 영역을 확대하거나 그곳으로 이동합니다.
 &lt;li&gt;&lt;label&gt;새 북마크&lt;/label&gt;를 클릭하거나 Ctrl-B를 입력합니다
-&lt;li&gt;북마크(최대 255 자)에 대한 설명이 포함 된 이름을 입력합니다.
-&lt;li&gt;&lt;label&gt;OK&lt;/label&gt;를 클릭해 북마크를 추가하거나 &lt;label&gt;취소&lt;/label&gt;를 클릭해 북마크를 추가하지 않고 종료할 수 있습니다.
+&lt;li&gt;북마크에 대한 설명이 포함 된 이름(최대 255 자)을 입력합니다.
+&lt;li&gt;&lt;label&gt;확인&lt;/label&gt;을 클릭해 북마크를 추가하거나 &lt;label&gt;취소&lt;/label&gt;를 클릭해 북마크를 추가하지 않고 종료할 수 있습니다.
 &lt;/ol&gt;
-같은 이름을 가진 여러 북마크를 가질 수 있습니다.
+같은 이름을 가진 여러 개의 북마크가 있을 수 있음에 주의하세요.
 &lt;a name=&quot;working&quot;&gt;
-&lt;h4&gt;북마크 작업&lt;/h4&gt;
+&lt;h4&gt;북마크와 함께 작업&lt;/h4&gt;
 &lt;a/&gt;
-북마크를 사용하거나 관리하려면 &lt;label&gt;북마크 보기&lt;/label&gt; 버튼을 클릭하거나,&lt;label&gt;보기&lt;/label&gt; 메뉴에서 &lt;label&gt;북마크 보기&lt;label&gt;를 선택합니다. 북마크 대화 상자에서 확대 또는 북마크를 삭제할 수 있습니다. 북마크 이름이나 좌표는 편집 할 수 없습니다.
+북마크를 사용하거나 관리하려면 &lt;label&gt;북마크 보기&lt;/label&gt; 버튼을 클릭하거나,&lt;label&gt;보기&lt;/label&gt; 메뉴에서 &lt;label&gt;북마크 보기&lt;label&gt;를 선택합니다. 북마크 대화 상자에서 북마크로 확대하거나 북마크를 삭제할 수 있습니다. 북마크 이름이나 좌표는 편집 할 수 없습니다.
 &lt;a name=&quot;zooming&quot;&gt;
 &lt;h5&gt;북마크로 확대&lt;/h5&gt;
 &lt;a/&gt;
-지리 공간 북마크 대화 상자에서, 원하는 북마크를 클릭하여 선택하고 &lt;/label&gt;..로 확대&lt;label&gt; 버튼을 클릭합니다.
+지리적 북마크 대화 상자에서, 원하는 북마크를 클릭하여 선택하고 &lt;/label&gt;..로 확대&lt;label&gt; 버튼을 클릭합니다.
 &lt;p&gt;
-당신은 또한 두 번 클릭하여 북마크로 확대 할 수 있습니다.
+또 더블 클릭하여 북마크로 확대 할 수 있습니다.
 &lt;a name=&quot;deleting&quot;&gt;
 &lt;h5&gt;북마크 삭제&lt;/h5&gt;
 &lt;/&gt;
 북마크 대화 상자에서 북마크를 삭제하려면 북마크를 선택한 후 &lt;label&gt;삭제&lt;/label&gt; 버튼을 클릭합니다. &lt;label&gt;확인&lt;/label&gt;을 클릭하여 선택 사항을 확인하거나 &lt;label&gt;취소&lt;/label&gt;를 클릭하여 삭제를 취소 할 수 있습니다.
 &lt;a name=&quot;updating&quot;&gt;
-&lt;h5&gt;북마크 업데이트&lt;/h5&gt; 
+&lt;h5&gt;북마크 갱신&lt;/h5&gt; 
 &lt;a/&gt;
-북마크의 지도영역을 업데이트하려면  북마크를 선택한 후 &lt;label&gt;업데이트&lt;/label&gt; 버튼을 클릭합니다. &lt;label&gt;확인&lt;/label&gt;을 클릭하여 선택 사항을 확인하거나 &lt;label&gt;취소&lt;/label&gt;를 클릭하여 업데이트를 취소 할 수 있습니다.</translation>
+북마크의 지리적 영역을 갱신하려면  북마크를 선택한 후 &lt;label&gt;갱신&lt;/label&gt; 버튼을 클릭합니다. &lt;label&gt;확인&lt;/label&gt;을 클릭하여 선택 사항을 확인하거나 &lt;label&gt;취소&lt;/label&gt;를 클릭하여 갱신을 취소 할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="516"/>
@@ -64888,30 +64886,31 @@ To update the extent of a bookmark, click on it then click the &lt;label&gt;Upda
 &lt;p&gt;If the attribute table of your linear layer does not contain the required fields or fields contain unexpected values, the plugin will use default values. You can set them in the default tab &lt;label&gt;Default settings&lt;/label&gt;.&lt;/p&gt;
 </source>
         <translation>&lt;h3&gt;Road graph 플러그인 설정&lt;/h3&gt;
-&lt;p&gt;Road graph는 QGIS 용 C++ 플러그인입니다. 이를 통해 두 점의 가장 빠른 길을 찾을 수 있습니다.즉, 두 개의 모든 선형 레이어에 점 플롯 도로 네트워크를 통해이 경로 사이의 최단 경로를 계산합니다. &lt;/p&gt;
+&lt;p&gt;Road graph는 QGIS 용 C++ 플러그인입니다. 이를 통해 도로 네크워크 상에서 어떤 폴리라인 상에 있거나 그린 객체 위에 있는 두 점 사이의 가장 빠른 길을 찾을 수 있습니다.&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&quot;#creating&quot;&gt;플러그인 단위&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#topologyTolerance&quot;&gt;토폴로지 허용&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#layerSettings&quot;&gt;전송 레이어 설정&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#topologyTolerance&quot;&gt;토폴로지 허용치&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#layerSettings&quot;&gt;교통 레이어 설정&lt;/a&gt;&lt;br/&gt;
 &lt;/p&gt;
 &lt;a name=&quot;creating&quot;&gt;
 &lt;h4&gt;플러그인 단위&lt;/h4&gt;
 &lt;/a&gt;
-&lt;p&gt;당신은 경로의 계산 된 거리와 시간의 단위를 조정할 수 있습니다. &lt;label&gt; 거리 단위 &lt;/label&gt;과 &lt;label&gt; 시간 단위&lt;/label&gt; 단위를 선택할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;사용자는 경로 계산에 사용되는 거리와 시간의 단위를 조정할 수 있습니다. &lt;label&gt; 거리 단위 &lt;/label&gt;와 &lt;label&gt; 시간 단위&lt;/label&gt;에서 단위를 선택하십시오.&lt;/p&gt;
 &lt;a name=&quot;topologyTolerance&quot;&gt;
-&lt;h4&gt;토폴로지 허용&lt;/h4&gt;
+&lt;h4&gt;토폴로지 허용치&lt;/h4&gt;
 &lt;/a&gt;
-&lt;p&gt;&lt;label&gt;토폴로지 허용&lt;/label&gt; - 프로젝트 단위의 거리. 두 지점의 거리가 짧은 위상 오차로 떨어지면, 그들은 정점으로 간주됩니다. 0보다 큰 위상 오차 값은 플러그인의 속도를 느리게 합니다,하지만 당신은 비 이상 데이터 소스를 사용할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;토폴로지 허용치&lt;/label&gt; - 프로젝트의 단위로의 거리. 두 지점의 거리가 토폴로지 허용치보다 작다면 정점으로 간주됩니다. 0 보다 큰 토폴로지 허용치는 플러그인의 속도를 느리게 합니다, 하지만 사용자의 데이터가 이상적이지 못하다면 사용할 수도 있습니다.&lt;/p&gt;
 &lt;h5&gt;주의&lt;/h5&gt;
-&lt;p&gt;Road graph 플러그인은 두 도로가 하나의 공통 노드를 가질 경우 연결된 것으로 간주합니다. 노드는 고유하게 하나의 좌표로 식별됩니다. 그러나 디지털화 하는 과정에서 오류가 발생할 수 있습니다. 네트워크가 하나의 좌표 참조 시스템에서 다른 시스템으로 변환 할 때 오류가 가끔 발생합니다. 아마도 이 경우는 Road graph 플러그인은 도로를 끊어진 것으로 고려할 수 있습니다. 이 경우 위상 오차는 0보다 큰 값으로 설정해야합니다..&lt;/p&gt;
+&lt;p&gt;Road graph 플러그인은 두 도로가 하나의 공통 노드를 가질 경우 연결된 것으로 간주합니다. 노드는 각각의 좌표로 고유하게 식별됩니다. 그러나 디지타이징 하는 과정에서 오류가 발생할 수 있습니다.이런 오류는 때때로 네트워크가 다른 좌표계로 변환될 때 발생하기도 합니다. 이 때문에 Road graph 플러그인이 도로가 끊어진 것으로 생각할 수 있습니다. 이 경우 토폴로지 허용치를 0 보다 큰 값으로 설정해야합니다..&lt;/p&gt;
 &lt;a name=&quot;LayerSettings&quot;&gt;
-&lt;h4&gt;전송 레이어 설정&lt;/h4&gt;
+&lt;h4&gt;교통 레이어 설정&lt;/h4&gt;
 &lt;/a&gt;
-&lt;p&gt;&lt;label&gt;레이어&lt;/label&gt; - 기로로의 데이터 레이어&lt;/p&gt;
-&lt;p&gt;&lt;label&gt;필드의 방향&lt;/label&gt; - 이 필드의 값은 Road graph 플러그인이 레이어 객체를 해석하는 방법을 나타냅니다. &lt;label&gt;전진 값&lt;/label&gt; - 운동의 방향은 객체의 점의 순서를 따릅니다.&lt;label&gt;후진 값&lt;/label&gt; - 운동의 방향은 객체의 점의 역순으로 따릅니다.&lt;label&gt;양방향 값&lt;/label&gt; - 둘다 가능합니다.&lt;/p&gt;
-&lt;p&gt;속도 필드&lt;/p&gt; - 도로에서 기록된 속도를 포함하는 필드.&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;레이어&lt;/label&gt; - 도로의 데이터 레이어&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;필드의 방향&lt;/label&gt; - 이 필드의 값은 Road graph 플러그인이 레이어 객체를 해석하는 방법을 나타냅니다. &lt;label&gt;순방향 값&lt;/label&gt; - 이동 방향이 객체의 점의 순서를 따릅니다.&lt;label&gt;역방향 값&lt;/label&gt; - 이동 방향이 객체의 점의 역순으로 따릅니다.&lt;label&gt;양방향 값&lt;/label&gt; - 둘다 가능합니다.&lt;/p&gt;
+&lt;p&gt;속도 필드&lt;/p&gt; - 도로상에 기록된 속도를 포함하는 필드.&lt;/p&gt;
+
 &lt;h5&gt;기본 설정&lt;/h5&gt;
-&lt;p&gt;선형 레이어의 속성 테이블에 필요한 필드 또는 필드에 예기치 않은 값을 포함 포함되지 않은 경우, 플러그인은 기본값을 사용합니다. 당신은 기본 탭에서 설정할 수 있습니다. &lt;label&gt;기본 설정&lt;/label&gt;.&lt;/p&gt;</translation>
+&lt;p&gt;선형 레이어의 속성 테이블에 필요한 필드가 없거나 필드에 예기치 않은 값이 포함된 않은 경우, 플러그인은 기본값을 사용합니다. 사용자가 이 값들을 &lt;label&gt;기본 설정&lt;/label&gt; 탭에서 설정할 수 있습니다.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="75"/>
@@ -64954,16 +64953,17 @@ SQL Anywhere database.
 &lt;li&gt; &lt;label&gt;이름&lt;/label&gt; 연결설정 이름
 &lt;li&gt; &lt;label&gt;호스트&lt;/label&gt; 데이터 베이스 연결을 맺을 서버의 이름이나 IP 주소 (로컬 연결은 공란).
 &lt;li&gt; &lt;label&gt;포트&lt;/label&gt; 데이터베이스가 사용하는 IP 포트 (로컬 연결이나 기본 포트 2638을 쓸 경우 공란).
-&lt;li&gt; &lt;label&gt;서버&lt;/label&gt; 데이터베이스 서버 이름 (leave blank for default server on host).
-&lt;li&gt; &lt;label&gt;데이터베이스&lt;/label&gt; 데이터베이스 이름 (서버에 데이터베이스가 있는 경우 공란).
-&lt;li&gt; &lt;label&gt;연결 파라메타&lt;/label&gt; 추가 매개 변수는 연결 문자열 (세미콜론 으로 잘려진 목록)에 추가 할 수 있습니다. 사용할 수있는 연결 매개 변수의 목록과 설명은 SQL Anywhere 설명서를 참조하십시오.
-&lt;li&gt; &lt;label&gt;사용자 이름&lt;/label&gt; 데이터베이스 사용자 이름.
+&lt;li&gt; &lt;label&gt;서버&lt;/label&gt; 데이터베이스 서버 이름 (호스트 상의 기본 서버 사용시 공란).
+&lt;li&gt; &lt;label&gt;데이터베이스&lt;/label&gt; 데이터베이스 이름 (서버의 데이터베이스를 사용하는 경우 공란).
+&lt;li&gt; &lt;label&gt;연결 파라메타&lt;/label&gt; 추가 매개 변수는 연결 문자열(세미콜론으로 잘려진 목록)에 추가 할 수 있습니다. 사용할 수 있는 연결 매개 변수의 목록과 설명은 SQL Anywhere 설명서를 참조하십시오.
+&lt;li&gt; &lt;label&gt;사용자이름&lt;/label&gt; 데이터베이스 사용자 이름.
 &lt;li&gt; &lt;label&gt;비밀번호&lt;/label&gt; 데이터베이스 비밀번호.
-&lt;li&gt; &lt;label&gt;사용자 이름 저장&lt;/label&gt; 연결 구성에서 데이터베이스 사용자 이름을 저장할지 여부를 나타냅니다.
+&lt;li&gt; &lt;label&gt;사용자이름 저장&lt;/label&gt; 연결 구성에서 데이터베이스 사용자 이름을 저장할지 여부를 나타냅니다.
 &lt;li&gt; &lt;label&gt;비밀번호 저장&lt;/label&gt; 연결 설정에서 데이터베이스 암​​호를 저장할지 여부를 나타냅니다. &lt;em&gt;비밀번호는 &lt;strong&gt;일반 평문&lt;/string&gt;으로 시스템 구성에 저장됩니다!&lt;/em&gt;
 &lt;li&gt; &lt;label&gt;간단한 암호화&lt;/label&gt; 간단한 암호화를 이용해 DB 연결의 보안성을 높일수 있습니다.
-&lt;li&gt; &lt;label&gt;테이블 메타데이타 측정&lt;/label&gt; 레이어를 초기화 할 때, 다양한 쿼리는 데이터베이스 테이블에 저장된 지오메트리의 특성을 지오메트리데 필요합니다. 이 옵션필요합니다면 이러한 쿼리는 행보다는 전체 테이블의 표본을 검사합니다. 이런 경우 크게 레이이런 경우 속도를 높일 수 있지만, 불일치 유형을 포함하는 레이어의 잘못된 특성을 초래할 수 있습니다
-&lt;li&gt; &lt;label&gt;다른 사용자의 테이블 검색하기&lt;/label&gt; 레이어 목록은 데이터베이스에 저장된 모든 레이어에서 채워 져야함을 나타냅니다. 선택 해제 한 경우 (기본값), 연결된 사용자가 소유 한 테이블에 저장된 레이어 만이 표시됩니다. 
+&lt;li&gt; &lt;label&gt;추정된 테이블 메타데이터 사용&lt;/label&gt; 레이어를 초기화할때, 여러가지 질의에서 데이터베이스 테이블에 저장되어 있는 도형의 특성을 만드는 것이 필요할 수도 있습니다. 이 옵션이 선택되면, 질의는 전체 테이블이 아니라, 몇 행의 샘플로 테이블 통계를 생성합니다. 이렇게 하면 레이어 초기화 속도를 극단적으로 빨리할 수 있으나, 여러가지 타입이 혼재된 레이어의 특성을 잘못 판단할 수 있습니다.
+&lt;li&gt; &lt;label&gt;다른 사용자의 테이블 검색하기&lt;/label&gt; 데이터베이스에 저장된 모든 레이어의 목록을 가져올지를 나타냅니다. 선택 해제하면(기본값), 연결된 사용자가 소유 한 테이블에 저장된 레이어 만이 표시됩니다. 
+
 &lt;/ul&gt;</translation>
     </message>
     <message>
@@ -64975,11 +64975,11 @@ QGIS supports vector data in a number of formats, including those supported by t
 QGIS supports PostGIS layers in a PostgreSQL database and SpatiaLite layers. Support for additional data types (eg. delimited text) is provided by additional data provider plugins. A list of OGR supported vector formats can be found in Appendix A.1 of the User Guide.&lt;/p&gt;
 Detailed description how to proceed with vector data is described in chapter 5 &apos;Working with Vector Data&apos;.
 </source>
-        <translation>&lt;h3&gt; 오픈 벡터 레이어 대화 상자 &lt;/h3&gt;
+        <translation>&lt;h3&gt;벡터 레이어 열기 대화 상자 &lt;/h3&gt;
 
-오픈 벡터 레이어 대화 상자가 QGIS지도보기로 벡터 데이터를 추가하는 데 사용됩니다. 벡터 데이터는 점, 선 및 폴리곤의 지오메트리(밀폐 공간)를 사용하여 설명되는 공간 데이터입니다. &lt;/p&gt;
-QGIS는 ESRI shape 파일과 MapInfo의 MIF(교환 포맷) 및 MapInfo의 TAB (기본 형식)등은 물론, OGR 라이브러리 데이터 공급자 플러그인에서 지원하는 포맷을 포함해서 다양한 형태의 포맷을 지원합니다.&lt;/p&gt;
-QGIS는 PostgreSQL 데이터베이스의 PostGIS 레이어와 SpatiaLite 레이어를 지원합니다. 추가 데이터 유형(예 : 구분 된 텍스트)에 대한 지원은 추가 데이터 공급자 플러그인에 의해 제공됩니다. OGR 지원 벡터 형식의 목록은 설명서의 부록 A.1에서 찾을 수 있습니다. &lt;/P&gt;
+벡터 레이어 열기 대화 상자가 QGIS 지도 화면으로 벡터 데이터를 추가하는 데 사용됩니다. 벡터 데이터는 점, 선 및 폴리곤(닫혀진 영역)의 지오메트리를 사용하여 표현되는 공간 데이터입니다. &lt;/p&gt;
+QGIS는 ESRI shape 파일과 MapInfo의 MIF(교환 포맷) 및 MapInfo의 TAB(고유 형식)등은 물론, OGR 라이브러리 데이터 공급자 플러그인에서 지원하는 포맷을 포함해서 다양한 형태의 포맷을 지원합니다.&lt;/p&gt;
+QGIS는 PostgreSQL 데이터베이스의 PostGIS 레이어와 SpatiaLite 레이어를 지원합니다. 추가적인 데이터 유형(예 : 구분자로 분리된 텍스트)에 대한 지원은 추가 데이터 프로바이더 플러그인에 의해 제공됩니다. OGR 지원 벡터 형식의 목록은 설명서의 부록 A.1에서 찾을 수 있습니다. &lt;/P&gt;
 벡터 데이터와 함께 작업하는 방법에 대한 자세한 설명은 &apos;벡터 데이터 작업&apos; 제 5 장에 설명되어 있습니다.</translation>
     </message>
     <message>
@@ -65177,7 +65177,7 @@ QGIS 파이썬 콘솔은 파이썬 명령어를 실행할 수 있는 대화형 �
 콘솔과 편집기 모두 PyQScintilla2 패키지를 기반으로합니다. &lt;br&gt;
 콘솔은 상하로 분할되어 있고, 상하 모두 가로 나누기를 사용하여 크기 조정이 가능합니다.  출력 영역은 명령 출력을  보여주는  읽기 전용 위젯입니다
 입력 공간에서 당신은 드래그앤 드롭, 복사 및 붙여넣기 등을 실행할 수 있고, 컨텍스트 메뉴에서 &lt;label&gt;선택 입력&lt;/label&gt;에서 명령어를 선택하고 일부를 선택해서  출력 패널에서 코드 스니펫을 실행할 수 있습니다.
-선택한 텍스트가 해석 프롬프트 (&gt;&gt;&gt;, ...)를 포함하고 있어도 개의치 마십시오. 입력 영역 패널은 입력 명령어를 실행하는 대화형 파이썬 셀입니다.&lt;br&gt; 파이썬 파일 편집기를 사용하기 위해서는 &lt;label&gt;편집기 보기&lt;/label&gt; 버튼을 툴바에서 사용가능합니다.  편집기는 파이썬 파일을 수정하고 저장할 수 있으며 당신의 코드를 관리하기 위한 기본적인 파이썬 기능을 제공합니다. ( 주석처리, 비주석처리, 구문확인, codepad.org 에 코드 공유하기 이외 더 많은).
+선택한 텍스트가 해석 프롬프트 (&gt;&gt;&gt;, ...)를 포함하고 있어도 개의치 마십시오. 입력 영역 패널은 입력 명령어를 실행하는 대화형 파이썬 셀입니다.&lt;br&gt; 파이썬 파일 편집기를 사용하기 위해서는 &lt;label&gt;편집기 보기&lt;/label&gt; 버튼을 툴바에서 사용가능합니다.  편집기는 파이썬 파일을 수정하고 저장할 수 있으며 당신의 코드를 관리하기 위한 기본적인 파이썬 기능을 제공합니다. ( 주석처리, 비주석처리, 구문확인, codepad.org 에 코드 공유하기 등등).
 &lt;/p&gt;
 &lt;/td&gt;
 &lt;/tr&gt;
@@ -65391,78 +65391,77 @@ Informs you about active system locale. To change it tick &lt;label&gt;Override 
 Tick &lt;label&gt;Use proxy for web access&lt;/label&gt; to define host, port, user, and password.
 </source>
         <translation>&lt;h3&gt;옵션&lt;/h3&gt;
-이 대화상자에서 8가지 QGIS 기본 옵션을 선택할 수 있습니다. 탭은 8가지 입니다 :
+이 대화상자에서 몇 가지 QGIS 기본 옵션을 선택할 수 있습니다. 8 개의 탭이 있습니다:
 &lt;p&gt;
+
 &lt;a href=&quot;#general&quot;&gt;일반&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#ren&quot;&gt;렌더링 및 SVG&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#map&quot;&gt;지도 도구&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#over&quot;&gt;배치&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#digit&quot;&gt;디지탈화&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#crs&quot;&gt;CRS&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#loc&quot;&gt;로케일&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#over&quot;&gt;오버레이&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#digit&quot;&gt;디지타이징&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#crs&quot;&gt;좌표계&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#loc&quot;&gt;언어설정&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#net&quot;&gt;네트워크 및 프록시&lt;/a&gt;&lt;br/&gt;
+
 &lt;a name=&quot;general&quot;&gt;
 &lt;h4&gt;일반&lt;/h4&gt;
 &lt;/a&gt;
-이 탭에서 열기, 저장 기본 지도 형태, 당신의 선호 아이콘과 테마 및 많은 다른 것들등의 프로젝트의 일반설정을 할 수 있습니다
+이 탭에서 열기/저장시의 포그젝트 동작, 기본 지도 표현, 선호하는 아이콘 테마 등 많은 일반적인 옵션을 설정할 수 있습니다.
 &lt;a name=&quot;ren&quot;&gt;
 &lt;h4&gt;렌더링 및  SVG&lt;/h4&gt;
 &lt;/a&gt;
 이 탭에서 지도레이어의 일반적인 렌더링 옵션을 설정할 수 있습니다.
-기본적으로 QGIS는 지도 캔버스를 새로 고쳐야 할 때마다, 모든 보이는 레이어를 렌더링 합니다. 지도캔버스가 새로고침할때마다 발생하는 이벤트는 다음과 같습니다 :
+기본적으로 QGIS는 지도 캔버스를 새로 고쳐야 할 때마다, 모든 켜진 레이어를 렌더링 합니다. 지도캔버스가 새로 그려지도록 하는 이벤트는 다음과 같습니다 :
 &lt;ul&gt;
-&lt;li&gt;레이어를 추가할 떄
-&lt;li&gt;이동 하고 확대할 때
-&lt;li&gt;QGIS 창 크기가 바뀔때
-&lt;li&gt;레이어들 중 한 레이어의 외양이 바뀔 때
+&lt;li&gt;레이어를 추가
+&lt;li&gt;이동 혹은 확대
+&lt;li&gt;QGIS 창 크기 변경
+&lt;li&gt;레이어(들)의 가시성 변경
 &lt;/ul&gt;
-QGIS의 렌더링 순서를 바꾸는 방법은 여러가지가 있습니다:
-&lt;p&gt;
-항상 새로운 레이어를 그리지 않고 로딩하기 옵션을 사용할 수 있습니다.
-&lt;br&gt;
-이렇게 하면 지도위에 레이어는 올려지지만, 기본적으로 범례의 보이기 옵션은 꺼진 상태로 체크되어 있게 됩니다. 이렇게 설정하기 위해서는  &lt;label&gt;기본적으로 새로운 레이어를 지도상에 보여주기&lt;/label&gt; 체크박스의 체크를 꺼두면 됩니다.&lt;p&gt;
-객체가 지도위에 그려진 상태로 지도를 보여주도록 갱신하는 옵션을 설정할 수 있습니다.
-&lt;br&gt;
-기본적으로 QGIS는 모든 레이어 객체가 다 렌더링되기 전까지는 어떤 어떤 객체도 보여주지 않습니다. 데이터 스토어에서 객체를 읽을 때 마다 화면을 업데이트 하기 위해서는 &lt;label&gt;화면을 업데이트 하기전에 그릴 객체 개수&lt;/label&gt;를 적절한 값으로 결정해 주십시오. 값을 0으로 하시면 화면을 갱신하는 동안 아무 객체도 보여지지 않습니다(기본입니다). 값을 너무 낮게 잡으면 지도 캔버스가 지속적으로 객체를 읽으면서 갱신되므로 성능에 나쁜 영향을 미칩니다. 적정한 값은 500으로 시작하는 것이 좋습니다.
+QGIS의 렌더링 처리를 바꾸는 방법에는 여러가지가 있습니다:&lt;p&gt;
+사용자가 새로운 레이어를 항상 그리지 않고 로딩하도록 옵션을 설정할 수 있습니다&lt;br&gt;
+이렇게 하면 지도위에 레이어는 올려지지만, 기본적으로 범례의 보이기 옵션은 꺼진 상태로 체크되어 있게 됩니다. 이렇게 설정하기 위해서는  &lt;label&gt;지도에 새로운 레이어 추가시 해당 레이어를 기본적으로 표시&lt;/label&gt; 체크박스의 체크를 꺼두면 됩니다.&lt;p&gt;
+사용자가 객체가 지도위에 그려진 상태로 지도를 보여주도록 갱신하는 옵션을 설정할 수 있습니다.&lt;br&gt;
+기본적으로 QGIS는 모든 레이어 객체가 다 렌더링되기 전까지는 어떤 어떤 객체도 보여주지 않습니다. 데이터 스토어에서 객체를 읽을 때 마다 화면을 갱신하기 위해서는 &lt;label&gt;표시 업데이트 전에 그릴 객체 수&lt;/label&gt;를 적절한 값으로 결정해 주십시오. 값을 0으로 하시면 화면을 갱신하는 동안 아무 객체도 보여지지 않습니다(기본입니다). 값을 너무 낮게 잡으면 지도 캔버스가 지속적으로 객체를 읽으면서 갱신되므로 성능에 나쁜 영향을 미칩니다. 적정한 값은 500으로 시작하는 것이 좋습니다.
 &lt;a name=&quot;map&quot;&gt;
 &lt;h4&gt;지도 도구&lt;/h4&gt;
 &lt;/a&gt;
 &lt;h5&gt;객체 확인&lt;/h5&gt;
-&lt;label&gt;모드&lt;/label&gt; 설정은 어떤 레이어가 &lt;label&gt;객체확인&lt;/label&gt; 도구 에서 보여질지를 결정합니다. &lt;label&gt;현재 레이어&lt;/label&gt; 옵션을 &lt;label&gt;위에서 아래까지 모두&lt;/label&gt;로 모드를 바꿔 &lt;label&gt;객체확인&lt;/label&gt; 도구를 사용하면, 측정 가능한 모든 레이어의 속성값을 확인할 수 있습니다.
+&lt;label&gt;모드&lt;/label&gt; 설정은 어떤 레이어가 &lt;label&gt;객체 확인&lt;/label&gt; 도구에서 보여질지를 결정합니다. &lt;label&gt;현재 레이어&lt;/label&gt; 옵션을 &lt;label&gt;하향식&lt;/label&gt; 모드로 바꿔 &lt;label&gt;객체확인&lt;/label&gt; 도구를 사용하면, 조회 가능한 모든 레이어의 속성값을 확인할 수 있습니다.
 &lt;h5&gt;측정 도구&lt;/h5&gt;
-여기서 타원체의 거리계산, 단위측정, 고무밴드의 선호색상등을 설정할 수 있습니다.
+여기서 거리계산을 위한 타원체, 측정 단위, 선호하는 고무밴드 색상 등을 설정할 수 있습니다.
 &lt;h5&gt;이동 및 확대&lt;/h5&gt;
-마우스휠과 줌 정도를 설정할 수 있습니다
+마우스휠과 줌 사이의 인자값을 설정할 수 있습니다
 &lt;a name=&quot;over&quot;&gt;
-&lt;h4&gt;배치&lt;/h4&gt;
+&lt;h4&gt;오버레이&lt;/h4&gt;
 &lt;/a&gt;
-레이블 배치 알고리즘을 정의합니다. 다음에서 고를 수 있습니다.&lt;label&gt;중점 (가장빠름)&lt;/label&gt;, &lt;label&gt;체인 (빠름)&lt;/label&gt;, &lt;label&gt;팝뮤직 금지 체인 (느림)&lt;/label&gt;, &lt;label&gt;팝뮤직 금지 (느림)&lt;/label&gt; 그리고 &lt;label&gt;팝뮤직 체인 (매우 느림)&lt;/label&gt;. 
+라벨 배치 알고리즘을 정의합니다. 다음 중에서 고를 수 있습니다.&lt;label&gt;중심점 (가장빠름)&lt;/label&gt;, &lt;label&gt;chain (빠름)&lt;/label&gt;, &lt;label&gt;popmusic tabu chain (느림)&lt;/label&gt;, &lt;label&gt;popmusic tabu (느림)&lt;/label&gt; 그리고 &lt;label&gt;popmusic chain (매우 느림)&lt;/label&gt;. 
 &lt;a name=&quot;digit&quot;&gt;
-&lt;h4&gt;디지탈화&lt;/h4&gt;
+&lt;h4&gt;디지타이징&lt;/h4&gt;
 &lt;/a&gt;
 &lt;h5&gt;고무밴드&lt;/h5&gt;
-&lt;label&gt;디지탈화&lt;/label&gt; 탭에서 선 넓이와 색을 디지타이징하는 설정을 할 수 있습니다.
-&lt;h5&gt;자석기능&lt;/h5&gt;
-여기서 일반적인, 프로젝트 자석기능의 픽셀 범위를 설정할 수 있습니다.&lt;p&gt;
-&lt;label&gt;꼭지점까지&lt;/label&gt;, &lt;label&gt;선분까지&lt;/label&gt; 또는 &lt;label&gt;꼭지점과 선분까지&lt;/label&gt;(기본값) 등의 옵션을  선택할 수 있습니다. 또, 기본 자석기능의 범위를 정의할 수 있고 꼭지점 편집을 위한 반경검색을 정의할 수 있습니다. 자석기능의 범위는 지도의 단위 및 픽셀로 설정가능합니다. 픽셀을 선택하는 게 더 용이한데, 확대 축소 이후에도 자석기능의 범위가 변하지 않기 때문입니다.&lt;p&gt;
-&lt;label&gt;설정&lt;/label&gt; (혹은 &lt;label&gt;파일&lt;/label&gt;) &gt; &lt;label&gt;프로젝트 속성...&lt;/label&gt; 메뉴에서 레이어 기반의 자석기능 범위를 정의할 수 있습니다. In the &lt;label&gt;일반&lt;/label&gt;탭,  &lt;label&gt;디지탈화&lt;/label&gt; 섹션에서 &lt;label&gt;자석기능 옵션...&lt;/label&gt;을 클릭해서 활성화 시키고 자석모드를 조정하고 레이어 기반의 자석범위를 조정합니다.
-&lt;h5&gt;꼭지점 마커&lt;/h5&gt;
-마커의 스타일을  &lt;label&gt;반투명원&lt;/label&gt;, &lt;label&gt;십자표&lt;/label&gt; or &lt;label&gt;없음&lt;/label&gt; 등으로 설정할 수 있으며 크기또한 설정가능합니다;선택된 객체만 보이도록 설정하는 것도 가능합니다.
+&lt;label&gt;디지타이징&lt;/label&gt; 탭에서 디지타이징시 보이는 선의 두께와 색을 설정할 수 있습니다.
+&lt;h5&gt;맞추기&lt;/h5&gt;
+여기서 프로젝트 범위에서 일반적으로 사용되는 맞추기 범위를 설정할 수 있습니다.&lt;p&gt;
+&lt;label&gt;버텍스에 맞춤&lt;/label&gt;, &lt;label&gt;세그먼트에 맞춤&lt;/label&gt; 또는 &lt;label&gt;버텍스와 세그먼트에 맞춤&lt;/label&gt;(기본값) 등의 옵션을  선택할 수 있습니다. 또, 기본 맞추기 허용치 정의할 수 있고 버텍스 편집을 위한 검색반경을 정의할 수 있습니다. 맞추기 허용치는 지도의 단위 및 픽셀로 설정가능합니다. 픽셀을 선택할 때의 장점은, 확대 축소 이후에도 맞추기 범위가 변하지 않는다는 것입니다.&lt;p&gt;
+&lt;label&gt;설정&lt;/label&gt; (혹은 &lt;label&gt;파일&lt;/label&gt;) &gt; &lt;label&gt;프로젝트 속성...&lt;/label&gt; 메뉴에서 레이어 기반의 맞추기 허용치를 정의할 수 있습니다. &lt;label&gt;일반&lt;/label&gt;탭의 &lt;label&gt;디지타이징&lt;/label&gt; 섹션에서 &lt;label&gt;맞추기 옵션...&lt;/label&gt;을 클릭해서 활성화 및 맞추기 모드 조정과 레이어 기반 허용치를 조정할 수 있습니다.
+&lt;h5&gt;버텍스 마커&lt;/h5&gt;
+마커의 스타일을  &lt;label&gt;반투명원&lt;/label&gt;, &lt;label&gt;십자표&lt;/label&gt;, &lt;label&gt;없음&lt;/label&gt; 등으로 설정할 수 있으며 크기도 설정가능합니다. 선택된 객체의 마커만 보이도록 설정하는 것도 가능합니다.
 &lt;h5&gt;속성값 입력&lt;/h5&gt;
-기본적으로, 새 객체를 디지탈화 한 후에, QGIS는 객체에 대해 속성값을 입력할지 물어봅니다. &lt;label&gt;객체 생성후 속성값 입력하지 않기&lt;/label&gt; 기능을 통해 나중에 입력할 수 있습니다.
+기본적으로, 새 객체를 디지타이징 한 후에, QGIS는 객체에 대해 속성값을 입력할지 물어봅니다. &lt;label&gt;각각의 객체가 만들어진 후 속성 팝업이 표시되는 것을 방지&lt;/label&gt;를 선택해서 나중에 입력할 수도 있습니다.
 &lt;a name=&quot;crs&quot;&gt;
-&lt;h4&gt;CRS&lt;/h4&gt;
+&lt;h4&gt;좌표계&lt;/h4&gt;
 &lt;/a&gt;
-QGIS는 더 이상 지도의 첫번째 레이어의 좌표계 시스템을 따라 CRS 값을 결정하지 않습니다. QGIS 세션을 CRS가 없는 레이어들과 시작할때 CRS값을 확인하고 정의할 필요가 있습니다. 이것은 이 탭에서 세계 전체적으로 그러할 것입니다.&lt;p&gt;
-기본 글로발 CRS는 &lt;i&gt;proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs&lt;/i&gt;로써 QGIS에 미리 정의되어 있지만 물론 변경될 수 있습니다, 그리고 새롭게 정의된 값은 뒤따르는 QGIS 세션을 위해 저장됩니다. 
+QGIS는 더 이상 지도에 처음 로드된 레이어의 좌표계에 따라 좌표계 값을 결정하지 않습니다. 사용자가 좌표계를 갖지 않은 레이어와 함께 QGIS를 시작하면, 사용자가 이 레이어에 대한 기본 좌표계 정의를 선택해야 합니다. 이 탭에서 좌표계 설정이 전역적으로 설정될 수 있습니다.&lt;p&gt;
+기본 전역 좌표계는 &lt;i&gt;proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs&lt;/i&gt;로 QGIS에 미리 정의되어 있지만 물론 변경할 수 있습니다, 그리고 새롭게 정의된 값은 이후의 QGIS 세션을 위해 저장됩니다. 
 &lt;a name=&quot;lov&quot;&gt;
-&lt;h4&gt;로케일&lt;/h4&gt;
+&lt;h4&gt;언어설정&lt;/h4&gt;
 &lt;/a&gt;
-시스템 로케일에 대해 알려줍니다. 바꾸려면 &lt;label&gt;시스템 로케일 덮어쓰기&lt;/label&gt;를 이용해 값을 바꾸고 QGIS를 껐다 켭니다.
+시스템 언어설정 대해 알려줍니다. 바꾸려면 &lt;label&gt;시스템 언어설정을 무시하고 사용&lt;/label&gt;를 이용해 값을 바꾸고 QGIS를 다시 시작합니다.
 &lt;a name=&quot;net&quot;&gt;
 &lt;h4&gt;네트워크 및 프록시&lt;/h4&gt;
 &lt;/a&gt;
-&lt;label&gt;웹접근을 위한 프록시 사용&lt;/label&gt;기능을 통해 호스트, 포트, 사용자, 및 비밀번호를 설정합니다.</translation>
+&lt;label&gt;웹 연결에 프록시 사용&lt;/label&gt;기능을 선택해 호스트, 포트, 사용자, 및 비밀번호를 설정합니다.</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="1211"/>
@@ -65478,14 +65477,14 @@ You can also define the width and precision of the new attribute column.
 &lt;h4&gt;Attributes list&lt;/h4&gt;
 In this section you can see the list of attributes. To delete one of them, click on it and choose &lt;label&gt;Remove selected attribute&lt;/label&gt; button.
 </source>
-        <translation>&lt;h3&gt;벡터 레이어 만들기&lt;/h3&gt;
-편집할 벡터 레이어를 만들기 위해서는, &lt;label&gt;레이어&lt;/label&gt; 메뉴의 &lt;label&gt;새 벡터 레이어&lt;/label&gt;를 선택합니다.
+        <translation>&lt;h3&gt;새 벡터 레이어 만들기&lt;/h3&gt;
+편집할 새 벡터 레이어를 만들기 위해서는, &lt;label&gt;레이어&lt;/label&gt; 메뉴의 &lt;label&gt;새 벡터 레이어&lt;/label&gt;를 선택합니다.
 이 대화상자로 쉐입 파일 레이어를 만들 수 있습니다.
 &lt;h4&gt;형태&lt;/h4&gt;
 레이어의 형태를 &lt;label&gt;점&lt;/label&gt;, &lt;label&gt;선&lt;/label&gt;, &lt;label&gt;폴리곤&lt;/label&gt; 중 선택 하십시오.&lt;br/&gt;
 필요하다면 &lt;label&gt;좌표계 선택&lt;/label&gt; 버튼을 클릭하셔서 레이어의 좌표계를 변경하실 수 있습니다.
 &lt;h4&gt;새 속성&lt;/h4&gt;
-&lt;label&gt;리스트에 속성 추가&lt;/label&gt; 버튼을 클릭하여 원하는 속성을 추가하고 이름과 형식을 설정할 수 있습니다. 실수와 정수 문자열 속성만이 지원됩니다.&lt;br/&gt;
+&lt;label&gt;속성 목록에 추가&lt;/label&gt; 버튼을 클릭하여 원하는 속성을 추가하고 이름과 형식을 설정할 수 있습니다. 실수와 정수, 문자열 속성만이 지원됩니다.&lt;br/&gt;
 또, 새 속성 컬럼의 길이와 정밀도도 지정할 수 있습니다.
 &lt;h4&gt;속성 리스트&lt;/h4&gt;
 이 부분에서 속성의 리스트를 볼 수 있습니다. 이 중 하나를 지우려면, 지울 항목을 클릭하시고 &lt;label&gt;선택 속성 제거&lt;/label&gt; 버튼을 선택하십시오.
@@ -65556,7 +65555,7 @@ Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for
 &lt;li&gt;&lt;label&gt;연결&lt;/label&gt;을 눌러, 데이터베이스에서 레이어 목록을 받아옵니다. 이 목록을 받아오는 방법에 영향을 주는 옵션은 새 연결 대화 상자의 도움말에 설명되어 있습니다.
     
 &lt;li&gt;사용자가 추가를 원하는 레이어를 목록에서 찾아 클릭합니다.
-&lt;li&gt;Ctrl 키를 누른 채 레이어를 선택하면 어러 레이어를 선택할 수 있습니다.
+&lt;li&gt;Ctrl 키를 누른 채 레이어를 선택하면 여러 레이어를 선택할 수 있습니다.
 &lt;li&gt;&lt;label&gt;추가&lt;/label&gt;를 눌러 지도에 레이어(들)을 추가합니다.
 &lt;/ol&gt;
 &lt;a name=&quot;filter&quot;&gt;
@@ -65585,9 +65584,9 @@ Ticking &lt;label&gt;Search options&lt;/label&gt; enables additional options for
 
 See &lt;a href=&quot;http://gdal.org/ogr/ogr_formats.html&quot;&gt;OGR Vector formats&lt;/a&gt; for a list of supported formats and the available options.
 </source>
-        <translation>&lt;h3&gt;다른 이름으로 벡터 레이어 저장...&lt;/h3&gt;
+        <translation>&lt;h3&gt;새 이름으로 벡터 레이어 저장하기...&lt;/h3&gt;
 
-&lt;p&gt;이 대화상자는 GDAL/OGR을 이용한 다양한 벡터 데이터 형식을 저장할 수 있게 해줍니다.
+&lt;p&gt;이 대화상자는 GDAL/OGR을 이용해 다양한 벡터 데이터 형식을 저장할 수 있게 해줍니다.
 
 &lt;ul&gt;
 &lt;li&gt;&lt;label&gt;형식&lt;/label&gt;에서 대상 형식(OGR이 지원하는)을 선택할 수 있습니다. 
@@ -65657,7 +65656,7 @@ which are described and illustrated on &lt;a href=&quot;http://en.wikipedia.org/
 </source>
         <translation>&lt;h1&gt;온도지도 플러그인 도움말&lt;/h1&gt;
 &lt;p&gt;온도지도 플러그인은 입력 점 벡터 레이어에서 밀도(온도) 레스터를 만들기 위해 
-Kernel Density 분석을 사용합니다. 밀도는 위치에 있는 점 수를 기준으로 계산되며,
+Kernel Density 분석을 사용합니다. 밀도는 인접 위치에 있는 점 수를 기준으로 계산되며,
 많은 점이 모여있으면 높은 값으로 해석됩니다. 온도지도는 &quot;핫스팟&quot;과 점들이
 모이는 것을 쉽게 알아볼 수 있게 해줍니다.&lt;/p&gt;
 
@@ -65667,15 +65666,15 @@ Kernel Density 분석을 사용합니다. 밀도는 위치에 있는 점 수를 
 &lt;p&gt;입력은 항상 점 형태의 벡터 레이어입니다. 현재 캔버스에 로드 된 모든 점 벡터 레이어가 드롭 다운 목록에 표시됩니다. 드롭 다운 버튼을 클릭하고 원하는 레이어를 선택합니다.&lt;/p&gt;
 
 &lt;h3&gt;출력 래스터&lt;/h3&gt;
-&lt;p&gt;출력 래스터 파일의 위치와 이름은 출력 래스터 텍스트 상자 옆에있는 &lt;label&gt;...&lt;/label&gt; 버튼을 클릭하여 설정할 수 있습니다.&lt;br/&gt;
+&lt;p&gt;출력 래스터 파일의 위치와 이름은 출력 래스터 텍스트 상자 옆에 있는 &lt;label&gt;...&lt;/label&gt; 버튼을 클릭하여 설정할 수 있습니다.&lt;br/&gt;
 &lt;b&gt;주의:&lt;/b&gt; 명시적으로 지정하지 않은 경우 출력 파일 포맷에 따라 확장자가 자동으로 추가됩니다.&lt;/p&gt;
 
 &lt;h3&gt;출력 형식&lt;/h3&gt;
-&lt;p&gt;드랍 다운 목록에서 모든 파일 생성 지원 GDAL 포맷을 사용할 수 있습니다. 사용자가 원하는 출력 포맷을 클릭하여 선택하십시오.&lt;br/&gt;
+&lt;p&gt;GDAL이 지원하는 모든 파열 포맷 목록이 드랍 다운 목록에 나옵니다. 사용자가 원하는 출력 포맷을 클릭하여 선택하십시오.&lt;br/&gt;
 &lt;b&gt;주의:&lt;/b&gt; GeoTiff 와 ERDAS Imagine .img 포맷을 권장합니다. 일부 포맷은 프로그램 출돌이 발생할 수 있습니다. 충돌이 해결 될 때까지 권장 포맷을 이용하시거나 사용자가 알고 있는 GDAL에서 완전히 잘 지원 되는 포맷을 사용하십시오.&lt;/p&gt;
 
 &lt;h3&gt;반지름 (벤드위스)&lt;/h3&gt;
-&lt;p&gt;온도지도의 검색 반지름(혹은 커널 벤드위스)를 미터 혹은 지도 단위로 설정하기 위해 사용됩니다. 반지름은 점의 영향력이 느껴질 점 주변의 거리를 설정합니다.
+&lt;p&gt;온도지도의 검색 반지름(혹은 커널 벤드위스)를 미터 혹은 지도 단위로 설정하기 위해 사용됩니다. 반지름은 점의 영향력이 미칠 점 주변의 거리를 설정합니다.
 큰 값은 많이 스무딩 된 결과를, 작은 값은 점 밀도의 미세한 디테일과 변화를 볼 수 있게 해 줍니다.&lt;/p&gt;
 
 &lt;h3&gt;고급 옵션&lt;/h3&gt;
@@ -65686,7 +65685,7 @@ Kernel Density 분석을 사용합니다. 밀도는 위치에 있는 점 수를 
 열 수도 자동적으로 두 배로 늘어나고 셀 크기가 절반으로 줄어듭니다. 하지만 출력 래스터의 지리적 영역은 그대로 유지됩니다!&lt;/p&gt;
 
 &lt;h4&gt;셀 크기 X와 Y&lt;/h4&gt;
-&lt;p&gt;출력 래스터의 각 픽셀의 지리적 크기를 지정 할 수 있습니다. 이 값을 변경하면 출력 래스터의 행과 열 수를 변경합니다.&lt;/p&gt;
+&lt;p&gt;출력 래스터의 각 픽셀의 지리적 크기를 지정 할 수 있습니다. 이 값을 변경하면 출력 래스터의 행과 열 수도 변경됩니다.&lt;/p&gt;
   
 &lt;h4&gt;커널 모양&lt;/h4&gt;
 &lt;p&gt;커널 모양은 점의 영향이 점으로부터의 거리가 증가함에 따라 감소되는 속도를 제어합니다. 다른 커널은 다른 비율로 붕괴하며, 
@@ -65700,10 +65699,10 @@ triweight 커널은 Epanechnikov 커널 보다 가까운 점에 대해 가중치
 &lt;h4&gt;필드값에서 반지름 사용&lt;/h4&gt;
 &lt;p&gt;선택적으로, 지정된 필드의 값으로 입력 레이어의 각 점에 대한 커널 반경을 지정 할 수 있습니다.&lt;/p&gt;
 
-&lt;h4&gt;플드값에서 가중치 사용&lt;/h4&gt;
-&lt;p&gt;선택적으로, 속성에 담겨있는 가중치 값을 입력 레이어에 있는 다른 점들에 비해 가중치로 사용될 수 있습니다.&lt;/p&gt;
+&lt;h4&gt;필드값에서 가중치 사용&lt;/h4&gt;
+&lt;p&gt;선택적으로, 속성에 담겨있는 가중치 값을 입력 레이어에 있는 다른 점들에 대한 가중치로 사용될 수 있습니다.&lt;/p&gt;
 
-&lt;h2&gt;상세 정보&lt;/h2&gt;
+&lt;h2&gt;추가 정보&lt;/h2&gt;
 &lt;p&gt;aruntheguy@gmail.com 으로 저작자에게 연락 바랍니다.&lt;/p&gt;
 </translation>
     </message>
@@ -66055,7 +66054,7 @@ The following options can be added
 &lt;p&gt;
 추가적으로 파일에 있는 지오메트리 정의는 텍스트, 정수, 실수 필드를 포함할 수 있습니다. 기본적으로 QGIS는
 비어있지 않은 필드 값을 기준으로 타입을 선택합니다. 만약 모두 정수로 해석 될 수 있다면 타입은 integer로 되고,
-실수로 해설될 수 있다면 타입은 double로 되고, 그렇지 않은 경우는 타입이 텍스트로 설정됩니다.
+실수로 해석될 수 있다면 타입은 double로 되고, 그렇지 않은 경우는 타입이 텍스트로 설정됩니다.
 &lt;/p&gt;
 &lt;p&gt;
 QGIS는 OGR CSV 드라이버와 호환되는 &amp;quot;csvt&amp;quot;파일 형식을 읽을 수 있습니다.
@@ -66155,7 +66154,7 @@ date, time, datetime 형식은 QGIS에서 문자열로 처리됩니다.
 문자열 설정, 혹은 모든 지오메트리가 유효하지 않을 때 유효한 지오메트리인 암시적인 객체 서브셋).
 이 인덱스는 서브셋이 정의된 경우만 만들어 집니다.&lt;/li&gt;
 &lt;li&gt;파일 감시. 만약 이 옵션이 선택되면 QGIS는 파일이 다른 어플리케이션에 의해 변경되는지를 감시하고,
-파일이 변경된 경우 다시 읽습니다.  지도는 사용자가 리프레쉬 할 때까지 갱신되지 않지만, 인덱스와 범위는 
+파일이 변경된 경우 다시 읽습니다.  지도는 사용자가 새로고침 할 때까지 갱신되지 않지만, 인덱스와 범위는 
 다시 읽혀집니다.  이 옵션은 인덱스가 사용되고 있고 다른 어플리케이션이 파일을 변경할 가능성이 있을 때
 선택됩니다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -66206,7 +66205,7 @@ QGIS는 &lt;a href=&quot;http://qt.digia.com&quot;&gt;Qt&lt;/a&gt; 프레임워�
 
 &lt;h4&gt;&lt;a name=&quot;wkt&quot;&gt;WKT 텍스트를 해석하는 방법&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;
-구분자로 분리된 텍스트 레이어는 &lt;a href=&quot;http://en.wikipedia.org/wiki/Well-known_text&quot;&gt;well known text(WKT)&lt;/a&gt; 타입(&lt;tt&gt;POINT&lt;/tt&gt;, &lt;tt&gt;MULTIPOINT&lt;/tt&gt;, &lt;tt&gt;LINESTRING&lt;/tt&gt;, &lt;tt&gt;MULTILINESTRING&lt;/tt&gt;, &lt;tt&gt;POLYGON&lt;/tt&gt;, and &lt;tt&gt;MULTIPOLYGON&lt;/tt&gt;)을 인식합니다.
+구분자로 분리된 텍스트 레이어는 &lt;a href=&quot;http://en.wikipedia.org/wiki/Well-known_text&quot;&gt;well known text(WKT)&lt;/a&gt; 타입(&lt;tt&gt;POINT&lt;/tt&gt;, &lt;tt&gt;MULTIPOINT&lt;/tt&gt;, &lt;tt&gt;LINESTRING&lt;/tt&gt;, &lt;tt&gt;MULTILINESTRING&lt;/tt&gt;, &lt;tt&gt;POLYGON&lt;/tt&gt;, &lt;tt&gt;MULTIPOLYGON&lt;/tt&gt;)을 인식합니다.
 이는 Z 좌표(예: &lt;tt&gt;POINT&amp;nbsp;Z&lt;/tt&gt;), measure (&lt;tt&gt;POINT&amp;nbsp;M&lt;/tt&gt;), 혹은 둘 다 (&lt;tt&gt;POINT&amp;nbsp;ZM&lt;/tt&gt;)를 가진 지오메트리도 허용합니다.
 &lt;/p&gt;
 &lt;p&gt;
@@ -66339,11 +66338,11 @@ Click on one of the icons along the top of the composer window to select what ty
         <translation>&lt;h3&gt;인쇄 구성&lt;/h3&gt;
 
 &lt;p&gt;
-인쇄 구성은 페이지에 아이템을 배치하고, 이것들을 인쇄할 수 있게 합니다. 아이템에는 지도 캔버스, 스케일 바, 범례, 임의의 이미지 등이 포함됩니다.
+인쇄 구성은 페이지에 아이템을 배치하고, 이것들을 인쇄할 수 있게 합니다. 아이템에는 지도 캔버스, 스케일바, 범례, 임의의 이미지 등이 포함됩니다.
 &lt;/p&gt;
 
 &lt;p&gt;
-어떤 아이템을 페이지에 넣을지 선택하기 위해 구성 윈도우 위쪽에 있는 아이콘 중 하나를 클릭하십시오. 지도 캔버스와 스케일 바 등 일부 항목의 크기는 페이지에서 클릭하고 드래그하여 설정할 수 있습니다. 다른 아이템들은 고정 크기를 가지고 있으나, 나중에 아이템을 선택하고 왼쪽 창에서 크기 필드를 조정하여 변경할 수 있습니다.
+어떤 아이템을 페이지에 넣을지 선택하기 위해 구성 윈도우 위쪽에 있는 아이콘 중 하나를 클릭하십시오. 지도 캔버스와 스케일바 등 일부 항목의 크기는 페이지에서 클릭하고 드래그하여 설정할 수 있습니다. 다른 아이템들은 고정 크기를 가지고 있으나, 나중에 아이템을 선택하고 왼쪽 창에서 크기 필드를 조정하여 변경할 수 있습니다.
 
 &lt;/p&gt;
 
@@ -72993,7 +72992,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="396"/>
         <source>Snap lines to vertex in threshold</source>
-        <translation>선을 임계값 내 점에 스냅</translation>
+        <translation>선을 임계값 내 점에 맞추기</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="397"/>
@@ -73133,12 +73132,12 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="424"/>
         <source>Update raster statistics</source>
-        <translation>래스터의 통계 업데이트</translation>
+        <translation>래스터의 통계 갱신</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="425"/>
         <source>Update vector map metadata</source>
-        <translation>벡터 맵의 메타데이터 업데이트</translation>
+        <translation>벡터 맵의 메타데이터 갱신</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="426"/>
@@ -73188,7 +73187,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="435"/>
         <source>Vector update by other maps</source>
-        <translation>다른 지도에 의해 벡터 업데이트</translation>
+        <translation>다른 지도에 의해 벡터 갱신</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="436"/>
