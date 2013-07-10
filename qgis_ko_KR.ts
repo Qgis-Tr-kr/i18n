@@ -12176,7 +12176,8 @@ You are seeing this message most likely because you have no DISPLAY environment 
         <location filename="../src/providers/oracle/qgsoracleprovider.cpp" line="2899"/>
         <source>Unable to determine number of geometry columns of layer %1.%2: 
 %3</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 레이어의 지오메트리 컬럼 수를 판단할 수 없음 %1.%2: 
+%3</translation>
     </message>
     <message>
         <source>Unable determine number of geometry columns of layer %1.%2: 
@@ -12714,7 +12715,7 @@ SQL: %1</translation>
     <message>
         <location filename="../src/core/qgsfeature.cpp" line="195"/>
         <source>Attribute index %1 out of bounds [0;%2]</source>
-        <translation type="unfinished">속성 인덱스 %1 범위 밖의 [0,;%2[ {1 ?} {0;%2]?}</translation>
+        <translation>속성 인덱스 %1 범위 벗어남 [0;%2]</translation>
     </message>
 </context>
 <context>
@@ -13081,7 +13082,7 @@ Errors: %3
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6926"/>
         <source>Do you want to save the current project? %1</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 프로젝트를 저장하시겠습니까? %1</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="8346"/>
@@ -13919,7 +13920,7 @@ Please contact the developers.
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6154"/>
         <source>%1 (%2 type unsupported)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2 형식 지원안됨)</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="6600"/>
@@ -17611,7 +17612,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="446"/>
         <source>The filter defines which features are currently shown in the list or on the table</source>
-        <translation type="unfinished"></translation>
+        <translation>어떤 객체가 목록이나 테이블에 보일지 정의하는 필터 정의</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="583"/>
@@ -18910,7 +18911,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/gui/qgscollapsiblegroupbox.cpp" line="194"/>
         <source>Ctrl (or Alt)-click to toggle all</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 전환하려면 Ctrl (혹은 Alt) 클릭</translation>
     </message>
 </context>
 <context>
@@ -19251,7 +19252,8 @@ Please try a lower resolution or a smaller papersize</source>
         <location filename="../src/app/composer/qgscomposer.cpp" line="979"/>
         <source>Trying to create image #%1( %2x%3 @ %4dpi ) may result in a memory overflow.
 Please try a lower resolution or a smaller papersize</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지 #%1 ( %2x%3 @ %4dpi )을 생성하는 중 메모리 오버플로우가 발생했습니다.
+해상도를 낮추거나 더 작은 출력크기로 시도해 주세요</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposer.cpp" line="1561"/>
@@ -23267,12 +23269,12 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/core/qgscontexthelp.cpp" line="83"/>
         <source>Error starting help viewer [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>도움말 뷰어 시작 오류 [%1]</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp.cpp" line="83"/>
         <source>Context help</source>
-        <translation type="unfinished"></translation>
+        <translation>상황별 도움말</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp.cpp" line="91"/>
@@ -40525,7 +40527,7 @@ Always network: always load from network and do not check if the cache has a val
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1145"/>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="2291"/>
         <source>OGR error syncing to disk: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크와 싱크 하는 중 OGR 오류: %1</translation>
     </message>
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1168"/>
@@ -40550,7 +40552,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1275"/>
         <source>Possible corruption after REPACK detected. %1 still exists. This may point to a permission or locking problem of the original DBF.</source>
-        <translation type="unfinished"></translation>
+        <translation>REPACK 후 가능한 손상이 감지되었습니다. %1이 여전히 존재합니다. 이것은 아마도 원본 DBF 파일의 권한이나 잠김 문제일 것입니다.</translation>
     </message>
     <message>
         <location filename="../src/providers/ogr/qgsogrprovider.cpp" line="1318"/>
@@ -45741,7 +45743,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="43"/>
         <source>&lt;h3&gt;Get more plugins&lt;/h3&gt;&lt;p&gt;Here you see the list of all plugins available in the repositories, but which are &lt;b&gt;not yet installed&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Click on the name to see details.&lt;/p&gt;&lt;p&gt;You can change the sorting via the context menu (right click).&lt;/p&gt;&lt;p&gt;A plugin can be downloaded and installed by clicking on it&apos;s name, and then click the &apos;Install plugin&apos; button.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;플러그인 더 보기&lt;/h3&gt;&lt;p&gt;저장소에 있지만 아직 &lt;b&gt;설치되지 않은&lt;/b&gt; 모든 플러그인의 리스트를 볼 수 있습니다.&lt;/p&gt;&lt;p&gt;자세한 정보를 보기 위해서는 이름을 클릭하시면 됩니다.&lt;/p&gt;&lt;p&gt;컨텍스트 메뉴에서 마우스 오른쪽 클릭으로 분류를 변경할 수 있습니다.&lt;/p&gt;&lt;p&gt;이름을 클릭하여 플러그인을 다운로드하고 설치할 수 있고, &apos;플러그인 설치&apos; 버튼을 클릭하여 설치도 가능합니다.&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;플러그인 더 찾기&lt;/h3&gt;&lt;p&gt;저장소에 있지만 아직 &lt;b&gt;설치되지 않은&lt;/b&gt; 모든 플러그인의 리스트를 볼 수 있습니다.&lt;/p&gt;&lt;p&gt;자세한 정보를 보기 위해서는 이름을 클릭하시면 됩니다.&lt;/p&gt;&lt;p&gt;컨텍스트 메뉴에서 마우스 오른쪽 클릭으로 분류를 변경할 수 있습니다.&lt;/p&gt;&lt;p&gt;이름을 클릭하여 플러그인을 다운로드하고 설치할 수 있고, &apos;플러그인 설치&apos; 버튼을 클릭하여 설치도 가능합니다.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="64"/>
@@ -45798,7 +45800,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="124"/>
         <source>Get more</source>
-        <translation>플러그인 더 보기</translation>
+        <translation>더 찾기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspluginmanagerbase.ui" line="127"/>
@@ -56079,12 +56081,12 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="94"/>
         <source>In the print composer tool bar you can find two buttons for moving elements. The left one (right arrow icon) selects and moves elements in the layout. After selecting the element with this tool you can also move them around with the arrow keys. For accurate positioning use the &lt;strong&gt;Position and Size&lt;/strong&gt; section, which can be found in the tab &lt;strong&gt;Item Properties -&gt; Position and Size&lt;/strong&gt;. The other move tool (map canvas icon with right arrow) allows one to move the map content within a map frame.</source>
-        <translation type="unfinished"></translation>
+        <translation>인쇄 구성 도구 바에 객체를 이동시키기 위한 두 개의 버튼이 있습니다. 왼쪽 버튼(오른쪽 화살표 아이콘)은 래이아웃에서 객체를 선택하고 이동시킵니다. 이 툴을 사용해 객체 선택 후에 화살표 키를 이용해 주변으로 이동시킬 수 있습니다. 위치를 정확히 지정하시려면 &lt;strong&gt;위치 및 크기&lt;/strong&gt; 셋션을 이용하십시오. 이것은 &lt;strong&gt;아이템 속성 -&gt; 위치 및 크기&lt;/strong&gt; 탭에 있습니다. 또 다른 이동  도구 (오른쪽 화살표가 있는 지도 캔버스 아이콘)은 지도 프래임으로 지도 컨텐츠를 이동시킬 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="117"/>
         <source>In the Print Composer you can rotate a map by setting its rotation value in the tab &lt;strong&gt;Item Properties -&gt; Map -&gt; Main properties&lt;/strong&gt; section. To place a north arrow in your layout you can use the &lt;strong&gt;Add Image&lt;/strong&gt; tool. After the selection and placement of the north arrow in the layout you can link it with a specific map frame by activating the &lt;strong&gt;Sync with map&lt;/strong&gt; checkbox and selecting a map frame. Whenever you change the rotation value of a linked map, the north arrow will now automatically adjust its rotation.</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 구성에서 &lt;strong&gt;아이템 속성 -&gt; 지도 -&gt; 주요 속성들&lt;/strong&gt; 탭에 있는 회전값을 설정해서 지도를 회전시킬 수 있습니다. 방위표를 레이아웃에 배치하기 위하여 &lt;strong&gt;이미지 추가&lt;/strong&gt; 도구를 사용할 수 있습니다. 레이아웃에서 방위표를 선택하고 위치를 정한 후, 이를 &lt;strong&gt;지도와 싱크&lt;/strong&gt; 체크박스를 활성화 시키고 지도 프레임을 선택해 지도 프레임과 연결시킬 수 있습니다. 이렇게 하시면 사용자가 연결된 지도의 회전 값을 변경할 때마다, 방위표가 자동으로 회전됩니다.</translation>
     </message>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="129"/>
@@ -56114,7 +56116,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/app/qgstipfactory.cpp" line="146"/>
         <source>Sometimes you have a very large dataset which takes ages to draw. You can press &apos;Esc&apos; (the escape key), or click the &apos;Stop map rendering&apos; icon in the status bar to the bottom of the window at any time to halt rendering. If you are going to be performing several actions (e.g. modifying symbology options) and wish to temporarily disable map rendering while you do so, you can uncheck the &apos;Render&apos; checkbox in the bottom right of the status bar. Don&apos;t forget to check it on again when you are ready to have the map draw itself again!</source>
-        <translation type="unfinished"></translation>
+        <translation>때때로 매우 큰 데이터 세트를 사용하면 그리기에 시간이 대단히 많이 걸릴 때가 있을 것입니다. 이 때 &apos;esc&apos;(이스케이프) 키를 누르거나 창 하단의 상태 표시줄에 있는 &apos;지도 렌더링 중지&apos; 아이콘을 클릭하면 언제든지 렌더링을 중단 수 있습니다. 만약 여러 가지 작업(예: 심볼 옵션들 수정)을 하기 위해 임시적으로 지도 렌더링을 중지시키려면, 상태 표시줄 오른쪽 아래에 있는 &apos;렌더링&apos; 체크를 해제하시면 됩니다. 지도를 그릴 준비가 다 되면 다시 체크를 해야 함을 잊지 마십시오!</translation>
     </message>
     <message>
         <source>Sometimes you have a very large dataset which takes ages to draw. You can press &apos;Esc&apos; (the escape key), or click the small red &apos;X&apos; icon in the status bar to the bottom right of the window at any time to halt rendering. If you are going to be performing several actions (e.g. modifying symbology options) and wish to temporarily disable map rendering while you do so, you can uncheck the &apos;Render&apos; checkbox in the bottom right of the status bar. Don&apos;t forget to check it on again when you are ready to have the map draw itself again!</source>
@@ -64136,15 +64138,15 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 &lt;/p&gt;
 
 
-&lt;a href=&quot;#installedtab&quot;&gt;설치 탭&lt;/a&gt;&lt;br/&gt;
-&lt;a href=&quot;#getmoretab&quot;&gt;플러그인 더 보기 탭&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#installedtab&quot;&gt;설치됨 탭&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#getmoretab&quot;&gt;더 찾기 탭&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#newtab&quot;&gt;신규 탭&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#upgradabletab&quot;&gt;업그레이드 탭&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#invalidtab&quot;&gt;사용불가 탭&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;#settingstab&quot;&gt;설정 탭&lt;/a&gt;&lt;br/&gt;
 
 &lt;a name=&quot;installedtab&quot;&gt;
-&lt;h4&gt;설치 탭&lt;/h4&gt;
+&lt;h4&gt;설치됨 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
 이 탭은 사용자의 시스템에 현재 설치되어 있는 플러그인의 목록을 보여줍니다.
@@ -64160,7 +64162,7 @@ pythoon과 C++ 플러그인 모두 나열됩니다.
 
 
 &lt;a name=&quot;getmoretab&quot;&gt;
-&lt;h4&gt;플러그인 더 보기 탭&lt;/h4&gt;
+&lt;h4&gt;더 찾기 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
 원격 저장소로부터 사용가능한 플러그인의 목록을 보여줍니다.
@@ -65115,7 +65117,85 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 
 &lt;/p&gt;
 </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;플러그인 관리 및 설치하기&lt;/h3&gt;
+
+&lt;p&gt;
+플러그인 관리 및 설치하기.
+&lt;/p&gt;
+
+
+&lt;a href=&quot;#installedtab&quot;&gt;설치됨 탭&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#getmoretab&quot;&gt;더 찾기 탭&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#newtab&quot;&gt;신규 탭&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#upgradabletab&quot;&gt;업그레이드 탭&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#invalidtab&quot;&gt;사용불가 탭&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;#settingstab&quot;&gt;설정 탭&lt;/a&gt;&lt;br/&gt;
+
+&lt;a name=&quot;installedtab&quot;&gt;
+&lt;h4&gt;설치됨 탭&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+이 탭은 사용자의 시스템에 현재 설치되어 있는 플러그인의 목록을 보여줍니다.
+파이썬과 C++ 플러그인 모두 나열됩니다.
+&lt;/p&gt;
+&lt;p&gt;
+이름 앞의 체크박스를 클릭하여 활성화 또는 비활성화할수 있습니다.&lt;br/&gt;
+아이템을 선택하면 상세 패널에 플러그인 정보가 보입니다.
+&lt;/p&gt;
+&lt;p&gt;
+부가 메뉴(오른쪽 클릭)를 통해 이름, 다운로드수, 투표수 및 상태에 따라 정렬이 가능합니다.
+&lt;/p&gt;
+
+
+&lt;a name=&quot;getmoretab&quot;&gt;
+&lt;h4&gt;더 찾기기 탭&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+원격 저장소에서 사용가능한 플러그인의 목록을 보여줍니다.
+시작할 때 한번 사용가능한 목록이 다운로드 되지만, 세팅 메뉴에서 변경할 수 있습니다.
+&lt;/p&gt;
+&lt;p&gt;
+아이템을 선택하면 상세 패널에 플러그인 정보가 보입니다.
+&lt;/p&gt;
+
+&lt;a name=&quot;newtab&quot;&gt;
+&lt;h4&gt;신규 탭&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+이 탭은 새로운 플러그인이 나왔을 때 단 한번만 보여집니다.
+&lt;/p&gt;
+
+&lt;a name=&quot;upgradabletab&quot;&gt;
+&lt;h4&gt;업그레이드 탭&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+이 탭은 설치한 플러그인이 원격 저장소로부터 업그레이드 되는 경우에만 사용합니다.
+&lt;/p&gt;
+
+&lt;a name=&quot;Invalid tab&quot;&gt;
+&lt;h4&gt;사용불가 탭&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+이 탭은 사용할 수 없는 플러그인있는 경우에만 사용가능합니다. 보통 플러그인을 불러오는 중에 오류가 생긴 경우입니다.
+&lt;/p&gt;
+
+&lt;a name=&quot;settingstab&quot;&gt;
+&lt;h4&gt;설정 탭&lt;/h4&gt;
+&lt;/a&gt;
+&lt;p&gt;
+이 탭에서 플러그인 관리자의 설정을 변경할 수 있습니다.
+&lt;/p&gt;
+&lt;p&gt;
+여기에서 QGIS가 사용 가능한 저장소로부터 얼마나 자주 최신 및 업데이트된 목록을 받아올지 설정할 수 있습니다.
+&lt;/p&gt;
+&lt;p&gt;
+&apos;실험적인 플러그인 보여주기&apos;를 선택하면 저작자에 의해 &apos;실험적&apos;이라고 고려되는 모든 플러그인이 목록에 보여집니다. 
+&lt;table border=1 width=&apos;95%&apos; align=&apos;center&apos;&gt;&lt;tr&gt;&lt;td&gt;
+주의: 실험적인 플러그인은 범용 제품을 사용하려는 이들에게는 적합하지 않습니다. 이런 플러그인은 초기 개발단계이고, &quot;미완성&quot; 또는 &quot;개념 검증&quot;으로 고려되어야 합니다. QGIS 개발팀은 당신이 테스트 목적으로 사용하려는 경우에도 이런 플러그인 설치를 권장하지 않습니다.
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;/p&gt;
+</translation>
     </message>
     <message>
         <location filename="../src/core/qgscontexthelp_texts.cpp" line="853"/>
