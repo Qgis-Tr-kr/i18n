@@ -273,7 +273,7 @@ This table is essential for many GIS applications for enumeration of tables.</so
     </message>
     <message>
         <source>Relation type:</source>
-        <translation>관계 타입:</translation>
+        <translation>릴래이션 타입:</translation>
     </message>
     <message>
         <source>View</source>
@@ -8385,7 +8385,7 @@ Wrong line: %1</source>
     </message>
     <message>
         <source>Edit OSM relation</source>
-        <translation type="obsolete">OSM 관계 편집</translation>
+        <translation type="obsolete">OSM 릴래이션 편집</translation>
     </message>
     <message>
         <source>for grouping boundaries and marking enclaves / exclaves</source>
@@ -9023,15 +9023,15 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Relation addition failed.</source>
-        <translation type="obsolete">관계 추가 실패.</translation>
+        <translation type="obsolete">릴래이션 추가 실패.</translation>
     </message>
     <message>
         <source>Relation update failed.</source>
-        <translation type="obsolete">관계 갱신 실패.</translation>
+        <translation type="obsolete">릴래이션 갱신 실패.</translation>
     </message>
     <message>
         <source>Relation deletion failed.</source>
-        <translation type="obsolete">관계 제거 실패.</translation>
+        <translation type="obsolete">릴래이션 제거 실패.</translation>
     </message>
     <message>
         <source>Connection to OpenStreetMap server cannot be established. Please check your proxy settings, firewall settings and try again.</source>
@@ -11961,7 +11961,7 @@ You are seeing this message most likely because you have no DISPLAY environment 
     <message>
         <location filename="../src/core/qgsexpression.cpp" line="1229"/>
         <source>&quot;%1&quot; is not a valid color ramp</source>
-        <translation>&quot;%1&quot; 은 유효하지 않은 색상 경사로입니다</translation>
+        <translation>&quot;%1&quot; 은 유효하지 않은 색상표입니다</translation>
     </message>
     <message>
         <location filename="../src/core/qgsexpression.cpp" line="1355"/>
@@ -14015,7 +14015,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Gradient color ramps now support multiple stops - for adding intermediate colors</source>
-        <translation type="obsolete">그라디언트 색상 테이블이 여러 단계를 지원합니다. - 중간색을 추가할 수 있습니다.</translation>
+        <translation type="obsolete">그라디언트 색상표는 여러 단계를 지원합니다. - 중간색을 추가할 수 있습니다.</translation>
     </message>
     <message>
         <source>Center map if user clicks into the map</source>
@@ -15005,7 +15005,7 @@ This copy of QGIS writes debugging output.</source>
     </message>
     <message>
         <source>Allow creation of color ramps in vector color ramp combo box.</source>
-        <translation type="obsolete">벡터 색상 램프 콤보 상자를 사용하여 색상 램프를 만들 수 있게 되었습니다.</translation>
+        <translation type="obsolete">벡터 색상표 콤보 상자를 사용하여 색상표를 만들 수 있게 되었습니다.</translation>
     </message>
     <message>
         <source>Added &apos;style manager...&apos; button to symbol selector so that users will find the style manager more easily.</source>
@@ -17909,7 +17909,7 @@ Error was:%2</source>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="91"/>
         <source>Value relation</source>
-        <translation>값 관계</translation>
+        <translation>값 릴래이션</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetypeedit.ui" line="96"/>
@@ -18805,12 +18805,12 @@ Database:%2</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgscategorizedsymbolrendererv2widget.cpp" line="617"/>
         <source>There are no available color ramps. You can add them in Style Manager.</source>
-        <translation>사용할 수 있는 색상 램프가 없습니다. 스타일 관리자에서 추가할 수 있습니다.</translation>
+        <translation>사용할 수 있는 색상표가 없습니다. 스타일 관리자에서 추가할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgscategorizedsymbolrendererv2widget.cpp" line="619"/>
         <source>The selected color ramp is not available.</source>
-        <translation>선택된 색상 램프를 사용할 수 없습니다.</translation>
+        <translation>선택된 색상표를 사용할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgscategorizedsymbolrendererv2widget.cpp" line="633"/>
@@ -18846,7 +18846,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgscategorizedsymbolrendererv2widget.ui" line="79"/>
         <source>Color ramp</source>
-        <translation>색상 램프</translation>
+        <translation>색상표</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscategorizedsymbolrendererv2widget.ui" line="134"/>
@@ -18935,7 +18935,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgscolorrampcombobox.cpp" line="54"/>
         <source>New color ramp...</source>
-        <translation>새로운 색상 램프...</translation>
+        <translation>새로운 색상표...</translation>
     </message>
 </context>
 <context>
@@ -23521,7 +23521,7 @@ p, li { white-space: pre-wrap; }
         <source>You can download a more complete set of cpt-city gradients by installing the &quot;Color Ramp Manager&quot; plugin (you must enable Experimental plugins in the plugin manager).
 
 </source>
-        <translation>&quot;색상 램프 관리자&quot; 플러그인을 설치(플러그인 관리자의 실험적인 플러그인을 활성화 함)하여 cpt-city 그래디언트의 더욱 완전한 세트를 내려받을수 있습니다.</translation>
+        <translation>&quot;색상표 관리자&quot; 플러그인을 설치(플러그인 관리자의 실험적인 플러그인을 활성화 함)하여 cpt-city 그래디언트의 더욱 완전한 세트를 내려받을수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgscptcitycolorrampv2dialog.cpp" line="293"/>
@@ -23545,7 +23545,7 @@ and current file is [%3]</source>
 
 설치하려면 아래 두가지 방법이 있습니다.:
 
-1) &quot;색상 램프 관리자&quot; 파이썬 플러그인(플러그인 관리자의 실험적인 플러그인을 활성화 함)을 설치하고  최신 cpt-city 패키지를 내려받으세요.
+1) &quot;색상표 관리자&quot; 파이썬 플러그인(플러그인 관리자의 실험적인 플러그인을 활성화 함)을 설치하고  최신 cpt-city 패키지를 내려받으세요.
 전체 cpt-city 판 또는 QGIS용으로 선택해 설치할수 있습니다.
 
 2) 전체 판(svg 형식의 경우)을 내려받고 QGIS의 세팅 디렉토리[%1]에 압축을 푸세요.
@@ -23569,7 +23569,7 @@ and current file is [%3]</source>
     <message>
         <location filename="../src/ui/qgscptcitycolorrampv2dialogbase.ui" line="20"/>
         <source>cpt-city color ramp</source>
-        <translation>cpt-city 색상 램프</translation>
+        <translation>cpt-city 색상표</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscptcitycolorrampv2dialogbase.ui" line="185"/>
@@ -27533,7 +27533,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="763"/>
         <source>Value relation</source>
-        <translation>값 관계</translation>
+        <translation>값 릴래이션</translation>
     </message>
     <message>
         <location filename="../src/app/qgsfieldsproperties.cpp" line="764"/>
@@ -30286,12 +30286,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/gui/symbology-ng/qgsgraduatedsymbolrendererv2widget.cpp" line="467"/>
         <source>There are no available color ramps. You can add them in Style Manager.</source>
-        <translation>사용할 수 있는 색상 램프가 없습니다. 스타일 관리자에서 추가할 수 있습니다.</translation>
+        <translation>사용할 수 있는 색상표가 없습니다. 스타일 관리자에서 추가할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsgraduatedsymbolrendererv2widget.cpp" line="469"/>
         <source>The selected color ramp is not available.</source>
-        <translation>선택된 색상 램프를 사용할 수 없습니다.</translation>
+        <translation>선택된 색상표를 사용할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsgraduatedsymbolrendererv2widget.cpp" line="492"/>
@@ -30325,7 +30325,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/ui/qgsgraduatedsymbolrendererv2widget.ui" line="90"/>
         <source>Color ramp</source>
-        <translation>색상 램프</translation>
+        <translation>색상표</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsgraduatedsymbolrendererv2widget.ui" line="103"/>
@@ -46446,7 +46446,7 @@ SQL: %2
     <name>QgsPostgresProvider</name>
     <message>
         <source>Unable to access relation</source>
-        <translation type="obsolete">관계에 액세스할 수 없습니다.</translation>
+        <translation type="obsolete">릴래이션에 액세스할 수 없습니다.</translation>
     </message>
     <message>
         <source>No suitable key column in table</source>
@@ -46494,7 +46494,7 @@ SQL: %2
 The error message from the database was:
 %2.
 SQL: %3</source>
-        <translation>%1 관계에 접근할 수 없습니다.
+        <translation>%1 릴래이션에 접근할 수 없습니다.
 데이터베이스에서 오류 메시지는 다음과 같음:
 %2.
 SQL: %3</translation>
@@ -46505,7 +46505,7 @@ SQL: %3</translation>
 The error message from the database was:
 %2.
 SQL: %3</source>
-        <translation>%1 관계를 위한 테이블 권한을 알 수 없습니다.
+        <translation>%1 릴래이션을 위한 테이블 권한을 알 수 없습니다.
 데이터베이스 오류 메시지는 다음과 같음:
 %2.
 SQL: %3</translation>
@@ -46646,7 +46646,7 @@ SQL: %3</translation>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1098"/>
         <source>Unexpected relation type &apos;%1&apos;.</source>
-        <translation>예기치 않은 관계 유형 &apos;%1&apos;.</translation>
+        <translation>예기치 않은 릴래이션 유형 &apos;%1&apos;.</translation>
     </message>
     <message>
         <location filename="../src/providers/postgres/qgspostgresprovider.cpp" line="1151"/>
@@ -47411,7 +47411,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1040"/>
         <source>Color Ramp</source>
-        <translation>색상 램프</translation>
+        <translation>색상표</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1233"/>
@@ -49456,7 +49456,7 @@ Click on help button to get valid creation options for this format.</source>
     </message>
     <message>
         <source>Color Ramp</source>
-        <translation type="obsolete">색상 램프</translation>
+        <translation type="obsolete">색상표</translation>
     </message>
     <message>
         <location filename="../src/app/qgsrasterlayerproperties.cpp" line="1615"/>
@@ -49545,7 +49545,7 @@ Click on help button to get valid creation options for this format.</source>
     <message>
         <source>&lt;h3&gt;Grayscale Image Notes&lt;/h3&gt; &lt;p&gt;You can remap these grayscale colors to a pseudocolor image using an automatically generated color ramp.&lt;/p&gt;</source>
         <comment>COMMENTED OUT</comment>
-        <translation type="obsolete">&lt;h3&gt; 그레이 스케일 이미지 참고 &lt;/ h3&gt; &lt;p&gt; 그레이 스케일 색상은 자동으로 생성되는 색상 램프를 사용하여 원색 이미지를 다시 구성할 수 있습니다. &lt;/p&gt;</translation>
+        <translation type="obsolete">&lt;h3&gt; 그레이 스케일 이미지 참고 &lt;/ h3&gt; &lt;p&gt; 그레이 스케일 색상은 자동으로 생성되는 색상표를 사용하여 원색 이미지를 다시 구성할 수 있습니다. &lt;/p&gt;</translation>
     </message>
     <message>
         <source>Default R:%1 G:%2 B:%3</source>
@@ -54277,7 +54277,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="677"/>
         <source>Import Shapefiles - Relation Exists</source>
-        <translation>쉐입 파일 가져오기 - 관계가 존재함</translation>
+        <translation>쉐입 파일 가져오기 - 릴래이션이 존재함</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="49"/>
@@ -54297,7 +54297,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="50"/>
         <source>DB Relation Name</source>
-        <translation>DB 관계 이름</translation>
+        <translation>DB 릴래이션 이름</translation>
     </message>
     <message>
         <location filename="../src/plugins/spit/qgsspit.cpp" line="50"/>
@@ -54426,12 +54426,12 @@ for this Shapefile in the main dialog file list.
 Do you want to overwrite the [%2] relation?</source>
         <translation>쉐입 파일:
 %1
-는 관계 [%2] 를 사용하는데, 이것이 
+는 릴래이션 [%2] 를 사용하는데, 이것이 
 이미 포함된 데이터에 존재하고 사용중입니다.
 데이터를 잃지 않기 위하여 기본 대화상자 파일목록에서
-이 쉐입 파일의 &quot;DB 관계 이름&quot;을 변경 해야합니다.
+이 쉐입 파일의 &quot;DB 릴래이션 이름&quot;을 변경 해야합니다.
 
-[%2] 관계를 덮어 쓰시겠습니까?</translation>
+[%2] 릴래이션을 덮어 쓰시겠습니까?</translation>
     </message>
 </context>
 <context>
@@ -54728,7 +54728,7 @@ p, li { white-space: pre-wrap; }
         <source>The source relation %1 has no column suitable for use as a unique key.
 
 Quantum GIS requires that the relation has an integer column no larger than 32 bits containing unique values. </source>
-        <translation type="obsolete">원본 관계(릴레이션) %1는 고유 키에 적합한 컬럼이 없습니다.
+        <translation type="obsolete">원본 릴래이션 %1는 고유 키에 적합한 컬럼이 없습니다.
 
 Quantum GIS는 32bit 이하의 정수를 관계의 고유값으로 요구합니다.</translation>
     </message>
@@ -54762,7 +54762,7 @@ Quantum GIS는 32bit 이하의 정수를 관계의 고유값으로 요구합니�
         <source>The source relation %1 has no column suitable for use as a unique key.
 
 QGIS requires that the relation has an integer column no larger than 32 bits containing unique values. </source>
-        <translation>원본 관계(릴레이션) %1는 고유 키에 적합한 컬럼이 없습니다.
+        <translation>원본 릴래이션 %1는 고유 키에 적합한 컬럼이 없습니다.
 
 Quantum GIS는 32bit 이하의 정수를 관계의 고유값으로 요구합니다.</translation>
     </message>
@@ -54933,7 +54933,7 @@ Updates to geometry values will be disabled, and query performance may be poor b
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="111"/>
         <source>You should select at least one symbol/color ramp.</source>
-        <translation>하나 이상의 기호 / 색상 램프를 선택해야 합니다.</translation>
+        <translation>하나 이상의 기호/색상표를 선택해야 합니다.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="117"/>
@@ -55016,7 +55016,7 @@ Overwrite?</source>
         <location filename="../src/gui/symbology-ng/qgsstylev2exportimportdialog.cpp" line="325"/>
         <source>Color ramp with name &apos;%1&apos; already exists.
 Overwrite?</source>
-        <translation>&apos;%1&apos;라는 색상 램프는 이미 존재합니다.
+        <translation>&apos;%1&apos;라는 색상표는 이미 존재합니다.
 덮어 쓰시겠습니까?</translation>
     </message>
     <message>
@@ -55093,7 +55093,7 @@ Overwrite?</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="181"/>
         <source>Color ramp (%1)</source>
-        <translation>색상 램프 (%1)</translation>
+        <translation>색상표 (%1)</translation>
     </message>
     <message>
         <source>Symbol name</source>
@@ -55186,12 +55186,12 @@ Overwrite?</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="422"/>
         <source>Color ramp type</source>
-        <translation>색상 램프 유형</translation>
+        <translation>색상표 유형</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="423"/>
         <source>Please select color ramp type:</source>
-        <translation>색상 램프 유형을 선택하십시오:</translation>
+        <translation>색상표 유형을 선택하십시오:</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="428"/>
@@ -55211,32 +55211,32 @@ Overwrite?</source>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="502"/>
         <source>Color Ramp Name</source>
-        <translation>색상 램프 이름</translation>
+        <translation>색상표 이름</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="503"/>
         <source>Please enter a name for new color ramp:</source>
-        <translation>새로운 색상 램프의 이름 입력:</translation>
+        <translation>새로운 색상표의 이름 입력:</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="513"/>
         <source>Save Color Ramp</source>
-        <translation>색상 램프 저장</translation>
+        <translation>색상표 저장</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="514"/>
         <source>Cannot save color ramp without name. Enter a name.</source>
-        <translation>저장하려면 색상 램프의 이름이 필요합니다. 이름을 입력해 주십시오.</translation>
+        <translation>저장하려면 색상표의 이름이 필요합니다. 이름을 입력해 주십시오.</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="518"/>
         <source>Save color ramp</source>
-        <translation>색상 램프 저장</translation>
+        <translation>색상표 저장</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="519"/>
         <source>Color ramp with name &apos;%1&apos; already exists. Overwrite?</source>
-        <translation>&apos;%1&apos;라는 색상 램프는 이미 존재합니다.덮어 쓰시겠습니까?</translation>
+        <translation>&apos;%1&apos;라는 색상표는 이미 존재합니다.덮어 쓰시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/gui/symbology-ng/qgsstylev2managerdialog.cpp" line="889"/>
@@ -55314,15 +55314,15 @@ There was a problem with your symbol database.</source>
     </message>
     <message>
         <source>Color ramp name</source>
-        <translation type="obsolete">색상 램프 이름</translation>
+        <translation type="obsolete">색상표 이름</translation>
     </message>
     <message>
         <source>Please enter name for new color ramp:</source>
-        <translation type="obsolete">새로운 색상 램프의 이름 입력:</translation>
+        <translation type="obsolete">새로운 색상표의 이름 입력:</translation>
     </message>
     <message>
         <source>new color ramp</source>
-        <translation type="obsolete">새로운 색상 램프</translation>
+        <translation type="obsolete">새로운 색상표</translation>
     </message>
     <message>
         <source>Load styles</source>
@@ -55362,7 +55362,7 @@ There was a problem with your symbol database.</source>
     <message>
         <location filename="../src/ui/qgsstylev2managerdialogbase.ui" line="231"/>
         <source>Color ramp</source>
-        <translation>색상 램프</translation>
+        <translation>색상표</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsstylev2managerdialogbase.ui" line="287"/>
@@ -56675,7 +56675,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorgradientcolorrampv2dialogbase.ui" line="14"/>
         <source>Gradient color ramp</source>
-        <translation>그레디언드 색상 램프</translation>
+        <translation>그래디언드 색상표</translation>
     </message>
     <message>
         <source>Change</source>
@@ -57416,7 +57416,7 @@ Should the existing classes be deleted before classification?</source>
     </message>
     <message>
         <source>Value relation</source>
-        <translation type="obsolete">값 관계</translation>
+        <translation type="obsolete">값 릴래이션</translation>
     </message>
     <message>
         <source>UUID generator</source>
@@ -58377,7 +58377,7 @@ Should the existing classes be deleted before classification?</source>
     <message>
         <location filename="../src/ui/qgsvectorrandomcolorrampv2dialogbase.ui" line="14"/>
         <source>Random color ramp</source>
-        <translation>무작위 색상  램프</translation>
+        <translation>무작위 색상표</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsvectorrandomcolorrampv2dialogbase.ui" line="22"/>
@@ -69370,22 +69370,22 @@ may not give the expected results if you move your Quantum project.
 </source>
         <translation>
 &lt;h3&gt;ramp_color() 함수&lt;/h3&gt;
-색상 램프에서 색상을 나타내는 문자열을 반환합니다.
+색상표에서 색상을 나타내는 문자열을 반환합니다.
 
 &lt;p&gt;&lt;h4&gt;문법&lt;/h4&gt;
      ramp_color(&lt;i&gt;ramp_name,value&lt;/i&gt;)&lt;/p&gt;
 
 &lt;p&gt;&lt;h4&gt;인자&lt;/h4&gt;
 &lt;!-- List args for functions here--&gt;
-&lt;i&gt;  ramp_name&lt;/i&gt; &amp;rarr; 문자열로 된 색상 램프의 이름, 예를 들어 &apos;Spectral&apos;.&lt;br&gt;
-&lt;i&gt;  value&lt;/i&gt; &amp;rarr; 색상을 선택하기 위한 색상 램프상의 위치, 0에서 1 사이의 실수.&lt;br&gt;
+&lt;i&gt;  ramp_name&lt;/i&gt; &amp;rarr; 문자열로 된 색상표의 이름, 예를 들어 &apos;Spectral&apos;.&lt;br&gt;
+&lt;i&gt;  value&lt;/i&gt; &amp;rarr; 색상을 선택하기 위한 색상표상의 위치, 0에서 1 사이의 실수.&lt;br&gt;
 
 &lt;p&gt;&lt;h4&gt;예제&lt;/h4&gt;
 &lt;!-- Show example of function.--&gt;
      ramp_color(&apos;Spectral&apos;,0.3) &amp;rarr; &apos;#fdbe73&apos;&lt;/p&gt;
 
 &lt;p&gt;&lt;h4&gt;주의:&lt;/h4&gt;
-사용하능한 색상 램프는 QGIS 설치본에 따라 다양합니다. 
+사용하능한 색상표는 QGIS 설치본에 따라 다양합니다. 
 사용자가 QGIS 프로젝트를 다른 곳에서 부를 경우 예측하지 않은 결과가 나올 수 있습니다.
 &lt;/p&gt;</translation>
     </message>
@@ -72277,7 +72277,7 @@ Returns a string representation of a color based on its hue, saturation, value a
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="214"/>
         <source>Find nearest element in vector &apos;to&apos; for elements in vector &apos;from&apos;. Various information about this relation may be uploaded to attribute table of input vector &apos;from&apos;</source>
-        <translation>벡터 &apos;from&apos;의 요소에 대해 &apos;to&apos; 벡터에 가장 가까운 요소를 찾습니다. 이 관계에 대한 각종 정보 &apos;from&apos; 입력 벡터의 테이블을 속성으로 업로드 할 수 있음</translation>
+        <translation>벡터 &apos;from&apos;의 요소에 대해 &apos;to&apos; 벡터에 가장 가까운 요소를 찾습니다. 이 릴래이션에 대한 각종 정보 &apos;from&apos; 입력 벡터의 테이블을 속성으로 업로드 할 수 있음</translation>
     </message>
     <message>
         <location filename="../src/plugins/grass/grasslabels-i18n.cpp" line="215"/>
