@@ -1083,7 +1083,8 @@ integer values</source>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="263"/>
         <source>Retrieve 
 columns</source>
-        <translation>컬럼 검색</translation>
+        <translation>컬럼 
+검색</translation>
     </message>
     <message>
         <location filename="../python/plugins/db_manager/ui/DlgSqlWindow.ui" line="275"/>
@@ -1427,7 +1428,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeoprocessing.ui" line="189"/>
         <source>Dissolve buffer results</source>
-        <translation>버퍼 병합(Dissolve)결과</translation>
+        <translation>버퍼 결과 병합(Dissolve)</translation>
     </message>
     <message>
         <location filename="../python/plugins/fTools/tools/frmGeoprocessing.ui" line="213"/>
@@ -7188,7 +7189,7 @@ Acts on currently active editable layer</source>
         <location filename="../src/ui/qgisapp.ui" line="1961"/>
         <location filename="../src/ui/qgisapp.ui" line="1964"/>
         <source>Current Edits</source>
-        <translation>현재 편집들</translation>
+        <translation>현재 수정사항</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="1976"/>
@@ -7200,7 +7201,7 @@ Acts on currently active editable layer</source>
         <location filename="../src/ui/qgisapp.ui" line="1991"/>
         <location filename="../src/ui/qgisapp.ui" line="1994"/>
         <source>Save Layer Edits</source>
-        <translation>레이어 편집들 저장</translation>
+        <translation>레이어 수정사항 저장</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2006"/>
@@ -7384,7 +7385,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="686"/>
         <source>Delete Selected</source>
-        <translation>선택 제거</translation>
+        <translation>선택 삭제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="698"/>
@@ -7404,7 +7405,7 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="734"/>
         <source>Delete Ring</source>
-        <translation>링 제거</translation>
+        <translation>링 삭제</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="746"/>
@@ -9312,12 +9313,11 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>Comment</source>
-        <translation>코멘트</translation>
+        <translation>주석으로</translation>
     </message>
     <message>
         <source>Uncomment</source>
-        <translatorcomment>뭐라고 번역하는 것이 옳을지</translatorcomment>
-        <translation>언코멘트</translation>
+        <translation>주석해제</translation>
     </message>
     <message>
         <source>Share on codepad</source>
@@ -12120,7 +12120,7 @@ You are seeing this message most likely because you have no DISPLAY environment 
     <message>
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="69"/>
         <source>Globe</source>
-        <translation>자구본</translation>
+        <translation>지구본</translation>
     </message>
     <message>
         <location filename="../src/plugins/globe/globe_plugin.cpp" line="70"/>
@@ -13224,7 +13224,7 @@ Errors: %3
     <message>
         <location filename="../src/app/qgisapp.cpp" line="3475"/>
         <source>Choose a QGIS project file to open</source>
-        <translation>열 QGIS 프로젝트 파일을 선택</translation>
+        <translation>불러올 QGIS 프로젝트 파일을 선택</translation>
     </message>
     <message>
         <location filename="../src/app/qgisapp.cpp" line="467"/>
@@ -13659,7 +13659,7 @@ Please contact the developers.
     </message>
     <message>
         <source>Delete Selected</source>
-        <translation type="obsolete">선택 제거</translation>
+        <translation type="obsolete">선택 삭제</translation>
     </message>
     <message>
         <source>Add Vertex</source>
@@ -16185,7 +16185,7 @@ This copy of QGIS has been built without SpatiaLite support.</source>
     </message>
     <message>
         <source>Delete Ring</source>
-        <translation type="obsolete">링 제거</translation>
+        <translation type="obsolete">링 삭제</translation>
     </message>
     <message>
         <source>Delete Part</source>
@@ -17507,7 +17507,7 @@ SVG 검색 경로:	%7
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="237"/>
         <source>Pan map to the selected rows (Ctrl+P)</source>
-        <translation>선택 열로 지도 이동 (Ctrl+P)</translation>
+        <translation>선택된 행 영역으로 지도 이동 (Ctrl+P)</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsattributetabledialog.ui" line="256"/>
@@ -19800,7 +19800,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="513"/>
         <source>Add ellipse</source>
-        <translation>엘립스 추가</translation>
+        <translation>타원 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerbase.ui" line="521"/>
@@ -20929,7 +20929,7 @@ Please try a lower resolution or a smaller papersize</source>
     </message>
     <message>
         <source>All</source>
-        <translation type="obsolete">모두</translation>
+        <translation type="obsolete">모든</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscomposerlegendwidgetbase.ui" line="252"/>
@@ -20966,7 +20966,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="46"/>
         <source>&amp;Show</source>
-        <translation>표시(&amp;S)</translation>
+        <translation>보기(&amp;S)</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="50"/>
@@ -20986,7 +20986,7 @@ Please try a lower resolution or a smaller papersize</source>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="84"/>
         <source>Empty composer</source>
-        <translation>구성 비우기</translation>
+        <translation>빈 구성</translation>
     </message>
     <message>
         <location filename="../src/app/composer/qgscomposermanager.cpp" line="85"/>
@@ -23960,12 +23960,12 @@ and current file is [%3]</source>
     <message>
         <location filename="../src/ui/qgscustomizationdialogbase.ui" line="126"/>
         <source>Expand All</source>
-        <translation>모두 확대</translation>
+        <translation>모두 펼치기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscustomizationdialogbase.ui" line="131"/>
         <source>Collapse All</source>
-        <translation>모두 축소</translation>
+        <translation>모두 접기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgscustomizationdialogbase.ui" line="136"/>
@@ -33562,11 +33562,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>Expand all</source>
-        <translation type="obsolete">모두 확대</translation>
+        <translation type="obsolete">모두 펼치기</translation>
     </message>
     <message>
         <source>Collapse all</source>
-        <translation type="obsolete">모두 축소</translation>
+        <translation type="obsolete">모두 접기</translation>
     </message>
     <message>
         <source>Attribute changes</source>
@@ -36008,11 +36008,11 @@ This may be a problem in your network connection or at the WMS server.</source>
     </message>
     <message>
         <source>&amp;Expand all</source>
-        <translation type="obsolete">모두 확대(&amp;E)</translation>
+        <translation type="obsolete">모두 펼치기(&amp;E)</translation>
     </message>
     <message>
         <source>&amp;Collapse all</source>
-        <translation type="obsolete">모두 축소(&amp;C)</translation>
+        <translation type="obsolete">모두 접기(&amp;C)</translation>
     </message>
 </context>
 <context>
@@ -36132,7 +36132,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/legend/qgslegendlayer.cpp" line="423"/>
         <source>Show Feature Count</source>
-        <translation>객체의 수 표시</translation>
+        <translation>객체 수 표시</translation>
     </message>
     <message>
         <source>&amp;Properties</source>
@@ -40857,12 +40857,12 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="110"/>
         <source>Top down, stop at first</source>
-        <translation>하향식, 첫줄에서 중지</translation>
+        <translation>모든 레이어, 첫줄에서 중지</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="111"/>
         <source>Top down</source>
-        <translation>하향식</translation>
+        <translation>모든 레이어</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="309"/>
@@ -41136,12 +41136,12 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1293"/>
         <source>Create Options - %1 Driver</source>
-        <translation>옵션 만들기 - %1 드라이버</translation>
+        <translation>생성 옵션 - %1 드라이버</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1295"/>
         <source>Create Options - pyramids</source>
-        <translation>옵션 만들기 - 피라미드</translation>
+        <translation>생성 옵션 - 피라미드</translation>
     </message>
     <message>
         <location filename="../src/app/qgsoptions.cpp" line="1424"/>
@@ -41228,7 +41228,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1674"/>
         <source>Fix problems with incorrectly filled polygons</source>
-        <translation>잘못된 폴라곤 채우기를 수정</translation>
+        <translation>잘못된 폴리곤 채우기를 수정</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1940"/>
@@ -41536,7 +41536,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2344"/>
         <source>Add new layers to selected or current group</source>
-        <translation>새 레이어를 선택되거나 현재인 레이어에 추가</translation>
+        <translation>새 레이어를 선택된 상태로 추가하거나 현재 그룹에 추가</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="1278"/>
@@ -42101,7 +42101,7 @@ Always network: always load from network and do not check if the cache has a val
     </message>
     <message>
         <source>Overlay position</source>
-        <translation type="obsolete">위치 덮어쓰기</translation>
+        <translation type="obsolete">오버레이 위치</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="2673"/>
@@ -42196,7 +42196,7 @@ Always network: always load from network and do not check if the cache has a val
     <message>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3356"/>
         <source>Edit Create Options</source>
-        <translation>만들기 옵션 편집</translation>
+        <translation>생성 옵션 편집</translation>
     </message>
     <message>
         <source>Compatibility</source>
@@ -42459,7 +42459,7 @@ Always network: always load from network and do not check if the cache has a val
         <location filename="../src/ui/qgsoptionsbase.ui" line="3027"/>
         <location filename="../src/ui/qgsoptionsbase.ui" line="3041"/>
         <source>pixels</source>
-        <translation>지도 단위</translation>
+        <translation>픽셀</translation>
     </message>
 </context>
 <context>
@@ -47152,12 +47152,12 @@ Proceed?</source>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1007"/>
         <source>Select print composer</source>
-        <translation>프린트 구성 선택</translation>
+        <translation>출력 구성 선택</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1007"/>
         <source>Composer Title</source>
-        <translation>구성 제목 </translation>
+        <translation>구성 제목</translation>
     </message>
     <message>
         <location filename="../src/app/qgsprojectproperties.cpp" line="1029"/>
@@ -47319,7 +47319,7 @@ Proceed?</source>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="935"/>
         <source>Default symbols</source>
-        <translation>기본 심</translation>
+        <translation>기본 심볼</translation>
     </message>
     <message>
         <location filename="../src/ui/qgsprojectpropertiesbase.ui" line="1161"/>
@@ -65188,7 +65188,7 @@ Note: Experimental plugins are generally unsuitable for production use. These pl
 
 
 &lt;a name=&quot;getmoretab&quot;&gt;
-&lt;h4&gt;더 찾기기 탭&lt;/h4&gt;
+&lt;h4&gt;더 찾기 탭&lt;/h4&gt;
 &lt;/a&gt;
 &lt;p&gt;
 원격 저장소에서 사용가능한 플러그인의 목록을 보여줍니다.
@@ -65682,7 +65682,7 @@ QGIS의 렌더링 처리를 바꾸는 방법에는 여러가지가 있습니다:
 &lt;h4&gt;지도 도구&lt;/h4&gt;
 &lt;/a&gt;
 &lt;h5&gt;객체 확인&lt;/h5&gt;
-&lt;label&gt;모드&lt;/label&gt; 설정은 어떤 레이어가 &lt;label&gt;객체 확인&lt;/label&gt; 도구에서 보여질지를 결정합니다. &lt;label&gt;현재 레이어&lt;/label&gt; 옵션을 &lt;label&gt;하향식&lt;/label&gt; 모드로 바꿔 &lt;label&gt;객체확인&lt;/label&gt; 도구를 사용하면, 조회 가능한 모든 레이어의 속성값을 확인할 수 있습니다.
+&lt;label&gt;모드&lt;/label&gt; 설정은 어떤 레이어가 &lt;label&gt;객체 확인&lt;/label&gt; 도구에서 보여질지를 결정합니다. &lt;label&gt;현재 레이어&lt;/label&gt; 옵션을 &lt;label&gt;모든 레이어&lt;/label&gt; 모드로 바꿔 &lt;label&gt;객체확인&lt;/label&gt; 도구를 사용하면, 조회 가능한 모든 레이어의 속성값을 확인할 수 있습니다.
 &lt;h5&gt;측정 도구&lt;/h5&gt;
 여기서 거리계산을 위한 타원체, 측정 단위, 선호하는 고무밴드 색상 등을 설정할 수 있습니다.
 &lt;h5&gt;이동 및 확대&lt;/h5&gt;
