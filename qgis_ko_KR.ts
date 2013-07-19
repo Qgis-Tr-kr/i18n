@@ -7272,12 +7272,12 @@ Acts on currently active editable layer</source>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2097"/>
         <source>Add Delimited Text Layer...</source>
-        <translation>구분된 텍스트 레이어를 추가...</translation>
+        <translation>구분자로 분리된 텍스트 레이어를 추가...</translation>
     </message>
     <message>
         <location filename="../src/ui/qgisapp.ui" line="2100"/>
         <source>Add Delimited Text Layer</source>
-        <translation>구분된 텍스트 레이어를 추가</translation>
+        <translation>구분자로 분리된 텍스트 레이어를 추가</translation>
     </message>
     <message>
         <source>Composer manager...</source>
@@ -9186,7 +9186,7 @@ Please change this situation first, because OSM Plugin doesn&apos;t know what la
     </message>
     <message>
         <source>An error has occured while executing Python code:</source>
-        <translation>파이썬 프로그램을 실행하는 동안 오류 발생:</translation>
+        <translation>파이썬 프로그램을 실행하는 중 오류 발생:</translation>
     </message>
     <message>
         <source>Python version:</source>
@@ -44139,7 +44139,7 @@ Extended error information:
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="20"/>
         <source>Create a New PostGIS connection</source>
-        <translation>새 PostGIS 연결을 만들</translation>
+        <translation>새 PostGIS 연결을 만들기</translation>
     </message>
     <message>
         <location filename="../src/ui/qgspgnewconnectionbase.ui" line="38"/>
@@ -44982,7 +44982,7 @@ Here is the error message:</source>
     </message>
     <message>
         <source>available version</source>
-        <translation type="obsolete">사용 가능한 버전</translation>
+        <translation type="obsolete">최신 버전</translation>
     </message>
     <message>
         <source>That&apos;s the newest available version</source>
@@ -44998,7 +44998,7 @@ Here is the error message:</source>
     </message>
     <message>
         <source>This plugin requires a newer version of Quantum GIS</source>
-        <translation type="obsolete">플러그인을 사용하려면 새 버전의 Quantum GIS가 필요합니다.</translation>
+        <translation type="obsolete">이 플러그인을 사용하려면 새 버전의 Quantum GIS가 필요합니다.</translation>
     </message>
     <message>
         <source>at least</source>
@@ -45743,12 +45743,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="748"/>
         <source>Installed version: %1 (in %2)&lt;br/&gt;</source>
-        <translation>부적합한 버전: %2의 %1&lt;br/&gt;</translation>
+        <translation>설치된 버전: %1 (%2)&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="752"/>
         <source>Available version: %1 (in %2)&lt;br/&gt;</source>
-        <translation>사용 가능한 버전: %2의 %1&lt;br/&gt;</translation>
+        <translation>최신 버전: %1 (%2)&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="758"/>
@@ -45783,12 +45783,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="865"/>
         <source>Only show plugins from selected repository</source>
-        <translation>선택된 저장소로부터 플러그인만 표시</translation>
+        <translation>선택된 저장소의 플러그인만 표시</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="869"/>
         <source>Clear filter</source>
-        <translation>필터 지우기</translation>
+        <translation>필터 없에기</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="885"/>
@@ -45808,7 +45808,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="893"/>
         <source>The repository is enabled, but unavailable</source>
-        <translation>이 저장소는 연결 가능하지만 사용할 수 없</translation>
+        <translation>이 저장소는 연결 가능하지만 사용할 수 없음</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="898"/>
@@ -45823,7 +45823,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager.cpp" line="906"/>
         <source>The repository is blocked due to incompatibility with your QGIS version</source>
-        <translation>이 저장소는 당신의 Quantum GIS 버전과 호환이 없기 때문에 차단됨</translation>
+        <translation>이 저장소는 사용자의 QGIS 버전과 호환되지 않기에 차단됨</translation>
     </message>
     <message>
         <source>&amp;Select All</source>
@@ -45858,12 +45858,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Failed to open plugin installer!</source>
-        <translation type="obsolete">플러그인 설치관리자 여는 데 실패했습니다!</translation>
+        <translation type="obsolete">플러그인 설치관리자를 열지 못했습니다!</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="11"/>
         <source>&lt;h3&gt;Installed Plugins&lt;/h3&gt;&lt;p&gt;On the left you see the list of &lt;b&gt;installed plugins&lt;/b&gt; on your system. Both python and cpp plugins are listed. Some plugins come with your QGIS installation while most of them are made available via the plugin repositories.&lt;/p&gt;&lt;p&gt;You can temporarily enable or disable a plugin.To &lt;i&gt;enable&lt;/i&gt; or &lt;i&gt;disable&lt;/i&gt; a plugin, click its checkbox or doubleclick its name...&lt;/p&gt;&lt;p&gt;Plugins showing in &lt;span style=&apos;color:red&apos;&gt;red&lt;/span&gt; are not loaded because there is a problem. Consult the &apos;Invalid&apos; tab to see more details, or to reinstall or uninstall this plugin.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;설치된 플러그인&lt;/h3&gt;&lt;p&gt;당신의 시스템에 &lt;b&gt;설치된 플러그인&lt;/b&gt;의 목록을 왼편에서 볼 수 있습니다. 파이썬과 cpp 모두 조회 가능합니다. 대부분은 플러그인 저장소에서 사용가능하지만, 일부는  QGIS 설치시에 설치가 됩니다.&lt;/p&gt;&lt;p&gt;플러그인을 임시로 비활성화하거나 활성화 하는 것이 가능합니다. 플러그인을 &lt;i&gt;활성화&lt;/i&gt; 또는 &lt;i&gt;비활성화&lt;/i&gt; 하기 위해서는 체크박스를 클릭하거나 이름을 더블클릭합니다...&lt;/p&gt;&lt;p&gt;&lt;span style=&apos;color:red&apos;&gt;빨간색&lt;/span&gt;으로 보여지는 플러그인은 문제가 있는 것입니다. 좀 더 자세히 보기 위해 &apos;Invalid&apos;탭을 이용하거나 삭제 후 재설치 해보세요.&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;설치된 플러그인&lt;/h3&gt;&lt;p&gt;당신의 시스템에 &lt;b&gt;설치된 플러그인&lt;/b&gt;의 목록을 왼편에서 볼 수 있습니다. 파이썬과 cpp 모두 조회 가능합니다. 대부분은 플러그인 저장소에서 사용가능하지만, 일부는  QGIS 설치시에 설치가 됩니다.&lt;/p&gt;&lt;p&gt;플러그인을 임시로 비활성화하거나 활성화 하는 것이 가능합니다. 플러그인을 &lt;i&gt;활성화&lt;/i&gt; 또는 &lt;i&gt;비활성화&lt;/i&gt; 하기 위해서는 체크박스를 클릭하거나 이름을 더블클릭합니다...&lt;/p&gt;&lt;p&gt;&lt;span style=&apos;color:red&apos;&gt;빨간색&lt;/span&gt;으로 보여지는 플러그인은 문제가 있는 것입니다. 좀 더 자세히 보기 위해 &apos;사용불가&apos;탭을 이용하거나 삭제 후 재설치 해보세요.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/app/pluginmanager/qgspluginmanager_texts.cpp" line="32"/>
@@ -66857,7 +66857,7 @@ For support send a mail to scala@itc.cnr.it
     <message>
         <location filename="../src/plugins/evis/evis.cpp" line="111"/>
         <source>Create layer from a database query</source>
-        <translation>데이터베이스 질의에서 레이어를 만들</translation>
+        <translation>데이터베이스 질의에서 레이어를 만들기</translation>
     </message>
     <message>
         <location filename="../src/plugins/evis/evis.cpp" line="112"/>
